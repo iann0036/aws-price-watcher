@@ -1,3 +1,160 @@
+## 2025-12-09 22:27
+
+**Modified services:**
+
+- [appstream](processed/appstream.json)
+  - Billing metric removed: [Accelerated Computing Fleet - Windows] 💥
+  - Billing metric removed: [Accelerated Computing ImageBuilder - Windows] 💥
+  - Billing metric removed: [Graphics Fleet - Amazon Linux] Graphics stream graphics.g4dn.12xlarge Fleet Amazon Linux;Graphics stream graphics.g4dn.12xlarge Fleet per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics Fleet - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.12xlarge Fleet Red Hat Enterprise Linux;Graphics stream graphics.g4dn.12xlarge Fleet per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics Fleet - Rocky Linux] Graphics stream graphics.g4dn.12xlarge Fleet Rocky Linux;Graphics stream graphics.g4dn.12xlarge Fleet per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics Fleet - Windows] Graphics stream graphics.g4dn.12xlarge Fleet Windows;Graphics stream graphics.g4dn.12xlarge Fleet per hour 💥
+  - Billing metric removed: [Graphics ImageBuilder - Amazon Linux] Graphics stream graphics.g4dn.12xlarge ImageBuilder Amazon Linux;Graphics stream graphics.g4dn.12xlarge ImageBuilder per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.12xlarge ImageBuilder Red Hat Enterprise Linux;Graphics stream graphics.g4dn.12xlarge ImageBuilder per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Rocky Linux] Graphics stream graphics.g4dn.12xlarge ImageBuilder Rocky Linux;Graphics stream graphics.g4dn.12xlarge ImageBuilder per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Windows] Graphics stream graphics.g4dn.12xlarge ImageBuilder Windows;Graphics stream graphics.g4dn.12xlarge ImageBuilder per hour 💥
+  - Billing metric removed: [Graphics Fleet - Amazon Linux] Graphics stream graphics.g4dn.16xlarge Fleet Amazon Linux;Graphics stream graphics.g4dn.16xlarge Fleet per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics Fleet - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.16xlarge Fleet Red Hat Enterprise Linux;Graphics stream graphics.g4dn.16xlarge Fleet per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics Fleet - Rocky Linux] Graphics stream graphics.g4dn.16xlarge Fleet Rocky Linux;Graphics stream graphics.g4dn.16xlarge Fleet per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics Fleet - Windows] Graphics stream graphics.g4dn.16xlarge Fleet Windows;Graphics stream graphics.g4dn.16xlarge Fleet per hour 💥
+  - Billing metric removed: [Graphics ImageBuilder - Amazon Linux] Graphics stream graphics.g4dn.16xlarge ImageBuilder Amazon Linux;Graphics stream graphics.g4dn.16xlarge ImageBuilder per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.16xlarge ImageBuilder Red Hat Enterprise Linux;Graphics stream graphics.g4dn.16xlarge ImageBuilder per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Rocky Linux] Graphics stream graphics.g4dn.16xlarge ImageBuilder Rocky Linux;Graphics stream graphics.g4dn.16xlarge ImageBuilder per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Windows] Graphics stream graphics.g4dn.16xlarge ImageBuilder Windows;Graphics stream graphics.g4dn.16xlarge ImageBuilder per hour 💥
+  - Billing metric removed: [Graphics Fleet - Amazon Linux] Graphics stream graphics.g4dn.2xlarge Fleet Amazon Linux;Graphics stream graphics.g4dn.2xlarge Fleet per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics Fleet - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.2xlarge Fleet Red Hat Enterprise Linux;Graphics stream graphics.g4dn.2xlarge Fleet per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics Fleet - Rocky Linux] Graphics stream graphics.g4dn.2xlarge Fleet Rocky Linux;Graphics stream graphics.g4dn.2xlarge Fleet per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics Fleet - Windows] Graphics stream graphics.g4dn.2xlarge Fleet Windows;Graphics stream graphics.g4dn.2xlarge Fleet per hour 💥
+  - Billing metric removed: [Graphics ImageBuilder - Amazon Linux] Graphics stream graphics.g4dn.2xlarge ImageBuilder Amazon Linux;Graphics stream graphics.g4dn.2xlarge ImageBuilder per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.2xlarge ImageBuilder Red Hat Enterprise Linux;Graphics stream graphics.g4dn.2xlarge ImageBuilder per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Rocky Linux] Graphics stream graphics.g4dn.2xlarge ImageBuilder Rocky Linux;Graphics stream graphics.g4dn.2xlarge ImageBuilder per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Windows] Graphics stream graphics.g4dn.2xlarge ImageBuilder Windows;Graphics stream graphics.g4dn.2xlarge ImageBuilder per hour 💥
+  - Billing metric removed: [Graphics Fleet - Amazon Linux] Graphics stream graphics.g4dn.4xlarge Fleet Amazon Linux;Graphics stream graphics.g4dn.4xlarge Fleet per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics Fleet - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.4xlarge Fleet Red Hat Enterprise Linux;Graphics stream graphics.g4dn.4xlarge Fleet per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics Fleet - Rocky Linux] Graphics stream graphics.g4dn.4xlarge Fleet Rocky Linux;Graphics stream graphics.g4dn.4xlarge Fleet per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics Fleet - Windows] Graphics stream graphics.g4dn.4xlarge Fleet Windows;Graphics stream graphics.g4dn.4xlarge Fleet per hour 💥
+  - Billing metric removed: [Graphics ImageBuilder - Amazon Linux] Graphics stream graphics.g4dn.4xlarge ImageBuilder Amazon Linux;Graphics stream graphics.g4dn.4xlarge ImageBuilder per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.4xlarge ImageBuilder Red Hat Enterprise Linux;Graphics stream graphics.g4dn.4xlarge ImageBuilder per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Rocky Linux] Graphics stream graphics.g4dn.4xlarge ImageBuilder Rocky Linux;Graphics stream graphics.g4dn.4xlarge ImageBuilder per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Windows] Graphics stream graphics.g4dn.4xlarge ImageBuilder Windows;Graphics stream graphics.g4dn.4xlarge ImageBuilder per hour 💥
+  - Billing metric removed: [Graphics Fleet - Amazon Linux] Graphics stream graphics.g4dn.8xlarge Fleet Amazon Linux;Graphics stream graphics.g4dn.8xlarge Fleet per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics Fleet - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.8xlarge Fleet Red Hat Enterprise Linux;Graphics stream graphics.g4dn.8xlarge Fleet per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics Fleet - Rocky Linux] Graphics stream graphics.g4dn.8xlarge Fleet Rocky Linux;Graphics stream graphics.g4dn.8xlarge Fleet per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics Fleet - Windows] Graphics stream graphics.g4dn.8xlarge Fleet Windows;Graphics stream graphics.g4dn.8xlarge Fleet per hour 💥
+  - Billing metric removed: [Graphics ImageBuilder - Amazon Linux] Graphics stream graphics.g4dn.8xlarge ImageBuilder Amazon Linux;Graphics stream graphics.g4dn.8xlarge ImageBuilder per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.8xlarge ImageBuilder Red Hat Enterprise Linux;Graphics stream graphics.g4dn.8xlarge ImageBuilder per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Rocky Linux] Graphics stream graphics.g4dn.8xlarge ImageBuilder Rocky Linux;Graphics stream graphics.g4dn.8xlarge ImageBuilder per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Windows] Graphics stream graphics.g4dn.8xlarge ImageBuilder Windows;Graphics stream graphics.g4dn.8xlarge ImageBuilder per hour 💥
+  - Billing metric removed: [Graphics Fleet - Amazon Linux] Graphics stream graphics.g4dn.xlarge Fleet Amazon Linux;Graphics stream graphics.g4dn.xlarge Fleet per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics Fleet - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.xlarge Fleet Red Hat Enterprise Linux;Graphics stream graphics.g4dn.xlarge Fleet per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics Fleet - Rocky Linux] Graphics stream graphics.g4dn.xlarge Fleet Rocky Linux;Graphics stream graphics.g4dn.xlarge Fleet per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics Fleet - Windows] Graphics stream graphics.g4dn.xlarge Fleet Windows;Graphics stream graphics.g4dn.xlarge Fleet per hour 💥
+  - Billing metric removed: [Graphics ImageBuilder - Amazon Linux] Graphics stream graphics.g4dn.xlarge ImageBuilder Amazon Linux;Graphics stream graphics.g4dn.xlarge ImageBuilder per hour Amazon Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Red Hat Enterprise Linux] Graphics stream graphics.g4dn.xlarge ImageBuilder Red Hat Enterprise Linux;Graphics stream graphics.g4dn.xlarge ImageBuilder per hour Red Hat Enterprise Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Rocky Linux] Graphics stream graphics.g4dn.xlarge ImageBuilder Rocky Linux;Graphics stream graphics.g4dn.xlarge ImageBuilder per hour Rocky Linux 💥
+  - Billing metric removed: [Graphics ImageBuilder - Windows] Graphics stream graphics.g4dn.xlarge ImageBuilder Windows;Graphics stream graphics.g4dn.xlarge ImageBuilder per hour 💥
+  - Billing metric removed: [Graphics ElasticFleet - Amazon Linux] Graphics stream graphics.g4dn.xlarge ElasticFleet Amazon Linux 💥
+  - Billing metric removed: [Graphics ElasticFleet - Windows] Graphics stream graphics.g4dn.xlarge ElasticFleet Windows 💥
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge ImageBuilder Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge ImageBuilder per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge Fleet per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge ImageBuilder Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge ImageBuilder per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge Fleet Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge ImageBuilder Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge ImageBuilder per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge Fleet per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge ImageBuilder Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge Fleet Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge Fleet per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge Fleet Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge Fleet per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge ImageBuilder per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge Fleet Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge Fleet per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge ImageBuilder Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge Fleet Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge ImageBuilder Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge Fleet Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge ImageBuilder Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge Fleet per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge ImageBuilder per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge Fleet per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge Fleet Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge Fleet per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge Fleet Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge ImageBuilder Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge ImageBuilder per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge Fleet Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge Fleet per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge Fleet Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge Fleet per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ImageBuilder per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ImageBuilder Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ImageBuilder per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge Fleet per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge Fleet Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge Fleet per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge Fleet Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge Fleet per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge Fleet Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge Fleet per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge Fleet Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge Fleet per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge ImageBuilder Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge ImageBuilder per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge ImageBuilder per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge Fleet Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge Fleet per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge Fleet Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ImageBuilder Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ImageBuilder per hour 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.2xlarge ImageBuilder per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge Fleet Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.8xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.4xlarge Fleet per hour Red Hat Enterprise Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge ImageBuilder Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.16xlarge ImageBuilder per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge Fleet Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.12xlarge Fleet per hour Amazon Linux 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ElasticFleet Windows 💡
+  - Billing metric added: Graphics stream graphics.g4dn.xlarge ElasticFleet Amazon Linux 💡
+
+
 ## 2025-12-03 15:28
 
 **Modified services:**
