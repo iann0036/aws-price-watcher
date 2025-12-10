@@ -1,3 +1,20 @@
+## 2025-12-10 19:27
+
+**Modified services:**
+
+- [rds-flex-ondemand](processed/rds-flex-ondemand.json)
+  - Billing metric removed: Database Instance SQL Server Developer Memory optimized db r6i.large Custom Multi-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer General purpose db m5.large Custom Multi-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer Memory optimized db r5b.large Custom Multi-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer Memory optimized db r5.large Custom Single-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer General purpose db m6i.large Custom Multi-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer Memory optimized db r6i.large Custom Single-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer Memory optimized db r5b.large Custom Single-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer General purpose db m6i.large Custom Single-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer General purpose db m5.large Custom Single-AZ Customer-provided 💥
+  - Billing metric removed: Database Instance SQL Server Developer Memory optimized db r5.large Custom Multi-AZ Customer-provided 💥
+
+
 ## 2025-12-09 22:27
 
 **Modified services:**
