@@ -1,3 +1,11 @@
+## 2025-12-12 18:29
+
+**Modified services:**
+
+- [supplychain](processed/supplychain.json)
+  - Price decreased: SCI Product SKU Location Combinations Tier1 Asia Pacific (Sydney)  **$0.40** → **$0.15** 💸
+
+
 ## 2025-12-10 19:27
 
 **Modified services:**
