@@ -1,3 +1,9 @@
+## 2025-12-16 09:28
+
+**New services:**
+
+- [bedrockfoundationmodels](processed/bedrockfoundationmodels.json) 🚀
+
 ## 2025-12-15 21:28
 
 **Modified services:**
@@ -31889,7 +31895,6 @@
 - oracledbataws
 - ssmsap
 - managedservices
-- bedrockfoundationmodels
 - ec2ocpulicensefees
 - rtbfabric
 - kiro
