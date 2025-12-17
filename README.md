@@ -1,3 +1,17 @@
+## 2025-12-17 20:29
+
+**Modified services:**
+
+- [msk](processed/msk.json)
+  - Price decreased: [ExpressBroker] AWS GovCloud (US-East) (Compute Family: express.m7g.12xlarge, usageType: UGE1-Express.m7g.12xlarge, vCPU: 48, Memory (GiB): 192, operation: RunBroker)  **$12.34** → **$12.34** 💸
+  - Price decreased: [ExpressBroker] AWS GovCloud (US-East) (Compute Family: express.m7g.16xlarge, usageType: UGE1-Express.m7g.16xlarge, vCPU: 64, Memory (GiB): 256, operation: RunBroker)  **$16.45** → **$16.45** 💸
+  - Price decreased: [ExpressBroker] AWS GovCloud (US-East) (Compute Family: express.m7g.2xlarge, usageType: UGE1-Express.m7g.2xlarge, vCPU: 8, Memory (GiB): 32, operation: RunBroker)  **$2.06** → **$2.06** 💸
+  - Price decreased: [ExpressBroker] AWS GovCloud (US-East) (Compute Family: express.m7g.4xlarge, usageType: UGE1-Express.m7g.4xlarge, vCPU: 16, Memory (GiB): 64, operation: RunBroker)  **$4.11** → **$4.11** 💸
+  - Price decreased: [ExpressBroker] AWS GovCloud (US-East) (Compute Family: express.m7g.8xlarge, usageType: UGE1-Express.m7g.8xlarge, vCPU: 32, Memory (GiB): 128, operation: RunBroker)  **$8.22** → **$8.22** 💸
+  - Price increased: [ExpressBroker] AWS GovCloud (US) (Compute Family: express.m7g.12xlarge, usageType: UGW1-Express.m7g.12xlarge, vCPU: 48, Memory (GiB): 192, operation: RunBroker)  **$12.34** → **$12.34** 🤑
+  - Price decreased: [ExpressBroker] AWS GovCloud (US) (Compute Family: express.m7g.16xlarge, usageType: UGW1-Express.m7g.16xlarge, vCPU: 64, Memory (GiB): 256, operation: RunBroker)  **$16.45** → **$16.45** 💸
+
+
 ## 2025-12-17 19:27
 
 **Modified services:**
