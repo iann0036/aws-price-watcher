@@ -1,3 +1,90 @@
+## 2025-12-17 01:58
+
+**Modified services:**
+
+- [neptune](processed/neptune.json)
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6g.12xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db x2iedn.2xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5d.12xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune General purpose Current Generation db t3.medium 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5.2xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6i.2xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6i.4xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db x2iedn.4xlarge 💡
+  - Billing metric added: Neptune IO optimized General purpose Current Generation db t4g.medium General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5.16xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5.xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6g.8xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5d.8xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db x2iedn.2xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6i.xlarge 💡
+  - Billing metric added: Neptune General purpose Current Generation db t4g.medium 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6i.8xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5d.2xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5.8xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6g.large General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5d.large General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5d.xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5.12xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5.8xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db x2iedn.24xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6g.16xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db x2iedn.4xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5d.24xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6i.large General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db x2iedn.32xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6g.xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5d.8xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6i.24xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6i.12xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db x2iedn.xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5.4xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6g.16xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db x2iedn.8xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5d.4xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5.24xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db x2iedn.xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db x2iedn.24xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5d.large 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6i.8xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5.large General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6g.2xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6g.xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6i.16xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6i.large 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db x2iedn.8xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5d.24xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6i.2xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5d.2xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5d.xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db x2iedn.32xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5d.4xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6g.4xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5.16xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5d.16xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6i.4xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6g.12xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5d.16xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5.12xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5d.12xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6i.12xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5.2xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6i.xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6g.8xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r5.4xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6i.24xlarge 💡
+  - Billing metric added: Neptune IO optimized General purpose Current Generation db t3.medium General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db x2iedn.16xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5.24xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db x2iedn.16xlarge 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6i.16xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune IO optimized Memory Optimized Current Generation db r6g.4xlarge General Purpose-Aurora 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6g.2xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5.xlarge 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r6g.large 💡
+  - Billing metric added: Neptune Memory Optimized Current Generation db r5.large 💡
+
+
 ## 2025-12-16 09:28
 
 **New services:**
