@@ -1,3 +1,139 @@
+## 2025-12-18 21:26
+
+**Modified services:**
+
+- [guardduty](processed/guardduty.json)
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0020 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0020 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0008 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0008 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0003 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0003 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0002 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0002 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0015 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0015 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0021 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0021 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months US West (Oregon)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months US West (N. California)  **$0.00** → **$0.33** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months US East (Ohio)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months US East (N. Virginia)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months South America (Sao Paulo)  **$0.00** → **$0.34** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Middle East (UAE)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Middle East (Bahrain)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Mexico (Central)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months EU (Zurich)  **$0.00** → **$0.34** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months EU (Stockholm)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months EU (Spain)  **$0.00** → **$0.27** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months EU (Paris)  **$0.00** → **$0.32** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months EU (Milan)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months EU (London)  **$0.00** → **$0.32** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months EU (Ireland)  **$0.00** → **$0.27** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months EU (Frankfurt)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Canada (Central)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Tokyo)  **$0.00** → **$0.33** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Thailand)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Sydney)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Singapore)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Seoul)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Osaka)  **$0.00** → **$0.36** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Mumbai)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Malaysia)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Jakarta)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Hyderabad)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Asia Pacific (Hong Kong)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months Africa (Cape Town)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months AWS GovCloud (US-East)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months AWS GovCloud (US)  **$0.00** → **$0.29** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0019 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0019 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0016 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0016 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0014 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0014 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0006 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0006 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0018 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0018 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0011 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0011 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0012 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0012 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0009 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0009 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0004 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0004 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0010 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0010 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0005 per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance 0005 per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months US West (Oregon)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months US West (N. California)  **$0.00** → **$0.33** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months US East (Ohio)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months US East (N. Virginia)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months South America (Sao Paulo)  **$0.00** → **$0.34** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Middle East (UAE)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Middle East (Bahrain)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Mexico (Central)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months EU (Zurich)  **$0.00** → **$0.34** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months EU (Stockholm)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months EU (Spain)  **$0.00** → **$0.27** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months EU (Paris)  **$0.00** → **$0.32** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months EU (Milan)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months EU (London)  **$0.00** → **$0.32** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months EU (Ireland)  **$0.00** → **$0.27** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months EU (Frankfurt)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Canada (Central)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Tokyo)  **$0.00** → **$0.33** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Thailand)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Sydney)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Singapore)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Seoul)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Osaka)  **$0.00** → **$0.36** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Mumbai)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Malaysia)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Jakarta)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Hyderabad)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Asia Pacific (Hong Kong)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months Africa (Cape Town)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months AWS GovCloud (US-East)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months AWS GovCloud (US)  **$0.00** → **$0.29** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months US West (Oregon)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months US West (N. California)  **$0.00** → **$0.33** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months US East (Ohio)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months US East (N. Virginia)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months South America (Sao Paulo)  **$0.00** → **$0.34** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Middle East (UAE)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Middle East (Bahrain)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Mexico (Central)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months EU (Zurich)  **$0.00** → **$0.34** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months EU (Stockholm)  **$0.00** → **$0.25** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months EU (Spain)  **$0.00** → **$0.27** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months EU (Paris)  **$0.00** → **$0.32** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months EU (Milan)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months EU (London)  **$0.00** → **$0.32** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months EU (Ireland)  **$0.00** → **$0.27** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months EU (Frankfurt)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Canada (Central)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Tokyo)  **$0.00** → **$0.33** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Thailand)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Sydney)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Singapore)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Seoul)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Osaka)  **$0.00** → **$0.36** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Mumbai)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Malaysia)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Jakarta)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Hyderabad)  **$0.00** → **$0.30** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Asia Pacific (Hong Kong)  **$0.00** → **$0.31** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months Africa (Cape Town)  **$0.00** → **$0.26** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months AWS GovCloud (US-East)  **$0.00** → **$0.28** 🤑
+  - Price increased: RDS ACU Limitless Monitored CreateDBInstance per ACU-Months AWS GovCloud (US)  **$0.00** → **$0.29** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance per vCPU-Months EU (Zurich)  **$0.00** → **$1.35** 🤑
+  - Price increased: RDS vCPU Monitored CreateDBInstance per vCPU-Months EU (Spain)  **$0.00** → **$1.09** 🤑
+
+
 ## 2025-12-18 20:28
 
 **Modified services:**
