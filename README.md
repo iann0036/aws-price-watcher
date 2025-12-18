@@ -1,3 +1,22 @@
+## 2025-12-18 06:29
+
+**Modified services:**
+
+- [elasticmapreduce](processed/elasticmapreduce.json)
+  - Price decreased: Instance-instancetype-p5.48xlarge US West (Oregon)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge US West (N. California)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge US East (Ohio)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge US East (N. Virginia)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge South America (Sao Paulo)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge EU (Stockholm)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge EU (London)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge Canada (Central)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge Asia Pacific (Tokyo)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge Asia Pacific (Sydney)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge Asia Pacific (Mumbai)  **$24.58** → **$13.76** 💸
+  - Price decreased: Instance-instancetype-p5.48xlarge Asia Pacific (Jakarta)  **$24.58** → **$13.76** 💸
+
+
 ## 2025-12-17 20:29
 
 **Modified services:**
