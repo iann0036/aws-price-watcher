@@ -1,3 +1,14 @@
+## 2025-12-19 00:44
+
+**Modified services:**
+
+- [lightsail](processed/lightsail.json)
+  - Billing metric added: -vjw0yCdrtXCS9G4BXwqcfVwvDmZQ-Vk1SA2dMn4ovc V8 💡
+  - Billing metric added: CRnTnTujD-pnta4BxAe8wdnrTqafvIBabGfiv3jEtCE V8 💡
+  - Billing metric added: NqkK__xyprLp9f3vAkEjSBUBXOGahdbtsveGFItaUgw V8 💡
+  - Billing metric added: zLsn_jHQxBVjnEJkhQWxtuGzdh-RtyUTRsI3NAWsOqY V8 💡
+
+
 ## 2025-12-18 21:26
 
 **Modified services:**
