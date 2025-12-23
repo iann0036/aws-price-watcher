@@ -1,3 +1,11 @@
+## 2025-12-23 18:29
+
+**Modified services:**
+
+- [pcs](processed/pcs.json)
+  - Billing metric added: AWSParallelComputingService XL Running Slurm 💡
+
+
 ## 2025-12-19 00:44
 
 **Modified services:**
