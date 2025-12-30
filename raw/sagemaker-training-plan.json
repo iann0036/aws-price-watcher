@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "sagemaker",
         "accessType": "publish",
-        "esIndex": "plc-sagemaker-usd-20251229212814",
-        "hawkFilePublicationDate": "2025-12-29T21:28:14Z",
-        "ETLIngestionTriggerDate": "2025-12-29T21:28:14Z",
+        "esIndex": "plc-sagemaker-usd-20251230180019",
+        "hawkFilePublicationDate": "2025-12-30T18:00:19Z",
+        "ETLIngestionTriggerDate": "2025-12-30T18:00:19Z",
         "currencyCode": "USD",
         "source": "sagemaker-training-plan",
         "isMapped": "true"
@@ -17,6 +17,7 @@
             "D24pvjPIdmj_vDl2WbqzyOPp38GBP_UPjWPLUspqm9o",
             "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o",
             "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
+            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A",
             "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM",
             "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg",
             "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
@@ -65,6 +66,14 @@
                 "Memory": "2048 GiB",
                 "VCPU": "192",
                 "Instance": "ml.p5en.48xlarge"
+            },
+            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
+                "rateCode": "ZX697E9XF7H8NTE5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "107.6400000000",
+                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A",
+                "Memory": "4096 GIB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b300.48xlarge"
             },
             "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
                 "rateCode": "ZTSAYJ43C6A95WAR.JRTCKXETXF.6YS6EN2CT7",
@@ -491,6 +500,14 @@
                 "Memory": "2048 GiB",
                 "VCPU": "192",
                 "Instance": "ml.p5en.48xlarge"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "rateCode": "P3PPH7UJK9S6C7FF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "39.7992000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge"
             }
         }
     }
