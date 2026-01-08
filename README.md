@@ -1,3 +1,199 @@
+## 2026-01-08 19:27
+
+**Modified services:**
+
+- [elementalmediaconvert](processed/elementalmediaconvert.json)
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps US West (Oregon)  **$0.77** → **$0.13** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps US West (N. California)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps US East (Ohio)  **$0.77** → **$0.13** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps US East (N. Virginia)  **$0.77** → **$0.13** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps South America (Sao Paulo)  **$0.96** → **$0.16** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Middle East (UAE)  **$0.96** → **$0.16** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps EU (Stockholm)  **$0.77** → **$0.13** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps EU (Paris)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps EU (London)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps EU (Ireland)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps EU (Frankfurt)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Canada (Central)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Asia Pacific (Tokyo)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Asia Pacific (Sydney)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Asia Pacific (Singapore)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Asia Pacific (Seoul)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Asia Pacific (Osaka)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Asia Pacific (Mumbai)  **$0.77** → **$0.13** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Asia Pacific (Melbourne)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps Africa (Cape Town)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 60 fps and up to 120 fps AWS GovCloud (US)  **$0.87** → **$0.14** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps US West (Oregon)  **$0.38** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps US West (N. California)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps US East (Ohio)  **$0.38** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps US East (N. Virginia)  **$0.38** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps South America (Sao Paulo)  **$0.48** → **$0.13** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Middle East (UAE)  **$0.48** → **$0.13** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps EU (Stockholm)  **$0.38** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps EU (Paris)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps EU (London)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps EU (Ireland)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps EU (Frankfurt)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Canada (Central)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Asia Pacific (Tokyo)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Asia Pacific (Sydney)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Asia Pacific (Singapore)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Asia Pacific (Seoul)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Asia Pacific (Osaka)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Asia Pacific (Mumbai)  **$0.38** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Asia Pacific (Melbourne)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps Africa (Cape Town)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 over 30 fps and up to 60 fps AWS GovCloud (US)  **$0.44** → **$0.12** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps US West (Oregon)  **$0.10** → **$0.04** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps US West (N. California)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps US East (Ohio)  **$0.10** → **$0.04** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps US East (N. Virginia)  **$0.10** → **$0.04** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps South America (Sao Paulo)  **$0.12** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Middle East (UAE)  **$0.12** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps EU (Stockholm)  **$0.10** → **$0.04** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps EU (Paris)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps EU (London)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps EU (Ireland)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps EU (Frankfurt)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Canada (Central)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Asia Pacific (Tokyo)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Asia Pacific (Sydney)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Asia Pacific (Singapore)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Asia Pacific (Seoul)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Asia Pacific (Osaka)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Asia Pacific (Mumbai)  **$0.10** → **$0.04** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Asia Pacific (Melbourne)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps Africa (Cape Town)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 up to 30 fps AWS GovCloud (US)  **$0.11** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps US West (Oregon)  **$0.19** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps US West (N. California)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps US East (Ohio)  **$0.19** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps US East (N. Virginia)  **$0.19** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps South America (Sao Paulo)  **$0.24** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Middle East (UAE)  **$0.24** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps EU (Stockholm)  **$0.19** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps EU (Paris)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps EU (London)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps EU (Ireland)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps EU (Frankfurt)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Canada (Central)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Asia Pacific (Tokyo)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Asia Pacific (Sydney)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Asia Pacific (Singapore)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Asia Pacific (Seoul)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Asia Pacific (Osaka)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Asia Pacific (Mumbai)  **$0.19** → **$0.05** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Asia Pacific (Melbourne)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps Africa (Cape Town)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 30 fps and up to 60 fps AWS GovCloud (US)  **$0.22** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps US West (Oregon)  **$0.77** → **$0.21** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps US West (N. California)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps US East (Ohio)  **$0.77** → **$0.21** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps US East (N. Virginia)  **$0.77** → **$0.21** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps South America (Sao Paulo)  **$0.96** → **$0.26** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Middle East (UAE)  **$0.96** → **$0.26** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps EU (Stockholm)  **$0.77** → **$0.21** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps EU (Paris)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps EU (London)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps EU (Ireland)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps EU (Frankfurt)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Canada (Central)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Asia Pacific (Tokyo)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Asia Pacific (Sydney)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Asia Pacific (Singapore)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Asia Pacific (Seoul)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Asia Pacific (Osaka)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Asia Pacific (Mumbai)  **$0.77** → **$0.21** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Asia Pacific (Melbourne)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps Africa (Cape Town)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 30 fps and up to 60 fps AWS GovCloud (US)  **$0.87** → **$0.24** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps US West (Oregon)  **$0.19** → **$0.08** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps US West (N. California)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps US East (Ohio)  **$0.19** → **$0.08** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps US East (N. Virginia)  **$0.19** → **$0.08** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps South America (Sao Paulo)  **$0.24** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Middle East (UAE)  **$0.24** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps EU (Stockholm)  **$0.19** → **$0.08** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps EU (Paris)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps EU (London)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps EU (Ireland)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps EU (Frankfurt)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Canada (Central)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Asia Pacific (Tokyo)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Asia Pacific (Sydney)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Asia Pacific (Singapore)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Asia Pacific (Seoul)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Asia Pacific (Osaka)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Asia Pacific (Mumbai)  **$0.19** → **$0.08** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Asia Pacific (Melbourne)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps Africa (Cape Town)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ HD AV1 up to 30 fps AWS GovCloud (US)  **$0.22** → **$0.10** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps US West (Oregon)  **$0.38** → **$0.17** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps US West (N. California)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps US East (Ohio)  **$0.38** → **$0.17** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps US East (N. Virginia)  **$0.38** → **$0.17** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps South America (Sao Paulo)  **$0.48** → **$0.21** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Middle East (UAE)  **$0.48** → **$0.21** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps EU (Stockholm)  **$0.38** → **$0.17** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps EU (Paris)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps EU (London)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps EU (Ireland)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps EU (Frankfurt)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Canada (Central)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Asia Pacific (Tokyo)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Asia Pacific (Sydney)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Asia Pacific (Singapore)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Asia Pacific (Seoul)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Asia Pacific (Osaka)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Asia Pacific (Mumbai)  **$0.38** → **$0.17** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Asia Pacific (Melbourne)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps Africa (Cape Town)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 up to 30 fps AWS GovCloud (US)  **$0.44** → **$0.19** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps US West (Oregon)  **$1.54** → **$0.25** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps US West (N. California)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps US East (Ohio)  **$1.54** → **$0.25** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps US East (N. Virginia)  **$1.54** → **$0.25** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps South America (Sao Paulo)  **$1.92** → **$0.32** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Middle East (UAE)  **$1.92** → **$0.32** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps EU (Stockholm)  **$1.54** → **$0.25** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps EU (Paris)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps EU (London)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps EU (Ireland)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps EU (Frankfurt)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Canada (Central)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Asia Pacific (Tokyo)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Asia Pacific (Sydney)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Asia Pacific (Singapore)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Asia Pacific (Seoul)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Asia Pacific (Osaka)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Asia Pacific (Mumbai)  **$1.54** → **$0.25** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Asia Pacific (Melbourne)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps Africa (Cape Town)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ 4K AV1 over 60 fps and up to 120 fps AWS GovCloud (US)  **$1.74** → **$0.29** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps US West (Oregon)  **$0.38** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps US West (N. California)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps US East (Ohio)  **$0.38** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps US East (N. Virginia)  **$0.38** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps South America (Sao Paulo)  **$0.48** → **$0.08** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Middle East (UAE)  **$0.48** → **$0.08** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps EU (Stockholm)  **$0.38** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps EU (Paris)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps EU (London)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps EU (Ireland)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps EU (Frankfurt)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Canada (Central)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Asia Pacific (Tokyo)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Asia Pacific (Sydney)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Asia Pacific (Singapore)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Asia Pacific (Seoul)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Asia Pacific (Osaka)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Asia Pacific (Mumbai)  **$0.38** → **$0.06** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Asia Pacific (Melbourne)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps Africa (Cape Town)  **$0.44** → **$0.07** 💸
+  - Price decreased: Professional Single pass HQ SD AV1 over 60 fps and up to 120 fps AWS GovCloud (US)  **$0.44** → **$0.07** 💸
+
+
 ## 2025-12-23 20:28
 
 **Modified services:**
