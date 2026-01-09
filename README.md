@@ -1,3 +1,11 @@
+## 2026-01-09 22:27
+
+**Modified services:**
+
+- [neptune](processed/neptune.json)
+  - Billing metric added: [Neptune Current Generation] 💡
+
+
 ## 2026-01-08 19:27
 
 **Modified services:**
