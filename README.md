@@ -1,3 +1,19 @@
+## 2026-01-13 21:27
+
+**New services:**
+
+- [bedrockservice](processed/bedrockservice.json) 🚀
+
+**Modified services:**
+
+- [datatransfer](processed/datatransfer.json)
+  - Billing metric added: DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany 💡
+  - Billing metric added: [DataTransfer InterRegion Outbound] DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;Cloudfrontless DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;Cloudfrontless DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany No Wavelength;Backup DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;RDS DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany 💡
+  - Billing metric added: [DataTransfer InterRegion Outbound] DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;Cloudfrontless DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;Cloudfrontless DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany No Wavelength;Backup DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;FSX DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;RDS DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;DirectoryService DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany 💡
+  - Billing metric added: [DataTransfer InterRegion Outbound] DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;Cloudfrontless DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;Cloudfrontless DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany No Wavelength;Backup DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;FSX DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;RDS DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany 💡
+  - Billing metric added: [DataTransfer InterRegion Outbound] DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;Cloudfrontless DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;Cloudfrontless DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany No Wavelength;Backup DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;RDS DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany;DirectoryService DataTransfer InterRegion Outbound to AWS European Sovereign Cloud Germany 💡
+
+
 ## 2026-01-09 22:27
 
 **Modified services:**
@@ -32452,7 +32468,6 @@
 - computeoptimizer
 - r53apprecoverycontroller
 - repostspace
-- bedrockservice
 - wisdom
 - sagemaker
 - connectcases
