@@ -32502,3 +32502,4 @@
 - novaact
 - devopsagent
 - supportessential
+- workspacesinstances
