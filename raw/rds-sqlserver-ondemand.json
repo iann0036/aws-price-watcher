@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "rds",
         "accessType": "publish",
-        "esIndex": "plc-rds-usd-20260120221331",
-        "hawkFilePublicationDate": "2026-01-20T22:13:31Z",
-        "ETLIngestionTriggerDate": "2026-01-20T22:13:31Z",
+        "esIndex": "plc-rds-usd-20260120233657",
+        "hawkFilePublicationDate": "2026-01-20T23:36:57Z",
+        "ETLIngestionTriggerDate": "2026-01-20T23:36:57Z",
         "currencyCode": "USD",
         "source": "rds-sqlserver-ondemand",
         "isMapped": "true"
@@ -108,6 +108,7 @@
             "ax_l6052jrNWYYINlwFtwFh9F7Du64bBpDR7SgKS8qI",
             "bjcMvFhuHS-iPRPtc1boXL-v_groXBESDR9BF_AmED4",
             "cF88cAeOy8rrXBLR5Ept6qP3eqYZMLlPy4Fuaj8zZHM",
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
             "fq3raPX7XWkzQgaPh2Vyt1Y-03JXuBOvRB6WHSNSk_Y",
             "hooYCHbuP10lf0u7y7EWhv1n-pUvzSH1BS4FSseBhuE",
             "il3PmnIv10LlYypbM6-Dcs_uvbT6zHQOWnuTMX6yW1A",
@@ -276,6 +277,7 @@
             "Fsh7DXXsaqMXxVylBtlmOFxFv9uj2pE2HWuOgwPlRPU",
             "GabkGFCrzfSBzWIi83zaw18W2SHreQCgu0GAWemgYL4",
             "H0IwVN7TmAVJ-IrcE-D1PfDveyxQK6uoddJCt9WYUYM",
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
             "L9UAJIuDlK6qvIPauZE907UuY9O_BBHVCGSIo0EN-ao",
             "NdHgzD9n-ryLaojAnuVYApmt_cyjXAdreJYfuD8Om4c",
             "PS-ABPTp1XnnFxlHKrnHj3V0KxblpDSirolum4HFN8c",
@@ -359,6 +361,7 @@
             "JoDSNGA6Wr04xenFGIHJGW_lAe_-M8KHP7ixgPGJ34A",
             "SNq4xJXXSgTDVo-ROEdxv7XzQVmyeo9JneOf_1nX2jA",
             "T2GvqtgLihDWxaRpeA2XlDhVY26uQhmrzExEAQOuVLE",
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
             "YtGwgTjED38mh88yNQKqvmGzPSgTWX_dr2ix1SqifD8",
             "a-kqbpNlLy6rjaBksQEM6dKGH8nrS16f-3uNS9RMiiI",
             "af4o2Vt16VzLuVbH2_mwZ0THUx8pPZQmxXp6iwOCWrg",
@@ -461,6 +464,7 @@
             "eLZml9aCQCBPHVmFdlgSMG27_dDbgSzyr1y7oJAPgic",
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg",
             "gxAIx7q8g_pQ8HIQmckI_hoPtAKKYt9v9E7AxDWDdn8",
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
             "it5i25QvnHPRX6ZaI4_oV5gPveKM1Y3vtQXSWhabA4E",
             "kqhq7ry-lRQionrKOy5PCC2F5Ss6NZNxoaSbBTl7yO4",
             "l0jJK_dvx1nHRRVPrbxP7e4Rre3zUcWta4PeXVPYwQc",
@@ -1931,6 +1935,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "RXGSBSSBK7ADGSVJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.0000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "TUZY65Z5XB9Z7Y9J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5000000000",
@@ -2677,6 +2690,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "8S7Z3UJFAWMMVBK3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.5440000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "KYKB7URN5TA57NKY.JRTCKXETXF.6YS6EN2CT7",
@@ -3659,6 +3681,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "RVVTWAEJZRNNPJW6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "U5C99XVYSAYXTCTT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.7920000000",
@@ -3829,6 +3860,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "4DT46FQDQ7YK9AZJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.2720000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "FSEYADY2JB9DZ2ZU.JRTCKXETXF.6YS6EN2CT7",
@@ -10749,6 +10789,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "G2JPHHD62KMKNEVN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "13.4400000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "FS6CAFSK8A3A72TD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5600000000",
@@ -11387,6 +11436,15 @@
                 "Memory": "32 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "RKUVZDYUSU23AGRV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.7440000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "9WB2CBKCGFZX7ZUD.JRTCKXETXF.6YS6EN2CT7",
@@ -12198,6 +12256,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "WR4R7SSBQBDEBS9Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.7200000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "YFKXDJKFQEA9JCFQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.2640000000",
@@ -12359,6 +12426,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "V7CNNP59DU7XCRJS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.8720000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "KRGJTXARRMER5BVG.JRTCKXETXF.6YS6EN2CT7",
@@ -19566,6 +19642,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "SFEQ2GRXNP2P8RR9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.0000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "RX8Z49HYD5QUUSTX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5000000000",
@@ -20312,6 +20397,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "P8Z9TXYDUZEXBE3S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.5440000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "S66AVR27BB42Y6R2.JRTCKXETXF.6YS6EN2CT7",
@@ -21294,6 +21388,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "4RDM6X8882CFTQCZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "XYU5F28JZKEFJDDY.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.7920000000",
@@ -21464,6 +21567,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "FXGKGMMSJASARYKJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.2720000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "DJSX7883P5MN2NWH.JRTCKXETXF.6YS6EN2CT7",
@@ -28532,6 +28644,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "QC3H9BJNEQ5X9SUY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.0000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "YSJFKSW8YJRTEPAJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5000000000",
@@ -29278,6 +29399,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "Q6XBMPMXEEFU4H5W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.5440000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "9Z5TZ5G645MRRBBK.JRTCKXETXF.6YS6EN2CT7",
@@ -30269,6 +30399,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "MJNYVS6GEKSM9E8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "X5J52HF4SG4QJ6GH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.7920000000",
@@ -30439,6 +30578,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "GRZ4Q2ZCWZ5EGQ9Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.2720000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "Z3Z23HWXHUXPUKCP.JRTCKXETXF.6YS6EN2CT7",
@@ -37336,6 +37484,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "G3PZJBV5HRCJAFBQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "25.1520000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "J3HAXJZS6PCXFKSS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0480000000",
@@ -38019,6 +38176,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "ZF4BSEUEVXDKCAAA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "11.1840000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "G978Z26YKYWRBEH6.JRTCKXETXF.6YS6EN2CT7",
@@ -38929,6 +39095,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "FPF3HA9MRVZYUM9P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.5760000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "24SMWDCXRMEKVK8X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "11.2800000000",
@@ -39081,6 +39256,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "N7GQSC5KEY6BM5UR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.5920000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "G7VTEJRNK8F5WG43.JRTCKXETXF.6YS6EN2CT7",
@@ -53508,6 +53692,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "E4N7SAD5E8VM6KX2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.6240000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "KS5TNBJTXJFRCMUS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5260000000",
@@ -53732,6 +53925,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "3WSNGXJ4RNJT63HH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.9760000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "Tn9-mq_C_Wky0jp8yxTjlj4_eu-DfqpOEzGTB6h67hw": {
                 "rateCode": "N2X9Q4CDTFDCAQG9.JRTCKXETXF.6YS6EN2CT7",
@@ -54048,6 +54250,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "JUZHXSS2SFDHNYV5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.3120000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "F3BK96ZUN8ACE8CB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.6560000000",
@@ -54128,6 +54339,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "HRUFXNHXECPN8NDB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.4880000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "DFFYR9YMGYERY77E.JRTCKXETXF.6YS6EN2CT7",
@@ -63326,6 +63546,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "3HX29FJR2BXQ8FVV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.3360000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "U8A572CZ6DDTPRYF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5140000000",
@@ -63856,6 +64085,15 @@
                 "Memory": "32 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "SHN7CBCM5V4CR9B5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.9760000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TfBcTU1jCZcLX_E1bEMtQ2N5gA1PYcI-OGcaO8iIHOE": {
                 "rateCode": "YJG4W6UB6JQKFMDR.JRTCKXETXF.6YS6EN2CT7",
@@ -64514,6 +64752,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "K96FY7NUUGGYGY49.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.1680000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "WT78M6ZAPRZNY6GX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.5760000000",
@@ -64657,6 +64904,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "SS5P9BD6UWFAR7HJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.4880000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "T99KWTFDAQTC6VMK.JRTCKXETXF.6YS6EN2CT7",
@@ -69017,6 +69273,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "BZ2YCZN3VMZYA9GP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "13.4400000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "Q34ZT3BEA7FE4UCE.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5600000000",
@@ -69286,6 +69551,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "74MA7JDJG2DTAF7Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.4560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "Tn9-mq_C_Wky0jp8yxTjlj4_eu-DfqpOEzGTB6h67hw": {
                 "rateCode": "4YAF3V8HCYFJJSES.JRTCKXETXF.6YS6EN2CT7",
@@ -69584,6 +69858,15 @@
                 "vCPU": "16",
                 "Network Performance": "12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "69XACQXE4ZZQF8MS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.7200000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f4w5C-MdS6tbEGxYYwjtex1JEAKsgkRopo33AS-gsl0": {
                 "rateCode": "2A73KQBSS2954GT6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.2400000000",
@@ -69682,6 +69965,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "PPV4SYY2XSMEY48J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.7280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "QRTMCHMMP58AJP3Q.JRTCKXETXF.6YS6EN2CT7",
@@ -72795,6 +73087,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "Q8BQX43JU2JWUF8K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.1120000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "C2NRPUM3ZB8K3D8G.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5880000000",
@@ -73370,6 +73671,15 @@
                 "Memory": "32 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "KG5JAYFCMTF92ERW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.8880000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "8BKK9HW7NW8VRFZH.JRTCKXETXF.6YS6EN2CT7",
@@ -74136,6 +74446,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "Z6UWXGTKHVQRHNMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0560000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "776Q4YD9QHCQDPNM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.9060000000",
@@ -74279,6 +74598,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "Q37CXXGKKFCRJGJS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.9440000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "V9KDZBHYNPVWFDPE.JRTCKXETXF.6YS6EN2CT7",
@@ -79610,6 +79938,15 @@
                 "vCPU": "32",
                 "Network Performance": "10 Gigabit"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "2DDE4EG6RUUFYPX2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.1120000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "ZMJ86KUMT7VZNB8Q.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5880000000",
@@ -80671,6 +81008,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "NSASXFF789WRA2SY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0560000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "GZY9R6FWDSCTZH5U.JRTCKXETXF.6YS6EN2CT7",
@@ -85912,6 +86258,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "PVXFJJGCAWES7RX4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.1120000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "T9RMNHYV65EU4MJR.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5880000000",
@@ -86622,6 +86977,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "9XBNG64AXVNKPZMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.8880000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "M5W4AWAQABQXQ3SG.JRTCKXETXF.6YS6EN2CT7",
@@ -87577,6 +87941,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "PGRARQNP5KWV7XB2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0560000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "8XXPX5HYPJ8EHV2J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.5840000000",
@@ -87738,6 +88111,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "8AV6Z6YPTFGNCQC2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.9440000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "GXX2NSDTQ6FUKEC9.JRTCKXETXF.6YS6EN2CT7",
@@ -94572,6 +94954,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "R54H8VJKHUVGZBQN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "13.4400000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "B3YUBFKAGFHQCDRF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5600000000",
@@ -95318,6 +95709,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "GVQVQQPBSH9ZJ3M6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.4560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "ZTAR3K5C2KKG8NZM.JRTCKXETXF.6YS6EN2CT7",
@@ -96318,6 +96718,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "PJRFGEWVYJDBZRV8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.7200000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "Y32PWK584NMF65D2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.0800000000",
@@ -96488,6 +96897,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "227QZYBW58DD8N74.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.7280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "HBQHD5KHRMCHM7KE.JRTCKXETXF.6YS6EN2CT7",
@@ -103574,6 +103992,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "75SDAH767NYHSE2S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.6400000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "9XG479N5ABQDYE5W.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6100000000",
@@ -104293,6 +104720,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "W7RE5UHNPQ5W8PVH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.1760000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "HCVVA4YPZK5WUCDK.JRTCKXETXF.6YS6EN2CT7",
@@ -105266,6 +105702,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "RVM9VFKC9XBKBY4J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.3200000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "9X9Z94RFG23CQR87.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.3280000000",
@@ -105436,6 +105881,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "TG5JHMJV7JAF5D2Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0880000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "6SNN2G9XCTUN7HAE.JRTCKXETXF.6YS6EN2CT7",
@@ -114749,6 +115203,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "2QN49VMKXRY7J74W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.9600000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "SYZEFMTUTB7U692P.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5400000000",
@@ -115432,6 +115895,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "34S69XGDZ8MYR869.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.4080000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "BCBAPFMNGTEXXK94.JRTCKXETXF.6YS6EN2CT7",
@@ -116342,6 +116814,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "M4G769V92YWY88A9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.4800000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "8KY9JAP822HPM8KA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.7680000000",
@@ -116494,6 +116975,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "D2T728WYJ6VPPA2B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.7040000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "M2KEHBKHWB6WM6AC.JRTCKXETXF.6YS6EN2CT7",
@@ -123013,6 +123503,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "M9ZT6T4Q6HP5GP3H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.4000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "MVN4PQFVDT2U54HK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
@@ -123759,6 +124258,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "VPPKSCQDKJ3SKNEG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "11.8560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "CV9VRWQC4T668FAV.JRTCKXETXF.6YS6EN2CT7",
@@ -124741,6 +125249,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "Q8W3FWARNTFXFXY6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "FM4V9BBC423BGNVV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "11.0640000000",
@@ -124911,6 +125428,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "ZFPQ7PUWUGUK5T9W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.9280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "558EX8BFECNSP4T5.JRTCKXETXF.6YS6EN2CT7",
@@ -131065,6 +131591,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "QTHRD86S8W32B86M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.2400000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "B6SSKS8HS34X4U7E.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5100000000",
@@ -131289,6 +131824,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "3BPJV6GWKGJDB2YJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.0800000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "Tn9-mq_C_Wky0jp8yxTjlj4_eu-DfqpOEzGTB6h67hw": {
                 "rateCode": "XU7KN8C96S3M2ZEA.JRTCKXETXF.6YS6EN2CT7",
@@ -131605,6 +132149,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "9FNF8AVTY36T673Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.1200000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "KB87V9XJPNK7NHRK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.2620000000",
@@ -131685,6 +132238,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "MC92PBXZDJCHTRS7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0400000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "K35VN599ANHXDBQQ.JRTCKXETXF.6YS6EN2CT7",
@@ -133863,6 +134425,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "VECAFDFQHQ4FP5Y6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.9600000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "MX928W25E7HMY2RZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5400000000",
@@ -134087,6 +134658,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "4YJ5MUTVWASH85UM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.6560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "Tn9-mq_C_Wky0jp8yxTjlj4_eu-DfqpOEzGTB6h67hw": {
                 "rateCode": "R7K6RAKKM74ZV4N8.JRTCKXETXF.6YS6EN2CT7",
@@ -134403,6 +134983,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "CXPW3N7KKFDCFPGR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.4800000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "3Q8NNBWUW5NTR8QW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "11.3600000000",
@@ -134483,6 +135072,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "5BZWXJX72C8QCEVS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.3280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "5AD52XZ6VZVE27XB.JRTCKXETXF.6YS6EN2CT7",
@@ -137440,6 +138038,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "VWHS2ZE23UXNVAB3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.4000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "JFV5G6YHZFWKHNUQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
@@ -138186,6 +138793,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "9P5B7KQHJGQY7VKB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "11.8560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "TJU4X8JEWE8RAV4Z.JRTCKXETXF.6YS6EN2CT7",
@@ -139177,6 +139793,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "KQDNRU68GDJN3FPW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "DE55XWSC84US925E.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.9360000000",
@@ -139347,6 +139972,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "85W6X2N87AFDBJZG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.9280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "3WZD5CMFYTUVUWSA.JRTCKXETXF.6YS6EN2CT7",
@@ -146442,6 +147076,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "9CUSJ2UKDM4ZJCKH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.4000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "FZQ2HNC427DC8JXH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
@@ -147188,6 +147831,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "QTRZ5EMWACNA779C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "11.8560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "94P2NFBW8ZQSGKFC.JRTCKXETXF.6YS6EN2CT7",
@@ -148170,6 +148822,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "KGRE68RC9SEHCSNR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "J9W9VWA65NWXTBN4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "11.1600000000",
@@ -148340,6 +149001,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "5V7V4HUCH9DM5HDS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.9280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "8RNAHM8NDV3XB95D.JRTCKXETXF.6YS6EN2CT7",
@@ -155403,6 +156073,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "XSFSRYV6ZHV9838A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.4000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "W85BCBQXB22EGQYT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
@@ -156149,6 +156828,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "642STVG498UAKYV2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "11.8560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "9FFN6H27ZCJ8WTJN.JRTCKXETXF.6YS6EN2CT7",
@@ -157140,6 +157828,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "2U2XC7TMJ4RG4QTJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "WMY6DQRM59CRRJAS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.5120000000",
@@ -157310,6 +158007,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "KAXWFSSTP6636DQT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.9280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "V2XT4DZYRSGVCN6U.JRTCKXETXF.6YS6EN2CT7",
@@ -172714,6 +173420,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "6RJJFQU8WU5JNPNM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "13.6800000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "6Z9D53ESMB4S2ATD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5700000000",
@@ -173379,6 +174094,15 @@
                 "Memory": "32 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "94S57DKZZJHS6WQP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.1440000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "3YK4DEWGTTGWYQJ5.JRTCKXETXF.6YS6EN2CT7",
@@ -174235,6 +174959,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "9SQKUZCBEBC9QJKP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8400000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "KNGKJBUDBTYVHZE8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "11.1120000000",
@@ -174396,6 +175129,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "V3XVGJZHKPSU5E4N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0720000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "2A9V576VUQTHYGT5.JRTCKXETXF.6YS6EN2CT7",
@@ -180015,6 +180757,15 @@
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gigabit"
             },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "PFQQMZMKBTCU84Q5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "11.8560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "U22RHitSIAVtIC45mJ1fgbBy_OY7D5rWfGX5axAU5EU": {
                 "rateCode": "VP9U6TX4NESY7VRQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "13.1200000000",
@@ -180311,6 +181062,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "7UPVNT5HQ4CTHYP8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.9280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "PARK3PTNU84YCSMA.JRTCKXETXF.6YS6EN2CT7",
@@ -182888,6 +183648,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "HPK6CPJMXMUF5MHU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.2400000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "YBVWXQ7KXPKMYK72.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5100000000",
@@ -183103,6 +183872,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "MXKZJ5A24G6U2YCR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.0800000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "Tn9-mq_C_Wky0jp8yxTjlj4_eu-DfqpOEzGTB6h67hw": {
                 "rateCode": "3H5QZBWK242NRBZZ.JRTCKXETXF.6YS6EN2CT7",
@@ -183419,6 +184197,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "PRF35R92B9RPNSVM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.1200000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "5WB4SGDCMKUANM3W.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.2620000000",
@@ -183499,6 +184286,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "CSCPTAZRSGQ5NTFJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0400000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "AE8WKG2G844AMYH8.JRTCKXETXF.6YS6EN2CT7",
@@ -185677,6 +186473,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "A55Z294XVAUC6ZTP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.4000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "Q4BXAKC89UFUEPBV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
@@ -185946,6 +186751,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gigabit"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "X3UAKQ8NRVJY4YF8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "11.8560000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "Tn9-mq_C_Wky0jp8yxTjlj4_eu-DfqpOEzGTB6h67hw": {
                 "rateCode": "QGKWEHHFNZX446QS.JRTCKXETXF.6YS6EN2CT7",
@@ -186253,6 +187067,15 @@
                 "vCPU": "16",
                 "Network Performance": "12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "BWZZ5REXCFCHQSZ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f4w5C-MdS6tbEGxYYwjtex1JEAKsgkRopo33AS-gsl0": {
                 "rateCode": "CV9ZU7SD99XC9YNE.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.4000000000",
@@ -186351,6 +187174,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "8JN7A2JJT73B4J4J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.9280000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "Y54M4KMRBGY5QHAA.JRTCKXETXF.6YS6EN2CT7",
@@ -204797,6 +205629,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "8V8YQP9D3B357W3S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.4000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "NCCQSVRSKK9G4A5U.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
@@ -205336,6 +206177,15 @@
                 "Memory": "32 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "E8WJ6RT2FNFNQ8R8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.0800000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "P8V4UNGNXQXYJX6B.JRTCKXETXF.6YS6EN2CT7",
@@ -206057,6 +206907,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "QMHD5T6785TKUPM5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "W6WG8VPDW7X8Y42W.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.5110000000",
@@ -206200,6 +207059,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "Z7DQ772EQCUG4MFT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0400000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "U6V6D44XBK4487MV.JRTCKXETXF.6YS6EN2CT7",
@@ -211436,6 +212304,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY": {
+                "rateCode": "4KFHJ6E2PYA23326.JRTCKXETXF.6YS6EN2CT7",
+                "price": "14.4000000000",
+                "RegionlessRateCode": "Ijw1cqa11mYJOD-XbnuBIIXh-Dcs22fkMfBQIfBvWXY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "IrPpOQrdOTQUEnZN2BujJrvNJv8La6yKS7g9wwh8Kl0": {
                 "rateCode": "ES4MAB49WV6MSPRK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
@@ -211975,6 +212852,15 @@
                 "Memory": "32 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 10 Gbps"
+            },
+            "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM": {
+                "rateCode": "Z38N6VXGMQ5R38SA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.0800000000",
+                "RegionlessRateCode": "TQ8F9tPn-tOzhl7Yng_vLxWq0BMLtyPBS7mTh2D9XzM",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "TZE13CEZdbC9VFMaOlrue0ynHC6gBgmA4errjGytBPI": {
                 "rateCode": "BD8JM9C8GDMQ56KK.JRTCKXETXF.6YS6EN2CT7",
@@ -212696,6 +213582,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE": {
+                "rateCode": "U9CAA2P2GSV8V8JM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2000000000",
+                "RegionlessRateCode": "f-YGiw8hBXb0OpQQr_wjJRZY9zwJ2kgp3_Qcj6GutwE",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
+            },
             "f0MWtXkZepw27H_S_JZZadX2vMZGhzUaJsbYzx6Zkbg": {
                 "rateCode": "HDHNWABRDUKRFK8Q.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.5110000000",
@@ -212839,6 +213734,15 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE": {
+                "rateCode": "4DQP2XM8CCXTEXVJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0400000000",
+                "RegionlessRateCode": "i8SClD8TItgISAYEHxTdRWrxQP7ufgQo23yatC7WklE",
+                "Instance Type": "db.m7i.12xlarge",
+                "Memory": "192 GiB",
+                "vCPU": "24",
+                "Network Performance": "18.75 Gbps"
             },
             "i9zzpx_4Z6Z5zfWpQSIRrvjXLEdCMqX8hB94wf4bsA8": {
                 "rateCode": "RTGZAGNE58FH6TCF.JRTCKXETXF.6YS6EN2CT7",
