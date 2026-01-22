@@ -32503,3 +32503,4 @@
 - devopsagent
 - supportessential
 - workspacesinstances
+- securityincidentresponse
