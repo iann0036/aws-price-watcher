@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "msk",
         "accessType": "publish",
-        "esIndex": "plc-msk-usd-20260120190239",
-        "hawkFilePublicationDate": "2026-01-20T19:02:39Z",
-        "ETLIngestionTriggerDate": "2026-01-20T19:02:39Z",
+        "esIndex": "plc-msk-usd-20260123010633",
+        "hawkFilePublicationDate": "2026-01-23T01:06:33Z",
+        "ETLIngestionTriggerDate": "2026-01-23T01:06:33Z",
         "currencyCode": "USD",
         "source": "msk",
         "isMapped": "true"
@@ -23482,6 +23482,26 @@
                 "Memory (GiB)": "",
                 "operation": "RunVolume"
             },
+            "CtF70kSvi4xG_Vd4rBwyluWQbwcIc1-pS8MrQGJP4os": {
+                "rateCode": "R82ACFH74NAS6K36.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "CtF70kSvi4xG_Vd4rBwyluWQbwcIc1-pS8MrQGJP4os",
+                "Compute Family": "",
+                "usageType": "APS8-KafkaReplication-Processed-Bytes",
+                "vCPU": "",
+                "Memory (GiB)": "",
+                "operation": "CrossRegionSourceLocal"
+            },
+            "DCoZYFqmMwzqS-PK1kOCkwoEQL1urdMD8clsN_HfAC0": {
+                "rateCode": "CG2QMZP4HBHD8THS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3600000000",
+                "RegionlessRateCode": "DCoZYFqmMwzqS-PK1kOCkwoEQL1urdMD8clsN_HfAC0",
+                "Compute Family": "",
+                "usageType": "APS8-KafkaReplication-ReplicatorHours",
+                "vCPU": "",
+                "Memory (GiB)": "",
+                "operation": "RunReplicator"
+            },
             "ECCEjKIMbg_1iQz7BAkPadW7Af5FmZfEzFUF-BHuE_4": {
                 "rateCode": "DB6R9CB2BAZ8522J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "8.5680000000",
@@ -23491,6 +23511,16 @@
                 "vCPU": "64",
                 "Memory (GiB)": "256",
                 "operation": "RunBroker"
+            },
+            "Js2Mw1JjnqRYP-mtERdPLbkp2rHYYpUzQIBXm9heGfc": {
+                "rateCode": "FRZWDG95NMG76F6K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "Js2Mw1JjnqRYP-mtERdPLbkp2rHYYpUzQIBXm9heGfc",
+                "Compute Family": "",
+                "usageType": "APS8-KafkaReplication-Processed-Bytes",
+                "vCPU": "",
+                "Memory (GiB)": "",
+                "operation": "SameRegionSource"
             },
             "NJtd2z4IaSidUyshU6_dHp7h6gw-yKKvmv5n_xmQiWY": {
                 "rateCode": "PWCKGS6FZHZSFKAF.JRTCKXETXF.6YS6EN2CT7",
@@ -23697,6 +23727,16 @@
                 "price": "0.1260000000",
                 "RegionlessRateCode": "CIdz_Ql1ujlp9BTcjM_ocOK-IxgN4vZXNxnqFt5tV5g"
             },
+            "CrossRegionSourceLocal": {
+                "rateCode": "R82ACFH74NAS6K36.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "CtF70kSvi4xG_Vd4rBwyluWQbwcIc1-pS8MrQGJP4os"
+            },
+            "RunReplicator": {
+                "rateCode": "CG2QMZP4HBHD8THS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3600000000",
+                "RegionlessRateCode": "DCoZYFqmMwzqS-PK1kOCkwoEQL1urdMD8clsN_HfAC0"
+            },
             "RunBroker-computefamily-m7g.16xlarge": {
                 "rateCode": "DB6R9CB2BAZ8522J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "8.5680000000",
@@ -23711,6 +23751,11 @@
                 "vCPU": "64",
                 "Memory (GiB)": "256",
                 "operation": "RunBroker"
+            },
+            "SameRegionSource": {
+                "rateCode": "FRZWDG95NMG76F6K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "Js2Mw1JjnqRYP-mtERdPLbkp2rHYYpUzQIBXm9heGfc"
             },
             "RunBroker-computefamily-m7g.4xlarge": {
                 "rateCode": "VVZCUAJ4HWDCBVMB.JRTCKXETXF.6YS6EN2CT7",
