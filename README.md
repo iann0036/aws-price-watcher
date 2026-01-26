@@ -32504,3 +32504,4 @@
 - supportessential
 - workspacesinstances
 - securityincidentresponse
+- unifiedoperations
