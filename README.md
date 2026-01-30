@@ -1,3 +1,38 @@
+## 2026-01-30 00:52
+
+**Modified services:**
+
+- [lightsail](processed/lightsail.json)
+  - Billing metric added: 0tYOsd8spCLRzyZXfobs2rz8JPyinlX-Nde6cJwRGyg V9 💡
+  - Billing metric added: 4XiKbwc-rzlLVyxeAXDdsnmcsg6qvtm1MzNEv7xHgVk V9 💡
+  - Billing metric added: 57jqBRC-lbEoqgeSlsSTRSIF2vT0hnZ9mAfnC6h0u_g V9 💡
+  - Billing metric added: DFyDKDI_wa1T3cCTTpjXKd8ge9eM_5xagGvPqE21k2E V9 💡
+  - Billing metric added: Gbg7zSSh7Zuchwb_yStVjJ2sK-jwtteD8sXeX2fqTcY V9 💡
+  - Billing metric added: H2jNI8QJPjXNH8zZKNzRo0yk5BOHLBqRpoKArqNB5dE V9 💡
+  - Billing metric added: NxZIPS-Hb8HKFjxWAf8-yp3ZXhZjU2DQFHKLLmqUIBs V9 💡
+  - Billing metric added: PLRDvrcBKA0Vxskxzfvm35SsLtWUJczSfgvEWqgi8P8 V9 💡
+  - Billing metric added: Q1AKTktHPpw5XFzeGJoWihZPlIJdzOQTG-BpPv8wWO4 V9 💡
+  - Billing metric added: QEv8qRA6pE-o4J-kbSO0lzoMIF5lDBJXCf0KOMXj3Wg V9 💡
+  - Billing metric added: SWe9dd_2Jbkb-bcaHZDmg6LlOL6ZKH_3h0Hw2DfWsjg V9 💡
+  - Billing metric added: T9mTnEIBdxZKrI9YO_L_Iim16f5YXzhPYsC0kpR7hWg V9 💡
+  - Billing metric added: WjXA256XpMMZLi763YbKerFxPyWzO959gVCtpjXlE14 V9 💡
+  - Billing metric added: YhofpKt13tN8_B0D9oxL5dozAKTD_4HOp54saZW7Bbk V9 💡
+  - Billing metric added: _872rbkCl0-1o1OdxNjI1nGQYGffpp9YsoFzIarcUP4 V9 💡
+  - Billing metric added: _gimdRyi3PGUY5zxjPMtj_3V9Uzo5iZQxNNCuV8S5gQ V9 💡
+  - Billing metric added: a0-hihhHleGDd3R36zJGM9gwQhAUJVb0hyWHjfkyXSI V9 💡
+  - Billing metric added: bFdtBUW1YOGkELmjrW59eozpWaTbaXuKThqCh1gtTdg V9 💡
+  - Billing metric added: bdtcOVOJQJZha0iAuU2IE__3bpR-wrMSrL9QkQHmfIs V9 💡
+  - Billing metric added: eIC6wMHnhQTxjGJqQ9PavTpBaYixogbONh1DXZZ8I0I V9 💡
+  - Billing metric added: eos_qtI0vHN8WQ8OkH_d6_YC4ppNjQm_nMD8MLEfBEQ V9 💡
+  - Billing metric added: hAdbu2Myd5iKXBkyPrFJ7m_ISL9WY1JjOUBU_r_cXlU V9 💡
+  - Billing metric added: nk53s-9RQVseYJCOkYqchAvzdS36OG7BVRh8x8pX5yg V9 💡
+  - Billing metric added: okOiD22i0wL2ZSZXkXs_WBOFWkqs6hA_CVTzxZZZaTU V9 💡
+  - Billing metric added: oy1v-OviFQVvto_KNfkJQTt3kPgTDTDdY5P7bB-lBdg V9 💡
+  - Billing metric added: pGcPooex1lEuwSinIjmVXLHvGLYbq_8QrOQaBY5s1WI V9 💡
+  - Billing metric added: r85XzunXlhUbKVOVuXRNVOjxxNNqX-rlX5F11S2vrI8 V9 💡
+  - Billing metric added: ruq1eFLzcbMTSaZvE4LBt_qGW4N0z4bSBBDfZ6ISpzU V9 💡
+
+
 ## 2026-01-13 21:27
 
 **New services:**
