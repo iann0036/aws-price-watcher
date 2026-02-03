@@ -1,3 +1,23 @@
+## 2026-02-03 03:18
+
+**Modified services:**
+
+- [networkfirewall](processed/networkfirewall.json)
+  - Price decreased: AWS Firewall per Throughput-Advanced US West (N. California)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced South America (Sao Paulo)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced EU (Milan)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Asia Pacific (Tokyo)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Asia Pacific (Sydney)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Asia Pacific (Singapore)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Asia Pacific (Seoul)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Asia Pacific (Osaka)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Asia Pacific (Mumbai)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Asia Pacific (Melbourne)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Asia Pacific (Hong Kong)  **$0.01** → **$0.00** 💸
+  - Price decreased: AWS Firewall per Throughput-Advanced Africa (Cape Town)  **$0.01** → **$0.00** 💸
+
+
 ## 2026-01-30 00:52
 
 **Modified services:**
