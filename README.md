@@ -1,3 +1,13 @@
+## 2026-02-10 18:39
+
+**Modified services:**
+
+- [iot](processed/iot.json)
+  - Billing metric removed: Sidewalk Messages Next 4B 💥
+  - Billing metric removed: Sidewalk Messages Over 5B 💥
+  - Billing metric removed: Sidewalk Messages Up to 1B 💥
+
+
 ## 2026-02-05 22:29
 
 **Modified services:**
