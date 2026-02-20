@@ -1,3 +1,14 @@
+## 2026-02-20 23:28
+
+**Modified services:**
+
+- [transfer](processed/transfer.json)
+  - Billing metric removed: Transfer AS2 Outbound per Message 💥
+  - Billing metric removed: Transfer AS2 Inbound per Message 💥
+  - Billing metric removed: Transfer AS2 Large Inbound per Message 💥
+  - Billing metric removed: Transfer AS2 Large Outbound per Message 💥
+
+
 ## 2026-02-20 19:31
 
 **Modified services:**
