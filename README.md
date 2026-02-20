@@ -1,3 +1,13 @@
+## 2026-02-20 19:31
+
+**Modified services:**
+
+- [iot](processed/iot.json)
+  - Billing metric removed: Position 0 to 1000000 💥
+  - Billing metric removed: Position 1000000 to 5000000 💥
+  - Billing metric removed: Position 5000000 to Inf 💥
+
+
 ## 2026-02-10 18:39
 
 **Modified services:**
