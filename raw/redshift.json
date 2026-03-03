@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "redshift",
         "accessType": "publish",
-        "esIndex": "plc-redshift-usd-20260223174449",
-        "hawkFilePublicationDate": "2026-02-23T17:44:49Z",
-        "ETLIngestionTriggerDate": "2026-02-23T17:44:49Z",
+        "esIndex": "plc-redshift-usd-20260303221445",
+        "hawkFilePublicationDate": "2026-03-03T22:14:45Z",
+        "ETLIngestionTriggerDate": "2026-03-03T22:14:45Z",
         "currencyCode": "USD",
         "source": "redshift",
         "isMapped": "true"
@@ -437,6 +437,7 @@
             "RJ3QM6VJ6RG4C9Y7 JRTCKXETXF.6YS6EN2CT7 2",
             "RK9DUM7UJHASUCUE JRTCKXETXF.6YS6EN2CT7 2",
             "RKVRSTMJ85HJPFYJ JRTCKXETXF.6YS6EN2CT7 2",
+            "SHKGN35DY2WVCFXM JRTCKXETXF.6YS6EN2CT7 2",
             "VMUN263YHNWXB8E7 JRTCKXETXF.6YS6EN2CT7 2",
             "WZGTPPDVE4QDHKAJ JRTCKXETXF.6YS6EN2CT7 2",
             "YA4C6H8PWWSCDANN JRTCKXETXF.6YS6EN2CT7 2",
@@ -37204,6 +37205,12 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "SHKGN35DY2WVCFXM JRTCKXETXF.6YS6EN2CT7 2": {
+                "rateCode": "SHKGN35DY2WVCFXM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "opEpI0sFn3yrd8LFwb7fpk3VyaxQ1YoScTTSJALOI60",
+                "Location": "Asia Pacific (Jakarta)"
+            },
             "-A4tEpePxs-qcMdRn8xk73Rg_JACxyXnGuyVicW_xaI": {
                 "rateCode": "EPSCC9QA6FF3HH2Z.6QCMYABX3D.6YS6EN2CT7",
                 "price": "0.0000000000",
@@ -38140,6 +38147,19 @@
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Jakarta)"
             },
+            "opEpI0sFn3yrd8LFwb7fpk3VyaxQ1YoScTTSJALOI60": {
+                "rateCode": "SHKGN35DY2WVCFXM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "opEpI0sFn3yrd8LFwb7fpk3VyaxQ1YoScTTSJALOI60",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "",
+                "ECU": "",
+                "Usage Family": "",
+                "Location": "Asia Pacific (Jakarta)"
+            },
             "qpXlwBz0mP-XK5ZklyncKanQ_QIcTnIBMRLfG_1zM6U": {
                 "rateCode": "W2C3Z9JWSZXMG5JR.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0261000000",
@@ -38418,6 +38438,12 @@
                 "Instance Type": "ra3.xlplus",
                 "ECU": "",
                 "Usage Family": "RA3"
+            },
+            "Redshift Inter Region Data Transfer Charges In To": {
+                "rateCode": "SHKGN35DY2WVCFXM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "opEpI0sFn3yrd8LFwb7fpk3VyaxQ1YoScTTSJALOI60",
+                "Location": "Asia Pacific (Jakarta)"
             },
             "ra3 xlplus OnDemand Compute Instance Current Generation": {
                 "rateCode": "PP35GB2RHVYYS9MU.JRTCKXETXF.6YS6EN2CT7",
