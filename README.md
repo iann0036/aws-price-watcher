@@ -1,3 +1,11 @@
+## 2026-03-11 17:36
+
+**Modified services:**
+
+- [braket](processed/braket.json)
+  - Billing metric added: [Standard Instances] 💡
+
+
 ## 2026-03-04 23:29
 
 **New services:**

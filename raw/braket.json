@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "braket",
         "accessType": "publish",
-        "esIndex": "plc-braket-usd-20251118152159",
-        "hawkFilePublicationDate": "2025-11-18T15:21:59Z",
-        "ETLIngestionTriggerDate": "2025-11-18T15:21:59Z",
+        "esIndex": "plc-braket-usd-20260311164238",
+        "hawkFilePublicationDate": "2026-03-11T16:42:38Z",
+        "ETLIngestionTriggerDate": "2026-03-11T16:42:38Z",
         "currencyCode": "USD",
         "source": "braket",
         "isMapped": "true"
@@ -182,7 +182,22 @@
             "FQ6QE25XFJK2B5DA JRTCKXETXF.6YS6EN2CT7 1",
             "H53WT2CV3J6MUFBT JRTCKXETXF.6YS6EN2CT7 1",
             "H84B67JNRZAK923S JRTCKXETXF.6YS6EN2CT7 1",
-            "TM6WECJPXSACDEFZ JRTCKXETXF.6YS6EN2CT7 1"
+            "TM6WECJPXSACDEFZ JRTCKXETXF.6YS6EN2CT7 1",
+            "6CKQPKGGXBKEN83V JRTCKXETXF.6YS6EN2CT7 1",
+            "7PEQTZH3QWUSDPQ9 JRTCKXETXF.6YS6EN2CT7 1",
+            "FZ6GCYQBPZE4XH2P JRTCKXETXF.6YS6EN2CT7 1",
+            "K42NYW4CGH9DP3A7 JRTCKXETXF.6YS6EN2CT7 1",
+            "YMX9B8HKA839M2HJ JRTCKXETXF.6YS6EN2CT7 1",
+            "693TBZDUSMM9SF3S JRTCKXETXF.6YS6EN2CT7 1",
+            "NHM94FRC65H83S3K JRTCKXETXF.6YS6EN2CT7 1",
+            "NX3WVP4YYVUXNXNZ JRTCKXETXF.6YS6EN2CT7 1",
+            "PR5BB7UXGXQVPDXP JRTCKXETXF.6YS6EN2CT7 1",
+            "RSPDUY7KPRBJBA22 JRTCKXETXF.6YS6EN2CT7 1",
+            "B8A4M6D43S76UUK2 JRTCKXETXF.6YS6EN2CT7 1",
+            "C8BDJBQNT8XUDP75 JRTCKXETXF.6YS6EN2CT7 1",
+            "ESS7C2J94PS4HF9A JRTCKXETXF.6YS6EN2CT7 1",
+            "EZG9T33BVK3UA8WG JRTCKXETXF.6YS6EN2CT7 1",
+            "Y2DKKAG7KVK7MJ66 JRTCKXETXF.6YS6EN2CT7 1"
         ]
     },
     "regions": {
@@ -520,6 +535,30 @@
                 "vCPU": "96",
                 "Memory": "1152 GiB"
             },
+            "YMX9B8HKA839M2HJ JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "YMX9B8HKA839M2HJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0066500000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
+            "RSPDUY7KPRBJBA22 JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "RSPDUY7KPRBJBA22.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0016700000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
+            },
+            "B8A4M6D43S76UUK2 JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "B8A4M6D43S76UUK2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0033300000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
+            },
             "-HnKwNFhdoD3BlvB66jGV2t-WM88mOV1NqpgCDtitb0": {
                 "rateCode": "VPR8GKDQXBBF826J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0921700000",
@@ -790,6 +829,16 @@
                 "vCPU": "16",
                 "Memory": "42 GiB"
             },
+            "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI": {
+                "rateCode": "YMX9B8HKA839M2HJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0066500000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
             "Y0hBinwce_sbA0D3VxO6z008B7eRYDlB8nKUb0jMKwI": {
                 "rateCode": "GPV8CCTJ9N5XBZZ3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0306000000",
@@ -829,6 +878,16 @@
                 "Instance Type": "ml.g4dn.4xlarge-Training",
                 "vCPU": "16",
                 "Memory": "64 GiB"
+            },
+            "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg": {
+                "rateCode": "B8A4M6D43S76UUK2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0033300000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
             },
             "b8SJV6qn0J0eaudWb72-LN3Ww89m8E1M0LlqY5J6CaY": {
                 "rateCode": "EVTPX8ZKHAR6RWXM.JRTCKXETXF.6YS6EN2CT7",
@@ -879,6 +938,16 @@
                 "Instance Type": "ml.p2.8xlarge-Training",
                 "vCPU": "32",
                 "Memory": "488 GiB"
+            },
+            "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc": {
+                "rateCode": "RSPDUY7KPRBJBA22.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0016700000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
             },
             "m6K-Uj8j0KmtnRvpIo54jZ0tAOW6JPG4tpOHov_65l8": {
                 "rateCode": "9XU38UQX8BVB72D2.JRTCKXETXF.6YS6EN2CT7",
@@ -1592,6 +1661,30 @@
                 "vCPU": "4",
                 "Memory": "16 GiB"
             },
+            "K42NYW4CGH9DP3A7 JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "K42NYW4CGH9DP3A7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0079300000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
+            "PR5BB7UXGXQVPDXP JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "PR5BB7UXGXQVPDXP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0019800000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
+            },
+            "EZG9T33BVK3UA8WG JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "EZG9T33BVK3UA8WG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0039700000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
+            },
             "-HnKwNFhdoD3BlvB66jGV2t-WM88mOV1NqpgCDtitb0": {
                 "rateCode": "Y7DCAF3MP6ZQCSET.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1075200000",
@@ -1982,6 +2075,16 @@
                 "vCPU": "16",
                 "Memory": "42 GiB"
             },
+            "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI": {
+                "rateCode": "K42NYW4CGH9DP3A7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0079300000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
             "XbxNoJBTQZQ9J790aPHQYX66ya0KxCHtQsMs45BDb30": {
                 "rateCode": "2ZC8QVMZYGT7GW7A.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5750.0000000000",
@@ -2031,6 +2134,16 @@
                 "Instance Type": "ml.g4dn.4xlarge-Training",
                 "vCPU": "16",
                 "Memory": "64 GiB"
+            },
+            "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg": {
+                "rateCode": "EZG9T33BVK3UA8WG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0039700000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
             },
             "bDjN4AxLTLp6f4uv0T5sUEUqqgrlNaFlAKYZd28sAnE": {
                 "rateCode": "EJKT6P96ETTFQP9H.JRTCKXETXF.6YS6EN2CT7",
@@ -2101,6 +2214,16 @@
                 "Instance Type": "",
                 "vCPU": "",
                 "Memory": ""
+            },
+            "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc": {
+                "rateCode": "PR5BB7UXGXQVPDXP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0019800000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
             },
             "m6K-Uj8j0KmtnRvpIo54jZ0tAOW6JPG4tpOHov_65l8": {
                 "rateCode": "AJXHP559UAT2S65B.JRTCKXETXF.6YS6EN2CT7",
@@ -2904,6 +3027,30 @@
                 "vCPU": "96",
                 "Memory": "1152 GiB"
             },
+            "6CKQPKGGXBKEN83V JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "6CKQPKGGXBKEN83V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0066500000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
+            "NX3WVP4YYVUXNXNZ JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "NX3WVP4YYVUXNXNZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0016700000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
+            },
+            "ESS7C2J94PS4HF9A JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "ESS7C2J94PS4HF9A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0033300000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
+            },
             "-HnKwNFhdoD3BlvB66jGV2t-WM88mOV1NqpgCDtitb0": {
                 "rateCode": "VYJFUFNGRDKHHUA8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0921700000",
@@ -3334,6 +3481,16 @@
                 "vCPU": "16",
                 "Memory": "42 GiB"
             },
+            "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI": {
+                "rateCode": "6CKQPKGGXBKEN83V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0066500000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
             "Y0hBinwce_sbA0D3VxO6z008B7eRYDlB8nKUb0jMKwI": {
                 "rateCode": "WW7TYCR7SAFU3Z38.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0306000000",
@@ -3393,6 +3550,16 @@
                 "Instance Type": "ml.g4dn.4xlarge-Training",
                 "vCPU": "16",
                 "Memory": "64 GiB"
+            },
+            "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg": {
+                "rateCode": "ESS7C2J94PS4HF9A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0033300000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
             },
             "ac70A1GrOyPDz9R0hD6TC3xJMztDeTTywZrnWSf4dV0": {
                 "rateCode": "7YARXGJ6Q7CPGNH7.JRTCKXETXF.6YS6EN2CT7",
@@ -3513,6 +3680,16 @@
                 "Instance Type": "",
                 "vCPU": "",
                 "Memory": ""
+            },
+            "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc": {
+                "rateCode": "NX3WVP4YYVUXNXNZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0016700000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
             },
             "m6K-Uj8j0KmtnRvpIo54jZ0tAOW6JPG4tpOHov_65l8": {
                 "rateCode": "5FVPZYWTFF6V2K9Y.JRTCKXETXF.6YS6EN2CT7",
@@ -4230,6 +4407,30 @@
                 "vCPU": "4",
                 "Memory": "16 GiB"
             },
+            "FZ6GCYQBPZE4XH2P JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "FZ6GCYQBPZE4XH2P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0069200000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
+            "NHM94FRC65H83S3K JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "NHM94FRC65H83S3K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017300000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
+            },
+            "Y2DKKAG7KVK7MJ66 JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "Y2DKKAG7KVK7MJ66.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034500000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
+            },
             "-HnKwNFhdoD3BlvB66jGV2t-WM88mOV1NqpgCDtitb0": {
                 "rateCode": "EUDJH8EJQFBF99AA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0979200000",
@@ -4400,6 +4601,16 @@
                 "vCPU": "8",
                 "Memory": "32 GiB"
             },
+            "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI": {
+                "rateCode": "FZ6GCYQBPZE4XH2P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0069200000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
             "Y0hBinwce_sbA0D3VxO6z008B7eRYDlB8nKUb0jMKwI": {
                 "rateCode": "C2EGDTZJMMVKYRZ7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0327700000",
@@ -4430,6 +4641,16 @@
                 "vCPU": "16",
                 "Memory": "64 GiB"
             },
+            "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg": {
+                "rateCode": "Y2DKKAG7KVK7MJ66.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034500000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
+            },
             "jNaFJLlv-6F5ypdwJ7X-tEpBaoHjKgi1dOkgOPQ5_TU": {
                 "rateCode": "2EVHU4PB4P248XW2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.3000000000",
@@ -4449,6 +4670,16 @@
                 "Instance Type": "",
                 "vCPU": "",
                 "Memory": ""
+            },
+            "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc": {
+                "rateCode": "NHM94FRC65H83S3K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017300000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
             },
             "kmq5xnp--ncV13VWgD0ukwMeuHfnu1yhhuJGBMEkeA4": {
                 "rateCode": "ZDU4AJJYKZGH2Q9Q.JRTCKXETXF.6YS6EN2CT7",
@@ -4966,6 +5197,30 @@
                 "vCPU": "32",
                 "Memory": "244 GiB"
             },
+            "7PEQTZH3QWUSDPQ9 JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "7PEQTZH3QWUSDPQ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0075500000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
+            "693TBZDUSMM9SF3S JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "693TBZDUSMM9SF3S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018800000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
+            },
+            "C8BDJBQNT8XUDP75 JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "C8BDJBQNT8XUDP75.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0037800000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
+            },
             "-HnKwNFhdoD3BlvB66jGV2t-WM88mOV1NqpgCDtitb0": {
                 "rateCode": "H3NUBCA52ZP7NUPB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1065600000",
@@ -5206,6 +5461,16 @@
                 "vCPU": "16",
                 "Memory": "64 GiB"
             },
+            "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI": {
+                "rateCode": "7PEQTZH3QWUSDPQ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0075500000",
+                "RegionlessRateCode": "XSuhGrRtsLiAMcpfzy_oo_iIZ9PCtnJMJItE0Ub92ZI",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.2xlarge-Training",
+                "vCPU": "8",
+                "Memory": "32"
+            },
             "Y0hBinwce_sbA0D3VxO6z008B7eRYDlB8nKUb0jMKwI": {
                 "rateCode": "HYG9ZVTVZ2JB6XRY.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0363600000",
@@ -5245,6 +5510,26 @@
                 "Instance Type": "ml.g4dn.4xlarge-Training",
                 "vCPU": "16",
                 "Memory": "64 GiB"
+            },
+            "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg": {
+                "rateCode": "C8BDJBQNT8XUDP75.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0037800000",
+                "RegionlessRateCode": "a0-O-33GY62p57aYpB8GqB7EXSjGCIPyuHnANp13cKg",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.xlarge-Training",
+                "vCPU": "4",
+                "Memory": "16"
+            },
+            "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc": {
+                "rateCode": "693TBZDUSMM9SF3S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018800000",
+                "RegionlessRateCode": "kC88_RlaWeDca9dJZD7X3IgcIHaiRukjGxUyoEzmQCc",
+                "Version": "",
+                "Product Family": "Braket Managed Jobs Instance",
+                "Instance Type": "ml.t3.large-Training",
+                "vCPU": "2",
+                "Memory": "8"
             },
             "m6K-Uj8j0KmtnRvpIo54jZ0tAOW6JPG4tpOHov_65l8": {
                 "rateCode": "UYHP8A2W6DTY6DJJ.JRTCKXETXF.6YS6EN2CT7",
