@@ -1,3 +1,51 @@
+## 2026-03-16 22:29
+
+**Modified services:**
+
+- [contactcentertelecommkr](processed/contactcentertelecommkr.json)
+  - Billing metric removed: ContactCenterTelecommKR Toll Inbound Call South Korea 0 30 💥
+  - Billing metric removed: ContactCenterTelecommKR Toll DiD Line South Korea 31 Inf 💥
+  - Billing metric removed: ContactCenterTelecommKR Toll Inbound Call South Korea 30 Inf 💥
+  - Billing metric removed: ContactCenterTelecommKR Toll DiD Line South Korea 0 31 💥
+
+- [contactcentertelecommza](processed/contactcentertelecommza.json)
+  - Billing metric removed: ContactCenterTelecommZA Toll Inbound Call South Africa 0 30 💥
+  - Billing metric removed: ContactCenterTelecommZA Toll DiD Line South Africa 0 31 💥
+  - Billing metric removed: ContactCenterTelecommZA Toll DiD Line South Africa 31 Inf 💥
+  - Billing metric removed: ContactCenterTelecommZA Toll Inbound Call South Africa 30 Inf 💥
+
+- [contactcentertelecomm](processed/contactcentertelecomm.json)
+  - Billing metric removed: [Outbound Call Toll] Outbound Call Toll United States 30 Inf 💥
+  - Billing metric removed: DID Inbound Call United States 30 Inf 💥
+  - Billing metric removed: Toll Free Inbound Call United States 30 Inf 💥
+  - Billing metric removed: Toll Free Toll Free Line United States 31 29970 💥
+  - Billing metric removed: Toll Free Toll Free Line STD United States 31 Inf 💥
+  - Billing metric removed: Outbound Call Toll United States 0 30 💥
+  - Billing metric removed: Toll DiD Line United States 31 Inf 💥
+  - Billing metric removed: [Outbound Call Toll] Outbound Call Toll United Kingdom 30 Inf 💥
+  - Billing metric removed: Toll Inbound Call United Kingdom 30 Inf 💥
+  - Billing metric removed: Toll DiD Line United Kingdom 31 Inf 💥
+  - Billing metric removed: Outbound Call Toll United Kingdom 0 30 💥
+  - Billing metric removed: [Outbound Call Toll] Outbound Call Toll Germany 30 Inf 💥
+  - Billing metric removed: Outbound Call Toll Germany 0 30 💥
+  - Billing metric removed: Germany Toll DiD Line Germany 31 Inf 💥
+  - Billing metric removed: Germany Toll Inbound Call Germany 30 Inf 💥
+  - Billing metric removed: Toll Inbound Call United States 30 Inf 💥
+  - Billing metric removed: Toll Free Toll Free Line - STD United States 31 Inf 💥
+  - Billing metric removed: [Outbound Call Toll] Outbound Call Toll Japan 30 Inf 💥
+  - Billing metric removed: Toll DiD Line Japan 31 Inf 💥
+  - Billing metric removed: Outbound Call Toll Japan 0 30 💥
+  - Billing metric removed: Toll Inbound Call Japan 30 Inf 💥
+  - Billing metric removed: [Outbound Call Toll] Outbound Call Toll Australia 30 Inf 💥
+  - Billing metric removed: Toll Inbound Call Australia 30 Inf 💥
+  - Billing metric removed: Toll DiD Line Australia 31 Inf 💥
+  - Billing metric removed: Outbound Call Toll Australia 0 30 💥
+  - Billing metric removed: [Outbound Call Toll] Outbound Call Toll Singapore 30 Inf 💥
+  - Billing metric removed: Toll DiD Line Singapore 31 Inf 💥
+  - Billing metric removed: Outbound Call Toll Singapore 0 30 💥
+  - Billing metric removed: Toll Inbound Call Singapore 30 Inf 💥
+
+
 ## 2026-03-11 17:36
 
 **Modified services:**

@@ -517,12 +517,6 @@
         "Africa (Cape Town) (Country: Indonesia)": "0.0960000000",
         "AWS GovCloud (US) (Country: Indonesia)": "0.1588000000"
     },
-    "[Outbound Call Toll] Outbound Call Toll United States 30 Inf": {
-        "US West (Oregon) (Country: United States)": "0.0048000000",
-        "US East (N. Virginia) (Country: United States)": "0.0048000000",
-        "Canada (Central) (Country: United States)": "0.0048000000",
-        "AWS GovCloud (US) (Country: United States)": "0.0048000000"
-    },
     "[Outbound Call Toll] Outbound Call Toll Bonaire 0 Inf": {
         "US West (Oregon) (Country: Bonaire)": "0.1596000000",
         "US East (N. Virginia) (Country: Bonaire)": "0.1596000000"
@@ -1171,6 +1165,20 @@
         "Africa (Cape Town) (Country: New Zealand)": "0.0640000000",
         "AWS GovCloud (US) (Country: New Zealand)": "0.1137000000"
     },
+    "[Outbound Call Toll] Outbound Call Toll United States 0 Inf": {
+        "US West (Oregon) (Country: United States)": "0.0048000000",
+        "US East (N. Virginia) (Country: United States)": "0.0048000000",
+        "EU (London) (Country: United States)": "0.0142000000",
+        "EU (Frankfurt) (Country: United States)": "0.0142000000",
+        "Canada (Central) (Country: United States)": "0.0048000000",
+        "Asia Pacific (Tokyo) (Country: United States)": "0.0142000000",
+        "Asia Pacific (Sydney) (Country: United States)": "0.0142000000",
+        "Asia Pacific (Singapore) (Country: United States)": "0.0142000000",
+        "Asia Pacific (Seoul) (Country: United States)": "0.0142000000",
+        "Asia Pacific (Osaka) (Country: United States of America)": "0.0142000000",
+        "Africa (Cape Town) (Country: United States)": "0.0070000000",
+        "AWS GovCloud (US) (Country: United States)": "0.0048000000"
+    },
     "[Outbound Call Toll] Outbound Call Toll Madagascar 0 Inf": {
         "US West (Oregon) (Country: Madagascar)": "1.0065000000",
         "US East (N. Virginia) (Country: Madagascar)": "1.0065000000",
@@ -1421,9 +1429,11 @@
         "EU (London) (Country: Japan)": "0.0837000000",
         "EU (Frankfurt) (Country: Japan)": "0.0837000000",
         "Canada (Central) (Country: Japan)": "0.1204000000",
+        "Asia Pacific (Tokyo) (Country: Japan)": "0.0780000000",
         "Asia Pacific (Sydney) (Country: Japan)": "0.1203000000",
         "Asia Pacific (Singapore) (Country: Japan)": "0.1203000000",
         "Asia Pacific (Seoul) (Country: Japan)": "0.0844000000",
+        "Asia Pacific (Osaka) (Country: Japan)": "0.0780000000",
         "Africa (Cape Town) (Country: Japan)": "0.2400000000",
         "AWS GovCloud (US) (Country: Japan)": "0.1204000000"
     },
@@ -1476,6 +1486,7 @@
         "EU (Frankfurt) (Country: Australia)": "0.0571000000",
         "Canada (Central) (Country: Australia)": "0.0699000000",
         "Asia Pacific (Tokyo) (Country: Australia)": "0.0500000000",
+        "Asia Pacific (Sydney) (Country: Australia)": "0.0250000000",
         "Asia Pacific (Singapore) (Country: Australia)": "0.0500000000",
         "Asia Pacific (Seoul) (Country: Australia)": "0.0500000000",
         "Asia Pacific (Osaka) (Country: Australia)": "0.0500000000",
@@ -1994,6 +2005,7 @@
         "Canada (Central) (Country: Singapore)": "0.0470000000",
         "Asia Pacific (Tokyo) (Country: Singapore)": "0.1251000000",
         "Asia Pacific (Sydney) (Country: Singapore)": "0.1251000000",
+        "Asia Pacific (Singapore) (Country: Singapore)": "0.0151000000",
         "Asia Pacific (Seoul) (Country: Singapore)": "0.1251000000",
         "Asia Pacific (Osaka) (Country: Singapore)": "0.1251000000",
         "Africa (Cape Town) (Country: Singapore)": "0.0288000000",
@@ -2114,6 +2126,7 @@
     "[Outbound Call Toll] Outbound Call Toll United Kingdom 0 Inf": {
         "US West (Oregon) (Country: United Kingdom)": "0.0301000000",
         "US East (N. Virginia) (Country: United Kingdom)": "0.0301000000",
+        "EU (London) (Country: United Kingdom)": "0.0110000000",
         "EU (Frankfurt) (Country: United Kingdom)": "0.0110000000",
         "Canada (Central) (Country: United Kingdom)": "0.0301000000",
         "Asia Pacific (Tokyo) (Country: United Kingdom)": "0.0735000000",
@@ -2322,6 +2335,7 @@
         "US West (Oregon) (Country: Germany)": "0.1889000000",
         "US East (N. Virginia) (Country: Germany)": "0.1889000000",
         "EU (London) (Country: Germany)": "0.0120000000",
+        "EU (Frankfurt) (Country: Germany)": "0.0120000000",
         "Canada (Central) (Country: Germany)": "0.1889000000",
         "Asia Pacific (Tokyo) (Country: Germany)": "0.0562000000",
         "Asia Pacific (Sydney) (Country: Germany)": "0.0562000000",
@@ -3983,6 +3997,7 @@
         "EU (Frankfurt)": "0.0115000000",
         "Canada (Central)": "0.0056000000",
         "Asia Pacific (Tokyo)": "0.0050000000",
+        "Asia Pacific (Sydney)": "0.0050000000",
         "Asia Pacific (Singapore)": "0.0050000000",
         "Asia Pacific (Seoul)": "0.0050000000",
         "Asia Pacific (Osaka)": "0.0050000000",
@@ -4254,6 +4269,20 @@
         "Asia Pacific (Osaka)": "0.1603000000",
         "Africa (Cape Town)": "0.1603000000"
     },
+    "ContactCenterTelecomm Toll Free Inbound Call United States 0 Inf": {
+        "US West (Oregon)": "0.0120000000",
+        "US East (N. Virginia)": "0.0120000000",
+        "EU (London)": "0.0137000000",
+        "EU (Frankfurt)": "0.0137000000",
+        "Canada (Central)": "0.0120000000",
+        "Asia Pacific (Tokyo)": "0.0137000000",
+        "Asia Pacific (Sydney)": "0.0137000000",
+        "Asia Pacific (Singapore)": "0.0137000000",
+        "Asia Pacific (Seoul)": "0.0137000000",
+        "Asia Pacific (Osaka)": "0.0137000000",
+        "Africa (Cape Town)": "0.0137000000",
+        "AWS GovCloud (US)": "0.0120000000"
+    },
     "ContactCenterTelecomm Toll Inbound Call Cyprus 0 Inf": {
         "US West (Oregon)": "0.0114000000",
         "US East (N. Virginia)": "0.0114000000",
@@ -4340,11 +4369,6 @@
         "Asia Pacific (Osaka)": "0.7467000000",
         "Africa (Cape Town)": "0.1000000000"
     },
-    "DID Inbound Call United States 30 Inf": {
-        "US West (Oregon)": "0.0022000000",
-        "US East (N. Virginia)": "0.0022000000",
-        "AWS GovCloud (US)": "0.0022000000"
-    },
     "ContactCenterTelecomm Toll Free Inbound Call Germany 0 Inf": {
         "US West (Oregon)": "0.0387000000",
         "US East (N. Virginia)": "0.0387000000",
@@ -4371,6 +4395,7 @@
     "ContactCenterTelecomm Toll DiD Line United Kingdom 0 Inf": {
         "US West (Oregon)": "0.0500000000",
         "US East (N. Virginia)": "0.0500000000",
+        "EU (London)": "0.0300000000",
         "EU (Frankfurt)": "0.0600000000",
         "Canada (Central)": "0.0500000000",
         "Asia Pacific (Tokyo)": "0.1000000000",
@@ -4404,12 +4429,6 @@
         "Asia Pacific (Seoul)": "0.3274000000",
         "Asia Pacific (Osaka)": "0.3274000000",
         "Africa (Cape Town)": "0.3274000000"
-    },
-    "Toll Free Inbound Call United States 30 Inf": {
-        "US West (Oregon)": "0.0120000000",
-        "US East (N. Virginia)": "0.0120000000",
-        "Canada (Central)": "0.0120000000",
-        "AWS GovCloud (US)": "0.0120000000"
     },
     "ContactCenterTelecomm Toll Free Toll Free Line Belarus 0 Inf": {
         "US West (Oregon)": "0.6406000000",
@@ -4737,12 +4756,6 @@
         "Asia Pacific (Osaka)": "0.1997000000",
         "Africa (Cape Town)": "0.1997000000"
     },
-    "Toll Free Toll Free Line United States 31 29970": {
-        "US West (Oregon)": "0.0600000000",
-        "US East (N. Virginia)": "0.0600000000",
-        "Canada (Central)": "0.0600000000",
-        "AWS GovCloud (US)": "0.0600000000"
-    },
     "ContactCenterTelecomm Toll Inbound Call Chile 0 Inf": {
         "US West (Oregon)": "0.0076000000",
         "US East (N. Virginia)": "0.0076000000",
@@ -4863,6 +4876,7 @@
         "Canada (Central)": "0.0110400000",
         "Asia Pacific (Tokyo)": "0.0056000000",
         "Asia Pacific (Sydney)": "0.0052000000",
+        "Asia Pacific (Singapore)": "0.0040000000",
         "Asia Pacific (Seoul)": "0.0052000000",
         "Asia Pacific (Osaka)": "0.0056000000"
     },
@@ -4872,9 +4886,11 @@
         "EU (London)": "0.7419000000",
         "EU (Frankfurt)": "0.7419000000",
         "Canada (Central)": "0.2100000000",
+        "Asia Pacific (Tokyo)": "0.1000000000",
         "Asia Pacific (Sydney)": "0.1300000000",
         "Asia Pacific (Singapore)": "0.1300000000",
-        "Asia Pacific (Seoul)": "0.1000000000"
+        "Asia Pacific (Seoul)": "0.1000000000",
+        "Asia Pacific (Osaka)": "0.1000000000"
     },
     "ContactCenterTelecomm Toll Free Inbound Call Portugal 0 Inf": {
         "US West (Oregon)": "0.0283000000",
@@ -5162,6 +5178,20 @@
         "Asia Pacific (Seoul)": "0.0213000000",
         "Asia Pacific (Osaka)": "0.0213000000"
     },
+    "ContactCenterTelecomm Toll DiD Line United States 0 Inf": {
+        "US West (Oregon)": "0.0300000000",
+        "US East (N. Virginia)": "0.0300000000",
+        "EU (London)": "0.0600000000",
+        "EU (Frankfurt)": "0.0600000000",
+        "Canada (Central)": "0.0300000000",
+        "Asia Pacific (Tokyo)": "0.0600000000",
+        "Asia Pacific (Sydney)": "0.0600000000",
+        "Asia Pacific (Singapore)": "0.0600000000",
+        "Asia Pacific (Seoul)": "0.0600000000",
+        "Asia Pacific (Osaka)": "0.0600000000",
+        "Africa (Cape Town)": "0.0600000000",
+        "AWS GovCloud (US)": "0.0300000000"
+    },
     "ContactCenterTelecomm UIFN Inbound Call United Kingdom 0 Inf": {
         "US West (Oregon)": "0.0955000000",
         "US East (N. Virginia)": "0.0955000000",
@@ -5421,6 +5451,7 @@
         "US West (Oregon)": "0.0064000000",
         "US East (N. Virginia)": "0.0064000000",
         "EU (London)": "0.0040000000",
+        "EU (Frankfurt)": "0.0040000000",
         "Canada (Central)": "0.0064000000",
         "Asia Pacific (Tokyo)": "0.0067000000",
         "Asia Pacific (Sydney)": "0.0067000000",
@@ -5439,11 +5470,6 @@
         "Asia Pacific (Singapore)": "0.7467000000",
         "Asia Pacific (Seoul)": "0.7467000000",
         "Asia Pacific (Osaka)": "0.7467000000"
-    },
-    "Toll Free Toll Free Line STD United States 31 Inf": {
-        "US West (Oregon)": "0.0081000000",
-        "US East (N. Virginia)": "0.0081000000",
-        "AWS GovCloud (US)": "0.0081000000"
     },
     "ContactCenterTelecomm UIFN Inbound Call Austria 0 Inf": {
         "US West (Oregon)": "0.2000000000",
@@ -5850,9 +5876,11 @@
         "EU (London)": "0.0115000000",
         "EU (Frankfurt)": "0.0115000000",
         "Canada (Central)": "0.0030000000",
+        "Asia Pacific (Tokyo)": "0.0030000000",
         "Asia Pacific (Sydney)": "0.0056000000",
         "Asia Pacific (Singapore)": "0.0056000000",
-        "Asia Pacific (Seoul)": "0.0030000000"
+        "Asia Pacific (Seoul)": "0.0030000000",
+        "Asia Pacific (Osaka)": "0.0030000000"
     },
     "ContactCenterTelecomm UIFN Inbound Call Monaco 0 Inf": {
         "US West (Oregon)": "0.0840000000",
@@ -5997,6 +6025,7 @@
         "EU (Frankfurt)": "0.7419000000",
         "Canada (Central)": "0.1300000000",
         "Asia Pacific (Tokyo)": "0.1000000000",
+        "Asia Pacific (Sydney)": "0.1000000000",
         "Asia Pacific (Singapore)": "0.1000000000",
         "Asia Pacific (Seoul)": "0.1000000000",
         "Asia Pacific (Osaka)": "0.1000000000",
@@ -6474,12 +6503,6 @@
         "Asia Pacific (Osaka)": "0.7467000000",
         "Africa (Cape Town)": "0.1000000000"
     },
-    "Outbound Call Toll United States 0 30": {
-        "US West (Oregon)": "0.0000000000",
-        "US East (N. Virginia)": "0.0000000000",
-        "Canada (Central)": "0.0000000000",
-        "AWS GovCloud (US)": "0.0000000000"
-    },
     "ContactCenterTelecomm Toll Free Toll Free Line Indonesia 0 Inf": {
         "US West (Oregon)": "0.7474000000",
         "US East (N. Virginia)": "0.7472000000",
@@ -6632,6 +6655,7 @@
         "US West (Oregon)": "0.1000000000",
         "US East (N. Virginia)": "0.1000000000",
         "EU (London)": "0.1000000000",
+        "EU (Frankfurt)": "0.1000000000",
         "Canada (Central)": "0.1000000000",
         "Asia Pacific (Tokyo)": "0.7467000000",
         "Asia Pacific (Sydney)": "0.7467000000",
@@ -6983,12 +7007,6 @@
         "Asia Pacific (Osaka)": "1.2000000000",
         "Africa (Cape Town)": "1.2000000000"
     },
-    "Toll DiD Line United States 31 Inf": {
-        "US West (Oregon)": "0.0300000000",
-        "US East (N. Virginia)": "0.0300000000",
-        "Canada (Central)": "0.0300000000",
-        "AWS GovCloud (US)": "0.0300000000"
-    },
     "ContactCenterTelecomm UIFN Inbound Call Estonia 0 Inf": {
         "US West (Oregon)": "0.5965000000",
         "US East (N. Virginia)": "0.5965000000",
@@ -7241,6 +7259,7 @@
     "ContactCenterTelecomm Toll Inbound Call United Kingdom 0 Inf": {
         "US West (Oregon)": "0.0064000000",
         "US East (N. Virginia)": "0.0064000000",
+        "EU (London)": "0.0040000000",
         "EU (Frankfurt)": "0.0040000000",
         "Canada (Central)": "0.0064000000",
         "Asia Pacific (Tokyo)": "0.0040000000",
@@ -7261,6 +7280,20 @@
         "Asia Pacific (Singapore)": "0.0082000000",
         "Asia Pacific (Seoul)": "0.0080000000",
         "Asia Pacific (Osaka)": "0.0142000000"
+    },
+    "ContactCenterTelecomm Toll Inbound Call United States 0 Inf": {
+        "US West (Oregon)": "0.0022000000",
+        "US East (N. Virginia)": "0.0022000000",
+        "EU (London)": "0.0040000000",
+        "EU (Frankfurt)": "0.0040000000",
+        "Canada (Central)": "0.0022000000",
+        "Asia Pacific (Tokyo)": "0.0040000000",
+        "Asia Pacific (Sydney)": "0.0040000000",
+        "Asia Pacific (Singapore)": "0.0040000000",
+        "Asia Pacific (Seoul)": "0.0040000000",
+        "Asia Pacific (Osaka)": "0.0040000000",
+        "Africa (Cape Town)": "0.0040000000",
+        "AWS GovCloud (US)": "0.0022000000"
     },
     "ContactCenterTelecomm Toll DiD Line Honduras 0 Inf": {
         "US West (Oregon)": "0.0800000000",
@@ -7478,6 +7511,7 @@
         "Canada (Central)": "0.7467200000",
         "Asia Pacific (Tokyo)": "0.1600000000",
         "Asia Pacific (Sydney)": "0.3500000000",
+        "Asia Pacific (Singapore)": "0.0395000000",
         "Asia Pacific (Seoul)": "0.3500000000",
         "Asia Pacific (Osaka)": "0.1600000000"
     },
@@ -7538,19 +7572,6 @@
         "Asia Pacific (Osaka)": "1.2000000000",
         "Africa (Cape Town)": "1.2000000000"
     },
-    "[Outbound Call Toll] Outbound Call Toll United Kingdom 30 Inf": {
-        "EU (London) (Country: United Kingdom)": "0.0110000000"
-    },
-    "[Outbound Call Toll] Outbound Call Toll United States 0 Inf": {
-        "EU (London) (Country: United States)": "0.0142000000",
-        "EU (Frankfurt) (Country: United States)": "0.0142000000",
-        "Asia Pacific (Tokyo) (Country: United States)": "0.0142000000",
-        "Asia Pacific (Sydney) (Country: United States)": "0.0142000000",
-        "Asia Pacific (Singapore) (Country: United States)": "0.0142000000",
-        "Asia Pacific (Seoul) (Country: United States)": "0.0142000000",
-        "Asia Pacific (Osaka) (Country: United States of America)": "0.0142000000",
-        "Africa (Cape Town) (Country: United States)": "0.0070000000"
-    },
     "ContactCenterTelecomm UIFN UIFN Line Singapore 0 Inf": {
         "EU (London)": "1.2000000000",
         "EU (Frankfurt)": "1.2000000000",
@@ -7559,22 +7580,6 @@
         "Asia Pacific (Sydney)": "1.2000000000",
         "Asia Pacific (Singapore)": "1.2000000000",
         "Asia Pacific (Osaka)": "1.2000000000"
-    },
-    "Toll Inbound Call United Kingdom 30 Inf": {
-        "EU (London)": "0.0040000000"
-    },
-    "Toll DiD Line United Kingdom 31 Inf": {
-        "EU (London)": "0.0300000000"
-    },
-    "ContactCenterTelecomm Toll Free Inbound Call United States 0 Inf": {
-        "EU (London)": "0.0137000000",
-        "EU (Frankfurt)": "0.0137000000",
-        "Asia Pacific (Tokyo)": "0.0137000000",
-        "Asia Pacific (Sydney)": "0.0137000000",
-        "Asia Pacific (Singapore)": "0.0137000000",
-        "Asia Pacific (Seoul)": "0.0137000000",
-        "Asia Pacific (Osaka)": "0.0137000000",
-        "Africa (Cape Town)": "0.0137000000"
     },
     "ContactCenterTelecomm UIFN Inbound Call Singapore 0 Inf": {
         "EU (London)": "0.0554000000",
@@ -7593,16 +7598,6 @@
         "Asia Pacific (Singapore)": "0.1104000000",
         "Asia Pacific (Seoul)": "0.1104000000",
         "Asia Pacific (Osaka)": "0.1104000000"
-    },
-    "ContactCenterTelecomm Toll DiD Line United States 0 Inf": {
-        "EU (London)": "0.0600000000",
-        "EU (Frankfurt)": "0.0600000000",
-        "Asia Pacific (Tokyo)": "0.0600000000",
-        "Asia Pacific (Sydney)": "0.0600000000",
-        "Asia Pacific (Singapore)": "0.0600000000",
-        "Asia Pacific (Seoul)": "0.0600000000",
-        "Asia Pacific (Osaka)": "0.0600000000",
-        "Africa (Cape Town)": "0.0600000000"
     },
     "ContactCenterTelecomm Toll Free Toll Free Line Iceland 0 Inf": {
         "EU (London)": "0.8000000000",
@@ -7623,22 +7618,6 @@
         "Asia Pacific (Seoul)": "0.0600000000",
         "Asia Pacific (Osaka)": "0.0600000000",
         "Africa (Cape Town)": "0.0600000000"
-    },
-    "Outbound Call Toll United Kingdom 0 30": {
-        "EU (London)": "0.0000000000"
-    },
-    "ContactCenterTelecomm Toll Inbound Call United States 0 Inf": {
-        "EU (London)": "0.0040000000",
-        "EU (Frankfurt)": "0.0040000000",
-        "Asia Pacific (Tokyo)": "0.0040000000",
-        "Asia Pacific (Sydney)": "0.0040000000",
-        "Asia Pacific (Singapore)": "0.0040000000",
-        "Asia Pacific (Seoul)": "0.0040000000",
-        "Asia Pacific (Osaka)": "0.0040000000",
-        "Africa (Cape Town)": "0.0040000000"
-    },
-    "[Outbound Call Toll] Outbound Call Toll Germany 30 Inf": {
-        "EU (Frankfurt) (Country: Germany)": "0.0120000000"
     },
     "ContactCenterTelecomm ThirdPartyDID Inbound Call Zimbabwe 0 Inf": {
         "EU (Frankfurt)": "0.0022000000",
@@ -7928,9 +7907,6 @@
         "EU (Frankfurt)": "0.0000000000",
         "Asia Pacific (Singapore)": "0.0000000000"
     },
-    "Outbound Call Toll Germany 0 30": {
-        "EU (Frankfurt)": "0.0000000000"
-    },
     "ContactCenterTelecomm ThirdPartyDID Third Party Line Egypt 0 Inf": {
         "EU (Frankfurt)": "0.0000000000",
         "Asia Pacific (Singapore)": "0.0000000000"
@@ -7950,9 +7926,6 @@
     "ContactCenterTelecomm ThirdPartyDID Inbound Call Guam 0 Inf": {
         "EU (Frankfurt)": "0.0022000000",
         "Asia Pacific (Singapore)": "0.0022000000"
-    },
-    "Germany Toll DiD Line Germany 31 Inf": {
-        "EU (Frankfurt)": "0.1000000000"
     },
     "ContactCenterTelecomm ThirdPartyTF Third Party Line Dominica 0 Inf": {
         "EU (Frankfurt)": "0.0000000000",
@@ -8269,9 +8242,6 @@
     "ContactCenterTelecomm ThirdPartyTF Inbound Call Kosovo 0 Inf": {
         "EU (Frankfurt)": "0.0022000000",
         "Asia Pacific (Singapore)": "0.0022000000"
-    },
-    "Germany Toll Inbound Call Germany 30 Inf": {
-        "EU (Frankfurt)": "0.0040000000"
     },
     "ContactCenterTelecomm ThirdPartyDID Inbound Call Turkey 0 Inf": {
         "EU (Frankfurt)": "0.0022000000",
@@ -8757,9 +8727,6 @@
         "Asia Pacific (Osaka)": "1.2000000000",
         "Africa (Cape Town)": "1.2000000000"
     },
-    "Toll Inbound Call United States 30 Inf": {
-        "Canada (Central)": "0.0022000000"
-    },
     "ContactCenterTelecomm UIFN Inbound Call Singapore": {
         "Canada (Central)": "0.0554000000",
         "Asia Pacific (Singapore)": "0.0554000000",
@@ -8770,9 +8737,6 @@
         "Asia Pacific (Seoul)": "0.4640000000",
         "Asia Pacific (Osaka)": "0.4640000000",
         "Africa (Cape Town)": "0.4640000000"
-    },
-    "Toll Free Toll Free Line - STD United States 31 Inf": {
-        "Canada (Central)": "0.0081000000"
     },
     "UIFN UIFN Line Japan 0 Inf ContactCenterTelecomm": {
         "Canada (Central)": "1.2000000000",
@@ -8789,46 +8753,6 @@
         "Asia Pacific (Seoul)": "0.3031000000",
         "Asia Pacific (Osaka)": "0.3031000000",
         "Africa (Cape Town)": "0.3031000000"
-    },
-    "[Outbound Call Toll] Outbound Call Toll Japan 30 Inf": {
-        "Asia Pacific (Tokyo) (Country: Japan)": "0.0780000000",
-        "Asia Pacific (Osaka) (Country: Japan)": "0.0780000000"
-    },
-    "Toll DiD Line Japan 31 Inf": {
-        "Asia Pacific (Tokyo)": "0.1000000000",
-        "Asia Pacific (Osaka)": "0.1000000000"
-    },
-    "Outbound Call Toll Japan 0 30": {
-        "Asia Pacific (Tokyo)": "0.0000000000",
-        "Asia Pacific (Osaka)": "0.0000000000"
-    },
-    "Toll Inbound Call Japan 30 Inf": {
-        "Asia Pacific (Tokyo)": "0.0030000000",
-        "Asia Pacific (Osaka)": "0.0030000000"
-    },
-    "[Outbound Call Toll] Outbound Call Toll Australia 30 Inf": {
-        "Asia Pacific (Sydney) (Country: Australia)": "0.0250000000"
-    },
-    "Toll Inbound Call Australia 30 Inf": {
-        "Asia Pacific (Sydney)": "0.0050000000"
-    },
-    "Toll DiD Line Australia 31 Inf": {
-        "Asia Pacific (Sydney)": "0.1000000000"
-    },
-    "Outbound Call Toll Australia 0 30": {
-        "Asia Pacific (Sydney)": "0.0000000000"
-    },
-    "[Outbound Call Toll] Outbound Call Toll Singapore 30 Inf": {
-        "Asia Pacific (Singapore) (Country: Singapore)": "0.0151000000"
-    },
-    "Toll DiD Line Singapore 31 Inf": {
-        "Asia Pacific (Singapore)": "0.0395000000"
-    },
-    "Outbound Call Toll Singapore 0 30": {
-        "Asia Pacific (Singapore)": "0.0000000000"
-    },
-    "Toll Inbound Call Singapore 30 Inf": {
-        "Asia Pacific (Singapore)": "0.0040000000"
     },
     "ContactCenterTelecomm Toll Free Inbound Call Uganda 0 Inf": {
         "Africa (Cape Town)": "0.1800000000"
