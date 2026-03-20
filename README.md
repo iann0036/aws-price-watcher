@@ -1,3 +1,17 @@
+## 2026-03-20 03:15
+
+**Modified services:**
+
+- [msk](processed/msk.json)
+  - Price decreased: [ExpressBroker] US West (Oregon) (Compute Family: express.m7g.12xlarge, usageType: USW2-Express.m7g.12xlarge, vCPU: 48, Memory (GiB): 192, operation: RunBroker)  **$11.42** → **$9.79** 💸
+  - Price decreased: [ExpressBroker] US West (Oregon) (Compute Family: express.m7g.16xlarge, usageType: USW2-Express.m7g.16xlarge, vCPU: 64, Memory (GiB): 256, operation: RunBroker)  **$15.23** → **$13.06** 💸
+  - Price decreased: [ExpressBroker] US West (Oregon) (Compute Family: express.m7g.2xlarge, usageType: USW2-Express.m7g.2xlarge, vCPU: 8, Memory (GiB): 32, operation: RunBroker)  **$1.90** → **$1.63** 💸
+  - Price decreased: [ExpressBroker] US West (Oregon) (Compute Family: express.m7g.4xlarge, usageType: USW2-Express.m7g.4xlarge, vCPU: 16, Memory (GiB): 64, operation: RunBroker)  **$3.81** → **$3.26** 💸
+  - Price decreased: [ExpressBroker] US West (Oregon) (Compute Family: express.m7g.8xlarge, usageType: USW2-Express.m7g.8xlarge, vCPU: 32, Memory (GiB): 128, operation: RunBroker)  **$7.62** → **$6.53** 💸
+  - Price decreased: [ExpressBroker] US West (Oregon) (Compute Family: express.m7g.large, usageType: USW2-Express.m7g.large, vCPU: 2, Memory (GiB): 8, operation: RunBroker)  **$0.48** → **$0.41** 💸
+  - Price decreased: [ExpressBroker] US West (Oregon) (Compute Family: express.m7g.xlarge, usageType: USW2-Express.m7g.xlarge, vCPU: 4, Memory (GiB): 16, operation: RunBroker)  **$0.95** → **$0.82** 💸
+
+
 ## 2026-03-16 22:29
 
 **Modified services:**
