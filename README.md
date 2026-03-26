@@ -1,3 +1,12 @@
+## 2026-03-26 20:30
+
+**Modified services:**
+
+- [gamelift](processed/gamelift.json)
+  - Billing metric added: [Gamelift Linux current-] 💡
+  - Billing metric added: [Gamelift Windows current-] 💡
+
+
 ## 2026-03-20 03:15
 
 **Modified services:**
