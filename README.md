@@ -1,3 +1,11 @@
+## 2026-04-03 16:30
+
+**Modified services:**
+
+- [braket](processed/braket.json)
+  - Billing metric added: [Accelerated Computing Instances] 💡
+
+
 ## 2026-03-30 20:33
 
 **Modified services:**
