@@ -1,3 +1,128 @@
+## 2026-04-08 20:31
+
+**Modified services:**
+
+- [chimevoiceconnector](processed/chimevoiceconnector.json)
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Andorra 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Argentina 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Armenia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Aruba 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Australia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Austria 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Bahamas 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Bahrain 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Bangladesh 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Belgium 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Belize 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Bermuda 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Bhutan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Bolivia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Brazil 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Brunei Darussalam 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Bulgaria 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Cambodia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Canada 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Chile 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Colombia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Costa Rica 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Cyprus 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Czech Republic 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Denmark 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Dominican Republic 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Ecuador 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Egypt 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to El Salvador 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Ethiopia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Faroe Islands 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Fiji 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Finland 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to France 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to French Guiana 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Germany 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Gibraltar 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Greece 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Guadeloupe 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Guam 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Guatemala 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Guyana 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Hong Kong 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Hungary 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Iceland 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to India 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Indonesia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Iraq 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Ireland 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Israel 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Italy 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Jamaica 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Japan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Jordan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Kazakhstan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Kenya 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Kuwait 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Lao PDR 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Latvia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Lebanon 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Liechtenstein 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Lithuania 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Luxembourg 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Macao 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Malaysia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Malta 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Marshall Islands 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Martinique 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Mauritius 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Mexico 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Mongolia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Namibia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Nepal 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Netherlands 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Netherlands Antilles 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to New Zealand 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Nicaragua 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Nigeria 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Norway 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Pakistan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Panama 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Paraguay 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Peru 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Philippines 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Poland 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Portugal 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Puerto Rico 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Qatar 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Romania 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Russian Federation 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Saint Barthelemy 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Saint Martin French part 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Saudi Arabia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Singapore 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Slovakia 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to South Africa 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to South Korea 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Spain 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Sri Lanka 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to St Maarten 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Sweden 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Switzerland 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Taiwan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Tajikistan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Thailand 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Trinidad and Tobago 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Turkey 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Turkmenistan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to US Virgin Islands 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Ukraine 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to United Arab Emirates 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to United Kingdom 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to United States of America 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Uruguay 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Uzbekistan 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Vatican 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Venezuela 💥
+  - Billing metric removed: [ChimeVoiceConnector] ChimeVoiceConnector USA to Viet Nam 💥
+
+
 ## 2026-04-03 16:30
 
 **Modified services:**
