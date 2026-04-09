@@ -33120,3 +33120,4 @@
 - workspacesinstances
 - securityincidentresponse
 - unifiedoperations
+- secagent
