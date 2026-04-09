@@ -1,3 +1,260 @@
+## 2026-04-09 01:59
+
+**Modified services:**
+
+- [es](processed/es.json)
+  - Billing metric removed: 4esb8nnCNikOR7M6P9hu4IbXmgZ-OQNyXj1W34dc9lI V2 💥
+  - Billing metric removed: BTOaKA3f6Q0kVA_gbWZve59QK4O5RcSa-9b9AHzFnMY V2 💥
+  - Billing metric removed: GQX2ebEW77_yQN-wZ2YzGHU-uQWGHDbwN-hxl11MK5Y V2 💥
+  - Billing metric removed: MZ4lvkk6eaJ4Yk_eWnbhx82xMCtMaypWFK_Hpd-uSYg V2 💥
+  - Billing metric removed: QSlesJbxdJqERdhr-SLF4CoOoM8buL52K5xZdkPfK70 V2 💥
+  - Billing metric removed: QwVcT8eZdemK-_oW7ZYFxP3_KMV1uWzXuiQMXepoiKU V2 💥
+  - Billing metric removed: RtGHXnGTrkyzURG0H7jIUhbWYP6nN2-nklkFffbe3dk V2 💥
+  - Billing metric removed: WFLSnZWL10rckVdbMLhRbyGqrGP8utrkLVlAsyGIMiI V2 💥
+  - Billing metric removed: dAKM9JF3pqVmCInKdHywKcUtYOCyI0Mh5OjAPm9odGw V2 💥
+  - Billing metric removed: fI9_1TaDA9EI_6pTvndxOGtCGtJflpr0s5RHgqAB104 V2 💥
+  - Billing metric removed: kDvqPcuCwNqSGokjnHCHESVa7jmiq7HMOfrpZWR7np4 V2 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i large.search - General purpose - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i large.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 8xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 12xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i 12xlarge.search - Memory optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: r7i 8xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: m7i large.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 16xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 4xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 4xlarge.search - Memory optimized - OnDemand - EBS Only - - - Hourly Cost 💥
+  - Billing metric removed: r7i 16xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: c7i 12xlarge.search - Compute optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 2xlarge.search - Compute optimized - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - All Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i xlarge.search - Memory optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost 💥
+  - Billing metric removed: m7i 16xlarge.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost 💥
+  - Billing metric removed: c7i 8xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: m7i xlarge.search - General purpose - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: m7i 2xlarge.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i large.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost 💥
+  - Billing metric removed: r7i 2xlarge.search - Memory optimized - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost 💥
+  - Billing metric removed: c7i 4xlarge.search - Compute optimized - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost 💥
+  - Price decreased: t3 medium.search - General purpose - Reserved - EBS Only - All Upfront - 1yr - PrepaidCost Asia Pacific (Malaysia) (vCPU: 2, Memory (GiB): 4)  **$650.48** → **$542.07** 💸
+  - Price decreased: t3 medium.search - General purpose - Reserved - EBS Only - All Upfront - 3yr - PrepaidCost Asia Pacific (Malaysia) (vCPU: 2, Memory (GiB): 4)  **$1701.26** → **$1200.89** 💸
+  - Price decreased: t3 medium.search - General purpose - Reserved - EBS Only - No Upfront - 1yr - Hourly Cost Asia Pacific (Malaysia) (vCPU: 2, Memory (GiB): 4)  **$0.08** → **$0.07** 💸
+  - Price decreased: t3 medium.search - General purpose - Reserved - EBS Only - No Upfront - 3yr - Hourly Cost Asia Pacific (Malaysia) (vCPU: 2, Memory (GiB): 4)  **$0.07** → **$0.05** 💸
+  - Price decreased: t3 medium.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - Hourly Cost Asia Pacific (Malaysia) (vCPU: 2, Memory (GiB): 4)  **$0.04** → **$0.03** 💸
+  - Price decreased: t3 medium.search - General purpose - Reserved - EBS Only - Partial Upfront - 1yr - PrepaidCost Asia Pacific (Malaysia) (vCPU: 2, Memory (GiB): 4)  **$333.58** → **$279.37** 💸
+  - Price decreased: t3 medium.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - Hourly Cost Asia Pacific (Malaysia) (vCPU: 2, Memory (GiB): 4)  **$0.03** → **$0.02** 💸
+  - Price decreased: t3 medium.search - General purpose - Reserved - EBS Only - Partial Upfront - 3yr - PrepaidCost Asia Pacific (Malaysia) (vCPU: 2, Memory (GiB): 4)  **$875.65** → **$625.46** 💸
+
+
 ## 2026-04-08 20:31
 
 **Modified services:**
