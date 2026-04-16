@@ -1,3 +1,29 @@
+## 2026-04-16 21:33
+
+**Modified services:**
+
+- [workspaces](processed/workspaces.json)
+  - Billing metric added: [Ubuntu Linux General Purpose AutoStop Billed by the month Included] 💡
+  - Billing metric added: [Ubuntu Linux General Purpose AutoStop Billed by the hour Included] 💡
+  - Billing metric added: [Ubuntu Linux General Purpose AlwaysOn Billed by the month Included] 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AlwaysOn Billed by the month Included] 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AutoStop Billed by the hour Included] 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AutoStop Billed by the month Included] 💡
+  - Billing metric added: [Windows Graphics AutoStop Billed by the month Included] Windows Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License Included;Windows Graphics Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics AlwaysOn Billed by the month BYOL] Windows Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows Graphics Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics AutoStop Billed by the hour Included] Windows Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License Included;Windows Graphics Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics AlwaysOn Billed by the month Included] Windows Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License Included;Windows Graphics Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics AutoStop Billed by the hour BYOL] 💡
+  - Billing metric added: [Windows Graphics AutoStop Billed by the month BYOL] 💡
+  - Billing metric added: [Windows Graphics AutoStop Billed by the month Included] 💡
+  - Billing metric added: [Windows Graphics AlwaysOn Billed by the month BYOL] 💡
+  - Billing metric added: [Windows Graphics AutoStop Billed by the hour Included] 💡
+  - Billing metric added: [Windows Graphics AlwaysOn Billed by the month Included] 💡
+  - Billing metric added: Application Bundle Graphics License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics License Included Windows Server 2019 Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics License Included Windows Basic utilities AlwaysOn 💡
+
+
 ## 2026-04-09 01:59
 
 **Modified services:**
