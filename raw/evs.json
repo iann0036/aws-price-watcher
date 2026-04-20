@@ -2,14 +2,35 @@
     "manifest": {
         "serviceId": "evs",
         "accessType": "publish",
-        "esIndex": "plc-evs-usd-20251215094014",
-        "hawkFilePublicationDate": "2025-12-15T09:40:14Z",
-        "ETLIngestionTriggerDate": "2025-12-15T09:40:14Z",
+        "esIndex": "plc-evs-usd-20260420070511",
+        "hawkFilePublicationDate": "2026-04-20T07:05:11Z",
+        "ETLIngestionTriggerDate": "2026-04-20T07:05:11Z",
         "currencyCode": "USD",
         "source": "evs",
         "isMapped": "true"
     },
     "sets": {
+        "Amazon Elastic VMware Service": [
+            "3WUUUXZEHJBX55JC JRTCKXETXF.6YS6EN2CT7 0",
+            "BQPKQT56BJWA5B74 JRTCKXETXF.6YS6EN2CT7 0",
+            "BWMQG5QDH59MMHPP JRTCKXETXF.6YS6EN2CT7 0",
+            "CC475S9BMXA38BHP JRTCKXETXF.6YS6EN2CT7 0",
+            "CG24332PCGKTS58P JRTCKXETXF.6YS6EN2CT7 0",
+            "D2RDQZ8QAK5P522K JRTCKXETXF.6YS6EN2CT7 0",
+            "GA9SMY4UEF5KFA3B JRTCKXETXF.6YS6EN2CT7 0",
+            "HXCWVY4UMRPBT37J JRTCKXETXF.6YS6EN2CT7 0",
+            "MZ382U24CC92X2BZ JRTCKXETXF.6YS6EN2CT7 0",
+            "N5MWNXZ6VKAG9U27 JRTCKXETXF.6YS6EN2CT7 0",
+            "NJ78BGZ39MWR9PF9 JRTCKXETXF.6YS6EN2CT7 0",
+            "P9CQUZ37KHVERQ92 JRTCKXETXF.6YS6EN2CT7 0",
+            "PHEBYPRXBE2NF6ZF JRTCKXETXF.6YS6EN2CT7 0",
+            "R84GSS7QEABT3U3X JRTCKXETXF.6YS6EN2CT7 0",
+            "SJ96UETCRNEPFW5U JRTCKXETXF.6YS6EN2CT7 0",
+            "TAKRSSRSAQWHMPPM JRTCKXETXF.6YS6EN2CT7 0",
+            "VE2FT68PYCSVM4E9 JRTCKXETXF.6YS6EN2CT7 0",
+            "Y8BVY8XZ6EBY5HZB JRTCKXETXF.6YS6EN2CT7 0",
+            "YWBFT6M4KXKQK3KS JRTCKXETXF.6YS6EN2CT7 0"
+        ],
         "Amazon Elastic VMware Service BYOS": [
             "2QKSJXRF8T69Q7F9 JRTCKXETXF.6YS6EN2CT7 0",
             "4QGPN4X2MUDU2BTV JRTCKXETXF.6YS6EN2CT7 0",
@@ -34,6 +55,14 @@
     },
     "regions": {
         "US West (Oregon)": {
+            "N5MWNXZ6VKAG9U27 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "N5MWNXZ6VKAG9U27.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9200000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "J7NABCBBEDWEVPZX JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "J7NABCBBEDWEVPZX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.9200000000",
@@ -49,9 +78,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "N5MWNXZ6VKAG9U27.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9200000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "US West (N. California)": {
+            "PHEBYPRXBE2NF6ZF JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "PHEBYPRXBE2NF6ZF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0100000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "USDXA48SKK2Q3BZ9 JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "USDXA48SKK2Q3BZ9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0100000000",
@@ -67,9 +112,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "PHEBYPRXBE2NF6ZF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0100000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "US East (Ohio)": {
+            "Y8BVY8XZ6EBY5HZB JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "Y8BVY8XZ6EBY5HZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9200000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "GP72ARY5KC3N23J2 JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "GP72ARY5KC3N23J2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.9200000000",
@@ -85,9 +146,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "Y8BVY8XZ6EBY5HZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9200000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "US East (N. Virginia)": {
+            "SJ96UETCRNEPFW5U JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "SJ96UETCRNEPFW5U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9200000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "2QKSJXRF8T69Q7F9 JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "2QKSJXRF8T69Q7F9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.9200000000",
@@ -103,9 +180,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "SJ96UETCRNEPFW5U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9200000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "South America (Sao Paulo)": {
+            "MZ382U24CC92X2BZ JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "MZ382U24CC92X2BZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "KSTP7WYTZ8HYNRFT JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "KSTP7WYTZ8HYNRFT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.4700000000",
@@ -121,9 +214,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "MZ382U24CC92X2BZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Mexico (Central)": {
+            "NJ78BGZ39MWR9PF9 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "NJ78BGZ39MWR9PF9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "S69ABSA7TJS23A8N JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "S69ABSA7TJS23A8N.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.9700000000",
@@ -139,9 +248,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "NJ78BGZ39MWR9PF9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "EU (Paris)": {
+            "TAKRSSRSAQWHMPPM JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "TAKRSSRSAQWHMPPM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "6KWHQB7MPZZ83WYR JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "6KWHQB7MPZZ83WYR.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0700000000",
@@ -157,9 +282,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "TAKRSSRSAQWHMPPM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "EU (Milan)": {
+            "CC475S9BMXA38BHP JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "CC475S9BMXA38BHP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "SP2NH6BVXC92V5BT JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "SP2NH6BVXC92V5BT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0700000000",
@@ -175,9 +316,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "CC475S9BMXA38BHP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "EU (London)": {
+            "D2RDQZ8QAK5P522K JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "D2RDQZ8QAK5P522K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "6H87UXGV8U9XZAJE JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "6H87UXGV8U9XZAJE.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0700000000",
@@ -193,9 +350,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "D2RDQZ8QAK5P522K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0700000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "EU (Ireland)": {
+            "YWBFT6M4KXKQK3KS JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "YWBFT6M4KXKQK3KS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0100000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "XSAJKYVXZH8QWRFA JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "XSAJKYVXZH8QWRFA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0100000000",
@@ -211,9 +384,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "YWBFT6M4KXKQK3KS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0100000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "EU (Frankfurt)": {
+            "VE2FT68PYCSVM4E9 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "VE2FT68PYCSVM4E9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1000000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "CFDE6D6YREE43P2J JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "CFDE6D6YREE43P2J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.1000000000",
@@ -229,9 +418,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "VE2FT68PYCSVM4E9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1000000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Canada West (Calgary)": {
+            "HXCWVY4UMRPBT37J JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "HXCWVY4UMRPBT37J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0100000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "8YFURKWPXSBHFE3G JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "8YFURKWPXSBHFE3G.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0100000000",
@@ -247,9 +452,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "HXCWVY4UMRPBT37J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0100000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Canada (Central)": {
+            "BWMQG5QDH59MMHPP JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "BWMQG5QDH59MMHPP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0100000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "TBHXXD6CSF5EBQ9M JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "TBHXXD6CSF5EBQ9M.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0100000000",
@@ -265,9 +486,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "BWMQG5QDH59MMHPP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0100000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Asia Pacific (Tokyo)": {
+            "P9CQUZ37KHVERQ92 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "P9CQUZ37KHVERQ92.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0800000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "USYH4SCF2NJNDZTS JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "USYH4SCF2NJNDZTS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0800000000",
@@ -283,9 +520,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "P9CQUZ37KHVERQ92.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0800000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Asia Pacific (Sydney)": {
+            "GA9SMY4UEF5KFA3B JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "GA9SMY4UEF5KFA3B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1000000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "BVP4CFZC6MDD8AMS JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "BVP4CFZC6MDD8AMS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.1000000000",
@@ -301,9 +554,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "GA9SMY4UEF5KFA3B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1000000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Asia Pacific (Singapore)": {
+            "CG24332PCGKTS58P JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "CG24332PCGKTS58P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1000000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "X7S6MS7BDQYZNNE5 JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "X7S6MS7BDQYZNNE5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.1000000000",
@@ -319,9 +588,25 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "CG24332PCGKTS58P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1000000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Asia Pacific (Mumbai)": {
+            "3WUUUXZEHJBX55JC JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "3WUUUXZEHJBX55JC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0400000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "4QGPN4X2MUDU2BTV JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "4QGPN4X2MUDU2BTV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0400000000",
@@ -337,12 +622,28 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "3WUUUXZEHJBX55JC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0400000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Asia Pacific (Malaysia)": {
+            "R84GSS7QEABT3U3X JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "R84GSS7QEABT3U3X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9900000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "6Z7SZTVJWWW7MV3K JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "6Z7SZTVJWWW7MV3K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1000000000",
+                "price": "0.9900000000",
                 "RegionlessRateCode": "kCp8WmITdxb3qntRHVG2XnCGLzhwYSbv7uofQNBhhso",
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
@@ -350,14 +651,30 @@
             },
             "kCp8WmITdxb3qntRHVG2XnCGLzhwYSbv7uofQNBhhso": {
                 "rateCode": "6Z7SZTVJWWW7MV3K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1000000000",
+                "price": "0.9900000000",
                 "RegionlessRateCode": "kCp8WmITdxb3qntRHVG2XnCGLzhwYSbv7uofQNBhhso",
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "R84GSS7QEABT3U3X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9900000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         },
         "Asia Pacific (Hyderabad)": {
+            "BQPKQT56BJWA5B74 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "BQPKQT56BJWA5B74.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0400000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
+            },
             "RGX2MD4YB3AEMHAK JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "RGX2MD4YB3AEMHAK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0400000000",
@@ -373,6 +690,14 @@
                 "Product Family": "Amazon Elastic VMware Service",
                 "Subscription Model": "Bring your own VCF subscription",
                 "Instance Type": "i4i.metal"
+            },
+            "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM": {
+                "rateCode": "BQPKQT56BJWA5B74.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0400000000",
+                "RegionlessRateCode": "lAEdfd7tlm0a4EIreYGZPA-JW7SVAaFuOZTjVN_FPSM",
+                "Product Family": "Amazon Elastic VMware Service",
+                "Subscription Model": "",
+                "Instance Type": ""
             }
         }
     }

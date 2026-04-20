@@ -1,3 +1,12 @@
+## 2026-04-20 07:07
+
+**Modified services:**
+
+- [evs](processed/evs.json)
+  - Billing metric added: [Amazon Elastic VMware Service] 💡
+  - Price decreased: [Amazon Elastic VMware Service BYOS] Asia Pacific (Malaysia) (Product Family: Amazon Elastic VMware Service, Subscription Model: Bring your own VCF subscription, Instance Type: i4i.metal)  **$1.10** → **$0.99** 💸
+
+
 ## 2026-04-17 13:56
 
 **Modified services:**
