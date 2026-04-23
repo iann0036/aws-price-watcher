@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "redshift",
         "accessType": "publish",
-        "esIndex": "plc-redshift-usd-20260324034022",
-        "hawkFilePublicationDate": "2026-03-24T03:40:22Z",
-        "ETLIngestionTriggerDate": "2026-03-24T03:40:22Z",
+        "esIndex": "plc-redshift-usd-20260423193445",
+        "hawkFilePublicationDate": "2026-04-23T19:34:45Z",
+        "ETLIngestionTriggerDate": "2026-04-23T19:34:45Z",
         "currencyCode": "USD",
         "source": "redshift",
         "isMapped": "true"
@@ -365,7 +365,14 @@
             "ZBGZFYZHKC9D5TMP JRTCKXETXF.6YS6EN2CT7 1",
             "ZG3NJWUG8W6DZK8F JRTCKXETXF.6YS6EN2CT7 1",
             "2PUT63P5QXA89RXT JRTCKXETXF.6YS6EN2CT7 1",
+            "38FAYCF3QHQ4P49K JRTCKXETXF.6YS6EN2CT7 1",
             "3SK8MTAHNKA8SXDC JRTCKXETXF.6YS6EN2CT7 1",
+            "5ETDYMKS9J22ZQC3 JRTCKXETXF.6YS6EN2CT7 1",
+            "5RXVAM8DQ4UXZ7FU JRTCKXETXF.6YS6EN2CT7 1",
+            "6VDJTHBR8DHTKQBC JRTCKXETXF.6YS6EN2CT7 1",
+            "87K46WXCUE9MTJ9U JRTCKXETXF.6YS6EN2CT7 1",
+            "8HUTA9DGQT4QJJRB JRTCKXETXF.6YS6EN2CT7 1",
+            "96W5U6ACUP9ZW93P JRTCKXETXF.6YS6EN2CT7 1",
             "9KACQCW48J7W2JNU JRTCKXETXF.6YS6EN2CT7 1",
             "9YVSEVD7R6KTFSR9 JRTCKXETXF.6YS6EN2CT7 1",
             "CMS7V8FHURA8AE8Q JRTCKXETXF.6YS6EN2CT7 1",
@@ -374,11 +381,22 @@
             "DBY7GF7TGZ84ZNQP JRTCKXETXF.6YS6EN2CT7 1",
             "JDS7WHHRE2S3GTCV JRTCKXETXF.6YS6EN2CT7 1",
             "K73QT8HS4JP5T6C7 JRTCKXETXF.6YS6EN2CT7 1",
+            "N8T5CZQW7SPC2VDU JRTCKXETXF.6YS6EN2CT7 1",
             "NEA6A62AY32CZ2DE JRTCKXETXF.6YS6EN2CT7 1",
+            "P2NEPGA4EG4KPE8G JRTCKXETXF.6YS6EN2CT7 1",
+            "QEWQRB8UEKE9H4ZR JRTCKXETXF.6YS6EN2CT7 1",
+            "QM3NAHZRAPVBSXSU JRTCKXETXF.6YS6EN2CT7 1",
             "S4AU3ZGSA7BBNMAR JRTCKXETXF.6YS6EN2CT7 1",
+            "SR82ACUCXNHA2SJJ JRTCKXETXF.6YS6EN2CT7 1",
+            "UVS285FG22VGMUJC JRTCKXETXF.6YS6EN2CT7 1",
             "VPG8Q6WCAHMM9HG9 JRTCKXETXF.6YS6EN2CT7 1",
+            "VR3JT99756ANWR3C JRTCKXETXF.6YS6EN2CT7 1",
+            "W7GAD6RAYTQ5TWQY JRTCKXETXF.6YS6EN2CT7 1",
             "X748MSPEBCR6GFYX JRTCKXETXF.6YS6EN2CT7 1",
+            "XD9ZDMN22X5ENQ89 JRTCKXETXF.6YS6EN2CT7 1",
             "ZAFC9C6NA2XP72TW JRTCKXETXF.6YS6EN2CT7 1",
+            "ZBVX3M9R9UZ9D77E JRTCKXETXF.6YS6EN2CT7 1",
+            "ZY4JEBB66GGXCWDZ JRTCKXETXF.6YS6EN2CT7 1",
             "2GDWU5C6DNMQYJA3 JRTCKXETXF.6YS6EN2CT7 1",
             "4BRNU75DD8HJ2J9F JRTCKXETXF.6YS6EN2CT7 1",
             "4TPRRQG4A35MHC56 JRTCKXETXF.6YS6EN2CT7 1",
@@ -584,6 +602,18 @@
                 "Storage": "",
                 "I/O": "",
                 "Instance Type": "ra3.4xlarge",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
+            "QEWQRB8UEKE9H4ZR JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "QEWQRB8UEKE9H4ZR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
                 "ECU": "",
                 "Usage Family": "RA3"
             },
@@ -836,6 +866,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "US West (Oregon)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "QEWQRB8UEKE9H4ZR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "US West (Oregon)"
             },
@@ -1476,6 +1519,19 @@
                 "Usage Family": "RA3",
                 "Location": "US West (Oregon)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "MENTJVXS8KKTHVAP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "US West (Oregon)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "83Z8QEEGB2JT3HA9.HU7G6KETJZ.2TG2D8R56U",
                 "price": "38267",
@@ -1641,6 +1697,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "QEWQRB8UEKE9H4ZR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "2VAZHFPDESJT3PQP.JRTCKXETXF.6YS6EN2CT7",
@@ -1896,6 +1964,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "N8T5CZQW7SPC2VDU JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "N8T5CZQW7SPC2VDU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "VSRVTXKADP9BYTYD JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "VSRVTXKADP9BYTYD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003300000",
@@ -2132,6 +2212,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "US West (N. California)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "N8T5CZQW7SPC2VDU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "US West (N. California)"
             },
@@ -2733,6 +2826,19 @@
                 "Usage Family": "RA3",
                 "Location": "US West (N. California)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "ZDMEXF3FJEV559UW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "US West (N. California)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "SWV9H86MTZD2HWRK.HU7G6KETJZ.2TG2D8R56U",
                 "price": "42328.5",
@@ -2886,6 +2992,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "N8T5CZQW7SPC2VDU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "XM63V7ZJXDN5FFD7.JRTCKXETXF.6YS6EN2CT7",
@@ -3153,6 +3271,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "SR82ACUCXNHA2SJJ JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "SR82ACUCXNHA2SJJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "N4YMG2SWET5F3WPM JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "N4YMG2SWET5F3WPM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003000000",
@@ -3402,6 +3532,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "US East (Ohio)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "SR82ACUCXNHA2SJJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "US East (Ohio)"
             },
@@ -4042,6 +4185,19 @@
                 "Usage Family": "RA3",
                 "Location": "US East (Ohio)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "E6VM4D9GWH9WGRV3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "US East (Ohio)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "AFYJCJNP3TFCDPBZ.HU7G6KETJZ.2TG2D8R56U",
                 "price": "38267",
@@ -4207,6 +4363,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "SR82ACUCXNHA2SJJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "8AZ6A82GNCWB7PFB.JRTCKXETXF.6YS6EN2CT7",
@@ -4486,6 +4654,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "38FAYCF3QHQ4P49K JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "38FAYCF3QHQ4P49K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "WMJBZZW5JG7U6TPH JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "WMJBZZW5JG7U6TPH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003000000",
@@ -4735,6 +4915,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "US East (N. Virginia)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "38FAYCF3QHQ4P49K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "US East (N. Virginia)"
             },
@@ -5375,6 +5568,19 @@
                 "Usage Family": "RA3",
                 "Location": "US East (N. Virginia)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "9T2TWPVN5FDYCWSB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "US East (N. Virginia)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "V3SQDWYU5P43BXJU.HU7G6KETJZ.2TG2D8R56U",
                 "price": "38267",
@@ -5540,6 +5746,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "38FAYCF3QHQ4P49K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "YQV5REMUWQM38HB9.JRTCKXETXF.6YS6EN2CT7",
@@ -5795,6 +6013,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "96W5U6ACUP9ZW93P JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "96W5U6ACUP9ZW93P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002400000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "XQCYY8W5UFA37XRK JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "XQCYY8W5UFA37XRK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0004800000",
@@ -6031,6 +6261,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "South America (Sao Paulo)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "96W5U6ACUP9ZW93P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002400000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "South America (Sao Paulo)"
             },
@@ -6632,6 +6875,19 @@
                 "Usage Family": "RA3",
                 "Location": "South America (Sao Paulo)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "Z749T88PKA7AGNYA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "South America (Sao Paulo)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "RC3Z2QY7BHCYXFR2.HU7G6KETJZ.2TG2D8R56U",
                 "price": "60980.5",
@@ -6785,6 +7041,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "96W5U6ACUP9ZW93P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002400000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "HZ6AA363B4KXGXP8.JRTCKXETXF.6YS6EN2CT7",
@@ -13333,6 +13601,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "ZY4JEBB66GGXCWDZ JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "ZY4JEBB66GGXCWDZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001600000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "VB8MEZJP9EM6W2TW JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "VB8MEZJP9EM6W2TW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003100000",
@@ -13582,6 +13862,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "EU (Stockholm)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "ZY4JEBB66GGXCWDZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001600000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "EU (Stockholm)"
             },
@@ -14222,6 +14515,19 @@
                 "Usage Family": "RA3",
                 "Location": "EU (Stockholm)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "ERXQC5WR9AK2GSTX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "EU (Stockholm)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "ZNZ9UNWJTM7D27FR.HU7G6KETJZ.2TG2D8R56U",
                 "price": "40130.5",
@@ -14399,6 +14705,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "ZY4JEBB66GGXCWDZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001600000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "FPXXVUZGH5XB4H3J.JRTCKXETXF.6YS6EN2CT7",
@@ -14714,6 +15032,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "QM3NAHZRAPVBSXSU JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "QM3NAHZRAPVBSXSU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "UVFGA79MFPJCA9W3 JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "UVFGA79MFPJCA9W3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003300000",
@@ -15009,6 +15339,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "EU (Spain)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "QM3NAHZRAPVBSXSU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "EU (Spain)"
             },
@@ -15766,6 +16109,19 @@
                 "Usage Family": "RA3",
                 "Location": "EU (Spain)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "9SCRVD5HA6VA3RCW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "EU (Spain)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "SHGENYN5N88QDTS7.HU7G6KETJZ.2TG2D8R56U",
                 "price": "42311",
@@ -15919,6 +16275,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "QM3NAHZRAPVBSXSU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "328VEW46KZ4U7HK3.JRTCKXETXF.6YS6EN2CT7",
@@ -16153,6 +16521,18 @@
                 "Storage": "",
                 "I/O": "",
                 "Instance Type": "ra3.4xlarge",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
+            "VR3JT99756ANWR3C JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "VR3JT99756ANWR3C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
                 "ECU": "",
                 "Usage Family": "RA3"
             },
@@ -16392,6 +16772,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "EU (Paris)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "VR3JT99756ANWR3C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "EU (Paris)"
             },
@@ -16993,6 +17386,19 @@
                 "Usage Family": "RA3",
                 "Location": "EU (Paris)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "5RSDFTY54TT2DEEV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "EU (Paris)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "9VDKUTD5B966RFC3.HU7G6KETJZ.2TG2D8R56U",
                 "price": "44547",
@@ -17146,6 +17552,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "VR3JT99756ANWR3C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "ETTZQ6Y2WUKNP5VG.JRTCKXETXF.6YS6EN2CT7",
@@ -18531,6 +18949,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "W7GAD6RAYTQ5TWQY JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "W7GAD6RAYTQ5TWQY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "PD7GDYCQZFE5R7PQ JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "PD7GDYCQZFE5R7PQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003500000",
@@ -18780,6 +19210,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "EU (London)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "W7GAD6RAYTQ5TWQY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "EU (London)"
             },
@@ -19420,6 +19863,19 @@
                 "Usage Family": "RA3",
                 "Location": "EU (London)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "RVYVEZBW9DG3VMKS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "EU (London)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "7C9N5D2H2H8PJZ3J.HU7G6KETJZ.2TG2D8R56U",
                 "price": "44529.5",
@@ -19597,6 +20053,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "W7GAD6RAYTQ5TWQY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "B6U4WNWD7KST72VM.JRTCKXETXF.6YS6EN2CT7",
@@ -19936,6 +20404,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "8HUTA9DGQT4QJJRB JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "8HUTA9DGQT4QJJRB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "BH7VTYBB65P7WX3B JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "BH7VTYBB65P7WX3B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003300000",
@@ -20185,6 +20665,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "EU (Ireland)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "8HUTA9DGQT4QJJRB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "EU (Ireland)"
             },
@@ -20825,6 +21318,19 @@
                 "Usage Family": "RA3",
                 "Location": "EU (Ireland)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "CR69CTVVHTNFZSRJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "EU (Ireland)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "NSVHWEZ45KBAJD8E.HU7G6KETJZ.2TG2D8R56U",
                 "price": "42328.5",
@@ -20990,6 +21496,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "8HUTA9DGQT4QJJRB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "EPJAA2R8464RAN7W.JRTCKXETXF.6YS6EN2CT7",
@@ -21245,6 +21763,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "UVS285FG22VGMUJC JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "UVS285FG22VGMUJC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "BCD3X4JFNWKY8T27 JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "BCD3X4JFNWKY8T27.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003600000",
@@ -21481,6 +22011,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "EU (Frankfurt)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "UVS285FG22VGMUJC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "EU (Frankfurt)"
             },
@@ -22082,6 +22625,19 @@
                 "Usage Family": "RA3",
                 "Location": "EU (Frankfurt)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "T6F7KHV4A55W7TQ8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "EU (Frankfurt)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "DRYG98UXVGBHY46Q.HU7G6KETJZ.2TG2D8R56U",
                 "price": "45715",
@@ -22235,6 +22791,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "UVS285FG22VGMUJC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "QXX2WFF4DAJJGRUB.JRTCKXETXF.6YS6EN2CT7",
@@ -23444,6 +24012,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "5RXVAM8DQ4UXZ7FU JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "5RXVAM8DQ4UXZ7FU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "YMPBCFMSSYTJREZG JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "YMPBCFMSSYTJREZG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003300000",
@@ -23680,6 +24260,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "Canada (Central)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "5RXVAM8DQ4UXZ7FU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "Canada (Central)"
             },
@@ -24281,6 +24874,19 @@
                 "Usage Family": "RA3",
                 "Location": "Canada (Central)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "P32U474D58Q5JNRS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "Canada (Central)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "65QJHQGV7NUBQW4W.HU7G6KETJZ.2TG2D8R56U",
                 "price": "42346",
@@ -24434,6 +25040,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "5RXVAM8DQ4UXZ7FU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "KNNM9Q2P8PFN4TWG.JRTCKXETXF.6YS6EN2CT7",
@@ -24701,6 +25319,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "87K46WXCUE9MTJ9U JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "87K46WXCUE9MTJ9U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "2GDWU5C6DNMQYJA3 JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "2GDWU5C6DNMQYJA3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003500000",
@@ -24950,6 +25580,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Tokyo)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "87K46WXCUE9MTJ9U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Tokyo)"
             },
@@ -25590,6 +26233,19 @@
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Tokyo)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "PUN6YKYXV9WF28ZX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Tokyo)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "NBEF7CTZQ8WAZ5NU.HU7G6KETJZ.2TG2D8R56U",
                 "price": "45037",
@@ -25755,6 +26411,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "87K46WXCUE9MTJ9U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "9S2A7458HR3B9ZMM.JRTCKXETXF.6YS6EN2CT7",
@@ -28338,6 +29006,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "ZBVX3M9R9UZ9D77E JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "ZBVX3M9R9UZ9D77E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "ESP4X2R268YCFJ9N JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "ESP4X2R268YCFJ9N.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003600000",
@@ -28574,6 +29254,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Sydney)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "ZBVX3M9R9UZ9D77E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Sydney)"
             },
@@ -29175,6 +29868,19 @@
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Sydney)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "VUUQYVSXFCYDKZB7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Sydney)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "KVU7WSQCWAJGRD7K.HU7G6KETJZ.2TG2D8R56U",
                 "price": "45885.5",
@@ -29328,6 +30034,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "ZBVX3M9R9UZ9D77E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "TCTHXU5AG7JZNQFG.JRTCKXETXF.6YS6EN2CT7",
@@ -29571,6 +30289,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "5ETDYMKS9J22ZQC3 JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "5ETDYMKS9J22ZQC3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "4TPRRQG4A35MHC56 JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "4TPRRQG4A35MHC56.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003600000",
@@ -29807,6 +30537,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Singapore)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "5ETDYMKS9J22ZQC3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Singapore)"
             },
@@ -30408,6 +31151,19 @@
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Singapore)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "NXKQY66C33QXETGW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Singapore)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "VNARS8UDQG7H84X6.HU7G6KETJZ.2TG2D8R56U",
                 "price": "45885.5",
@@ -30561,6 +31317,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "5ETDYMKS9J22ZQC3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "E22PSXPJPTKPJRR9.JRTCKXETXF.6YS6EN2CT7",
@@ -30804,6 +31572,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "XD9ZDMN22X5ENQ89 JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "XD9ZDMN22X5ENQ89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "5S3J4GK44RNRU6XY JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "5S3J4GK44RNRU6XY.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003500000",
@@ -31040,6 +31820,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Seoul)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "XD9ZDMN22X5ENQ89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Seoul)"
             },
@@ -31641,6 +32434,19 @@
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Seoul)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "8K78YCHNUW49FFB6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Seoul)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "WEF8WC37P74ZXQ5D.HU7G6KETJZ.2TG2D8R56U",
                 "price": "45037",
@@ -31794,6 +32600,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "XD9ZDMN22X5ENQ89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "M5U3CDBPB67U579K.JRTCKXETXF.6YS6EN2CT7",
@@ -33880,6 +34698,18 @@
                 "ECU": "",
                 "Usage Family": "RA3"
             },
+            "6VDJTHBR8DHTKQBC JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "6VDJTHBR8DHTKQBC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "SHXXRMMPA5XBB6SA JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "SHXXRMMPA5XBB6SA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0003400000",
@@ -34103,6 +34933,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Mumbai)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "6VDJTHBR8DHTKQBC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Mumbai)"
             },
@@ -34691,6 +35534,19 @@
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Mumbai)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "YPJKQKGK6JQR74CT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Mumbai)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "QK9KZHWTXBEZ9PGV.HU7G6KETJZ.2TG2D8R56U",
                 "price": "43511",
@@ -34844,6 +35700,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "6VDJTHBR8DHTKQBC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001700000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "EHZA36FZUKTY9UUT.JRTCKXETXF.6YS6EN2CT7",
@@ -35027,6 +35895,18 @@
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375"
             },
+            "P2NEPGA4EG4KPE8G JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "P2NEPGA4EG4KPE8G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
+            },
             "G3WC4JRZQZX73PEM JRTCKXETXF.6YS6EN2CT7 2": {
                 "rateCode": "G3WC4JRZQZX73PEM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0980000000",
@@ -35056,6 +35936,19 @@
                 "I/O": "2.00 GB/s",
                 "Instance Type": "ra3.4xlarge",
                 "ECU": "37.125",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Melbourne)"
+            },
+            "05O_g5ZVVbN2T7d9k3njC_Qt6U4swD8jHBB7OV0a5ws": {
+                "rateCode": "2W5YMJT7EDHJ96TP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "05O_g5ZVVbN2T7d9k3njC_Qt6U4swD8jHBB7OV0a5ws",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.4xlarge",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Melbourne)"
             },
@@ -35189,6 +36082,19 @@
                 "Usage Family": "Dense Compute",
                 "Location": "Asia Pacific (Melbourne)"
             },
+            "5dKgAXRqbAn-DBMdBMwn0E90BsAQUvVt_29gfZiT4lc": {
+                "rateCode": "MFEVAYQXQPW5TZ8V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "5dKgAXRqbAn-DBMdBMwn0E90BsAQUvVt_29gfZiT4lc",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.16xlarge",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Melbourne)"
+            },
             "5emvmXUdLdJZAA80UAPwtXA3BMIYcKp_zX-nuo5RR2s": {
                 "rateCode": "483CEJWZ9G2YBYMF.NQ3QZPMQV9.2TG2D8R56U",
                 "price": "6421",
@@ -35251,6 +36157,19 @@
                 "I/O": "0.65 GB/s",
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Melbourne)"
+            },
+            "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E": {
+                "rateCode": "P2NEPGA4EG4KPE8G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Melbourne)"
             },
@@ -35447,6 +36366,19 @@
                 "Instance Type": "dc2.large",
                 "ECU": "7",
                 "Usage Family": "Dense Compute",
+                "Location": "Asia Pacific (Melbourne)"
+            },
+            "TX2YK6vnIeAs312m70AvRxOZvoI_jTU-kUyCPJFV2Ws": {
+                "rateCode": "NCBMUMYDUTN4X5WJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "TX2YK6vnIeAs312m70AvRxOZvoI_jTU-kUyCPJFV2Ws",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.xlplus",
+                "ECU": "",
+                "Usage Family": "RA3",
                 "Location": "Asia Pacific (Melbourne)"
             },
             "TeaHKWPer5VbLGJECJFU3t7pr2ZfRsm2ZiD74HAsz5c": {
@@ -35891,6 +36823,19 @@
                 "Usage Family": "RA3",
                 "Location": "Asia Pacific (Melbourne)"
             },
+            "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ": {
+                "rateCode": "MBU7PBNFX2P7QHPN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "ssX3sa_2tEF4KZhH5IEEk1NnHnuDHF6wdPaBEnUSnHQ",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3",
+                "Location": "Asia Pacific (Melbourne)"
+            },
             "u3BC8sbsSaNAifdwKeKWXJSwlvZ74yA_WUmYniujes4": {
                 "rateCode": "JX7J6W9YWCQXJF2Q.HU7G6KETJZ.2TG2D8R56U",
                 "price": "45885",
@@ -36005,6 +36950,18 @@
                 "I/O": "0.60 GB/s",
                 "Instance Type": "dc2.large",
                 "ECU": "7"
+            },
+            "ra3 large Redshift Concurrency Scaling Current Generation RA3": {
+                "rateCode": "P2NEPGA4EG4KPE8G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001800000",
+                "RegionlessRateCode": "E5pG7mMYerYggiWReDMq-SfqIk-1iQdL5ZTbRyWfT6E",
+                "Memory": "",
+                "vCPU": "",
+                "Storage": "",
+                "I/O": "",
+                "Instance Type": "ra3.large",
+                "ECU": "",
+                "Usage Family": "RA3"
             },
             "ra3 large OnDemand Compute Instance Current Generation": {
                 "rateCode": "483CEJWZ9G2YBYMF.JRTCKXETXF.6YS6EN2CT7",
