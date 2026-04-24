@@ -33400,6 +33400,7 @@
 - vmwarecloudonaws
 - endusermessaging3pfees
 - ingestionservicesnowball
+- config
 - chimedialinamcs
 - outposts
 - appstudio
