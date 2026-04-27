@@ -1,3 +1,12 @@
+## 2026-04-27 20:42
+
+**Modified services:**
+
+- [datatransfer](processed/datatransfer.json)
+  - Billing metric added: DataTransfer InterRegion Outbound to China Beijing 💡
+  - Billing metric added: [DataTransfer InterRegion Outbound] DataTransfer InterRegion Outbound to China Beijing;Cloudfrontless DataTransfer InterRegion Outbound to China Beijing;Cloudfrontless DataTransfer InterRegion Outbound to China Beijing No Wavelength;Backup DataTransfer InterRegion Outbound to China Beijing;RDS DataTransfer InterRegion Outbound to China Beijing 💡
+
+
 ## 2026-04-21 17:39
 
 **Modified services:**
