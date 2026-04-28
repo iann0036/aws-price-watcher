@@ -33460,3 +33460,4 @@
 - researchstudio
 - interconnect
 - evslicensesincluded
+- quicksuite
