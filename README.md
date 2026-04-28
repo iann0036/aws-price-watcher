@@ -1,3 +1,24 @@
+## 2026-04-28 17:56
+
+**Modified services:**
+
+- [supplychain](processed/supplychain.json)
+  - Billing metric removed: Sustainability Data Requests per Count Tier100 💥
+  - Billing metric removed: SCI Product SKU Location Combinations Tier1 💥
+  - Billing metric removed: Component SKU Location Combinations Tier1 💥
+  - Billing metric removed: SCI Product SKU Location Combinations Tier2 💥
+  - Billing metric removed: ADP Product SKU Location Combinations Tier1 💥
+  - Billing metric removed: ADP Product SKU Location Combinations Tier2 💥
+  - Billing metric removed: SCDL over 10GBStorage per GB month Tier2 💥
+  - Billing metric removed: SCDL up to 10GB Storage per hours 💥
+  - Billing metric removed: SCDL over 10GBStorage per GB month Tier1 💥
+  - Billing metric removed: SCI Product SKU Location Combinations Tier3 💥
+  - Billing metric removed: Component SKU Location Combinations per Count 10000 💥
+  - Billing metric removed: ADP Product SKU Location Combinations Tier3 💥
+  - Billing metric removed: Sustainability Data Requests per Count 100 💥
+  - Billing metric removed: SCDL hourly up to 10 GB storage per hours 💥
+
+
 ## 2026-04-27 20:42
 
 **Modified services:**
