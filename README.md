@@ -1,3 +1,28 @@
+## 2026-05-01 20:36
+
+**Modified services:**
+
+- [bedrockfoundationmodels](processed/bedrockfoundationmodels.json)
+  - Billing metric removed: gQvZtX0dmqAWDTV6Y9SzXxHGBXcgyUhVbQy7OJo0C7g 💥
+  - Billing metric removed: JeDAlarXTRffG00qCpliM9OkjUOq-RldUS_xjg5-tqQ 💥
+  - Billing metric removed: DBAbrpI4td-jmpYXRhQmgfE4oecwA5T8gg0csiMqdCg 💥
+  - Billing metric removed: H31sx6sypoSx3LR7C1byb5ShwDmV2tHwjXzD4o3C6LE 💥
+  - Billing metric removed: u-HDh5BqnHtpNmtquu_P4f26gmbEc-qK0EZU3buMIbs 💥
+  - Billing metric removed: wndpjREF-EkEnd_xHBYuavPj26G53t986590RgGrZG4 💥
+  - Billing metric removed: 2MAKqunzxOGE4ZuZ_UHGJS9QVhRe-gI0zrMN36fE22Q 💥
+  - Billing metric removed: ZmYTFvraShAb59JAPsEEjnZa3IX-5PZsQUZVtRx8KGI 💥
+  - Billing metric removed: GGtiC6ri0egTQmqIRC4JMGmbMF_EdMhGYLzfPNK3l5M 💥
+  - Billing metric removed: NXibZ3E_7H2mP12pchZKKkvF647mjZg8qWKlLBhbd5c 💥
+  - Billing metric removed: fkv249AUQId1MBdWjyFmBvnwDj2z88jCg_at8wa-vz0 💥
+  - Billing metric removed: VibI7Bp0m9qIdjoZpw1IzGH-W5FIzYK5lliHjyrIedY 💥
+  - Billing metric removed: G1JeK4cX_q7YZ821NB2a4eKJLsyELCmxsXsMz_YQSg8 💥
+  - Billing metric removed: P1GtLoKC-L-qhlR-dX5TUr8XrddEek4rLzxk-IciMjc 💥
+  - Billing metric removed: SypxHMl1QitVC43MtF4Vc3OFvllpVfprVuLyrLGrt9s 💥
+  - Billing metric removed: Epjp58LYXYtY48u82Q3-izRhqjQASe6lNLIkwXYVByY 💥
+  - Billing metric removed: MBmU7BTyS-PK2sDxE_xfkKn7-px3e2mPID0pF0cZxPY 💥
+  - Billing metric removed: bJEp8wXRae4CStGFTN2vZUeuvt5QqjFIe8x8EJPfJMo 💥
+
+
 ## 2026-04-28 17:56
 
 **Modified services:**
