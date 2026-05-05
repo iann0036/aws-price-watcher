@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "deadline",
         "accessType": "publish",
-        "esIndex": "plc-deadline-usd-20260505185747",
-        "hawkFilePublicationDate": "2026-05-05T18:57:47Z",
-        "ETLIngestionTriggerDate": "2026-05-05T18:57:47Z",
+        "esIndex": "plc-deadline-usd-20260505195146",
+        "hawkFilePublicationDate": "2026-05-05T19:51:46Z",
+        "ETLIngestionTriggerDate": "2026-05-05T19:51:46Z",
         "currencyCode": "USD",
         "source": "deadline",
         "isMapped": "true"
@@ -2411,6 +2411,7 @@
             "T9ZXJ98A2DCM9HY4 JRTCKXETXF.6YS6EN2CT7 0",
             "W5AJNQ4UN62HGC8Z JRTCKXETXF.6YS6EN2CT7 0",
             "2YNGEM7Y7EDBCK8X JRTCKXETXF.6YS6EN2CT7 0",
+            "64VXJMEZG3VBE9FU JRTCKXETXF.6YS6EN2CT7 0",
             "BKY3CDKTDZKNBWZ6 JRTCKXETXF.6YS6EN2CT7 0",
             "EZYBZ76QBAJK8B4P JRTCKXETXF.6YS6EN2CT7 0",
             "QP7T3ZFU9A9BU3QW JRTCKXETXF.6YS6EN2CT7 0",
@@ -5074,6 +5075,7 @@
             "T9ZXJ98A2DCM9HY4 JRTCKXETXF.6YS6EN2CT7 1",
             "W5AJNQ4UN62HGC8Z JRTCKXETXF.6YS6EN2CT7 1",
             "2YNGEM7Y7EDBCK8X JRTCKXETXF.6YS6EN2CT7 1",
+            "64VXJMEZG3VBE9FU JRTCKXETXF.6YS6EN2CT7 1",
             "BKY3CDKTDZKNBWZ6 JRTCKXETXF.6YS6EN2CT7 1",
             "EZYBZ76QBAJK8B4P JRTCKXETXF.6YS6EN2CT7 1",
             "QP7T3ZFU9A9BU3QW JRTCKXETXF.6YS6EN2CT7 1",
@@ -7739,6 +7741,7 @@
             "2P7TSWKA3GCHE4HW JRTCKXETXF.6YS6EN2CT7 1",
             "A3DBHYT2V6WWAUM6 JRTCKXETXF.6YS6EN2CT7 1",
             "CGH7ZMG7NFZDPXJS JRTCKXETXF.6YS6EN2CT7 1",
+            "EHY82VZPGM2QQASZ JRTCKXETXF.6YS6EN2CT7 1",
             "F9BMD57P5CH5UZNB JRTCKXETXF.6YS6EN2CT7 1",
             "WWSHQ2W4YQWMCSE6 JRTCKXETXF.6YS6EN2CT7 1",
             "3E6ZFWAG43QDEKFY JRTCKXETXF.6YS6EN2CT7 1",
@@ -83754,6 +83757,15 @@
                 "Instance Type": "r7a.16xlarge",
                 "PricePerUnit": "6.5379600000"
             },
+            "64VXJMEZG3VBE9FU JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "64VXJMEZG3VBE9FU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.8070000000",
+                "RegionlessRateCode": "b_3hsnFX2l1pSXI_HiuSkYcWCasmhh-BIFPDvwuIYAQ",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Instance Type": "r7a.24xlarge",
+                "PricePerUnit": "9.8070000000"
+            },
             "C2NHZWX4CHWU942R JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "C2NHZWX4CHWU942R.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.8172000000",
@@ -88290,6 +88302,24 @@
                 "Instance Type": "r7a.16xlarge",
                 "PricePerUnit": "10.0707600000"
             },
+            "64VXJMEZG3VBE9FU JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "64VXJMEZG3VBE9FU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.8070000000",
+                "RegionlessRateCode": "b_3hsnFX2l1pSXI_HiuSkYcWCasmhh-BIFPDvwuIYAQ",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Instance Type": "r7a.24xlarge",
+                "PricePerUnit": "9.8070000000"
+            },
+            "EHY82VZPGM2QQASZ JRTCKXETXF.6YS6EN2CT7 1": {
+                "rateCode": "EHY82VZPGM2QQASZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.1060000000",
+                "RegionlessRateCode": "-WxDhLhRXZJ27gvgb41m8lQT6f5BweXCd-94kxKkJyI",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Instance Type": "r7a.24xlarge",
+                "PricePerUnit": "15.1060000000"
+            },
             "C2NHZWX4CHWU942R JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "C2NHZWX4CHWU942R.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.8172000000",
@@ -88757,6 +88787,15 @@
                 "vCPU": "32",
                 "Instance Type": "c6i.8xlarge",
                 "PricePerUnit": "1.7510400000"
+            },
+            "-WxDhLhRXZJ27gvgb41m8lQT6f5BweXCd-94kxKkJyI": {
+                "rateCode": "EHY82VZPGM2QQASZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.1060000000",
+                "RegionlessRateCode": "-WxDhLhRXZJ27gvgb41m8lQT6f5BweXCd-94kxKkJyI",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Instance Type": "r7a.24xlarge",
+                "PricePerUnit": "15.1060000000"
             },
             "-azlHe582easyTVsb9qVo6wuieI0B1sMj41oj5zWfLc": {
                 "rateCode": "VNXCTD2XHEMQECHB.JRTCKXETXF.6YS6EN2CT7",
@@ -91898,6 +91937,15 @@
                 "vCPU": "",
                 "Instance Type": "",
                 "PricePerUnit": "0.5700000000"
+            },
+            "b_3hsnFX2l1pSXI_HiuSkYcWCasmhh-BIFPDvwuIYAQ": {
+                "rateCode": "64VXJMEZG3VBE9FU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.8070000000",
+                "RegionlessRateCode": "b_3hsnFX2l1pSXI_HiuSkYcWCasmhh-BIFPDvwuIYAQ",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Instance Type": "r7a.24xlarge",
+                "PricePerUnit": "9.8070000000"
             },
             "bfjbs_imF7s44DmCHgBflaQYfDGCWsVyLdh_ly1nEpI": {
                 "rateCode": "84DA39UKCRWTS69T.JRTCKXETXF.6YS6EN2CT7",
