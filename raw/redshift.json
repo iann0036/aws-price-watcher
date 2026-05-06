@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "redshift",
         "accessType": "publish",
-        "esIndex": "plc-redshift-usd-20260427212808",
-        "hawkFilePublicationDate": "2026-04-27T21:28:08Z",
-        "ETLIngestionTriggerDate": "2026-04-27T21:28:08Z",
+        "esIndex": "plc-redshift-usd-20260506174414",
+        "hawkFilePublicationDate": "2026-05-06T17:44:14Z",
+        "ETLIngestionTriggerDate": "2026-05-06T17:44:14Z",
         "currencyCode": "USD",
         "source": "redshift",
         "isMapped": "true"
@@ -214,7 +214,8 @@
             "WFPQ5MDSV6B6YZRW JRTCKXETXF.6YS6EN2CT7 0",
             "X5BMEDZ4GQ4927GX JRTCKXETXF.6YS6EN2CT7 0",
             "Y2B95ST26EF95MK8 JRTCKXETXF.6YS6EN2CT7 0",
-            "YVF6CSKM7D9MR6YP JRTCKXETXF.6YS6EN2CT7 0"
+            "YVF6CSKM7D9MR6YP JRTCKXETXF.6YS6EN2CT7 0",
+            "K3FHABTB4MWZGQKH JRTCKXETXF.6YS6EN2CT7 0"
         ],
         "Redshift Concurrency Scaling Current Generation Dense Compute": [
             "3P4ZKQ7WR4X92WVD JRTCKXETXF.6YS6EN2CT7 1",
@@ -27800,6 +27801,17 @@
                 "Instance Type": "ra3.xlplus",
                 "ECU": "12.375"
             },
+            "K3FHABTB4MWZGQKH JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "K3FHABTB4MWZGQKH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.8051400000",
+                "RegionlessRateCode": "I1SRnNPtUXO5Qq9reCgcOXVwy9XfEVnCp9GXKaASYz4",
+                "Memory": "32 GiB",
+                "vCPU": "4",
+                "Storage": "32TB",
+                "I/O": "0.65",
+                "Instance Type": "rg.xlarge",
+                "ECU": "2026.2"
+            },
             "VB94FX9DYNDCBD7K JRTCKXETXF.6YS6EN2CT7 1": {
                 "rateCode": "VB94FX9DYNDCBD7K.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0015210000",
@@ -28130,6 +28142,19 @@
                 "Instance Type": "ra3.16xlarge",
                 "ECU": "148.5",
                 "Usage Family": "RA3",
+                "Location": "Asia Pacific (Taipei)"
+            },
+            "I1SRnNPtUXO5Qq9reCgcOXVwy9XfEVnCp9GXKaASYz4": {
+                "rateCode": "K3FHABTB4MWZGQKH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.8051400000",
+                "RegionlessRateCode": "I1SRnNPtUXO5Qq9reCgcOXVwy9XfEVnCp9GXKaASYz4",
+                "Memory": "32 GiB",
+                "vCPU": "4",
+                "Storage": "32TB",
+                "I/O": "0.65",
+                "Instance Type": "rg.xlarge",
+                "ECU": "2026.2",
+                "Usage Family": "RG",
                 "Location": "Asia Pacific (Taipei)"
             },
             "ITO3p-su5eXlGzLIfW2Ht-AoZKFave60g11raECo0Fk": {

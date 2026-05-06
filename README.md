@@ -1,3 +1,11 @@
+## 2026-05-06 17:52
+
+**Modified services:**
+
+- [redshift](processed/redshift.json)
+  - Billing metric added: [OnDemand Compute Instance Current Generation] 💡
+
+
 ## 2026-05-01 20:36
 
 **Modified services:**
