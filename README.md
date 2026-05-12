@@ -1,3 +1,67 @@
+## 2026-05-12 16:09
+
+**Modified services:**
+
+- [redshift](processed/redshift.json)
+  - Billing metric added: [Redshift Concurrency Scaling Current Generation RG] 💡
+
+- [elasticache](processed/elasticache.json)
+  - Billing metric removed: [OnDemand Cache Instance Micro Valkey Previous Generation] OnDemand Cache Instance Micro cache t1.micro Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Valkey Previous Generation] OnDemand Cache Instance Memory optimized cache r3.8xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Valkey Previous Generation] OnDemand Cache Instance Standard cache m1.small Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Valkey Previous Generation] OnDemand Cache Instance Standard cache m3.large Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Valkey Previous Generation] OnDemand Cache Instance Standard cache m1.large Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Redis Previous Generation] OnDemand Cache Instance Memory optimized cache m2.2xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Memcached Previous Generation] OnDemand Cache Instance Standard cache m3.xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Redis Previous Generation] OnDemand Cache Instance Standard cache m3.medium Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Valkey Previous Generation] OnDemand Cache Instance Standard cache m1.xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Memcached Previous Generation] OnDemand Cache Instance Standard cache m3.medium Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Redis Previous Generation] OnDemand Cache Instance Memory optimized cache r3.xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Memcached Previous Generation] OnDemand Cache Instance Memory optimized cache r3.8xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Valkey Previous Generation] OnDemand Cache Instance Memory optimized cache r3.xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Valkey Previous Generation] OnDemand Cache Instance Standard cache m3.xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Redis Previous Generation] OnDemand Cache Instance Memory optimized cache r3.large Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Valkey Previous Generation] OnDemand Cache Instance Memory optimized cache m2.2xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Redis Previous Generation] OnDemand Cache Instance Memory optimized cache r3.4xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Micro Memcached Previous Generation] OnDemand Cache Instance Micro cache t1.micro Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Memcached Previous Generation] OnDemand Cache Instance Standard cache m1.small Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Redis Previous Generation] OnDemand Cache Instance Memory optimized cache m2.4xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Redis Previous Generation] OnDemand Cache Instance Memory optimized cache r3.2xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Valkey Previous Generation] OnDemand Cache Instance Memory optimized cache m2.4xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Redis Previous Generation] OnDemand Cache Instance Standard cache m1.medium Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Memcached Previous Generation] OnDemand Cache Instance Standard cache m3.2xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Valkey Previous Generation] OnDemand Cache Instance Memory optimized cache m2.xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Valkey Previous Generation] OnDemand Cache Instance Standard cache m3.2xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Memcached Previous Generation] OnDemand Cache Instance Memory optimized cache m2.xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Valkey Previous Generation] OnDemand Cache Instance Memory optimized cache r3.4xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Memcached Previous Generation] OnDemand Cache Instance Standard cache m1.medium Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Compute optimized Redis Previous Generation] OnDemand Cache Instance Compute optimized cache c1.xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Redis Previous Generation] OnDemand Cache Instance Standard cache m3.2xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Micro Redis Previous Generation] OnDemand Cache Instance Micro cache t1.micro Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Memcached Previous Generation] OnDemand Cache Instance Memory optimized cache m2.4xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Redis Previous Generation] OnDemand Cache Instance Memory optimized cache m2.xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Memcached Previous Generation] OnDemand Cache Instance Memory optimized cache r3.2xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Memcached Previous Generation] OnDemand Cache Instance Standard cache m3.large Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Redis Previous Generation] OnDemand Cache Instance Memory optimized cache r3.8xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Redis Previous Generation] OnDemand Cache Instance Standard cache m3.large Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Memcached Previous Generation] OnDemand Cache Instance Memory optimized cache r3.xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Valkey Previous Generation] OnDemand Cache Instance Standard cache m3.medium Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Redis Previous Generation] OnDemand Cache Instance Standard cache m1.large Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Redis Previous Generation] OnDemand Cache Instance Standard cache m1.small Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Memcached Previous Generation] OnDemand Cache Instance Standard cache m1.xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Compute optimized Memcached Previous Generation] OnDemand Cache Instance Compute optimized cache c1.xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Memcached Previous Generation] OnDemand Cache Instance Memory optimized cache m2.2xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Redis Previous Generation] OnDemand Cache Instance Standard cache m1.xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Memcached Previous Generation] OnDemand Cache Instance Memory optimized cache r3.4xlarge Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Memcached Previous Generation] OnDemand Cache Instance Standard cache m1.large Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Valkey Previous Generation] OnDemand Cache Instance Memory optimized cache r3.large Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Redis Previous Generation] OnDemand Cache Instance Standard cache m3.xlarge Redis Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Valkey Previous Generation] OnDemand Cache Instance Memory optimized cache r3.2xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Memory optimized Memcached Previous Generation] OnDemand Cache Instance Memory optimized cache r3.large Memcached Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Compute optimized Valkey Previous Generation] OnDemand Cache Instance Compute optimized cache c1.xlarge Valkey Previous Generation 💥
+  - Billing metric removed: [OnDemand Cache Instance Standard Valkey Previous Generation] OnDemand Cache Instance Standard cache m1.medium Valkey Previous Generation 💥
+
+
 ## 2026-05-07 17:57
 
 **Modified services:**
