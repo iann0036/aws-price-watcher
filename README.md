@@ -1,3 +1,12 @@
+## 2026-05-13 18:58
+
+**Modified services:**
+
+- [deadline](processed/deadline.json)
+  - Price decreased: System Operation 0 Inf Asia Pacific (Seoul)  **$55.20** → **$0.01** 💸
+  - Price increased: Provisioned Throughput 0 Inf Asia Pacific (Seoul)  **$0.01** → **$56.03** 🤑
+
+
 ## 2026-05-12 16:09
 
 **Modified services:**
