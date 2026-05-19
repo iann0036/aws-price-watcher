@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "gameliftstreams",
         "accessType": "publish",
-        "esIndex": "plc-gameliftstreams-usd-20260304231114",
-        "hawkFilePublicationDate": "2026-03-04T23:11:14Z",
-        "ETLIngestionTriggerDate": "2026-03-04T23:11:14Z",
+        "esIndex": "plc-gameliftstreams-usd-20260519182309",
+        "hawkFilePublicationDate": "2026-05-19T18:23:09Z",
+        "ETLIngestionTriggerDate": "2026-05-19T18:23:09Z",
         "currencyCode": "USD",
         "source": "gameliftstreams",
         "isMapped": "true"
@@ -17,6 +17,8 @@
             "HTrQxQxvms-LfvfB_I108mM15-0sUtTx-4CZ5skBaFg v1",
             "M9O_G1wSqpboQ-WCdSHjW96Q0Wwn4gHe0JGPM1Up8vw v1",
             "rRcTL08VGbFmI8D_hghIEt--9n5Zvxdj-ZlMvABZxks v1",
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY v1",
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw v1",
             "9FtEApvDbu9QMyNsw2Pd5-88I10Lrtd2no7JL0ScYhk v1",
             "izQe5NirtHHJLu7CSuYqrN4dA40yxAiA6-ozdCpuxpU v1",
             "RDD822wSxio7iG9_4DHlcPFXj6eRGw4Z-YXzyaioirc v1",
@@ -89,6 +91,26 @@
                 "GPU": "NVIDIA A10G Tensor GPU",
                 "RAM": "32",
                 "VRAM": "24"
+            },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY v1": {
+                "rateCode": "WA6BVZJY3WWB8P8S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.6050000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY",
+                "Stream Class": "gen6e_pro",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw v1": {
+                "rateCode": "RT3ZN5JP8B2DHHAC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0493000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw",
+                "Stream Class": "gen6e_pro_win2022",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
             },
             "9FtEApvDbu9QMyNsw2Pd5-88I10Lrtd2no7JL0ScYhk v1": {
                 "rateCode": "KJBMJ2BW4K7UGXFS.JRTCKXETXF.6YS6EN2CT7",
@@ -235,10 +257,20 @@
                 "price": "0.3848000000",
                 "RegionlessRateCode": "izQe5NirtHHJLu7CSuYqrN4dA40yxAiA6-ozdCpuxpU"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY": {
+                "rateCode": "WA6BVZJY3WWB8P8S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.6050000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY"
+            },
             "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw": {
                 "rateCode": "HWA4EQN6UCUMMKQP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1599000000",
                 "RegionlessRateCode": "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw": {
+                "rateCode": "RT3ZN5JP8B2DHHAC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0493000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw"
             },
             "m5hsTZTV1iF7TwfFdM0rhN6c5bF97dP2dubsdFXH7OU": {
                 "rateCode": "NGPUNDH2P3VSKG8M.JRTCKXETXF.6YS6EN2CT7",
@@ -321,6 +353,26 @@
                 "GPU": "NVIDIA A10G Tensor GPU",
                 "RAM": "32",
                 "VRAM": "24"
+            },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY v1": {
+                "rateCode": "AXD2GEC26232H78H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.6050000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY",
+                "Stream Class": "gen6e_pro",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw v1": {
+                "rateCode": "4UNH2F2QFA9CTVNU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0493000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw",
+                "Stream Class": "gen6e_pro_win2022",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
             },
             "9FtEApvDbu9QMyNsw2Pd5-88I10Lrtd2no7JL0ScYhk v1": {
                 "rateCode": "82GJS84AAC6H4H5R.JRTCKXETXF.6YS6EN2CT7",
@@ -467,10 +519,20 @@
                 "price": "0.3848000000",
                 "RegionlessRateCode": "izQe5NirtHHJLu7CSuYqrN4dA40yxAiA6-ozdCpuxpU"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY": {
+                "rateCode": "AXD2GEC26232H78H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.6050000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY"
+            },
             "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw": {
                 "rateCode": "ZJ7ZY772NNZUNBX9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1599000000",
                 "RegionlessRateCode": "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw": {
+                "rateCode": "4UNH2F2QFA9CTVNU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0493000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw"
             },
             "m5hsTZTV1iF7TwfFdM0rhN6c5bF97dP2dubsdFXH7OU": {
                 "rateCode": "XD3M2PYYBDMX4GZE.JRTCKXETXF.6YS6EN2CT7",
@@ -553,6 +615,26 @@
                 "GPU": "NVIDIA A10G Tensor GPU",
                 "RAM": "32",
                 "VRAM": "24"
+            },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY v1": {
+                "rateCode": "JYME44TJYHM26FDM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.6050000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY",
+                "Stream Class": "gen6e_pro",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw v1": {
+                "rateCode": "RUT6Z82A4Q3YZHZQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0493000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw",
+                "Stream Class": "gen6e_pro_win2022",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
             },
             "9FtEApvDbu9QMyNsw2Pd5-88I10Lrtd2no7JL0ScYhk v1": {
                 "rateCode": "NZFBMMYRGCTP7XUR.JRTCKXETXF.6YS6EN2CT7",
@@ -694,10 +776,20 @@
                 "price": "0.3848000000",
                 "RegionlessRateCode": "izQe5NirtHHJLu7CSuYqrN4dA40yxAiA6-ozdCpuxpU"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY": {
+                "rateCode": "JYME44TJYHM26FDM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.6050000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY"
+            },
             "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw": {
                 "rateCode": "WY36D5NQGUVKVACN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1599000000",
                 "RegionlessRateCode": "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw": {
+                "rateCode": "RUT6Z82A4Q3YZHZQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0493000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw"
             },
             "m5hsTZTV1iF7TwfFdM0rhN6c5bF97dP2dubsdFXH7OU": {
                 "rateCode": "AH7H8GAHHUEJ2552.JRTCKXETXF.6YS6EN2CT7",
@@ -1008,6 +1100,26 @@
                 "RAM": "32",
                 "VRAM": "24"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY v1": {
+                "rateCode": "VJSXNXTM2WT3GD3A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0471000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY",
+                "Stream Class": "gen6e_pro",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw v1": {
+                "rateCode": "TK7XGUQF7CE436T7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.5702000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw",
+                "Stream Class": "gen6e_pro_win2022",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
             "9FtEApvDbu9QMyNsw2Pd5-88I10Lrtd2no7JL0ScYhk v1": {
                 "rateCode": "F9JMGHHW5BFE7HRV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.7929000000",
@@ -1148,10 +1260,20 @@
                 "price": "0.3920000000",
                 "RegionlessRateCode": "izQe5NirtHHJLu7CSuYqrN4dA40yxAiA6-ozdCpuxpU"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY": {
+                "rateCode": "VJSXNXTM2WT3GD3A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0471000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY"
+            },
             "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw": {
                 "rateCode": "HHUDYM8MUGMSATWD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1675000000",
                 "RegionlessRateCode": "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw": {
+                "rateCode": "TK7XGUQF7CE436T7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.5702000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw"
             },
             "m5hsTZTV1iF7TwfFdM0rhN6c5bF97dP2dubsdFXH7OU": {
                 "rateCode": "B9FWJDGBG8CG35HQ.JRTCKXETXF.6YS6EN2CT7",
@@ -1554,6 +1676,26 @@
                 "RAM": "32",
                 "VRAM": "24"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY v1": {
+                "rateCode": "V5SWXW42AMNUSCHR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.7708000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY",
+                "Stream Class": "gen6e_pro",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw v1": {
+                "rateCode": "5QFDSZG434HWD6F4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.3794000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw",
+                "Stream Class": "gen6e_pro_win2022",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
             "9FtEApvDbu9QMyNsw2Pd5-88I10Lrtd2no7JL0ScYhk v1": {
                 "rateCode": "EREH5MUGU7X7S7TR.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.9374000000",
@@ -1699,10 +1841,20 @@
                 "price": "0.5062000000",
                 "RegionlessRateCode": "izQe5NirtHHJLu7CSuYqrN4dA40yxAiA6-ozdCpuxpU"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY": {
+                "rateCode": "V5SWXW42AMNUSCHR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.7708000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY"
+            },
             "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw": {
                 "rateCode": "7ZDNFDJ4X7PNZN8X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1930000000",
                 "RegionlessRateCode": "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw": {
+                "rateCode": "5QFDSZG434HWD6F4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.3794000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw"
             },
             "m5hsTZTV1iF7TwfFdM0rhN6c5bF97dP2dubsdFXH7OU": {
                 "rateCode": "HSEBTU76SJ89AF6B.JRTCKXETXF.6YS6EN2CT7",
@@ -1785,6 +1937,26 @@
                 "GPU": "NVIDIA A10G Tensor GPU",
                 "RAM": "32",
                 "VRAM": "24"
+            },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY v1": {
+                "rateCode": "W4ENYEWFKKGHN9FY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.4484000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY",
+                "Stream Class": "gen6e_pro",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw v1": {
+                "rateCode": "UUS4TEFKM6UKJ6WR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.3016000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw",
+                "Stream Class": "gen6e_pro_win2022",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
             },
             "9FtEApvDbu9QMyNsw2Pd5-88I10Lrtd2no7JL0ScYhk v1": {
                 "rateCode": "TDVAXJBSHWGDBSG9.JRTCKXETXF.6YS6EN2CT7",
@@ -1931,10 +2103,20 @@
                 "price": "0.4961000000",
                 "RegionlessRateCode": "izQe5NirtHHJLu7CSuYqrN4dA40yxAiA6-ozdCpuxpU"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY": {
+                "rateCode": "W4ENYEWFKKGHN9FY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.4484000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY"
+            },
             "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw": {
                 "rateCode": "NA2CW726CYGE37EC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1919000000",
                 "RegionlessRateCode": "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw": {
+                "rateCode": "UUS4TEFKM6UKJ6WR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.3016000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw"
             },
             "m5hsTZTV1iF7TwfFdM0rhN6c5bF97dP2dubsdFXH7OU": {
                 "rateCode": "TVBHSZ2WVUT9ZPW3.JRTCKXETXF.6YS6EN2CT7",
@@ -2245,6 +2427,26 @@
                 "RAM": "32",
                 "VRAM": "24"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY v1": {
+                "rateCode": "JGRP85FAMW272E87.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.4665000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY",
+                "Stream Class": "gen6e_pro",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw v1": {
+                "rateCode": "57KTYB8YX7R672SJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2202000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw",
+                "Stream Class": "gen6e_pro_win2022",
+                "VCPU": "16",
+                "GPU": "NVIDIA L40S Tensor Core GPU",
+                "RAM": "128",
+                "VRAM": "48"
+            },
             "9FtEApvDbu9QMyNsw2Pd5-88I10Lrtd2no7JL0ScYhk v1": {
                 "rateCode": "6NA2TXXUNQCSFVVM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.7975000000",
@@ -2385,10 +2587,20 @@
                 "price": "0.3749000000",
                 "RegionlessRateCode": "izQe5NirtHHJLu7CSuYqrN4dA40yxAiA6-ozdCpuxpU"
             },
+            "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY": {
+                "rateCode": "JGRP85FAMW272E87.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.4665000000",
+                "RegionlessRateCode": "kMBSPuRJRs1SqXOl3msyIbQyBbD1mZfr7LL90yl32mY"
+            },
             "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw": {
                 "rateCode": "7EDEQ4Y6GUS4BS4Z.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1693000000",
                 "RegionlessRateCode": "kkDi9U_1iJL1lfwIMyoeLo0l5a-BlrSRlK4FzE69Lzw"
+            },
+            "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw": {
+                "rateCode": "57KTYB8YX7R672SJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.2202000000",
+                "RegionlessRateCode": "lQ_fN3ecWODdGgdhNXJxvwwesXZAJC6hUzfl8ISYUkw"
             },
             "m5hsTZTV1iF7TwfFdM0rhN6c5bF97dP2dubsdFXH7OU": {
                 "rateCode": "CC4YK2R5TKJGGXVY.JRTCKXETXF.6YS6EN2CT7",
