@@ -108,6 +108,7 @@
         "Asia Pacific (Jakarta)": "0.0000002000",
         "Asia Pacific (Hyderabad)": "0.0000002000",
         "Asia Pacific (Hong Kong)": "0.0000002000",
+        "Any": "0.0000002000",
         "Africa (Cape Town)": "0.0000002000",
         "AWS GovCloud (US-East)": "0.0000002000",
         "AWS GovCloud (US)": "0.0000002000"
@@ -259,6 +260,7 @@
         "Asia Pacific (Jakarta)": "0.0000004000",
         "Asia Pacific (Hyderabad)": "0.0000004000",
         "Asia Pacific (Hong Kong)": "0.0000004000",
+        "Any": "0.0000004000",
         "Africa (Cape Town)": "0.0000004000",
         "AWS GovCloud (US-East)": "0.0000004000",
         "AWS GovCloud (US)": "0.0000004000"
@@ -381,117 +383,119 @@
         "Asia Pacific (Thailand)": "0.0000002000",
         "Asia Pacific (Taipei)": "0.0000002000",
         "Asia Pacific (Osaka)": "0.0000002000",
-        "Asia Pacific (New Zealand)": "0.0000002000"
+        "Asia Pacific (New Zealand)": "0.0000002000",
+        "Any": "0.0000002000"
     },
     "Query Standard External over 1B": {
         "Mexico (Central)": "0.0000002000",
         "Asia Pacific (Thailand)": "0.0000002000",
         "Asia Pacific (Taipei)": "0.0000002000",
         "Asia Pacific (New Zealand)": "0.0000002000",
-        "": "0.0000002000"
+        "Any": "0.0000002000"
     },
     "Query Resolver first 1B": {
         "Mexico (Central)": "0.0000004000",
         "Asia Pacific (Thailand)": "0.0000004000",
         "Asia Pacific (Taipei)": "0.0000004000",
         "Asia Pacific (Osaka)": "0.0000004000",
-        "Asia Pacific (New Zealand)": "0.0000004000"
+        "Asia Pacific (New Zealand)": "0.0000004000",
+        "Any": "0.0000004000"
     },
     "Query Standard External first 1B": {
         "Mexico (Central)": "0.0000004000",
         "Asia Pacific (Thailand)": "0.0000004000",
         "Asia Pacific (Taipei)": "0.0000004000",
         "Asia Pacific (New Zealand)": "0.0000004000",
-        "": "0.0000004000"
+        "Any": "0.0000004000"
+    },
+    "Query Latency Based Routing External first 1B": {
+        "Any": "0.0000006000",
+        "AWS GovCloud (US-East)": "0.0000007200",
+        "AWS GovCloud (US)": "0.0000007200"
+    },
+    "Optional Health Check Features External Non AWS per Mo": {
+        "Any": "2.0000000000"
+    },
+    "Query Latency Based Routing External over 1B": {
+        "Any": "0.0000003000",
+        "AWS GovCloud (US-East)": "0.0000003600",
+        "AWS GovCloud (US)": "0.0000003600"
     },
     "Cidr Blocks first 1K per Mo": {
         "Any": "0.0000000000"
     },
+    "Basic Health checks External Non AWS per Mo": {
+        "Any": "0.7500000000"
+    },
     "Basic Traffic Flow Routing per Mo": {
         "Any": "50.0000000000"
+    },
+    "Free Queries to Geoproximity Alias records": {
+        "Any": "0.0000000000",
+        "AWS GovCloud (US-East)": "0.0000000000",
+        "AWS GovCloud (US)": "0.0000000000"
+    },
+    "Free Queries to Standard Alias records": {
+        "Any": "0.0000000000"
+    },
+    "Query Geo DNS External first 1B": {
+        "Any": "0.0000007000",
+        "AWS GovCloud (US-East)": "0.0000008400",
+        "AWS GovCloud (US)": "0.0000008400"
+    },
+    "Free Queries to Latency Based Routing Alias records": {
+        "Any": "0.0000000000",
+        "AWS GovCloud (US-East)": "0.0000000000",
+        "AWS GovCloud (US)": "0.0000000000"
+    },
+    "Query IP Based Routing External first 1B": {
+        "Any": "0.0000008000"
     },
     "DNS Zone first 25": {
         "Any": "0.5000000000"
     },
+    "Free Queries to Geo DNS Alias records": {
+        "Any": "0.0000000000",
+        "AWS GovCloud (US-East)": "0.0000000000",
+        "AWS GovCloud (US)": "0.0000000000"
+    },
+    "Optional Health Check Features AWS per Mo": {
+        "Any": "1.0000000000"
+    },
+    "Query IP Based Routing External over 1B": {
+        "Any": "0.0000004000"
+    },
+    "Query Geo DNS External over 1B": {
+        "Any": "0.0000003500",
+        "AWS GovCloud (US-East)": "0.0000004200",
+        "AWS GovCloud (US)": "0.0000004200"
+    },
+    "Query Geoproximity External first 1B": {
+        "Any": "0.0000007000",
+        "AWS GovCloud (US-East)": "0.0000008400",
+        "AWS GovCloud (US)": "0.0000008400"
+    },
     "Route53 RRSets per Mo": {
         "Any": "0.0015000000"
+    },
+    "Basic Health checks AWS per Mo": {
+        "Any": "0.5000000000"
     },
     "DNS Zone": {
         "Any": "0.1000000000"
     },
+    "Query Geoproximity External over 1B": {
+        "Any": "0.0000003500",
+        "AWS GovCloud (US-East)": "0.0000004200",
+        "AWS GovCloud (US)": "0.0000004200"
+    },
+    "Free Queries to IP Based Routing Alias records": {
+        "Any": "0.0000000000"
+    },
     "Cidr Blocks per Mo": {
         "Any": "0.0015000000"
     },
-    "Query Latency Based Routing External first 1B": {
-        "AWS GovCloud (US-East)": "0.0000007200",
-        "AWS GovCloud (US)": "0.0000007200",
-        "": "0.0000006000"
-    },
-    "Query Latency Based Routing External over 1B": {
-        "AWS GovCloud (US-East)": "0.0000003600",
-        "AWS GovCloud (US)": "0.0000003600",
-        "": "0.0000003000"
-    },
-    "Free Queries to Geoproximity Alias records": {
-        "AWS GovCloud (US-East)": "0.0000000000",
-        "AWS GovCloud (US)": "0.0000000000",
-        "": "0.0000000000"
-    },
-    "Query Geo DNS External first 1B": {
-        "AWS GovCloud (US-East)": "0.0000008400",
-        "AWS GovCloud (US)": "0.0000008400",
-        "": "0.0000007000"
-    },
-    "Free Queries to Latency Based Routing Alias records": {
-        "AWS GovCloud (US-East)": "0.0000000000",
-        "AWS GovCloud (US)": "0.0000000000",
-        "": "0.0000000000"
-    },
-    "Free Queries to Geo DNS Alias records": {
-        "AWS GovCloud (US-East)": "0.0000000000",
-        "AWS GovCloud (US)": "0.0000000000",
-        "": "0.0000000000"
-    },
-    "Query Geo DNS External over 1B": {
-        "AWS GovCloud (US-East)": "0.0000004200",
-        "AWS GovCloud (US)": "0.0000004200",
-        "": "0.0000003500"
-    },
-    "Query Geoproximity External first 1B": {
-        "AWS GovCloud (US-East)": "0.0000008400",
-        "AWS GovCloud (US)": "0.0000008400",
-        "": "0.0000007000"
-    },
-    "Query Geoproximity External over 1B": {
-        "AWS GovCloud (US-East)": "0.0000004200",
-        "AWS GovCloud (US)": "0.0000004200",
-        "": "0.0000003500"
-    },
-    "Optional Health Check Features External Non AWS per Mo": {
-        "": "2.0000000000"
-    },
-    "Basic Health checks External Non AWS per Mo": {
-        "": "0.7500000000"
-    },
-    "Free Queries to Standard Alias records": {
-        "": "0.0000000000"
-    },
-    "Query IP Based Routing External first 1B": {
-        "": "0.0000008000"
-    },
-    "Optional Health Check Features AWS per Mo": {
-        "": "1.0000000000"
-    },
-    "Query IP Based Routing External over 1B": {
-        "": "0.0000004000"
-    },
-    "Basic Health checks AWS per Mo": {
-        "": "0.5000000000"
-    },
-    "Free Queries to IP Based Routing Alias records": {
-        "": "0.0000000000"
-    },
     "Basic Health checks up to 50 AWS per Mo": {
-        "": "0.0000000000"
+        "Any": "0.0000000000"
     }
 }
