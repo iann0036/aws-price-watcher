@@ -1,3 +1,18 @@
+## 2026-05-28 20:01
+
+**Modified services:**
+
+- [appstream](processed/appstream.json)
+  - Billing metric added: [Compute optimized Fleet - Windows BYOL] 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows BYOL] 💡
+  - Billing metric added: [General purpose Fleet - Windows BYOL] 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows BYOL] 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] 💡
+  - Billing metric added: [Memory optimized Fleet - Windows BYOL] 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows BYOL] 💡
+
+
 ## 2026-05-18 15:29
 
 **Modified services:**
