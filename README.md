@@ -1,3 +1,32 @@
+## 2026-05-29 19:12
+
+**Modified services:**
+
+- [elementalmediaconvert](processed/elementalmediaconvert.json)
+  - Price decreased: Professional Audio US West (Oregon)  **$0.01** → **$0.00** 💸
+  - Price decreased: Professional Audio US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio US East (Ohio)  **$0.01** → **$0.00** 💸
+  - Price decreased: Professional Audio US East (N. Virginia)  **$0.01** → **$0.00** 💸
+  - Price decreased: Professional Audio South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio EU (Stockholm)  **$0.01** → **$0.00** 💸
+  - Price decreased: Professional Audio EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Asia Pacific (Mumbai)  **$0.01** → **$0.00** 💸
+  - Price decreased: Professional Audio Asia Pacific (Melbourne)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio Asia Pacific (Malaysia)  **$0.00** → **$0.00** 💸
+  - Price decreased: Professional Audio Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: Professional Audio AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+
+
 ## 2026-05-28 20:01
 
 **Modified services:**
