@@ -34953,3 +34953,4 @@
 - evslicensesincluded
 - quicksuite
 - amsoperations
+- datatransferterminal
