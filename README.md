@@ -1,3 +1,44 @@
+## 2026-06-03 23:00
+
+**Modified services:**
+
+- [rds-sqlserver-ondemand](processed/rds-sqlserver-ondemand.json)
+  - Billing metric added: 0-iLUEW3mJcSkWZpmxX2VqBNBa9JPRNxZajTl7R11Pk V1 💡
+  - Billing metric added: 1mMOyLk_zW22PpcX-pf_F5OGy6a5qcAZ-BmM0sFcuqY V1 💡
+  - Billing metric added: 4CQyBBRvgrIsHM5t3RJ1K3GngWVlJsQ57q5ZTvrA1i4 V1 💡
+  - Billing metric added: 4M_pUub_Y619-dloK-WK1O8bAH0j-PNiC5M4JmEO7Rw V1 💡
+  - Billing metric added: 8PXk6W6PS0VRB390fujMegcPeSvNBmizVIiE-3ePogY V1 💡
+  - Billing metric added: CK9oYHEsOkcko6JSVIWJ0P3sukIFA3ZwgdJrtCXNMDk V1 💡
+  - Billing metric added: CziO81JUeQyYpHGaivLAgZprCGlCwuRMqh9GPW9Wjig V1 💡
+  - Billing metric added: DwrKne9m1IZOqRZzuYAImQBxYSeUM9YbPeAqjhz6uGw V1 💡
+  - Billing metric added: KFZ4SJU7ucYhp7Q3biUspWpR8H8upRi0ICpRkOisyAk V1 💡
+  - Billing metric added: MbVbdenGkcpN2PQrucRka_HjY54HQmnCIAmxlEsNSdc V1 💡
+  - Billing metric added: O0mreNihuaRX5ERKRyZ3-t3J07mufOr8dPx54CSENfs V1 💡
+  - Billing metric added: Uou7-cRtfGUVSfAP-WCs9LT5Cwqa5KXDP-ZL0WvMxww V1 💡
+  - Billing metric added: X8MeNbT9kqCie57U0ehDNLOpFBfSfjglWWDnDOJL2oc V1 💡
+  - Billing metric added: XF4jV4zsCaTO06JBmiIp7pJtO_0LcWDHR_tfNYzBICU V1 💡
+  - Billing metric added: XPjH23NyYulGmDs0dnyCGMvbrgaFI82u_v9dzE1CtvQ V1 💡
+  - Billing metric added: YZCsbgjZF4UvEu-aKsXPNQbTB0_pXIDdhdY4zaySKB4 V1 💡
+  - Billing metric added: YZWbqG6nRc4p7rE_J0vMhoSlgxH9SfwpGyhzB7Pbfgk V1 💡
+  - Billing metric added: _DLDNNcZIqm70qzLFvmlQtqL0FfD8NFn7wz_KrmSCkw V1 💡
+  - Billing metric added: bYqCgQOugX7JikqDJ2_Z2sYCe2QNP9B-QvIqGhKJ5GQ V1 💡
+  - Billing metric added: dL0wOn0GETTc38JzJ3truLAOeKY_xSXyXm2Ph8qSeqY V1 💡
+  - Billing metric added: dlz0L3PX8q6tdQDBBpobX5i8quV6x7EtXsC3IBT_ON4 V1 💡
+  - Billing metric added: f7fNIyBer0dMVQ9b4Y6fu_F7E8A43oNvZKRdJtut0go V1 💡
+  - Billing metric added: gSFp82k2LB8rR61m69-WHVQYTqO3SDj7R9RI4eImSP8 V1 💡
+  - Billing metric added: gXrF6-ChF7PakeyQ1VMiA6fMubO_fiFJUt8wm2kX7gw V1 💡
+  - Billing metric added: gtabVCg_0LuXjttTmFVEQD8KvzCgfVBhVyLDT6HlX3U V1 💡
+  - Billing metric added: hQI72RR_ZT3PxDveuePFMqKmhK_znRfC9gw4vdtgz_k V1 💡
+  - Billing metric added: kzgU4Nl9ss3EtAM3ib2vhh00HQsB9NZZJWbzQ2KbAV8 V1 💡
+  - Billing metric added: nTgZZ2B6LExOrlx_b5efB9VQkwDCConOy6eCbOVdNPg V1 💡
+  - Billing metric added: viwNhMqD5vtB6WsxAwyHvHQB4a_lC1reec00HWse-Dg V1 💡
+  - Billing metric added: waBPBJRxSC0bzecDcAnGUelk6vSXf1Xlf8PzOC7ucYo V1 💡
+  - Billing metric added: xGJZysJPhgyq0ev1oqRWetdn0zDnFsusruXM6NVnjO4 V1 💡
+  - Billing metric added: xGTP9mPYTHH1kAcwhqbuSBiqEXdGjxix_rZTH-ACb4A V1 💡
+  - Billing metric added: xVipyKo9ibSakNGtn4fZTzQ22U30JwnXSr09_8L7u0o V1 💡
+  - Billing metric added: xaBgYFQdthigyGJa1YhK5je3XxkZgPT90YAJtabhoUg V1 💡
+
+
 ## 2026-06-02 23:57
 
 **Modified services:**
