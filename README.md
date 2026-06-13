@@ -34983,8 +34983,6 @@
 - customerprofiles
 - ei
 - chimecallmeamcs
-- frauddetector
-- b2bi
 - worklink
 - workspacesweb
 - eksanywhere
