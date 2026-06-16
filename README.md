@@ -1,3 +1,11 @@
+## 2026-06-16 18:44
+
+**Modified services:**
+
+- [redshift](processed/redshift.json)
+  - Price increased: [Redshift Concurrency Scaling Current Generation RG] Asia Pacific (Melbourne) (Instance Type: rg.xlarge, Usage Family: RG)  **$0.00** → **$0.00** 🤑
+
+
 ## 2026-06-03 23:00
 
 **Modified services:**
