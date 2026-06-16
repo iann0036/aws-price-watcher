@@ -1,3 +1,22 @@
+## 2026-06-16 22:05
+
+**Modified services:**
+
+- [rds-db2-ondemand](processed/rds-db2-ondemand.json)
+  - Price increased: Database Instance Db2 Bring your own license db m6i.24xlarge General purpose Single-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.24xlarge, Memory: 384 GiB, vCPU: 96, Network Performance: 37.5 Gbps)  **$10.08** → **$10.08** 🤑
+  - Price increased: Database Instance Db2 Marketplace db m6i.16xlarge General purpose Single-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.16xlarge, Memory: 256 GiB, vCPU: 64, Network Performance: 25 Gbps)  **$6.72** → **$6.72** 🤑
+  - Price increased: Database Instance Db2 Marketplace db m6i.12xlarge General purpose Multi-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.12xlarge, Memory: 192 GiB, vCPU: 48, Network Performance: 18.75 Gbps)  **$10.08** → **$10.08** 🤑
+  - Price increased: Database Instance Db2 Bring your own license db m6i.24xlarge General purpose Multi-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.24xlarge, Memory: 384 GiB, vCPU: 96, Network Performance: 37.5 Gbps)  **$20.16** → **$20.16** 🤑
+  - Price increased: Database Instance Db2 Marketplace db m6i.24xlarge General purpose Single-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.24xlarge, Memory: 384 GiB, vCPU: 96, Network Performance: 37.5 Gbps)  **$10.08** → **$10.08** 🤑
+  - Price increased: Database Instance Db2 Bring your own license db m6i.16xlarge General purpose Multi-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.16xlarge, Memory: 256 GiB, vCPU: 64, Network Performance: 25 Gbps)  **$13.44** → **$13.44** 🤑
+  - Price increased: Database Instance Db2 Bring your own license db m6i.16xlarge General purpose Single-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.16xlarge, Memory: 256 GiB, vCPU: 64, Network Performance: 25 Gbps)  **$6.72** → **$6.72** 🤑
+  - Price increased: Database Instance Db2 Marketplace db m6i.16xlarge General purpose Multi-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.16xlarge, Memory: 256 GiB, vCPU: 64, Network Performance: 25 Gbps)  **$13.44** → **$13.44** 🤑
+  - Price increased: Database Instance Db2 Bring your own license db m6i.12xlarge General purpose Multi-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.12xlarge, Memory: 192 GiB, vCPU: 48, Network Performance: 18.75 Gbps)  **$10.08** → **$10.08** 🤑
+  - Price increased: Database Instance Db2 Bring your own license db m6i.12xlarge General purpose Single-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.12xlarge, Memory: 192 GiB, vCPU: 48, Network Performance: 18.75 Gbps)  **$5.04** → **$5.04** 🤑
+  - Price increased: Database Instance Db2 Marketplace db m6i.24xlarge General purpose Multi-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.24xlarge, Memory: 384 GiB, vCPU: 96, Network Performance: 37.5 Gbps)  **$20.16** → **$20.16** 🤑
+  - Price increased: Database Instance Db2 Marketplace db m6i.12xlarge General purpose Single-AZ Current Generation Asia Pacific (Thailand) (Instance Type: db.m6i.12xlarge, Memory: 192 GiB, vCPU: 48, Network Performance: 18.75 Gbps)  **$5.04** → **$5.04** 🤑
+
+
 ## 2026-06-16 18:44
 
 **Modified services:**
