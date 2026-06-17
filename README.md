@@ -1,3 +1,65 @@
+## 2026-06-17 22:54
+
+**Modified services:**
+
+- [transcribe](processed/transcribe.json)
+  - Billing metric removed: Transcription Job Audio to Text per second from 300000000 to Inf 💥
+  - Billing metric removed: Streaming Stream to Text per second from 0 to 15000000 💥
+  - Billing metric removed: Streaming Stream to Text per second from 60000000 to 300000000 💥
+  - Billing metric removed: Transcription Job Audio to Text per second from 60000000 to 300000000 💥
+  - Billing metric removed: Streaming Stream to Text per second from 15000000 to 60000000 💥
+  - Billing metric removed: Transcription Job Audio to Text per second from 15000000 to 60000000 💥
+  - Billing metric removed: Streaming Stream to Text per second from 300000000 to Inf 💥
+  - Billing metric removed: Transcription Job Audio to Text per second from 0 to 15000000 💥
+  - Billing metric removed: Transcription Job Audio to Text per second from 60000000 to Inf 💥
+  - Billing metric removed: Streaming Stream to Text per second from 60000000 to Inf 💥
+  - Price decreased: Streaming per second US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second EU (Zurich)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: Streaming per second AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Billing metric added: Streaming Stream to Text per second from 0 to Inf 💡
+  - Billing metric added: Streaming per seconds 💡
+  - Billing metric added: Streaming Stream to Text per seconds from 0 to Inf 💡
+  - Price decreased: Transcription Job per second US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second EU (Zurich)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: Transcription Job per second AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Billing metric added: Transcription Job Audio to Text per second from 0 to Inf 💡
+  - Billing metric added: Transcription Job per seconds 💡
+  - Billing metric added: Transcription Job Audio to Text per seconds from 0 to Inf 💡
+
+
 ## 2026-06-16 22:05
 
 **Modified services:**
