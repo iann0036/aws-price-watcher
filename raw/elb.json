@@ -2,15 +2,37 @@
     "manifest": {
         "serviceId": "elb",
         "accessType": "publish",
-        "esIndex": "plc-elb-usd-20260611195501",
-        "hawkFilePublicationDate": "2026-06-11T19:55:01Z",
-        "ETLIngestionTriggerDate": "2026-06-11T19:55:01Z",
+        "esIndex": "plc-elb-usd-20260619024706",
+        "hawkFilePublicationDate": "2026-06-19T02:47:06Z",
+        "ETLIngestionTriggerDate": "2026-06-19T02:47:06Z",
         "currencyCode": "USD",
         "source": "elb",
         "isMapped": "true"
     },
     "sets": {},
     "regions": {
+        "Vietnam (Hanoi)": {
+            "rIcBgQpnsCi3Jy4NrXSbCH1_QQ21tuX7JE41K4hhXs4": {
+                "rateCode": "6AQ98ZBJA57K4Q22.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0125000000",
+                "RegionlessRateCode": "rIcBgQpnsCi3Jy4NrXSbCH1_QQ21tuX7JE41K4hhXs4"
+            },
+            "ttVdKPX8IhXh8zj3SUoOCopsXWgtanwsfPHGpa2faag": {
+                "rateCode": "U25PKPUZPQRENWJ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0775000000",
+                "RegionlessRateCode": "ttVdKPX8IhXh8zj3SUoOCopsXWgtanwsfPHGpa2faag"
+            },
+            "Application Load Balancer LCU Hours": {
+                "rateCode": "6AQ98ZBJA57K4Q22.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0125000000",
+                "RegionlessRateCode": "rIcBgQpnsCi3Jy4NrXSbCH1_QQ21tuX7JE41K4hhXs4"
+            },
+            "Application Load Balancer Hours": {
+                "rateCode": "U25PKPUZPQRENWJ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0775000000",
+                "RegionlessRateCode": "ttVdKPX8IhXh8zj3SUoOCopsXWgtanwsfPHGpa2faag"
+            }
+        },
         "US West (Verizon) - Seattle": {
             "eJXPG14URemSbDt29OPrGojztqv6EQfEQN_DlQz97eU": {
                 "rateCode": "6A5PZ4R7Y9CK55F2.JRTCKXETXF.6YS6EN2CT7",
