@@ -1,3 +1,11 @@
+## 2026-06-22 20:18
+
+**Modified services:**
+
+- [omics](processed/omics.json)
+  - Billing metric added: [Compute Type per GB-Hours] 💡
+
+
 ## 2026-06-17 22:54
 
 **Modified services:**
