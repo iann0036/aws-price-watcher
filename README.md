@@ -1,3 +1,82 @@
+## 2026-07-03 11:12
+
+**Modified services:**
+
+- [systemsmanager](processed/systemsmanager.json)
+  - Price decreased: Instance advanced per Hrs US West (Oregon)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs US West (N. California)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs US East (Ohio)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs US East (N. Virginia)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs South America (Sao Paulo)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Middle East (UAE)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Middle East (Bahrain)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Mexico (Central)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Israel (Tel Aviv)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs EU (Zurich)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs EU (Stockholm)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs EU (Spain)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs EU (Paris)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs EU (Milan)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs EU (London)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs EU (Ireland)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs EU (Frankfurt)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Canada West (Calgary)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Canada (Central)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Tokyo)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Thailand)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Taipei)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Sydney)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Singapore)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Seoul)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Osaka)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (New Zealand)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Mumbai)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Melbourne)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Malaysia)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Jakarta)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Hyderabad)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Asia Pacific (Hong Kong)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs Africa (Cape Town)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs AWS GovCloud (US-East)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per Hrs AWS GovCloud (US)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs US West (Oregon)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs US West (N. California)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs US East (Ohio)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs US East (N. Virginia)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs South America (Sao Paulo)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Middle East (UAE)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Middle East (Bahrain)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Mexico (Central)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Israel (Tel Aviv)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs EU (Zurich)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs EU (Stockholm)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs EU (Spain)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs EU (Paris)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs EU (Milan)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs EU (London)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs EU (Ireland)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs EU (Frankfurt)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Canada West (Calgary)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Canada (Central)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Tokyo)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Thailand)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Taipei)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Sydney)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Singapore)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Seoul)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Osaka)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (New Zealand)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Mumbai)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Melbourne)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Malaysia)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Jakarta)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Hyderabad)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Asia Pacific (Hong Kong)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs Africa (Cape Town)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs AWS GovCloud (US-East)  **$0.01** → **$0.00** 💸
+  - Price decreased: Instance advanced per UnitHrs AWS GovCloud (US)  **$0.01** → **$0.00** 💸
+
+
 ## 2026-06-30 16:11
 
 **Modified services:**
