@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "docdb",
         "accessType": "publish",
-        "esIndex": "plc-docdb-usd-20260709205601",
-        "hawkFilePublicationDate": "2026-07-09T20:56:01Z",
-        "ETLIngestionTriggerDate": "2026-07-09T20:56:01Z",
+        "esIndex": "plc-docdb-usd-20260710172257",
+        "hawkFilePublicationDate": "2026-07-10T17:22:57Z",
+        "ETLIngestionTriggerDate": "2026-07-10T17:22:57Z",
         "currencyCode": "USD",
         "source": "docdb",
         "isMapped": "true"
@@ -647,6 +647,7 @@
             "KJ2AJYQK74W6HPQQ.JRTCKXETXF.6YS6EN2CT7 0",
             "M6KU9BENXZERAXZ6.JRTCKXETXF.6YS6EN2CT7 0",
             "PWA32KKK7NBTH39C.JRTCKXETXF.6YS6EN2CT7 0",
+            "QMAF4UND3GRDPE99.JRTCKXETXF.6YS6EN2CT7 0",
             "QYTPYV2JQN5DSATU.JRTCKXETXF.6YS6EN2CT7 0",
             "UTQPD7UKJ7FPDXJM.JRTCKXETXF.6YS6EN2CT7 0",
             "UZ4S9M4C6FN64SXM.JRTCKXETXF.6YS6EN2CT7 0",
@@ -1359,6 +1360,7 @@
             "VPJ2XA69X6YF3WK8.JRTCKXETXF.6YS6EN2CT7 0",
             "VWQ93F85U6TW8G2Y.JRTCKXETXF.6YS6EN2CT7 0",
             "X48TSU8K8ZVD28EX.JRTCKXETXF.6YS6EN2CT7 0",
+            "XD9NKFGUVR45D2C6.JRTCKXETXF.6YS6EN2CT7 0",
             "XVDX3DWKVRNJFYJK.JRTCKXETXF.6YS6EN2CT7 0"
         ],
         "General purpose OnDemand IO-Optimized-DocDB": [
@@ -34376,6 +34378,18 @@
                 "Instance Type": "db.r8g.large",
                 "Instance Storage": "EBS-Only"
             },
+            "QMAF4UND3GRDPE99.JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "QMAF4UND3GRDPE99.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6098886000",
+                "RegionlessRateCode": "S6OWYdFBNj91AEw5CVpQ0oWsrzeDxtzAPAp1K5bMCw8",
+                "Memory": "32 GiB",
+                "CPU": "4",
+                "Term": "OnDemand",
+                "Unit": "Hrs",
+                "Term Type": "OnDemand",
+                "Instance Type": "db.r8g.xlarge",
+                "Instance Storage": "EBS-Only"
+            },
             "D4PMP7RWKA9DXMJK.JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "D4PMP7RWKA9DXMJK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0860000000",
@@ -34674,6 +34688,18 @@
                 "Unit": "Hrs",
                 "Term Type": "OnDemand",
                 "Instance Type": "db.r8g.large",
+                "Instance Storage": "EBS-Only"
+            },
+            "XD9NKFGUVR45D2C6.JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "XD9NKFGUVR45D2C6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6708355000",
+                "RegionlessRateCode": "Of9T3_763lVPFi19zWwgU4H3S2WvEMm8vGPuue3E63A",
+                "Memory": "32 GiB",
+                "CPU": "4",
+                "Term": "OnDemand",
+                "Unit": "Hrs",
+                "Term Type": "OnDemand",
+                "Instance Type": "db.r8g.xlarge",
                 "Instance Storage": "EBS-Only"
             },
             "DRYNJ46SWYPX4ZX6.JRTCKXETXF.6YS6EN2CT7 0": {
@@ -35204,6 +35230,18 @@
                 "Instance Type": "",
                 "Instance Storage": ""
             },
+            "Of9T3_763lVPFi19zWwgU4H3S2WvEMm8vGPuue3E63A": {
+                "rateCode": "XD9NKFGUVR45D2C6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6708355000",
+                "RegionlessRateCode": "Of9T3_763lVPFi19zWwgU4H3S2WvEMm8vGPuue3E63A",
+                "Memory": "32 GiB",
+                "CPU": "4",
+                "Term": "OnDemand",
+                "Unit": "Hrs",
+                "Term Type": "OnDemand",
+                "Instance Type": "db.r8g.xlarge",
+                "Instance Storage": "EBS-Only"
+            },
             "Pyf6WwUGbh2ccKrbXqSrE7zRKfgNf6I4ZGe-6U3gbkc": {
                 "rateCode": "F347NQ3CZ2BUQRPR.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.4186000000",
@@ -35250,6 +35288,18 @@
                 "Unit": "Hrs",
                 "Term Type": "OnDemand",
                 "Instance Type": "db.r6gd.xlarge",
+                "Instance Storage": "EBS-Only"
+            },
+            "S6OWYdFBNj91AEw5CVpQ0oWsrzeDxtzAPAp1K5bMCw8": {
+                "rateCode": "QMAF4UND3GRDPE99.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6098886000",
+                "RegionlessRateCode": "S6OWYdFBNj91AEw5CVpQ0oWsrzeDxtzAPAp1K5bMCw8",
+                "Memory": "32 GiB",
+                "CPU": "4",
+                "Term": "OnDemand",
+                "Unit": "Hrs",
+                "Term Type": "OnDemand",
+                "Instance Type": "db.r8g.xlarge",
                 "Instance Storage": "EBS-Only"
             },
             "Sp-YTKuipAb8M-w62teEgBncPDYUNrUOvX6Qkl9SsOI": {
