@@ -1,3 +1,15 @@
+## 2026-07-16 18:43
+
+**Modified services:**
+
+- [backup](processed/backup.json)
+  - Billing metric added: [Aurora AWSBackup-DataTransfer] 💡
+  - Billing metric added: [DocumentDB AWSBackup-DataTransfer] 💡
+  - Billing metric added: [EBS AWSBackup-DataTransfer] 💡
+  - Billing metric added: [Neptune AWSBackup-DataTransfer] 💡
+  - Billing metric added: [Storage Gateway AWSBackup-DataTransfer] 💡
+
+
 ## 2026-07-10 05:42
 
 **Modified services:**
