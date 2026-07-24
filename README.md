@@ -35298,5 +35298,3 @@
 - quicksuite
 - amsoperations
 - datatransferterminal
-- rds-aurora-storage
-- rds-db2-ondemand
