@@ -1,3 +1,12 @@
+## 2026-07-28 18:50
+
+**Modified services:**
+
+- [contactcentertelecomm](processed/contactcentertelecomm.json)
+  - Price decreased: [Outbound Call Toll] Outbound Call Toll Slovakia 0 Inf EU (London) (Country: Slovakia)  **$0.14** → **$0.04** 💸
+  - Price decreased: [Outbound Call Toll] Outbound Call Toll Slovakia 0 Inf EU (Frankfurt) (Country: Slovakia)  **$0.14** → **$0.04** 💸
+
+
 ## 2026-07-16 18:43
 
 **Modified services:**
