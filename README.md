@@ -1,3 +1,16 @@
+## 2026-08-05 03:26
+
+**Modified services:**
+
+- [elasticache](processed/elasticache.json)
+  - Billing metric added: [OnDemand Cache Instance Network optimized Memcached Current Generation] 💡
+  - Billing metric added: [OnDemand Cache Instance Standard Memcached Current Generation] 💡
+  - Billing metric added: [OnDemand Cache Instance Network optimized Valkey Current Generation] 💡
+  - Billing metric added: [OnDemand Cache Instance Memory optimized Memcached Current Generation] 💡
+  - Billing metric added: [OnDemand Cache Instance Standard Valkey Current Generation] 💡
+  - Billing metric added: [OnDemand Cache Instance Memory optimized Valkey Current Generation] 💡
+
+
 ## 2026-08-04 17:57
 
 **Modified services:**
