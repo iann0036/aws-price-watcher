@@ -1,3 +1,12 @@
+## 2026-08-06 23:37
+
+**Modified services:**
+
+- [quicksight](processed/quicksight.json)
+  - Price decreased: Enterprise Monthly Reader subscriptions free trial per User AWS GovCloud (US-East)  **$0.38** → **$0.00** 💸
+  - Price increased: Enterprise Monthly Reader subscriptions per User AWS GovCloud (US-East)  **$0.25** → **$3.00** 🤑
+
+
 ## 2026-08-06 03:27
 
 **Modified services:**
