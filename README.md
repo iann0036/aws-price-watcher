@@ -1,3 +1,162 @@
+## 2026-08-11 18:37
+
+**Modified services:**
+
+- [rds-aurora-storage](processed/rds-aurora-storage.json)
+  - Billing metric removed: Performance Insights Aurora MySQL ServerlessAMR ACU Months 💥
+  - Billing metric removed: Performance Insights Aurora PostgreSQL ServerlessAMR ACU Months 💥
+  - Billing metric removed: Performance Insights Aurora MySQL ServerlessFMR ACU Months 💥
+  - Billing metric removed: Performance Insights Aurora PostgreSQL ServerlessFMR ACU Months 💥
+  - Billing metric removed: Performance Insights Aurora MySQL ProvisionedAMR vCPU Months 💥
+  - Billing metric removed: Performance Insights Aurora PostgreSQL ProvisionedAMR vCPU Months 💥
+  - Billing metric removed: Performance Insights Aurora MySQL ProvisionedFMR vCPU Months 💥
+  - Billing metric removed: Performance Insights Aurora PostgreSQL ProvisionedFMR vCPU Months 💥
+
+- [rds-db2-ondemand](processed/rds-db2-ondemand.json)
+  - Billing metric removed: -BU-3-Up-QlkGTKkSicX5ypPfFoSOMp6tSQ0o9D1T80 V1 💥
+  - Billing metric removed: AmoRL6ZBcZJphnKlXLhXhCzQcrgAivuGkW9B2EW8joQ V1 💥
+  - Billing metric removed: DUYwquuBX6gLaOCB3bQ5zjmVFsV-VTCTA9WSwonHMuQ V1 💥
+  - Billing metric removed: DmhWNfCCtHlI2btm7PAbe-xMqQa1rP9fGLshDiY2bp8 V1 💥
+  - Billing metric removed: JeGPpB2bqFaps04xGG3q7DDfFjtvBm6VqgHnzaCzsdQ V1 💥
+  - Billing metric removed: K2uwPflyot9KqURCviUHpdUc3NtGbLnmlJ77qbG78bs V1 💥
+  - Billing metric removed: RMkLrOUBKEzkEFswk-eipOZ4zNItWd10bkiJujzkc9Y V1 💥
+  - Billing metric removed: SZAsVvw5PkIP3G9Ni7yd6ndrNuyLVVmwHPyEAOy1u1Q V1 💥
+  - Billing metric removed: ZVztUrEzDAQyMBuQ5jmTfxKdquO1C92E6QTqrNA06aQ V1 💥
+  - Billing metric removed: cZNzusFJqYbjmlykGR3pzgMBdhTNyM4GyGVuwXGDuaw V1 💥
+  - Billing metric removed: e0-Xhifjr45vpsN1G_OY53MU4qudyJGoSwJLeFtj6nw V1 💥
+  - Billing metric removed: geJ30WkR524DZ7a2L2F6r9aX9vihtvxiHS1nlN1wM6Q V1 💥
+  - Billing metric removed: 2coSjHAwlVIudZIb_gkHi43kL6nO-vYXQkm2OqRZJA0 V1 💥
+  - Billing metric removed: DcH5sU0oI70gA-kiiKPcQgVyWrx4DLyUwNqk-pf9ukQ V1 💥
+  - Billing metric removed: UPbMcjOjHfw9k3XtIkUBVb5XnbwzSlQoIOdUkVbwU5E V1 💥
+  - Billing metric removed: cNYCA38MYFejHnvNt7ifl4UHQ4phVs6G43cHbRzJn0s V1 💥
+  - Billing metric removed: jRrcmCNCR3yOYd0y675utNWx5kv-ZTBGTkZP80iIk0w V1 💥
+  - Billing metric removed: oLh8ma553UNMuyEu6Kbfc67D5EvocoJhgH_i0uAdMhY V1 💥
+  - Billing metric removed: odbchIuzgzTDywo-MCP_K2yvjJsiE5VDJcAoOBQ_WA8 V1 💥
+  - Billing metric removed: rrU-QrS0KfHGKI5ZgQPB5viVks54grXYxzuJpS6g5Qk V1 💥
+
+- [rds-mysql-ondemand](processed/rds-mysql-ondemand.json)
+  - Billing metric removed: -BU-3-Up-QlkGTKkSicX5ypPfFoSOMp6tSQ0o9D1T80 V1 💥
+  - Billing metric removed: 0R1zOGxjNQUQUIHuGwMB8n9km2a2fcU3QKRT2hRGVgA V1 💥
+  - Billing metric removed: 8FGROlzvXDn7LBw27nF8i1C9RfkHSTzBJ0IgyWkOWXM V1 💥
+  - Billing metric removed: AmoRL6ZBcZJphnKlXLhXhCzQcrgAivuGkW9B2EW8joQ V1 💥
+  - Billing metric removed: D5FlQe2F8_F8Qa-ntWeywctoYaZVc7XMYWicj5OUscM V1 💥
+  - Billing metric removed: DUYwquuBX6gLaOCB3bQ5zjmVFsV-VTCTA9WSwonHMuQ V1 💥
+  - Billing metric removed: DmhWNfCCtHlI2btm7PAbe-xMqQa1rP9fGLshDiY2bp8 V1 💥
+  - Billing metric removed: JeGPpB2bqFaps04xGG3q7DDfFjtvBm6VqgHnzaCzsdQ V1 💥
+  - Billing metric removed: K2uwPflyot9KqURCviUHpdUc3NtGbLnmlJ77qbG78bs V1 💥
+  - Billing metric removed: NxawPB42D7uHHqXDcZFk3datTcbwHuZRf0mM2Kxa9f8 V1 💥
+  - Billing metric removed: RMkLrOUBKEzkEFswk-eipOZ4zNItWd10bkiJujzkc9Y V1 💥
+  - Billing metric removed: SZAsVvw5PkIP3G9Ni7yd6ndrNuyLVVmwHPyEAOy1u1Q V1 💥
+  - Billing metric removed: Z0yxqf8qmBvLkJE1s3UZVayOTf-0dsxBNY0WI243tA8 V1 💥
+  - Billing metric removed: ZVztUrEzDAQyMBuQ5jmTfxKdquO1C92E6QTqrNA06aQ V1 💥
+  - Billing metric removed: cZNzusFJqYbjmlykGR3pzgMBdhTNyM4GyGVuwXGDuaw V1 💥
+  - Billing metric removed: e0-Xhifjr45vpsN1G_OY53MU4qudyJGoSwJLeFtj6nw V1 💥
+  - Billing metric removed: geJ30WkR524DZ7a2L2F6r9aX9vihtvxiHS1nlN1wM6Q V1 💥
+  - Billing metric removed: ubW-z3N6cfPv2xLYRwVFUFmMwUPWo4d1xbyQxKvtDoI V1 💥
+  - Billing metric removed: Performance Insights ProvisionedAMR vCPU-Months 💥
+  - Billing metric removed: Performance Insights ProvisionedFMR vCPU-Months 💥
+
+- [rds-postgresql-ondemand](processed/rds-postgresql-ondemand.json)
+  - Billing metric removed: -BU-3-Up-QlkGTKkSicX5ypPfFoSOMp6tSQ0o9D1T80 V1 💥
+  - Billing metric removed: 0R1zOGxjNQUQUIHuGwMB8n9km2a2fcU3QKRT2hRGVgA V1 💥
+  - Billing metric removed: 8FGROlzvXDn7LBw27nF8i1C9RfkHSTzBJ0IgyWkOWXM V1 💥
+  - Billing metric removed: AmoRL6ZBcZJphnKlXLhXhCzQcrgAivuGkW9B2EW8joQ V1 💥
+  - Billing metric removed: D5FlQe2F8_F8Qa-ntWeywctoYaZVc7XMYWicj5OUscM V1 💥
+  - Billing metric removed: DUYwquuBX6gLaOCB3bQ5zjmVFsV-VTCTA9WSwonHMuQ V1 💥
+  - Billing metric removed: DmhWNfCCtHlI2btm7PAbe-xMqQa1rP9fGLshDiY2bp8 V1 💥
+  - Billing metric removed: JeGPpB2bqFaps04xGG3q7DDfFjtvBm6VqgHnzaCzsdQ V1 💥
+  - Billing metric removed: K2uwPflyot9KqURCviUHpdUc3NtGbLnmlJ77qbG78bs V1 💥
+  - Billing metric removed: NxawPB42D7uHHqXDcZFk3datTcbwHuZRf0mM2Kxa9f8 V1 💥
+  - Billing metric removed: RMkLrOUBKEzkEFswk-eipOZ4zNItWd10bkiJujzkc9Y V1 💥
+  - Billing metric removed: SZAsVvw5PkIP3G9Ni7yd6ndrNuyLVVmwHPyEAOy1u1Q V1 💥
+  - Billing metric removed: Z0yxqf8qmBvLkJE1s3UZVayOTf-0dsxBNY0WI243tA8 V1 💥
+  - Billing metric removed: ZVztUrEzDAQyMBuQ5jmTfxKdquO1C92E6QTqrNA06aQ V1 💥
+  - Billing metric removed: cZNzusFJqYbjmlykGR3pzgMBdhTNyM4GyGVuwXGDuaw V1 💥
+  - Billing metric removed: e0-Xhifjr45vpsN1G_OY53MU4qudyJGoSwJLeFtj6nw V1 💥
+  - Billing metric removed: geJ30WkR524DZ7a2L2F6r9aX9vihtvxiHS1nlN1wM6Q V1 💥
+  - Billing metric removed: ubW-z3N6cfPv2xLYRwVFUFmMwUPWo4d1xbyQxKvtDoI V1 💥
+  - Billing metric removed: Performance Insights ProvisionedAMR vCPU-Months 💥
+  - Billing metric removed: Performance Insights ProvisionedFMR vCPU-Months 💥
+
+- [rds-oracle-ondemand](processed/rds-oracle-ondemand.json)
+  - Billing metric removed: -BU-3-Up-QlkGTKkSicX5ypPfFoSOMp6tSQ0o9D1T80 V1 💥
+  - Billing metric removed: 0oqXS3m6Y37CX1mhwDYC7z8M8_1Uxc8XhC-8qWvjeeI V1 💥
+  - Billing metric removed: 0unriv_mNcsw-9tf5TQUAKhAzK4t4DMsaVT0FwlZIGs V1 💥
+  - Billing metric removed: 7smPcyd9kkd4jBZiUjYusRUmR9pzZtxmala6aclEt-g V1 💥
+  - Billing metric removed: AmR_93Nw9gW7e-7ZHY5zfN7kGaCbOn6Fvl6zymVjYKc V1 💥
+  - Billing metric removed: AmoRL6ZBcZJphnKlXLhXhCzQcrgAivuGkW9B2EW8joQ V1 💥
+  - Billing metric removed: DUYwquuBX6gLaOCB3bQ5zjmVFsV-VTCTA9WSwonHMuQ V1 💥
+  - Billing metric removed: DmhWNfCCtHlI2btm7PAbe-xMqQa1rP9fGLshDiY2bp8 V1 💥
+  - Billing metric removed: DwWDquQfQNJsQDYVczXCTyjK9WuCVGYgoWSJNYv4Hgc V1 💥
+  - Billing metric removed: JeGPpB2bqFaps04xGG3q7DDfFjtvBm6VqgHnzaCzsdQ V1 💥
+  - Billing metric removed: K2uwPflyot9KqURCviUHpdUc3NtGbLnmlJ77qbG78bs V1 💥
+  - Billing metric removed: LHth4Ef_M7mrh-GCsz6Jl1_--u00cNH-kYMh4vVMwCY V1 💥
+  - Billing metric removed: RMkLrOUBKEzkEFswk-eipOZ4zNItWd10bkiJujzkc9Y V1 💥
+  - Billing metric removed: SZAsVvw5PkIP3G9Ni7yd6ndrNuyLVVmwHPyEAOy1u1Q V1 💥
+  - Billing metric removed: TcfKHyA6E78QdwTQHYoIeg3xjqpbq2c4T5RJtBgmo0M V1 💥
+  - Billing metric removed: ZVztUrEzDAQyMBuQ5jmTfxKdquO1C92E6QTqrNA06aQ V1 💥
+  - Billing metric removed: aHTcxo003H07P_wklSuxkTiv4DJmHV7hU5ANILfoCvk V1 💥
+  - Billing metric removed: cZNzusFJqYbjmlykGR3pzgMBdhTNyM4GyGVuwXGDuaw V1 💥
+  - Billing metric removed: cz2KiZtnHIDH-OnYghmqle___SQrcfVuBBR3IsRUFwU V1 💥
+  - Billing metric removed: e0-Xhifjr45vpsN1G_OY53MU4qudyJGoSwJLeFtj6nw V1 💥
+  - Billing metric removed: gN8ENxl3lq-52T54Uw6vF7lgX1BIhfy856UQa-ObuQU V1 💥
+  - Billing metric removed: geJ30WkR524DZ7a2L2F6r9aX9vihtvxiHS1nlN1wM6Q V1 💥
+  - Billing metric removed: lTdfTjsFHBdkxVuGnEgD8sJNcoMjzfUTlMy7PRK5UBQ V1 💥
+  - Billing metric removed: ubXNdTaR9SYxD9N26fg0NDVp5M5zcllbu7hZ02dDHZQ V1 💥
+  - Billing metric removed: Performance Insights ProvisionedFMR vCPU-Months 💥
+  - Billing metric removed: Performance Insights ProvisionedAMR vCPU-Months 💥
+
+- [rds-mariadb-ondemand](processed/rds-mariadb-ondemand.json)
+  - Billing metric removed: -BU-3-Up-QlkGTKkSicX5ypPfFoSOMp6tSQ0o9D1T80 V2 💥
+  - Billing metric removed: 0R1zOGxjNQUQUIHuGwMB8n9km2a2fcU3QKRT2hRGVgA V2 💥
+  - Billing metric removed: 8FGROlzvXDn7LBw27nF8i1C9RfkHSTzBJ0IgyWkOWXM V2 💥
+  - Billing metric removed: AmoRL6ZBcZJphnKlXLhXhCzQcrgAivuGkW9B2EW8joQ V2 💥
+  - Billing metric removed: D5FlQe2F8_F8Qa-ntWeywctoYaZVc7XMYWicj5OUscM V2 💥
+  - Billing metric removed: DUYwquuBX6gLaOCB3bQ5zjmVFsV-VTCTA9WSwonHMuQ V2 💥
+  - Billing metric removed: DmhWNfCCtHlI2btm7PAbe-xMqQa1rP9fGLshDiY2bp8 V2 💥
+  - Billing metric removed: JeGPpB2bqFaps04xGG3q7DDfFjtvBm6VqgHnzaCzsdQ V2 💥
+  - Billing metric removed: K2uwPflyot9KqURCviUHpdUc3NtGbLnmlJ77qbG78bs V2 💥
+  - Billing metric removed: NxawPB42D7uHHqXDcZFk3datTcbwHuZRf0mM2Kxa9f8 V2 💥
+  - Billing metric removed: RMkLrOUBKEzkEFswk-eipOZ4zNItWd10bkiJujzkc9Y V2 💥
+  - Billing metric removed: SZAsVvw5PkIP3G9Ni7yd6ndrNuyLVVmwHPyEAOy1u1Q V2 💥
+  - Billing metric removed: Z0yxqf8qmBvLkJE1s3UZVayOTf-0dsxBNY0WI243tA8 V2 💥
+  - Billing metric removed: ZVztUrEzDAQyMBuQ5jmTfxKdquO1C92E6QTqrNA06aQ V2 💥
+  - Billing metric removed: cZNzusFJqYbjmlykGR3pzgMBdhTNyM4GyGVuwXGDuaw V2 💥
+  - Billing metric removed: e0-Xhifjr45vpsN1G_OY53MU4qudyJGoSwJLeFtj6nw V2 💥
+  - Billing metric removed: geJ30WkR524DZ7a2L2F6r9aX9vihtvxiHS1nlN1wM6Q V2 💥
+  - Billing metric removed: ubW-z3N6cfPv2xLYRwVFUFmMwUPWo4d1xbyQxKvtDoI V2 💥
+  - Billing metric removed: Performance Insights ProvisionedAMR vCPU-Months 💥
+  - Billing metric removed: Performance Insights ProvisionedFMR vCPU-Months 💥
+
+- [rds-sqlserver-ondemand](processed/rds-sqlserver-ondemand.json)
+  - Billing metric removed: -BU-3-Up-QlkGTKkSicX5ypPfFoSOMp6tSQ0o9D1T80 V1 💥
+  - Billing metric removed: 7c-dmuQcKGJOrpR99AcnBKhdO1SeoMf_UHagdVPhr_o V1 💥
+  - Billing metric removed: 7uKy2zKMHBs_VRo4bf9oxdRa9mibTtN79ExyWNOjjgQ V1 💥
+  - Billing metric removed: AmoRL6ZBcZJphnKlXLhXhCzQcrgAivuGkW9B2EW8joQ V1 💥
+  - Billing metric removed: C1i20FP0KkdQi0x-niIbRZ6gYYr9FSkLQch1JRmcmJU V1 💥
+  - Billing metric removed: DUYwquuBX6gLaOCB3bQ5zjmVFsV-VTCTA9WSwonHMuQ V1 💥
+  - Billing metric removed: DmhWNfCCtHlI2btm7PAbe-xMqQa1rP9fGLshDiY2bp8 V1 💥
+  - Billing metric removed: IvQ7BmNY2FGeXkEs8bPtJwr96ojxFqhyecqF4oz0qqk V1 💥
+  - Billing metric removed: JeGPpB2bqFaps04xGG3q7DDfFjtvBm6VqgHnzaCzsdQ V1 💥
+  - Billing metric removed: K2uwPflyot9KqURCviUHpdUc3NtGbLnmlJ77qbG78bs V1 💥
+  - Billing metric removed: RMkLrOUBKEzkEFswk-eipOZ4zNItWd10bkiJujzkc9Y V1 💥
+  - Billing metric removed: SZAsVvw5PkIP3G9Ni7yd6ndrNuyLVVmwHPyEAOy1u1Q V1 💥
+  - Billing metric removed: UnoS5tn7oH5RfD0ElhXQnjuyeHS1WUbBYSYPjfYmjOA V1 💥
+  - Billing metric removed: VDF0FI0_epJHHZuWbVsHc0HOl8eJZjk2INtYrk26zcI V1 💥
+  - Billing metric removed: WaDi2lx3aTKVaS1HQT6f-cU8T7TTp0TZNG0Z2tbt3PQ V1 💥
+  - Billing metric removed: ZVztUrEzDAQyMBuQ5jmTfxKdquO1C92E6QTqrNA06aQ V1 💥
+  - Billing metric removed: bO5XK3xXvsVTM8I7Q9m9v4S2UdNRjOMQTXZ3hO_wrvA V1 💥
+  - Billing metric removed: cZNzusFJqYbjmlykGR3pzgMBdhTNyM4GyGVuwXGDuaw V1 💥
+  - Billing metric removed: e0-Xhifjr45vpsN1G_OY53MU4qudyJGoSwJLeFtj6nw V1 💥
+  - Billing metric removed: geJ30WkR524DZ7a2L2F6r9aX9vihtvxiHS1nlN1wM6Q V1 💥
+  - Billing metric removed: lDLtyZ7Zgpf3Dyd732Or5itEnnVz1HEqEHAsmTAuNRU V1 💥
+  - Billing metric removed: mGCOCpeOGP8AT4AnIAluXl6b6PGr70_SYsxlzfnwRZk V1 💥
+  - Billing metric removed: q9Kwxyb9DD2AALGWryGoGxal4-dweNOA-gWE0ExMtl4 V1 💥
+  - Billing metric removed: weDmPhocSAJABzvauUy0f54xPNU_grObXEgS-AblmN0 V1 💥
+  - Billing metric removed: Performance Insights ProvisionedAMR vCPU-Months 💥
+  - Billing metric removed: Performance Insights ProvisionedFMR vCPU-Months 💥
+
+
 ## 2026-08-06 23:37
 
 **Modified services:**
