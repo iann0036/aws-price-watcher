@@ -35459,6 +35459,7 @@
 - vmwarecloudonaws
 - endusermessaging3pfees
 - ingestionservicesnowball
+- mdc
 - chimedialinamcs
 - outposts
 - appstudio
@@ -35469,11 +35470,15 @@
 - computeoptimizer
 - r53apprecoverycontroller
 - repostspace
+- cloudformation
 - wisdom
+- transcribe
 - sagemaker
+- kinesisanalytics
 - connectcases
 - bcmpricingcalculator
 - codecatalyst
+- migrationhubrefactorspaces
 - customerprofiles
 - ei
 - chimecallmeamcs
@@ -35482,6 +35487,8 @@
 - eksanywhere
 - elasticdisasterrecovery
 - ivschat
+- iottwinmaker
+- iotthingsgraph
 - private5g
 - chimeservices
 - connectvoiceid
@@ -35489,10 +35496,13 @@
 - devopsguru
 - groundstation
 - chimebusinesscalling
+- wam
+- lookoutequipment
 - enterpriseonramp
 - oracledbataws
 - ssmsap
 - managedservices
+- bedrockagentcore
 - ec2ocpulicensefees
 - rtbfabric
 - kiro
@@ -35513,3 +35523,5 @@
 - quicksuite
 - amsoperations
 - datatransferterminal
+- rds-aurora-storage
+- rds-mysql-ondemand
