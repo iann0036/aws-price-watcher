@@ -35459,10 +35459,7 @@
 - vmwarecloudonaws
 - endusermessaging3pfees
 - ingestionservicesnowball
-- entityresolution
-- ses
 - chimedialinamcs
-- elasticmapreduce
 - outposts
 - appstudio
 - a4b
@@ -35473,9 +35470,7 @@
 - r53apprecoverycontroller
 - repostspace
 - wisdom
-- mobileanalytics
 - sagemaker
-- queueservice
 - connectcases
 - bcmpricingcalculator
 - codecatalyst
@@ -35487,7 +35482,6 @@
 - eksanywhere
 - elasticdisasterrecovery
 - ivschat
-- translate
 - private5g
 - chimeservices
 - connectvoiceid
@@ -35519,5 +35513,3 @@
 - quicksuite
 - amsoperations
 - datatransferterminal
-- rds-proxy
-- carrierip
