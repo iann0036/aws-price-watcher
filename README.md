@@ -1,3 +1,10 @@
+## 2026-08-20 14:30
+
+**New services:**
+
+- [ivschat](processed/ivschat.json) 🚀
+- [ivs](processed/ivs.json) 🚀
+
 ## 2026-08-11 18:37
 
 **Modified services:**
@@ -35481,11 +35488,9 @@
 - workspacesweb
 - eksanywhere
 - elasticdisasterrecovery
-- ivschat
 - private5g
 - chimeservices
 - connectvoiceid
-- ivs
 - devopsguru
 - groundstation
 - chimebusinesscalling
