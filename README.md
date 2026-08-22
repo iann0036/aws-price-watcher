@@ -35565,15 +35565,12 @@
 
 ## Not included services
 
-- mwaa
 - contactlensamazonconnect
 - vmwarecloudonaws
 - endusermessaging3pfees
 - ingestionservicesnowball
-- detective
 - chimedialinamcs
 - outposts
-- transfer
 - appstudio
 - a4b
 - monitron
@@ -35584,21 +35581,16 @@
 - repostspace
 - wisdom
 - sagemaker
-- queueservice
 - connectcases
 - bcmpricingcalculator
 - codecatalyst
 - customerprofiles
 - ei
 - chimecallmeamcs
-- b2bi
 - worklink
 - workspacesweb
 - eksanywhere
 - elasticdisasterrecovery
-- amplify
-- events
-- fms
 - private5g
 - chimeservices
 - connectvoiceid
@@ -35609,7 +35601,6 @@
 - oracledbataws
 - ssmsap
 - managedservices
-- bedrockagentcore
 - ec2ocpulicensefees
 - rtbfabric
 - kiro
