@@ -35570,6 +35570,7 @@
 - endusermessaging3pfees
 - ingestionservicesnowball
 - chimedialinamcs
+- gamelift
 - outposts
 - appstudio
 - a4b
@@ -35578,7 +35579,10 @@
 - m2
 - computeoptimizer
 - r53apprecoverycontroller
+- lookoutmetrics
 - repostspace
+- alexatopsites
+- supportbusiness
 - wisdom
 - sagemaker
 - connectcases
@@ -35591,6 +35595,7 @@
 - workspacesweb
 - eksanywhere
 - elasticdisasterrecovery
+- nimble
 - private5g
 - chimeservices
 - connectvoiceid
