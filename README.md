@@ -1,3 +1,20 @@
+## 2026-08-27 19:52
+
+**Modified services:**
+
+- [rds-mysql-ondemand](processed/rds-mysql-ondemand.json)
+  - Billing metric removed: 7WqYJjpywLqc04oB8n0XwhHI5lS1ch_dO4Qlwl5oO8o V1 💥
+  - Billing metric removed: siBM9OCa6d2NkMvCgx9q-FCwTO3ZeztiQOA07oxetso V1 💥
+
+- [rds-postgresql-ondemand](processed/rds-postgresql-ondemand.json)
+  - Billing metric removed: 7WqYJjpywLqc04oB8n0XwhHI5lS1ch_dO4Qlwl5oO8o V1 💥
+  - Billing metric removed: siBM9OCa6d2NkMvCgx9q-FCwTO3ZeztiQOA07oxetso V1 💥
+
+- [rds-mariadb-ondemand](processed/rds-mariadb-ondemand.json)
+  - Billing metric removed: 7WqYJjpywLqc04oB8n0XwhHI5lS1ch_dO4Qlwl5oO8o V2 💥
+  - Billing metric removed: siBM9OCa6d2NkMvCgx9q-FCwTO3ZeztiQOA07oxetso V2 💥
+
+
 ## 2026-08-20 21:28
 
 **Modified services:**
