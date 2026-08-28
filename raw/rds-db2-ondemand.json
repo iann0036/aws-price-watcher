@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "rds",
         "accessType": "publish",
-        "esIndex": "plc-rds-usd-20260827185517",
-        "hawkFilePublicationDate": "2026-08-27T18:55:17Z",
-        "ETLIngestionTriggerDate": "2026-08-27T18:55:17Z",
+        "esIndex": "plc-rds-usd-20260828001733",
+        "hawkFilePublicationDate": "2026-08-28T00:17:33Z",
+        "ETLIngestionTriggerDate": "2026-08-28T00:17:33Z",
         "currencyCode": "USD",
         "source": "rds-db2-ondemand",
         "isMapped": "true"
@@ -50,7 +50,6 @@
             "fa-f0daXJFO4vF80wy9S1DDTFVuf4sBfHT_W1LvH4cM",
             "fwPNQLYXceculj1SpxVu9oWZUQFhIuRJDAu3rpJlF4Y",
             "gIqlGR52oTPncG0Ipp75q99v3NTJz9KUqluq37Elkho",
-            "gKQJ5D04f74zTgdn0mIbYPC3SU6z1Igl_kkKtI3kuiw",
             "kqouWuAVdpXyjHKE56JiDD405Lv3rZIK1x1UGeWg6PU",
             "lob3mLlieaABpD6Qz6wtQuWsCdMGCWSVtAq1_uafO9k",
             "mVENWu36HsWS1057xmOk79Z1Yj30zxNPxWyZ8ZhdnVk",
@@ -169,7 +168,6 @@
             "XHIXmlSgxKlbiJiqcjK56yeEljHmGaydUAM-wZYz47k",
             "YdzEeCaI-BLTOdwrIMfCTwErLyF70dII15jfF6Teqc4",
             "ZAaXuCS0AAxzsUbLyRxkOuVlPdkqa-Lvj08sYQ-3miw",
-            "ZSd_pDoMi-OAkLTm_VkSlhEWi-XvvG5ffMhSTjuWPhc",
             "_78o4IkaFGJs_-k1O3N7WKQ_UIWkmYkkjadRRdD_Po4",
             "_h51ne9FMeop5frd1SX670iuguLuh_SqwKvkamZQD8A",
             "a5HgBE39_RvHF75tgHFMsadL4133oQxqqbjuUdt9Q-o",
@@ -379,7 +377,6 @@
             "efyemlI0E_w4VPqkCSjS-g7_8SEerIAArk7BIN54jro",
             "hNtvG8PU2tjzQs5d3YuUknjMvd37GUH4ZTLZfjy7ruU",
             "ive5swkp4nyr64sTjRJGXAnlwD4yJ03P6qdoCk2PolA",
-            "jp0z1RxSBWoNGtviSzBbO-idueAIYmoNKaSs6q3I6Cw",
             "jzU6niFdbkpOQtqA2Xwj7vDlJ3qIOmT58QyLa7-p9uM",
             "l5GN9Ar-GGYAvhuITaf5-JEkJx4Y1eCjg6Y73q5w9nk",
             "lYY7iPMrHtCnW7riwHQgKBGdazz_e9ifWfAdn0oMMaI",
@@ -400,7 +397,6 @@
             "2oWePU6_bB0Ef-UsHU-KXVXTRdeZ-JNU5GUeH17q8yQ",
             "2qn3eoEHgSYZ9nYu7FUoFQM8pyCQMF7fHRIzbyrn2Aw",
             "35_d3VqwWhjoVtXFz7gooQ8Ts4pIldOhnkcsXmcGX8c",
-            "3bIjfg1EiTScgqOut1Csfn3ddRKvIJnqzIP7D-YiC6A",
             "3g6hKPAAtlAEf5xtL5tqLeksWnvySw9sZ5zuvT4nibw",
             "46XHOpvp5KjLD3TGJOzDhcBqqSmXGXXuSFnsoEY2R3M",
             "50h7CFSCUVRv2ejpXtpIX-7bPzxR_psLqgewzyTimxk",
@@ -131327,6 +131323,15 @@
                 "vCPU": "2",
                 "Network Performance": "Low to Moderate"
             },
+            "0NcVaB23CXUilgcZxpxw7xieNFGBMgMbJjOJaOP1XLw": {
+                "rateCode": "VMCP86HBS2QAVJ89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.5100000000",
+                "RegionlessRateCode": "0NcVaB23CXUilgcZxpxw7xieNFGBMgMbJjOJaOP1XLw",
+                "Instance Type": "db.r7i.large",
+                "Memory": "16 GiB",
+                "vCPU": "2",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "0bynijpPZzvinmk4gmWmAj5zYHUj9folI6BFI-oqFig": {
                 "rateCode": "CUJBZ4DVSG4ZRWWM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2020000000",
@@ -131344,6 +131349,15 @@
                 "Memory": "768 GiB",
                 "vCPU": "96",
                 "Network Performance": "37.5 Gbps"
+            },
+            "24MRXu1aTS3GujlZLMAy4FzjDVyNE7KIfkMmQyaagzY": {
+                "rateCode": "C4QMKQT84G4C6HW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0800000000",
+                "RegionlessRateCode": "24MRXu1aTS3GujlZLMAy4FzjDVyNE7KIfkMmQyaagzY",
+                "Instance Type": "db.r7i.8xlarge",
+                "Memory": "256 GiB",
+                "vCPU": "32",
+                "Network Performance": "12.5 Gbps"
             },
             "2TK0CY5ZZw7E6LXjvSMnsLlo176Wq_9QA7t3V0xJQq4": {
                 "rateCode": "WRK45S8U7E8G6ZPZ.JRTCKXETXF.6YS6EN2CT7",
@@ -131390,6 +131404,15 @@
                 "vCPU": "96",
                 "Network Performance": "37.5 Gbps"
             },
+            "3Dn9hSPaOf8ZBAoFEjM3r132CkPfq0bRV6LOYRsqExE": {
+                "rateCode": "7GF4V9E43K9GGS96.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.5100000000",
+                "RegionlessRateCode": "3Dn9hSPaOf8ZBAoFEjM3r132CkPfq0bRV6LOYRsqExE",
+                "Instance Type": "db.r7i.xlarge",
+                "Memory": "32 GiB",
+                "vCPU": "4",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "3J_AtQOdAbqXVkbzRzejcjBf5liBhFWOWyPztqgyJbw": {
                 "rateCode": "CNPGEUQ8RRY9QK8R.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.8400000000",
@@ -131426,15 +131449,6 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
-            "3bIjfg1EiTScgqOut1Csfn3ddRKvIJnqzIP7D-YiC6A": {
-                "rateCode": "7NVUXN9KS47UK7H7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "8.1600000000",
-                "RegionlessRateCode": "3bIjfg1EiTScgqOut1Csfn3ddRKvIJnqzIP7D-YiC6A",
-                "Instance Type": "db.r7i.8xlarge",
-                "Memory": "256 GiB",
-                "vCPU": "32",
-                "Network Performance": "12.5 Gbps"
-            },
             "3pZk43XQHAwEGIYYN_2A8NH8wAdvUgZIe3ngB0afQe4": {
                 "rateCode": "DQARVHMANDZVH269.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2020000000",
@@ -131461,6 +131475,15 @@
                 "Memory": "64 GiB",
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "4GnEV4cFF132qdcLMcotiuQk3h2d2vU_fY0X4S5-rnw": {
+                "rateCode": "YKYXKKVMV8ZQ3Z2S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "24.4800000000",
+                "RegionlessRateCode": "4GnEV4cFF132qdcLMcotiuQk3h2d2vU_fY0X4S5-rnw",
+                "Instance Type": "db.r7i.24xlarge",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Network Performance": "37.5 Gbps"
             },
             "4RUJ9RDtcukHRNSgacdJ6mXXoe0pdoqH_4No-6hjnX4": {
                 "rateCode": "N8U8RMSWSUYDFBVG.JRTCKXETXF.6YS6EN2CT7",
@@ -131948,6 +131971,15 @@
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Hl6SMXUnJUuDwfpyT5yDdmSnUem9nQohBQMt749kHfU": {
+                "rateCode": "FTSW4VGNYPYYAC6D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0400000000",
+                "RegionlessRateCode": "Hl6SMXUnJUuDwfpyT5yDdmSnUem9nQohBQMt749kHfU",
+                "Instance Type": "db.r7i.4xlarge",
+                "Memory": "128 GiB",
+                "vCPU": "16",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "I7-wBLI1OSclXRXJHh01Rva2bcILglp-cYEy9lY2d_k": {
                 "rateCode": "P6AU8D6GCJPVZPPZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2550000000",
@@ -131966,6 +131998,15 @@
                 "vCPU": "32",
                 "Network Performance": "12.5 Gbps"
             },
+            "J3k4XK_xZ5c5FgYp-9VqhJKp_hFEPWqY4tJJTX6jnjU": {
+                "rateCode": "VQJ7MNH8JDDQZ3XM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0400000000",
+                "RegionlessRateCode": "J3k4XK_xZ5c5FgYp-9VqhJKp_hFEPWqY4tJJTX6jnjU",
+                "Instance Type": "db.r7i.2xlarge",
+                "Memory": "64 GiB",
+                "vCPU": "8",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "J6mSKkU3eXoMY9EyKSSiWxNUHGkHpV0l8VVtp89zzSA": {
                 "rateCode": "9YBTUNVEDXKVFWHX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.4200000000",
@@ -131983,6 +132024,15 @@
                 "Memory": "2 GiB",
                 "vCPU": "2",
                 "Network Performance": "Low to Moderate"
+            },
+            "JNXmTpaVQr0ZSBHowXh1HBUXwbrggyqIksYjxH0ktT8": {
+                "rateCode": "7UA2KCR5GNAD2W7U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.2400000000",
+                "RegionlessRateCode": "JNXmTpaVQr0ZSBHowXh1HBUXwbrggyqIksYjxH0ktT8",
+                "Instance Type": "db.r7i.24xlarge",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Network Performance": "37.5 Gbps"
             },
             "JwxMqoBe34CbRQQyFa2Maf3msdMmyK6-vO74oDicsLE": {
                 "rateCode": "BUR854P8RRP2YGKV.JRTCKXETXF.6YS6EN2CT7",
@@ -132317,6 +132367,15 @@
                 "vCPU": "2",
                 "Network Performance": "Low to Moderate"
             },
+            "SUjykoyysCXH5bqpVDaIWtady46s5wJ30ynaOQFrGbY": {
+                "rateCode": "RNXBWN86VPQFDXFG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.1200000000",
+                "RegionlessRateCode": "SUjykoyysCXH5bqpVDaIWtady46s5wJ30ynaOQFrGbY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "48",
+                "Network Performance": "18.75 Gbps"
+            },
             "ShjVieutjJX3bBVpvn8ykbRkcs5Bw9WDu3bIv7Oktbk": {
                 "rateCode": "YV6XMGTMYBPFJG27.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.0780000000",
@@ -132560,6 +132619,15 @@
                 "vCPU": "16",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "YHSJ566Wh0AO59kSnJ6qCt-HoWftrZ_Vs9YciZL6T-s": {
+                "rateCode": "XNPGUFS9RPH66RGR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2550000000",
+                "RegionlessRateCode": "YHSJ566Wh0AO59kSnJ6qCt-HoWftrZ_Vs9YciZL6T-s",
+                "Instance Type": "db.r7i.large",
+                "Memory": "16 GiB",
+                "vCPU": "2",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "YdzEeCaI-BLTOdwrIMfCTwErLyF70dII15jfF6Teqc4": {
                 "rateCode": "FPV4JVCCKWMWYJ6A.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0200000000",
@@ -132614,15 +132682,6 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
-            "ZSd_pDoMi-OAkLTm_VkSlhEWi-XvvG5ffMhSTjuWPhc": {
-                "rateCode": "E9M8E35UCGMK46P5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0800000000",
-                "RegionlessRateCode": "ZSd_pDoMi-OAkLTm_VkSlhEWi-XvvG5ffMhSTjuWPhc",
-                "Instance Type": "db.r7i.8xlarge",
-                "Memory": "256 GiB",
-                "vCPU": "32",
-                "Network Performance": "12.5 Gbps"
-            },
             "Ze8l9gHnVM4OLYYwQBBzCcWMBnIyOA9fZsLF0EYajlE": {
                 "rateCode": "RS5XDNAVW6YVJGJP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.6800000000",
@@ -132658,6 +132717,15 @@
                 "Memory": "768 GiB",
                 "vCPU": "96",
                 "Network Performance": "37.5 Gbps"
+            },
+            "_Cmlw92hTTaY8m20mMMe-Oes8czxO-L7KOZwMF_od38": {
+                "rateCode": "EKVYBMGVRED5QBWD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.1600000000",
+                "RegionlessRateCode": "_Cmlw92hTTaY8m20mMMe-Oes8czxO-L7KOZwMF_od38",
+                "Instance Type": "db.r7i.8xlarge",
+                "Memory": "256 GiB",
+                "vCPU": "32",
+                "Network Performance": "12.5 Gbps"
             },
             "_d07QC7dUw7QBPAdRHhwBaZQVIDO9SbxIc70WCDqwio": {
                 "rateCode": "ZAVVJMZUFW5FMSKF.JRTCKXETXF.6YS6EN2CT7",
@@ -132803,6 +132871,15 @@
                 "vCPU": "8",
                 "Network Performance": "Moderate"
             },
+            "ceOikukWj2PzmGlsvQuNVgzy02PQMNEQF0GAlse2MrY": {
+                "rateCode": "9T9Y89KP6QH5QWE3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0200000000",
+                "RegionlessRateCode": "ceOikukWj2PzmGlsvQuNVgzy02PQMNEQF0GAlse2MrY",
+                "Instance Type": "db.r7i.xlarge",
+                "Memory": "32 GiB",
+                "vCPU": "4",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "dCz2Zf8XJwSJtW5cXpACpTLkHuWE_6uTxPcTRaFr4J4": {
                 "rateCode": "56WUBT6TU878QCQC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "20.1600000000",
@@ -132893,6 +132970,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "fa-f0daXJFO4vF80wy9S1DDTFVuf4sBfHT_W1LvH4cM": {
+                "rateCode": "3BGYAN3CNTW7U4ZS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0800000000",
+                "RegionlessRateCode": "fa-f0daXJFO4vF80wy9S1DDTFVuf4sBfHT_W1LvH4cM",
+                "Instance Type": "db.r7i.4xlarge",
+                "Memory": "128 GiB",
+                "vCPU": "16",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "fwPNQLYXceculj1SpxVu9oWZUQFhIuRJDAu3rpJlF4Y": {
                 "rateCode": "THMKE84TWDCBU94D.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5100000000",
@@ -132901,15 +132987,6 @@
                 "Memory": "16 GiB",
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
-            },
-            "gKQJ5D04f74zTgdn0mIbYPC3SU6z1Igl_kkKtI3kuiw": {
-                "rateCode": "KHZGSVV79PG3K8ME.JRTCKXETXF.6YS6EN2CT7",
-                "price": "8.1600000000",
-                "RegionlessRateCode": "gKQJ5D04f74zTgdn0mIbYPC3SU6z1Igl_kkKtI3kuiw",
-                "Instance Type": "db.r7i.8xlarge",
-                "Memory": "256 GiB",
-                "vCPU": "32",
-                "Network Performance": "12.5 Gbps"
             },
             "hE4g8PUy4aIFXfIqAt_y6Yw2BjjNwvcmjFdLQwW1ox8": {
                 "rateCode": "SCEVYSG4PVQT47XD.JRTCKXETXF.6YS6EN2CT7",
@@ -133001,15 +133078,6 @@
                 "vCPU": "64",
                 "Network Performance": "25 Gbps"
             },
-            "jp0z1RxSBWoNGtviSzBbO-idueAIYmoNKaSs6q3I6Cw": {
-                "rateCode": "Z6NAWZKHKCKBBHD6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0800000000",
-                "RegionlessRateCode": "jp0z1RxSBWoNGtviSzBbO-idueAIYmoNKaSs6q3I6Cw",
-                "Instance Type": "db.r7i.8xlarge",
-                "Memory": "256 GiB",
-                "vCPU": "32",
-                "Network Performance": "12.5 Gbps"
-            },
             "k0cMOj70dJqaoCT8XHEtQWU_lFMpskW4jTWfeFyY15U": {
                 "rateCode": "PPX7DKG27Y8K4ZT2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "4.0800000000",
@@ -133082,6 +133150,15 @@
                 "vCPU": "2",
                 "Network Performance": "Low to Moderate"
             },
+            "lob3mLlieaABpD6Qz6wtQuWsCdMGCWSVtAq1_uafO9k": {
+                "rateCode": "6EAHU34CA5RUE6AQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.2400000000",
+                "RegionlessRateCode": "lob3mLlieaABpD6Qz6wtQuWsCdMGCWSVtAq1_uafO9k",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "48",
+                "Network Performance": "18.75 Gbps"
+            },
             "lp4WjKUsQEDRFmZkQ7luFYLhoBxrjzyMPnZTODITJHw": {
                 "rateCode": "EDNBAJ5WG3WKD48A.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.7200000000",
@@ -133136,6 +133213,15 @@
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "n6K7-nxp3RlNd4Y2rRycFUjUCxaeu3dDT6x5LYE_5aQ": {
+                "rateCode": "9KRNJCW8MZCWDBEY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "24.4800000000",
+                "RegionlessRateCode": "n6K7-nxp3RlNd4Y2rRycFUjUCxaeu3dDT6x5LYE_5aQ",
+                "Instance Type": "db.r7i.48xlarge",
+                "Memory": "1536 GiB",
+                "vCPU": "192",
+                "Network Performance": "50 Gbps"
+            },
             "occvSZMMG1im79e7b8fBmPMjksSon6nNqWgV0-HYZ1Q": {
                 "rateCode": "VBECAZSHUJKR2AEB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.7200000000",
@@ -133189,6 +133275,15 @@
                 "Memory": "32 GiB",
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "qHUNe6Zkk4fqmBLuZVtpz0oT66F51VJ_KLnWK-eKfNg": {
+                "rateCode": "EDBYNNAXVQ6VHA2Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "48.9600000000",
+                "RegionlessRateCode": "qHUNe6Zkk4fqmBLuZVtpz0oT66F51VJ_KLnWK-eKfNg",
+                "Instance Type": "db.r7i.48xlarge",
+                "Memory": "1536 GiB",
+                "vCPU": "192",
+                "Network Performance": "50 Gbps"
             },
             "qSht7GyPEHMvsB-te5hfXu--m4eYjPbRwT8dECOVZOs": {
                 "rateCode": "YRTBH83B27Q2CGWT.JRTCKXETXF.6YS6EN2CT7",
@@ -133269,6 +133364,15 @@
                 "Instance Type": "db.m6i.xlarge",
                 "Memory": "16 GiB",
                 "vCPU": "4",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
+            "tpTbJmy7kJenq4qLwxSNIOS-oKaxjjiEljY6TN17kRI": {
+                "rateCode": "4XAWHD9A36B6MSUU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0200000000",
+                "RegionlessRateCode": "tpTbJmy7kJenq4qLwxSNIOS-oKaxjjiEljY6TN17kRI",
+                "Instance Type": "db.r7i.2xlarge",
+                "Memory": "64 GiB",
+                "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
             },
             "uMmkmdf8bz9NjpY_4RkajLotxh0OWx43XhubjHTGtOo": {
@@ -133424,6 +133528,15 @@
                 "vCPU": "2",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "x_Gc42i8qJhSO325VvWxgAgUTPx8y_peLnuCUTffmWw": {
+                "rateCode": "FGZ2PR68DQD5UXQ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "16.3200000000",
+                "RegionlessRateCode": "x_Gc42i8qJhSO325VvWxgAgUTPx8y_peLnuCUTffmWw",
+                "Instance Type": "db.r7i.16xlarge",
+                "Memory": "512 GiB",
+                "vCPU": "64",
+                "Network Performance": "25 Gbps"
+            },
             "xdK-lPZzByk7TSSv0QdiUwf5iN_6SofhQbRE8XmkB2A": {
                 "rateCode": "S97RA3AKPS8E7BFB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0200000000",
@@ -133441,6 +133554,15 @@
                 "Memory": "256 GiB",
                 "vCPU": "32",
                 "Network Performance": "12.5 Gbps"
+            },
+            "xuo1VJ5yKpukBMZV8jXYW4auSym649JF8K7PG4ziib8": {
+                "rateCode": "4MEY4D4HVYGTXJ9E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.1600000000",
+                "RegionlessRateCode": "xuo1VJ5yKpukBMZV8jXYW4auSym649JF8K7PG4ziib8",
+                "Instance Type": "db.r7i.16xlarge",
+                "Memory": "512 GiB",
+                "vCPU": "64",
+                "Network Performance": "25 Gbps"
             },
             "xy64AIayaBbnctkq4-GeFCT1PXJFlJN7Hjs7QFgQX1Y": {
                 "rateCode": "UEV5QVRHDBVDVB2W.JRTCKXETXF.6YS6EN2CT7",
@@ -134168,6 +134290,15 @@
                 "vCPU": "2",
                 "Network Performance": "Low to Moderate"
             },
+            "Database Instance Db2 Bring your own license db r7i.large Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "VMCP86HBS2QAVJ89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.5100000000",
+                "RegionlessRateCode": "0NcVaB23CXUilgcZxpxw7xieNFGBMgMbJjOJaOP1XLw",
+                "Instance Type": "db.r7i.large",
+                "Memory": "16 GiB",
+                "vCPU": "2",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "Database Instance Db2 Bring your own license db t3.medium General purpose Multi-AZ Current Generation": {
                 "rateCode": "CUJBZ4DVSG4ZRWWM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2020000000",
@@ -134185,6 +134316,15 @@
                 "Memory": "768 GiB",
                 "vCPU": "96",
                 "Network Performance": "37.5 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.8xlarge Memory optimized Single-AZ Current Generation": {
+                "rateCode": "C4QMKQT84G4C6HW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0800000000",
+                "RegionlessRateCode": "24MRXu1aTS3GujlZLMAy4FzjDVyNE7KIfkMmQyaagzY",
+                "Instance Type": "db.r7i.8xlarge",
+                "Memory": "256 GiB",
+                "vCPU": "32",
+                "Network Performance": "12.5 Gbps"
             },
             "Database Instance Db2 Bring your own license db m7i.2xlarge General purpose Multi-AZ Current Generation": {
                 "rateCode": "WRK45S8U7E8G6ZPZ.JRTCKXETXF.6YS6EN2CT7",
@@ -134213,6 +134353,15 @@
                 "vCPU": "96",
                 "Network Performance": "37.5 Gbps"
             },
+            "Database Instance Db2 Bring your own license db r7i.xlarge Memory optimized Single-AZ Current Generation": {
+                "rateCode": "7GF4V9E43K9GGS96.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.5100000000",
+                "RegionlessRateCode": "3Dn9hSPaOf8ZBAoFEjM3r132CkPfq0bRV6LOYRsqExE",
+                "Instance Type": "db.r7i.xlarge",
+                "Memory": "32 GiB",
+                "vCPU": "4",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "Database Instance Db2 Marketplace db m6i.16xlarge General purpose Single-AZ Current Generation": {
                 "rateCode": "C8EYBM4RHSG4WHRZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.7180000000",
@@ -134221,6 +134370,15 @@
                 "Memory": "256 GiB",
                 "vCPU": "64",
                 "Network Performance": "25 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.24xlarge Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "YKYXKKVMV8ZQ3Z2S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "24.4800000000",
+                "RegionlessRateCode": "4GnEV4cFF132qdcLMcotiuQk3h2d2vU_fY0X4S5-rnw",
+                "Instance Type": "db.r7i.24xlarge",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Network Performance": "37.5 Gbps"
             },
             "Database Instance Db2 Marketplace db t3.small General purpose Single-AZ Current Generation": {
                 "rateCode": "M8FR5SBX9UP5KR5E.JRTCKXETXF.6YS6EN2CT7",
@@ -134438,6 +134596,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Database Instance Db2 Bring your own license db r7i.4xlarge Memory optimized Single-AZ Current Generation": {
+                "rateCode": "FTSW4VGNYPYYAC6D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0400000000",
+                "RegionlessRateCode": "Hl6SMXUnJUuDwfpyT5yDdmSnUem9nQohBQMt749kHfU",
+                "Instance Type": "db.r7i.4xlarge",
+                "Memory": "128 GiB",
+                "vCPU": "16",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "Database Instance Db2 Bring your own license db r6i.large Memory optimized Single-AZ Current Generation": {
                 "rateCode": "P6AU8D6GCJPVZPPZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2550000000",
@@ -134455,6 +134622,24 @@
                 "Memory": "128 GiB",
                 "vCPU": "32",
                 "Network Performance": "12.5 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.2xlarge Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "VQJ7MNH8JDDQZ3XM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0400000000",
+                "RegionlessRateCode": "J3k4XK_xZ5c5FgYp-9VqhJKp_hFEPWqY4tJJTX6jnjU",
+                "Instance Type": "db.r7i.2xlarge",
+                "Memory": "64 GiB",
+                "vCPU": "8",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.24xlarge Memory optimized Single-AZ Current Generation": {
+                "rateCode": "7UA2KCR5GNAD2W7U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.2400000000",
+                "RegionlessRateCode": "JNXmTpaVQr0ZSBHowXh1HBUXwbrggyqIksYjxH0ktT8",
+                "Instance Type": "db.r7i.24xlarge",
+                "Memory": "768 GiB",
+                "vCPU": "96",
+                "Network Performance": "37.5 Gbps"
             },
             "Database Instance Db2 Marketplace db r6i.16xlarge Memory optimized Multi-AZ Current Generation": {
                 "rateCode": "BUR854P8RRP2YGKV.JRTCKXETXF.6YS6EN2CT7",
@@ -134627,6 +134812,15 @@
                 "vCPU": "2",
                 "Network Performance": "Low to Moderate"
             },
+            "Database Instance Db2 Bring your own license db r7i.12xlarge Memory optimized Single-AZ Current Generation": {
+                "rateCode": "RNXBWN86VPQFDXFG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.1200000000",
+                "RegionlessRateCode": "SUjykoyysCXH5bqpVDaIWtady46s5wJ30ynaOQFrGbY",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "48",
+                "Network Performance": "18.75 Gbps"
+            },
             "Database Instance Db2 Bring your own license db m6i.12xlarge General purpose Multi-AZ Current Generation": {
                 "rateCode": "YV6XMGTMYBPFJG27.JRTCKXETXF.6YS6EN2CT7",
                 "price": "10.0780000000",
@@ -134726,6 +134920,15 @@
                 "vCPU": "64",
                 "Network Performance": "25 Gbps"
             },
+            "Database Instance Db2 Bring your own license db r7i.large Memory optimized Single-AZ Current Generation": {
+                "rateCode": "XNPGUFS9RPH66RGR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2550000000",
+                "RegionlessRateCode": "YHSJ566Wh0AO59kSnJ6qCt-HoWftrZ_Vs9YciZL6T-s",
+                "Instance Type": "db.r7i.large",
+                "Memory": "16 GiB",
+                "vCPU": "2",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "Database Instance Db2 Bring your own license db r6i.16xlarge Memory optimized Multi-AZ Current Generation": {
                 "rateCode": "468QZBEFK4CCSRQM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "16.3200000000",
@@ -134770,6 +134973,15 @@
                 "Memory": "768 GiB",
                 "vCPU": "96",
                 "Network Performance": "37.5 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.8xlarge Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "EKVYBMGVRED5QBWD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.1600000000",
+                "RegionlessRateCode": "_Cmlw92hTTaY8m20mMMe-Oes8czxO-L7KOZwMF_od38",
+                "Instance Type": "db.r7i.8xlarge",
+                "Memory": "256 GiB",
+                "vCPU": "32",
+                "Network Performance": "12.5 Gbps"
             },
             "Database Instance Db2 Marketplace db r6i.24xlarge Memory optimized Single-AZ Current Generation": {
                 "rateCode": "HDPJYYERGTJECFVR.JRTCKXETXF.6YS6EN2CT7",
@@ -134852,6 +135064,15 @@
                 "vCPU": "8",
                 "Network Performance": "Moderate"
             },
+            "Database Instance Db2 Bring your own license db r7i.xlarge Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "9T9Y89KP6QH5QWE3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0200000000",
+                "RegionlessRateCode": "ceOikukWj2PzmGlsvQuNVgzy02PQMNEQF0GAlse2MrY",
+                "Instance Type": "db.r7i.xlarge",
+                "Memory": "32 GiB",
+                "vCPU": "4",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
             "Database Instance Db2 Bring your own license db m7i.24xlarge General purpose Multi-AZ Current Generation": {
                 "rateCode": "56WUBT6TU878QCQC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "20.1600000000",
@@ -134896,6 +135117,15 @@
                 "Memory": "128 GiB",
                 "vCPU": "32",
                 "Network Performance": "12.5 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.4xlarge Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "3BGYAN3CNTW7U4ZS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0800000000",
+                "RegionlessRateCode": "fa-f0daXJFO4vF80wy9S1DDTFVuf4sBfHT_W1LvH4cM",
+                "Instance Type": "db.r7i.4xlarge",
+                "Memory": "128 GiB",
+                "vCPU": "16",
+                "Network Performance": "Up to 12.5 Gbps"
             },
             "Database Instance Db2 Marketplace db r6i.2xlarge Memory optimized Multi-AZ Current Generation": {
                 "rateCode": "SCEVYSG4PVQT47XD.JRTCKXETXF.6YS6EN2CT7",
@@ -134960,6 +135190,15 @@
                 "vCPU": "128",
                 "Network Performance": "50 Gbps"
             },
+            "Database Instance Db2 Bring your own license db r7i.12xlarge Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "6EAHU34CA5RUE6AQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "12.2400000000",
+                "RegionlessRateCode": "lob3mLlieaABpD6Qz6wtQuWsCdMGCWSVtAq1_uafO9k",
+                "Instance Type": "db.r7i.12xlarge",
+                "Memory": "384 GiB",
+                "vCPU": "48",
+                "Network Performance": "18.75 Gbps"
+            },
             "Database Instance Db2 Bring your own license db r6i.32xlarge Memory optimized Multi-AZ Current Generation": {
                 "rateCode": "D7AFCCHWKFXHWC37.JRTCKXETXF.6YS6EN2CT7",
                 "price": "32.6400000000",
@@ -134987,6 +135226,15 @@
                 "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Database Instance Db2 Bring your own license db r7i.48xlarge Memory optimized Single-AZ Current Generation": {
+                "rateCode": "9KRNJCW8MZCWDBEY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "24.4800000000",
+                "RegionlessRateCode": "n6K7-nxp3RlNd4Y2rRycFUjUCxaeu3dDT6x5LYE_5aQ",
+                "Instance Type": "db.r7i.48xlarge",
+                "Memory": "1536 GiB",
+                "vCPU": "192",
+                "Network Performance": "50 Gbps"
+            },
             "Database Instance Db2 Bring your own license db r6i.8xlarge Memory optimized Multi-AZ Current Generation": {
                 "rateCode": "RBGBXKEPVH2P887Y.JRTCKXETXF.6YS6EN2CT7",
                 "price": "8.1600000000",
@@ -135013,6 +135261,15 @@
                 "Memory": "32 GiB",
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.48xlarge Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "EDBYNNAXVQ6VHA2Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "48.9600000000",
+                "RegionlessRateCode": "qHUNe6Zkk4fqmBLuZVtpz0oT66F51VJ_KLnWK-eKfNg",
+                "Instance Type": "db.r7i.48xlarge",
+                "Memory": "1536 GiB",
+                "vCPU": "192",
+                "Network Performance": "50 Gbps"
             },
             "Database Instance Db2 Bring your own license db m7i.8xlarge General purpose Multi-AZ Current Generation": {
                 "rateCode": "2YWGM9WS7T4XN6SB.JRTCKXETXF.6YS6EN2CT7",
@@ -135048,6 +135305,15 @@
                 "Instance Type": "db.m6i.xlarge",
                 "Memory": "16 GiB",
                 "vCPU": "4",
+                "Network Performance": "Up to 12.5 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.2xlarge Memory optimized Single-AZ Current Generation": {
+                "rateCode": "4XAWHD9A36B6MSUU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0200000000",
+                "RegionlessRateCode": "tpTbJmy7kJenq4qLwxSNIOS-oKaxjjiEljY6TN17kRI",
+                "Instance Type": "db.r7i.2xlarge",
+                "Memory": "64 GiB",
+                "vCPU": "8",
                 "Network Performance": "Up to 12.5 Gbps"
             },
             "Database Instance Db2 Bring your own license db r6i.12xlarge Memory optimized Multi-AZ Current Generation": {
@@ -135086,6 +135352,15 @@
                 "vCPU": "4",
                 "Network Performance": "Up to 12.5 Gbps"
             },
+            "Database Instance Db2 Bring your own license db r7i.16xlarge Memory optimized Multi-AZ Current Generation": {
+                "rateCode": "FGZ2PR68DQD5UXQ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "16.3200000000",
+                "RegionlessRateCode": "x_Gc42i8qJhSO325VvWxgAgUTPx8y_peLnuCUTffmWw",
+                "Instance Type": "db.r7i.16xlarge",
+                "Memory": "512 GiB",
+                "vCPU": "64",
+                "Network Performance": "25 Gbps"
+            },
             "Database Instance Db2 Bring your own license db r6i.2xlarge Memory optimized Single-AZ Current Generation": {
                 "rateCode": "S97RA3AKPS8E7BFB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0200000000",
@@ -135103,6 +135378,15 @@
                 "Memory": "256 GiB",
                 "vCPU": "32",
                 "Network Performance": "12.5 Gbps"
+            },
+            "Database Instance Db2 Bring your own license db r7i.16xlarge Memory optimized Single-AZ Current Generation": {
+                "rateCode": "4MEY4D4HVYGTXJ9E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "8.1600000000",
+                "RegionlessRateCode": "xuo1VJ5yKpukBMZV8jXYW4auSym649JF8K7PG4ziib8",
+                "Instance Type": "db.r7i.16xlarge",
+                "Memory": "512 GiB",
+                "vCPU": "64",
+                "Network Performance": "25 Gbps"
             },
             "Database Instance Db2 Marketplace db r6i.32xlarge Memory optimized Single-AZ Current Generation": {
                 "rateCode": "UEV5QVRHDBVDVB2W.JRTCKXETXF.6YS6EN2CT7",
