@@ -1,3 +1,11 @@
+## 2026-08-31 11:26
+
+**Modified services:**
+
+- [kms](processed/kms.json)
+  - Billing metric added: API request - Free Tier 💡
+
+
 ## 2026-08-27 19:52
 
 **Modified services:**
