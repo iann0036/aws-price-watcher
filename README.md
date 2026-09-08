@@ -35647,3 +35647,4 @@
 - amsoperations
 - datatransferterminal
 - knowledgebase
+- agentregistry
