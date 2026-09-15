@@ -1,3 +1,16 @@
+## 2026-09-15 01:02
+
+**Modified services:**
+
+- [workspaces](processed/workspaces.json)
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month BYOL] 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month Included] 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month Included] 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month BYOL] 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour Included] 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour BYOL] 💡
+
+
 ## 2026-08-31 11:26
 
 **Modified services:**
