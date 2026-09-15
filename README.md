@@ -35661,3 +35661,4 @@
 - datatransferterminal
 - knowledgebase
 - agentregistry
+- connecttalent
