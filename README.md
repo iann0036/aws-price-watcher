@@ -35611,6 +35611,7 @@
 - outposts
 - appstudio
 - a4b
+- robomaker
 - monitron
 - datazone
 - m2
@@ -35625,10 +35626,12 @@
 - customerprofiles
 - ei
 - chimecallmeamcs
+- frauddetector
 - worklink
 - workspacesweb
 - eksanywhere
 - elasticdisasterrecovery
+- events
 - private5g
 - chimeservices
 - connectvoiceid
