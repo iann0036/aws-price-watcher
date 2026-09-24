@@ -35613,9 +35613,12 @@
 - vmwarecloudonaws
 - endusermessaging3pfees
 - ingestionservicesnowball
+- config
 - chimedialinamcs
+- codewhisperer
 - outposts
 - appstudio
+- inspector
 - a4b
 - monitron
 - datazone
@@ -35623,9 +35626,11 @@
 - computeoptimizer
 - r53apprecoverycontroller
 - repostspace
+- clouddirectory
 - wisdom
 - sagemaker
 - connectcases
+- codeguru
 - bcmpricingcalculator
 - codecatalyst
 - customerprofiles
@@ -35635,9 +35640,12 @@
 - workspacesweb
 - eksanywhere
 - elasticdisasterrecovery
+- translate
 - private5g
 - chimeservices
+- sumerian
 - connectvoiceid
+- pinpoint
 - devopsguru
 - groundstation
 - chimebusinesscalling
@@ -35668,3 +35676,4 @@
 - knowledgebase
 - agentregistry
 - connecttalent
+- rds-mysql-ondemand
