@@ -35668,3 +35668,4 @@
 - knowledgebase
 - agentregistry
 - connecttalent
+- nsm
