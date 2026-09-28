@@ -1,3 +1,12 @@
+## 2026-09-28 17:28
+
+**Modified services:**
+
+- [backup](processed/backup.json)
+  - Billing metric added: Storage FSx-ONTAP-MAZ Warm LAGVault 💡
+  - Billing metric added: Storage FSx-ONTAP Warm LAGVault 💡
+
+
 ## 2026-09-22 12:39
 
 **New services:**
