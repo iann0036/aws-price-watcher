@@ -1,3 +1,13 @@
+## 2026-10-03 05:38
+
+**Modified services:**
+
+- [iot](processed/iot.json)
+  - Billing metric removed: LoRaWAN Messages Next 4B 💥
+  - Billing metric removed: LoRaWAN Messages Over 5B 💥
+  - Billing metric removed: LoRaWAN Messages Up to 1B 💥
+
+
 ## 2026-09-28 17:28
 
 **Modified services:**
