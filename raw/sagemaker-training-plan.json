@@ -2,9 +2,9 @@
     "manifest": {
         "serviceId": "sagemaker",
         "accessType": "publish",
-        "esIndex": "plc-sagemaker-usd-20261007160901",
-        "hawkFilePublicationDate": "2026-10-07T16:09:01Z",
-        "ETLIngestionTriggerDate": "2026-10-07T16:09:01Z",
+        "esIndex": "plc-sagemaker-usd-20261009195529",
+        "hawkFilePublicationDate": "2026-10-09T19:55:29Z",
+        "ETLIngestionTriggerDate": "2026-10-09T19:55:29Z",
         "currencyCode": "USD",
         "source": "sagemaker-training-plan",
         "isMapped": "true"
@@ -282,6 +282,24 @@
                 "Memory": "8640 GiB",
                 "VCPU": "1296",
                 "Instance": "ml.u-p6e-gb200x36"
+            }
+        },
+        "US East (Atlanta)": {
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "rateCode": "22V3AX8WWGSBNS3D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge"
+            },
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "rateCode": "XNWRXM8GG5WBRXYP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge"
             }
         },
         "South America (Sao Paulo)": {
