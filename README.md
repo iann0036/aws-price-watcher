@@ -1,3 +1,682 @@
+## 2026-10-16 19:25
+
+**Modified services:**
+
+- [elasticmapreduce](processed/elasticmapreduce.json)
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkNativeCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 CPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate FlinkOperatorCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkNativeCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkSubmitCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 FlinkOperatorCPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkSubmitGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 SparkOperatorGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate InteractiveWorkloadGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate GBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 InteractiveWorkloadGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate CPUHours US West (Oregon)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours US West (N. California)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours US East (Ohio)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours US East (N. Virginia)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours South America (Sao Paulo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Middle East (UAE)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Middle East (Bahrain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Israel (Tel Aviv)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours EU (Stockholm)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours EU (Spain)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours EU (Paris)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours EU (Milan)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours EU (London)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours EU (Ireland)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours EU (Frankfurt)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Canada (Central)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Tokyo)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Sydney)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Singapore)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Seoul)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Osaka)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Mumbai)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Jakarta)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Hyderabad)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Asia Pacific (Hong Kong)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours Africa (Cape Town)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours AWS GovCloud (US-East)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate CPUHours AWS GovCloud (US)  **$0.01** → **$0.01** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers Fargate SparkOperatorGBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours US West (Oregon)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours US West (N. California)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours US East (Ohio)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours US East (N. Virginia)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours South America (Sao Paulo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Middle East (UAE)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Middle East (Bahrain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Israel (Tel Aviv)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours EU (Stockholm)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours EU (Spain)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours EU (Paris)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours EU (Milan)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours EU (London)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours EU (Ireland)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours EU (Frankfurt)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Canada (Central)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Tokyo)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Sydney)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Singapore)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Seoul)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Osaka)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Mumbai)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Jakarta)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Hyderabad)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Asia Pacific (Hong Kong)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours Africa (Cape Town)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours AWS GovCloud (US-East)  **$0.00** → **$0.00** 💸
+  - Price decreased: EMR Containers EC2 GBHours AWS GovCloud (US)  **$0.00** → **$0.00** 💸
+
+
 ## 2026-10-07 07:40
 
 **Modified services:**
