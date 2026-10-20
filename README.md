@@ -1,3 +1,12 @@
+## 2026-10-20 01:00
+
+**Modified services:**
+
+- [rds-aurora-ondemand](processed/rds-aurora-ondemand.json)
+  - Billing metric added: [Database Instance Aurora MySQL No license required Single-AZ current-] 💡
+  - Billing metric added: [Database Instance Aurora PostgreSQL No license required Single-AZ current-] 💡
+
+
 ## 2026-10-16 19:25
 
 **Modified services:**
