@@ -1,3 +1,16 @@
+## 2026-10-20 07:36
+
+**Modified services:**
+
+- [workspaces](processed/workspaces.json)
+  - Price decreased: Application Bundle Performance License Included Windows Basic utilities AlwaysOn EU (Frankfurt)  **$15.00** → **$0.00** 💸
+  - Price decreased: Application Bundle Performance License Included Windows Basic utilities AlwaysOn Asia Pacific (Singapore)  **$15.00** → **$0.00** 💸
+  - Price decreased: Application Bundle Performance License Included Windows Basic utilities AlwaysOn Asia Pacific (Mumbai)  **$15.00** → **$0.00** 💸
+  - Price increased: Application Bundle Standard Plus License Included Windows Basic utilities plus Office 2013 AlwaysOn EU (Frankfurt)  **$0.00** → **$15.00** 🤑
+  - Price increased: Application Bundle Standard Plus License Included Windows Basic utilities plus Office 2013 AlwaysOn Asia Pacific (Singapore)  **$0.00** → **$15.00** 🤑
+  - Price increased: Application Bundle Standard Plus License Included Windows Basic utilities plus Office 2013 AlwaysOn Asia Pacific (Mumbai)  **$0.00** → **$15.00** 🤑
+
+
 ## 2026-10-20 01:00
 
 **Modified services:**
