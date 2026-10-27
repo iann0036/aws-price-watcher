@@ -1,3 +1,14 @@
+## 2026-10-27 19:22
+
+**Modified services:**
+
+- [textract](processed/textract.json)
+  - Billing metric added: Async AnalyzeDocument API Signatures Over 1M 💡
+  - Billing metric added: Async DetectDocumentText API Text Over 1M 💡
+  - Billing metric added: Async DetectDocumentText API Text First 1M 💡
+  - Billing metric added: Async AnalyzeDocument API Signatures First 1M 💡
+
+
 ## 2026-10-21 07:37
 
 **Modified services:**
