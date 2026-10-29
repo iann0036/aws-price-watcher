@@ -36483,7 +36483,6 @@
 - workspacesweb
 - eksanywhere
 - elasticdisasterrecovery
-- deepracer
 - private5g
 - chimeservices
 - connectvoiceid
