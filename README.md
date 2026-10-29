@@ -1,3 +1,19 @@
+## 2026-10-29 09:26
+
+**Modified services:**
+
+- [iot](processed/iot.json)
+  - Billing metric added: Position 1000000 to 5000000 💡
+  - Billing metric added: Position 0 to 1000000 💡
+  - Billing metric added: Position 5000000 to Inf 💡
+
+- [b2bi](processed/b2bi.json)
+  - Billing metric added: JSON JSON Default JSON per Transformations 💡
+  - Billing metric added: JSON JSON Default JSON Large per Transformations 💡
+  - Billing metric added: XML XML Default XML per Transformations 💡
+  - Billing metric added: XML XML Default XML Large per Transformations 💡
+
+
 ## 2026-10-28 20:25
 
 **Modified services:**
