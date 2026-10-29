@@ -1,3 +1,13 @@
+## 2026-10-29 18:28
+
+**Modified services:**
+
+- [workspaces](processed/workspaces.json)
+  - Billing metric added: [Ubuntu Linux Graphics G7 AlwaysOn Billed by the month Included] 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the hour Included] 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the month Included] 💡
+
+
 ## 2026-10-29 09:26
 
 **Modified services:**
