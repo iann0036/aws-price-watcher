@@ -1,651 +1,67 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "frauddetector",
         "accessType": "publish",
-        "esIndex": "plc-frauddetector-usd-20260911124429",
+        "source": "frauddetector",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:29Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:29Z",
-        "currencyCode": "USD",
-        "source": "frauddetector",
+        "esIndex": "plc-frauddetector-usd-20260911124429",
+        "queryConfig": "public/b3eaee1f-33db-5716-9000-3c607815f26c/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
-                "rateCode": "QNBQU892SK293WD2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
-                "rateCode": "ZME3TXRN5VY3M6XB.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
-                "rateCode": "AHNVU89FAQNW877E.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
-                "rateCode": "MDYB3GM5F3WUW7B9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
-                "rateCode": "JVRXG6AAVQX2T99F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
-                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
-                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
-                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
-                "rateCode": "8Q36RCZUD6KSBJHQ.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0003000000",
-                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
-            },
-            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
-                "rateCode": "AHNVU89FAQNW877E.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
-                "rateCode": "8Q36RCZUD6KSBJHQ.JRTCKXETXF.HWDSBTNJX9",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
-            },
-            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
-                "rateCode": "8Q36RCZUD6KSBJHQ.JRTCKXETXF.RTKVR6ZK95",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
-            },
-            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
-                "rateCode": "ZME3TXRN5VY3M6XB.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            },
-            "Stored Dataset": {
-                "rateCode": "QNBQU892SK293WD2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "ZME3TXRN5VY3M6XB.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "AHNVU89FAQNW877E.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "Hosting": {
-                "rateCode": "MDYB3GM5F3WUW7B9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Training": {
-                "rateCode": "JVRXG6AAVQX2T99F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Predictions Rules Only 1200000 to Inf Predictions": {
-                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "Predictions Rules Only 400000 to 1200000 Predictions": {
-                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "Predictions Rules Only 0 to 400000 Predictions": {
-                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "AHNVU89FAQNW877E.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "ZME3TXRN5VY3M6XB.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            }
-        },
-        "US East (Ohio)": {
-            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
-                "rateCode": "U47HMZSHKSA78SSM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
-                "rateCode": "UBM3QMA99ZYF5X2S.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
-                "rateCode": "5SFH5UTFN7NUHW2U.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
-                "rateCode": "BDFRXSGAKQMYM7NT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
-                "rateCode": "3NAX8Q6QSV75G3AR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
-                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
-                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
-                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
-                "rateCode": "SNE4Y8WPP4DR9V5R.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0003000000",
-                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
-            },
-            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
-                "rateCode": "5SFH5UTFN7NUHW2U.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
-                "rateCode": "SNE4Y8WPP4DR9V5R.JRTCKXETXF.HWDSBTNJX9",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
-            },
-            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
-                "rateCode": "SNE4Y8WPP4DR9V5R.JRTCKXETXF.RTKVR6ZK95",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
-            },
-            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
-                "rateCode": "UBM3QMA99ZYF5X2S.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            },
-            "Stored Dataset": {
-                "rateCode": "U47HMZSHKSA78SSM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "UBM3QMA99ZYF5X2S.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "5SFH5UTFN7NUHW2U.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "Hosting": {
-                "rateCode": "BDFRXSGAKQMYM7NT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Training": {
-                "rateCode": "3NAX8Q6QSV75G3AR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Predictions Rules Only 1200000 to Inf Predictions": {
-                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "Predictions Rules Only 400000 to 1200000 Predictions": {
-                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "Predictions Rules Only 0 to 400000 Predictions": {
-                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "5SFH5UTFN7NUHW2U.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "UBM3QMA99ZYF5X2S.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            }
-        },
-        "US East (N. Virginia)": {
-            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
-                "rateCode": "49PYVMDABYZJ2K5N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
-                "rateCode": "QSV7JYN3DQF7MMHR.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
-                "rateCode": "2BWX8K6T3YT6DAND.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
-                "rateCode": "9DMEBGNCA2ABB95Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
-                "rateCode": "VYQDW67F9NR6KWFM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
-                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
-                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
-                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
-                "rateCode": "RRW2G2BYBXJB4DXD.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0003000000",
-                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
-            },
-            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
-                "rateCode": "2BWX8K6T3YT6DAND.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
-                "rateCode": "RRW2G2BYBXJB4DXD.JRTCKXETXF.HWDSBTNJX9",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
-            },
-            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
-                "rateCode": "RRW2G2BYBXJB4DXD.JRTCKXETXF.RTKVR6ZK95",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
-            },
-            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
-                "rateCode": "QSV7JYN3DQF7MMHR.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            },
-            "Stored Dataset": {
-                "rateCode": "49PYVMDABYZJ2K5N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "QSV7JYN3DQF7MMHR.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "2BWX8K6T3YT6DAND.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "Hosting": {
-                "rateCode": "9DMEBGNCA2ABB95Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Training": {
-                "rateCode": "VYQDW67F9NR6KWFM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Predictions Rules Only 1200000 to Inf Predictions": {
-                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "Predictions Rules Only 400000 to 1200000 Predictions": {
-                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "Predictions Rules Only 0 to 400000 Predictions": {
-                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "2BWX8K6T3YT6DAND.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "QSV7JYN3DQF7MMHR.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            }
-        },
-        "EU (Ireland)": {
-            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
-                "rateCode": "KSEA4YSZRP5XGN6E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
-                "rateCode": "RBP2DG48KVXH67UN.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
-                "rateCode": "6N8XVTV6PZ8VQ6DY.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
-                "rateCode": "U2G44BHHMNX63UHZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
-                "rateCode": "H7RWY2UCEJEZ8RE3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
-                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
-                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
-                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
-                "rateCode": "Z28CSU5CJ8AATPBU.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0003000000",
-                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
-            },
-            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
-                "rateCode": "6N8XVTV6PZ8VQ6DY.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
-                "rateCode": "Z28CSU5CJ8AATPBU.JRTCKXETXF.HWDSBTNJX9",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
-            },
-            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
-                "rateCode": "Z28CSU5CJ8AATPBU.JRTCKXETXF.RTKVR6ZK95",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
-            },
-            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
-                "rateCode": "RBP2DG48KVXH67UN.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            },
-            "Stored Dataset": {
-                "rateCode": "KSEA4YSZRP5XGN6E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "RBP2DG48KVXH67UN.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "6N8XVTV6PZ8VQ6DY.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "Hosting": {
-                "rateCode": "U2G44BHHMNX63UHZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Training": {
-                "rateCode": "H7RWY2UCEJEZ8RE3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Predictions Rules Only 1200000 to Inf Predictions": {
-                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "Predictions Rules Only 400000 to 1200000 Predictions": {
-                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "Predictions Rules Only 0 to 400000 Predictions": {
-                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "6N8XVTV6PZ8VQ6DY.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "RBP2DG48KVXH67UN.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
-                "rateCode": "22FUH7M9CXNBP9ZA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
-                "rateCode": "4ZHSB46UJSK92N9N.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
-                "rateCode": "PH3TDT4ADZQZ5HSW.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
-                "rateCode": "UT57C64HW9Y8ENM6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
-                "rateCode": "BHZDKUHVBCGEP3M4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
-                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
-                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
-                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
-                "rateCode": "CSMU5TVQR7ZF9E8A.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0003000000",
-                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
-            },
-            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
-                "rateCode": "PH3TDT4ADZQZ5HSW.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
-                "rateCode": "CSMU5TVQR7ZF9E8A.JRTCKXETXF.HWDSBTNJX9",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
-            },
-            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
-                "rateCode": "CSMU5TVQR7ZF9E8A.JRTCKXETXF.RTKVR6ZK95",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
-            },
-            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
-                "rateCode": "4ZHSB46UJSK92N9N.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            },
-            "Stored Dataset": {
-                "rateCode": "22FUH7M9CXNBP9ZA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "4ZHSB46UJSK92N9N.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "PH3TDT4ADZQZ5HSW.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
-            },
-            "Hosting": {
-                "rateCode": "UT57C64HW9Y8ENM6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
-            },
-            "Training": {
-                "rateCode": "BHZDKUHVBCGEP3M4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Predictions Rules Only 1200000 to Inf Predictions": {
-                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "Predictions Rules Only 400000 to 1200000 Predictions": {
-                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "Predictions Rules Only 0 to 400000 Predictions": {
-                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
-            },
-            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "PH3TDT4ADZQZ5HSW.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
-            },
-            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "4ZHSB46UJSK92N9N.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            }
-        },
         "Asia Pacific (Singapore)": {
-            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
-                "rateCode": "RAF562VNP2MZJT2B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
-                "rateCode": "MDQJQ3VNPE6VFUD8.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
+                "rateCode": "B5X5WF674QX7JNXS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
             },
             "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
                 "rateCode": "D4EPAXVBE4JN99UF.JRTCKXETXF.NADQ2ZJX8V",
                 "price": "0.0300000000",
                 "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
             },
-            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
-                "rateCode": "B5X5WF674QX7JNXS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
+                "rateCode": "D4EPAXVBE4JN99UF.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
             },
-            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
-                "rateCode": "NTDMM4PPAPMNB6WA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
+                "rateCode": "MDQJQ3VNPE6VFUD8.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
             },
-            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
-                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
-                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
+                "rateCode": "MDQJQ3VNPE6VFUD8.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
             },
             "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
                 "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.KJYPJPDD2A",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
             },
-            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
-                "rateCode": "UKS8ASF2R35J79D2.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0003000000",
-                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
+            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
+                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
             },
-            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
-                "rateCode": "D4EPAXVBE4JN99UF.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
+                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
+                "rateCode": "NTDMM4PPAPMNB6WA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
+                "rateCode": "RAF562VNP2MZJT2B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
             },
             "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
                 "rateCode": "UKS8ASF2R35J79D2.JRTCKXETXF.HWDSBTNJX9",
@@ -657,50 +73,20 @@
                 "price": "0.0005000000",
                 "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
             },
-            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
-                "rateCode": "MDQJQ3VNPE6VFUD8.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
-            },
-            "Stored Dataset": {
-                "rateCode": "RAF562VNP2MZJT2B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
-            },
-            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
-                "rateCode": "MDQJQ3VNPE6VFUD8.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0075000000",
-                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
-            },
-            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
-                "rateCode": "D4EPAXVBE4JN99UF.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
+                "rateCode": "UKS8ASF2R35J79D2.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0003000000",
+                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
             },
             "Hosting": {
                 "rateCode": "B5X5WF674QX7JNXS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0600000000",
                 "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
             },
-            "Training": {
-                "rateCode": "NTDMM4PPAPMNB6WA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
-            },
-            "Predictions Rules Only 1200000 to Inf Predictions": {
-                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.4N34XG2JX8",
-                "price": "0.0012500000",
-                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
-            },
-            "Predictions Rules Only 400000 to 1200000 Predictions": {
-                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.K5UKHBBPBA",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
-            },
-            "Predictions Rules Only 0 to 400000 Predictions": {
-                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.KJYPJPDD2A",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "D4EPAXVBE4JN99UF.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
             },
             "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
                 "rateCode": "D4EPAXVBE4JN99UF.JRTCKXETXF.FF8BMSDA2R",
@@ -711,6 +97,621 @@
                 "rateCode": "MDQJQ3VNPE6VFUD8.JRTCKXETXF.NADQ2ZJX8V",
                 "price": "0.0300000000",
                 "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "MDQJQ3VNPE6VFUD8.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "Predictions Rules Only 0 to 400000 Predictions": {
+                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "Predictions Rules Only 400000 to 1200000 Predictions": {
+                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Predictions Rules Only 1200000 to Inf Predictions": {
+                "rateCode": "N6URMDWEXNBFAFWA.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Training": {
+                "rateCode": "NTDMM4PPAPMNB6WA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "Stored Dataset": {
+                "rateCode": "RAF562VNP2MZJT2B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
+                "rateCode": "22FUH7M9CXNBP9ZA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
+                "rateCode": "4ZHSB46UJSK92N9N.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
+                "rateCode": "4ZHSB46UJSK92N9N.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
+                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
+                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
+                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
+                "rateCode": "BHZDKUHVBCGEP3M4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
+                "rateCode": "CSMU5TVQR7ZF9E8A.JRTCKXETXF.HWDSBTNJX9",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
+            },
+            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
+                "rateCode": "CSMU5TVQR7ZF9E8A.JRTCKXETXF.RTKVR6ZK95",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
+            },
+            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
+                "rateCode": "CSMU5TVQR7ZF9E8A.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0003000000",
+                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
+            },
+            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
+                "rateCode": "PH3TDT4ADZQZ5HSW.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
+                "rateCode": "PH3TDT4ADZQZ5HSW.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
+                "rateCode": "UT57C64HW9Y8ENM6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            },
+            "Stored Dataset": {
+                "rateCode": "22FUH7M9CXNBP9ZA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "4ZHSB46UJSK92N9N.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "4ZHSB46UJSK92N9N.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "Predictions Rules Only 0 to 400000 Predictions": {
+                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "Predictions Rules Only 400000 to 1200000 Predictions": {
+                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Predictions Rules Only 1200000 to Inf Predictions": {
+                "rateCode": "633H8XZ8EMYYEBSN.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Training": {
+                "rateCode": "BHZDKUHVBCGEP3M4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "PH3TDT4ADZQZ5HSW.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "PH3TDT4ADZQZ5HSW.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "Hosting": {
+                "rateCode": "UT57C64HW9Y8ENM6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            }
+        },
+        "EU (Ireland)": {
+            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
+                "rateCode": "6N8XVTV6PZ8VQ6DY.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
+                "rateCode": "6N8XVTV6PZ8VQ6DY.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
+                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
+                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
+                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
+                "rateCode": "H7RWY2UCEJEZ8RE3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
+                "rateCode": "KSEA4YSZRP5XGN6E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
+                "rateCode": "RBP2DG48KVXH67UN.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
+                "rateCode": "RBP2DG48KVXH67UN.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
+                "rateCode": "U2G44BHHMNX63UHZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            },
+            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
+                "rateCode": "Z28CSU5CJ8AATPBU.JRTCKXETXF.HWDSBTNJX9",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
+            },
+            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
+                "rateCode": "Z28CSU5CJ8AATPBU.JRTCKXETXF.RTKVR6ZK95",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
+            },
+            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
+                "rateCode": "Z28CSU5CJ8AATPBU.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0003000000",
+                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
+            },
+            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "6N8XVTV6PZ8VQ6DY.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "6N8XVTV6PZ8VQ6DY.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "Predictions Rules Only 0 to 400000 Predictions": {
+                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "Predictions Rules Only 400000 to 1200000 Predictions": {
+                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Predictions Rules Only 1200000 to Inf Predictions": {
+                "rateCode": "B9UB7VQ3QSFJJPNB.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Training": {
+                "rateCode": "H7RWY2UCEJEZ8RE3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "Stored Dataset": {
+                "rateCode": "KSEA4YSZRP5XGN6E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "RBP2DG48KVXH67UN.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "RBP2DG48KVXH67UN.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "Hosting": {
+                "rateCode": "U2G44BHHMNX63UHZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            }
+        },
+        "US East (N. Virginia)": {
+            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
+                "rateCode": "2BWX8K6T3YT6DAND.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
+                "rateCode": "2BWX8K6T3YT6DAND.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
+                "rateCode": "49PYVMDABYZJ2K5N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
+                "rateCode": "9DMEBGNCA2ABB95Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            },
+            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
+                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
+                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
+                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
+                "rateCode": "QSV7JYN3DQF7MMHR.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
+                "rateCode": "QSV7JYN3DQF7MMHR.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
+                "rateCode": "RRW2G2BYBXJB4DXD.JRTCKXETXF.HWDSBTNJX9",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
+            },
+            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
+                "rateCode": "RRW2G2BYBXJB4DXD.JRTCKXETXF.RTKVR6ZK95",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
+            },
+            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
+                "rateCode": "RRW2G2BYBXJB4DXD.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0003000000",
+                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
+            },
+            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
+                "rateCode": "VYQDW67F9NR6KWFM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "2BWX8K6T3YT6DAND.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "2BWX8K6T3YT6DAND.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "Stored Dataset": {
+                "rateCode": "49PYVMDABYZJ2K5N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "Hosting": {
+                "rateCode": "9DMEBGNCA2ABB95Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            },
+            "Predictions Rules Only 0 to 400000 Predictions": {
+                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "Predictions Rules Only 400000 to 1200000 Predictions": {
+                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Predictions Rules Only 1200000 to Inf Predictions": {
+                "rateCode": "DJ8H3RTSNR5Q6S7J.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "QSV7JYN3DQF7MMHR.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "QSV7JYN3DQF7MMHR.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "Training": {
+                "rateCode": "VYQDW67F9NR6KWFM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            }
+        },
+        "US East (Ohio)": {
+            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
+                "rateCode": "3NAX8Q6QSV75G3AR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
+                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
+                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
+                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
+                "rateCode": "5SFH5UTFN7NUHW2U.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
+                "rateCode": "5SFH5UTFN7NUHW2U.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
+                "rateCode": "BDFRXSGAKQMYM7NT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            },
+            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
+                "rateCode": "SNE4Y8WPP4DR9V5R.JRTCKXETXF.HWDSBTNJX9",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
+            },
+            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
+                "rateCode": "SNE4Y8WPP4DR9V5R.JRTCKXETXF.RTKVR6ZK95",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
+            },
+            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
+                "rateCode": "SNE4Y8WPP4DR9V5R.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0003000000",
+                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
+            },
+            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
+                "rateCode": "U47HMZSHKSA78SSM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
+                "rateCode": "UBM3QMA99ZYF5X2S.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
+                "rateCode": "UBM3QMA99ZYF5X2S.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "Training": {
+                "rateCode": "3NAX8Q6QSV75G3AR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "Predictions Rules Only 0 to 400000 Predictions": {
+                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "Predictions Rules Only 400000 to 1200000 Predictions": {
+                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Predictions Rules Only 1200000 to Inf Predictions": {
+                "rateCode": "4VK84N7J5T6N3SYU.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "5SFH5UTFN7NUHW2U.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "5SFH5UTFN7NUHW2U.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "Hosting": {
+                "rateCode": "BDFRXSGAKQMYM7NT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            },
+            "Stored Dataset": {
+                "rateCode": "U47HMZSHKSA78SSM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "UBM3QMA99ZYF5X2S.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "UBM3QMA99ZYF5X2S.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            }
+        },
+        "US West (Oregon)": {
+            "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg": {
+                "rateCode": "8Q36RCZUD6KSBJHQ.JRTCKXETXF.HWDSBTNJX9",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "jSc6f4wQHlO0Ef8W3sYIUsoWukUczy6TUcwQ8z6zYOg"
+            },
+            "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k": {
+                "rateCode": "8Q36RCZUD6KSBJHQ.JRTCKXETXF.RTKVR6ZK95",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "mgUcvB2EU3OwONBUMJJQDGnBxs2uisMRQJRFtpyrY5k"
+            },
+            "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4": {
+                "rateCode": "8Q36RCZUD6KSBJHQ.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0003000000",
+                "RegionlessRateCode": "an_tIlJbXfKQ-UMDChexXNpPAbYTY6ol7NYfAmeCBQ4"
+            },
+            "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI": {
+                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4": {
+                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc": {
+                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0": {
+                "rateCode": "AHNVU89FAQNW877E.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA": {
+                "rateCode": "AHNVU89FAQNW877E.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s": {
+                "rateCode": "JVRXG6AAVQX2T99F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g": {
+                "rateCode": "MDYB3GM5F3WUW7B9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            },
+            "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA": {
+                "rateCode": "QNBQU892SK293WD2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI": {
+                "rateCode": "ZME3TXRN5VY3M6XB.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10": {
+                "rateCode": "ZME3TXRN5VY3M6XB.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
+            },
+            "Predictions Rules Only 0 to 400000 Predictions": {
+                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.KJYPJPDD2A",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "XQrTiDjhES2hrenyww49eURJ5OdSGBRRHQiBFSRF7vI"
+            },
+            "Predictions Rules Only 400000 to 1200000 Predictions": {
+                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.K5UKHBBPBA",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "VZ50XPLgCcz6Dw-ZsisHAMp-mCuwPI0LbBYk4Pz4Bm4"
+            },
+            "Predictions Rules Only 1200000 to Inf Predictions": {
+                "rateCode": "9DQEU5AH3DMB7D4C.JRTCKXETXF.4N34XG2JX8",
+                "price": "0.0012500000",
+                "RegionlessRateCode": "Tk7U7bGhPfgKH7ymQoeY13OTpG4m0Eww2hYLqOEehoc"
+            },
+            "Predictions Transaction Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "AHNVU89FAQNW877E.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "BdsR4-a-rlm9PTcNSoC3l1etgxFZUxju8yr9dIHsPF0"
+            },
+            "Predictions Transaction Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "AHNVU89FAQNW877E.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "bGFnkFfRTaCtJhayef4Nxvti3bBA7LYjh_rxVUZkOFA"
+            },
+            "Training": {
+                "rateCode": "JVRXG6AAVQX2T99F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "Oa8thhinLG_lnWy6i-DCqj7TJ3BLNqYPmDmnn_4_86s"
+            },
+            "Hosting": {
+                "rateCode": "MDYB3GM5F3WUW7B9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "IeWSlD-8Lk0F3DSWOpgpA0okimp8MqtJfq3kYXFmz0g"
+            },
+            "Stored Dataset": {
+                "rateCode": "QNBQU892SK293WD2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "-PW6_pnjBke-CknG_aq8u4z0KvMSUkg4agvLx_z7YFA"
+            },
+            "Predictions Online Fraud Insights 0 to 100000 Predictions": {
+                "rateCode": "ZME3TXRN5VY3M6XB.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "obQjYHKVXkHsJji5HvE9QJU8Zd6w556LFcurHs_srEI"
+            },
+            "Predictions Online Fraud Insights 100000 to Inf Predictions": {
+                "rateCode": "ZME3TXRN5VY3M6XB.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0075000000",
+                "RegionlessRateCode": "BX5v4fEUwuWXAiRWYRChQwNM9xXYPysyRw3LvmXGW10"
             }
         }
     }

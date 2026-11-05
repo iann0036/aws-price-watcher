@@ -1,181 +1,1232 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "storagegatewaydeeparchive",
         "accessType": "publish",
-        "esIndex": "plc-storagegatewaydeeparchive-usd-20260911124613",
+        "source": "storagegatewaydeeparchive",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:46:13Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:46:13Z",
-        "currencyCode": "USD",
-        "source": "storagegatewaydeeparchive",
+        "esIndex": "plc-storagegatewaydeeparchive-usd-20260911124613",
+        "queryConfig": "public/761f50ec-48be-57d6-9380-88d5452438fd/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "2YJ3NSQ58QBVBVRB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "Q3RVHMDFC5MJCCRY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0032000000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
+        "Africa (Cape Town)": {
             "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "5MUBTBJ9F2QNTWBE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
+                "rateCode": "CK3V87P46YR2P8P3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "CRK3TS7TR82EEFJK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
             "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "3P3USU8VRXQPMGVN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
+                "rateCode": "PCQ79P5WM9XQ6YMY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "T3JT5ZCZZ8DB54GF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "CK3V87P46YR2P8P3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "CRK3TS7TR82EEFJK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "PCQ79P5WM9XQ6YMY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             },
             "Deep Archive Virtual Tape in Library": {
-                "rateCode": "2YJ3NSQ58QBVBVRB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
+                "rateCode": "T3JT5ZCZZ8DB54GF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
                 "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "Asia Pacific (Hong Kong)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "2U5P27ZS7SWCRQGU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "Q3RVHMDFC5MJCCRY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0032000000",
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "72UHPMUNQBM9DS3B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "5MUBTBJ9F2QNTWBE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "GDME9P6H5QDDX3F2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "GHJ743A296HGCW7M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "3P3USU8VRXQPMGVN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
+                "rateCode": "2U5P27ZS7SWCRQGU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "72UHPMUNQBM9DS3B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "GDME9P6H5QDDX3F2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "GHJ743A296HGCW7M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "Asia Pacific (Taipei)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "9A6T9JKT45K2DN9R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "FAZNRQGABZKQDY6J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "FHTPN5SU64N79NSS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "T27KAP3KU2T5KZSA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "9A6T9JKT45K2DN9R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "FAZNRQGABZKQDY6J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "FHTPN5SU64N79NSS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "T27KAP3KU2T5KZSA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "Asia Pacific (Tokyo)": {
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "83AE69GKQAV7Y5J5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "8EGKAC4DJTKEGVPA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "H2QUKRYSYRX4A59G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "Y57W5NRYKMWXBPS2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "83AE69GKQAV7Y5J5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "8EGKAC4DJTKEGVPA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "H2QUKRYSYRX4A59G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "Y57W5NRYKMWXBPS2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             }
         },
-        "US West (N. California)": {
+        "Asia Pacific (Seoul)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "PGBG9FTUUG3KKAN8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
             "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "U7K6G6Q5UJ5TSS9A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
+                "rateCode": "R9GGRW5USFCX2C5M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "Y3Z58CHPX9GEY5XV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "YG4A85KDHYNB7GU2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "PGBG9FTUUG3KKAN8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "R9GGRW5USFCX2C5M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "Y3Z58CHPX9GEY5XV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "YG4A85KDHYNB7GU2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            }
+        },
+        "Asia Pacific (Osaka)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "449872BP76DUZMX6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "4K7EF5SPV875G7UP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "88WK7W8HAYV9ZSRM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "UH8XTEHAYTYMQN76.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "449872BP76DUZMX6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "4K7EF5SPV875G7UP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "88WK7W8HAYV9ZSRM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "UH8XTEHAYTYMQN76.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "Asia Pacific (Mumbai)": {
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "K2VE59KMUR4U8ARY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0044800000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "QTNYU6VXTFJTCERU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "S3QNJD8ZBSRV97J4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "V26X28NVVK57REDJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "K2VE59KMUR4U8ARY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0044800000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "QTNYU6VXTFJTCERU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "S3QNJD8ZBSRV97J4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "V26X28NVVK57REDJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "Asia Pacific (Hyderabad)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "58EETZA6VCGHY8AY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "H66ETSH6E9FG3SX3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "QR7Q5MB84K6RXTZP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "WKXEDXK6EN5G9YNN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "58EETZA6VCGHY8AY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "H66ETSH6E9FG3SX3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "QR7Q5MB84K6RXTZP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "WKXEDXK6EN5G9YNN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "CRVDXNQAXDZXSY4G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "E6S7M9NG5V8WDFCV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "RNQM5J2DQBCHTZ67.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "W6HJ8W8PH9EFA7QH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "CRVDXNQAXDZXSY4G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "E6S7M9NG5V8WDFCV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "RNQM5J2DQBCHTZ67.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "W6HJ8W8PH9EFA7QH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "CB44SXW5XN4Y7T2U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
                 "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
             },
             "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "CTJ7UP2C73DTQ7CD.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "JJTJYAGHUA4HJSVP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "R7VATQ8G3EMPE83N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "RFRHE865J82HBPWW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "CB44SXW5XN4Y7T2U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "JJTJYAGHUA4HJSVP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "R7VATQ8G3EMPE83N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "RFRHE865J82HBPWW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "Asia Pacific (Jakarta)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "9W5NE2HWVRP9Z722.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "BNA7QN2K9JMAEVC8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "EB8J6FRPK2THW228.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "TAPDCMXCW7WFXNRD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "9W5NE2HWVRP9Z722.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "BNA7QN2K9JMAEVC8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "EB8J6FRPK2THW228.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "TAPDCMXCW7WFXNRD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "Asia Pacific (Melbourne)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "ADDYWMV5WQSXK8JV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "FKSVANYKR5H5Q96Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "RJ2NVZ834XXUTS8J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "Z3SWU827VFJJYKQS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "ADDYWMV5WQSXK8JV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "FKSVANYKR5H5Q96Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "RJ2NVZ834XXUTS8J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "Z3SWU827VFJJYKQS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "Asia Pacific (Malaysia)": {
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "DDW5RSKZD63CWWM5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0216000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "MR4U75J7UDD6V924.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034560000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "X3YGGWX6R5Z9KSZC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "YBSBQFRATS7MN9ZX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "DDW5RSKZD63CWWM5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0216000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "MR4U75J7UDD6V924.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034560000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "X3YGGWX6R5Z9KSZC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "YBSBQFRATS7MN9ZX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "Asia Pacific (New Zealand)": {
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "AHZGP3T6MGQBD7B5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0252000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "CEMCCFFSKJX7HT5D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0021000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "N6PBEAKPPDYR9YS9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0021000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "NEEJ3JQD86UWAUJ6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0040320000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "AHZGP3T6MGQBD7B5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0252000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "CEMCCFFSKJX7HT5D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0021000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "N6PBEAKPPDYR9YS9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0021000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "NEEJ3JQD86UWAUJ6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0040320000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            }
+        },
+        "Asia Pacific (Thailand)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "2UPTYKDNG8XQQJD9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "5WRFSQN64KJ3HZ63.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "7B67WKA5QUW4QHV7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034560000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "R77EE85MT35RGYX5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0216000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "2UPTYKDNG8XQQJD9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "5WRFSQN64KJ3HZ63.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "7B67WKA5QUW4QHV7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034560000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "R77EE85MT35RGYX5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0216000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "Canada (Central)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "4WWTMECTYPNEGMSW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "AT8Z3XHH5YP83DY6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0038400000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
             "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "KHZK4MSBSNUVQPP3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
+                "rateCode": "HSN6SXJ8RHWWC22A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "WDMJYPS7JQ3B9MWY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
+                "rateCode": "NB7ZF77FCWNJGM85.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             },
             "Deep Archive Virtual Tape in Library": {
-                "rateCode": "U7K6G6Q5UJ5TSS9A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
+                "rateCode": "4WWTMECTYPNEGMSW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
                 "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
             },
             "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "CTJ7UP2C73DTQ7CD.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "AT8Z3XHH5YP83DY6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0038400000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
             "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "KHZK4MSBSNUVQPP3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HSN6SXJ8RHWWC22A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "NB7ZF77FCWNJGM85.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            }
+        },
+        "Canada West (Calgary)": {
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "2M778W576RJGGAJW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "9DAT7YA5MY4SRPP2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "BDYS8BYDF5BWTXSM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "HC6NTH66BHMZEDB6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "2M778W576RJGGAJW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "9DAT7YA5MY4SRPP2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "BDYS8BYDF5BWTXSM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "HC6NTH66BHMZEDB6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "EU (Frankfurt)": {
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "98GDTUXSBSZ3SEG5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "VN6KBMAP4RFVYXMT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "WGFPZ4JN4DRP828W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "WKA5VN55JH497GA6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "98GDTUXSBSZ3SEG5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "VN6KBMAP4RFVYXMT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "WGFPZ4JN4DRP828W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "WKA5VN55JH497GA6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            }
+        },
+        "EU (Zurich)": {
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "7QQP8Q4X34GF3YAT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "CS83ZGWQSJZ6XG6F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "J5N6ZQYPM57F6W39.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "PWBXRNFHFKNB3PHT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "7QQP8Q4X34GF3YAT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "CS83ZGWQSJZ6XG6F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "J5N6ZQYPM57F6W39.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "PWBXRNFHFKNB3PHT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            }
+        },
+        "EU (Stockholm)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "CUMRF56VNC3UGVCM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "VSY9ZQ3ZGQXWBJQJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035200000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "X8QXZCRXGKYN8XPN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "YKJUUCSW8PKD6E9R.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0200000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "WDMJYPS7JQ3B9MWY.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "CUMRF56VNC3UGVCM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "US East (Ohio)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "JJKAEZW2S8WCFGA7.JRTCKXETXF.6YS6EN2CT7",
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "VSY9ZQ3ZGQXWBJQJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035200000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "X8QXZCRXGKYN8XPN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
                 "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
             },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "YKJUUCSW8PKD6E9R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "EU (Milan)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "E5MBTNP4EBXJBKQ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
             "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "XBPYH8FJ36FEVXP4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0032000000",
+                "rateCode": "JU29WBHARRD9XAHA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
             "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "MP9TVGFTD6SQ3MCD.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "QRVJKUU92VXE8ETM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "RE5ZKYYUAFR9Z7JP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "E5MBTNP4EBXJBKQ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "JU29WBHARRD9XAHA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "QRVJKUU92VXE8ETM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0240000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "RE5ZKYYUAFR9Z7JP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            }
+        },
+        "EU (Spain)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "95FH6XZNFDKD6YZ8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "NF9WBU34BRZ4E9DD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "PGXXK3EF64H9T9YS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "RZ7D63F65JN98SQ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "95FH6XZNFDKD6YZ8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "NF9WBU34BRZ4E9DD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "PGXXK3EF64H9T9YS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "RZ7D63F65JN98SQ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "EU (Ireland)": {
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "4SDMP3ZEUBMN7N86.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0200000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "UY4ZEZ2TESG2RQAZ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "GVFE8ATK6HJMH6RQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "JJKAEZW2S8WCFGA7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "XBPYH8FJ36FEVXP4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0032000000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "MP9TVGFTD6SQ3MCD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "UY4ZEZ2TESG2RQAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "US East (N. Virginia)": {
             "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "9Z8FKVD8HAWXF746.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "VW3YFUPYSXCHK5S3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
                 "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
             },
             "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "EVM5333D7DYRVXYB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0032000000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "W9BJX8BY2XY6CYRQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "P3575PPM4FZJBZJJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "9Z8FKVD8HAWXF746.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "EVM5333D7DYRVXYB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0032000000",
+                "rateCode": "WM8EC4ZZYAGCKAU5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035200000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
             "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "W9BJX8BY2XY6CYRQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "4SDMP3ZEUBMN7N86.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0200000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "P3575PPM4FZJBZJJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "GVFE8ATK6HJMH6RQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "VW3YFUPYSXCHK5S3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "WM8EC4ZZYAGCKAU5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035200000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            }
+        },
+        "EU (London)": {
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "743M5VEXDU952SKG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "KNF89R3HVUTWXUJ5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "MBJ7DECJKDWGDHA2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0210000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "RW88DR68E23YF9UK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "743M5VEXDU952SKG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "KNF89R3HVUTWXUJ5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "MBJ7DECJKDWGDHA2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0210000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "RW88DR68E23YF9UK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "EU (Paris)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "4XSAB7YBQXU8GNPR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "BS4EUCHCN7766P6V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "GVU3CXFZW5R7SCB5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0210000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "TGKWT4DQXRURMEJD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "4XSAB7YBQXU8GNPR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "BS4EUCHCN7766P6V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "GVU3CXFZW5R7SCB5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0210000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "TGKWT4DQXRURMEJD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "Israel (Tel Aviv)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "8C6NRBG8M5CJSZET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "CFU56X5Z6899XMER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038720000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "MFRVYA5SSGUE2QZP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "ZZQ7J6RYUVAPR4JM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "8C6NRBG8M5CJSZET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "CFU56X5Z6899XMER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038720000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "MFRVYA5SSGUE2QZP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "ZZQ7J6RYUVAPR4JM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "Middle East (UAE)": {
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "3NYFGN2WBSY78QAU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "DHUAZT4AVTWRFMPW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "HY46M353RD374GA6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "VDQ2SPZCVE9BGCNY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "3NYFGN2WBSY78QAU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "DHUAZT4AVTWRFMPW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "HY46M353RD374GA6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "VDQ2SPZCVE9BGCNY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0041600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            }
+        },
+        "Middle East (Bahrain)": {
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "5DMKAW77EUTT59A6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "9VZGDTMC3VDE6HQ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "BRD3T8EPSRD2AQW2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038720000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "YRRY3WAGPZAFB4Y7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "5DMKAW77EUTT59A6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "9VZGDTMC3VDE6HQ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0220000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "BRD3T8EPSRD2AQW2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038720000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "YRRY3WAGPZAFB4Y7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0018000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "Mexico (Central)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "3BUPUTSPSPPF2GPK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "3VCFXYRASX8MQCQZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0033600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "M57XZ6JABQZT474M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0210000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "Y236ASNUWU34PEDK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "3BUPUTSPSPPF2GPK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "3VCFXYRASX8MQCQZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0033600000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "M57XZ6JABQZT474M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0210000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "Y236ASNUWU34PEDK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             }
         },
@@ -221,1259 +1272,125 @@
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             }
         },
-        "Middle East (UAE)": {
+        "US East (N. Virginia)": {
             "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "DHUAZT4AVTWRFMPW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "VDQ2SPZCVE9BGCNY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "3NYFGN2WBSY78QAU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "HY46M353RD374GA6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "DHUAZT4AVTWRFMPW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "VDQ2SPZCVE9BGCNY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "3NYFGN2WBSY78QAU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "HY46M353RD374GA6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Middle East (Bahrain)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "YRRY3WAGPZAFB4Y7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "BRD3T8EPSRD2AQW2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038720000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "9VZGDTMC3VDE6HQ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "5DMKAW77EUTT59A6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "YRRY3WAGPZAFB4Y7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "BRD3T8EPSRD2AQW2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038720000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "9VZGDTMC3VDE6HQ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "5DMKAW77EUTT59A6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Mexico (Central)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "3BUPUTSPSPPF2GPK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "3VCFXYRASX8MQCQZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0033600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "M57XZ6JABQZT474M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0210000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "Y236ASNUWU34PEDK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "3BUPUTSPSPPF2GPK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "3VCFXYRASX8MQCQZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0033600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "M57XZ6JABQZT474M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0210000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "Y236ASNUWU34PEDK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Israel (Tel Aviv)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "ZZQ7J6RYUVAPR4JM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "CFU56X5Z6899XMER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038720000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "MFRVYA5SSGUE2QZP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "8C6NRBG8M5CJSZET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "ZZQ7J6RYUVAPR4JM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "CFU56X5Z6899XMER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038720000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "MFRVYA5SSGUE2QZP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "8C6NRBG8M5CJSZET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "EU (Zurich)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "J5N6ZQYPM57F6W39.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "PWBXRNFHFKNB3PHT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "7QQP8Q4X34GF3YAT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "CS83ZGWQSJZ6XG6F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "J5N6ZQYPM57F6W39.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "PWBXRNFHFKNB3PHT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "7QQP8Q4X34GF3YAT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "CS83ZGWQSJZ6XG6F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "EU (Stockholm)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "X8QXZCRXGKYN8XPN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "9Z8FKVD8HAWXF746.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
                 "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
             },
             "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "VSY9ZQ3ZGQXWBJQJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035200000",
+                "rateCode": "EVM5333D7DYRVXYB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0032000000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "P3575PPM4FZJBZJJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
             "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "YKJUUCSW8PKD6E9R.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "W9BJX8BY2XY6CYRQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "9Z8FKVD8HAWXF746.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "EVM5333D7DYRVXYB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0032000000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "P3575PPM4FZJBZJJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "W9BJX8BY2XY6CYRQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            }
+        },
+        "US East (Ohio)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "JJKAEZW2S8WCFGA7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "MP9TVGFTD6SQ3MCD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0200000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "CUMRF56VNC3UGVCM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "UY4ZEZ2TESG2RQAZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "XBPYH8FJ36FEVXP4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0032000000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
             "Deep Archive Virtual Tape in Library": {
-                "rateCode": "X8QXZCRXGKYN8XPN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "JJKAEZW2S8WCFGA7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
                 "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
             },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "VSY9ZQ3ZGQXWBJQJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035200000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
             "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "YKJUUCSW8PKD6E9R.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "MP9TVGFTD6SQ3MCD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0200000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "CUMRF56VNC3UGVCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "EU (Spain)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "RZ7D63F65JN98SQ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "PGXXK3EF64H9T9YS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "NF9WBU34BRZ4E9DD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "95FH6XZNFDKD6YZ8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "RZ7D63F65JN98SQ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "PGXXK3EF64H9T9YS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "NF9WBU34BRZ4E9DD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "95FH6XZNFDKD6YZ8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "EU (Paris)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "TGKWT4DQXRURMEJD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "BS4EUCHCN7766P6V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "GVU3CXFZW5R7SCB5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0210000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "4XSAB7YBQXU8GNPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "TGKWT4DQXRURMEJD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "BS4EUCHCN7766P6V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "GVU3CXFZW5R7SCB5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0210000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "4XSAB7YBQXU8GNPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "EU (Milan)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "E5MBTNP4EBXJBKQ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "JU29WBHARRD9XAHA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "QRVJKUU92VXE8ETM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "RE5ZKYYUAFR9Z7JP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "E5MBTNP4EBXJBKQ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "JU29WBHARRD9XAHA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "QRVJKUU92VXE8ETM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "RE5ZKYYUAFR9Z7JP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "EU (London)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "RW88DR68E23YF9UK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "743M5VEXDU952SKG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "MBJ7DECJKDWGDHA2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0210000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "KNF89R3HVUTWXUJ5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "RW88DR68E23YF9UK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "743M5VEXDU952SKG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "MBJ7DECJKDWGDHA2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0210000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "KNF89R3HVUTWXUJ5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "EU (Ireland)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "VW3YFUPYSXCHK5S3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "WM8EC4ZZYAGCKAU5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035200000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "4SDMP3ZEUBMN7N86.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "GVFE8ATK6HJMH6RQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "UY4ZEZ2TESG2RQAZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009900000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "VW3YFUPYSXCHK5S3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
             "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "WM8EC4ZZYAGCKAU5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035200000",
+                "rateCode": "XBPYH8FJ36FEVXP4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0032000000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "4SDMP3ZEUBMN7N86.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "GVFE8ATK6HJMH6RQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009900000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "EU (Frankfurt)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "WGFPZ4JN4DRP828W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "98GDTUXSBSZ3SEG5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "VN6KBMAP4RFVYXMT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "WKA5VN55JH497GA6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "WGFPZ4JN4DRP828W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "98GDTUXSBSZ3SEG5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "VN6KBMAP4RFVYXMT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "WKA5VN55JH497GA6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Canada West (Calgary)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "HC6NTH66BHMZEDB6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "2M778W576RJGGAJW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "9DAT7YA5MY4SRPP2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "BDYS8BYDF5BWTXSM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "HC6NTH66BHMZEDB6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "2M778W576RJGGAJW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "9DAT7YA5MY4SRPP2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "BDYS8BYDF5BWTXSM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Canada (Central)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "4WWTMECTYPNEGMSW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "AT8Z3XHH5YP83DY6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "HSN6SXJ8RHWWC22A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "NB7ZF77FCWNJGM85.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "4WWTMECTYPNEGMSW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "AT8Z3XHH5YP83DY6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "HSN6SXJ8RHWWC22A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "NB7ZF77FCWNJGM85.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Tokyo)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "H2QUKRYSYRX4A59G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "83AE69GKQAV7Y5J5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "8EGKAC4DJTKEGVPA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "Y57W5NRYKMWXBPS2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "H2QUKRYSYRX4A59G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "83AE69GKQAV7Y5J5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "8EGKAC4DJTKEGVPA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "Y57W5NRYKMWXBPS2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Thailand)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "5WRFSQN64KJ3HZ63.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "7B67WKA5QUW4QHV7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034560000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "R77EE85MT35RGYX5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0216000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "2UPTYKDNG8XQQJD9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "5WRFSQN64KJ3HZ63.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "7B67WKA5QUW4QHV7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034560000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "R77EE85MT35RGYX5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0216000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "2UPTYKDNG8XQQJD9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Taipei)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "FHTPN5SU64N79NSS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "FAZNRQGABZKQDY6J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "T27KAP3KU2T5KZSA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "9A6T9JKT45K2DN9R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "FHTPN5SU64N79NSS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "FAZNRQGABZKQDY6J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "T27KAP3KU2T5KZSA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "9A6T9JKT45K2DN9R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "CB44SXW5XN4Y7T2U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "JJTJYAGHUA4HJSVP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "RFRHE865J82HBPWW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "R7VATQ8G3EMPE83N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "CB44SXW5XN4Y7T2U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "JJTJYAGHUA4HJSVP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "RFRHE865J82HBPWW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "R7VATQ8G3EMPE83N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "CRVDXNQAXDZXSY4G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "RNQM5J2DQBCHTZ67.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "E6S7M9NG5V8WDFCV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "W6HJ8W8PH9EFA7QH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "CRVDXNQAXDZXSY4G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "RNQM5J2DQBCHTZ67.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "E6S7M9NG5V8WDFCV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "W6HJ8W8PH9EFA7QH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Seoul)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "R9GGRW5USFCX2C5M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "YG4A85KDHYNB7GU2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "Y3Z58CHPX9GEY5XV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "PGBG9FTUUG3KKAN8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "R9GGRW5USFCX2C5M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "YG4A85KDHYNB7GU2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "Y3Z58CHPX9GEY5XV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "PGBG9FTUUG3KKAN8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Osaka)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "449872BP76DUZMX6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "88WK7W8HAYV9ZSRM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "UH8XTEHAYTYMQN76.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "4K7EF5SPV875G7UP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "449872BP76DUZMX6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "88WK7W8HAYV9ZSRM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "UH8XTEHAYTYMQN76.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "4K7EF5SPV875G7UP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (New Zealand)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "CEMCCFFSKJX7HT5D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0021000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "NEEJ3JQD86UWAUJ6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0040320000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "AHZGP3T6MGQBD7B5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0252000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "N6PBEAKPPDYR9YS9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0021000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "CEMCCFFSKJX7HT5D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0021000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "NEEJ3JQD86UWAUJ6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0040320000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "AHZGP3T6MGQBD7B5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0252000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "N6PBEAKPPDYR9YS9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0021000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Mumbai)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "QTNYU6VXTFJTCERU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "K2VE59KMUR4U8ARY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0044800000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "V26X28NVVK57REDJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "S3QNJD8ZBSRV97J4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "QTNYU6VXTFJTCERU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "K2VE59KMUR4U8ARY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0044800000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "V26X28NVVK57REDJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "S3QNJD8ZBSRV97J4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Melbourne)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "FKSVANYKR5H5Q96Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "RJ2NVZ834XXUTS8J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "Z3SWU827VFJJYKQS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "ADDYWMV5WQSXK8JV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "FKSVANYKR5H5Q96Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "RJ2NVZ834XXUTS8J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "Z3SWU827VFJJYKQS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "ADDYWMV5WQSXK8JV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Malaysia)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "YBSBQFRATS7MN9ZX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "MR4U75J7UDD6V924.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034560000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "DDW5RSKZD63CWWM5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0216000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "X3YGGWX6R5Z9KSZC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "YBSBQFRATS7MN9ZX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "MR4U75J7UDD6V924.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034560000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "DDW5RSKZD63CWWM5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0216000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "X3YGGWX6R5Z9KSZC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Jakarta)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "TAPDCMXCW7WFXNRD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "BNA7QN2K9JMAEVC8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "EB8J6FRPK2THW228.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "9W5NE2HWVRP9Z722.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "TAPDCMXCW7WFXNRD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "BNA7QN2K9JMAEVC8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "EB8J6FRPK2THW228.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "9W5NE2HWVRP9Z722.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Hyderabad)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "58EETZA6VCGHY8AY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "WKXEDXK6EN5G9YNN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "QR7Q5MB84K6RXTZP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "H66ETSH6E9FG3SX3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "58EETZA6VCGHY8AY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "WKXEDXK6EN5G9YNN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0041600000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "QR7Q5MB84K6RXTZP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0220000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "H66ETSH6E9FG3SX3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Asia Pacific (Hong Kong)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "GDME9P6H5QDDX3F2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "72UHPMUNQBM9DS3B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "GHJ743A296HGCW7M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "2U5P27ZS7SWCRQGU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "GDME9P6H5QDDX3F2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "72UHPMUNQBM9DS3B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "GHJ743A296HGCW7M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "2U5P27ZS7SWCRQGU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            }
-        },
-        "Africa (Cape Town)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "T3JT5ZCZZ8DB54GF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
-                "rateCode": "CRK3TS7TR82EEFJK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "CK3V87P46YR2P8P3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
-                "rateCode": "PCQ79P5WM9XQ6YMY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
-            },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "T3JT5ZCZZ8DB54GF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
-            "Fee for moving a tape between Glacier and Deep Archive": {
-                "rateCode": "CRK3TS7TR82EEFJK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0038400000",
-                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "CK3V87P46YR2P8P3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0240000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
-            },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "PCQ79P5WM9XQ6YMY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0018000000",
-                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             }
         },
         "AWS GovCloud (US-East)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "N55Q5UQZB2RQ4JKM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0024000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "BN9Y6XHHMEHBX53R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0260000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
                 "rateCode": "JRKMCEVMR7P2E9WV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0041600000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "BN9Y6XHHMEHBX53R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0260000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "N55Q5UQZB2RQ4JKM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0024000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
             },
             "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
                 "rateCode": "Y3W2J87BECBAPBVN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0024000000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             },
-            "Deep Archive Virtual Tape in Library": {
-                "rateCode": "N55Q5UQZB2RQ4JKM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0024000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "BN9Y6XHHMEHBX53R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0260000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "Fee for moving a tape between Glacier and Deep Archive": {
                 "rateCode": "JRKMCEVMR7P2E9WV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0041600000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
-            "Fee for retrieving virtual tape from Deep Archive": {
-                "rateCode": "BN9Y6XHHMEHBX53R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0260000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "N55Q5UQZB2RQ4JKM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0024000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
             },
             "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
                 "rateCode": "Y3W2J87BECBAPBVN.JRTCKXETXF.6YS6EN2CT7",
@@ -1482,27 +1399,22 @@
             }
         },
         "AWS GovCloud (US)": {
-            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
-                "rateCode": "ZWGRYJH7CHTFMRFV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0024000000",
-                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
-            },
             "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
                 "rateCode": "CB8CWKUNTN9MX28C.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0041600000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
-            },
-            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
-                "rateCode": "T8Z9WW46ZUSNUMPZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0260000000",
-                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
             "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
                 "rateCode": "MNJYQ59MJN74YYU2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0024000000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
             },
-            "Deep Archive Virtual Tape in Library": {
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "T8Z9WW46ZUSNUMPZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0260000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
                 "rateCode": "ZWGRYJH7CHTFMRFV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0024000000",
                 "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
@@ -1512,15 +1424,104 @@
                 "price": "0.0041600000",
                 "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "MNJYQ59MJN74YYU2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0024000000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
             "Fee for retrieving virtual tape from Deep Archive": {
                 "rateCode": "T8Z9WW46ZUSNUMPZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0260000000",
                 "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
             },
-            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
-                "rateCode": "MNJYQ59MJN74YYU2.JRTCKXETXF.6YS6EN2CT7",
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "ZWGRYJH7CHTFMRFV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0024000000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            }
+        },
+        "US West (N. California)": {
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "CTJ7UP2C73DTQ7CD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "KHZK4MSBSNUVQPP3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "U7K6G6Q5UJ5TSS9A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "WDMJYPS7JQ3B9MWY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
                 "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "CTJ7UP2C73DTQ7CD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0038400000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "KHZK4MSBSNUVQPP3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "U7K6G6Q5UJ5TSS9A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "WDMJYPS7JQ3B9MWY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            }
+        },
+        "US West (Oregon)": {
+            "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8": {
+                "rateCode": "2YJ3NSQ58QBVBVRB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM": {
+                "rateCode": "3P3USU8VRXQPMGVN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk": {
+                "rateCode": "5MUBTBJ9F2QNTWBE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8": {
+                "rateCode": "Q3RVHMDFC5MJCCRY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0032000000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
+            },
+            "Deep Archive Virtual Tape in Library": {
+                "rateCode": "2YJ3NSQ58QBVBVRB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "e7ysqk_DkodkXpbeDsbO6nhKqrep_tXANd0HThAFBz8"
+            },
+            "Pro rated fee for deleting an archived virtual tape prior to 180 days": {
+                "rateCode": "3P3USU8VRXQPMGVN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009900000",
+                "RegionlessRateCode": "zBG3NJQ1TIc-T-Mir1zg9qz1Fsjd8qCIY3CZT3lp-eM"
+            },
+            "Fee for retrieving virtual tape from Deep Archive": {
+                "rateCode": "5MUBTBJ9F2QNTWBE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "r9CCABKUogjIDrdzYO5CJP7l-Fyu8Xb9tngzZE-54vk"
+            },
+            "Fee for moving a tape between Glacier and Deep Archive": {
+                "rateCode": "Q3RVHMDFC5MJCCRY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0032000000",
+                "RegionlessRateCode": "lXAkbTDkh7WwCJ9N04MdJUpgu3SmCAzCj-IUu-G2dA8"
             }
         }
     }

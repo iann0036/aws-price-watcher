@@ -1,1646 +1,67 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "q",
         "accessType": "publish",
-        "esIndex": "plc-q-usd-20260911124501",
+        "source": "q",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:01Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:01Z",
-        "currencyCode": "USD",
-        "source": "q",
+        "esIndex": "plc-q-usd-20260911124501",
+        "queryConfig": "public/2bf6a082-4db4-5e26-8f83-e669395c197d/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "AHQHH294SEV82G86.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0": {
-                "rateCode": "BGGT9EDUABADUETE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
-            },
-            "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E": {
-                "rateCode": "GS5BDK7Z2NTTU583.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "YWCXPG2HJ87N95PT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "28VMGGKUNTW7VPCS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU": {
-                "rateCode": "8P63SBF5WTJYH8F2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
-            },
-            "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs": {
-                "rateCode": "3BWRFJWE3QQPXPWM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs"
-            },
-            "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs": {
-                "rateCode": "VTBYTYBY8S3KF2A9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
-            },
-            "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80": {
-                "rateCode": "TKYVJ5ERSDT4TJTG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80"
-            },
-            "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0": {
-                "rateCode": "XWVUBW4HATX5BWFV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0060000000",
-                "RegionlessRateCode": "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0"
-            },
-            "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw": {
-                "rateCode": "XASAN6G7TV5M4GU5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw"
-            },
-            "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ": {
-                "rateCode": "XAYY3DMTSUUDMQ4H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "6SFWZJ7XXKHJ6REQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
+        "Africa (Cape Town)": {
             "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "7MWBJGCFNH7RCRKJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8ECVSTG297AJC2GH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
             },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "AHQHH294SEV82G86.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Q Business Starter Index Q Business Starter Index hours free": {
-                "rateCode": "BGGT9EDUABADUETE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
-            },
-            "Amazon Q Image Image Analysis": {
-                "rateCode": "GS5BDK7Z2NTTU583.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "YWCXPG2HJ87N95PT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "28VMGGKUNTW7VPCS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Q Business Starter Index Q Business Starter Index hours": {
-                "rateCode": "8P63SBF5WTJYH8F2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
-            },
-            "Amazon Q Video Video Analysis": {
-                "rateCode": "3BWRFJWE3QQPXPWM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs"
-            },
-            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours": {
-                "rateCode": "VTBYTYBY8S3KF2A9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
-            },
-            "Amazon Q Index-Enterprise Enterprise Index": {
-                "rateCode": "TKYVJ5ERSDT4TJTG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80"
-            },
-            "Amazon Q Audio Audio Analysis": {
-                "rateCode": "XWVUBW4HATX5BWFV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0060000000",
-                "RegionlessRateCode": "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0"
-            },
-            "Amazon Q Index Index": {
-                "rateCode": "XASAN6G7TV5M4GU5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw"
-            },
-            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours free": {
-                "rateCode": "XAYY3DMTSUUDMQ4H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "6SFWZJ7XXKHJ6REQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "7MWBJGCFNH7RCRKJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "US West (N. California)": {
             "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "UYXGJMRFCXWT9USU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EXXTRHTA479FQKCW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "19.0000000000",
                 "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
             },
             "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "3TNCNDS69UAV9P5Q.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "UZDQFFWZM79GGJ9V.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.0000000000",
                 "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
             },
             "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "USE2NGKCMF4E2W25.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "V9PCVFKX4HWGR46B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
             },
             "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "DPZAZ4DK56VHX4EY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "UJXFKE24KSNE6BDB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "UYXGJMRFCXWT9USU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "3TNCNDS69UAV9P5Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "USE2NGKCMF4E2W25.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "DPZAZ4DK56VHX4EY.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "Y9QTAKFYQJUE4WAB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "20.0000000000",
                 "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
             },
             "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "UJXFKE24KSNE6BDB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "US East (Ohio)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "8FZBQPBEQ8Y4YWBE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "TVSE2DVB9UC2CSWV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "WVH8VXACNHBV6UC7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "F7WPXBSPXYA5SD2Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "VMR9WZF9WJ4B72R5.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8ECVSTG297AJC2GH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
             },
             "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "8FZBQPBEQ8Y4YWBE.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EXXTRHTA479FQKCW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "19.0000000000",
                 "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
             },
             "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "TVSE2DVB9UC2CSWV.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "UZDQFFWZM79GGJ9V.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.0000000000",
                 "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
             },
             "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "WVH8VXACNHBV6UC7.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "V9PCVFKX4HWGR46B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
             },
             "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "F7WPXBSPXYA5SD2Y.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "Y9QTAKFYQJUE4WAB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "20.0000000000",
                 "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "VMR9WZF9WJ4B72R5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "US East (N. Virginia)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "GZQBP6KJ4TD6J25B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0": {
-                "rateCode": "XGHD5RQWWXZBZZQJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
-            },
-            "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E": {
-                "rateCode": "HNF7A6F4ZJ2DT97R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "NB8Z53BDSCSKJB85.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "YW27YTHUT34DG8TZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU": {
-                "rateCode": "QDBT38592VQ6X8EM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
-            },
-            "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs": {
-                "rateCode": "TEJQC2Z28YXECAFH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs"
-            },
-            "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs": {
-                "rateCode": "6YF98MEZSZRZVGG3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
-            },
-            "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80": {
-                "rateCode": "HCV2KCAG2KMKWRJK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80"
-            },
-            "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0": {
-                "rateCode": "P7F5T9PZVU9B7CY5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0060000000",
-                "RegionlessRateCode": "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0"
-            },
-            "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw": {
-                "rateCode": "QG6HF8SHGQE7STX3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw"
-            },
-            "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ": {
-                "rateCode": "QV8AA52VQBRZKYGW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "37FTDA6BEJ48XTYK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "RN5GYNM4A9HDWUQR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "GZQBP6KJ4TD6J25B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Q Business Starter Index Q Business Starter Index hours free": {
-                "rateCode": "XGHD5RQWWXZBZZQJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
-            },
-            "Amazon Q Image Image Analysis": {
-                "rateCode": "HNF7A6F4ZJ2DT97R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "NB8Z53BDSCSKJB85.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "YW27YTHUT34DG8TZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Q Business Starter Index Q Business Starter Index hours": {
-                "rateCode": "QDBT38592VQ6X8EM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
-            },
-            "Amazon Q Video Video Analysis": {
-                "rateCode": "TEJQC2Z28YXECAFH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs"
-            },
-            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours": {
-                "rateCode": "6YF98MEZSZRZVGG3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
-            },
-            "Amazon Q Index-Enterprise Enterprise Index": {
-                "rateCode": "HCV2KCAG2KMKWRJK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80"
-            },
-            "Amazon Q Audio Audio Analysis": {
-                "rateCode": "P7F5T9PZVU9B7CY5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0060000000",
-                "RegionlessRateCode": "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0"
-            },
-            "Amazon Q Index Index": {
-                "rateCode": "QG6HF8SHGQE7STX3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw"
-            },
-            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours free": {
-                "rateCode": "QV8AA52VQBRZKYGW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "37FTDA6BEJ48XTYK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "RN5GYNM4A9HDWUQR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "E48K3K9WQJ2BG6ZP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "SZB5V5JYEA3QGGR3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "PN3JRKADZ9VSHFSH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "R359ZUZE4ZA4FEUH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "S5MBDCYBRUP76VBR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "E48K3K9WQJ2BG6ZP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "SZB5V5JYEA3QGGR3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "PN3JRKADZ9VSHFSH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "R359ZUZE4ZA4FEUH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "S5MBDCYBRUP76VBR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Middle East (UAE)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "GCHQCZQWD4BS6CAM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "44RVD9MXSRJGZ4J9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "996FDZPAQ4NYKBVP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "SPHHJ3VVTRJ96Y98.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "RNQUE8XUUDU4JWR9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "GCHQCZQWD4BS6CAM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "44RVD9MXSRJGZ4J9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "996FDZPAQ4NYKBVP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "SPHHJ3VVTRJ96Y98.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "RNQUE8XUUDU4JWR9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Middle East (Bahrain)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "PUM7RF249PDBS4XQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "H37X9N6T9DAGV9DM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "8BVNRAQSKWW58B6Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "9AEFJ7PJZZJCGR9T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "E2VFSPHD27DB7VKR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "PUM7RF249PDBS4XQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "H37X9N6T9DAGV9DM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "8BVNRAQSKWW58B6Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "9AEFJ7PJZZJCGR9T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "E2VFSPHD27DB7VKR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Israel (Tel Aviv)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "VQ5N9CAREU3GNY6Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "CNM5F7YJNHXRJK2W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "8JNPS9NWUDQU235D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "DQK9E6SVTJNF8REY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "B5MS7EG8AF3TZPBP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "VQ5N9CAREU3GNY6Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "CNM5F7YJNHXRJK2W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "8JNPS9NWUDQU235D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "DQK9E6SVTJNF8REY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "B5MS7EG8AF3TZPBP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "EU (Zurich)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "786D4GAWMQNWGRSB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "XK3S6RYZZS2DZRZW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "89YX7V5FV7SR4MVR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "KHEX94E5GTPHNFT6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "ESV89SJCNU8JK4ZK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "786D4GAWMQNWGRSB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "XK3S6RYZZS2DZRZW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "89YX7V5FV7SR4MVR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "KHEX94E5GTPHNFT6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "ESV89SJCNU8JK4ZK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "EU (Stockholm)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "B4DWAJWR2QQWUJ5W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "9N4PQNYX5QVPNTBH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "QRVYBZUFAGYH9VAK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "K2M88PPUYA877JAS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "KSM26TCZ8UVEHVHT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "B4DWAJWR2QQWUJ5W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "9N4PQNYX5QVPNTBH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "QRVYBZUFAGYH9VAK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "K2M88PPUYA877JAS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "KSM26TCZ8UVEHVHT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "EU (Spain)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "CRWNBU5KH6Y8DPME.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "B42Q8JAYFBFTBZ3K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "C25A4HEFT468VH2S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "KCBEKT4YCQDT7ZYX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "YU2TF8AJ7FAD2G29.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "CRWNBU5KH6Y8DPME.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "B42Q8JAYFBFTBZ3K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "C25A4HEFT468VH2S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "KCBEKT4YCQDT7ZYX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "YU2TF8AJ7FAD2G29.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "EU (Paris)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "82A9M6P2YNF3TRZT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "7P8D9EYP3VH52VN8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "S49HKHGPAUYWVYCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "EXH8NECQB4H2DRRF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "JN7YTV3G86ZHVB5A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "82A9M6P2YNF3TRZT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "7P8D9EYP3VH52VN8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "S49HKHGPAUYWVYCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "EXH8NECQB4H2DRRF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "JN7YTV3G86ZHVB5A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "EU (Milan)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "ZJ6HAF5WRXT566D9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "7MQBVACYYYENWG9D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "DV65KPBH37MPRRR5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "EAN3VWEPBNNHEPPC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "VBK5AVURAED2WBZV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "ZJ6HAF5WRXT566D9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "7MQBVACYYYENWG9D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "DV65KPBH37MPRRR5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "EAN3VWEPBNNHEPPC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "VBK5AVURAED2WBZV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "EU (London)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "9FTS94537S4EYDGP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "DH5RHCDM7SVMQV7H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "MKRHCS9N94FWJT6F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "B5B3ZAUY48UNECER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "JH6ESFE4SESQUA27.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "9FTS94537S4EYDGP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "DH5RHCDM7SVMQV7H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "MKRHCS9N94FWJT6F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "B5B3ZAUY48UNECER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "JH6ESFE4SESQUA27.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "EU (Ireland)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "A6D8DJZQZECVMMY7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0": {
-                "rateCode": "J9DVWHRWPJXMZQ38.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
-            },
-            "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E": {
-                "rateCode": "XWAR48YAXQB6SK79.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "U5EX3CJ57UP2DD2V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "XBX2M8KEDHBTBRWZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU": {
-                "rateCode": "36PBQADPU2AMFACZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
-            },
-            "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs": {
-                "rateCode": "H2DTH6K496QSBCF7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
-            },
-            "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ": {
-                "rateCode": "95X427J3CE3NBJBY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "733GEKB868SUC3NP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "UBWS3JRJNDF49D4V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "A6D8DJZQZECVMMY7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Q Business Starter Index Q Business Starter Index hours free": {
-                "rateCode": "J9DVWHRWPJXMZQ38.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
-            },
-            "Amazon Q Image Image Analysis": {
-                "rateCode": "XWAR48YAXQB6SK79.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "U5EX3CJ57UP2DD2V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "XBX2M8KEDHBTBRWZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Q Business Starter Index Q Business Starter Index hours": {
-                "rateCode": "36PBQADPU2AMFACZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
-            },
-            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours": {
-                "rateCode": "H2DTH6K496QSBCF7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
-            },
-            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours free": {
-                "rateCode": "95X427J3CE3NBJBY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "733GEKB868SUC3NP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "UBWS3JRJNDF49D4V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "EU (Frankfurt)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "CDAQTMR8M32XG7V5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "AU68VKK6WKEUR2N2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "A6KMN982MGVMDUXN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "7E65KFNKMZ4G5MRY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "2ZRNF8YGTTS77SBJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "CDAQTMR8M32XG7V5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "AU68VKK6WKEUR2N2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "A6KMN982MGVMDUXN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "7E65KFNKMZ4G5MRY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "2ZRNF8YGTTS77SBJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Canada (Central)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "FGANTPV4SHX7UF8J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "X5X82RGU4RE88DMR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "WK8WKKC9E5Q5YA99.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "GERYNTN9P45N26NE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "ZHUQT3SBA7N2D743.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "FGANTPV4SHX7UF8J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "X5X82RGU4RE88DMR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "WK8WKKC9E5Q5YA99.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "GERYNTN9P45N26NE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "ZHUQT3SBA7N2D743.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Tokyo)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "8H2AM9R2PUNJSX6D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "J9Q6EWC2U4TB2JWK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "E6HE7F35V6K9RDUG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "CGG9RGH4YVAW3WNN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "ZXJDQAGM38SWQATS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "8H2AM9R2PUNJSX6D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "J9Q6EWC2U4TB2JWK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "E6HE7F35V6K9RDUG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "CGG9RGH4YVAW3WNN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "ZXJDQAGM38SWQATS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "RRV7PBPH7GVBEKBC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0": {
-                "rateCode": "9XBP2VCHGCMGRF39.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
-            },
-            "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E": {
-                "rateCode": "V555FNGC52V3J3UR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "274J45G98H48D3V8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "W6JCNUFEWNBZWR2A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU": {
-                "rateCode": "D3VCFZU2WB5KBBTD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
-            },
-            "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs": {
-                "rateCode": "AYEWWDJ8VHEH5DA7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
-            },
-            "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ": {
-                "rateCode": "EQ2UMWTXQDR3PENN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "HNEUGEXG5F93H5PS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "JGVSA8TY48T63XEH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "RRV7PBPH7GVBEKBC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Q Business Starter Index Q Business Starter Index hours free": {
-                "rateCode": "9XBP2VCHGCMGRF39.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
-            },
-            "Amazon Q Image Image Analysis": {
-                "rateCode": "V555FNGC52V3J3UR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "274J45G98H48D3V8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "W6JCNUFEWNBZWR2A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Q Business Starter Index Q Business Starter Index hours": {
-                "rateCode": "D3VCFZU2WB5KBBTD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
-            },
-            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours": {
-                "rateCode": "AYEWWDJ8VHEH5DA7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2640000000",
-                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
-            },
-            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours free": {
-                "rateCode": "EQ2UMWTXQDR3PENN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "HNEUGEXG5F93H5PS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "JGVSA8TY48T63XEH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "TUCDZJCUHVMF6Z6V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "AR9XMTYCFKCUMYUF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "5XU926NHJ4MMT6EY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "RNQ6SMEBF2H28N8Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "2Y7SWJ767QQE9JAY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "TUCDZJCUHVMF6Z6V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "AR9XMTYCFKCUMYUF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "5XU926NHJ4MMT6EY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "RNQ6SMEBF2H28N8Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "2Y7SWJ767QQE9JAY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Seoul)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "PG6ZRF2RTQKWA4QB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "J36B8TE2G9SH2JFD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "PEKCY4ZC8CK98923.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "Q6WHTT2CMXYE4FYG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "FXYZ5NT5VV8C56UP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "PG6ZRF2RTQKWA4QB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "J36B8TE2G9SH2JFD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "PEKCY4ZC8CK98923.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "Q6WHTT2CMXYE4FYG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "FXYZ5NT5VV8C56UP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Osaka)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "PXM9RHV6JP38E466.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "8FGMQPPGB27JHA5W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "E6AHQJBKNWMX4FW2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "7NBKCCYDTF7CCGYR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "QBGKCZFRKAZQ782C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "PXM9RHV6JP38E466.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "8FGMQPPGB27JHA5W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "E6AHQJBKNWMX4FW2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "7NBKCCYDTF7CCGYR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "QBGKCZFRKAZQ782C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Mumbai)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "F6YMUK53VNDYS94K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "NU9Y6P6E3XXRPJ92.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "WGJEH8MN5QH7WE7F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "W8PTFE9R6YQQH9CU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "7FUPZ93CZJM5MZYX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "F6YMUK53VNDYS94K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "NU9Y6P6E3XXRPJ92.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "WGJEH8MN5QH7WE7F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "W8PTFE9R6YQQH9CU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "7FUPZ93CZJM5MZYX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Melbourne)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "XS7DR6F2TJ2924Z2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "S4KB9JGRETGSXHVP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "3GDAUT9M2PZYXVXQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "XRXCC5URNYRGNRSA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "8R36PCZHFQN26Y5D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "XS7DR6F2TJ2924Z2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "S4KB9JGRETGSXHVP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "3GDAUT9M2PZYXVXQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "XRXCC5URNYRGNRSA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "8R36PCZHFQN26Y5D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Jakarta)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "JD8VBDT3ZX8MB7EV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "RMRGN5AZ5G9Q6ZS5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "XRSYE68MAUK9YEW9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "N6UARAMJ8XAQAAS2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "X7AX3EPQW4NHVHRH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "JD8VBDT3ZX8MB7EV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "RMRGN5AZ5G9Q6ZS5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "XRSYE68MAUK9YEW9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "N6UARAMJ8XAQAAS2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "X7AX3EPQW4NHVHRH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "Asia Pacific (Hyderabad)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "HXRKJESXMH3QNJ76.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "M669Q748M858VNY2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "F58PB7WMNSJM3F4F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "MRSUEKSN3DQT44T8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "G6HW6ADFQ6PBBBNQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "HXRKJESXMH3QNJ76.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "M669Q748M858VNY2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "F58PB7WMNSJM3F4F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "MRSUEKSN3DQT44T8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "G6HW6ADFQ6PBBBNQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
             }
         },
         "Asia Pacific (Hong Kong)": {
@@ -1659,15 +80,15 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
             },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "U9A4654WRS3SC3ZC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
             "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
                 "rateCode": "N66GNMZB46C2Q75N.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "U9A4654WRS3SC3ZC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
             },
             "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
                 "rateCode": "A6T3PQN3TWSJQPR7.JRTCKXETXF.6YS6EN2CT7",
@@ -1684,106 +105,1686 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
             },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "U9A4654WRS3SC3ZC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
             "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
                 "rateCode": "N66GNMZB46C2Q75N.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "U9A4654WRS3SC3ZC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            }
+        },
+        "Asia Pacific (Tokyo)": {
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "8H2AM9R2PUNJSX6D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "CGG9RGH4YVAW3WNN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "E6HE7F35V6K9RDUG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "J9Q6EWC2U4TB2JWK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "ZXJDQAGM38SWQATS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "8H2AM9R2PUNJSX6D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "CGG9RGH4YVAW3WNN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "E6HE7F35V6K9RDUG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "J9Q6EWC2U4TB2JWK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "ZXJDQAGM38SWQATS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            }
+        },
+        "Asia Pacific (Seoul)": {
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "FXYZ5NT5VV8C56UP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "J36B8TE2G9SH2JFD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "PEKCY4ZC8CK98923.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "PG6ZRF2RTQKWA4QB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "Q6WHTT2CMXYE4FYG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "FXYZ5NT5VV8C56UP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "J36B8TE2G9SH2JFD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "PEKCY4ZC8CK98923.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "PG6ZRF2RTQKWA4QB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "Q6WHTT2CMXYE4FYG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            }
+        },
+        "Asia Pacific (Osaka)": {
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "7NBKCCYDTF7CCGYR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "8FGMQPPGB27JHA5W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "E6AHQJBKNWMX4FW2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "PXM9RHV6JP38E466.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "QBGKCZFRKAZQ782C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "7NBKCCYDTF7CCGYR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "8FGMQPPGB27JHA5W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "E6AHQJBKNWMX4FW2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "PXM9RHV6JP38E466.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "QBGKCZFRKAZQ782C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            }
+        },
+        "Asia Pacific (Mumbai)": {
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "7FUPZ93CZJM5MZYX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "F6YMUK53VNDYS94K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "NU9Y6P6E3XXRPJ92.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "W8PTFE9R6YQQH9CU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "WGJEH8MN5QH7WE7F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "7FUPZ93CZJM5MZYX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "F6YMUK53VNDYS94K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "NU9Y6P6E3XXRPJ92.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "W8PTFE9R6YQQH9CU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "WGJEH8MN5QH7WE7F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            }
+        },
+        "Asia Pacific (Hyderabad)": {
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "F58PB7WMNSJM3F4F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "G6HW6ADFQ6PBBBNQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "HXRKJESXMH3QNJ76.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "M669Q748M858VNY2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "MRSUEKSN3DQT44T8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "F58PB7WMNSJM3F4F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "G6HW6ADFQ6PBBBNQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "HXRKJESXMH3QNJ76.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "M669Q748M858VNY2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "MRSUEKSN3DQT44T8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "2Y7SWJ767QQE9JAY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "5XU926NHJ4MMT6EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "AR9XMTYCFKCUMYUF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "RNQ6SMEBF2H28N8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "TUCDZJCUHVMF6Z6V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "2Y7SWJ767QQE9JAY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "5XU926NHJ4MMT6EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "AR9XMTYCFKCUMYUF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "RNQ6SMEBF2H28N8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "TUCDZJCUHVMF6Z6V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "274J45G98H48D3V8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0": {
+                "rateCode": "9XBP2VCHGCMGRF39.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
+            },
+            "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs": {
+                "rateCode": "AYEWWDJ8VHEH5DA7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
+            },
+            "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU": {
+                "rateCode": "D3VCFZU2WB5KBBTD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
+            },
+            "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ": {
+                "rateCode": "EQ2UMWTXQDR3PENN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "HNEUGEXG5F93H5PS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "JGVSA8TY48T63XEH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "RRV7PBPH7GVBEKBC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E": {
+                "rateCode": "V555FNGC52V3J3UR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "W6JCNUFEWNBZWR2A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "274J45G98H48D3V8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Q Business Starter Index Q Business Starter Index hours free": {
+                "rateCode": "9XBP2VCHGCMGRF39.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
+            },
+            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours": {
+                "rateCode": "AYEWWDJ8VHEH5DA7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
+            },
+            "Amazon Q Q Business Starter Index Q Business Starter Index hours": {
+                "rateCode": "D3VCFZU2WB5KBBTD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
+            },
+            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours free": {
+                "rateCode": "EQ2UMWTXQDR3PENN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "HNEUGEXG5F93H5PS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "JGVSA8TY48T63XEH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "RRV7PBPH7GVBEKBC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Image Image Analysis": {
+                "rateCode": "V555FNGC52V3J3UR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "W6JCNUFEWNBZWR2A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            }
+        },
+        "Asia Pacific (Jakarta)": {
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "JD8VBDT3ZX8MB7EV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "N6UARAMJ8XAQAAS2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "RMRGN5AZ5G9Q6ZS5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "X7AX3EPQW4NHVHRH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "XRSYE68MAUK9YEW9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "JD8VBDT3ZX8MB7EV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "N6UARAMJ8XAQAAS2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "RMRGN5AZ5G9Q6ZS5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "X7AX3EPQW4NHVHRH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "XRSYE68MAUK9YEW9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            }
+        },
+        "Asia Pacific (Melbourne)": {
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "3GDAUT9M2PZYXVXQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "8R36PCZHFQN26Y5D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "S4KB9JGRETGSXHVP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "XRXCC5URNYRGNRSA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "XS7DR6F2TJ2924Z2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "3GDAUT9M2PZYXVXQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "8R36PCZHFQN26Y5D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "S4KB9JGRETGSXHVP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "XRXCC5URNYRGNRSA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "XS7DR6F2TJ2924Z2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            }
+        },
+        "Canada (Central)": {
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "FGANTPV4SHX7UF8J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "GERYNTN9P45N26NE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "WK8WKKC9E5Q5YA99.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "X5X82RGU4RE88DMR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "ZHUQT3SBA7N2D743.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "FGANTPV4SHX7UF8J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "GERYNTN9P45N26NE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "WK8WKKC9E5Q5YA99.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "X5X82RGU4RE88DMR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "ZHUQT3SBA7N2D743.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            }
+        },
+        "EU (Frankfurt)": {
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "2ZRNF8YGTTS77SBJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "7E65KFNKMZ4G5MRY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "A6KMN982MGVMDUXN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "AU68VKK6WKEUR2N2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "CDAQTMR8M32XG7V5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "2ZRNF8YGTTS77SBJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "7E65KFNKMZ4G5MRY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "A6KMN982MGVMDUXN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "AU68VKK6WKEUR2N2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "CDAQTMR8M32XG7V5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            }
+        },
+        "EU (Zurich)": {
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "786D4GAWMQNWGRSB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "89YX7V5FV7SR4MVR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "ESV89SJCNU8JK4ZK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "KHEX94E5GTPHNFT6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "XK3S6RYZZS2DZRZW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "786D4GAWMQNWGRSB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "89YX7V5FV7SR4MVR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "ESV89SJCNU8JK4ZK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "KHEX94E5GTPHNFT6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "XK3S6RYZZS2DZRZW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            }
+        },
+        "EU (Stockholm)": {
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "9N4PQNYX5QVPNTBH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "B4DWAJWR2QQWUJ5W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "K2M88PPUYA877JAS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "KSM26TCZ8UVEHVHT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "QRVYBZUFAGYH9VAK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "9N4PQNYX5QVPNTBH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "B4DWAJWR2QQWUJ5W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "K2M88PPUYA877JAS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "KSM26TCZ8UVEHVHT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "QRVYBZUFAGYH9VAK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            }
+        },
+        "EU (Milan)": {
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "7MQBVACYYYENWG9D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "DV65KPBH37MPRRR5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "EAN3VWEPBNNHEPPC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "VBK5AVURAED2WBZV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "ZJ6HAF5WRXT566D9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "7MQBVACYYYENWG9D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "DV65KPBH37MPRRR5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "EAN3VWEPBNNHEPPC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "VBK5AVURAED2WBZV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "ZJ6HAF5WRXT566D9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            }
+        },
+        "EU (Spain)": {
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "B42Q8JAYFBFTBZ3K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "C25A4HEFT468VH2S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "CRWNBU5KH6Y8DPME.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "KCBEKT4YCQDT7ZYX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "YU2TF8AJ7FAD2G29.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "B42Q8JAYFBFTBZ3K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "C25A4HEFT468VH2S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "CRWNBU5KH6Y8DPME.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "KCBEKT4YCQDT7ZYX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "YU2TF8AJ7FAD2G29.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            }
+        },
+        "EU (Ireland)": {
+            "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU": {
+                "rateCode": "36PBQADPU2AMFACZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "733GEKB868SUC3NP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ": {
+                "rateCode": "95X427J3CE3NBJBY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "A6D8DJZQZECVMMY7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs": {
+                "rateCode": "H2DTH6K496QSBCF7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
+            },
+            "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0": {
+                "rateCode": "J9DVWHRWPJXMZQ38.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "U5EX3CJ57UP2DD2V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "UBWS3JRJNDF49D4V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "XBX2M8KEDHBTBRWZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E": {
+                "rateCode": "XWAR48YAXQB6SK79.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
+            },
+            "Amazon Q Q Business Starter Index Q Business Starter Index hours": {
+                "rateCode": "36PBQADPU2AMFACZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "733GEKB868SUC3NP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours free": {
+                "rateCode": "95X427J3CE3NBJBY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "A6D8DJZQZECVMMY7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours": {
+                "rateCode": "H2DTH6K496QSBCF7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
+            },
+            "Amazon Q Q Business Starter Index Q Business Starter Index hours free": {
+                "rateCode": "J9DVWHRWPJXMZQ38.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "U5EX3CJ57UP2DD2V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "UBWS3JRJNDF49D4V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "XBX2M8KEDHBTBRWZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Image Image Analysis": {
+                "rateCode": "XWAR48YAXQB6SK79.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
+            }
+        },
+        "EU (London)": {
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "9FTS94537S4EYDGP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "B5B3ZAUY48UNECER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "DH5RHCDM7SVMQV7H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "JH6ESFE4SESQUA27.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "MKRHCS9N94FWJT6F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "9FTS94537S4EYDGP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "B5B3ZAUY48UNECER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "DH5RHCDM7SVMQV7H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "JH6ESFE4SESQUA27.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "MKRHCS9N94FWJT6F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            }
+        },
+        "EU (Paris)": {
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "7P8D9EYP3VH52VN8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "82A9M6P2YNF3TRZT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "EXH8NECQB4H2DRRF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "JN7YTV3G86ZHVB5A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "S49HKHGPAUYWVYCM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "7P8D9EYP3VH52VN8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "82A9M6P2YNF3TRZT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "EXH8NECQB4H2DRRF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "JN7YTV3G86ZHVB5A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "S49HKHGPAUYWVYCM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            }
+        },
+        "Israel (Tel Aviv)": {
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "8JNPS9NWUDQU235D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "B5MS7EG8AF3TZPBP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "CNM5F7YJNHXRJK2W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "DQK9E6SVTJNF8REY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "VQ5N9CAREU3GNY6Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "8JNPS9NWUDQU235D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "B5MS7EG8AF3TZPBP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "CNM5F7YJNHXRJK2W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "DQK9E6SVTJNF8REY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "VQ5N9CAREU3GNY6Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            }
+        },
+        "Middle East (UAE)": {
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "44RVD9MXSRJGZ4J9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "996FDZPAQ4NYKBVP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "GCHQCZQWD4BS6CAM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "RNQUE8XUUDU4JWR9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "SPHHJ3VVTRJ96Y98.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "44RVD9MXSRJGZ4J9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "996FDZPAQ4NYKBVP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "GCHQCZQWD4BS6CAM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "RNQUE8XUUDU4JWR9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "SPHHJ3VVTRJ96Y98.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            }
+        },
+        "Middle East (Bahrain)": {
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "8BVNRAQSKWW58B6Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "9AEFJ7PJZZJCGR9T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "E2VFSPHD27DB7VKR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "H37X9N6T9DAGV9DM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "PUM7RF249PDBS4XQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "8BVNRAQSKWW58B6Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "9AEFJ7PJZZJCGR9T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "E2VFSPHD27DB7VKR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "H37X9N6T9DAGV9DM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "PUM7RF249PDBS4XQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "E48K3K9WQJ2BG6ZP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "PN3JRKADZ9VSHFSH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "R359ZUZE4ZA4FEUH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "S5MBDCYBRUP76VBR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "SZB5V5JYEA3QGGR3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "E48K3K9WQJ2BG6ZP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "PN3JRKADZ9VSHFSH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "R359ZUZE4ZA4FEUH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "S5MBDCYBRUP76VBR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "SZB5V5JYEA3QGGR3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            }
+        },
+        "US East (N. Virginia)": {
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "37FTDA6BEJ48XTYK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs": {
+                "rateCode": "6YF98MEZSZRZVGG3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "GZQBP6KJ4TD6J25B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80": {
+                "rateCode": "HCV2KCAG2KMKWRJK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80"
+            },
+            "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E": {
+                "rateCode": "HNF7A6F4ZJ2DT97R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "NB8Z53BDSCSKJB85.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0": {
+                "rateCode": "P7F5T9PZVU9B7CY5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0060000000",
+                "RegionlessRateCode": "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0"
+            },
+            "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU": {
+                "rateCode": "QDBT38592VQ6X8EM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
+            },
+            "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw": {
+                "rateCode": "QG6HF8SHGQE7STX3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw"
+            },
+            "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ": {
+                "rateCode": "QV8AA52VQBRZKYGW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "RN5GYNM4A9HDWUQR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs": {
+                "rateCode": "TEJQC2Z28YXECAFH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs"
+            },
+            "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0": {
+                "rateCode": "XGHD5RQWWXZBZZQJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "YW27YTHUT34DG8TZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "37FTDA6BEJ48XTYK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours": {
+                "rateCode": "6YF98MEZSZRZVGG3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "GZQBP6KJ4TD6J25B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Index-Enterprise Enterprise Index": {
+                "rateCode": "HCV2KCAG2KMKWRJK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80"
+            },
+            "Amazon Q Image Image Analysis": {
+                "rateCode": "HNF7A6F4ZJ2DT97R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "NB8Z53BDSCSKJB85.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Audio Audio Analysis": {
+                "rateCode": "P7F5T9PZVU9B7CY5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0060000000",
+                "RegionlessRateCode": "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0"
+            },
+            "Amazon Q Q Business Starter Index Q Business Starter Index hours": {
+                "rateCode": "QDBT38592VQ6X8EM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
+            },
+            "Amazon Q Index Index": {
+                "rateCode": "QG6HF8SHGQE7STX3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw"
+            },
+            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours free": {
+                "rateCode": "QV8AA52VQBRZKYGW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "RN5GYNM4A9HDWUQR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Video Video Analysis": {
+                "rateCode": "TEJQC2Z28YXECAFH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs"
+            },
+            "Amazon Q Q Business Starter Index Q Business Starter Index hours free": {
+                "rateCode": "XGHD5RQWWXZBZZQJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "YW27YTHUT34DG8TZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            }
+        },
+        "US East (Ohio)": {
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "8FZBQPBEQ8Y4YWBE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "F7WPXBSPXYA5SD2Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "TVSE2DVB9UC2CSWV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "VMR9WZF9WJ4B72R5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "WVH8VXACNHBV6UC7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "8FZBQPBEQ8Y4YWBE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "F7WPXBSPXYA5SD2Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "TVSE2DVB9UC2CSWV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "VMR9WZF9WJ4B72R5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "WVH8VXACNHBV6UC7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            }
+        },
+        "AWS GovCloud (US)": {
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "GNED886TWNJJCHZ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "WCBZVMW5H5XTBKTF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "24.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "GNED886TWNJJCHZ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "WCBZVMW5H5XTBKTF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "24.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            }
+        },
+        "US West (N. California)": {
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "3TNCNDS69UAV9P5Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "DPZAZ4DK56VHX4EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "UJXFKE24KSNE6BDB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "USE2NGKCMF4E2W25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "UYXGJMRFCXWT9USU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "3TNCNDS69UAV9P5Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "DPZAZ4DK56VHX4EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "UJXFKE24KSNE6BDB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "USE2NGKCMF4E2W25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "UYXGJMRFCXWT9USU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            }
+        },
+        "US West (Oregon)": {
+            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
+                "rateCode": "28VMGGKUNTW7VPCS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs": {
+                "rateCode": "3BWRFJWE3QQPXPWM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs"
+            },
+            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
+                "rateCode": "6SFWZJ7XXKHJ6REQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
+                "rateCode": "7MWBJGCFNH7RCRKJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU": {
+                "rateCode": "8P63SBF5WTJYH8F2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
+            },
+            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
+                "rateCode": "AHQHH294SEV82G86.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0": {
+                "rateCode": "BGGT9EDUABADUETE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
+            },
+            "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E": {
+                "rateCode": "GS5BDK7Z2NTTU583.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
+            },
+            "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80": {
+                "rateCode": "TKYVJ5ERSDT4TJTG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80"
+            },
+            "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs": {
+                "rateCode": "VTBYTYBY8S3KF2A9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
+            },
+            "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw": {
+                "rateCode": "XASAN6G7TV5M4GU5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw"
+            },
+            "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ": {
+                "rateCode": "XAYY3DMTSUUDMQ4H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
+            },
+            "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0": {
+                "rateCode": "XWVUBW4HATX5BWFV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0060000000",
+                "RegionlessRateCode": "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0"
+            },
+            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
+                "rateCode": "YWCXPG2HJ87N95PT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
+                "rateCode": "28VMGGKUNTW7VPCS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
+            },
+            "Amazon Q Video Video Analysis": {
+                "rateCode": "3BWRFJWE3QQPXPWM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "PuxojP0gPF8CLbLtQnFH6Hk76kCAeOkpklSqBfr6OAs"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
+                "rateCode": "6SFWZJ7XXKHJ6REQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
+            },
+            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
+                "rateCode": "7MWBJGCFNH7RCRKJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
+            },
+            "Amazon Q Q Business Starter Index Q Business Starter Index hours": {
+                "rateCode": "8P63SBF5WTJYH8F2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "N4Xvxl7Q7xnSbD4ps1iC0dZIZWsZj0mPctj50BBVloU"
+            },
+            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
+                "rateCode": "AHQHH294SEV82G86.JRTCKXETXF.6YS6EN2CT7",
+                "price": "19.0000000000",
+                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
+            },
+            "Amazon Q Q Business Starter Index Q Business Starter Index hours free": {
+                "rateCode": "BGGT9EDUABADUETE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "2RnX8M2eSePAI3ojMGaVC_3wupcUx5YmLSxB_d6lXO0"
+            },
+            "Amazon Q Image Image Analysis": {
+                "rateCode": "GS5BDK7Z2NTTU583.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "DdM37LBLizzkPpHx2dddW9cEjtNF_VHgcA781Qzoa5E"
+            },
+            "Amazon Q Index-Enterprise Enterprise Index": {
+                "rateCode": "TKYVJ5ERSDT4TJTG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "gjK_cvJtzKnWeu8bRiVuBKcZdCeX5VBs9n6u-2Rxf80"
+            },
+            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours": {
+                "rateCode": "VTBYTYBY8S3KF2A9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2640000000",
+                "RegionlessRateCode": "Rgc7tDbev5DszHNzgakUkLCkulO9ubFVZw2I2MrUhKs"
+            },
+            "Amazon Q Index Index": {
+                "rateCode": "XASAN6G7TV5M4GU5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "m4fngR5oTmZIkLo33ypqPWZguDIPaHOrW9ixGh1WObw"
+            },
+            "Amazon Q Q Business Enterprise Index Q Business Enterprise Index hours free": {
+                "rateCode": "XAYY3DMTSUUDMQ4H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oB7Vp_BCFzlmCcCOCpTj08Axs0q7p-gJW6VAfbC4LoQ"
+            },
+            "Amazon Q Audio Audio Analysis": {
+                "rateCode": "XWVUBW4HATX5BWFV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0060000000",
+                "RegionlessRateCode": "hVgrxhjRXNvPvD_uuj5IbdJMZ2jm-M5cwUKtOIQNNg0"
+            },
+            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
+                "rateCode": "YWCXPG2HJ87N95PT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
             }
         },
         "Any": {
-            "-eNm7c2QtnQdFpaCj7ddZFE6G_UeS-w2HdfbFhh4NnM": {
-                "rateCode": "JJYRJJ93HGF86VGC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0030000000",
-                "RegionlessRateCode": "-eNm7c2QtnQdFpaCj7ddZFE6G_UeS-w2HdfbFhh4NnM"
-            },
             "jt6DHbOKJlfTtkIr4jL2B1V7yPhWjdfDWAri3ZHimE0": {
                 "rateCode": "DGSPPVAV2XT7B88S.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "jt6DHbOKJlfTtkIr4jL2B1V7yPhWjdfDWAri3ZHimE0"
             },
+            "-eNm7c2QtnQdFpaCj7ddZFE6G_UeS-w2HdfbFhh4NnM": {
+                "rateCode": "JJYRJJ93HGF86VGC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0030000000",
+                "RegionlessRateCode": "-eNm7c2QtnQdFpaCj7ddZFE6G_UeS-w2HdfbFhh4NnM"
+            },
             "Amazon Q Q Developer Pro Number of Amazon Q Developer subscriptions": {
                 "rateCode": "DGSPPVAV2XT7B88S.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "jt6DHbOKJlfTtkIr4jL2B1V7yPhWjdfDWAri3ZHimE0"
-            }
-        },
-        "Africa (Cape Town)": {
-            "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo": {
-                "rateCode": "EXXTRHTA479FQKCW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM": {
-                "rateCode": "UZDQFFWZM79GGJ9V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI": {
-                "rateCode": "V9PCVFKX4HWGR46B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "Y9QTAKFYQJUE4WAB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "8ECVSTG297AJC2GH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Q Developer Pro Number Amazon Q Developer monthly subscriptions": {
-                "rateCode": "EXXTRHTA479FQKCW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "19.0000000000",
-                "RegionlessRateCode": "1h7UflE2wqHc7eXxCRM5VyM27obX3X2kw1hmNMdAnTo"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service": {
-                "rateCode": "UZDQFFWZM79GGJ9V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "F-o0VXo9fTngOz0MTl7iQaJcYLAK9jzP2SNJsXm7LGM"
-            },
-            "Amazon Q Lite Subscription Number of Amazon Q Business Lite subscriptions in the service free trial": {
-                "rateCode": "V9PCVFKX4HWGR46B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "LuAaA74zNjl5hAO1N4wGFxwGUOOmKxll0v7U24V2JUI"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "Y9QTAKFYQJUE4WAB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "8ECVSTG297AJC2GH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            }
-        },
-        "AWS GovCloud (US)": {
-            "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM": {
-                "rateCode": "WCBZVMW5H5XTBKTF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "24.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM": {
-                "rateCode": "GNED886TWNJJCHZ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service": {
-                "rateCode": "WCBZVMW5H5XTBKTF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "24.0000000000",
-                "RegionlessRateCode": "pH4gU0chREam3aVoYu71-NG6WlBRtzD56u-issfF0LM"
-            },
-            "Amazon Q Pro Subscription Number of Amazon Q Business Pro subscriptions in the service free trial": {
-                "rateCode": "GNED886TWNJJCHZ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "tQMXmbSrb80zW71tfymFH7A2WjCEt8pN4Oo3qyeuKzM"
             }
         }
     }

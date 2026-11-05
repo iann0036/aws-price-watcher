@@ -1,44 +1,45 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "appfabric",
         "accessType": "publish",
-        "esIndex": "plc-appfabric-usd-20260911124522",
+        "source": "appfabric",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:22Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:22Z",
-        "currencyCode": "USD",
-        "source": "appfabric",
+        "esIndex": "plc-appfabric-usd-20260911124522",
+        "queryConfig": "public/b25035db-a283-5c8b-abbb-34d44e488b59/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US East (N. Virginia)": {
-            "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU": {
-                "rateCode": "NF4KSRDZSG8ST44F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
-            },
+        "Asia Pacific (Tokyo)": {
             "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s": {
-                "rateCode": "3A2ATN7E2A4V2CZG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "5HTZFT7C6E9C3VSX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.0000000000",
                 "RegionlessRateCode": "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s"
             },
+            "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU": {
+                "rateCode": "CUUPPAE2A6CUK7CX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
+            },
             "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4": {
-                "rateCode": "XW5UF23XYEZSFC5S.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "FZ84VHCFWC4QQ4HG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4"
             },
-            "Additional App per User UserApp-Mo": {
-                "rateCode": "NF4KSRDZSG8ST44F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
-            },
             "Standard User User-Mo": {
-                "rateCode": "3A2ATN7E2A4V2CZG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "5HTZFT7C6E9C3VSX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.0000000000",
                 "RegionlessRateCode": "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s"
             },
+            "Additional App per User UserApp-Mo": {
+                "rateCode": "CUUPPAE2A6CUK7CX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
+            },
             "Free Trial User-Mo": {
-                "rateCode": "XW5UF23XYEZSFC5S.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "FZ84VHCFWC4QQ4HG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4"
             }
@@ -49,60 +50,60 @@
                 "price": "0.0500000000",
                 "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
             },
-            "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s": {
-                "rateCode": "AXGCS6MHCBDYRK4V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s"
-            },
             "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4": {
                 "rateCode": "97JBFMNNH6RH54VT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4"
+            },
+            "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s": {
+                "rateCode": "AXGCS6MHCBDYRK4V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s"
             },
             "Additional App per User UserApp-Mo": {
                 "rateCode": "778KNT4SHTSU5NWE.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
             },
-            "Standard User User-Mo": {
-                "rateCode": "AXGCS6MHCBDYRK4V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s"
-            },
             "Free Trial User-Mo": {
                 "rateCode": "97JBFMNNH6RH54VT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4"
+            },
+            "Standard User User-Mo": {
+                "rateCode": "AXGCS6MHCBDYRK4V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s"
             }
         },
-        "Asia Pacific (Tokyo)": {
-            "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU": {
-                "rateCode": "CUUPPAE2A6CUK7CX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
-            },
+        "US East (N. Virginia)": {
             "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s": {
-                "rateCode": "5HTZFT7C6E9C3VSX.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "3A2ATN7E2A4V2CZG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.0000000000",
                 "RegionlessRateCode": "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s"
             },
+            "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU": {
+                "rateCode": "NF4KSRDZSG8ST44F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
+            },
             "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4": {
-                "rateCode": "FZ84VHCFWC4QQ4HG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "XW5UF23XYEZSFC5S.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4"
             },
-            "Additional App per User UserApp-Mo": {
-                "rateCode": "CUUPPAE2A6CUK7CX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
-            },
             "Standard User User-Mo": {
-                "rateCode": "5HTZFT7C6E9C3VSX.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "3A2ATN7E2A4V2CZG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.0000000000",
                 "RegionlessRateCode": "Rm0-VqnbzWtnnKqJv8l7zEm3blFhTbRPTdgaoQ0m21s"
             },
+            "Additional App per User UserApp-Mo": {
+                "rateCode": "NF4KSRDZSG8ST44F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "2z2-M0_gkTKig2nCS0YsfexaIADMwDujqF9C7YUZDuU"
+            },
             "Free Trial User-Mo": {
-                "rateCode": "FZ84VHCFWC4QQ4HG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "XW5UF23XYEZSFC5S.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "VNya6I5ltr3KAyJsTFcxNFhSzFRjpwOH2M0m4PePgA4"
             }

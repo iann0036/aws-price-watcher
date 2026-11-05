@@ -1,941 +1,23 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "healthlake",
         "accessType": "publish",
-        "esIndex": "plc-healthlake-usd-20260911124436",
+        "source": "healthlake",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:36Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:36Z",
-        "currencyCode": "USD",
-        "source": "healthlake",
+        "esIndex": "plc-healthlake-usd-20260911124436",
+        "queryConfig": "public/b6df3aaa-fc91-52b3-b588-119c400c4029/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
-                "rateCode": "JDD9ZHRAZURBKRRK.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
-                "rateCode": "GXMTHVYJHVDJXCYT.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
-                "rateCode": "YYJFGDMENVBU78XS.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
-                "rateCode": "VFBSQNCF5ZUR3WKP.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3700000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
-                "rateCode": "YYJFGDMENVBU78XS.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
-                "rateCode": "QXWSM24MTPWWHW5S.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000009000",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
-                "rateCode": "TZE9TZK2ZX2YW673.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1900000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
-                "rateCode": "JDD9ZHRAZURBKRRK.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
-                "rateCode": "QXWSM24MTPWWHW5S.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
-                "rateCode": "4P7YCERFF857TZ5P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2700000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
-                "rateCode": "VFBSQNCF5ZUR3WKP.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
-                "rateCode": "GXMTHVYJHVDJXCYT.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000020000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
-                "rateCode": "QZHPJZGDZVAPXRFT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
-                "rateCode": "ZW4C5KQGNU5EYBX5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            },
-            "FHIRDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "JDD9ZHRAZURBKRRK.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "per Events from 0 to 100000": {
-                "rateCode": "GXMTHVYJHVDJXCYT.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "FHIRQueries per Queries from 0 to 2520000": {
-                "rateCode": "YYJFGDMENVBU78XS.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "VFBSQNCF5ZUR3WKP.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3700000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "FHIRQueries per Queries from 2520000 to Inf": {
-                "rateCode": "YYJFGDMENVBU78XS.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "FHIRDataExport per GB": {
-                "rateCode": "TZE9TZK2ZX2YW673.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1900000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "FHIRDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "JDD9ZHRAZURBKRRK.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "FHIRDataStore per hours": {
-                "rateCode": "4P7YCERFF857TZ5P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2700000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "AdvancedDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "VFBSQNCF5ZUR3WKP.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "per Events from 100000 to Inf": {
-                "rateCode": "GXMTHVYJHVDJXCYT.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000020000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "FHIRResourceImport per API Call": {
-                "rateCode": "QZHPJZGDZVAPXRFT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "IntegratedMedicalNLP per Units": {
-                "rateCode": "ZW4C5KQGNU5EYBX5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            }
-        },
-        "US East (Ohio)": {
-            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
-                "rateCode": "2GG7F8RARSF5UEHB.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
-                "rateCode": "A3CNE3PYYY7HH96P.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
-                "rateCode": "FGR4Y6F3KKZ6QMEQ.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
-                "rateCode": "SPPEDFE5HPNT6Y8H.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3700000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
-                "rateCode": "FGR4Y6F3KKZ6QMEQ.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
-                "rateCode": "M8ZSUSDJSE48FPJH.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000009000",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
-                "rateCode": "AR87QYBMVTFEMRJ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1900000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
-                "rateCode": "2GG7F8RARSF5UEHB.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
-                "rateCode": "M8ZSUSDJSE48FPJH.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
-                "rateCode": "XEZKENKD26AP2QRN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2700000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
-                "rateCode": "SPPEDFE5HPNT6Y8H.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
-                "rateCode": "A3CNE3PYYY7HH96P.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000020000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
-                "rateCode": "ANCRBYPG4XGUWUNQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
-                "rateCode": "6S8W92CPCN3F63GP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            },
-            "FHIRDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "2GG7F8RARSF5UEHB.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "per Events from 0 to 100000": {
-                "rateCode": "A3CNE3PYYY7HH96P.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "FHIRQueries per Queries from 0 to 2520000": {
-                "rateCode": "FGR4Y6F3KKZ6QMEQ.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "SPPEDFE5HPNT6Y8H.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3700000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "FHIRQueries per Queries from 2520000 to Inf": {
-                "rateCode": "FGR4Y6F3KKZ6QMEQ.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "FHIRDataExport per GB": {
-                "rateCode": "AR87QYBMVTFEMRJ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1900000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "FHIRDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "2GG7F8RARSF5UEHB.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "FHIRDataStore per hours": {
-                "rateCode": "XEZKENKD26AP2QRN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2700000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "AdvancedDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "SPPEDFE5HPNT6Y8H.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "per Events from 100000 to Inf": {
-                "rateCode": "A3CNE3PYYY7HH96P.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000020000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "FHIRResourceImport per API Call": {
-                "rateCode": "ANCRBYPG4XGUWUNQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "IntegratedMedicalNLP per Units": {
-                "rateCode": "6S8W92CPCN3F63GP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            }
-        },
-        "US East (N. Virginia)": {
-            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
-                "rateCode": "2Q3Z98GXDST6VY4W.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
-                "rateCode": "PDNXDA6AUFTE4B99.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
-                "rateCode": "UNFGZ55D2PPAJ766.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
-                "rateCode": "QABBYXHX4425V6J7.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3700000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
-                "rateCode": "UNFGZ55D2PPAJ766.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
-                "rateCode": "CBMCAGMM98UF7ZYE.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000009000",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
-                "rateCode": "97PC79QEJ44UZU5D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1900000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
-                "rateCode": "2Q3Z98GXDST6VY4W.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
-                "rateCode": "CBMCAGMM98UF7ZYE.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
-                "rateCode": "ND4TPJTQ3XBCWZYV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2700000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
-                "rateCode": "QABBYXHX4425V6J7.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
-                "rateCode": "PDNXDA6AUFTE4B99.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000020000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
-                "rateCode": "7RCHFZBH7ZU3234G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
-                "rateCode": "Y46XK48X83PQBJ9P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            },
-            "FHIRDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "2Q3Z98GXDST6VY4W.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "FHIRQueries per Queries from 0 to 2520000": {
-                "rateCode": "UNFGZ55D2PPAJ766.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "QABBYXHX4425V6J7.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3700000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "FHIRQueries per Queries from 2520000 to Inf": {
-                "rateCode": "UNFGZ55D2PPAJ766.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "per Events from 100000 to Inf": {
-                "rateCode": "CBMCAGMM98UF7ZYE.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000009000",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "FHIRDataExport per GB": {
-                "rateCode": "97PC79QEJ44UZU5D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1900000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "FHIRDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "2Q3Z98GXDST6VY4W.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "per Events from 0 to 100000": {
-                "rateCode": "CBMCAGMM98UF7ZYE.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "FHIRDataStore per hours": {
-                "rateCode": "ND4TPJTQ3XBCWZYV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2700000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "AdvancedDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "QABBYXHX4425V6J7.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "FHIRResourceImport per API Call": {
-                "rateCode": "7RCHFZBH7ZU3234G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "IntegratedMedicalNLP per Units": {
-                "rateCode": "Y46XK48X83PQBJ9P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            }
-        },
-        "EU (London)": {
-            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
-                "rateCode": "NPQXHEVCSPZ4AXGS.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2875000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
-                "rateCode": "M6YW5B5DNDH39GQJ.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
-                "rateCode": "FYP3RKRRWFUH6VGX.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
-                "rateCode": "YD7BPN2SW7K6G5F4.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.4255000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
-                "rateCode": "FYP3RKRRWFUH6VGX.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000055200",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
-                "rateCode": "3825WCMYSGQWSBP2.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000010350",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
-                "rateCode": "26FXGNSXM4K78PJC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2185000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
-                "rateCode": "NPQXHEVCSPZ4AXGS.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
-                "rateCode": "3825WCMYSGQWSBP2.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
-                "rateCode": "UX9GPAUT8XBAGXZ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3105000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
-                "rateCode": "YD7BPN2SW7K6G5F4.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
-                "rateCode": "M6YW5B5DNDH39GQJ.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000020000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
-                "rateCode": "DFV2ZHUTDPYKH4E5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000055200",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
-                "rateCode": "7JJMNV69PTUKBZZM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0011500000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            },
-            "FHIRDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "NPQXHEVCSPZ4AXGS.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2875000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "FHIRQueries per Queries from 0 to 2520000": {
-                "rateCode": "FYP3RKRRWFUH6VGX.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "YD7BPN2SW7K6G5F4.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.4255000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "FHIRQueries per Queries from 2520000 to Inf": {
-                "rateCode": "FYP3RKRRWFUH6VGX.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000055200",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "per Events from 100000 to Inf": {
-                "rateCode": "3825WCMYSGQWSBP2.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000010350",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "FHIRDataExport per GB": {
-                "rateCode": "26FXGNSXM4K78PJC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2185000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "FHIRDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "NPQXHEVCSPZ4AXGS.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "per Events from 0 to 100000": {
-                "rateCode": "3825WCMYSGQWSBP2.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "FHIRDataStore per hours": {
-                "rateCode": "UX9GPAUT8XBAGXZ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3105000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "AdvancedDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "YD7BPN2SW7K6G5F4.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "FHIRResourceImport per API Call": {
-                "rateCode": "DFV2ZHUTDPYKH4E5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000055200",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "IntegratedMedicalNLP per Units": {
-                "rateCode": "7JJMNV69PTUKBZZM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0011500000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            }
-        },
-        "EU (Ireland)": {
-            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
-                "rateCode": "K5BFWG8GH42J4RH5.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2675000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
-                "rateCode": "PHYUR89FY428YTS6.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
-                "rateCode": "VJPQYXK6N4FBDDC4.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
-                "rateCode": "36J8WZZP6N9AJYFF.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3959000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
-                "rateCode": "VJPQYXK6N4FBDDC4.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000051360",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
-                "rateCode": "MFQC66SUR9FH396F.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000009630",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
-                "rateCode": "NESWQC28WQ8HXEYP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2033000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
-                "rateCode": "K5BFWG8GH42J4RH5.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
-                "rateCode": "MFQC66SUR9FH396F.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
-                "rateCode": "5JBQ8VHDAWUEWY7V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2889000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
-                "rateCode": "36J8WZZP6N9AJYFF.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
-                "rateCode": "PHYUR89FY428YTS6.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000021400",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
-                "rateCode": "8NAKF8555A2M9CAP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000051360",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
-                "rateCode": "P832BGAK8RAUMHT8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010700000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            },
-            "FHIRDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "K5BFWG8GH42J4RH5.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2675000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "FHIRQueries per Queries from 0 to 2520000": {
-                "rateCode": "VJPQYXK6N4FBDDC4.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "36J8WZZP6N9AJYFF.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3959000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "FHIRQueries per Queries from 2520000 to Inf": {
-                "rateCode": "VJPQYXK6N4FBDDC4.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000051360",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "per Events from 100000 to Inf": {
-                "rateCode": "MFQC66SUR9FH396F.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000009630",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "FHIRDataExport per GB": {
-                "rateCode": "NESWQC28WQ8HXEYP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2033000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "FHIRDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "K5BFWG8GH42J4RH5.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "per Events from 0 to 100000": {
-                "rateCode": "MFQC66SUR9FH396F.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "FHIRDataStore per hours": {
-                "rateCode": "5JBQ8VHDAWUEWY7V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2889000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "AdvancedDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "36J8WZZP6N9AJYFF.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "FHIRResourceImport per API Call": {
-                "rateCode": "8NAKF8555A2M9CAP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000051360",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "IntegratedMedicalNLP per Units": {
-                "rateCode": "P832BGAK8RAUMHT8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010700000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            }
-        },
-        "Canada (Central)": {
-            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
-                "rateCode": "VUWY7FRXUCK42R2Z.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2750000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
-                "rateCode": "FBQP59W3YTJR8U5D.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
-                "rateCode": "V54B43XACN4ASSC2.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
-                "rateCode": "3CV2D4P2XXS3TKZ2.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.4070000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
-                "rateCode": "V54B43XACN4ASSC2.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000052800",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
-                "rateCode": "KSQAVM4AK29P4SZG.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000009900",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
-                "rateCode": "8WHJ88NRHE2P7YUD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2090000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
-                "rateCode": "VUWY7FRXUCK42R2Z.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
-                "rateCode": "KSQAVM4AK29P4SZG.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
-                "rateCode": "BR92ETKFNKC28BBA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2970000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
-                "rateCode": "3CV2D4P2XXS3TKZ2.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
-                "rateCode": "FBQP59W3YTJR8U5D.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000022000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
-                "rateCode": "R4VB9VERH86EX28M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000052800",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
-                "rateCode": "H8WGNYJJRMSNXFU9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0011000000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            },
-            "FHIRDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "VUWY7FRXUCK42R2Z.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2750000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "per Events from 0 to 100000": {
-                "rateCode": "FBQP59W3YTJR8U5D.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "FHIRQueries per Queries from 0 to 2520000": {
-                "rateCode": "V54B43XACN4ASSC2.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "3CV2D4P2XXS3TKZ2.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.4070000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "FHIRQueries per Queries from 2520000 to Inf": {
-                "rateCode": "V54B43XACN4ASSC2.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000052800",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "FHIRDataExport per GB": {
-                "rateCode": "8WHJ88NRHE2P7YUD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2090000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "FHIRDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "VUWY7FRXUCK42R2Z.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "FHIRDataStore per hours": {
-                "rateCode": "BR92ETKFNKC28BBA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2970000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "AdvancedDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "3CV2D4P2XXS3TKZ2.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "per Events from 100000 to Inf": {
-                "rateCode": "FBQP59W3YTJR8U5D.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000022000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "FHIRResourceImport per API Call": {
-                "rateCode": "R4VB9VERH86EX28M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000052800",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "IntegratedMedicalNLP per Units": {
-                "rateCode": "H8WGNYJJRMSNXFU9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0011000000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
-                "rateCode": "7MGHPUCQK6YGGVMQ.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2675000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
-                "rateCode": "52MQAXB9FYUWQG9R.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
-                "rateCode": "JSN8U7DHMQQKWTJ8.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
-                "rateCode": "KPHRVF9BBNHFP2CE.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3959000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
-                "rateCode": "JSN8U7DHMQQKWTJ8.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000051360",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
-                "rateCode": "W9YPBVBND75PB9YX.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000009630",
-                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
-            },
-            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
-                "rateCode": "KZ4VH4D5N9TR7BQJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2033000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
-                "rateCode": "7MGHPUCQK6YGGVMQ.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
-                "rateCode": "W9YPBVBND75PB9YX.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
-            },
-            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
-                "rateCode": "75W4F6SEMRSE3U5M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2889000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
-                "rateCode": "KPHRVF9BBNHFP2CE.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
-                "rateCode": "52MQAXB9FYUWQG9R.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000021400",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
-                "rateCode": "KZE246Y2KJR67PE4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000051360",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
-                "rateCode": "2E9QD2PNNW66UXD2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010700000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            },
-            "FHIRDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "7MGHPUCQK6YGGVMQ.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.2675000000",
-                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
-            },
-            "per Events from 0 to 100000": {
-                "rateCode": "52MQAXB9FYUWQG9R.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
-            },
-            "FHIRQueries per Queries from 0 to 2520000": {
-                "rateCode": "JSN8U7DHMQQKWTJ8.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "KPHRVF9BBNHFP2CE.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3959000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "FHIRQueries per Queries from 2520000 to Inf": {
-                "rateCode": "JSN8U7DHMQQKWTJ8.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000051360",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
-            },
-            "FHIRDataExport per GB": {
-                "rateCode": "KZ4VH4D5N9TR7BQJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2033000000",
-                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
-            },
-            "FHIRDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "7MGHPUCQK6YGGVMQ.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
-            },
-            "FHIRDataStore per hours": {
-                "rateCode": "75W4F6SEMRSE3U5M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2889000000",
-                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
-            },
-            "AdvancedDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "KPHRVF9BBNHFP2CE.JRTCKXETXF.DGNP37V5JW",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
-            },
-            "per Events from 100000 to Inf": {
-                "rateCode": "52MQAXB9FYUWQG9R.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000021400",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
-            },
-            "FHIRResourceImport per API Call": {
-                "rateCode": "KZE246Y2KJR67PE4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000051360",
-                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
-            },
-            "IntegratedMedicalNLP per Units": {
-                "rateCode": "2E9QD2PNNW66UXD2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010700000",
-                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
-            }
-        },
         "Asia Pacific (Mumbai)": {
+            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
+                "rateCode": "3B3Q4ZYFX9BCQGGV.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
             "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
                 "rateCode": "3B3Q4ZYFX9BCQGGV.JRTCKXETXF.XCQWNNXBHR",
                 "price": "0.2500000000",
@@ -946,20 +28,15 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
             },
-            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
-                "rateCode": "P6PBC5ZW56AZVV36.JRTCKXETXF.DCVF9UBGH9",
+            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
+                "rateCode": "8H7AX6WTK7YZ8YJW.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000020000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
+                "rateCode": "J2Y5JQ8PFCDK9ZHN.JRTCKXETXF.NADQ2ZJX8V",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
-                "rateCode": "T3WP647FTDE48R68.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3700000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
-                "rateCode": "P6PBC5ZW56AZVV36.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
             },
             "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
                 "rateCode": "J2Y5JQ8PFCDK9ZHN.JRTCKXETXF.FF8BMSDA2R",
@@ -971,15 +48,15 @@
                 "price": "0.1900000000",
                 "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
             },
-            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
-                "rateCode": "3B3Q4ZYFX9BCQGGV.JRTCKXETXF.DGNP37V5JW",
+            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
+                "rateCode": "P6PBC5ZW56AZVV36.JRTCKXETXF.DCVF9UBGH9",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
             },
-            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
-                "rateCode": "J2Y5JQ8PFCDK9ZHN.JRTCKXETXF.NADQ2ZJX8V",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
+                "rateCode": "P6PBC5ZW56AZVV36.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
             },
             "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
                 "rateCode": "PX7ZCGJTTQZU669H.JRTCKXETXF.6YS6EN2CT7",
@@ -991,15 +68,20 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
             },
-            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
-                "rateCode": "8H7AX6WTK7YZ8YJW.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000020000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
+                "rateCode": "T3WP647FTDE48R68.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3700000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
             },
             "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
                 "rateCode": "UX6BYBEC2HEYZUYB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000048000",
                 "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "FHIRDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "3B3Q4ZYFX9BCQGGV.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
             },
             "FHIRDataStorage per GB-Mo from 10 to Inf": {
                 "rateCode": "3B3Q4ZYFX9BCQGGV.JRTCKXETXF.XCQWNNXBHR",
@@ -1011,30 +93,25 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
             },
-            "FHIRQueries per Queries from 0 to 2520000": {
-                "rateCode": "P6PBC5ZW56AZVV36.JRTCKXETXF.DCVF9UBGH9",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
-            },
-            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
-                "rateCode": "T3WP647FTDE48R68.JRTCKXETXF.XCQWNNXBHR",
-                "price": "0.3700000000",
-                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
-            },
-            "FHIRQueries per Queries from 2520000 to Inf": {
-                "rateCode": "P6PBC5ZW56AZVV36.JRTCKXETXF.75Z7YZYRPB",
-                "price": "0.0000048000",
-                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            "per Events from 100000 to Inf": {
+                "rateCode": "8H7AX6WTK7YZ8YJW.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000020000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
             },
             "FHIRDataExport per GB": {
                 "rateCode": "MCX8WMGRJGCUCSCT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1900000000",
                 "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
             },
-            "FHIRDataStorage per GB-Mo from 0 to 10": {
-                "rateCode": "3B3Q4ZYFX9BCQGGV.JRTCKXETXF.DGNP37V5JW",
+            "FHIRQueries per Queries from 0 to 2520000": {
+                "rateCode": "P6PBC5ZW56AZVV36.JRTCKXETXF.DCVF9UBGH9",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "FHIRQueries per Queries from 2520000 to Inf": {
+                "rateCode": "P6PBC5ZW56AZVV36.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
             },
             "FHIRDataStore per hours": {
                 "rateCode": "PX7ZCGJTTQZU669H.JRTCKXETXF.6YS6EN2CT7",
@@ -1046,15 +123,939 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
             },
-            "per Events from 100000 to Inf": {
-                "rateCode": "8H7AX6WTK7YZ8YJW.JRTCKXETXF.FF8BMSDA2R",
-                "price": "0.0000020000",
-                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "T3WP647FTDE48R68.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3700000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
             },
             "FHIRResourceImport per API Call": {
                 "rateCode": "UX6BYBEC2HEYZUYB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000048000",
                 "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
+                "rateCode": "2E9QD2PNNW66UXD2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010700000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
+                "rateCode": "52MQAXB9FYUWQG9R.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
+                "rateCode": "52MQAXB9FYUWQG9R.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000021400",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
+                "rateCode": "75W4F6SEMRSE3U5M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2889000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
+                "rateCode": "7MGHPUCQK6YGGVMQ.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
+                "rateCode": "7MGHPUCQK6YGGVMQ.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2675000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
+                "rateCode": "JSN8U7DHMQQKWTJ8.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
+                "rateCode": "JSN8U7DHMQQKWTJ8.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000051360",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
+                "rateCode": "KPHRVF9BBNHFP2CE.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
+                "rateCode": "KPHRVF9BBNHFP2CE.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3959000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
+                "rateCode": "KZ4VH4D5N9TR7BQJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2033000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
+                "rateCode": "KZE246Y2KJR67PE4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000051360",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
+                "rateCode": "W9YPBVBND75PB9YX.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
+                "rateCode": "W9YPBVBND75PB9YX.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000009630",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "IntegratedMedicalNLP per Units": {
+                "rateCode": "2E9QD2PNNW66UXD2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010700000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "per Events from 0 to 100000": {
+                "rateCode": "52MQAXB9FYUWQG9R.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "per Events from 100000 to Inf": {
+                "rateCode": "52MQAXB9FYUWQG9R.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000021400",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "FHIRDataStore per hours": {
+                "rateCode": "75W4F6SEMRSE3U5M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2889000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "FHIRDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "7MGHPUCQK6YGGVMQ.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "FHIRDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "7MGHPUCQK6YGGVMQ.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2675000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "FHIRQueries per Queries from 0 to 2520000": {
+                "rateCode": "JSN8U7DHMQQKWTJ8.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "FHIRQueries per Queries from 2520000 to Inf": {
+                "rateCode": "JSN8U7DHMQQKWTJ8.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000051360",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "AdvancedDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "KPHRVF9BBNHFP2CE.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "KPHRVF9BBNHFP2CE.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3959000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "FHIRDataExport per GB": {
+                "rateCode": "KZ4VH4D5N9TR7BQJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2033000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "FHIRResourceImport per API Call": {
+                "rateCode": "KZE246Y2KJR67PE4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000051360",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            }
+        },
+        "Canada (Central)": {
+            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
+                "rateCode": "3CV2D4P2XXS3TKZ2.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
+                "rateCode": "3CV2D4P2XXS3TKZ2.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.4070000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
+                "rateCode": "8WHJ88NRHE2P7YUD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2090000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
+                "rateCode": "BR92ETKFNKC28BBA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2970000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
+                "rateCode": "FBQP59W3YTJR8U5D.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
+                "rateCode": "FBQP59W3YTJR8U5D.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000022000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
+                "rateCode": "H8WGNYJJRMSNXFU9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0011000000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
+                "rateCode": "KSQAVM4AK29P4SZG.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
+                "rateCode": "KSQAVM4AK29P4SZG.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000009900",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
+                "rateCode": "R4VB9VERH86EX28M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000052800",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
+                "rateCode": "V54B43XACN4ASSC2.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
+                "rateCode": "V54B43XACN4ASSC2.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000052800",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
+                "rateCode": "VUWY7FRXUCK42R2Z.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
+                "rateCode": "VUWY7FRXUCK42R2Z.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2750000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "AdvancedDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "3CV2D4P2XXS3TKZ2.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "3CV2D4P2XXS3TKZ2.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.4070000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "FHIRDataExport per GB": {
+                "rateCode": "8WHJ88NRHE2P7YUD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2090000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "FHIRDataStore per hours": {
+                "rateCode": "BR92ETKFNKC28BBA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2970000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "per Events from 0 to 100000": {
+                "rateCode": "FBQP59W3YTJR8U5D.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "per Events from 100000 to Inf": {
+                "rateCode": "FBQP59W3YTJR8U5D.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000022000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "IntegratedMedicalNLP per Units": {
+                "rateCode": "H8WGNYJJRMSNXFU9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0011000000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "FHIRResourceImport per API Call": {
+                "rateCode": "R4VB9VERH86EX28M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000052800",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "FHIRQueries per Queries from 0 to 2520000": {
+                "rateCode": "V54B43XACN4ASSC2.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "FHIRQueries per Queries from 2520000 to Inf": {
+                "rateCode": "V54B43XACN4ASSC2.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000052800",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "FHIRDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "VUWY7FRXUCK42R2Z.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "FHIRDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "VUWY7FRXUCK42R2Z.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2750000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            }
+        },
+        "EU (Ireland)": {
+            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
+                "rateCode": "36J8WZZP6N9AJYFF.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
+                "rateCode": "36J8WZZP6N9AJYFF.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3959000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
+                "rateCode": "5JBQ8VHDAWUEWY7V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2889000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
+                "rateCode": "8NAKF8555A2M9CAP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000051360",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
+                "rateCode": "K5BFWG8GH42J4RH5.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
+                "rateCode": "K5BFWG8GH42J4RH5.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2675000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
+                "rateCode": "MFQC66SUR9FH396F.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
+                "rateCode": "MFQC66SUR9FH396F.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000009630",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
+                "rateCode": "NESWQC28WQ8HXEYP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2033000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
+                "rateCode": "P832BGAK8RAUMHT8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010700000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
+                "rateCode": "PHYUR89FY428YTS6.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
+                "rateCode": "PHYUR89FY428YTS6.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000021400",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
+                "rateCode": "VJPQYXK6N4FBDDC4.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
+                "rateCode": "VJPQYXK6N4FBDDC4.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000051360",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "AdvancedDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "36J8WZZP6N9AJYFF.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "36J8WZZP6N9AJYFF.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3959000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "FHIRDataStore per hours": {
+                "rateCode": "5JBQ8VHDAWUEWY7V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2889000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "FHIRResourceImport per API Call": {
+                "rateCode": "8NAKF8555A2M9CAP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000051360",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "FHIRDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "K5BFWG8GH42J4RH5.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "FHIRDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "K5BFWG8GH42J4RH5.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2675000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "per Events from 0 to 100000": {
+                "rateCode": "MFQC66SUR9FH396F.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "per Events from 100000 to Inf": {
+                "rateCode": "MFQC66SUR9FH396F.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000009630",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "FHIRDataExport per GB": {
+                "rateCode": "NESWQC28WQ8HXEYP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2033000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "IntegratedMedicalNLP per Units": {
+                "rateCode": "P832BGAK8RAUMHT8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010700000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "FHIRQueries per Queries from 0 to 2520000": {
+                "rateCode": "VJPQYXK6N4FBDDC4.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "FHIRQueries per Queries from 2520000 to Inf": {
+                "rateCode": "VJPQYXK6N4FBDDC4.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000051360",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            }
+        },
+        "EU (London)": {
+            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
+                "rateCode": "26FXGNSXM4K78PJC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2185000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
+                "rateCode": "3825WCMYSGQWSBP2.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
+                "rateCode": "3825WCMYSGQWSBP2.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000010350",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
+                "rateCode": "7JJMNV69PTUKBZZM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0011500000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
+                "rateCode": "DFV2ZHUTDPYKH4E5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000055200",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
+                "rateCode": "FYP3RKRRWFUH6VGX.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
+                "rateCode": "FYP3RKRRWFUH6VGX.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000055200",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
+                "rateCode": "M6YW5B5DNDH39GQJ.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
+                "rateCode": "M6YW5B5DNDH39GQJ.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000020000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
+                "rateCode": "NPQXHEVCSPZ4AXGS.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
+                "rateCode": "NPQXHEVCSPZ4AXGS.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2875000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
+                "rateCode": "UX9GPAUT8XBAGXZ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3105000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
+                "rateCode": "YD7BPN2SW7K6G5F4.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
+                "rateCode": "YD7BPN2SW7K6G5F4.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.4255000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "FHIRDataExport per GB": {
+                "rateCode": "26FXGNSXM4K78PJC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2185000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "per Events from 0 to 100000": {
+                "rateCode": "3825WCMYSGQWSBP2.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "per Events from 100000 to Inf": {
+                "rateCode": "3825WCMYSGQWSBP2.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000010350",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "IntegratedMedicalNLP per Units": {
+                "rateCode": "7JJMNV69PTUKBZZM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0011500000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "FHIRResourceImport per API Call": {
+                "rateCode": "DFV2ZHUTDPYKH4E5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000055200",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "FHIRQueries per Queries from 0 to 2520000": {
+                "rateCode": "FYP3RKRRWFUH6VGX.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "FHIRQueries per Queries from 2520000 to Inf": {
+                "rateCode": "FYP3RKRRWFUH6VGX.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000055200",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "FHIRDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "NPQXHEVCSPZ4AXGS.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "FHIRDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "NPQXHEVCSPZ4AXGS.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2875000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "FHIRDataStore per hours": {
+                "rateCode": "UX9GPAUT8XBAGXZ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3105000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "AdvancedDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "YD7BPN2SW7K6G5F4.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "YD7BPN2SW7K6G5F4.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.4255000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            }
+        },
+        "US East (N. Virginia)": {
+            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
+                "rateCode": "2Q3Z98GXDST6VY4W.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
+                "rateCode": "2Q3Z98GXDST6VY4W.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
+                "rateCode": "7RCHFZBH7ZU3234G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
+                "rateCode": "97PC79QEJ44UZU5D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1900000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
+                "rateCode": "CBMCAGMM98UF7ZYE.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
+                "rateCode": "CBMCAGMM98UF7ZYE.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000009000",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
+                "rateCode": "ND4TPJTQ3XBCWZYV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2700000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
+                "rateCode": "PDNXDA6AUFTE4B99.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
+                "rateCode": "PDNXDA6AUFTE4B99.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000020000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
+                "rateCode": "QABBYXHX4425V6J7.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
+                "rateCode": "QABBYXHX4425V6J7.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3700000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
+                "rateCode": "UNFGZ55D2PPAJ766.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
+                "rateCode": "UNFGZ55D2PPAJ766.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
+                "rateCode": "Y46XK48X83PQBJ9P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "FHIRDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "2Q3Z98GXDST6VY4W.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "FHIRDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "2Q3Z98GXDST6VY4W.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "FHIRResourceImport per API Call": {
+                "rateCode": "7RCHFZBH7ZU3234G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "FHIRDataExport per GB": {
+                "rateCode": "97PC79QEJ44UZU5D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1900000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "per Events from 0 to 100000": {
+                "rateCode": "CBMCAGMM98UF7ZYE.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "per Events from 100000 to Inf": {
+                "rateCode": "CBMCAGMM98UF7ZYE.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000009000",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "FHIRDataStore per hours": {
+                "rateCode": "ND4TPJTQ3XBCWZYV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2700000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "AdvancedDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "QABBYXHX4425V6J7.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "QABBYXHX4425V6J7.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3700000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "FHIRQueries per Queries from 0 to 2520000": {
+                "rateCode": "UNFGZ55D2PPAJ766.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "FHIRQueries per Queries from 2520000 to Inf": {
+                "rateCode": "UNFGZ55D2PPAJ766.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "IntegratedMedicalNLP per Units": {
+                "rateCode": "Y46XK48X83PQBJ9P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            }
+        },
+        "US East (Ohio)": {
+            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
+                "rateCode": "2GG7F8RARSF5UEHB.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
+                "rateCode": "2GG7F8RARSF5UEHB.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
+                "rateCode": "6S8W92CPCN3F63GP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
+                "rateCode": "A3CNE3PYYY7HH96P.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
+                "rateCode": "A3CNE3PYYY7HH96P.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000020000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
+                "rateCode": "ANCRBYPG4XGUWUNQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
+                "rateCode": "AR87QYBMVTFEMRJ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1900000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
+                "rateCode": "FGR4Y6F3KKZ6QMEQ.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
+                "rateCode": "FGR4Y6F3KKZ6QMEQ.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
+                "rateCode": "M8ZSUSDJSE48FPJH.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
+                "rateCode": "M8ZSUSDJSE48FPJH.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000009000",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
+                "rateCode": "SPPEDFE5HPNT6Y8H.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
+                "rateCode": "SPPEDFE5HPNT6Y8H.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3700000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
+                "rateCode": "XEZKENKD26AP2QRN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2700000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "FHIRDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "2GG7F8RARSF5UEHB.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "FHIRDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "2GG7F8RARSF5UEHB.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "IntegratedMedicalNLP per Units": {
+                "rateCode": "6S8W92CPCN3F63GP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "per Events from 0 to 100000": {
+                "rateCode": "A3CNE3PYYY7HH96P.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "per Events from 100000 to Inf": {
+                "rateCode": "A3CNE3PYYY7HH96P.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000020000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "FHIRResourceImport per API Call": {
+                "rateCode": "ANCRBYPG4XGUWUNQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "FHIRDataExport per GB": {
+                "rateCode": "AR87QYBMVTFEMRJ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1900000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "FHIRQueries per Queries from 0 to 2520000": {
+                "rateCode": "FGR4Y6F3KKZ6QMEQ.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "FHIRQueries per Queries from 2520000 to Inf": {
+                "rateCode": "FGR4Y6F3KKZ6QMEQ.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "AdvancedDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "SPPEDFE5HPNT6Y8H.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "SPPEDFE5HPNT6Y8H.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3700000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "FHIRDataStore per hours": {
+                "rateCode": "XEZKENKD26AP2QRN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2700000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            }
+        },
+        "US West (Oregon)": {
+            "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg": {
+                "rateCode": "4P7YCERFF857TZ5P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2700000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA": {
+                "rateCode": "GXMTHVYJHVDJXCYT.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc": {
+                "rateCode": "GXMTHVYJHVDJXCYT.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000020000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA": {
+                "rateCode": "JDD9ZHRAZURBKRRK.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk": {
+                "rateCode": "JDD9ZHRAZURBKRRK.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8": {
+                "rateCode": "QXWSM24MTPWWHW5S.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "iI0v16QVPVwfRaymCwRJnow_ee-VVX0lbsn9e-qwAE8"
+            },
+            "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI": {
+                "rateCode": "QXWSM24MTPWWHW5S.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000009000",
+                "RegionlessRateCode": "_8Fo2Ehpyaz0vnAGC3UQYB563RqM3zLC2qqQApCydqI"
+            },
+            "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU": {
+                "rateCode": "QZHPJZGDZVAPXRFT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA": {
+                "rateCode": "TZE9TZK2ZX2YW673.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1900000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ": {
+                "rateCode": "VFBSQNCF5ZUR3WKP.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4": {
+                "rateCode": "VFBSQNCF5ZUR3WKP.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3700000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk": {
+                "rateCode": "YYJFGDMENVBU78XS.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk": {
+                "rateCode": "YYJFGDMENVBU78XS.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU": {
+                "rateCode": "ZW4C5KQGNU5EYBX5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
+            },
+            "FHIRDataStore per hours": {
+                "rateCode": "4P7YCERFF857TZ5P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2700000000",
+                "RegionlessRateCode": "nk7g1wRdlY36HxNFt9CmSSl3IZd8fM0XzGve8NGOimg"
+            },
+            "per Events from 0 to 100000": {
+                "rateCode": "GXMTHVYJHVDJXCYT.JRTCKXETXF.NADQ2ZJX8V",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "0zGBfgyWVXPCf9qF4adH3x-PzUVl6uetH4IZp1mk8WA"
+            },
+            "per Events from 100000 to Inf": {
+                "rateCode": "GXMTHVYJHVDJXCYT.JRTCKXETXF.FF8BMSDA2R",
+                "price": "0.0000020000",
+                "RegionlessRateCode": "pu5Ec2M1a_RZjgj2fOM6JFUXZCu7o9eKAoKrUvT3WPc"
+            },
+            "FHIRDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "JDD9ZHRAZURBKRRK.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "h5ZSqfsgUDnbZ2B27pEv2ewf9GsJNpvkzirgS-aHoNA"
+            },
+            "FHIRDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "JDD9ZHRAZURBKRRK.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "0XUxQG4wnaLCjvGCsUsNg08bCnl2HKT-JBro-IVtTpk"
+            },
+            "FHIRResourceImport per API Call": {
+                "rateCode": "QZHPJZGDZVAPXRFT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "t4_shK9dILW9sx8_Pb4-8EFtNGS9eLKHQZZ1qTbxyYU"
+            },
+            "FHIRDataExport per GB": {
+                "rateCode": "TZE9TZK2ZX2YW673.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1900000000",
+                "RegionlessRateCode": "eUZ0WyQXxHWp8QFmXTrRAXBg497rCqo251b_6a2qclA"
+            },
+            "AdvancedDataStorage per GB-Mo from 0 to 10": {
+                "rateCode": "VFBSQNCF5ZUR3WKP.JRTCKXETXF.DGNP37V5JW",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "oaThqYasjVEQ-SVT9zH0xaf3Lo-IdkIRnkCdlBj6plQ"
+            },
+            "AdvancedDataStorage per GB-Mo from 10 to Inf": {
+                "rateCode": "VFBSQNCF5ZUR3WKP.JRTCKXETXF.XCQWNNXBHR",
+                "price": "0.3700000000",
+                "RegionlessRateCode": "LOhg6ByYl64YYfytYokjyaGBTjLGTjGwzUgGZU1SSa4"
+            },
+            "FHIRQueries per Queries from 0 to 2520000": {
+                "rateCode": "YYJFGDMENVBU78XS.JRTCKXETXF.DCVF9UBGH9",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "BW4OXbIYzFGbTdeccBqM-oszAg2hjhRaVZKxntT-Jgk"
+            },
+            "FHIRQueries per Queries from 2520000 to Inf": {
+                "rateCode": "YYJFGDMENVBU78XS.JRTCKXETXF.75Z7YZYRPB",
+                "price": "0.0000048000",
+                "RegionlessRateCode": "ON0uVAKlOcQnq0WkkNVtm6gw4SNMmbez4jTXYeps1nk"
+            },
+            "IntegratedMedicalNLP per Units": {
+                "rateCode": "ZW4C5KQGNU5EYBX5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "yClK7v0BDyZmR_LeVsI4h8wUc64LLWpZuHFWapqFWhU"
             }
         }
     }

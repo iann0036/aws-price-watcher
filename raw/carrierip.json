@@ -1,1158 +1,327 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "ec2",
         "accessType": "publish",
-        "esIndex": "plc-ec2-usd-20261104210305",
+        "source": "carrierip",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-11-04T21:03:05Z",
         "ETLIngestionTriggerDate": "2026-11-04T21:03:05Z",
-        "currencyCode": "USD",
-        "source": "carrierip",
+        "esIndex": "plc-ec2-usd-20261104210305",
+        "queryConfig": "public/4a364976-4cd8-5e89-98f1-43be47128005/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Verizon) - Seattle": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "XZR32CHD493EQMC3.JRTCKXETXF.8EEUB22XNJ",
+        "Asia Pacific (KDDI) - Osaka": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "4WXFBY54NJQH669V.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "Z9ZHX9NG3CC64VJY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "XZR32CHD493EQMC3.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
             "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "WU4RNBX7WR8HT9XQ.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "4WXFBY54NJQH669V.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "WU4RNBX7WR8HT9XQ.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "XZR32CHD493EQMC3.JRTCKXETXF.8EEUB22XNJ",
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "G9AHXM7EZZFT8DTJ.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "Z9ZHX9NG3CC64VJY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "XZR32CHD493EQMC3.JRTCKXETXF.JTU8TKNAMW",
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "G9AHXM7EZZFT8DTJ.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "VWEZKNF77K8PYUDH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "4WXFBY54NJQH669V.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
             "Carrier IP address remap": {
-                "rateCode": "WU4RNBX7WR8HT9XQ.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "4WXFBY54NJQH669V.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "WU4RNBX7WR8HT9XQ.JRTCKXETXF.ETY2894C67",
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "G9AHXM7EZZFT8DTJ.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "G9AHXM7EZZFT8DTJ.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "VWEZKNF77K8PYUDH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             }
         },
-        "US West (Verizon) - San Francisco Bay Area": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "2MGMJGW449MJ9AT3.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
+        "Asia Pacific (KDDI) - Tokyo": {
             "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "7UNXPRZBFWP9C388.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "7JJNQUHRZ34CTUX3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "DMU66F62K3JPAA4S.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
             "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "2MGMJGW449MJ9AT3.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "DMU66F62K3JPAA4S.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "27GXHD4US536K38X.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
             "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "27GXHD4US536K38X.JRTCKXETXF.ETY2894C67",
+                "rateCode": "WGY8JB597KA93XSX.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "2MGMJGW449MJ9AT3.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "WGY8JB597KA93XSX.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
             "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "7UNXPRZBFWP9C388.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "7JJNQUHRZ34CTUX3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "DMU66F62K3JPAA4S.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
             "Carrier IP address attached to a running instance": {
-                "rateCode": "2MGMJGW449MJ9AT3.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "DMU66F62K3JPAA4S.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
-            "Carrier IP address remap": {
-                "rateCode": "27GXHD4US536K38X.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
             "Carrier IP address remap First 100 Free": {
-                "rateCode": "27GXHD4US536K38X.JRTCKXETXF.ETY2894C67",
+                "rateCode": "WGY8JB597KA93XSX.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "WGY8JB597KA93XSX.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             }
         },
-        "US West (Verizon) - Phoenix": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "RE85PQM3BA4RUCCC.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
+        "Asia Pacific (SKT) - Daejeon": {
             "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "EU6ZKCAGBJY3USPV.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6PKAJQK66MF3JTBK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "PKZG6MEVZ4DPXVJR.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
             "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "RE85PQM3BA4RUCCC.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "PKZG6MEVZ4DPXVJR.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "TVASS25HCXJ7S2NT.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
             "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "TVASS25HCXJ7S2NT.JRTCKXETXF.ETY2894C67",
+                "rateCode": "RG2NSS8H3VBJ39VC.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "RE85PQM3BA4RUCCC.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "RG2NSS8H3VBJ39VC.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
             "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "EU6ZKCAGBJY3USPV.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6PKAJQK66MF3JTBK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "PKZG6MEVZ4DPXVJR.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
             "Carrier IP address attached to a running instance": {
-                "rateCode": "RE85PQM3BA4RUCCC.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "PKZG6MEVZ4DPXVJR.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
-            "Carrier IP address remap": {
-                "rateCode": "TVASS25HCXJ7S2NT.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
             "Carrier IP address remap First 100 Free": {
-                "rateCode": "TVASS25HCXJ7S2NT.JRTCKXETXF.ETY2894C67",
+                "rateCode": "RG2NSS8H3VBJ39VC.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "RG2NSS8H3VBJ39VC.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             }
         },
-        "US West (Verizon) - Los Angeles": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "EV3AV6WCYD3GXJNY.JRTCKXETXF.8EEUB22XNJ",
+        "Asia Pacific (SKT) - Seoul": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "DEAQSNT6YUXCXQPK.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "YTMWFBW6QHDDFR7T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "EV3AV6WCYD3GXJNY.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
             "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "V5V887Y3WSFEQA5S.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "DEAQSNT6YUXCXQPK.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "V5V887Y3WSFEQA5S.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "EV3AV6WCYD3GXJNY.JRTCKXETXF.8EEUB22XNJ",
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "RN5SRV9Y6UBJBW9U.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "YTMWFBW6QHDDFR7T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "EV3AV6WCYD3GXJNY.JRTCKXETXF.JTU8TKNAMW",
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "RN5SRV9Y6UBJBW9U.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "U94TZDYZ29FEJWQD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "DEAQSNT6YUXCXQPK.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
             "Carrier IP address remap": {
-                "rateCode": "V5V887Y3WSFEQA5S.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "DEAQSNT6YUXCXQPK.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "V5V887Y3WSFEQA5S.JRTCKXETXF.ETY2894C67",
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "RN5SRV9Y6UBJBW9U.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "RN5SRV9Y6UBJBW9U.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "U94TZDYZ29FEJWQD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             }
         },
-        "US West (Verizon) - Las Vegas": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "FHUUTKN8GXKKV7NR.JRTCKXETXF.8EEUB22XNJ",
+        "Canada (BELL) - Toronto": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "2PHHDWZZJ3SM343E.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "RGMXRBGJPD5P6REZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "FHUUTKN8GXKKV7NR.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
             "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "UXCHJCYGD8V9S5V7.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "2PHHDWZZJ3SM343E.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "UXCHJCYGD8V9S5V7.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "FHUUTKN8GXKKV7NR.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "RGMXRBGJPD5P6REZ.JRTCKXETXF.6YS6EN2CT7",
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "UZ74A7R2Z43FMKBK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "FHUUTKN8GXKKV7NR.JRTCKXETXF.JTU8TKNAMW",
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "ZGE8K7SRVNNJ2KJ5.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "ZGE8K7SRVNNJ2KJ5.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "2PHHDWZZJ3SM343E.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
             "Carrier IP address remap": {
-                "rateCode": "UXCHJCYGD8V9S5V7.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "2PHHDWZZJ3SM343E.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "UXCHJCYGD8V9S5V7.JRTCKXETXF.ETY2894C67",
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "UZ74A7R2Z43FMKBK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "ZGE8K7SRVNNJ2KJ5.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "ZGE8K7SRVNNJ2KJ5.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             }
         },
-        "US West (Verizon) - Denver": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "MA26Y2JEA3MSACEQ.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
+        "EU (Vodafone) - Berlin": {
             "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "N6XGHWJ8FEJM2WCF.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "AMFEXHHP8X3UWW6H.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "PAWSMD29BNWNNDNX.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
             "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "MA26Y2JEA3MSACEQ.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "PAWSMD29BNWNNDNX.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "P5Y74PBNK4P7Z8FP.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
             "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "P5Y74PBNK4P7Z8FP.JRTCKXETXF.ETY2894C67",
+                "rateCode": "RAQMDGY295BCUE7K.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "MA26Y2JEA3MSACEQ.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "N6XGHWJ8FEJM2WCF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "MA26Y2JEA3MSACEQ.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "P5Y74PBNK4P7Z8FP.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "P5Y74PBNK4P7Z8FP.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Washington DC": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "UJC2NWGX3XGUVBUM.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "97QYPSM4CB6KZJS6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "UJC2NWGX3XGUVBUM.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
             "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "QEXT6H24868G58AT.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "RAQMDGY295BCUE7K.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "QEXT6H24868G58AT.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "UJC2NWGX3XGUVBUM.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
             "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "97QYPSM4CB6KZJS6.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "AMFEXHHP8X3UWW6H.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "UJC2NWGX3XGUVBUM.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "QEXT6H24868G58AT.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "QEXT6H24868G58AT.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Tampa": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "B7YVXYSTY37YK5EG.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "D2C6FYDQMNP5YYV2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "B7YVXYSTY37YK5EG.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "774HFVQWPFAKQG5G.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "774HFVQWPFAKQG5G.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
             "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "B7YVXYSTY37YK5EG.JRTCKXETXF.8EEUB22XNJ",
+                "rateCode": "PAWSMD29BNWNNDNX.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "D2C6FYDQMNP5YYV2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
             "Carrier IP address attached to a running instance": {
-                "rateCode": "B7YVXYSTY37YK5EG.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "PAWSMD29BNWNNDNX.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "774HFVQWPFAKQG5G.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
             "Carrier IP address remap First 100 Free": {
-                "rateCode": "774HFVQWPFAKQG5G.JRTCKXETXF.ETY2894C67",
+                "rateCode": "RAQMDGY295BCUE7K.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - New York": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "7B87MN8B9GEJV3ZC.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "EEFG2ZHNNXDYDQTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "7B87MN8B9GEJV3ZC.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "G46WGQAJKDHX4E3F.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "G46WGQAJKDHX4E3F.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "7B87MN8B9GEJV3ZC.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "EEFG2ZHNNXDYDQTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "7B87MN8B9GEJV3ZC.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
             "Carrier IP address remap": {
-                "rateCode": "G46WGQAJKDHX4E3F.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "RAQMDGY295BCUE7K.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "G46WGQAJKDHX4E3F.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Nashville": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "D9346AHEMKFFUJSB.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "NFB6G3N5ENSEAZ8E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "D9346AHEMKFFUJSB.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "DUDY2GSQEWHWUPHR.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "DUDY2GSQEWHWUPHR.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "D9346AHEMKFFUJSB.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "NFB6G3N5ENSEAZ8E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "D9346AHEMKFFUJSB.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "DUDY2GSQEWHWUPHR.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "DUDY2GSQEWHWUPHR.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Minneapolis": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "TVSQQPFNTSV6C822.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "QP36BEBSWRAUW7H8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "TVSQQPFNTSV6C822.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "7KS5T4ATZ4SBP2AH.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "7KS5T4ATZ4SBP2AH.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "TVSQQPFNTSV6C822.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "QP36BEBSWRAUW7H8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "TVSQQPFNTSV6C822.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "7KS5T4ATZ4SBP2AH.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "7KS5T4ATZ4SBP2AH.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Miami": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "S26VZCS6DUF3KRTA.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "VNN2ANRNJDB75SHH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "S26VZCS6DUF3KRTA.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "HSX2ZU98RDYZB5HJ.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "HSX2ZU98RDYZB5HJ.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "S26VZCS6DUF3KRTA.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "VNN2ANRNJDB75SHH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "S26VZCS6DUF3KRTA.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "HSX2ZU98RDYZB5HJ.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "HSX2ZU98RDYZB5HJ.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Houston": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "7K7V6VR4WQ3K53VS.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "T3YNM5Q6ZW8SZ9SX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "7K7V6VR4WQ3K53VS.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "UKAZEG8Y2JR2DQXD.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "UKAZEG8Y2JR2DQXD.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "7K7V6VR4WQ3K53VS.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "T3YNM5Q6ZW8SZ9SX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "7K7V6VR4WQ3K53VS.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "UKAZEG8Y2JR2DQXD.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "UKAZEG8Y2JR2DQXD.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Detroit": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "Z6KVKU3WBJ33YFG6.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "RHQBNDJQ2C35NVZS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "Z6KVKU3WBJ33YFG6.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "BJXEXY93YYK9EDUE.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "BJXEXY93YYK9EDUE.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "Z6KVKU3WBJ33YFG6.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "RHQBNDJQ2C35NVZS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "Z6KVKU3WBJ33YFG6.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "BJXEXY93YYK9EDUE.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "BJXEXY93YYK9EDUE.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Dallas": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "WZBVTP6DECDZSZHJ.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "S6YQQUSXDD4RD4ZN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "WZBVTP6DECDZSZHJ.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "ZN34YQAS8FEXERD8.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "ZN34YQAS8FEXERD8.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "WZBVTP6DECDZSZHJ.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "S6YQQUSXDD4RD4ZN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "WZBVTP6DECDZSZHJ.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "ZN34YQAS8FEXERD8.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "ZN34YQAS8FEXERD8.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Chicago": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "FEUFW7H6WT8FFRC6.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "5SP7QHUWGMGGSKKS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "FEUFW7H6WT8FFRC6.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "7AKNTFA2GHHEG5EG.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "7AKNTFA2GHHEG5EG.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "FEUFW7H6WT8FFRC6.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "5SP7QHUWGMGGSKKS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "FEUFW7H6WT8FFRC6.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "7AKNTFA2GHHEG5EG.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "7AKNTFA2GHHEG5EG.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Charlotte": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "ZESCHQ65U2KWW8ZT.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "39SJQM34TD9AZ5VP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "ZESCHQ65U2KWW8ZT.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "FDP7GDBC5GSSAJZE.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "FDP7GDBC5GSSAJZE.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "ZESCHQ65U2KWW8ZT.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "39SJQM34TD9AZ5VP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "ZESCHQ65U2KWW8ZT.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "FDP7GDBC5GSSAJZE.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "FDP7GDBC5GSSAJZE.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Boston": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "SEDK99Z7UX9NDBWE.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "69DVFQD7T8KJPKJD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "SEDK99Z7UX9NDBWE.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "6KEEUJ74UQM4RRRY.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "6KEEUJ74UQM4RRRY.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "SEDK99Z7UX9NDBWE.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "69DVFQD7T8KJPKJD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "SEDK99Z7UX9NDBWE.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "6KEEUJ74UQM4RRRY.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "6KEEUJ74UQM4RRRY.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "US East (Verizon) - Atlanta": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "3ZQ3YU2665GUSWDS.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "BTHNK5AAUH7Z8S4P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "3ZQ3YU2665GUSWDS.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "6Z2ESTCNXG88275B.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "6Z2ESTCNXG88275B.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "3ZQ3YU2665GUSWDS.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "BTHNK5AAUH7Z8S4P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "3ZQ3YU2665GUSWDS.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "6Z2ESTCNXG88275B.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "6Z2ESTCNXG88275B.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "EU (Vodafone) - Munich": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "CN6EPYGSKB2QPVB9.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "EN2EM94MMFHGD6E8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "CN6EPYGSKB2QPVB9.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "4S8HF2BN5NV9Q62Q.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "4S8HF2BN5NV9Q62Q.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "CN6EPYGSKB2QPVB9.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "EN2EM94MMFHGD6E8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "CN6EPYGSKB2QPVB9.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "4S8HF2BN5NV9Q62Q.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "4S8HF2BN5NV9Q62Q.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "EU (Vodafone) - Manchester": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "SHMZMG9BZ5YHHUZN.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "GYE7NFX368X38FAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "SHMZMG9BZ5YHHUZN.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "98SQSZUPNY8SNZUD.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "98SQSZUPNY8SNZUD.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "SHMZMG9BZ5YHHUZN.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "GYE7NFX368X38FAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "SHMZMG9BZ5YHHUZN.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "98SQSZUPNY8SNZUD.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "98SQSZUPNY8SNZUD.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            }
-        },
-        "EU (Vodafone) - London": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "QDV2MAZ8WN23A3VU.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "4HGCCY7P3T2MCENN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "QDV2MAZ8WN23A3VU.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "HD8ACR72XAS5N5QD.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "HD8ACR72XAS5N5QD.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "QDV2MAZ8WN23A3VU.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "4HGCCY7P3T2MCENN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "QDV2MAZ8WN23A3VU.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "HD8ACR72XAS5N5QD.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "HD8ACR72XAS5N5QD.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             }
         },
         "EU (Vodafone) - Dortmund": {
@@ -1161,362 +330,1194 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "M8YQD5TCYP38YAVW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
             "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
                 "rateCode": "D86ZZSJGMDN8R7AN.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "KYE8HVWAH88RS42K.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
             "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
                 "rateCode": "KYE8HVWAH88RS42K.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "KYE8HVWAH88RS42K.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "M8YQD5TCYP38YAVW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
             "Carrier IP address attached to a running instance First Hour Free": {
                 "rateCode": "D86ZZSJGMDN8R7AN.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "M8YQD5TCYP38YAVW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
             "Carrier IP address attached to a running instance": {
                 "rateCode": "D86ZZSJGMDN8R7AN.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "KYE8HVWAH88RS42K.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
             "Carrier IP address remap": {
                 "rateCode": "KYE8HVWAH88RS42K.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "KYE8HVWAH88RS42K.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "M8YQD5TCYP38YAVW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             }
         },
-        "EU (Vodafone) - Berlin": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "PAWSMD29BNWNNDNX.JRTCKXETXF.8EEUB22XNJ",
+        "EU (Vodafone) - Munich": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "4S8HF2BN5NV9Q62Q.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "AMFEXHHP8X3UWW6H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "PAWSMD29BNWNNDNX.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
             "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "RAQMDGY295BCUE7K.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "4S8HF2BN5NV9Q62Q.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "RAQMDGY295BCUE7K.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "PAWSMD29BNWNNDNX.JRTCKXETXF.8EEUB22XNJ",
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "CN6EPYGSKB2QPVB9.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
             },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "AMFEXHHP8X3UWW6H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "PAWSMD29BNWNNDNX.JRTCKXETXF.JTU8TKNAMW",
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "CN6EPYGSKB2QPVB9.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "EN2EM94MMFHGD6E8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "4S8HF2BN5NV9Q62Q.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
             "Carrier IP address remap": {
-                "rateCode": "RAQMDGY295BCUE7K.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "4S8HF2BN5NV9Q62Q.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "RAQMDGY295BCUE7K.JRTCKXETXF.ETY2894C67",
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "CN6EPYGSKB2QPVB9.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "CN6EPYGSKB2QPVB9.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "EN2EM94MMFHGD6E8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             }
         },
-        "Canada (BELL) - Toronto": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "ZGE8K7SRVNNJ2KJ5.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
+        "EU (Vodafone) - London": {
             "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "UZ74A7R2Z43FMKBK.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "4HGCCY7P3T2MCENN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "ZGE8K7SRVNNJ2KJ5.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "2PHHDWZZJ3SM343E.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
             "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "2PHHDWZZJ3SM343E.JRTCKXETXF.ETY2894C67",
+                "rateCode": "HD8ACR72XAS5N5QD.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "ZGE8K7SRVNNJ2KJ5.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "UZ74A7R2Z43FMKBK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "ZGE8K7SRVNNJ2KJ5.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "2PHHDWZZJ3SM343E.JRTCKXETXF.JBQRCS5NHT",
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "HD8ACR72XAS5N5QD.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "QDV2MAZ8WN23A3VU.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "QDV2MAZ8WN23A3VU.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "4HGCCY7P3T2MCENN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
             "Carrier IP address remap First 100 Free": {
-                "rateCode": "2PHHDWZZJ3SM343E.JRTCKXETXF.ETY2894C67",
+                "rateCode": "HD8ACR72XAS5N5QD.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "HD8ACR72XAS5N5QD.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "QDV2MAZ8WN23A3VU.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "QDV2MAZ8WN23A3VU.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             }
         },
-        "Asia Pacific (SKT) - Seoul": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "RN5SRV9Y6UBJBW9U.JRTCKXETXF.8EEUB22XNJ",
+        "EU (Vodafone) - Manchester": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "98SQSZUPNY8SNZUD.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "U94TZDYZ29FEJWQD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "RN5SRV9Y6UBJBW9U.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
             "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "DEAQSNT6YUXCXQPK.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "98SQSZUPNY8SNZUD.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "DEAQSNT6YUXCXQPK.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
-            },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "RN5SRV9Y6UBJBW9U.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "U94TZDYZ29FEJWQD.JRTCKXETXF.6YS6EN2CT7",
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "GYE7NFX368X38FAZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "RN5SRV9Y6UBJBW9U.JRTCKXETXF.JTU8TKNAMW",
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "SHMZMG9BZ5YHHUZN.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "SHMZMG9BZ5YHHUZN.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "98SQSZUPNY8SNZUD.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
             "Carrier IP address remap": {
-                "rateCode": "DEAQSNT6YUXCXQPK.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "98SQSZUPNY8SNZUD.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "DEAQSNT6YUXCXQPK.JRTCKXETXF.ETY2894C67",
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "GYE7NFX368X38FAZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "SHMZMG9BZ5YHHUZN.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "SHMZMG9BZ5YHHUZN.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             }
         },
-        "Asia Pacific (SKT) - Daejeon": {
-            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "PKZG6MEVZ4DPXVJR.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
+        "US East (Verizon) - Boston": {
             "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "6PKAJQK66MF3JTBK.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "69DVFQD7T8KJPKJD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "PKZG6MEVZ4DPXVJR.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "RG2NSS8H3VBJ39VC.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
             "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "RG2NSS8H3VBJ39VC.JRTCKXETXF.ETY2894C67",
+                "rateCode": "6KEEUJ74UQM4RRRY.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "PKZG6MEVZ4DPXVJR.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "6PKAJQK66MF3JTBK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
-            },
-            "Carrier IP address attached to a running instance": {
-                "rateCode": "PKZG6MEVZ4DPXVJR.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
-            },
-            "Carrier IP address remap": {
-                "rateCode": "RG2NSS8H3VBJ39VC.JRTCKXETXF.JBQRCS5NHT",
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "6KEEUJ74UQM4RRRY.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "SEDK99Z7UX9NDBWE.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "SEDK99Z7UX9NDBWE.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "69DVFQD7T8KJPKJD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
             "Carrier IP address remap First 100 Free": {
-                "rateCode": "RG2NSS8H3VBJ39VC.JRTCKXETXF.ETY2894C67",
+                "rateCode": "6KEEUJ74UQM4RRRY.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "6KEEUJ74UQM4RRRY.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "SEDK99Z7UX9NDBWE.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "SEDK99Z7UX9NDBWE.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             }
         },
-        "Asia Pacific (KDDI) - Tokyo": {
+        "US East (Verizon) - Atlanta": {
             "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "DMU66F62K3JPAA4S.JRTCKXETXF.8EEUB22XNJ",
+                "rateCode": "3ZQ3YU2665GUSWDS.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "7JJNQUHRZ34CTUX3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
             "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "DMU66F62K3JPAA4S.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "3ZQ3YU2665GUSWDS.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "WGY8JB597KA93XSX.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
             "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "WGY8JB597KA93XSX.JRTCKXETXF.ETY2894C67",
+                "rateCode": "6Z2ESTCNXG88275B.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "DMU66F62K3JPAA4S.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "6Z2ESTCNXG88275B.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "7JJNQUHRZ34CTUX3.JRTCKXETXF.6YS6EN2CT7",
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "BTHNK5AAUH7Z8S4P.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "3ZQ3YU2665GUSWDS.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
             "Carrier IP address attached to a running instance": {
-                "rateCode": "DMU66F62K3JPAA4S.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "3ZQ3YU2665GUSWDS.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "6Z2ESTCNXG88275B.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
             "Carrier IP address remap": {
-                "rateCode": "WGY8JB597KA93XSX.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "6Z2ESTCNXG88275B.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "WGY8JB597KA93XSX.JRTCKXETXF.ETY2894C67",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "BTHNK5AAUH7Z8S4P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             }
         },
-        "Asia Pacific (KDDI) - Osaka": {
+        "US East (Verizon) - Nashville": {
             "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
-                "rateCode": "G9AHXM7EZZFT8DTJ.JRTCKXETXF.8EEUB22XNJ",
+                "rateCode": "D9346AHEMKFFUJSB.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
-            },
-            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
-                "rateCode": "VWEZKNF77K8PYUDH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0050000000",
-                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
             "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
-                "rateCode": "G9AHXM7EZZFT8DTJ.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "D9346AHEMKFFUJSB.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
-            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
-                "rateCode": "4WXFBY54NJQH669V.JRTCKXETXF.JBQRCS5NHT",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
-            },
             "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
-                "rateCode": "4WXFBY54NJQH669V.JRTCKXETXF.ETY2894C67",
+                "rateCode": "DUDY2GSQEWHWUPHR.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
             },
-            "Carrier IP address attached to a running instance First Hour Free": {
-                "rateCode": "G9AHXM7EZZFT8DTJ.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "DUDY2GSQEWHWUPHR.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Additional Carrier IP address attached to a running instance": {
-                "rateCode": "VWEZKNF77K8PYUDH.JRTCKXETXF.6YS6EN2CT7",
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "NFB6G3N5ENSEAZ8E.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "D9346AHEMKFFUJSB.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
             "Carrier IP address attached to a running instance": {
-                "rateCode": "G9AHXM7EZZFT8DTJ.JRTCKXETXF.JTU8TKNAMW",
+                "rateCode": "D9346AHEMKFFUJSB.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.0050000000",
                 "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
             },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "DUDY2GSQEWHWUPHR.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
             "Carrier IP address remap": {
-                "rateCode": "4WXFBY54NJQH669V.JRTCKXETXF.JBQRCS5NHT",
+                "rateCode": "DUDY2GSQEWHWUPHR.JRTCKXETXF.JBQRCS5NHT",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
             },
-            "Carrier IP address remap First 100 Free": {
-                "rateCode": "4WXFBY54NJQH669V.JRTCKXETXF.ETY2894C67",
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "NFB6G3N5ENSEAZ8E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            }
+        },
+        "US East (Verizon) - Chicago": {
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "5SP7QHUWGMGGSKKS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "7AKNTFA2GHHEG5EG.JRTCKXETXF.ETY2894C67",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "7AKNTFA2GHHEG5EG.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "FEUFW7H6WT8FFRC6.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "FEUFW7H6WT8FFRC6.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "5SP7QHUWGMGGSKKS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "7AKNTFA2GHHEG5EG.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "7AKNTFA2GHHEG5EG.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "FEUFW7H6WT8FFRC6.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "FEUFW7H6WT8FFRC6.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            }
+        },
+        "US East (Verizon) - Charlotte": {
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "39SJQM34TD9AZ5VP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "FDP7GDBC5GSSAJZE.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "FDP7GDBC5GSSAJZE.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "ZESCHQ65U2KWW8ZT.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "ZESCHQ65U2KWW8ZT.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "39SJQM34TD9AZ5VP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "FDP7GDBC5GSSAJZE.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "FDP7GDBC5GSSAJZE.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "ZESCHQ65U2KWW8ZT.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "ZESCHQ65U2KWW8ZT.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            }
+        },
+        "US East (Verizon) - Dallas": {
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "S6YQQUSXDD4RD4ZN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "WZBVTP6DECDZSZHJ.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "WZBVTP6DECDZSZHJ.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "ZN34YQAS8FEXERD8.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "ZN34YQAS8FEXERD8.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "S6YQQUSXDD4RD4ZN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "WZBVTP6DECDZSZHJ.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "WZBVTP6DECDZSZHJ.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "ZN34YQAS8FEXERD8.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "ZN34YQAS8FEXERD8.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            }
+        },
+        "US East (Verizon) - Detroit": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "BJXEXY93YYK9EDUE.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "BJXEXY93YYK9EDUE.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "RHQBNDJQ2C35NVZS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "Z6KVKU3WBJ33YFG6.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "Z6KVKU3WBJ33YFG6.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "BJXEXY93YYK9EDUE.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "BJXEXY93YYK9EDUE.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "RHQBNDJQ2C35NVZS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "Z6KVKU3WBJ33YFG6.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "Z6KVKU3WBJ33YFG6.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            }
+        },
+        "US East (Verizon) - Houston": {
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "7K7V6VR4WQ3K53VS.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "7K7V6VR4WQ3K53VS.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "T3YNM5Q6ZW8SZ9SX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "UKAZEG8Y2JR2DQXD.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "UKAZEG8Y2JR2DQXD.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "7K7V6VR4WQ3K53VS.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "7K7V6VR4WQ3K53VS.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "T3YNM5Q6ZW8SZ9SX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "UKAZEG8Y2JR2DQXD.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "UKAZEG8Y2JR2DQXD.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            }
+        },
+        "US East (Verizon) - Miami": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "HSX2ZU98RDYZB5HJ.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "HSX2ZU98RDYZB5HJ.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "S26VZCS6DUF3KRTA.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "S26VZCS6DUF3KRTA.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "VNN2ANRNJDB75SHH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "HSX2ZU98RDYZB5HJ.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "HSX2ZU98RDYZB5HJ.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "S26VZCS6DUF3KRTA.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "S26VZCS6DUF3KRTA.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "VNN2ANRNJDB75SHH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            }
+        },
+        "US East (Verizon) - Minneapolis": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "7KS5T4ATZ4SBP2AH.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "7KS5T4ATZ4SBP2AH.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "QP36BEBSWRAUW7H8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "TVSQQPFNTSV6C822.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "TVSQQPFNTSV6C822.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "7KS5T4ATZ4SBP2AH.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "7KS5T4ATZ4SBP2AH.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "QP36BEBSWRAUW7H8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "TVSQQPFNTSV6C822.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "TVSQQPFNTSV6C822.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            }
+        },
+        "US East (Verizon) - New York": {
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "7B87MN8B9GEJV3ZC.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "7B87MN8B9GEJV3ZC.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "EEFG2ZHNNXDYDQTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "G46WGQAJKDHX4E3F.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "G46WGQAJKDHX4E3F.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "7B87MN8B9GEJV3ZC.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "7B87MN8B9GEJV3ZC.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "EEFG2ZHNNXDYDQTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "G46WGQAJKDHX4E3F.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "G46WGQAJKDHX4E3F.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            }
+        },
+        "US East (Verizon) - Tampa": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "774HFVQWPFAKQG5G.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "774HFVQWPFAKQG5G.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "B7YVXYSTY37YK5EG.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "B7YVXYSTY37YK5EG.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "D2C6FYDQMNP5YYV2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "774HFVQWPFAKQG5G.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "774HFVQWPFAKQG5G.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "B7YVXYSTY37YK5EG.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "B7YVXYSTY37YK5EG.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "D2C6FYDQMNP5YYV2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            }
+        },
+        "US East (Verizon) - Washington DC": {
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "97QYPSM4CB6KZJS6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "QEXT6H24868G58AT.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "QEXT6H24868G58AT.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "UJC2NWGX3XGUVBUM.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "UJC2NWGX3XGUVBUM.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "97QYPSM4CB6KZJS6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "QEXT6H24868G58AT.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "QEXT6H24868G58AT.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "UJC2NWGX3XGUVBUM.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "UJC2NWGX3XGUVBUM.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            }
+        },
+        "US West (Verizon) - San Francisco Bay Area": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "27GXHD4US536K38X.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "27GXHD4US536K38X.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "2MGMJGW449MJ9AT3.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "2MGMJGW449MJ9AT3.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "7UNXPRZBFWP9C388.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "27GXHD4US536K38X.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "27GXHD4US536K38X.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "2MGMJGW449MJ9AT3.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "2MGMJGW449MJ9AT3.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "7UNXPRZBFWP9C388.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            }
+        },
+        "US West (Verizon) - Denver": {
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "MA26Y2JEA3MSACEQ.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "MA26Y2JEA3MSACEQ.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "N6XGHWJ8FEJM2WCF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "P5Y74PBNK4P7Z8FP.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "P5Y74PBNK4P7Z8FP.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "MA26Y2JEA3MSACEQ.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "MA26Y2JEA3MSACEQ.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "N6XGHWJ8FEJM2WCF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "P5Y74PBNK4P7Z8FP.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "P5Y74PBNK4P7Z8FP.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            }
+        },
+        "US West (Verizon) - Las Vegas": {
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "FHUUTKN8GXKKV7NR.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "FHUUTKN8GXKKV7NR.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "RGMXRBGJPD5P6REZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "UXCHJCYGD8V9S5V7.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "UXCHJCYGD8V9S5V7.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "FHUUTKN8GXKKV7NR.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "FHUUTKN8GXKKV7NR.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "RGMXRBGJPD5P6REZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "UXCHJCYGD8V9S5V7.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "UXCHJCYGD8V9S5V7.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            }
+        },
+        "US West (Verizon) - Los Angeles": {
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "EV3AV6WCYD3GXJNY.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "EV3AV6WCYD3GXJNY.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "V5V887Y3WSFEQA5S.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "V5V887Y3WSFEQA5S.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "YTMWFBW6QHDDFR7T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "EV3AV6WCYD3GXJNY.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "EV3AV6WCYD3GXJNY.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "V5V887Y3WSFEQA5S.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "V5V887Y3WSFEQA5S.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "YTMWFBW6QHDDFR7T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            }
+        },
+        "US West (Verizon) - Phoenix": {
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "EU6ZKCAGBJY3USPV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "RE85PQM3BA4RUCCC.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "RE85PQM3BA4RUCCC.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "TVASS25HCXJ7S2NT.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "TVASS25HCXJ7S2NT.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "EU6ZKCAGBJY3USPV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "RE85PQM3BA4RUCCC.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "RE85PQM3BA4RUCCC.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "TVASS25HCXJ7S2NT.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "TVASS25HCXJ7S2NT.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            }
+        },
+        "US West (Verizon) - Seattle": {
+            "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek": {
+                "rateCode": "WU4RNBX7WR8HT9XQ.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y": {
+                "rateCode": "WU4RNBX7WR8HT9XQ.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ": {
+                "rateCode": "XZR32CHD493EQMC3.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q": {
+                "rateCode": "XZR32CHD493EQMC3.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM": {
+                "rateCode": "Z9ZHX9NG3CC64VJY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
+            },
+            "Carrier IP address remap First 100 Free": {
+                "rateCode": "WU4RNBX7WR8HT9XQ.JRTCKXETXF.ETY2894C67",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "yMes9lF63CeCQ8LMdhAXOYxY56-so_Nr0AqIgthCsek"
+            },
+            "Carrier IP address remap": {
+                "rateCode": "WU4RNBX7WR8HT9XQ.JRTCKXETXF.JBQRCS5NHT",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "tL6IqBJIyy_5irAwFH45gx5OPLQVwPWW_EwV-clLH1Y"
+            },
+            "Carrier IP address attached to a running instance First Hour Free": {
+                "rateCode": "XZR32CHD493EQMC3.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "GKTrb50ccsjkMKsFI8-s8vIRDoHmlsyHh544ybZyveQ"
+            },
+            "Carrier IP address attached to a running instance": {
+                "rateCode": "XZR32CHD493EQMC3.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "kV7s0lLvxyfYzvpRJbShq7aiBkTodc_sZFSB3ms3y4Q"
+            },
+            "Additional Carrier IP address attached to a running instance": {
+                "rateCode": "Z9ZHX9NG3CC64VJY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0050000000",
+                "RegionlessRateCode": "W1U-YWY0snea92em4pV4gKFY9zDsX-du1hk2WB792ZM"
             }
         }
     }

@@ -1,28 +1,24 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "codecommit",
         "accessType": "publish",
-        "esIndex": "plc-codecommit-usd-20260911124535",
+        "source": "codecommit",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:35Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:35Z",
-        "currencyCode": "USD",
-        "source": "codecommit",
+        "esIndex": "plc-codecommit-usd-20260911124535",
+        "queryConfig": "public/e00f85be-b8cc-5c9a-879e-84036b1773c9/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
         "Any": {
-            "CdrlLUE29qzB0pd1VR93AtykrG9assXeDYVOpy6SH8g": {
-                "rateCode": "2ZCU69RKWJETJYU7.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "CdrlLUE29qzB0pd1VR93AtykrG9assXeDYVOpy6SH8g"
-            },
             "KZg99GXan7snQ-6XkrRxI2GbOk3erSwKZu5N6Yl0Xlo": {
                 "rateCode": "2ZCU69RKWJETJYU7.JRTCKXETXF.V7GB4D473V",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "KZg99GXan7snQ-6XkrRxI2GbOk3erSwKZu5N6Yl0Xlo"
             },
-            "AWSCodeCommit StartingRange 5 Inf": {
+            "CdrlLUE29qzB0pd1VR93AtykrG9assXeDYVOpy6SH8g": {
                 "rateCode": "2ZCU69RKWJETJYU7.JRTCKXETXF.ERZ9N8C2K6",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "CdrlLUE29qzB0pd1VR93AtykrG9assXeDYVOpy6SH8g"
@@ -31,6 +27,11 @@
                 "rateCode": "2ZCU69RKWJETJYU7.JRTCKXETXF.V7GB4D473V",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "KZg99GXan7snQ-6XkrRxI2GbOk3erSwKZu5N6Yl0Xlo"
+            },
+            "AWSCodeCommit StartingRange 5 Inf": {
+                "rateCode": "2ZCU69RKWJETJYU7.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "CdrlLUE29qzB0pd1VR93AtykrG9assXeDYVOpy6SH8g"
             }
         }
     }

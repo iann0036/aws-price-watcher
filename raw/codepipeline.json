@@ -1,270 +1,431 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "codepipeline",
         "accessType": "publish",
-        "esIndex": "plc-codepipeline-usd-20260911124534",
+        "source": "codepipeline",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:34Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:34Z",
-        "currencyCode": "USD",
-        "source": "codepipeline",
+        "esIndex": "plc-codepipeline-usd-20260911124534",
+        "queryConfig": "public/cf8557a9-83df-5119-b051-239f3172b1c2/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
+        "Africa (Cape Town)": {
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "D837F2KM6KR32347.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "AASFQJZX6QN3R9HA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "MRJE2Q49ZY65RS4Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "XSDTQVFVVRRTKDMD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "AASFQJZX6QN3R9HA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "MRJE2Q49ZY65RS4Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "XSDTQVFVVRRTKDMD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            }
+        },
+        "Asia Pacific (Hong Kong)": {
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "AV9YRK7P494H98CV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "EN52NGAFJX6XARJT.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KPQ79598TABHW52X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "FUXWKN7EQQE7P8X6.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "VFV8CK7ZYA74QAH3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
             "Active Pipeline Inf Free 30 day": {
-                "rateCode": "D837F2KM6KR32347.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "AV9YRK7P494H98CV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "Action Execution Minutes Inf": {
-                "rateCode": "EN52NGAFJX6XARJT.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KPQ79598TABHW52X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf": {
-                "rateCode": "FUXWKN7EQQE7P8X6.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "VFV8CK7ZYA74QAH3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
         },
-        "US West (N. California)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "NKAMME38ZR4QJNUZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "8F228PBT38ASPYEF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
+        "Asia Pacific (Tokyo)": {
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "3EHX82HXVK38ZWG6.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "BQQRBF5CR2CRSBS9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "NKAMME38ZR4QJNUZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "8F228PBT38ASPYEF.JRTCKXETXF.6YS6EN2CT7",
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "G9ZG6HSR8XFRQTTM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "Q8PUA2KUC2493P69.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
             "Active Pipeline Inf": {
-                "rateCode": "3EHX82HXVK38ZWG6.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "BQQRBF5CR2CRSBS9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "G9ZG6HSR8XFRQTTM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "Q8PUA2KUC2493P69.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            }
+        },
+        "Asia Pacific (Seoul)": {
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "9EUUZKCZC8AUD3HH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "CTMEZ7JGSEBW9TXH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "X46ZUT4HFJYV6P8B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "9EUUZKCZC8AUD3HH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "CTMEZ7JGSEBW9TXH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "X46ZUT4HFJYV6P8B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
         },
-        "US East (Ohio)": {
+        "Asia Pacific (Osaka)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "9VKYK89Q9V8PKN87.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "KNTFRJJMFB8GQSNW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "4Z4ZJQM2Y6AUUTFD.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "PM9DZDAWZ8FETCMH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
+            "Active Pipeline Inf": {
+                "rateCode": "9VKYK89Q9V8PKN87.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "KNTFRJJMFB8GQSNW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "PM9DZDAWZ8FETCMH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            }
+        },
+        "Asia Pacific (Mumbai)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "4M3MGGMXGGGXE7GB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "6XVWMQRY9F5WZBUK.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "DMY5HNRV8P7694R4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "M5RPPHDCJZPSWPTP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "4M3MGGMXGGGXE7GB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "DMY5HNRV8P7694R4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "M5RPPHDCJZPSWPTP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            }
+        },
+        "Asia Pacific (Hyderabad)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "4AGC82WS9QTS8YCA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "6QUADT5AJF8G9UUJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "RYFG3EHZW7JVD9NP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "4AGC82WS9QTS8YCA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "6QUADT5AJF8G9UUJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "RYFG3EHZW7JVD9NP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "6QKP6CJ8TNPKHR3B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "37SVZYDNWKHSDATH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EQFFESYKMZ7K8PPC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "4Z4ZJQM2Y6AUUTFD.JRTCKXETXF.6YS6EN2CT7",
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "NWD33Z993PDMR8EN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "Action Execution Minutes Inf": {
-                "rateCode": "6XVWMQRY9F5WZBUK.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6QKP6CJ8TNPKHR3B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf": {
-                "rateCode": "37SVZYDNWKHSDATH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EQFFESYKMZ7K8PPC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "NWD33Z993PDMR8EN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "EGKUG7FE4RHWA3FG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "JU27QBEFHCGZBY8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "K9FCHREYUFPQETFP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "EGKUG7FE4RHWA3FG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "JU27QBEFHCGZBY8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "K9FCHREYUFPQETFP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
         },
-        "US East (N. Virginia)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "VXNDVJE8HG8SJE8X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+        "Asia Pacific (Jakarta)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "D7MVPYF6A2SB39MN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "DJWUTK2Q4VSYNRHG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "QNA8Z722XH5P2XSU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "TD9KXBWATDCHXY5Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "VXNDVJE8HG8SJE8X.JRTCKXETXF.6YS6EN2CT7",
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "Z4KCNXGEPZYMV64B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
+            "Active Pipeline Inf": {
+                "rateCode": "D7MVPYF6A2SB39MN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
             "Action Execution Minutes Inf": {
-                "rateCode": "DJWUTK2Q4VSYNRHG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "QNA8Z722XH5P2XSU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
-            "Active Pipeline Inf": {
-                "rateCode": "TD9KXBWATDCHXY5Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "Z4KCNXGEPZYMV64B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             }
         },
-        "South America (Sao Paulo)": {
+        "Asia Pacific (Melbourne)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "9EFDYZBY6ANGDQ7K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "2JA9UB9F7SN3HCJG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "MSNDNEYZESJ2BDPH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "JRMUCVCS2VPXWDHU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "CVQE3NJZA7723P2J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "2JA9UB9F7SN3HCJG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "JRMUCVCS2VPXWDHU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "RVPS3DVAQ78MKXY8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf": {
-                "rateCode": "CVQE3NJZA7723P2J.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "9EFDYZBY6ANGDQ7K.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "MSNDNEYZESJ2BDPH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "RVPS3DVAQ78MKXY8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             }
         },
-        "Middle East (UAE)": {
+        "Canada (Central)": {
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "E7QGEKHK7QNWXA67.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "FRNYSD27R37MCGDV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "HMJW9HJBA2SWW6D8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "Z648JZC3YB4MTFF4.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "PTZD79SD8FGC4J42.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "E7QGEKHK7QNWXA67.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "HMJW9HJBA2SWW6D8.JRTCKXETXF.6YS6EN2CT7",
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "T6BVWRP62ZPD5QG8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "FRNYSD27R37MCGDV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
             "Active Pipeline Inf": {
-                "rateCode": "Z648JZC3YB4MTFF4.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "PTZD79SD8FGC4J42.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "T6BVWRP62ZPD5QG8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             }
         },
-        "Middle East (Bahrain)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "W84ZJ5DNV8Y24VTU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+        "EU (Frankfurt)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "7HBHAVQ8NB3W4PW3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "HEE2RYXSNAT9Y467.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NN55ZDT7RH3JQFCB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "G7FV4K2X8K6U6CVW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "W84ZJ5DNV8Y24VTU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "HEE2RYXSNAT9Y467.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "G7FV4K2X8K6U6CVW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Israel (Tel Aviv)": {
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "364YX64V42TUM366.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "VSUZARSQS2SBBPUC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "QPKB4U6NS7P9X38T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "8UE4PGD2ENZ7TZY2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "364YX64V42TUM366.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "QPKB4U6NS7P9X38T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf": {
-                "rateCode": "8UE4PGD2ENZ7TZY2.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "7HBHAVQ8NB3W4PW3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "NN55ZDT7RH3JQFCB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "VSUZARSQS2SBBPUC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             }
         },
         "EU (Zurich)": {
@@ -273,30 +434,30 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "J462JU5D3TYUDN82.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
                 "rateCode": "DM64R47QVAT7A858.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "J462JU5D3TYUDN82.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf Free 30 day": {
                 "rateCode": "8CE5KA4EET2PDZQT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
-            "Action Execution Minutes Inf": {
-                "rateCode": "J462JU5D3TYUDN82.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
             "Active Pipeline Inf": {
                 "rateCode": "DM64R47QVAT7A858.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "J462JU5D3TYUDN82.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             }
         },
         "EU (Stockholm)": {
@@ -327,70 +488,6 @@
             },
             "Active Pipeline Inf": {
                 "rateCode": "S3V937YYN6QS9QGQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "EU (Spain)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "3AXJH95G2UDJDVF9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "D573EYT6RS6XMWJ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "DN826TNB92KG3NV6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "3AXJH95G2UDJDVF9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "D573EYT6RS6XMWJ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "DN826TNB92KG3NV6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "EU (Paris)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "JTSBNXU9Q96ZN2RV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "XERBMPJXY4JHEWPK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "KBHU2H8VBRCVUVZC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "JTSBNXU9Q96ZN2RV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "XERBMPJXY4JHEWPK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "KBHU2H8VBRCVUVZC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
@@ -427,6 +524,70 @@
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
         },
+        "EU (Spain)": {
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "3AXJH95G2UDJDVF9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "D573EYT6RS6XMWJ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "DN826TNB92KG3NV6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "3AXJH95G2UDJDVF9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "D573EYT6RS6XMWJ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "DN826TNB92KG3NV6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            }
+        },
+        "EU (Ireland)": {
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "47D4WQC9FKWR2U46.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "CDWZ3YQ84HU2MENX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "ZPSMTV4PGCX3P5DM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "47D4WQC9FKWR2U46.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "CDWZ3YQ84HU2MENX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "ZPSMTV4PGCX3P5DM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            }
+        },
         "EU (London)": {
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
                 "rateCode": "BMK2H3BBNN33V9PP.JRTCKXETXF.6YS6EN2CT7",
@@ -459,455 +620,236 @@
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
         },
-        "EU (Ireland)": {
+        "EU (Paris)": {
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "ZPSMTV4PGCX3P5DM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "JTSBNXU9Q96ZN2RV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "KBHU2H8VBRCVUVZC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "XERBMPJXY4JHEWPK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "JTSBNXU9Q96ZN2RV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "KBHU2H8VBRCVUVZC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "XERBMPJXY4JHEWPK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            }
+        },
+        "Israel (Tel Aviv)": {
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "364YX64V42TUM366.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "8UE4PGD2ENZ7TZY2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "QPKB4U6NS7P9X38T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "364YX64V42TUM366.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "8UE4PGD2ENZ7TZY2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "QPKB4U6NS7P9X38T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            }
+        },
+        "Middle East (UAE)": {
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "E7QGEKHK7QNWXA67.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "47D4WQC9FKWR2U46.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HMJW9HJBA2SWW6D8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "CDWZ3YQ84HU2MENX.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "Z648JZC3YB4MTFF4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
             "Active Pipeline Inf Free 30 day": {
-                "rateCode": "ZPSMTV4PGCX3P5DM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "E7QGEKHK7QNWXA67.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "Action Execution Minutes Inf": {
-                "rateCode": "47D4WQC9FKWR2U46.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HMJW9HJBA2SWW6D8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf": {
-                "rateCode": "CDWZ3YQ84HU2MENX.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "Z648JZC3YB4MTFF4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
         },
-        "EU (Frankfurt)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "VSUZARSQS2SBBPUC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+        "Middle East (Bahrain)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "G7FV4K2X8K6U6CVW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "NN55ZDT7RH3JQFCB.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HEE2RYXSNAT9Y467.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "7HBHAVQ8NB3W4PW3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "VSUZARSQS2SBBPUC.JRTCKXETXF.6YS6EN2CT7",
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "W84ZJ5DNV8Y24VTU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
+            "Active Pipeline Inf": {
+                "rateCode": "G7FV4K2X8K6U6CVW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
             "Action Execution Minutes Inf": {
-                "rateCode": "NN55ZDT7RH3JQFCB.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HEE2RYXSNAT9Y467.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
-            "Active Pipeline Inf": {
-                "rateCode": "7HBHAVQ8NB3W4PW3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "W84ZJ5DNV8Y24VTU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             }
         },
-        "Canada (Central)": {
+        "South America (Sao Paulo)": {
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "FRNYSD27R37MCGDV.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "2JA9UB9F7SN3HCJG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "T6BVWRP62ZPD5QG8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "PTZD79SD8FGC4J42.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "CVQE3NJZA7723P2J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "FRNYSD27R37MCGDV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "T6BVWRP62ZPD5QG8.JRTCKXETXF.6YS6EN2CT7",
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "JRMUCVCS2VPXWDHU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "2JA9UB9F7SN3HCJG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
             "Active Pipeline Inf": {
-                "rateCode": "PTZD79SD8FGC4J42.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "CVQE3NJZA7723P2J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "JRMUCVCS2VPXWDHU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             }
         },
-        "Asia Pacific (Tokyo)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "Q8PUA2KUC2493P69.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
+        "US East (N. Virginia)": {
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "G9ZG6HSR8XFRQTTM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "DJWUTK2Q4VSYNRHG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "BQQRBF5CR2CRSBS9.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "TD9KXBWATDCHXY5Z.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "Q8PUA2KUC2493P69.JRTCKXETXF.6YS6EN2CT7",
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "VXNDVJE8HG8SJE8X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "Action Execution Minutes Inf": {
-                "rateCode": "G9ZG6HSR8XFRQTTM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "DJWUTK2Q4VSYNRHG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf": {
-                "rateCode": "BQQRBF5CR2CRSBS9.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "TD9KXBWATDCHXY5Z.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "VXNDVJE8HG8SJE8X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             }
         },
-        "Asia Pacific (Sydney)": {
+        "US East (Ohio)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "37SVZYDNWKHSDATH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "JU27QBEFHCGZBY8Q.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "4Z4ZJQM2Y6AUUTFD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "EGKUG7FE4RHWA3FG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "K9FCHREYUFPQETFP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "JU27QBEFHCGZBY8Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "EGKUG7FE4RHWA3FG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6XVWMQRY9F5WZBUK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf": {
-                "rateCode": "K9FCHREYUFPQETFP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "NWD33Z993PDMR8EN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "6QKP6CJ8TNPKHR3B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "EQFFESYKMZ7K8PPC.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "37SVZYDNWKHSDATH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
             "Active Pipeline Inf Free 30 day": {
-                "rateCode": "NWD33Z993PDMR8EN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "4Z4ZJQM2Y6AUUTFD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "Action Execution Minutes Inf": {
-                "rateCode": "6QKP6CJ8TNPKHR3B.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6XVWMQRY9F5WZBUK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "EQFFESYKMZ7K8PPC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Asia Pacific (Seoul)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "CTMEZ7JGSEBW9TXH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "9EUUZKCZC8AUD3HH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "X46ZUT4HFJYV6P8B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "CTMEZ7JGSEBW9TXH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "9EUUZKCZC8AUD3HH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "X46ZUT4HFJYV6P8B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Asia Pacific (Osaka)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "PM9DZDAWZ8FETCMH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "KNTFRJJMFB8GQSNW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "9VKYK89Q9V8PKN87.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "PM9DZDAWZ8FETCMH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "KNTFRJJMFB8GQSNW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "9VKYK89Q9V8PKN87.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Asia Pacific (Mumbai)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "M5RPPHDCJZPSWPTP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "DMY5HNRV8P7694R4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "4M3MGGMXGGGXE7GB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "M5RPPHDCJZPSWPTP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "DMY5HNRV8P7694R4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "4M3MGGMXGGGXE7GB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Asia Pacific (Melbourne)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "MSNDNEYZESJ2BDPH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "RVPS3DVAQ78MKXY8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "9EFDYZBY6ANGDQ7K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "MSNDNEYZESJ2BDPH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "RVPS3DVAQ78MKXY8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "9EFDYZBY6ANGDQ7K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Asia Pacific (Jakarta)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "Z4KCNXGEPZYMV64B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "QNA8Z722XH5P2XSU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "D7MVPYF6A2SB39MN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "Z4KCNXGEPZYMV64B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "QNA8Z722XH5P2XSU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "D7MVPYF6A2SB39MN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Asia Pacific (Hyderabad)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "RYFG3EHZW7JVD9NP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "6QUADT5AJF8G9UUJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "4AGC82WS9QTS8YCA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "RYFG3EHZW7JVD9NP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "6QUADT5AJF8G9UUJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "4AGC82WS9QTS8YCA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Asia Pacific (Hong Kong)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "AV9YRK7P494H98CV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "KPQ79598TABHW52X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "VFV8CK7ZYA74QAH3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "AV9YRK7P494H98CV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "KPQ79598TABHW52X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "VFV8CK7ZYA74QAH3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            }
-        },
-        "Africa (Cape Town)": {
-            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "AASFQJZX6QN3R9HA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "XSDTQVFVVRRTKDMD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "MRJE2Q49ZY65RS4Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
-            },
-            "Active Pipeline Inf Free 30 day": {
-                "rateCode": "AASFQJZX6QN3R9HA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
-            },
-            "Action Execution Minutes Inf": {
-                "rateCode": "XSDTQVFVVRRTKDMD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
-            },
-            "Active Pipeline Inf": {
-                "rateCode": "MRJE2Q49ZY65RS4Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
         },
         "AWS GovCloud (US-East)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "73EA8ZY4E39XJJ47.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
                 "rateCode": "AXHG6AAESUT5GCQW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
@@ -918,7 +860,7 @@
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
-            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+            "Active Pipeline Inf": {
                 "rateCode": "73EA8ZY4E39XJJ47.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
@@ -932,41 +874,100 @@
                 "rateCode": "YBHJSAFGH6MGMQUF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            }
+        },
+        "AWS GovCloud (US)": {
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "4WVE5NMACSR5X893.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "WRSZF4XXSVGF5R3Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "Z2DG9CSDN7V79Q6S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "4WVE5NMACSR5X893.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "WRSZF4XXSVGF5R3Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "Active Pipeline Inf": {
-                "rateCode": "73EA8ZY4E39XJJ47.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "Z2DG9CSDN7V79Q6S.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }
         },
-        "AWS GovCloud (US)": {
+        "US West (N. California)": {
+            "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
+                "rateCode": "3EHX82HXVK38ZWG6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
+                "rateCode": "8F228PBT38ASPYEF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
             "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
-                "rateCode": "WRSZF4XXSVGF5R3Y.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NKAMME38ZR4QJNUZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            },
+            "Active Pipeline Inf": {
+                "rateCode": "3EHX82HXVK38ZWG6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
+            },
+            "Action Execution Minutes Inf": {
+                "rateCode": "8F228PBT38ASPYEF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
+            },
+            "Active Pipeline Inf Free 30 day": {
+                "rateCode": "NKAMME38ZR4QJNUZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
+            }
+        },
+        "US West (Oregon)": {
+            "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA": {
+                "rateCode": "D837F2KM6KR32347.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y": {
-                "rateCode": "4WVE5NMACSR5X893.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EN52NGAFJX6XARJT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4": {
-                "rateCode": "Z2DG9CSDN7V79Q6S.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "FUXWKN7EQQE7P8X6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             },
             "Active Pipeline Inf Free 30 day": {
-                "rateCode": "WRSZF4XXSVGF5R3Y.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "D837F2KM6KR32347.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "B6nsYO1C91MYW-aq7ffM9BYFXRptMPM7galPUDi1YfA"
             },
             "Action Execution Minutes Inf": {
-                "rateCode": "4WVE5NMACSR5X893.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EN52NGAFJX6XARJT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "DE-YxgPQUM-e7VaUbEHE9GScxd2HGqbIg5V97H_Cs8Y"
             },
             "Active Pipeline Inf": {
-                "rateCode": "Z2DG9CSDN7V79Q6S.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "FUXWKN7EQQE7P8X6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "sUFmMr_HuZl9obBfBbAsbY5cCdhwRRNG8vkVL-eRFy4"
             }

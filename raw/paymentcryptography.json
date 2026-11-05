@@ -1,784 +1,114 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "paymentcryptography",
         "accessType": "publish",
-        "esIndex": "plc-paymentcryptography-usd-20260914234515",
+        "source": "paymentcryptography",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-14T23:45:15Z",
         "ETLIngestionTriggerDate": "2026-09-14T23:45:15Z",
-        "currencyCode": "USD",
-        "source": "paymentcryptography",
+        "esIndex": "plc-paymentcryptography-usd-20260914234515",
+        "queryConfig": "public/ea7b3fad-e254-59b4-a5a8-a8ca6a0c49ff/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
+        "Africa (Cape Town)": {
             "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.C2QCTD4VXQ",
+                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.C2QCTD4VXQ",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
             },
             "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.3SVBXWNFJA",
+                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.3SVBXWNFJA",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
             },
             "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.2GQZD7548S",
+                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.2GQZD7548S",
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "API Request 520000000 to Inf": {
-                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "US East (Ohio)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
             "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.ZNZ86FN743",
+                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000750000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
             },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
             "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.E8JE246DYC",
+                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.E8JE246DYC",
                 "price": "0.0000250000",
                 "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
             },
             "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.DYCZZAT3HX",
+                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.DYCZZAT3HX",
                 "price": "0.0000100000",
                 "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
             "Encryption Key 0 to 500": {
-                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.C2QCTD4VXQ",
+                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.C2QCTD4VXQ",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            "Encryption Key 500 to 1000": {
+                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
-            "API Request 520000000 to Inf": {
-                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
             },
             "Encryption Key 51000 to Inf": {
-                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.3SVBXWNFJA",
+                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.3SVBXWNFJA",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
             },
             "API Request 0 to 20000000": {
-                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.2GQZD7548S",
+                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.2GQZD7548S",
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "US East (N. Virginia)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
             "API Request 20000000 to 220000000": {
-                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.ZNZ86FN743",
+                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000750000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
             },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
             "API Request 220000000 to 520000000": {
-                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.E8JE246DYC",
+                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.E8JE246DYC",
                 "price": "0.0000250000",
                 "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
             },
             "API Request 520000000 to Inf": {
-                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.DYCZZAT3HX",
+                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.DYCZZAT3HX",
                 "price": "0.0000100000",
                 "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "API Request 520000000 to Inf": {
-                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "EU (Paris)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "API Request 520000000 to Inf": {
-                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "EU (London)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "API Request 520000000 to Inf": {
-                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "EU (Ireland)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000720000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000720000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "API Request 520000000 to Inf": {
-                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "EU (Frankfurt)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000730000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000730000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "API Request 520000000 to Inf": {
-                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "Canada (Central)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000700000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000700000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "API Request 520000000 to Inf": {
-                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             }
         },
         "Asia Pacific (Tokyo)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
             "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
                 "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.C2QCTD4VXQ",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
             },
             "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
                 "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.3SVBXWNFJA",
@@ -790,35 +120,35 @@
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
                 "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000750000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
             },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             },
             "Encryption Key 0 to 500": {
                 "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.C2QCTD4VXQ",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            "Encryption Key 500 to 1000": {
+                "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
-            "API Request 520000000 to Inf": {
-                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
             },
             "Encryption Key 51000 to Inf": {
                 "rateCode": "EYMC72MX44JATQ2D.JRTCKXETXF.3SVBXWNFJA",
@@ -829,192 +159,33 @@
                 "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.2GQZD7548S",
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
             "API Request 20000000 to 220000000": {
-                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.ZNZ86FN743",
+                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000750000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
             },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
             "API Request 220000000 to 520000000": {
-                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.E8JE246DYC",
+                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.E8JE246DYC",
                 "price": "0.0000250000",
                 "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
             },
             "API Request 520000000 to Inf": {
-                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.DYCZZAT3HX",
+                "rateCode": "YM6DXTS3REPDMYEB.JRTCKXETXF.DYCZZAT3HX",
                 "price": "0.0000100000",
                 "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
-            },
-            "API Request 520000000 to Inf": {
-                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
-            },
-            "Encryption Key 51000 to Inf": {
-                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.3SVBXWNFJA",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             }
         },
         "Asia Pacific (Osaka)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "8E5WVMVH95HZFKSA.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             },
             "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
                 "rateCode": "8E5WVMVH95HZFKSA.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000750000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
             "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
                 "rateCode": "8E5WVMVH95HZFKSA.JRTCKXETXF.E8JE246DYC",
@@ -1026,35 +197,35 @@
                 "price": "0.0000100000",
                 "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             },
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
             "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
                 "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.3SVBXWNFJA",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
             },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+            "API Request 0 to 20000000": {
                 "rateCode": "8E5WVMVH95HZFKSA.JRTCKXETXF.2GQZD7548S",
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
             "API Request 20000000 to 220000000": {
                 "rateCode": "8E5WVMVH95HZFKSA.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000750000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
             "API Request 220000000 to 520000000": {
                 "rateCode": "8E5WVMVH95HZFKSA.JRTCKXETXF.E8JE246DYC",
@@ -1066,37 +237,37 @@
                 "price": "0.0000100000",
                 "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             },
+            "Encryption Key 0 to 500": {
+                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
             "Encryption Key 51000 to Inf": {
                 "rateCode": "NS2WGTKRHTKJ3EMR.JRTCKXETXF.3SVBXWNFJA",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "8E5WVMVH95HZFKSA.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             }
         },
         "Asia Pacific (Mumbai)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "ERYMKYRNENS664YV.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             },
             "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
                 "rateCode": "ERYMKYRNENS664YV.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000660000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
             "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
                 "rateCode": "ERYMKYRNENS664YV.JRTCKXETXF.E8JE246DYC",
@@ -1108,35 +279,35 @@
                 "price": "0.0000100000",
                 "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             },
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
             "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
                 "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.3SVBXWNFJA",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
             },
-            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+            "API Request 0 to 20000000": {
                 "rateCode": "ERYMKYRNENS664YV.JRTCKXETXF.2GQZD7548S",
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
-            },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
             "API Request 20000000 to 220000000": {
                 "rateCode": "ERYMKYRNENS664YV.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000660000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
             "API Request 220000000 to 520000000": {
                 "rateCode": "ERYMKYRNENS664YV.JRTCKXETXF.E8JE246DYC",
@@ -1148,47 +319,42 @@
                 "price": "0.0000100000",
                 "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             },
+            "Encryption Key 0 to 500": {
+                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
             "Encryption Key 51000 to Inf": {
                 "rateCode": "MMA4H8486BMMMACH.JRTCKXETXF.3SVBXWNFJA",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
-            },
-            "API Request 0 to 20000000": {
-                "rateCode": "ERYMKYRNENS664YV.JRTCKXETXF.2GQZD7548S",
-                "price": "0.0002000000",
-                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             }
         },
         "Asia Pacific (Hyderabad)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000660000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
             "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
                 "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.C2QCTD4VXQ",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
             },
             "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
                 "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.3SVBXWNFJA",
@@ -1200,35 +366,35 @@
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
                 "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000660000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
             },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             },
             "Encryption Key 0 to 500": {
                 "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.C2QCTD4VXQ",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            "Encryption Key 500 to 1000": {
+                "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
-            "API Request 520000000 to Inf": {
-                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
             },
             "Encryption Key 51000 to Inf": {
                 "rateCode": "PA5R8KNWWRNM8VP2.JRTCKXETXF.3SVBXWNFJA",
@@ -1239,88 +405,923 @@
                 "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.2GQZD7548S",
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000660000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "TAX335S8E96YUY3X.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             }
         },
-        "Africa (Cape Town)": {
-            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
-                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
-                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.ZNZ86FN743",
-                "price": "0.0000750000",
-                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
-            },
-            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
-                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
+        "Asia Pacific (Singapore)": {
             "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
-                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.C2QCTD4VXQ",
+                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.C2QCTD4VXQ",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
             },
-            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
-                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.E8JE246DYC",
-                "price": "0.0000250000",
-                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
             },
-            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
-                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.DYCZZAT3HX",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
             },
             "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
-                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.3SVBXWNFJA",
+                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.3SVBXWNFJA",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
             },
             "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
-                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.2GQZD7548S",
+                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.2GQZD7548S",
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
             },
-            "Encryption Key 500 to 1000": {
-                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.QJD9R28MUC",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
-            },
-            "API Request 20000000 to 220000000": {
-                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.ZNZ86FN743",
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.ZNZ86FN743",
                 "price": "0.0000750000",
                 "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
             },
-            "Encryption Key 1000 to 51000": {
-                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.5CJ9SN2B9U",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
-            },
-            "Encryption Key 0 to 500": {
-                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
-            },
-            "API Request 220000000 to 520000000": {
-                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.E8JE246DYC",
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.E8JE246DYC",
                 "price": "0.0000250000",
                 "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
             },
-            "API Request 520000000 to Inf": {
-                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.DYCZZAT3HX",
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.DYCZZAT3HX",
                 "price": "0.0000100000",
                 "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             },
+            "Encryption Key 0 to 500": {
+                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
             "Encryption Key 51000 to Inf": {
-                "rateCode": "9YDHY382N64Z6T2R.JRTCKXETXF.3SVBXWNFJA",
+                "rateCode": "2PFB74QKTPUS8W7C.JRTCKXETXF.3SVBXWNFJA",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
             },
             "API Request 0 to 20000000": {
-                "rateCode": "XFYS4DSK9X8W85SV.JRTCKXETXF.2GQZD7548S",
+                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.2GQZD7548S",
                 "price": "0.0002000000",
                 "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "Q9P4C4KKC4MG9WGY.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "X29FJY3JJJWKCZQB.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "ZXWVT6C75MAAKN7X.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            }
+        },
+        "Canada (Central)": {
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000700000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000700000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "2V8H98T3M36WYN5M.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "UA3JV6532CH6QTB9.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            }
+        },
+        "EU (Frankfurt)": {
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000730000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000730000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "CKGH9T5E44NHAS37.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "THBKB5RZA4STSUH8.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            }
+        },
+        "EU (Ireland)": {
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000720000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000720000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "AVAE837S3TF8V5R5.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "DTV76JV44642V2Z6.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            }
+        },
+        "EU (London)": {
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "8G3S7H95DSE5J95N.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "VZVG6ENNU4EY3TV2.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            }
+        },
+        "EU (Paris)": {
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "25NQJNMXCRA5TCFM.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "DRH46VUJUF6NTA3Z.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "EFVABG4APV9CJ2U3.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "Q9CEKFUW2A27XJFN.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            }
+        },
+        "US East (N. Virginia)": {
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "DJ2F3K6DRV3SZB55.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "XFC3QYM8X8FQ6QEZ.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            }
+        },
+        "US East (Ohio)": {
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "65XN9W5KQPXPTJEY.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "K9SJZXBQQ3TRUK7F.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            }
+        },
+        "US West (Oregon)": {
+            "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk": {
+                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc": {
+                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI": {
+                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4": {
+                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms": {
+                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768": {
+                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ": {
+                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU": {
+                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
+            },
+            "Encryption Key 0 to 500": {
+                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "lWwmgfXDODF9bcnqc75iDVVII7LkQykQi-pZ3TSPevk"
+            },
+            "Encryption Key 500 to 1000": {
+                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.QJD9R28MUC",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "KZ8ub4Lfvzt9r5rpJxmp2YGMHxKQGcSQ-FVjFPRQ7Gc"
+            },
+            "Encryption Key 1000 to 51000": {
+                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.5CJ9SN2B9U",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "X-BNIFwwm3YYErnWkKfdH2HM06-vABdiwnJBgzZK7XI"
+            },
+            "Encryption Key 51000 to Inf": {
+                "rateCode": "88WCKE3JZG2N76DA.JRTCKXETXF.3SVBXWNFJA",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "um27RzvCYsgJ3ZM6WgJTr3Zw0pn8qCVVnm8pEeU8gA4"
+            },
+            "API Request 0 to 20000000": {
+                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.2GQZD7548S",
+                "price": "0.0002000000",
+                "RegionlessRateCode": "wrRrEorPs3m1nUfE4QDSLAkAmmhzCaEm9nBBcWsLVms"
+            },
+            "API Request 20000000 to 220000000": {
+                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.ZNZ86FN743",
+                "price": "0.0000750000",
+                "RegionlessRateCode": "LUKk9myrSPL9HZc8u2Fzx1hniL7PXqErkPp38QT1768"
+            },
+            "API Request 220000000 to 520000000": {
+                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.E8JE246DYC",
+                "price": "0.0000250000",
+                "RegionlessRateCode": "nEiSDwgL4ZUY4lj7CIeWIm7uGEswX-0ncE9OPZYGpdQ"
+            },
+            "API Request 520000000 to Inf": {
+                "rateCode": "8E3C37MA238WTH2W.JRTCKXETXF.DYCZZAT3HX",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "qRlnO9wi0BRkg_Hd4OeyIXuaijX7O3GaGIrJBzlKrmU"
             }
         }
     }

@@ -1,268 +1,17 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "wickr",
         "accessType": "publish",
-        "esIndex": "plc-wickr-usd-20260911124622",
+        "source": "wickr",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:46:22Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:46:22Z",
-        "currencyCode": "USD",
-        "source": "wickr",
+        "esIndex": "plc-wickr-usd-20260911124622",
+        "queryConfig": "public/4f1cad9c-0ecb-567d-938d-6fc1bae9d67d/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US East (N. Virginia)": {
-            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
-                "rateCode": "HRZR8PFG22CXR4VE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
-                "rateCode": "ZTJFP6Q7DAH65NHF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
-                "rateCode": "UVM6A2N7JYN7PZ2V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
-                "rateCode": "6TS3ST98HETMPGG7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            },
-            "Wickr Standard": {
-                "rateCode": "HRZR8PFG22CXR4VE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "Wickr Free": {
-                "rateCode": "ZTJFP6Q7DAH65NHF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "Wickr Premium": {
-                "rateCode": "UVM6A2N7JYN7PZ2V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "Wickr Guest Users": {
-                "rateCode": "6TS3ST98HETMPGG7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            }
-        },
-        "EU (Zurich)": {
-            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
-                "rateCode": "SFANYHX92CH5M99N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
-                "rateCode": "TT3YUZKPGS3X9XA5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
-                "rateCode": "MWSSZ2CP6ZSNJEAU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
-                "rateCode": "25MNXFQZTJSNC93Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            },
-            "Wickr Standard": {
-                "rateCode": "SFANYHX92CH5M99N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "Wickr Free": {
-                "rateCode": "TT3YUZKPGS3X9XA5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "Wickr Premium": {
-                "rateCode": "MWSSZ2CP6ZSNJEAU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "Wickr Guest Users": {
-                "rateCode": "25MNXFQZTJSNC93Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            }
-        },
-        "EU (Stockholm)": {
-            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
-                "rateCode": "K5NRS59N9NPTTRSZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
-                "rateCode": "BW3B8PQUNE6YGVQF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
-                "rateCode": "PE6A2P63M55P4QMA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
-                "rateCode": "WPMM8Y6DSS6ZXB6G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            },
-            "Wickr Standard": {
-                "rateCode": "K5NRS59N9NPTTRSZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "Wickr Free": {
-                "rateCode": "BW3B8PQUNE6YGVQF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "Wickr Premium": {
-                "rateCode": "PE6A2P63M55P4QMA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "Wickr Guest Users": {
-                "rateCode": "WPMM8Y6DSS6ZXB6G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            }
-        },
-        "EU (London)": {
-            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
-                "rateCode": "NDV6Z2HS69WVWNUS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
-                "rateCode": "8TPS8FWV7TXGJBER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
-                "rateCode": "VM9WKA6UQU6HHHE6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
-                "rateCode": "PMWJDCPK5EJND6RB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            },
-            "Wickr Standard": {
-                "rateCode": "NDV6Z2HS69WVWNUS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "Wickr Free": {
-                "rateCode": "8TPS8FWV7TXGJBER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "Wickr Premium": {
-                "rateCode": "VM9WKA6UQU6HHHE6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "Wickr Guest Users": {
-                "rateCode": "PMWJDCPK5EJND6RB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            }
-        },
-        "EU (Frankfurt)": {
-            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
-                "rateCode": "S9MANBUBKYUHUB7A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
-                "rateCode": "ZDBBP828PJF5FFD9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
-                "rateCode": "FA4AKJUA79F2Q9UE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
-                "rateCode": "RKZQSA97SRZBJ8GK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            },
-            "Wickr Standard": {
-                "rateCode": "S9MANBUBKYUHUB7A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "Wickr Free": {
-                "rateCode": "ZDBBP828PJF5FFD9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "Wickr Premium": {
-                "rateCode": "FA4AKJUA79F2Q9UE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "Wickr Guest Users": {
-                "rateCode": "RKZQSA97SRZBJ8GK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            }
-        },
-        "Canada (Central)": {
-            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
-                "rateCode": "AEUCA5747HTKC725.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
-                "rateCode": "SR27EKGA7VPE2QB3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
-                "rateCode": "BWAUBUN2GU8QRJGV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
-                "rateCode": "6P88Q78HWBPVA2N6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            },
-            "Wickr Standard": {
-                "rateCode": "AEUCA5747HTKC725.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "Wickr Free": {
-                "rateCode": "SR27EKGA7VPE2QB3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "Wickr Premium": {
-                "rateCode": "BWAUBUN2GU8QRJGV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "Wickr Guest Users": {
-                "rateCode": "6P88Q78HWBPVA2N6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            }
-        },
         "Asia Pacific (Tokyo)": {
             "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
                 "rateCode": "F8AUZTMVZF2CJQHQ.JRTCKXETXF.6YS6EN2CT7",
@@ -305,59 +54,12 @@
                 "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
             }
         },
-        "Asia Pacific (Sydney)": {
-            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
-                "rateCode": "48ENS4SCQ7P92BDW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
-                "rateCode": "TQEWWS6753CBPWQP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
-                "rateCode": "AAX96D9P77CXKXJA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
-                "rateCode": "NVJ64AYE7WQPCED5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            },
-            "Wickr Standard": {
-                "rateCode": "48ENS4SCQ7P92BDW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
-            },
-            "Wickr Free": {
-                "rateCode": "TQEWWS6753CBPWQP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
-            "Wickr Premium": {
-                "rateCode": "AAX96D9P77CXKXJA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
-            },
-            "Wickr Guest Users": {
-                "rateCode": "NVJ64AYE7WQPCED5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
-            }
-        },
         "Asia Pacific (Singapore)": {
             "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
                 "rateCode": "5N6QY3Q8E2G4ZJCC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.0000000000",
                 "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
             },
-            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
-                "rateCode": "MQ9YTP8H7BSF3MP6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
             "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
                 "rateCode": "5TDV99MGW2KKZJED.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
@@ -367,17 +69,17 @@
                 "rateCode": "9VDZ2H525QVM5XCU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.0000000000",
                 "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
+                "rateCode": "MQ9YTP8H7BSF3MP6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
             },
             "Wickr Standard": {
                 "rateCode": "5N6QY3Q8E2G4ZJCC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.0000000000",
                 "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
             },
-            "Wickr Free": {
-                "rateCode": "MQ9YTP8H7BSF3MP6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
-            },
             "Wickr Premium": {
                 "rateCode": "5TDV99MGW2KKZJED.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
@@ -387,9 +89,61 @@
                 "rateCode": "9VDZ2H525QVM5XCU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.0000000000",
                 "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Wickr Free": {
+                "rateCode": "MQ9YTP8H7BSF3MP6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
+                "rateCode": "48ENS4SCQ7P92BDW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
+                "rateCode": "AAX96D9P77CXKXJA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+                "rateCode": "NVJ64AYE7WQPCED5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
+                "rateCode": "TQEWWS6753CBPWQP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            },
+            "Wickr Standard": {
+                "rateCode": "48ENS4SCQ7P92BDW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "Wickr Premium": {
+                "rateCode": "AAX96D9P77CXKXJA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Wickr Guest Users": {
+                "rateCode": "NVJ64AYE7WQPCED5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Wickr Free": {
+                "rateCode": "TQEWWS6753CBPWQP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
             }
         },
         "Asia Pacific (Malaysia)": {
+            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+                "rateCode": "7PHPQ4FNUP7AFNUF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
             "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
                 "rateCode": "DM5DFU5DB4ZFCWVU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.0000000000",
@@ -405,7 +159,7 @@
                 "price": "15.0000000000",
                 "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
             },
-            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+            "Wickr Guest Users": {
                 "rateCode": "7PHPQ4FNUP7AFNUF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.0000000000",
                 "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
@@ -424,19 +178,261 @@
                 "rateCode": "Z7KQTBEYWM9SRFDA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            }
+        },
+        "Canada (Central)": {
+            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+                "rateCode": "6P88Q78HWBPVA2N6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
+                "rateCode": "AEUCA5747HTKC725.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
+                "rateCode": "BWAUBUN2GU8QRJGV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
+                "rateCode": "SR27EKGA7VPE2QB3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
             },
             "Wickr Guest Users": {
-                "rateCode": "7PHPQ4FNUP7AFNUF.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6P88Q78HWBPVA2N6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Wickr Standard": {
+                "rateCode": "AEUCA5747HTKC725.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "Wickr Premium": {
+                "rateCode": "BWAUBUN2GU8QRJGV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Wickr Free": {
+                "rateCode": "SR27EKGA7VPE2QB3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            }
+        },
+        "EU (Frankfurt)": {
+            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
+                "rateCode": "FA4AKJUA79F2Q9UE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+                "rateCode": "RKZQSA97SRZBJ8GK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
+                "rateCode": "S9MANBUBKYUHUB7A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
+                "rateCode": "ZDBBP828PJF5FFD9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            },
+            "Wickr Premium": {
+                "rateCode": "FA4AKJUA79F2Q9UE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Wickr Guest Users": {
+                "rateCode": "RKZQSA97SRZBJ8GK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Wickr Standard": {
+                "rateCode": "S9MANBUBKYUHUB7A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "Wickr Free": {
+                "rateCode": "ZDBBP828PJF5FFD9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            }
+        },
+        "EU (Zurich)": {
+            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+                "rateCode": "25MNXFQZTJSNC93Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
+                "rateCode": "MWSSZ2CP6ZSNJEAU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
+                "rateCode": "SFANYHX92CH5M99N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
+                "rateCode": "TT3YUZKPGS3X9XA5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            },
+            "Wickr Guest Users": {
+                "rateCode": "25MNXFQZTJSNC93Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Wickr Premium": {
+                "rateCode": "MWSSZ2CP6ZSNJEAU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Wickr Standard": {
+                "rateCode": "SFANYHX92CH5M99N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "Wickr Free": {
+                "rateCode": "TT3YUZKPGS3X9XA5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            }
+        },
+        "EU (Stockholm)": {
+            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
+                "rateCode": "BW3B8PQUNE6YGVQF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            },
+            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
+                "rateCode": "K5NRS59N9NPTTRSZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
+                "rateCode": "PE6A2P63M55P4QMA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+                "rateCode": "WPMM8Y6DSS6ZXB6G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Wickr Free": {
+                "rateCode": "BW3B8PQUNE6YGVQF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            },
+            "Wickr Standard": {
+                "rateCode": "K5NRS59N9NPTTRSZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "Wickr Premium": {
+                "rateCode": "PE6A2P63M55P4QMA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Wickr Guest Users": {
+                "rateCode": "WPMM8Y6DSS6ZXB6G.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.0000000000",
                 "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
             }
         },
-        "AWS GovCloud (US)": {
+        "EU (London)": {
+            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
+                "rateCode": "8TPS8FWV7TXGJBER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            },
             "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
-                "rateCode": "VKKZTP9ER3459FXZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
+                "rateCode": "NDV6Z2HS69WVWNUS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
                 "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
             },
+            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+                "rateCode": "PMWJDCPK5EJND6RB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
+                "rateCode": "VM9WKA6UQU6HHHE6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Wickr Free": {
+                "rateCode": "8TPS8FWV7TXGJBER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            },
+            "Wickr Standard": {
+                "rateCode": "NDV6Z2HS69WVWNUS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "Wickr Guest Users": {
+                "rateCode": "PMWJDCPK5EJND6RB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Wickr Premium": {
+                "rateCode": "VM9WKA6UQU6HHHE6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            }
+        },
+        "US East (N. Virginia)": {
+            "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM": {
+                "rateCode": "6TS3ST98HETMPGG7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
+                "rateCode": "HRZR8PFG22CXR4VE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ": {
+                "rateCode": "UVM6A2N7JYN7PZ2V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8": {
+                "rateCode": "ZTJFP6Q7DAH65NHF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            },
+            "Wickr Guest Users": {
+                "rateCode": "6TS3ST98HETMPGG7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "v8TAubwO37CBHGWvKLdC6Y-PzsJT4uNc9ug7QKGeMtM"
+            },
+            "Wickr Standard": {
+                "rateCode": "HRZR8PFG22CXR4VE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
+            "Wickr Premium": {
+                "rateCode": "UVM6A2N7JYN7PZ2V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Wickr Free": {
+                "rateCode": "ZTJFP6Q7DAH65NHF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hg7h8Ey-0j1q3Yun9HJ8SYNAvj-PnFemEJH7e8gezw8"
+            }
+        },
+        "AWS GovCloud (US)": {
             "f5wgaX6jgFbojg0Hb9liSb_hD1L528TFMaAfV5b-zpk": {
                 "rateCode": "5FM82QNGK3JZ89ZT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6000000.0000000000",
@@ -452,15 +448,15 @@
                 "price": "18.0000000000",
                 "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
             },
+            "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4": {
+                "rateCode": "VKKZTP9ER3459FXZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
+            },
             "vYF_H6ChHhBUl2tqgAUkc_jWmM6ZSwV8iLTSYGgzFRo": {
                 "rateCode": "ZCT6S468UR9E2789.JRTCKXETXF.6YS6EN2CT7",
                 "price": "35.0000000000",
                 "RegionlessRateCode": "vYF_H6ChHhBUl2tqgAUkc_jWmM6ZSwV8iLTSYGgzFRo"
-            },
-            "Wickr Standard": {
-                "rateCode": "VKKZTP9ER3459FXZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
             },
             "Wickr GovAnnual1": {
                 "rateCode": "5FM82QNGK3JZ89ZT.JRTCKXETXF.6YS6EN2CT7",
@@ -476,6 +472,11 @@
                 "rateCode": "S6Z77MTX2443MSNJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "18.0000000000",
                 "RegionlessRateCode": "oYsyp9Qf000hoLqYvqeqMhFlzfbypoE7M--bMwfzrIQ"
+            },
+            "Wickr Standard": {
+                "rateCode": "VKKZTP9ER3459FXZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "Ij509socnaF6_o1JIlwkzBgF6FjpEqBNuVlC6wxw-j4"
             },
             "Wickr Enterprise": {
                 "rateCode": "ZCT6S468UR9E2789.JRTCKXETXF.6YS6EN2CT7",

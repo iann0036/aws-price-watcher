@@ -1,33 +1,29 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "costexplorer",
         "accessType": "publish",
-        "esIndex": "plc-costexplorer-usd-20260911124538",
+        "source": "costexplorer",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:38Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:38Z",
-        "currencyCode": "USD",
-        "source": "costexplorer",
+        "esIndex": "plc-costexplorer-usd-20260911124538",
+        "queryConfig": "public/5891d388-05b1-5327-91f3-a2d0f55a081c/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
         "US East (N. Virginia)": {
-            "7aqc0b6XL6JFub0vwaTtA96K9nFSiA1_8gsKTWxFIMU": {
-                "rateCode": "JBUNT4MSRCD5R5P5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000100000",
-                "RegionlessRateCode": "7aqc0b6XL6JFub0vwaTtA96K9nFSiA1_8gsKTWxFIMU"
+            "f_Y0WS5B79B0uOdxq6aReF4iuL_NGZbWfC8qHBrgFzE": {
+                "rateCode": "BMKNFUZJA83HS7M9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0100000000",
+                "RegionlessRateCode": "f_Y0WS5B79B0uOdxq6aReF4iuL_NGZbWfC8qHBrgFzE"
             },
             "ILyhKYvbyHHFGb2O7qZVTStsSn-AtK5JDapv2zCXBiE": {
                 "rateCode": "BX68HKNBJP73AFBV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0100000000",
                 "RegionlessRateCode": "ILyhKYvbyHHFGb2O7qZVTStsSn-AtK5JDapv2zCXBiE"
             },
-            "f_Y0WS5B79B0uOdxq6aReF4iuL_NGZbWfC8qHBrgFzE": {
-                "rateCode": "BMKNFUZJA83HS7M9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0100000000",
-                "RegionlessRateCode": "f_Y0WS5B79B0uOdxq6aReF4iuL_NGZbWfC8qHBrgFzE"
-            },
-            "Storage per UsageRecord month": {
+            "7aqc0b6XL6JFub0vwaTtA96K9nFSiA1_8gsKTWxFIMU": {
                 "rateCode": "JBUNT4MSRCD5R5P5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000100000",
                 "RegionlessRateCode": "7aqc0b6XL6JFub0vwaTtA96K9nFSiA1_8gsKTWxFIMU"
@@ -36,6 +32,11 @@
                 "rateCode": "BX68HKNBJP73AFBV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0100000000",
                 "RegionlessRateCode": "ILyhKYvbyHHFGb2O7qZVTStsSn-AtK5JDapv2zCXBiE"
+            },
+            "Storage per UsageRecord month": {
+                "rateCode": "JBUNT4MSRCD5R5P5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000100000",
+                "RegionlessRateCode": "7aqc0b6XL6JFub0vwaTtA96K9nFSiA1_8gsKTWxFIMU"
             }
         }
     }

@@ -1,487 +1,82 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "chime",
         "accessType": "publish",
-        "esIndex": "plc-chime-usd-20260911124410",
+        "source": "chime",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:10Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:10Z",
-        "currencyCode": "USD",
-        "source": "chime",
+        "esIndex": "plc-chime-usd-20260911124410",
+        "queryConfig": "public/831faea7-c745-5441-aecc-57e5070f1fbd/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
+        "Africa (Cape Town)": {
             "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "QCGYESKX2R3CQR9M.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "47DXZPW47TJAPG5X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0017000000",
                 "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "DRDY4A7FREQS77A5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
             },
             "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "Y6GMTDJDKB7M64ZT.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6G7A5V53PYK263YJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "AmazonChime minutes sdk": {
-                "rateCode": "QCGYESKX2R3CQR9M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "AmazonChime minutes FHD SDK": {
-                "rateCode": "DRDY4A7FREQS77A5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "AmazonChime minutes SDK Capacity": {
-                "rateCode": "Y6GMTDJDKB7M64ZT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            }
-        },
-        "US East (N. Virginia)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "RB3WZVYYJTY8EAKS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "WVT3F7BCQQSSDPPC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
-            "RrJVXAqnTBsRCXjLEcA8vG-M5h8q1R1843-m95quWo4": {
-                "rateCode": "Z26AXQRFRU6WHG4U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "RrJVXAqnTBsRCXjLEcA8vG-M5h8q1R1843-m95quWo4"
-            },
-            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
-                "rateCode": "GTHU83UD2CAPCSYV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "N8KUR64UWZ5ADD47.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
             "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "GWXXTHXEH66CQBUT.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NF3PDJAS4DSEWF9V.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0034000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "8AJMA8V53RR7FPAQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
-                "rateCode": "E56QABG4Y4FQJ866.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
-            },
-            "xmz8cDpKCgypZHLXG3tQjEZMMNgTkX4fh2x1easFuOI": {
-                "rateCode": "92GFQ6SK5UXU5R5A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "xmz8cDpKCgypZHLXG3tQjEZMMNgTkX4fh2x1easFuOI"
-            },
-            "AmazonChime Meetings": {
-                "rateCode": "Z26AXQRFRU6WHG4U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.0000000000",
-                "RegionlessRateCode": "RrJVXAqnTBsRCXjLEcA8vG-M5h8q1R1843-m95quWo4"
             },
             "AmazonChime minutes sdk": {
-                "rateCode": "N8KUR64UWZ5ADD47.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "47DXZPW47TJAPG5X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0017000000",
                 "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "AmazonChime minutes FHD SDK": {
-                "rateCode": "GWXXTHXEH66CQBUT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
             },
             "AmazonChime minutes SDK Capacity": {
-                "rateCode": "8AJMA8V53RR7FPAQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6G7A5V53PYK263YJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "AmazonChime ActiveHostsFree": {
-                "rateCode": "92GFQ6SK5UXU5R5A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "xmz8cDpKCgypZHLXG3tQjEZMMNgTkX4fh2x1easFuOI"
-            }
-        },
-        "Israel (Tel Aviv)": {
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "DK5M7HZDD9A383MD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "3JZAHJPPX2ZTX4C2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "TSNZXTRXNXDZ9NE2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "AmazonChime minutes sdk": {
-                "rateCode": "DK5M7HZDD9A383MD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
             "AmazonChime minutes FHD SDK": {
-                "rateCode": "3JZAHJPPX2ZTX4C2.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NF3PDJAS4DSEWF9V.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0034000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "AmazonChime minutes SDK Capacity": {
-                "rateCode": "TSNZXTRXNXDZ9NE2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            }
-        },
-        "EU (London)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "M7FQRGSQV8UZD5V4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "HGA8BPCAJ85CKPK8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
-            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
-                "rateCode": "PJRSXYYQRC9WUQCC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "XQDYB8ZNDB2987BN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "VQTK44X7NUENA2Q2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "N758X6W6A7NK7EPA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
-                "rateCode": "HPHC57KUM2FGMZ3V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
-            },
-            "AmazonChime minutes sdk": {
-                "rateCode": "XQDYB8ZNDB2987BN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "AmazonChime minutes FHD SDK": {
-                "rateCode": "VQTK44X7NUENA2Q2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "AmazonChime minutes SDK Capacity": {
-                "rateCode": "N758X6W6A7NK7EPA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            }
-        },
-        "EU (Ireland)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "MFNXBTNS23JK5REZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "732C8HYYE6EQSKZZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
-            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
-                "rateCode": "JUF5FKYT7TMYAE7K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
-                "rateCode": "Z97H9QDARP8P666W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
-            }
-        },
-        "EU (Frankfurt)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "W6FQ6ZC32XT3RGRJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "HXJJEUAN6RMUTUU4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
-            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
-                "rateCode": "QR7RA9JDSPEYQXQC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "EJR7RRAUH7UJU9GW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "EU3ETG8HFDH2QCKP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "NXYPMBD9PKQX3B3F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
-                "rateCode": "H3A56JNHZ62A76YQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
-            },
-            "AmazonChime minutes sdk": {
-                "rateCode": "EJR7RRAUH7UJU9GW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "AmazonChime minutes FHD SDK": {
-                "rateCode": "EU3ETG8HFDH2QCKP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "AmazonChime minutes SDK Capacity": {
-                "rateCode": "NXYPMBD9PKQX3B3F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            }
-        },
-        "Canada (Central)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "YMM4QTWVYT77Q5M2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "4J9AV3WD5YWPCP9S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
-            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
-                "rateCode": "9BU6V2RDBCEBJV7S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "6XVPX3ND8J3A4U9Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "GE77HKWH2DJHFV85.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "ZP4UWKBZPB4VTN3P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
-                "rateCode": "U5XTS4KCV6GEJGJ6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
-            },
-            "AmazonChime minutes sdk": {
-                "rateCode": "6XVPX3ND8J3A4U9Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "AmazonChime minutes FHD SDK": {
-                "rateCode": "GE77HKWH2DJHFV85.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "AmazonChime minutes SDK Capacity": {
-                "rateCode": "ZP4UWKBZPB4VTN3P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
             }
         },
         "Asia Pacific (Tokyo)": {
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "55MYHDHZWD8XDZRM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
             "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
                 "rateCode": "37KV2Q2FHJQYMSGH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0034000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "55MYHDHZWD8XDZRM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
             "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
                 "rateCode": "TSRDBK7Y88UHAANX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
             },
-            "AmazonChime minutes sdk": {
-                "rateCode": "55MYHDHZWD8XDZRM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
             "AmazonChime minutes FHD SDK": {
                 "rateCode": "37KV2Q2FHJQYMSGH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0034000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
             },
+            "AmazonChime minutes sdk": {
+                "rateCode": "55MYHDHZWD8XDZRM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
             "AmazonChime minutes SDK Capacity": {
                 "rateCode": "TSRDBK7Y88UHAANX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "V4QGC2HFY7H4BV67.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "HSQ8693HMHT8JAYF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
-            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
-                "rateCode": "A2M9M9USP6QN72GF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "8U4MUP2XZN7JXHSM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "YJ7Z7PGY8XT6VVHB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "J3N9W4AWMBBE4NVU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
-                "rateCode": "N9VPF4QWGVSR9D7D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
-            },
-            "AmazonChime minutes sdk": {
-                "rateCode": "8U4MUP2XZN7JXHSM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "AmazonChime minutes FHD SDK": {
-                "rateCode": "YJ7Z7PGY8XT6VVHB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "AmazonChime minutes SDK Capacity": {
-                "rateCode": "J3N9W4AWMBBE4NVU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "HBGUQKQBG6BRQV54.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "Y9K7JQNVH4JWUK5N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
-            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
-                "rateCode": "VEE84PYTZPYFXF4T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "ASS5XHW9BYJFH5CP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "6V6X2RFMBCVCNUAU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "FZFFXKGPH8J923ZK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
-            },
-            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
-                "rateCode": "XNPTJXJ38PV5HGAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
-            },
-            "AmazonChime minutes sdk": {
-                "rateCode": "ASS5XHW9BYJFH5CP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "AmazonChime minutes FHD SDK": {
-                "rateCode": "6V6X2RFMBCVCNUAU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "AmazonChime minutes SDK Capacity": {
-                "rateCode": "FZFFXKGPH8J923ZK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
             }
         },
         "Asia Pacific (Seoul)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "SKCABHYYJ6KK5AME.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "Z7JTAJ9SA2JMDXFW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
-            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
-                "rateCode": "WWBXJEDRCMYTC9G4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "PNS962M66FFQ3AD2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
             "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
                 "rateCode": "2GX4J2SEU69KU2G6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0034000000",
@@ -497,10 +92,25 @@
                 "price": "0.0045000000",
                 "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
             },
-            "AmazonChime minutes sdk": {
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
                 "rateCode": "PNS962M66FFQ3AD2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0017000000",
                 "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "SKCABHYYJ6KK5AME.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
+            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
+                "rateCode": "WWBXJEDRCMYTC9G4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
+            },
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "Z7JTAJ9SA2JMDXFW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
             },
             "AmazonChime minutes FHD SDK": {
                 "rateCode": "2GX4J2SEU69KU2G6.JRTCKXETXF.6YS6EN2CT7",
@@ -511,44 +121,54 @@
                 "rateCode": "JQ5TXVJWPR4VBM26.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "AmazonChime minutes sdk": {
+                "rateCode": "PNS962M66FFQ3AD2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             }
         },
         "Asia Pacific (Mumbai)": {
-            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
-                "rateCode": "K3GCVVV39ZKCY3WX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0020000000",
-                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
-            },
-            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
-                "rateCode": "H285C98XQUZNRWGU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0028000000",
-                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
-            },
             "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
                 "rateCode": "3C9MEGGJ72XC3YDG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0028000000",
                 "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
-            },
-            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "PR7REWTDPZHXGS4A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0017000000",
-                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
-            },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "WUK22SSXK7YGVGAV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0034000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "77JWB4C2ZU34FX7G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
             },
             "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
                 "rateCode": "4PHDNJ6VA6AAF4UF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0045000000",
                 "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
             },
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "77JWB4C2ZU34FX7G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "H285C98XQUZNRWGU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "K3GCVVV39ZKCY3WX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "PR7REWTDPZHXGS4A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "WUK22SSXK7YGVGAV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "AmazonChime minutes SDK Capacity": {
+                "rateCode": "77JWB4C2ZU34FX7G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
             "AmazonChime minutes sdk": {
                 "rateCode": "PR7REWTDPZHXGS4A.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0017000000",
@@ -558,46 +178,400 @@
                 "rateCode": "WUK22SSXK7YGVGAV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0034000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "6V6X2RFMBCVCNUAU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "ASS5XHW9BYJFH5CP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "FZFFXKGPH8J923ZK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "HBGUQKQBG6BRQV54.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
+            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
+                "rateCode": "VEE84PYTZPYFXF4T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
+            },
+            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
+                "rateCode": "XNPTJXJ38PV5HGAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
+            },
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "Y9K7JQNVH4JWUK5N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
+            },
+            "AmazonChime minutes FHD SDK": {
+                "rateCode": "6V6X2RFMBCVCNUAU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "AmazonChime minutes sdk": {
+                "rateCode": "ASS5XHW9BYJFH5CP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
             "AmazonChime minutes SDK Capacity": {
-                "rateCode": "77JWB4C2ZU34FX7G.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "FZFFXKGPH8J923ZK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
             }
         },
-        "Africa (Cape Town)": {
+        "Asia Pacific (Sydney)": {
             "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
-                "rateCode": "47DXZPW47TJAPG5X.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8U4MUP2XZN7JXHSM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0017000000",
                 "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
+            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
+                "rateCode": "A2M9M9USP6QN72GF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
+            },
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "HSQ8693HMHT8JAYF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
+            },
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "J3N9W4AWMBBE4NVU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
+                "rateCode": "N9VPF4QWGVSR9D7D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "V4QGC2HFY7H4BV67.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
             "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "NF3PDJAS4DSEWF9V.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "YJ7Z7PGY8XT6VVHB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0034000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
             },
+            "AmazonChime minutes sdk": {
+                "rateCode": "8U4MUP2XZN7JXHSM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "AmazonChime minutes SDK Capacity": {
+                "rateCode": "J3N9W4AWMBBE4NVU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "AmazonChime minutes FHD SDK": {
+                "rateCode": "YJ7Z7PGY8XT6VVHB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            }
+        },
+        "Canada (Central)": {
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "4J9AV3WD5YWPCP9S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
+            },
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "6XVPX3ND8J3A4U9Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
+                "rateCode": "9BU6V2RDBCEBJV7S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
+            },
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "GE77HKWH2DJHFV85.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
+                "rateCode": "U5XTS4KCV6GEJGJ6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "YMM4QTWVYT77Q5M2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
             "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
-                "rateCode": "6G7A5V53PYK263YJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "ZP4UWKBZPB4VTN3P.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
             },
             "AmazonChime minutes sdk": {
-                "rateCode": "47DXZPW47TJAPG5X.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6XVPX3ND8J3A4U9Z.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0017000000",
                 "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
             "AmazonChime minutes FHD SDK": {
-                "rateCode": "NF3PDJAS4DSEWF9V.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "GE77HKWH2DJHFV85.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0034000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
             },
             "AmazonChime minutes SDK Capacity": {
-                "rateCode": "6G7A5V53PYK263YJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "ZP4UWKBZPB4VTN3P.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            }
+        },
+        "EU (Frankfurt)": {
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "EJR7RRAUH7UJU9GW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "EU3ETG8HFDH2QCKP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
+                "rateCode": "H3A56JNHZ62A76YQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
+            },
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "HXJJEUAN6RMUTUU4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
+            },
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "NXYPMBD9PKQX3B3F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
+                "rateCode": "QR7RA9JDSPEYQXQC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "W6FQ6ZC32XT3RGRJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
+            "AmazonChime minutes sdk": {
+                "rateCode": "EJR7RRAUH7UJU9GW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "AmazonChime minutes FHD SDK": {
+                "rateCode": "EU3ETG8HFDH2QCKP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "AmazonChime minutes SDK Capacity": {
+                "rateCode": "NXYPMBD9PKQX3B3F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            }
+        },
+        "EU (Ireland)": {
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "732C8HYYE6EQSKZZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
+            },
+            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
+                "rateCode": "JUF5FKYT7TMYAE7K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "MFNXBTNS23JK5REZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
+            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
+                "rateCode": "Z97H9QDARP8P666W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
+            }
+        },
+        "EU (London)": {
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "HGA8BPCAJ85CKPK8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
+            },
+            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
+                "rateCode": "HPHC57KUM2FGMZ3V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "M7FQRGSQV8UZD5V4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "N758X6W6A7NK7EPA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
+                "rateCode": "PJRSXYYQRC9WUQCC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
+            },
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "VQTK44X7NUENA2Q2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "XQDYB8ZNDB2987BN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "AmazonChime minutes SDK Capacity": {
+                "rateCode": "N758X6W6A7NK7EPA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "AmazonChime minutes FHD SDK": {
+                "rateCode": "VQTK44X7NUENA2Q2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "AmazonChime minutes sdk": {
+                "rateCode": "XQDYB8ZNDB2987BN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            }
+        },
+        "Israel (Tel Aviv)": {
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "3JZAHJPPX2ZTX4C2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "DK5M7HZDD9A383MD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "TSNZXTRXNXDZ9NE2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "AmazonChime minutes FHD SDK": {
+                "rateCode": "3JZAHJPPX2ZTX4C2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "AmazonChime minutes sdk": {
+                "rateCode": "DK5M7HZDD9A383MD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "AmazonChime minutes SDK Capacity": {
+                "rateCode": "TSNZXTRXNXDZ9NE2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            }
+        },
+        "US East (N. Virginia)": {
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "8AJMA8V53RR7FPAQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "xmz8cDpKCgypZHLXG3tQjEZMMNgTkX4fh2x1easFuOI": {
+                "rateCode": "92GFQ6SK5UXU5R5A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "xmz8cDpKCgypZHLXG3tQjEZMMNgTkX4fh2x1easFuOI"
+            },
+            "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU": {
+                "rateCode": "E56QABG4Y4FQJ866.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "uR3K4z-sTR23QQe4xvyjQpFoc2GID00FRkjbWp6wTQU"
+            },
+            "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI": {
+                "rateCode": "GTHU83UD2CAPCSYV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "gHpaYNTOi3Spm7w6XWxBS6HNbPe-d17Ewkov2obWzHI"
+            },
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "GWXXTHXEH66CQBUT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "N8KUR64UWZ5ADD47.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE": {
+                "rateCode": "RB3WZVYYJTY8EAKS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0020000000",
+                "RegionlessRateCode": "4qWBgC19cKtZt9fr-_q5dN8ItjBKT64Xf6TCACkS2yE"
+            },
+            "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0": {
+                "rateCode": "WVT3F7BCQQSSDPPC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0028000000",
+                "RegionlessRateCode": "IzYSv7LEUrsEDwkXudQjveYb85f8EvR-ij0YNYJHpU0"
+            },
+            "RrJVXAqnTBsRCXjLEcA8vG-M5h8q1R1843-m95quWo4": {
+                "rateCode": "Z26AXQRFRU6WHG4U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "RrJVXAqnTBsRCXjLEcA8vG-M5h8q1R1843-m95quWo4"
+            },
+            "AmazonChime minutes SDK Capacity": {
+                "rateCode": "8AJMA8V53RR7FPAQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "AmazonChime ActiveHostsFree": {
+                "rateCode": "92GFQ6SK5UXU5R5A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "xmz8cDpKCgypZHLXG3tQjEZMMNgTkX4fh2x1easFuOI"
+            },
+            "AmazonChime minutes FHD SDK": {
+                "rateCode": "GWXXTHXEH66CQBUT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "AmazonChime minutes sdk": {
+                "rateCode": "N8KUR64UWZ5ADD47.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "AmazonChime Meetings": {
+                "rateCode": "Z26AXQRFRU6WHG4U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.0000000000",
+                "RegionlessRateCode": "RrJVXAqnTBsRCXjLEcA8vG-M5h8q1R1843-m95quWo4"
             }
         },
         "AWS GovCloud (US-East)": {
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "8224ZSKBFHYJP4NH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001200000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
             "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
                 "rateCode": "DXRH2P2BTHCCY8J7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
@@ -608,7 +582,7 @@
                 "price": "0.0040000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
             },
-            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+            "AmazonChime minutes SDK Capacity": {
                 "rateCode": "8224ZSKBFHYJP4NH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001200000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
@@ -622,11 +596,6 @@
                 "rateCode": "M9XPB5P752EKCS24.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0040000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
-            "AmazonChime minutes SDK Capacity": {
-                "rateCode": "8224ZSKBFHYJP4NH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001200000",
-                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
             }
         },
         "AWS GovCloud (US)": {
@@ -635,29 +604,61 @@
                 "price": "0.0020000000",
                 "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
-            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
-                "rateCode": "W64EBT92AY2KCYNT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0040000000",
-                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
-            },
             "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
                 "rateCode": "QX34WJ9YH4MPZ2RC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001200000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "W64EBT92AY2KCYNT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0040000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
             },
             "AmazonChime minutes sdk": {
                 "rateCode": "K89V432KJPTSN4D9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0020000000",
                 "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
+            "AmazonChime minutes SDK Capacity": {
+                "rateCode": "QX34WJ9YH4MPZ2RC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001200000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
             "AmazonChime minutes FHD SDK": {
                 "rateCode": "W64EBT92AY2KCYNT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0040000000",
                 "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            }
+        },
+        "US West (Oregon)": {
+            "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU": {
+                "rateCode": "DRDY4A7FREQS77A5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8": {
+                "rateCode": "QCGYESKX2R3CQR9M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
+            },
+            "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4": {
+                "rateCode": "Y6GMTDJDKB7M64ZT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
+            },
+            "AmazonChime minutes FHD SDK": {
+                "rateCode": "DRDY4A7FREQS77A5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0034000000",
+                "RegionlessRateCode": "jhxAdO2ymJg9Ra5LfMWfxGsyrtDj2-Yql2u-g9F7nUU"
+            },
+            "AmazonChime minutes sdk": {
+                "rateCode": "QCGYESKX2R3CQR9M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0017000000",
+                "RegionlessRateCode": "iXB4oF03tkA9fRKv5XlXVSMwEZBKXN4DwIhxbN-iU-8"
             },
             "AmazonChime minutes SDK Capacity": {
-                "rateCode": "QX34WJ9YH4MPZ2RC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001200000",
+                "rateCode": "Y6GMTDJDKB7M64ZT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
                 "RegionlessRateCode": "s41Se8FfesLgNB6SrfYT-VR4JrRPG5-Ldx3H-kbn2e4"
             }
         }

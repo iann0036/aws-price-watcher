@@ -1,56 +1,351 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "grafana",
         "accessType": "publish",
-        "esIndex": "plc-grafana-usd-20260911124432",
+        "source": "grafana",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:32Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:32Z",
-        "currencyCode": "USD",
-        "source": "grafana",
+        "esIndex": "plc-grafana-usd-20260911124432",
+        "queryConfig": "public/3dd9acd6-e4a3-5afe-bf5c-18debbcfa9c1/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
+        "Asia Pacific (Tokyo)": {
             "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "57SZ75AC3TGETZR4.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "3D4PBXWZ5T77BGV3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "45.0000000000",
                 "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
             },
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "6GGJY7RFT983XN3W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
             "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "TGWC6S6SEWZXBQVU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "SF4NACWREN2RXTPR.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
             },
             "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "KUDZ4AX8J87JGQKN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "X8ZJX6D8N5T68Z5N.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.0000000000",
                 "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
             },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "8WM6HQ3C2VRNGRMW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
             "User Fees Enterprise Plugins User": {
-                "rateCode": "57SZ75AC3TGETZR4.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "3D4PBXWZ5T77BGV3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "45.0000000000",
                 "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
             },
+            "User Fees Viewer": {
+                "rateCode": "6GGJY7RFT983XN3W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
             "User Fees User": {
-                "rateCode": "TGWC6S6SEWZXBQVU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "SF4NACWREN2RXTPR.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
             },
             "User Fees Editor": {
-                "rateCode": "KUDZ4AX8J87JGQKN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "X8ZJX6D8N5T68Z5N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            }
+        },
+        "Asia Pacific (Seoul)": {
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "22HYFXKP9AKKBEZQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "7CTXJSV473N78S38.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "KSMX6B5XS7A2PGCX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
+                "rateCode": "PTMWQCEPGE2K8HNR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "User Fees Viewer": {
+                "rateCode": "22HYFXKP9AKKBEZQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "User Fees User": {
+                "rateCode": "7CTXJSV473N78S38.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Editor": {
+                "rateCode": "KSMX6B5XS7A2PGCX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "User Fees Enterprise Plugins User": {
+                "rateCode": "PTMWQCEPGE2K8HNR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
+                "rateCode": "232V322ETRTVBRDC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "6HGXUGUTDT7KUPBZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "FDXACN9RJ5ZNYFMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "X9FQFXWQF57VZGPT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "User Fees Enterprise Plugins User": {
+                "rateCode": "232V322ETRTVBRDC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "User Fees Editor": {
+                "rateCode": "6HGXUGUTDT7KUPBZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "User Fees User": {
+                "rateCode": "FDXACN9RJ5ZNYFMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Viewer": {
+                "rateCode": "X9FQFXWQF57VZGPT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "7KKYEVHVQXFFTY2Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "C5MA89XYP5AJNZXW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "CEXTVVMCY3PYF5TD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
+                "rateCode": "Z6U3FRAKVQWSA29K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "User Fees Viewer": {
+                "rateCode": "7KKYEVHVQXFFTY2Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "User Fees User": {
+                "rateCode": "C5MA89XYP5AJNZXW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Editor": {
+                "rateCode": "CEXTVVMCY3PYF5TD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "User Fees Enterprise Plugins User": {
+                "rateCode": "Z6U3FRAKVQWSA29K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            }
+        },
+        "EU (Frankfurt)": {
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "CSE23KQTPYTRH2KW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "MXVVC487XD72RK33.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "P6FBHM75CZ34DQYF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
+                "rateCode": "PTBP3GCWXQGVC839.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "User Fees User": {
+                "rateCode": "CSE23KQTPYTRH2KW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Editor": {
+                "rateCode": "MXVVC487XD72RK33.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.0000000000",
                 "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
             },
             "User Fees Viewer": {
-                "rateCode": "8WM6HQ3C2VRNGRMW.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "P6FBHM75CZ34DQYF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.0000000000",
                 "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "User Fees Enterprise Plugins User": {
+                "rateCode": "PTBP3GCWXQGVC839.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            }
+        },
+        "EU (Ireland)": {
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "9ATWA96EAAHXZQW9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "DDMY7D6K7K22REN5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "SGKHEDW36FPFW9PG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
+                "rateCode": "V9XPJBXNJ8GDAPWJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "User Fees Viewer": {
+                "rateCode": "9ATWA96EAAHXZQW9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "User Fees User": {
+                "rateCode": "DDMY7D6K7K22REN5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Editor": {
+                "rateCode": "SGKHEDW36FPFW9PG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "User Fees Enterprise Plugins User": {
+                "rateCode": "V9XPJBXNJ8GDAPWJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            }
+        },
+        "EU (London)": {
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "7CB92K5A5NF2MUZH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "D4HEMMJXGJHQ35GU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "NF4C2A7MDD65TTQK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
+                "rateCode": "VVW52QK27NE348HD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "User Fees Editor": {
+                "rateCode": "7CB92K5A5NF2MUZH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "User Fees Viewer": {
+                "rateCode": "D4HEMMJXGJHQ35GU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "User Fees User": {
+                "rateCode": "NF4C2A7MDD65TTQK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Enterprise Plugins User": {
+                "rateCode": "VVW52QK27NE348HD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            }
+        },
+        "US East (N. Virginia)": {
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "96TSPKZF5TMADE3F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "BBECR46C7J59T4EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "FWCSHJYECP2B58CC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
+                "rateCode": "UDGX5793RMXY67VF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "User Fees Viewer": {
+                "rateCode": "96TSPKZF5TMADE3F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "User Fees User": {
+                "rateCode": "BBECR46C7J59T4EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Editor": {
+                "rateCode": "FWCSHJYECP2B58CC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "User Fees Enterprise Plugins User": {
+                "rateCode": "UDGX5793RMXY67VF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
             }
         },
         "US East (Ohio)": {
@@ -64,15 +359,15 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
             },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "JYN5R35SA3GEE8A2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
             "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
                 "rateCode": "JGE2UYXHV7RAZ4QB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.0000000000",
                 "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "JYN5R35SA3GEE8A2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
             },
             "User Fees Enterprise Plugins User": {
                 "rateCode": "2BPM9HRQNFFJ3FBG.JRTCKXETXF.6YS6EN2CT7",
@@ -84,378 +379,42 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
             },
-            "User Fees Editor": {
-                "rateCode": "JYN5R35SA3GEE8A2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
             "User Fees Viewer": {
                 "rateCode": "JGE2UYXHV7RAZ4QB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.0000000000",
                 "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            }
-        },
-        "US East (N. Virginia)": {
-            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "UDGX5793RMXY67VF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "BBECR46C7J59T4EY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "FWCSHJYECP2B58CC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "96TSPKZF5TMADE3F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees Enterprise Plugins User": {
-                "rateCode": "UDGX5793RMXY67VF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "User Fees User": {
-                "rateCode": "BBECR46C7J59T4EY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
             },
             "User Fees Editor": {
-                "rateCode": "FWCSHJYECP2B58CC.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "JYN5R35SA3GEE8A2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.0000000000",
                 "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "User Fees Viewer": {
-                "rateCode": "96TSPKZF5TMADE3F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            }
-        },
-        "EU (London)": {
-            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "VVW52QK27NE348HD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "NF4C2A7MDD65TTQK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "7CB92K5A5NF2MUZH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "D4HEMMJXGJHQ35GU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees Enterprise Plugins User": {
-                "rateCode": "VVW52QK27NE348HD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "User Fees User": {
-                "rateCode": "NF4C2A7MDD65TTQK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "User Fees Editor": {
-                "rateCode": "7CB92K5A5NF2MUZH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "User Fees Viewer": {
-                "rateCode": "D4HEMMJXGJHQ35GU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            }
-        },
-        "EU (Ireland)": {
-            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "V9XPJBXNJ8GDAPWJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "DDMY7D6K7K22REN5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "SGKHEDW36FPFW9PG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "9ATWA96EAAHXZQW9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees Enterprise Plugins User": {
-                "rateCode": "V9XPJBXNJ8GDAPWJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "User Fees User": {
-                "rateCode": "DDMY7D6K7K22REN5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "User Fees Editor": {
-                "rateCode": "SGKHEDW36FPFW9PG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "User Fees Viewer": {
-                "rateCode": "9ATWA96EAAHXZQW9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            }
-        },
-        "EU (Frankfurt)": {
-            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "PTBP3GCWXQGVC839.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "CSE23KQTPYTRH2KW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "MXVVC487XD72RK33.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "P6FBHM75CZ34DQYF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees Enterprise Plugins User": {
-                "rateCode": "PTBP3GCWXQGVC839.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "User Fees User": {
-                "rateCode": "CSE23KQTPYTRH2KW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "User Fees Editor": {
-                "rateCode": "MXVVC487XD72RK33.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "User Fees Viewer": {
-                "rateCode": "P6FBHM75CZ34DQYF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            }
-        },
-        "Asia Pacific (Tokyo)": {
-            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "3D4PBXWZ5T77BGV3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "SF4NACWREN2RXTPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "X8ZJX6D8N5T68Z5N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "6GGJY7RFT983XN3W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees Enterprise Plugins User": {
-                "rateCode": "3D4PBXWZ5T77BGV3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "User Fees User": {
-                "rateCode": "SF4NACWREN2RXTPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "User Fees Editor": {
-                "rateCode": "X8ZJX6D8N5T68Z5N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "User Fees Viewer": {
-                "rateCode": "6GGJY7RFT983XN3W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "Z6U3FRAKVQWSA29K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "C5MA89XYP5AJNZXW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "CEXTVVMCY3PYF5TD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "7KKYEVHVQXFFTY2Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees Enterprise Plugins User": {
-                "rateCode": "Z6U3FRAKVQWSA29K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "User Fees User": {
-                "rateCode": "C5MA89XYP5AJNZXW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "User Fees Editor": {
-                "rateCode": "CEXTVVMCY3PYF5TD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "User Fees Viewer": {
-                "rateCode": "7KKYEVHVQXFFTY2Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "232V322ETRTVBRDC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "FDXACN9RJ5ZNYFMU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "6HGXUGUTDT7KUPBZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "X9FQFXWQF57VZGPT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees Enterprise Plugins User": {
-                "rateCode": "232V322ETRTVBRDC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "User Fees User": {
-                "rateCode": "FDXACN9RJ5ZNYFMU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "User Fees Editor": {
-                "rateCode": "6HGXUGUTDT7KUPBZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "User Fees Viewer": {
-                "rateCode": "X9FQFXWQF57VZGPT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            }
-        },
-        "Asia Pacific (Seoul)": {
-            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
-                "rateCode": "PTMWQCEPGE2K8HNR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "7CTXJSV473N78S38.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
-                "rateCode": "KSMX6B5XS7A2PGCX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "22HYFXKP9AKKBEZQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees Enterprise Plugins User": {
-                "rateCode": "PTMWQCEPGE2K8HNR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "45.0000000000",
-                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
-            },
-            "User Fees User": {
-                "rateCode": "7CTXJSV473N78S38.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
-            "User Fees Editor": {
-                "rateCode": "KSMX6B5XS7A2PGCX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "9.0000000000",
-                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
-            },
-            "User Fees Viewer": {
-                "rateCode": "22HYFXKP9AKKBEZQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
             }
         },
         "AWS GovCloud (US-East)": {
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "VVA5NMXDKX3R3H9X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
             "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
                 "rateCode": "C7FT2NRQ3S5QS337.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.0000000000",
                 "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "VVA5NMXDKX3R3H9X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
             },
             "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
                 "rateCode": "W7PJ8UKQEQGUZR8H.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.0000000000",
                 "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
             },
-            "User Fees User": {
-                "rateCode": "VVA5NMXDKX3R3H9X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
-            },
             "User Fees Editor": {
                 "rateCode": "C7FT2NRQ3S5QS337.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.0000000000",
                 "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "User Fees User": {
+                "rateCode": "VVA5NMXDKX3R3H9X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
             },
             "User Fees Viewer": {
                 "rateCode": "W7PJ8UKQEQGUZR8H.JRTCKXETXF.6YS6EN2CT7",
@@ -464,35 +423,77 @@
             }
         },
         "AWS GovCloud (US)": {
-            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
-                "rateCode": "DJAE7GN3FB7V47D6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "38J78DMYWU55VRR7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
             },
             "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
                 "rateCode": "939WN2HEZ4SD9RZ7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.0000000000",
                 "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
             },
-            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
-                "rateCode": "38J78DMYWU55VRR7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
-            },
-            "User Fees User": {
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
                 "rateCode": "DJAE7GN3FB7V47D6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Viewer": {
+                "rateCode": "38J78DMYWU55VRR7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
             },
             "User Fees Editor": {
                 "rateCode": "939WN2HEZ4SD9RZ7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "9.0000000000",
                 "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
             },
-            "User Fees Viewer": {
-                "rateCode": "38J78DMYWU55VRR7.JRTCKXETXF.6YS6EN2CT7",
+            "User Fees User": {
+                "rateCode": "DJAE7GN3FB7V47D6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            }
+        },
+        "US West (Oregon)": {
+            "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0": {
+                "rateCode": "57SZ75AC3TGETZR4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U": {
+                "rateCode": "8WM6HQ3C2VRNGRMW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.0000000000",
                 "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs": {
+                "rateCode": "KUDZ4AX8J87JGQKN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA": {
+                "rateCode": "TGWC6S6SEWZXBQVU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
+            },
+            "User Fees Enterprise Plugins User": {
+                "rateCode": "57SZ75AC3TGETZR4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "45.0000000000",
+                "RegionlessRateCode": "E3Aj8tBVx3ivpY38iO-1cHRduDiWmCp87ynEyx1U0j0"
+            },
+            "User Fees Viewer": {
+                "rateCode": "8WM6HQ3C2VRNGRMW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "ok1m5tjbxxNsAD1i4OHZH1ZTYHGRWmIKjx_TFM8rf9U"
+            },
+            "User Fees Editor": {
+                "rateCode": "KUDZ4AX8J87JGQKN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "9.0000000000",
+                "RegionlessRateCode": "h9uRXLODEnSH-nrnwuyhAxWXVwU-DTMO7VcDTa9GVxs"
+            },
+            "User Fees User": {
+                "rateCode": "TGWC6S6SEWZXBQVU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "_nWiuTwJHwbJnpj8sWZWD4VYmsRTXtvKeAATKuPXuBA"
             }
         }
     }

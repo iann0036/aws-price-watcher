@@ -1,808 +1,52 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "kendra",
         "accessType": "publish",
-        "esIndex": "plc-kendra-usd-20260911124443",
+        "source": "kendra",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:43Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:43Z",
-        "currencyCode": "USD",
-        "source": "kendra",
+        "esIndex": "plc-kendra-usd-20260911124443",
+        "queryConfig": "public/9b9c2a28-2cfc-58d7-9cff-349c59b65c66/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "QDWHSQAKYAKBYGBG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "HQUYUMA658UCP2RS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "48CVMFV3QYPX8J64.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "TKCMZKES5P7AF5XK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "SDB4EPTPQMCVTHNV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "8EP3QYSCHKA874RW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "3EDGRDK5V3SR7QKD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw": {
-                "rateCode": "Z73RT9TRUDAWTHN5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "8EFD5PHURCKJFCCT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA": {
-                "rateCode": "WGHV8VN9BPU8KHFA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA"
-            },
-            "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w": {
-                "rateCode": "YNTFAY6KQ4UUMADS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3200000000",
-                "RegionlessRateCode": "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w"
-            },
-            "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE": {
-                "rateCode": "KU2HE5SVY6QQKZPK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "BR83CQA23DFJDPRC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "39DBVDJDAUWAY95R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "KP3WYRVU7PK5G4QF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "QDWHSQAKYAKBYGBG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "HQUYUMA658UCP2RS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "48CVMFV3QYPX8J64.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "TKCMZKES5P7AF5XK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
-                "rateCode": "SDB4EPTPQMCVTHNV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "8EP3QYSCHKA874RW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "3EDGRDK5V3SR7QKD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "connector monthly fee Kendra-Connector-MonthlyFee per Count": {
-                "rateCode": "Z73RT9TRUDAWTHN5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "8EFD5PHURCKJFCCT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "GenAI Enterprise Additional Storage Capacity Kendra-GenAI-Ent-Addl-StorageCap per hours": {
-                "rateCode": "WGHV8VN9BPU8KHFA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA"
-            },
-            "GenAI Enterprise Base Capacity Kendra-GenAI-Ent-Base-Capacity per hours": {
-                "rateCode": "YNTFAY6KQ4UUMADS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3200000000",
-                "RegionlessRateCode": "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w"
-            },
-            "GenAI Enterprise Additional Query Capacity Kendra-GenAI-Ent-Addl-QueryCap per hours": {
-                "rateCode": "KU2HE5SVY6QQKZPK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE"
-            },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "BR83CQA23DFJDPRC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
-                "rateCode": "39DBVDJDAUWAY95R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "KP3WYRVU7PK5G4QF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            }
-        },
-        "US East (Ohio)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "T7EFHH9KFVM7JJGE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "FMFPHGUR6RECPR6Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "ANMC9NEZUE87D6F4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "A9WGYC3D865ZS5X7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "VP22BKRYN57PK9AV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "SKF5CTVGE6XG4HGD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "GHHDR3HNQP9VFHMH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "9FGDW6T458EGDNMU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "E7657BPUPPQRKKG5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "MMTYM2RVPGBR89B4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "VCYDDCP4NN7TRFBR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "T7EFHH9KFVM7JJGE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "FMFPHGUR6RECPR6Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "ANMC9NEZUE87D6F4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "A9WGYC3D865ZS5X7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
-                "rateCode": "VP22BKRYN57PK9AV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "SKF5CTVGE6XG4HGD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "GHHDR3HNQP9VFHMH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "9FGDW6T458EGDNMU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "E7657BPUPPQRKKG5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
-                "rateCode": "MMTYM2RVPGBR89B4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "VCYDDCP4NN7TRFBR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            }
-        },
-        "US East (N. Virginia)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "K5653V4WT7N6EYUR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "H77HS2AKERCZAQMF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "NSTMQK2AFGH9HENZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "AE2HZ4E859YYCANQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "GP4AS824V32A3HRZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "RW4R43K6VWQVDB98.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "B8Q8MAYNCJWTDMVH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw": {
-                "rateCode": "ABJG8M3NN4Y57WYH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "AH5FUDDJK3WM7KU3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA": {
-                "rateCode": "9FQP6WJVBSMH9TCY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA"
-            },
-            "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w": {
-                "rateCode": "5YPU67CVH27EYQ4J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3200000000",
-                "RegionlessRateCode": "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w"
-            },
-            "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE": {
-                "rateCode": "CS27MNND38D9M3MA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "SU544C8PK7E2CV6F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "A6MZ7RU5XYQ7UTUY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "6ENMMB4KRPAZVYZ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "K5653V4WT7N6EYUR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "H77HS2AKERCZAQMF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "NSTMQK2AFGH9HENZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "AE2HZ4E859YYCANQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
-                "rateCode": "GP4AS824V32A3HRZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "RW4R43K6VWQVDB98.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "B8Q8MAYNCJWTDMVH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "connector monthly fee Kendra-Connector-MonthlyFee per Count": {
-                "rateCode": "ABJG8M3NN4Y57WYH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "AH5FUDDJK3WM7KU3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "GenAI Enterprise Additional Storage Capacity Kendra-GenAI-Ent-Addl-StorageCap per hours": {
-                "rateCode": "9FQP6WJVBSMH9TCY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA"
-            },
-            "GenAI Enterprise Base Capacity Kendra-GenAI-Ent-Base-Capacity per hours": {
-                "rateCode": "5YPU67CVH27EYQ4J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3200000000",
-                "RegionlessRateCode": "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w"
-            },
-            "GenAI Enterprise Additional Query Capacity Kendra-GenAI-Ent-Addl-QueryCap per hours": {
-                "rateCode": "CS27MNND38D9M3MA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE"
-            },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "SU544C8PK7E2CV6F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
-                "rateCode": "A6MZ7RU5XYQ7UTUY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "6ENMMB4KRPAZVYZ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            }
-        },
-        "EU (London)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "4PW8CCVSK6MR5NHN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "KT8X5U6AYWC2VDCE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "W3ZFE34M7CCUNF4M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "7KRNZAE3RFDRHNUA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "6MXQUHGUPM9Y2G89.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "TXZBT6F7AWY5KCAB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "M64NVQG8ARAXCRN8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "ZBFRJRWVKS2AUCRH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "4TX9TCGYBGGQYU6E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "XRF32S9Q8B3P52R6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "DGDWGMYXRTFQCTGF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "4PW8CCVSK6MR5NHN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "KT8X5U6AYWC2VDCE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "W3ZFE34M7CCUNF4M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "7KRNZAE3RFDRHNUA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
-                "rateCode": "6MXQUHGUPM9Y2G89.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "TXZBT6F7AWY5KCAB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "M64NVQG8ARAXCRN8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "ZBFRJRWVKS2AUCRH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "4TX9TCGYBGGQYU6E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
-                "rateCode": "XRF32S9Q8B3P52R6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "DGDWGMYXRTFQCTGF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            }
-        },
-        "EU (Ireland)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "7XA23H93FRXCEX3X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "MGT9HWMAZCP2PE25.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "G85BNCSKX8XHPUJA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "U5HVXRAZARM6MV7J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "GG53DHENDF9ZJFPF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "PU4JG3EXRCM6TZ66.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "RVYC4FCFYUV3F5A5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "Z4FNB2NG2NA8ADRU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "BS5MUXGY7QVB37QP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "FEVPDS7H2J8CBSF5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "R9DEXP9645RWSF73.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "7XA23H93FRXCEX3X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "MGT9HWMAZCP2PE25.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "G85BNCSKX8XHPUJA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "U5HVXRAZARM6MV7J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
-                "rateCode": "GG53DHENDF9ZJFPF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "PU4JG3EXRCM6TZ66.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "RVYC4FCFYUV3F5A5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "Z4FNB2NG2NA8ADRU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "BS5MUXGY7QVB37QP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
-                "rateCode": "FEVPDS7H2J8CBSF5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "R9DEXP9645RWSF73.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            }
-        },
-        "Canada (Central)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "ZV4HXJHYNGWHMKPG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "235S7B2EG2TVZVYW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "HAWQE759D7NZK3JK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "H2C9N5Q6MJEWTYWF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "DK8K2S6J6DG5GX5A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "A63UX8E4HXH2YRE8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "TRZEWUEB96D6QVDY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "SU8C992EGGDTHUFM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "55HR2A36G79HYPB4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "3TEQER82SPQE5MGK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "W37FW3J6J29S6BRZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "ZV4HXJHYNGWHMKPG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "235S7B2EG2TVZVYW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "HAWQE759D7NZK3JK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "H2C9N5Q6MJEWTYWF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
-                "rateCode": "DK8K2S6J6DG5GX5A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "A63UX8E4HXH2YRE8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "TRZEWUEB96D6QVDY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "SU8C992EGGDTHUFM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "55HR2A36G79HYPB4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
-                "rateCode": "3TEQER82SPQE5MGK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "W37FW3J6J29S6BRZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            }
-        },
         "Asia Pacific (Tokyo)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "X23D4KUMS7EU8GY4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "AJ82SDJP8HP6CJPK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "25DW8WWCGM6RQ45B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
             },
             "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
                 "rateCode": "655WXH7MG4SPHT7X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.1250000000",
                 "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
             },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "GXVYJN9RUVQ5VED3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
             "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
                 "rateCode": "9D3PG9C7FNVDHD9E.JRTCKXETXF.6YS6EN2CT7",
                 "price": "7.0000000000",
                 "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
             },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "WKY57DEXG7TK5D74.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "AJ82SDJP8HP6CJPK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "GXVYJN9RUVQ5VED3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
             },
             "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
                 "rateCode": "JES8CQWNPGKB7W9U.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.5000000000",
                 "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
             },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "25DW8WWCGM6RQ45B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "NVNP999B5RVQ3BV9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
             },
             "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
                 "rateCode": "P8PCXDGFCGCN3Q4B.JRTCKXETXF.6YS6EN2CT7",
@@ -814,50 +58,50 @@
                 "price": "0.0000010000",
                 "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
             },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "NVNP999B5RVQ3BV9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "WKY57DEXG7TK5D74.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
             },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
                 "rateCode": "X23D4KUMS7EU8GY4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.7000000000",
                 "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
             },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "AJ82SDJP8HP6CJPK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "25DW8WWCGM6RQ45B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
             },
             "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
                 "rateCode": "655WXH7MG4SPHT7X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.1250000000",
                 "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
             },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "GXVYJN9RUVQ5VED3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
             "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
                 "rateCode": "9D3PG9C7FNVDHD9E.JRTCKXETXF.6YS6EN2CT7",
                 "price": "7.0000000000",
                 "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
             },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "WKY57DEXG7TK5D74.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "AJ82SDJP8HP6CJPK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "GXVYJN9RUVQ5VED3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
             },
             "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
                 "rateCode": "JES8CQWNPGKB7W9U.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.5000000000",
                 "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
             },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "25DW8WWCGM6RQ45B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "NVNP999B5RVQ3BV9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
             },
             "Intelligent Ranking Capacity Units CapacityUnits per hours": {
                 "rateCode": "P8PCXDGFCGCN3Q4B.JRTCKXETXF.6YS6EN2CT7",
@@ -869,234 +113,15 @@
                 "price": "0.0000010000",
                 "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
             },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "NVNP999B5RVQ3BV9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "ZRZKT8XFYVK5P39Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "JED7YDTG9SCGFTM8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "NFKSUPBBZ3NW25N4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "CNNJ8DHJ5AAR9DCS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "XKHTTFJ56ZY23C6S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "A4JAT5SPATM76KT4.JRTCKXETXF.6YS6EN2CT7",
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "WKY57DEXG7TK5D74.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.7000000000",
                 "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "CRP88DVYT5MR8PRD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "EKXRQCW4WNBT3BRC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "D5CFW7W4J3H7GJ36.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "BR98SQE62TG5FVW3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "BZD8YREUUWQHJMZ9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
             },
             "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "ZRZKT8XFYVK5P39Q.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "X23D4KUMS7EU8GY4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.7000000000",
                 "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "JED7YDTG9SCGFTM8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "NFKSUPBBZ3NW25N4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "CNNJ8DHJ5AAR9DCS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
-                "rateCode": "XKHTTFJ56ZY23C6S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "A4JAT5SPATM76KT4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "CRP88DVYT5MR8PRD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "EKXRQCW4WNBT3BRC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "D5CFW7W4J3H7GJ36.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
-                "rateCode": "BR98SQE62TG5FVW3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "BZD8YREUUWQHJMZ9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
-                "rateCode": "UPR7F7SEB5GTZRB5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "A3RNURJ97J259J6E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "ES2Y285X9QW3YEPY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "85FRHKM3SJBBZ7E5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "QA3SCXNWJ4D2C72M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "GWXCSJ2AB4FT82SC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "WM7REE3BV4N2VJQG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "XAM5TXFFSAFSUMQX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "EJUHC4YUVA58J6UT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "THYGA8RWUBW4PAEG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "W68U6KNN77MZDN5X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "UPR7F7SEB5GTZRB5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "A3RNURJ97J259J6E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "ES2Y285X9QW3YEPY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "85FRHKM3SJBBZ7E5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
-                "rateCode": "QA3SCXNWJ4D2C72M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "GWXCSJ2AB4FT82SC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "WM7REE3BV4N2VJQG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "XAM5TXFFSAFSUMQX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "EJUHC4YUVA58J6UT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
-                "rateCode": "THYGA8RWUBW4PAEG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "W68U6KNN77MZDN5X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
             }
         },
         "Asia Pacific (Mumbai)": {
@@ -1105,113 +130,977 @@
                 "price": "0.7000000000",
                 "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
             },
-            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
-                "rateCode": "H9WTHKVX66P987A4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "Y2GB3QTE4TCK5CDW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "KT2A3BYUAEHJ8VWC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "VHA3FXHKAY3ANYXK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
             "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
                 "rateCode": "D6WV7XP7UBTRE8ET.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.7000000000",
                 "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "WAAT5WGQ49HTZG8V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
-                "rateCode": "PUT23F4KSGM4KS7M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "S3SZPS6Z6TDQBMAD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "QNNYDNHHQHM966WF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
             },
             "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
                 "rateCode": "GXSU2Y8NFU4A6V5U.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.4000000000",
                 "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
             },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "9T9TFB99NMBBUJMT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
                 "rateCode": "H9WTHKVX66P987A4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.5000000000",
                 "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
             },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "Y2GB3QTE4TCK5CDW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
                 "rateCode": "KT2A3BYUAEHJ8VWC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1400000000",
                 "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
             },
-            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "PUT23F4KSGM4KS7M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "QNNYDNHHQHM966WF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "S3SZPS6Z6TDQBMAD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
                 "rateCode": "VHA3FXHKAY3ANYXK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "7.0000000000",
                 "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "WAAT5WGQ49HTZG8V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "Y2GB3QTE4TCK5CDW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "9T9TFB99NMBBUJMT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
             },
             "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
                 "rateCode": "D6WV7XP7UBTRE8ET.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.7000000000",
                 "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
             },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "WAAT5WGQ49HTZG8V.JRTCKXETXF.6YS6EN2CT7",
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "GXSU2Y8NFU4A6V5U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "H9WTHKVX66P987A4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "KT2A3BYUAEHJ8VWC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
             },
             "Pay Per Hour Connector Compute ConnectorSync per hours": {
                 "rateCode": "PUT23F4KSGM4KS7M.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.3500000000",
                 "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
             },
-            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
-                "rateCode": "S3SZPS6Z6TDQBMAD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
             "Pay Per Document Scanned Unit DocumentsScanned per Count": {
                 "rateCode": "QNNYDNHHQHM966WF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
             },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "GXSU2Y8NFU4A6V5U.JRTCKXETXF.6YS6EN2CT7",
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "S3SZPS6Z6TDQBMAD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "VHA3FXHKAY3ANYXK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "WAAT5WGQ49HTZG8V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "Y2GB3QTE4TCK5CDW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "85FRHKM3SJBBZ7E5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "A3RNURJ97J259J6E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "EJUHC4YUVA58J6UT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "ES2Y285X9QW3YEPY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "GWXCSJ2AB4FT82SC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "QA3SCXNWJ4D2C72M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "THYGA8RWUBW4PAEG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
+                "rateCode": "UPR7F7SEB5GTZRB5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "W68U6KNN77MZDN5X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.4000000000",
                 "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "WM7REE3BV4N2VJQG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "XAM5TXFFSAFSUMQX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "85FRHKM3SJBBZ7E5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "A3RNURJ97J259J6E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "EJUHC4YUVA58J6UT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "ES2Y285X9QW3YEPY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "GWXCSJ2AB4FT82SC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "QA3SCXNWJ4D2C72M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
+                "rateCode": "THYGA8RWUBW4PAEG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "UPR7F7SEB5GTZRB5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "W68U6KNN77MZDN5X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "WM7REE3BV4N2VJQG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "XAM5TXFFSAFSUMQX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "A4JAT5SPATM76KT4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "BR98SQE62TG5FVW3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "BZD8YREUUWQHJMZ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "CNNJ8DHJ5AAR9DCS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "CRP88DVYT5MR8PRD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "D5CFW7W4J3H7GJ36.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "EKXRQCW4WNBT3BRC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "JED7YDTG9SCGFTM8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "NFKSUPBBZ3NW25N4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "XKHTTFJ56ZY23C6S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
+                "rateCode": "ZRZKT8XFYVK5P39Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "A4JAT5SPATM76KT4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
+                "rateCode": "BR98SQE62TG5FVW3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "BZD8YREUUWQHJMZ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "CNNJ8DHJ5AAR9DCS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "CRP88DVYT5MR8PRD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "D5CFW7W4J3H7GJ36.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "EKXRQCW4WNBT3BRC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "JED7YDTG9SCGFTM8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "NFKSUPBBZ3NW25N4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "XKHTTFJ56ZY23C6S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "ZRZKT8XFYVK5P39Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            }
+        },
+        "Canada (Central)": {
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "235S7B2EG2TVZVYW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "3TEQER82SPQE5MGK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "55HR2A36G79HYPB4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "A63UX8E4HXH2YRE8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "DK8K2S6J6DG5GX5A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "H2C9N5Q6MJEWTYWF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "HAWQE759D7NZK3JK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "SU8C992EGGDTHUFM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "TRZEWUEB96D6QVDY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "W37FW3J6J29S6BRZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
+                "rateCode": "ZV4HXJHYNGWHMKPG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "235S7B2EG2TVZVYW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
+                "rateCode": "3TEQER82SPQE5MGK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "55HR2A36G79HYPB4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "A63UX8E4HXH2YRE8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "DK8K2S6J6DG5GX5A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "H2C9N5Q6MJEWTYWF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "HAWQE759D7NZK3JK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "SU8C992EGGDTHUFM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "TRZEWUEB96D6QVDY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "W37FW3J6J29S6BRZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "ZV4HXJHYNGWHMKPG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            }
+        },
+        "EU (Ireland)": {
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
+                "rateCode": "7XA23H93FRXCEX3X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "BS5MUXGY7QVB37QP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "FEVPDS7H2J8CBSF5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "G85BNCSKX8XHPUJA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "GG53DHENDF9ZJFPF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "MGT9HWMAZCP2PE25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "PU4JG3EXRCM6TZ66.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "R9DEXP9645RWSF73.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "RVYC4FCFYUV3F5A5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "U5HVXRAZARM6MV7J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "Z4FNB2NG2NA8ADRU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "7XA23H93FRXCEX3X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "BS5MUXGY7QVB37QP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
+                "rateCode": "FEVPDS7H2J8CBSF5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "G85BNCSKX8XHPUJA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "GG53DHENDF9ZJFPF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "MGT9HWMAZCP2PE25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "PU4JG3EXRCM6TZ66.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "R9DEXP9645RWSF73.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "RVYC4FCFYUV3F5A5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "U5HVXRAZARM6MV7J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "Z4FNB2NG2NA8ADRU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            }
+        },
+        "EU (London)": {
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
+                "rateCode": "4PW8CCVSK6MR5NHN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "4TX9TCGYBGGQYU6E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "6MXQUHGUPM9Y2G89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "7KRNZAE3RFDRHNUA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "DGDWGMYXRTFQCTGF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "KT8X5U6AYWC2VDCE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "M64NVQG8ARAXCRN8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "TXZBT6F7AWY5KCAB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "W3ZFE34M7CCUNF4M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "XRF32S9Q8B3P52R6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "ZBFRJRWVKS2AUCRH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "4PW8CCVSK6MR5NHN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "4TX9TCGYBGGQYU6E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "6MXQUHGUPM9Y2G89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "7KRNZAE3RFDRHNUA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "DGDWGMYXRTFQCTGF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "KT8X5U6AYWC2VDCE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "M64NVQG8ARAXCRN8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "TXZBT6F7AWY5KCAB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "W3ZFE34M7CCUNF4M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
+                "rateCode": "XRF32S9Q8B3P52R6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "ZBFRJRWVKS2AUCRH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            }
+        },
+        "US East (N. Virginia)": {
+            "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w": {
+                "rateCode": "5YPU67CVH27EYQ4J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3200000000",
+                "RegionlessRateCode": "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "6ENMMB4KRPAZVYZ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA": {
+                "rateCode": "9FQP6WJVBSMH9TCY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "A6MZ7RU5XYQ7UTUY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw": {
+                "rateCode": "ABJG8M3NN4Y57WYH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "AE2HZ4E859YYCANQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "AH5FUDDJK3WM7KU3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "B8Q8MAYNCJWTDMVH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE": {
+                "rateCode": "CS27MNND38D9M3MA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "GP4AS824V32A3HRZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "H77HS2AKERCZAQMF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
+                "rateCode": "K5653V4WT7N6EYUR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "NSTMQK2AFGH9HENZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "RW4R43K6VWQVDB98.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "SU544C8PK7E2CV6F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "GenAI Enterprise Base Capacity Kendra-GenAI-Ent-Base-Capacity per hours": {
+                "rateCode": "5YPU67CVH27EYQ4J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3200000000",
+                "RegionlessRateCode": "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w"
+            },
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "6ENMMB4KRPAZVYZ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "GenAI Enterprise Additional Storage Capacity Kendra-GenAI-Ent-Addl-StorageCap per hours": {
+                "rateCode": "9FQP6WJVBSMH9TCY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA"
+            },
+            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
+                "rateCode": "A6MZ7RU5XYQ7UTUY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "connector monthly fee Kendra-Connector-MonthlyFee per Count": {
+                "rateCode": "ABJG8M3NN4Y57WYH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "AE2HZ4E859YYCANQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "AH5FUDDJK3WM7KU3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "B8Q8MAYNCJWTDMVH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "GenAI Enterprise Additional Query Capacity Kendra-GenAI-Ent-Addl-QueryCap per hours": {
+                "rateCode": "CS27MNND38D9M3MA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "GP4AS824V32A3HRZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "H77HS2AKERCZAQMF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "K5653V4WT7N6EYUR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "NSTMQK2AFGH9HENZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "RW4R43K6VWQVDB98.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "SU544C8PK7E2CV6F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            }
+        },
+        "US East (Ohio)": {
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "9FGDW6T458EGDNMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "A9WGYC3D865ZS5X7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "ANMC9NEZUE87D6F4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "E7657BPUPPQRKKG5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "FMFPHGUR6RECPR6Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "GHHDR3HNQP9VFHMH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "MMTYM2RVPGBR89B4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "SKF5CTVGE6XG4HGD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
+                "rateCode": "T7EFHH9KFVM7JJGE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "VCYDDCP4NN7TRFBR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "VP22BKRYN57PK9AV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "9FGDW6T458EGDNMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "A9WGYC3D865ZS5X7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "ANMC9NEZUE87D6F4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "E7657BPUPPQRKKG5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "FMFPHGUR6RECPR6Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "GHHDR3HNQP9VFHMH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
+                "rateCode": "MMTYM2RVPGBR89B4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "SKF5CTVGE6XG4HGD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "T7EFHH9KFVM7JJGE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "VCYDDCP4NN7TRFBR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "VP22BKRYN57PK9AV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
             }
         },
         "AWS GovCloud (US)": {
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "37GW7W9JDCAYTPCG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "C5TYZWGXESX4F458.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "CPYQHUNBABAEWF2A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "DX35ARYFSPRNWEVY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "F89P5WGD2KCVM6CV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "FJH2WN4EGYNYNU38.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "JSJNSEAP75HBMXRM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "KK6J26SVE946V5K6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
             "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
                 "rateCode": "MV667ZA22P83X5T5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.7000000000",
@@ -1222,90 +1111,20 @@
                 "price": "3.5000000000",
                 "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
             },
-            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
-                "rateCode": "FJH2WN4EGYNYNU38.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
-                "rateCode": "JSJNSEAP75HBMXRM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
-            },
-            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
-                "rateCode": "37GW7W9JDCAYTPCG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.0000000000",
-                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
-            },
-            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
-                "rateCode": "F89P5WGD2KCVM6CV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
-                "rateCode": "KK6J26SVE946V5K6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
             "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
                 "rateCode": "XTZYD77WD6HBWRF4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.3500000000",
                 "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
-            },
-            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
-                "rateCode": "CPYQHUNBABAEWF2A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0035000000",
-                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
-            },
-            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
-                "rateCode": "DX35ARYFSPRNWEVY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
-            },
-            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
-                "rateCode": "C5TYZWGXESX4F458.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
-            },
-            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
-                "rateCode": "MV667ZA22P83X5T5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
-            },
-            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
-                "rateCode": "XG26WVMKB8VCRESP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
-            },
-            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
-                "rateCode": "FJH2WN4EGYNYNU38.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.1250000000",
-                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
-            },
-            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
-                "rateCode": "JSJNSEAP75HBMXRM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
             },
             "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
                 "rateCode": "37GW7W9JDCAYTPCG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "7.0000000000",
                 "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
             },
-            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
-                "rateCode": "F89P5WGD2KCVM6CV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.7000000000",
-                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
-            },
-            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
-                "rateCode": "KK6J26SVE946V5K6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.5000000000",
-                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
-            },
-            "Pay Per Hour Connector Compute ConnectorSync per hours": {
-                "rateCode": "XTZYD77WD6HBWRF4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "C5TYZWGXESX4F458.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
             },
             "Intelligent Ranking Capacity Units CapacityUnits per hours": {
                 "rateCode": "CPYQHUNBABAEWF2A.JRTCKXETXF.6YS6EN2CT7",
@@ -1317,10 +1136,192 @@
                 "price": "0.0000010000",
                 "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
             },
-            "Enterprise Base Query Storage Capacity Edition per hours": {
-                "rateCode": "C5TYZWGXESX4F458.JRTCKXETXF.6YS6EN2CT7",
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "F89P5WGD2KCVM6CV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "FJH2WN4EGYNYNU38.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "JSJNSEAP75HBMXRM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "KK6J26SVE946V5K6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "MV667ZA22P83X5T5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "XG26WVMKB8VCRESP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "XTZYD77WD6HBWRF4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            }
+        },
+        "US West (Oregon)": {
+            "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk": {
+                "rateCode": "39DBVDJDAUWAY95R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac": {
+                "rateCode": "3EDGRDK5V3SR7QKD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU": {
+                "rateCode": "48CVMFV3QYPX8J64.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk": {
+                "rateCode": "8EFD5PHURCKJFCCT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg": {
+                "rateCode": "8EP3QYSCHKA874RW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM": {
+                "rateCode": "BR83CQA23DFJDPRC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw": {
+                "rateCode": "HQUYUMA658UCP2RS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008": {
+                "rateCode": "KP3WYRVU7PK5G4QF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.4000000000",
                 "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE": {
+                "rateCode": "KU2HE5SVY6QQKZPK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE"
+            },
+            "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY": {
+                "rateCode": "QDWHSQAKYAKBYGBG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI": {
+                "rateCode": "SDB4EPTPQMCVTHNV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU": {
+                "rateCode": "TKCMZKES5P7AF5XK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA": {
+                "rateCode": "WGHV8VN9BPU8KHFA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA"
+            },
+            "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w": {
+                "rateCode": "YNTFAY6KQ4UUMADS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3200000000",
+                "RegionlessRateCode": "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w"
+            },
+            "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw": {
+                "rateCode": "Z73RT9TRUDAWTHN5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw"
+            },
+            "Pay Per Document Scanned Unit DocumentsScanned per Count": {
+                "rateCode": "39DBVDJDAUWAY95R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "dmHKGXT8XOlLD2oTEbeok11VwrAUf6UStLllOCWiXSk"
+            },
+            "Enterprise Additional Query Storage Capacity KendraStorageCapacityUnit per hours": {
+                "rateCode": "3EDGRDK5V3SR7QKD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "TGVGuRLWnFcaQUb09vIfJLcjTCqu6IAv2flxLnwv4Ac"
+            },
+            "Developer Base Query Storage Capacity KendraDeveloperEdition per hours": {
+                "rateCode": "48CVMFV3QYPX8J64.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.1250000000",
+                "RegionlessRateCode": "74gXqBEF2dHzpKaAAK8M376rOi9q2sYurY43su73DGU"
+            },
+            "Pay Per Hour Connector Compute ConnectorSync per hours": {
+                "rateCode": "8EFD5PHURCKJFCCT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "VjzVym4r9lM1KCa07h8iPiLwclC7rNil1cV4Z8JLwHk"
+            },
+            "Enterprise Additional Storage Capacity Kendra-Storage-Capacity-Unit per hours": {
+                "rateCode": "8EP3QYSCHKA874RW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "KFoiaZQ4LB_kA0s73Xz-dkcvT1Ct5_gBEVwms3vcQzg"
+            },
+            "Intelligent Ranking Capacity Units CapacityUnits per hours": {
+                "rateCode": "BR83CQA23DFJDPRC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0035000000",
+                "RegionlessRateCode": "_B4YcsNV0XH3DTnANEtgDZSkPJ4XDH-ZGzr0mtWMiNM"
+            },
+            "Pay Per Query Storage Capacity Units KendraQueryCapacityUnit per hours": {
+                "rateCode": "HQUYUMA658UCP2RS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.5000000000",
+                "RegionlessRateCode": "5-oIz711pMVvPzlQh_hMLc4r3EA-jGyuyAkAHKOITsw"
+            },
+            "Enterprise Base Query Storage Capacity Edition per hours": {
+                "rateCode": "KP3WYRVU7PK5G4QF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "zZ8lo7Bztc_yPKqgJCZxZ5ImESDnJBYIeLWKg5Oh008"
+            },
+            "GenAI Enterprise Additional Query Capacity Kendra-GenAI-Ent-Addl-QueryCap per hours": {
+                "rateCode": "KU2HE5SVY6QQKZPK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "Z3SyRNQMSpwE2Sf-xHdXlmkMCkznufkWOXIpmrabfrE"
+            },
+            "Enterprise Additional Query Storage Capacity Kendra-Query-Capacity-Unit per hours": {
+                "rateCode": "QDWHSQAKYAKBYGBG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.7000000000",
+                "RegionlessRateCode": "4ss10bT7EZMN-lTa3wZK21jNbXpggw_Lk2vlzZ8pFXY"
+            },
+            "Pay Per Query Storage Capacity Units KendraEnterpriseEdition per hours": {
+                "rateCode": "SDB4EPTPQMCVTHNV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.0000000000",
+                "RegionlessRateCode": "BBriIzqGqb5zuJqXVDma8JrN9lxqodgo91cti3v7gxI"
+            },
+            "Intelligent Ranking Base Capacity BaseCapacity per hours": {
+                "rateCode": "TKCMZKES5P7AF5XK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "9TDygS68I_jd1DZXvND5GlBaEbF3XzlzcT_9sJ_KGuU"
+            },
+            "GenAI Enterprise Additional Storage Capacity Kendra-GenAI-Ent-Addl-StorageCap per hours": {
+                "rateCode": "WGHV8VN9BPU8KHFA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "Wyas3rslBcU3UYoG7bZdGG4g7NcHQFX3y6VcublB9hA"
+            },
+            "GenAI Enterprise Base Capacity Kendra-GenAI-Ent-Base-Capacity per hours": {
+                "rateCode": "YNTFAY6KQ4UUMADS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3200000000",
+                "RegionlessRateCode": "Xfk0QtCtCkqvcghKNRGOmEQI6Q-sQTo6QRr-WOD1U_w"
+            },
+            "connector monthly fee Kendra-Connector-MonthlyFee per Count": {
+                "rateCode": "Z73RT9TRUDAWTHN5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "UpoUJNToCqdVZU5ZhJdNqqigrqUgvOLFPSuD6K1HFZw"
             }
         }
     }

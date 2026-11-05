@@ -1,534 +1,67 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "appflow",
         "accessType": "publish",
-        "esIndex": "plc-appflow-usd-20260911124519",
+        "source": "appflow",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:19Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:19Z",
-        "currencyCode": "USD",
-        "source": "appflow",
+        "esIndex": "plc-appflow-usd-20260911124519",
+        "queryConfig": "public/83126048-8597-54ce-aa52-cacc6ce34388/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
+        "Africa (Cape Town)": {
             "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "XR7D6JJ4ZUHH9SVB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
+                "rateCode": "5RW4ND9TEH3CHANJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1470000000",
                 "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "FHZ838ACB53PPF6Z.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "3A5EZRRMKURJ5Y5J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             },
             "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "7UBYHKRWS2ZXY68H.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6NQTHZJFCJPF7TZN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "FHZ838ACB53PPF6Z.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "XR7D6JJ4ZUHH9SVB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "FHZ838ACB53PPF6Z.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "3A5EZRRMKURJ5Y5J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "7UBYHKRWS2ZXY68H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "FHZ838ACB53PPF6Z.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "US West (N. California)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "8NJ82YC5JS4GX6PS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "W4X6M5QM9HPGVEQV.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
             },
             "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "ZMK8WY6732HPWRGP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
+                "rateCode": "BVZG36JFGF7D8FFR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1470000000",
                 "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "SJ9WT8JSAMHP6CY3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
             "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "W4X6M5QM9HPGVEQV.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
+                "rateCode": "EUEHTRDZ9TP47FRV.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.1470000000",
                 "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "8NJ82YC5JS4GX6PS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "W4X6M5QM9HPGVEQV.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "ZMK8WY6732HPWRGP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "SJ9WT8JSAMHP6CY3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "W4X6M5QM9HPGVEQV.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "US East (Ohio)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "P5WBXZZTWUAWPBRN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
             "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "A73C7YF3QQHCQ4BE.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
+                "rateCode": "EUEHTRDZ9TP47FRV.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1640000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "JU6TYHPWVMBF633X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "9J8TBT66R2Q6PWY4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "A73C7YF3QQHCQ4BE.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
             },
             "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "P5WBXZZTWUAWPBRN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
+                "rateCode": "5RW4ND9TEH3CHANJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1470000000",
                 "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "A73C7YF3QQHCQ4BE.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "JU6TYHPWVMBF633X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             },
             "ExecuteFlow per Flow runs": {
-                "rateCode": "9J8TBT66R2Q6PWY4.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6NQTHZJFCJPF7TZN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "A73C7YF3QQHCQ4BE.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "US East (N. Virginia)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "YN8W7NTWZ5KQ4W69.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "JMFSZN2ZW2FXREEV.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "B68MXPV4HVN6TQDK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "X8HFA9266JG7P6D7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "JMFSZN2ZW2FXREEV.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "YN8W7NTWZ5KQ4W69.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "JMFSZN2ZW2FXREEV.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
             },
             "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "B68MXPV4HVN6TQDK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
+                "rateCode": "BVZG36JFGF7D8FFR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1470000000",
                 "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "X8HFA9266JG7P6D7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
             "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "JMFSZN2ZW2FXREEV.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
+                "rateCode": "EUEHTRDZ9TP47FRV.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.1470000000",
                 "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "P252PN4MKRC9V9NC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1600000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "7NC2WXG9V52AZZP3.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.2600000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "4ZMRKZF2PY8N5VH3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1600000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "GJCMENV8V72PZW3U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "7NC2WXG9V52AZZP3.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.1600000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "P252PN4MKRC9V9NC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1600000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
             "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "7NC2WXG9V52AZZP3.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.2600000000",
+                "rateCode": "EUEHTRDZ9TP47FRV.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1640000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "4ZMRKZF2PY8N5VH3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1600000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "GJCMENV8V72PZW3U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "7NC2WXG9V52AZZP3.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.1600000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "EU (Paris)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "8UMGMRAQP92YBD2N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "SSVYA85QTJ4NHN44.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "2CRPURAP2UCVQM9Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "M9U8GC748DYMMJM9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "SSVYA85QTJ4NHN44.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "8UMGMRAQP92YBD2N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "SSVYA85QTJ4NHN44.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "2CRPURAP2UCVQM9Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "M9U8GC748DYMMJM9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "SSVYA85QTJ4NHN44.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "EU (London)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "6HEMSX345AKG8F25.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "694P5ZMCRJ8BN4TU.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "7GTBGWKTEV3JPPAN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "MFYDANRZMST2E8Z2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "694P5ZMCRJ8BN4TU.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "6HEMSX345AKG8F25.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "694P5ZMCRJ8BN4TU.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "7GTBGWKTEV3JPPAN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "MFYDANRZMST2E8Z2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "694P5ZMCRJ8BN4TU.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "EU (Ireland)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "9WG2APUZBP74S6BG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "BRPZMRV3BRCE9W5N.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "PEBCPV6CCUM7BTE3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "38N9KRCACNQ5X8SU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "BRPZMRV3BRCE9W5N.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "9WG2APUZBP74S6BG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "BRPZMRV3BRCE9W5N.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "PEBCPV6CCUM7BTE3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "38N9KRCACNQ5X8SU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "BRPZMRV3BRCE9W5N.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "EU (Frankfurt)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "2NYM39X8SWYDQUS4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "AY8JSB977XYTK2FE.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "X4DSHYRR2GBB9JHG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "QVUPUA3R8CARY6JE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "AY8JSB977XYTK2FE.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "2NYM39X8SWYDQUS4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "AY8JSB977XYTK2FE.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "X4DSHYRR2GBB9JHG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "QVUPUA3R8CARY6JE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "AY8JSB977XYTK2FE.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "Canada (Central)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "HJY42SSJ6P4H3ANU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "S8W7J5B4QD3U2468.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "A9DF6W2XXY9XAENJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "3VAS5FAWP5SR9SEZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "S8W7J5B4QD3U2468.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "HJY42SSJ6P4H3ANU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "S8W7J5B4QD3U2468.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "A9DF6W2XXY9XAENJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "3VAS5FAWP5SR9SEZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "S8W7J5B4QD3U2468.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
             }
         },
         "Asia Pacific (Tokyo)": {
@@ -537,154 +70,50 @@
                 "price": "0.0900000000",
                 "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "GHPPGXDEZ7Z34WKP.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1240000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
             "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
                 "rateCode": "FGC5MFDFPTRJQGG4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0900000000",
                 "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "HRARB8XJAMQV8N2X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
             "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
                 "rateCode": "GHPPGXDEZ7Z34WKP.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0900000000",
                 "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "GHPPGXDEZ7Z34WKP.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1240000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "HRARB8XJAMQV8N2X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
             "PrivateLinkDataProcessing per Processing-Bytes": {
                 "rateCode": "2KUYYMM8D27JP5MF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0900000000",
                 "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "GHPPGXDEZ7Z34WKP.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1240000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
             "Data processing within AWS per Processing-Bytes": {
                 "rateCode": "FGC5MFDFPTRJQGG4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0900000000",
                 "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "HRARB8XJAMQV8N2X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
             "Data processing outside AWS First GB per Processing-Bytes": {
                 "rateCode": "GHPPGXDEZ7Z34WKP.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0900000000",
                 "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "7D3QNYSEX8Z6GEY4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "HEGJF742E4RE8KPT.JRTCKXETXF.JTU8TKNAMW",
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "GHPPGXDEZ7Z34WKP.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.1240000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
             },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "5S7K98GDGYTYX582.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "PDG4YES7AEHR9DFP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "HEGJF742E4RE8KPT.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "7D3QNYSEX8Z6GEY4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "HEGJF742E4RE8KPT.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1240000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "5S7K98GDGYTYX582.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
             "ExecuteFlow per Flow runs": {
-                "rateCode": "PDG4YES7AEHR9DFP.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HRARB8XJAMQV8N2X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "HEGJF742E4RE8KPT.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.1400000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "BT64V6JFFGGWR5J4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0900000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "BJVKQG3DYYH2UAVZ.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "TPZVS4YJW6HPFAC4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0900000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "SMZMCE7W82QMZB8J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "BJVKQG3DYYH2UAVZ.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0900000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "BT64V6JFFGGWR5J4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0900000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
-            "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "BJVKQG3DYYH2UAVZ.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "TPZVS4YJW6HPFAC4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0900000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
-            },
-            "ExecuteFlow per Flow runs": {
-                "rateCode": "SMZMCE7W82QMZB8J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0010000000",
-                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
-            },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "BJVKQG3DYYH2UAVZ.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.0900000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
             }
         },
         "Asia Pacific (Seoul)": {
@@ -693,154 +122,726 @@
                 "price": "0.0800000000",
                 "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "NESP36VMPF49JNSR.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0800000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
             "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
                 "rateCode": "NESP36VMPF49JNSR.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.1360000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "U88G4VSPZZAPXR4C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0800000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             },
             "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
                 "rateCode": "TG9BCTV59DSBFYFS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "NESP36VMPF49JNSR.JRTCKXETXF.8EEUB22XNJ",
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "U88G4VSPZZAPXR4C.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0800000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             },
             "PrivateLinkDataProcessing per Processing-Bytes": {
                 "rateCode": "3GWQ8WNNY5DGQUKC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0800000000",
                 "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "NESP36VMPF49JNSR.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0800000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
             "Data processing outside AWS per Processing-Bytes": {
                 "rateCode": "NESP36VMPF49JNSR.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.1360000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
-            },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "U88G4VSPZZAPXR4C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0800000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             },
             "ExecuteFlow per Flow runs": {
                 "rateCode": "TG9BCTV59DSBFYFS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "NESP36VMPF49JNSR.JRTCKXETXF.8EEUB22XNJ",
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "U88G4VSPZZAPXR4C.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0800000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             }
         },
         "Asia Pacific (Mumbai)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "GVUKW5XVCUA6VNMW.JRTCKXETXF.6YS6EN2CT7",
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "B39UJRQR43SFX5HH.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0860000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
             },
             "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
                 "rateCode": "B39UJRQR43SFX5HH.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.1193000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
             },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "VKDUKQQAX2EF4W98.JRTCKXETXF.6YS6EN2CT7",
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "GVUKW5XVCUA6VNMW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0860000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
             "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
                 "rateCode": "PNTAJTJENCCAKHU5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "VKDUKQQAX2EF4W98.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0860000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
                 "rateCode": "B39UJRQR43SFX5HH.JRTCKXETXF.8EEUB22XNJ",
                 "price": "0.0860000000",
                 "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
-            },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "GVUKW5XVCUA6VNMW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0860000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
             "Data processing outside AWS per Processing-Bytes": {
                 "rateCode": "B39UJRQR43SFX5HH.JRTCKXETXF.JTU8TKNAMW",
                 "price": "0.1193000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
             },
-            "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "VKDUKQQAX2EF4W98.JRTCKXETXF.6YS6EN2CT7",
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "GVUKW5XVCUA6VNMW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0860000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
             "ExecuteFlow per Flow runs": {
                 "rateCode": "PNTAJTJENCCAKHU5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
-            "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "B39UJRQR43SFX5HH.JRTCKXETXF.8EEUB22XNJ",
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "VKDUKQQAX2EF4W98.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0860000000",
-                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             }
         },
-        "Africa (Cape Town)": {
-            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
-                "rateCode": "5RW4ND9TEH3CHANJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1470000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+        "Asia Pacific (Singapore)": {
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "BJVKQG3DYYH2UAVZ.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
             },
             "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
-                "rateCode": "EUEHTRDZ9TP47FRV.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1640000000",
+                "rateCode": "BJVKQG3DYYH2UAVZ.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1300000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
             },
-            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
-                "rateCode": "BVZG36JFGF7D8FFR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1470000000",
-                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "BT64V6JFFGGWR5J4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             },
             "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
-                "rateCode": "6NQTHZJFCJPF7TZN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "SMZMCE7W82QMZB8J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
-            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
-                "rateCode": "EUEHTRDZ9TP47FRV.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.1470000000",
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "TPZVS4YJW6HPFAC4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "BJVKQG3DYYH2UAVZ.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0900000000",
                 "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
             },
-            "PrivateLinkDataProcessing per Processing-Bytes": {
-                "rateCode": "5RW4ND9TEH3CHANJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1470000000",
-                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
-            },
             "Data processing outside AWS per Processing-Bytes": {
-                "rateCode": "EUEHTRDZ9TP47FRV.JRTCKXETXF.JTU8TKNAMW",
-                "price": "0.1640000000",
+                "rateCode": "BJVKQG3DYYH2UAVZ.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1300000000",
                 "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
             },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "BT64V6JFFGGWR5J4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "SMZMCE7W82QMZB8J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
             "Data processing within AWS per Processing-Bytes": {
-                "rateCode": "BVZG36JFGF7D8FFR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1470000000",
+                "rateCode": "TPZVS4YJW6HPFAC4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0900000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "5S7K98GDGYTYX582.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "7D3QNYSEX8Z6GEY4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "HEGJF742E4RE8KPT.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "HEGJF742E4RE8KPT.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1240000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "PDG4YES7AEHR9DFP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "5S7K98GDGYTYX582.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "7D3QNYSEX8Z6GEY4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "HEGJF742E4RE8KPT.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.1400000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "HEGJF742E4RE8KPT.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1240000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "PDG4YES7AEHR9DFP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            }
+        },
+        "Canada (Central)": {
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "3VAS5FAWP5SR9SEZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "A9DF6W2XXY9XAENJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "HJY42SSJ6P4H3ANU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "S8W7J5B4QD3U2468.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "S8W7J5B4QD3U2468.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "3VAS5FAWP5SR9SEZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "A9DF6W2XXY9XAENJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "HJY42SSJ6P4H3ANU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "S8W7J5B4QD3U2468.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "S8W7J5B4QD3U2468.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            }
+        },
+        "EU (Frankfurt)": {
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "2NYM39X8SWYDQUS4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "AY8JSB977XYTK2FE.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "AY8JSB977XYTK2FE.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "QVUPUA3R8CARY6JE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "X4DSHYRR2GBB9JHG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "2NYM39X8SWYDQUS4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "AY8JSB977XYTK2FE.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "AY8JSB977XYTK2FE.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "QVUPUA3R8CARY6JE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "X4DSHYRR2GBB9JHG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            }
+        },
+        "EU (Ireland)": {
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "38N9KRCACNQ5X8SU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "9WG2APUZBP74S6BG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "BRPZMRV3BRCE9W5N.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "BRPZMRV3BRCE9W5N.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "PEBCPV6CCUM7BTE3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
                 "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
             },
             "ExecuteFlow per Flow runs": {
-                "rateCode": "6NQTHZJFCJPF7TZN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "38N9KRCACNQ5X8SU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "9WG2APUZBP74S6BG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "BRPZMRV3BRCE9W5N.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "BRPZMRV3BRCE9W5N.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "PEBCPV6CCUM7BTE3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            }
+        },
+        "EU (London)": {
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "694P5ZMCRJ8BN4TU.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "694P5ZMCRJ8BN4TU.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "6HEMSX345AKG8F25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "7GTBGWKTEV3JPPAN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "MFYDANRZMST2E8Z2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0010000000",
                 "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
             },
             "Data processing outside AWS First GB per Processing-Bytes": {
-                "rateCode": "EUEHTRDZ9TP47FRV.JRTCKXETXF.8EEUB22XNJ",
-                "price": "0.1470000000",
+                "rateCode": "694P5ZMCRJ8BN4TU.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
                 "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "694P5ZMCRJ8BN4TU.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "6HEMSX345AKG8F25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "7GTBGWKTEV3JPPAN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "MFYDANRZMST2E8Z2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            }
+        },
+        "EU (Paris)": {
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "2CRPURAP2UCVQM9Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "8UMGMRAQP92YBD2N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "M9U8GC748DYMMJM9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "SSVYA85QTJ4NHN44.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "SSVYA85QTJ4NHN44.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "2CRPURAP2UCVQM9Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "8UMGMRAQP92YBD2N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "M9U8GC748DYMMJM9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "SSVYA85QTJ4NHN44.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "SSVYA85QTJ4NHN44.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "4ZMRKZF2PY8N5VH3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1600000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "7NC2WXG9V52AZZP3.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.1600000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "7NC2WXG9V52AZZP3.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.2600000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "GJCMENV8V72PZW3U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "P252PN4MKRC9V9NC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1600000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "4ZMRKZF2PY8N5VH3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1600000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "7NC2WXG9V52AZZP3.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.1600000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "7NC2WXG9V52AZZP3.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.2600000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "GJCMENV8V72PZW3U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "P252PN4MKRC9V9NC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1600000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            }
+        },
+        "US East (N. Virginia)": {
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "B68MXPV4HVN6TQDK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "JMFSZN2ZW2FXREEV.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "JMFSZN2ZW2FXREEV.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "X8HFA9266JG7P6D7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "YN8W7NTWZ5KQ4W69.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "B68MXPV4HVN6TQDK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "JMFSZN2ZW2FXREEV.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "JMFSZN2ZW2FXREEV.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "X8HFA9266JG7P6D7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "YN8W7NTWZ5KQ4W69.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            }
+        },
+        "US East (Ohio)": {
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "9J8TBT66R2Q6PWY4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "A73C7YF3QQHCQ4BE.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "A73C7YF3QQHCQ4BE.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "JU6TYHPWVMBF633X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "P5WBXZZTWUAWPBRN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "9J8TBT66R2Q6PWY4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "A73C7YF3QQHCQ4BE.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "A73C7YF3QQHCQ4BE.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "JU6TYHPWVMBF633X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "P5WBXZZTWUAWPBRN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            }
+        },
+        "US West (N. California)": {
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "8NJ82YC5JS4GX6PS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "SJ9WT8JSAMHP6CY3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "W4X6M5QM9HPGVEQV.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "W4X6M5QM9HPGVEQV.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "ZMK8WY6732HPWRGP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "8NJ82YC5JS4GX6PS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "SJ9WT8JSAMHP6CY3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "W4X6M5QM9HPGVEQV.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "W4X6M5QM9HPGVEQV.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "ZMK8WY6732HPWRGP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            }
+        },
+        "US West (Oregon)": {
+            "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA": {
+                "rateCode": "3A5EZRRMKURJ5Y5J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw": {
+                "rateCode": "7UBYHKRWS2ZXY68H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U": {
+                "rateCode": "FHZ838ACB53PPF6Z.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q": {
+                "rateCode": "FHZ838ACB53PPF6Z.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y": {
+                "rateCode": "XR7D6JJ4ZUHH9SVB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
+            },
+            "Data processing within AWS per Processing-Bytes": {
+                "rateCode": "3A5EZRRMKURJ5Y5J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "WJUYw5zgyFV7qfOheHu2FVlhxAd6vzFvzp1kbHNECwA"
+            },
+            "ExecuteFlow per Flow runs": {
+                "rateCode": "7UBYHKRWS2ZXY68H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0010000000",
+                "RegionlessRateCode": "gLM1iXQ0sQc7Oslo26kVaTaxkkofiDD9wdGR89stiXw"
+            },
+            "Data processing outside AWS First GB per Processing-Bytes": {
+                "rateCode": "FHZ838ACB53PPF6Z.JRTCKXETXF.8EEUB22XNJ",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "zLBcwFeS3IiyPlmBeqrL6DJJq9iLHTI_liErUEZzA1U"
+            },
+            "Data processing outside AWS per Processing-Bytes": {
+                "rateCode": "FHZ838ACB53PPF6Z.JRTCKXETXF.JTU8TKNAMW",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "HGhq7h-0Yqw3eqo-VwNLAOdJf7vqDfOdaxqxW6uZz4Q"
+            },
+            "PrivateLinkDataProcessing per Processing-Bytes": {
+                "rateCode": "XR7D6JJ4ZUHH9SVB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "AeZXZKBWe4LtV-k5Bbuw1LPsZ-9peYo7bo_AEW0El8Y"
             }
         }
     }

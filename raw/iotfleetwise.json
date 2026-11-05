@@ -1,138 +1,139 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "iotfleetwise",
         "accessType": "publish",
-        "esIndex": "plc-iotfleetwise-usd-20260911124558",
+        "source": "iotfleetwise",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:58Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:58Z",
-        "currencyCode": "USD",
-        "source": "iotfleetwise",
+        "esIndex": "plc-iotfleetwise-usd-20260911124558",
+        "queryConfig": "public/8bc439cc-eb06-5edd-952c-07d98aac2c0d/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
+        "EU (Frankfurt)": {
+            "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY": {
+                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.A6VD9GXV7W",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY"
+            },
+            "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc": {
+                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.G7E3DTUN9T",
+                "price": "0.4500000000",
+                "RegionlessRateCode": "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc"
+            },
+            "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY": {
+                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.VNJQCFJPS4",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY"
+            },
+            "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA": {
+                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.ZN357FEBCK",
+                "price": "0.0000017500",
+                "RegionlessRateCode": "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA"
+            },
+            "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY": {
+                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.T2J8YMU6QP",
+                "price": "0.0000016000",
+                "RegionlessRateCode": "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY"
+            },
+            "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w": {
+                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.UC3UXGWZWK",
+                "price": "0.0000014500",
+                "RegionlessRateCode": "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w"
+            },
+            "IoTFleetWise per Vehicles 0 to 10000": {
+                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.A6VD9GXV7W",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY"
+            },
+            "IoTFleetWise per Vehicles 10000 to 1000000": {
+                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.G7E3DTUN9T",
+                "price": "0.4500000000",
+                "RegionlessRateCode": "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc"
+            },
+            "IoTFleetWise per Vehicles 1000000 to Inf": {
+                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.VNJQCFJPS4",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY"
+            },
+            "IoTFleetWise per Messages 0 to 1000000000": {
+                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.ZN357FEBCK",
+                "price": "0.0000017500",
+                "RegionlessRateCode": "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA"
+            },
+            "IoTFleetWise per Messages 1000000000 to 500000000000": {
+                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.T2J8YMU6QP",
+                "price": "0.0000016000",
+                "RegionlessRateCode": "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY"
+            },
+            "IoTFleetWise per Messages 500000000000 to Inf": {
+                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.UC3UXGWZWK",
+                "price": "0.0000014500",
+                "RegionlessRateCode": "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w"
+            }
+        },
         "US East (N. Virginia)": {
             "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA": {
                 "rateCode": "MDHD9HM83CNDAX7Z.JRTCKXETXF.ZN357FEBCK",
                 "price": "0.0000017500",
                 "RegionlessRateCode": "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA"
             },
-            "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY": {
-                "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.A6VD9GXV7W",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY"
-            },
-            "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY": {
-                "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.VNJQCFJPS4",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY"
+            "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY": {
+                "rateCode": "MDHD9HM83CNDAX7Z.JRTCKXETXF.T2J8YMU6QP",
+                "price": "0.0000016000",
+                "RegionlessRateCode": "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY"
             },
             "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w": {
                 "rateCode": "MDHD9HM83CNDAX7Z.JRTCKXETXF.UC3UXGWZWK",
                 "price": "0.0000014500",
                 "RegionlessRateCode": "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w"
             },
-            "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY": {
-                "rateCode": "MDHD9HM83CNDAX7Z.JRTCKXETXF.T2J8YMU6QP",
-                "price": "0.0000016000",
-                "RegionlessRateCode": "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY"
+            "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY": {
+                "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.A6VD9GXV7W",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY"
             },
             "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc": {
                 "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.G7E3DTUN9T",
                 "price": "0.4500000000",
                 "RegionlessRateCode": "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc"
+            },
+            "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY": {
+                "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.VNJQCFJPS4",
+                "price": "0.3500000000",
+                "RegionlessRateCode": "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY"
             },
             "IoTFleetWise per Messages 0 to 1000000000": {
                 "rateCode": "MDHD9HM83CNDAX7Z.JRTCKXETXF.ZN357FEBCK",
                 "price": "0.0000017500",
                 "RegionlessRateCode": "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA"
             },
-            "IoTFleetWise per Vehicles 0 to 10000": {
-                "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.A6VD9GXV7W",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY"
-            },
-            "IoTFleetWise per Vehicles 1000000 to Inf": {
-                "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.VNJQCFJPS4",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY"
+            "IoTFleetWise per Messages 1000000000 to 500000000000": {
+                "rateCode": "MDHD9HM83CNDAX7Z.JRTCKXETXF.T2J8YMU6QP",
+                "price": "0.0000016000",
+                "RegionlessRateCode": "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY"
             },
             "IoTFleetWise per Messages 500000000000 to Inf": {
                 "rateCode": "MDHD9HM83CNDAX7Z.JRTCKXETXF.UC3UXGWZWK",
                 "price": "0.0000014500",
                 "RegionlessRateCode": "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w"
             },
-            "IoTFleetWise per Messages 1000000000 to 500000000000": {
-                "rateCode": "MDHD9HM83CNDAX7Z.JRTCKXETXF.T2J8YMU6QP",
-                "price": "0.0000016000",
-                "RegionlessRateCode": "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY"
+            "IoTFleetWise per Vehicles 0 to 10000": {
+                "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.A6VD9GXV7W",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY"
             },
             "IoTFleetWise per Vehicles 10000 to 1000000": {
                 "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.G7E3DTUN9T",
                 "price": "0.4500000000",
                 "RegionlessRateCode": "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc"
-            }
-        },
-        "EU (Frankfurt)": {
-            "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA": {
-                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.ZN357FEBCK",
-                "price": "0.0000017500",
-                "RegionlessRateCode": "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA"
-            },
-            "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY": {
-                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.A6VD9GXV7W",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY"
-            },
-            "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY": {
-                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.VNJQCFJPS4",
-                "price": "0.3500000000",
-                "RegionlessRateCode": "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY"
-            },
-            "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w": {
-                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.UC3UXGWZWK",
-                "price": "0.0000014500",
-                "RegionlessRateCode": "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w"
-            },
-            "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY": {
-                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.T2J8YMU6QP",
-                "price": "0.0000016000",
-                "RegionlessRateCode": "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY"
-            },
-            "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc": {
-                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.G7E3DTUN9T",
-                "price": "0.4500000000",
-                "RegionlessRateCode": "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc"
-            },
-            "IoTFleetWise per Messages 0 to 1000000000": {
-                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.ZN357FEBCK",
-                "price": "0.0000017500",
-                "RegionlessRateCode": "1Q2zx9N3K1n1cG_UXQdtu5LanB-4tfmj0Dde7mGQLjA"
-            },
-            "IoTFleetWise per Vehicles 0 to 10000": {
-                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.A6VD9GXV7W",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "5TmHfnEzltQ1i-YamKHmA_UE68XbVUYBIDGFWtIBkvY"
             },
             "IoTFleetWise per Vehicles 1000000 to Inf": {
-                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.VNJQCFJPS4",
+                "rateCode": "SMVWY9TH9TPG3334.JRTCKXETXF.VNJQCFJPS4",
                 "price": "0.3500000000",
                 "RegionlessRateCode": "OUB1REdaLCpmf4ig23Kp_VLIzFgJ4caSJZr8e-2TjJY"
-            },
-            "IoTFleetWise per Messages 500000000000 to Inf": {
-                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.UC3UXGWZWK",
-                "price": "0.0000014500",
-                "RegionlessRateCode": "gCjXmHecwB6CapMZoH-_brrnLVFGNgSiDOEgRIt_N3w"
-            },
-            "IoTFleetWise per Messages 1000000000 to 500000000000": {
-                "rateCode": "FCVRSV7XX4BWPTV8.JRTCKXETXF.T2J8YMU6QP",
-                "price": "0.0000016000",
-                "RegionlessRateCode": "genx0cwvC_kjD5N9_17jc-vF1BP90kaThMQf3wMWrHY"
-            },
-            "IoTFleetWise per Vehicles 10000 to 1000000": {
-                "rateCode": "BQEZXUQGD5CD4JVJ.JRTCKXETXF.G7E3DTUN9T",
-                "price": "0.4500000000",
-                "RegionlessRateCode": "yzmZa7_ZUcHOV7UtYPdjR5eTyshFJCUnl0cAnXsd8fc"
             }
         }
     }

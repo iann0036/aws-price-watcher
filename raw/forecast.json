@@ -1,592 +1,18 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "forecast",
         "accessType": "publish",
-        "esIndex": "plc-forecast-usd-20260911124429",
+        "source": "forecast",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:29Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:29Z",
-        "currencyCode": "USD",
-        "source": "forecast",
+        "esIndex": "plc-forecast-usd-20260911124429",
+        "queryConfig": "public/eb915652-f5b4-5e49-99e8-7c28f3a94a9d/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "UDHJC8954FGKB38X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
-                "rateCode": "54KUTEY875FV4HK3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
-                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
-                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
-                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
-                "rateCode": "YHWZDNPU4XJFREVW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "Training hours 0 to Inf": {
-                "rateCode": "UDHJC8954FGKB38X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "Number of Forecasts 0 to Inf": {
-                "rateCode": "54KUTEY875FV4HK3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "Forecast Data Points 0 to 100": {
-                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "Forecast Data Points 100 to 1000": {
-                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "Forecast Data Points 1000 to 50000": {
-                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "Data Injection 0 to Inf": {
-                "rateCode": "YHWZDNPU4XJFREVW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "Forecast Data Points 50000 to Inf": {
-                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            }
-        },
-        "US East (Ohio)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "V7H8JA24DEMTQCKF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
-                "rateCode": "3BYVR3GWTCYTYUQ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
-                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
-                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
-                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
-                "rateCode": "BANJSKWK5YZ3P9Z6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "Training hours 0 to Inf": {
-                "rateCode": "V7H8JA24DEMTQCKF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "Number of Forecasts 0 to Inf": {
-                "rateCode": "3BYVR3GWTCYTYUQ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "Forecast Data Points 0 to 100": {
-                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "Forecast Data Points 100 to 1000": {
-                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "Forecast Data Points 1000 to 50000": {
-                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "Data Injection 0 to Inf": {
-                "rateCode": "BANJSKWK5YZ3P9Z6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "Forecast Data Points 50000 to Inf": {
-                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            }
-        },
-        "US East (N. Virginia)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "6VQAHQXMK35NGESW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
-                "rateCode": "ZJMWQPWTSA84H94E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
-                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
-                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
-                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
-                "rateCode": "DG9D59965XM8BM4P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "Training hours 0 to Inf": {
-                "rateCode": "6VQAHQXMK35NGESW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "Number of Forecasts 0 to Inf": {
-                "rateCode": "ZJMWQPWTSA84H94E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "Forecast Data Points 0 to 100": {
-                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "Forecast Data Points 100 to 1000": {
-                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "Forecast Data Points 1000 to 50000": {
-                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "Data Injection 0 to Inf": {
-                "rateCode": "DG9D59965XM8BM4P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "Forecast Data Points 50000 to Inf": {
-                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            }
-        },
-        "EU (Ireland)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "63UDUTGYHQMC498S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
-                "rateCode": "A8KG5DB6F2NS8FTC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
-                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
-                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
-                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
-                "rateCode": "GC4EKSDF3J7CHUA5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "Training hours 0 to Inf": {
-                "rateCode": "63UDUTGYHQMC498S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "Number of Forecasts 0 to Inf": {
-                "rateCode": "A8KG5DB6F2NS8FTC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "Forecast Data Points 0 to 100": {
-                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "Forecast Data Points 100 to 1000": {
-                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "Forecast Data Points 1000 to 50000": {
-                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "Data Injection 0 to Inf": {
-                "rateCode": "GC4EKSDF3J7CHUA5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "Forecast Data Points 50000 to Inf": {
-                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            }
-        },
-        "EU (Frankfurt)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "M9G33C3CXEVAFTKF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
-                "rateCode": "QZNMUQMS52MTT2VG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
-                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
-                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
-                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
-                "rateCode": "5XSWSKFQN8SAD2VZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "Training hours 0 to Inf": {
-                "rateCode": "M9G33C3CXEVAFTKF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "Number of Forecasts 0 to Inf": {
-                "rateCode": "QZNMUQMS52MTT2VG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "Forecast Data Points 0 to 100": {
-                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "Forecast Data Points 100 to 1000": {
-                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "Forecast Data Points 1000 to 50000": {
-                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "Data Injection 0 to Inf": {
-                "rateCode": "5XSWSKFQN8SAD2VZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "Forecast Data Points 50000 to Inf": {
-                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            }
-        },
         "Asia Pacific (Tokyo)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "JKJETMJRYSJERSHM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
-                "rateCode": "WQC7UFATXXQPJBAP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
             "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
                 "rateCode": "BNSXQWSSEU8XA3V4.JRTCKXETXF.ETY2894C67",
                 "price": "2.0000000000",
@@ -602,42 +28,42 @@
                 "price": "0.2000000000",
                 "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
             },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "BNSXQWSSEU8XA3V4.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
             },
             "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
                 "rateCode": "DXU9XC23B5R9KQHB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0880000000",
                 "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
             },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "BNSXQWSSEU8XA3V4.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "Training hours 0 to Inf": {
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
                 "rateCode": "JKJETMJRYSJERSHM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2400000000",
                 "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
             },
-            "Number of Forecasts 0 to Inf": {
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
                 "rateCode": "WQC7UFATXXQPJBAP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
                 "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
@@ -657,266 +83,77 @@
                 "price": "0.2000000000",
                 "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
             },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            "Forecast Data Points 50000 to Inf": {
+                "rateCode": "BNSXQWSSEU8XA3V4.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
             },
             "Data Injection 0 to Inf": {
                 "rateCode": "DXU9XC23B5R9KQHB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0880000000",
                 "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
             },
-            "Forecast Data Points 50000 to Inf": {
-                "rateCode": "BNSXQWSSEU8XA3V4.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "7UQ4PSN26A9S9E58.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
-                "rateCode": "7KJ7CTESNSHDXHHP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
-                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
-                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
-                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
-                "rateCode": "4N3E9T9GESDUT2AS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
             "Training hours 0 to Inf": {
-                "rateCode": "7UQ4PSN26A9S9E58.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "JKJETMJRYSJERSHM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2400000000",
                 "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "Number of Forecasts 0 to Inf": {
-                "rateCode": "7KJ7CTESNSHDXHHP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "Forecast Data Points 0 to 100": {
-                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "Forecast Data Points 100 to 1000": {
-                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "Forecast Data Points 1000 to 50000": {
-                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
             },
             "Forecast Explanations 0 to 50": {
-                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.ZRBZXHZTV5",
+                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.ZRBZXHZTV5",
                 "price": "2.0000000000",
                 "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "Data Injection 0 to Inf": {
-                "rateCode": "4N3E9T9GESDUT2AS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "Forecast Data Points 50000 to Inf": {
-                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "QJ4Q9Z7DD3Q67CKA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
-                "rateCode": "VP3SBWAV88ZFTQ48.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
-                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
-                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
-                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
-                "rateCode": "NG5724J5J7KZFHQQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
-            },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
-            },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "Training hours 0 to Inf": {
-                "rateCode": "QJ4Q9Z7DD3Q67CKA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
-            "Number of Forecasts 0 to Inf": {
-                "rateCode": "VP3SBWAV88ZFTQ48.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
-            },
-            "Forecast Data Points 0 to 100": {
-                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.ETY2894C67",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
-            },
-            "Forecast Data Points 100 to 1000": {
-                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.7DR76JAJEK",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
-            },
-            "Forecast Data Points 1000 to 50000": {
-                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.TWS5K82K36",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
             },
             "Forecast Explanations 50 to 1000": {
-                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.72ZCZ2PZZ9",
+                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.72ZCZ2PZZ9",
                 "price": "0.8000000000",
                 "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
             },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
             },
-            "Data Injection 0 to Inf": {
-                "rateCode": "NG5724J5J7KZFHQQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "V7AGV8QQ8UTMBMAJ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
             },
-            "Forecast Data Points 50000 to Inf": {
-                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            "Number of Forecasts 0 to Inf": {
+                "rateCode": "WQC7UFATXXQPJBAP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
             }
         },
         "Asia Pacific (Seoul)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
+                "rateCode": "CEEZSH6GBPA2YP4S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
             },
             "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
                 "rateCode": "J8DZGKBCMXS6BDUC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2400000000",
                 "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
             },
             "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
                 "rateCode": "SFJ2238XK4UXK7E7.JRTCKXETXF.6YS6EN2CT7",
@@ -937,41 +174,41 @@
                 "rateCode": "ZCNQKUCYA9NTBFFS.JRTCKXETXF.TWS5K82K36",
                 "price": "0.2000000000",
                 "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
-                "rateCode": "CEEZSH6GBPA2YP4S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
             },
             "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
                 "rateCode": "ZCNQKUCYA9NTBFFS.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0200000000",
                 "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
             },
-            "Forecast Explanations 1000 to 10000": {
-                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            "Data Injection 0 to Inf": {
+                "rateCode": "CEEZSH6GBPA2YP4S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
             },
             "Training hours 0 to Inf": {
                 "rateCode": "J8DZGKBCMXS6BDUC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2400000000",
                 "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
             },
             "Number of Forecasts 0 to Inf": {
                 "rateCode": "SFJ2238XK4UXK7E7.JRTCKXETXF.6YS6EN2CT7",
@@ -992,26 +229,6 @@
                 "rateCode": "ZCNQKUCYA9NTBFFS.JRTCKXETXF.TWS5K82K36",
                 "price": "0.2000000000",
                 "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
-            },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "P4TTNZ9S5CS4X5EM.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
-            },
-            "Data Injection 0 to Inf": {
-                "rateCode": "CEEZSH6GBPA2YP4S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0880000000",
-                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
             },
             "Forecast Data Points 50000 to Inf": {
                 "rateCode": "ZCNQKUCYA9NTBFFS.JRTCKXETXF.GK6CZWW823",
@@ -1020,16 +237,6 @@
             }
         },
         "Asia Pacific (Mumbai)": {
-            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
-                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.FA59GSBSCH",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
-            },
-            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
-                "rateCode": "KU4CXCBVX8D8KNGA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
-            },
             "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
                 "rateCode": "63AKD2ED9GZ2V7DZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
@@ -1050,40 +257,40 @@
                 "price": "0.2000000000",
                 "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
             },
-            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
-                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
-                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
-                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "G9HPHRZP69QJ8W8K.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
             },
             "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
                 "rateCode": "J4ECU5PAXUG7XSCB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0880000000",
                 "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
             },
-            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
-                "rateCode": "G9HPHRZP69QJ8W8K.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0200000000",
-                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
+                "rateCode": "KU4CXCBVX8D8KNGA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
             },
-            "Forecast Explanations 1000 to 10000": {
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
                 "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.FA59GSBSCH",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
             },
-            "Training hours 0 to Inf": {
-                "rateCode": "KU4CXCBVX8D8KNGA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
             },
             "Number of Forecasts 0 to Inf": {
                 "rateCode": "63AKD2ED9GZ2V7DZ.JRTCKXETXF.6YS6EN2CT7",
@@ -1105,28 +312,822 @@
                 "price": "0.2000000000",
                 "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
             },
-            "Forecast Explanations 10000 to Inf": {
-                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.B536CJ4M58",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
-            },
-            "Forecast Explanations 50 to 1000": {
-                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.72ZCZ2PZZ9",
-                "price": "0.8000000000",
-                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
-            },
-            "Forecast Explanations 0 to 50": {
-                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.ZRBZXHZTV5",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            "Forecast Data Points 50000 to Inf": {
+                "rateCode": "G9HPHRZP69QJ8W8K.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
             },
             "Data Injection 0 to Inf": {
                 "rateCode": "J4ECU5PAXUG7XSCB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0880000000",
                 "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
             },
+            "Training hours 0 to Inf": {
+                "rateCode": "KU4CXCBVX8D8KNGA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "VGWBV9WSWKNMHPDM.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
+                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
+                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
+                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
+                "rateCode": "NG5724J5J7KZFHQQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
+                "rateCode": "QJ4Q9Z7DD3Q67CKA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
+                "rateCode": "VP3SBWAV88ZFTQ48.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "Forecast Data Points 0 to 100": {
+                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "Forecast Data Points 100 to 1000": {
+                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "Forecast Data Points 1000 to 50000": {
+                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
             "Forecast Data Points 50000 to Inf": {
-                "rateCode": "G9HPHRZP69QJ8W8K.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "8P228GGTQANQVFG4.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "Data Injection 0 to Inf": {
+                "rateCode": "NG5724J5J7KZFHQQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "PMHR622MT9TXX8W9.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "Training hours 0 to Inf": {
+                "rateCode": "QJ4Q9Z7DD3Q67CKA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Number of Forecasts 0 to Inf": {
+                "rateCode": "VP3SBWAV88ZFTQ48.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
+                "rateCode": "4N3E9T9GESDUT2AS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
+                "rateCode": "7KJ7CTESNSHDXHHP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
+                "rateCode": "7UQ4PSN26A9S9E58.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
+                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
+                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
+                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "Data Injection 0 to Inf": {
+                "rateCode": "4N3E9T9GESDUT2AS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "Number of Forecasts 0 to Inf": {
+                "rateCode": "7KJ7CTESNSHDXHHP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "Training hours 0 to Inf": {
+                "rateCode": "7UQ4PSN26A9S9E58.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Forecast Data Points 0 to 100": {
+                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "Forecast Data Points 100 to 1000": {
+                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "Forecast Data Points 1000 to 50000": {
+                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "Forecast Data Points 50000 to Inf": {
+                "rateCode": "GUQ3HM2MXGSWQTXP.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "TV4HZGWE4EWJWBXT.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            }
+        },
+        "EU (Frankfurt)": {
+            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
+                "rateCode": "5XSWSKFQN8SAD2VZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
+                "rateCode": "M9G33C3CXEVAFTKF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
+                "rateCode": "QZNMUQMS52MTT2VG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
+                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
+                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
+                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "Data Injection 0 to Inf": {
+                "rateCode": "5XSWSKFQN8SAD2VZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "AZFU4VRY6CYK7MED.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "Training hours 0 to Inf": {
+                "rateCode": "M9G33C3CXEVAFTKF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Number of Forecasts 0 to Inf": {
+                "rateCode": "QZNMUQMS52MTT2VG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "Forecast Data Points 0 to 100": {
+                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "Forecast Data Points 100 to 1000": {
+                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "Forecast Data Points 1000 to 50000": {
+                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "Forecast Data Points 50000 to Inf": {
+                "rateCode": "VTYRZZWMHCMBRYTV.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            }
+        },
+        "EU (Ireland)": {
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
+                "rateCode": "63UDUTGYHQMC498S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
+                "rateCode": "A8KG5DB6F2NS8FTC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
+                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
+                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
+                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
+                "rateCode": "GC4EKSDF3J7CHUA5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "Training hours 0 to Inf": {
+                "rateCode": "63UDUTGYHQMC498S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "6S6MKP37A2HMQ6VF.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "Number of Forecasts 0 to Inf": {
+                "rateCode": "A8KG5DB6F2NS8FTC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "Forecast Data Points 0 to 100": {
+                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "Forecast Data Points 100 to 1000": {
+                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "Forecast Data Points 1000 to 50000": {
+                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "Forecast Data Points 50000 to Inf": {
+                "rateCode": "FGYT6SXDD3BHNGEU.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "Data Injection 0 to Inf": {
+                "rateCode": "GC4EKSDF3J7CHUA5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            }
+        },
+        "US East (N. Virginia)": {
+            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
+                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
+                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
+                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
+                "rateCode": "6VQAHQXMK35NGESW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
+                "rateCode": "DG9D59965XM8BM4P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
+                "rateCode": "ZJMWQPWTSA84H94E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "Forecast Data Points 0 to 100": {
+                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "Forecast Data Points 100 to 1000": {
+                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "Forecast Data Points 1000 to 50000": {
+                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "Forecast Data Points 50000 to Inf": {
+                "rateCode": "4MKRBJYP8X7PE33H.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "Training hours 0 to Inf": {
+                "rateCode": "6VQAHQXMK35NGESW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "7XMYGSKPH4E4JZSB.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "Data Injection 0 to Inf": {
+                "rateCode": "DG9D59965XM8BM4P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "Number of Forecasts 0 to Inf": {
+                "rateCode": "ZJMWQPWTSA84H94E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            }
+        },
+        "US East (Ohio)": {
+            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
+                "rateCode": "3BYVR3GWTCYTYUQ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
+                "rateCode": "BANJSKWK5YZ3P9Z6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
+                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
+                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
+                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
+                "rateCode": "V7H8JA24DEMTQCKF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Number of Forecasts 0 to Inf": {
+                "rateCode": "3BYVR3GWTCYTYUQ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "Data Injection 0 to Inf": {
+                "rateCode": "BANJSKWK5YZ3P9Z6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "Forecast Data Points 0 to 100": {
+                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "Forecast Data Points 100 to 1000": {
+                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "Forecast Data Points 1000 to 50000": {
+                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "Forecast Data Points 50000 to Inf": {
+                "rateCode": "CUD5GUF57RGAHJJ2.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "PM83A2X5CKUAREXQ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "Training hours 0 to Inf": {
+                "rateCode": "V7H8JA24DEMTQCKF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            }
+        },
+        "US West (Oregon)": {
+            "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8": {
+                "rateCode": "54KUTEY875FV4HK3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30": {
+                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c": {
+                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY": {
+                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE": {
+                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA": {
+                "rateCode": "UDHJC8954FGKB38X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE": {
+                "rateCode": "YHWZDNPU4XJFREVW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4": {
+                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc": {
+                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU": {
+                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU": {
+                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0200000000",
+                "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
+            },
+            "Number of Forecasts 0 to Inf": {
+                "rateCode": "54KUTEY875FV4HK3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "At5q7CK4bf0JWt6wbu2iQ7fiUJXMsCMj4InXkAxw9i8"
+            },
+            "Forecast Explanations 0 to 50": {
+                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.ZRBZXHZTV5",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "jUrxapXLULvtxe6giIzAy27OPW3mvmiOK2FB9F8ih30"
+            },
+            "Forecast Explanations 50 to 1000": {
+                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.72ZCZ2PZZ9",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "a81zV8G23JmH66-xQo5deYUZOhqw6qluOYt-4TzJH1c"
+            },
+            "Forecast Explanations 1000 to 10000": {
+                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.FA59GSBSCH",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "14-xfnva1ezXi-6iOwYWGqY3UtwnIroYehVLFCnbvQY"
+            },
+            "Forecast Explanations 10000 to Inf": {
+                "rateCode": "AT7MS6HGPPT3S3WS.JRTCKXETXF.B536CJ4M58",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "Y6-WmuUDSHYVkm3V-LpRy-Ss0Ysg4al_l7b-73MJLmE"
+            },
+            "Training hours 0 to Inf": {
+                "rateCode": "UDHJC8954FGKB38X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "AoRtkOkdNX1PmYhwPtTX2ObWo2ZKUW9hSDhMfmBsUoA"
+            },
+            "Data Injection 0 to Inf": {
+                "rateCode": "YHWZDNPU4XJFREVW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0880000000",
+                "RegionlessRateCode": "qLNxhLhWzaJkxIlcqaXQ_aViuOUxU43WZBbrdeNFnOE"
+            },
+            "Forecast Data Points 0 to 100": {
+                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.ETY2894C67",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "K90OKoJT1kuheYVeS_25-ausFFUwvBA7L26YsNyxFc4"
+            },
+            "Forecast Data Points 100 to 1000": {
+                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.7DR76JAJEK",
+                "price": "0.8000000000",
+                "RegionlessRateCode": "KEWfqbhLPiUJga9-oETf_3KN5EkZv2GjRstsOCq3hSc"
+            },
+            "Forecast Data Points 1000 to 50000": {
+                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.TWS5K82K36",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "XsCq6GQxuPQTzbB728MXVI1xr-rW1xtGSTVAQbb6AIU"
+            },
+            "Forecast Data Points 50000 to Inf": {
+                "rateCode": "Z9UJ776BVB4S5G24.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0200000000",
                 "RegionlessRateCode": "wZ-pfh60Rb9dGim3aQKUuDlx1May0uYidBpya7SBiDU"
             }

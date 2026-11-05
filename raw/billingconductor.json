@@ -1,76 +1,77 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "billingconductor",
         "accessType": "publish",
-        "esIndex": "plc-billingconductor-usd-20260911124529",
+        "source": "billingconductor",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:29Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:29Z",
-        "currencyCode": "USD",
-        "source": "billingconductor",
+        "esIndex": "plc-billingconductor-usd-20260911124529",
+        "queryConfig": "public/aa145a71-98a8-5607-b1c8-c4780b2e52c2/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
         "US East (N. Virginia)": {
-            "-wbXy91ZsF5j77KdALAwHrt3Ra6If3hd91CLVxH7o2w": {
-                "rateCode": "CDKP8JYJ33UJM8H5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "-wbXy91ZsF5j77KdALAwHrt3Ra6If3hd91CLVxH7o2w"
-            },
-            "4sxd1pCHqWO2SW4L7fYrSkwdUrO88DYPd7ANr53W1xw": {
-                "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.HHP47ND9UE",
-                "price": "5.2500000000",
-                "RegionlessRateCode": "4sxd1pCHqWO2SW4L7fYrSkwdUrO88DYPd7ANr53W1xw"
-            },
             "6FSmkVzrcUfxNX8u-pz4xQOPZ1BjnowRsBk-IzG8RLM": {
                 "rateCode": "2AU69PTYPG76C9CZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "6FSmkVzrcUfxNX8u-pz4xQOPZ1BjnowRsBk-IzG8RLM"
-            },
-            "8uNc8I5QRklIa1EOD1XhL6VqCctI9uIbCvuqwGa8RO4": {
-                "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.NQTM64EBAU",
-                "price": "6.7500000000",
-                "RegionlessRateCode": "8uNc8I5QRklIa1EOD1XhL6VqCctI9uIbCvuqwGa8RO4"
-            },
-            "G7JRTCO5VsT3D_8stBNidW_haenEsW_F5xyZ0jlGBN4": {
-                "rateCode": "XN32S4Q285VST8XT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
-                "RegionlessRateCode": "G7JRTCO5VsT3D_8stBNidW_haenEsW_F5xyZ0jlGBN4"
-            },
-            "TPiSYRpBtq2i4y7_oqDkLJStAVpKicqeZU9rRj3SHo4": {
-                "rateCode": "JSKEN6BRDH9BYUET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "TPiSYRpBtq2i4y7_oqDkLJStAVpKicqeZU9rRj3SHo4"
             },
             "mQ5yzoT-Jk0p_aOGfI-AvaftbyfPe2ZOYz8GSkU_IME": {
                 "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.C2QCTD4VXQ",
                 "price": "8.2500000000",
                 "RegionlessRateCode": "mQ5yzoT-Jk0p_aOGfI-AvaftbyfPe2ZOYz8GSkU_IME"
             },
-            "scmHRnnMJBRgAXW8mDlsqfVqmkSHyle0kl5-7lEDhfQ": {
-                "rateCode": "D2Y9PM5VHE6Q94HM.JRTCKXETXF.VNJQCFJPS4",
-                "price": "0.0001500000",
-                "RegionlessRateCode": "scmHRnnMJBRgAXW8mDlsqfVqmkSHyle0kl5-7lEDhfQ"
+            "8uNc8I5QRklIa1EOD1XhL6VqCctI9uIbCvuqwGa8RO4": {
+                "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.NQTM64EBAU",
+                "price": "6.7500000000",
+                "RegionlessRateCode": "8uNc8I5QRklIa1EOD1XhL6VqCctI9uIbCvuqwGa8RO4"
+            },
+            "4sxd1pCHqWO2SW4L7fYrSkwdUrO88DYPd7ANr53W1xw": {
+                "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.HHP47ND9UE",
+                "price": "5.2500000000",
+                "RegionlessRateCode": "4sxd1pCHqWO2SW4L7fYrSkwdUrO88DYPd7ANr53W1xw"
+            },
+            "-wbXy91ZsF5j77KdALAwHrt3Ra6If3hd91CLVxH7o2w": {
+                "rateCode": "CDKP8JYJ33UJM8H5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "-wbXy91ZsF5j77KdALAwHrt3Ra6If3hd91CLVxH7o2w"
             },
             "y1nhr7iEhiX70Kx7Zz_eXfY583IjbRyZr4-4C8n7ePk": {
                 "rateCode": "D2Y9PM5VHE6Q94HM.JRTCKXETXF.SB2VSFF4TP",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "y1nhr7iEhiX70Kx7Zz_eXfY583IjbRyZr4-4C8n7ePk"
             },
-            "AWS Billing Conductor proforma-accounts 2000 to Inf": {
-                "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.HHP47ND9UE",
-                "price": "5.2500000000",
-                "RegionlessRateCode": "4sxd1pCHqWO2SW4L7fYrSkwdUrO88DYPd7ANr53W1xw"
+            "scmHRnnMJBRgAXW8mDlsqfVqmkSHyle0kl5-7lEDhfQ": {
+                "rateCode": "D2Y9PM5VHE6Q94HM.JRTCKXETXF.VNJQCFJPS4",
+                "price": "0.0001500000",
+                "RegionlessRateCode": "scmHRnnMJBRgAXW8mDlsqfVqmkSHyle0kl5-7lEDhfQ"
+            },
+            "TPiSYRpBtq2i4y7_oqDkLJStAVpKicqeZU9rRj3SHo4": {
+                "rateCode": "JSKEN6BRDH9BYUET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "TPiSYRpBtq2i4y7_oqDkLJStAVpKicqeZU9rRj3SHo4"
+            },
+            "G7JRTCO5VsT3D_8stBNidW_haenEsW_F5xyZ0jlGBN4": {
+                "rateCode": "XN32S4Q285VST8XT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
+                "RegionlessRateCode": "G7JRTCO5VsT3D_8stBNidW_haenEsW_F5xyZ0jlGBN4"
+            },
+            "AWS Billing Conductor proforma-accounts 0 to 500": {
+                "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.C2QCTD4VXQ",
+                "price": "8.2500000000",
+                "RegionlessRateCode": "mQ5yzoT-Jk0p_aOGfI-AvaftbyfPe2ZOYz8GSkU_IME"
             },
             "AWS Billing Conductor proforma-accounts 500 to 2000": {
                 "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.NQTM64EBAU",
                 "price": "6.7500000000",
                 "RegionlessRateCode": "8uNc8I5QRklIa1EOD1XhL6VqCctI9uIbCvuqwGa8RO4"
             },
-            "AWS Billing Conductor proforma-accounts 0 to 500": {
-                "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.C2QCTD4VXQ",
-                "price": "8.2500000000",
-                "RegionlessRateCode": "mQ5yzoT-Jk0p_aOGfI-AvaftbyfPe2ZOYz8GSkU_IME"
+            "AWS Billing Conductor proforma-accounts 2000 to Inf": {
+                "rateCode": "4S8HR5DY6SVXB73D.JRTCKXETXF.HHP47ND9UE",
+                "price": "5.2500000000",
+                "RegionlessRateCode": "4sxd1pCHqWO2SW4L7fYrSkwdUrO88DYPd7ANr53W1xw"
             }
         }
     }
