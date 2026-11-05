@@ -11,7 +11,7 @@
         "Asia Pacific (Singapore) (Resource Type: Dynamic Run Storage)": "0.0004932000",
         "Asia Pacific (Seoul) (Resource Type: Dynamic Run Storage)": "0.0004521000"
     },
-    "[Compute Type per GB-Hours]": {
+    "[Compute Type per GB-Hours] Compute Ephemeral Storage per GB-Hours": {
         "US West (Oregon) (Resource Type: Ephemeral Storage)": "0.0001110000",
         "US East (Ohio) (Resource Type: Ephemeral Storage)": "0.0001110000",
         "US East (N. Virginia) (Resource Type: Ephemeral Storage)": "0.0001110000",
@@ -83,16 +83,18 @@
         "Asia Pacific (Singapore) (Resource Type: omics.c.2xlarge, vCPU: 8, Memory: 16 GiB)": "0.5292000000",
         "Asia Pacific (Seoul) (Resource Type: omics.c.2xlarge, vCPU: 8, Memory: 16 GiB)": "0.5184000000"
     },
-    "[Compute Compute Optimized Instances Type per Instance-hrs]": {
+    "[Compute Compute Optimized Instances Type per Instance-hrs] Compute Compute Optimized Instances omics c.32xlarge per Instance-hrs": {
         "US West (Oregon) (Resource Type: omics.c.32xlarge, vCPU: 128, Memory: 256 GiB)": "7.3440000000",
-        "US West (Oregon) (Resource Type: omics.c.48xlarge, vCPU: 192, Memory: 384 GiB)": "11.5668000000",
         "US East (Ohio) (Resource Type: omics.c.32xlarge, vCPU: 128, Memory: 256 GiB)": "7.3440000000",
-        "US East (Ohio) (Resource Type: omics.c.48xlarge, vCPU: 192, Memory: 384 GiB)": "11.5668000000",
         "US East (N. Virginia) (Resource Type: omics.c.32xlarge, vCPU: 128, Memory: 256 GiB)": "7.3440000000",
-        "US East (N. Virginia) (Resource Type: omics.c.48xlarge, vCPU: 192, Memory: 384 GiB)": "11.5668000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.c.32xlarge, vCPU: 128, Memory: 256 GiB)": "8.8568640000",
+        "Asia Pacific (Seoul) (Resource Type: omics.c.32xlarge, vCPU: 128, Memory: 256 GiB)": "8.2944000000"
+    },
+    "[Compute Compute Optimized Instances Type per Instance-hrs] Compute Compute Optimized Instances omics c.48xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.c.48xlarge, vCPU: 192, Memory: 384 GiB)": "11.5668000000",
+        "US East (Ohio) (Resource Type: omics.c.48xlarge, vCPU: 192, Memory: 384 GiB)": "11.5668000000",
+        "US East (N. Virginia) (Resource Type: omics.c.48xlarge, vCPU: 192, Memory: 384 GiB)": "11.5668000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.c.48xlarge, vCPU: 192, Memory: 384 GiB)": "13.9495608000",
-        "Asia Pacific (Seoul) (Resource Type: omics.c.32xlarge, vCPU: 128, Memory: 256 GiB)": "8.2944000000",
         "Asia Pacific (Seoul) (Resource Type: omics.c.48xlarge, vCPU: 192, Memory: 384 GiB)": "13.0637000000"
     },
     "[Compute Compute Optimized Instances Type per Instance-hrs] Compute Compute Optimized Instances omics c.4xlarge per Instance-hrs": {
@@ -154,102 +156,16 @@
         "Asia Pacific (Singapore) (Resource Type: omics.g4dn.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 64 GiB, GPU: 4)": "7.3899000000",
         "Asia Pacific (Seoul) (Resource Type: omics.g4dn.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 64 GiB, GPU: 4)": "5.9647000000"
     },
-    "[Compute Accelerated Computing Type per Instance-hrs]": {
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g4dn.16xlarge per Instance-hrs": {
         "US West (Oregon) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "5.8752000000",
-        "US West (Oregon) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "5.5296000000",
-        "US West (Oregon) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.9944000000",
-        "US West (Oregon) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "6.2122000000",
-        "US West (Oregon) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "4.5857000000",
-        "US West (Oregon) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "9.0115000000",
-        "US West (Oregon) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.3198000000",
-        "US West (Oregon) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7863000000",
-        "US West (Oregon) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.7194000000",
-        "US West (Oregon) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.0865000000",
-        "US West (Oregon) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "14.1651000000",
-        "US West (Oregon) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "10.2292000000",
-        "US West (Oregon) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "20.3385000000",
-        "US West (Oregon) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.0268000000",
-        "US West (Oregon) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "4.0557000000",
-        "US West (Oregon) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "6.1136000000",
-        "US West (Oregon) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "2.5124000000",
         "US East (Ohio) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "5.8752000000",
-        "US East (Ohio) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "5.5296000000",
-        "US East (Ohio) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.9944000000",
-        "US East (Ohio) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "6.2122000000",
-        "US East (Ohio) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "4.5857000000",
-        "US East (Ohio) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "9.0115000000",
-        "US East (Ohio) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.3198000000",
-        "US East (Ohio) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7863000000",
-        "US East (Ohio) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.7194000000",
-        "US East (Ohio) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.0865000000",
-        "US East (Ohio) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "14.1651000000",
-        "US East (Ohio) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "10.2292000000",
-        "US East (Ohio) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "20.3385000000",
-        "US East (Ohio) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.0268000000",
-        "US East (Ohio) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "4.0557000000",
-        "US East (Ohio) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "6.1136000000",
-        "US East (Ohio) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "2.5124000000",
         "US East (N. Virginia) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "5.8752000000",
-        "US East (N. Virginia) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "5.5296000000",
-        "US East (N. Virginia) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.9944000000",
-        "US East (N. Virginia) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "6.2122000000",
-        "US East (N. Virginia) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "4.5857000000",
-        "US East (N. Virginia) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "9.0115000000",
-        "US East (N. Virginia) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.3198000000",
-        "US East (N. Virginia) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7863000000",
-        "US East (N. Virginia) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.7194000000",
-        "US East (N. Virginia) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.0865000000",
-        "US East (N. Virginia) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "14.1651000000",
-        "US East (N. Virginia) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "10.2292000000",
-        "US East (N. Virginia) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "20.3385000000",
-        "US East (N. Virginia) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.0268000000",
-        "US East (N. Virginia) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "4.0557000000",
-        "US East (N. Virginia) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "6.1136000000",
-        "US East (N. Virginia) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "2.5124000000",
-        "Israel (Tel Aviv) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "6.4813000000",
-        "Israel (Tel Aviv) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "12.8867000000",
         "EU (London) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "6.8742000000",
-        "EU (London) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "7.0192000000",
-        "EU (London) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "13.9561000000",
         "EU (Ireland) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "6.5516000000",
-        "EU (Ireland) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "6.1727000000",
-        "EU (Ireland) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "12.2731000000",
         "EU (Frankfurt) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "7.3440000000",
-        "EU (Frankfurt) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "6.9148000000",
-        "EU (Frankfurt) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "13.7485000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "7.3968768000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "7.2437760000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "14.4026640000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "8.1379820000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "6.0072670000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "11.8050650000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7289380000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.3400530000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "3.5624140000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.4233150000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "18.5562810000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "13.4002520000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "26.6434350000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.9651080000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "5.3129670000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "8.0088160000",
-        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.2912440000",
         "Asia Pacific (Singapore) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "8.2201500000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "6.6355000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "7.0161000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "5.1791000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.1777000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.4906000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.0175000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "3.0713000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.2271000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "15.9982000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "11.5530000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "22.9705000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.4185000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "4.5806000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "6.9048000000",
-        "Asia Pacific (Seoul) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "2.8375000000"
+        "Asia Pacific (Seoul) (Resource Type: omics.g4dn.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 16 GiB, GPU: 1)": "6.6355000000"
     },
     "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g4dn.2xlarge per Instance-hrs": {
         "US West (Oregon) (Resource Type: omics.g4dn.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 16 GiB, GPU: 1)": "1.0152000000",
@@ -305,6 +221,26 @@
         "EU (Frankfurt) (Resource Type: omics.g5.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "9.5753000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.g5.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.0309320000"
     },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g5.16xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "5.5296000000",
+        "US East (Ohio) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "5.5296000000",
+        "US East (N. Virginia) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "5.5296000000",
+        "Israel (Tel Aviv) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "6.4813000000",
+        "EU (London) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "7.0192000000",
+        "EU (Ireland) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "6.1727000000",
+        "EU (Frankfurt) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "6.9148000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g5.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "7.2437760000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g5.24xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.9944000000",
+        "US East (Ohio) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.9944000000",
+        "US East (N. Virginia) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.9944000000",
+        "Israel (Tel Aviv) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "12.8867000000",
+        "EU (London) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "13.9561000000",
+        "EU (Ireland) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "12.2731000000",
+        "EU (Frankfurt) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "13.7485000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g5.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "14.4026640000"
+    },
     "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g5.2xlarge per Instance-hrs": {
         "US West (Oregon) (Resource Type: omics.g5.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.6362000000",
         "US East (Ohio) (Resource Type: omics.g5.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.6362000000",
@@ -348,6 +284,104 @@
         "EU (Frankfurt) (Resource Type: omics.g5.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.6983000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.g5.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7791110000",
         "Asia Pacific (Seoul) (Resource Type: omics.g5.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.5339000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.12xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "6.2122000000",
+        "US East (Ohio) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "6.2122000000",
+        "US East (N. Virginia) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "6.2122000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "8.1379820000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6.12xlarge, vCPU: 48, Memory: 192 GiB, GPU Memory: 96 GiB, GPU: 4)": "7.0161000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.16xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "4.5857000000",
+        "US East (Ohio) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "4.5857000000",
+        "US East (N. Virginia) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "4.5857000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "6.0072670000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6.16xlarge, vCPU: 64, Memory: 256 GiB, GPU Memory: 24 GiB, GPU: 1)": "5.1791000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.24xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "9.0115000000",
+        "US East (Ohio) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "9.0115000000",
+        "US East (N. Virginia) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "9.0115000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "11.8050650000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6.24xlarge, vCPU: 96, Memory: 384 GiB, GPU Memory: 96 GiB, GPU: 4)": "10.1777000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.2xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.3198000000",
+        "US East (Ohio) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.3198000000",
+        "US East (N. Virginia) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.3198000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7289380000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6.2xlarge, vCPU: 8, Memory: 32 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.4906000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.4xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7863000000",
+        "US East (Ohio) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7863000000",
+        "US East (N. Virginia) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.7863000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.3400530000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6.4xlarge, vCPU: 16, Memory: 64 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.0175000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.8xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.7194000000",
+        "US East (Ohio) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.7194000000",
+        "US East (N. Virginia) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "2.7194000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "3.5624140000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6.8xlarge, vCPU: 32, Memory: 128 GiB, GPU Memory: 24 GiB, GPU: 1)": "3.0713000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.0865000000",
+        "US East (Ohio) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.0865000000",
+        "US East (N. Virginia) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.0865000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.4233150000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6.xlarge, vCPU: 4, Memory: 16 GiB, GPU Memory: 24 GiB, GPU: 1)": "1.2271000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.12xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "14.1651000000",
+        "US East (Ohio) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "14.1651000000",
+        "US East (N. Virginia) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "14.1651000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "18.5562810000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6e.12xlarge, vCPU: 48, Memory: 384 GiB, GPU Memory: 192 GiB, GPU: 4)": "15.9982000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.16xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "10.2292000000",
+        "US East (Ohio) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "10.2292000000",
+        "US East (N. Virginia) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "10.2292000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "13.4002520000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6e.16xlarge, vCPU: 64, Memory: 512 GiB, GPU Memory: 48 GiB, GPU: 1)": "11.5530000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.24xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "20.3385000000",
+        "US East (Ohio) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "20.3385000000",
+        "US East (N. Virginia) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "20.3385000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "26.6434350000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6e.24xlarge, vCPU: 96, Memory: 768 GiB, GPU Memory: 192 GiB, GPU: 4)": "22.9705000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.2xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.0268000000",
+        "US East (Ohio) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.0268000000",
+        "US East (N. Virginia) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.0268000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.9651080000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6e.2xlarge, vCPU: 8, Memory: 64 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.4185000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.4xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "4.0557000000",
+        "US East (Ohio) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "4.0557000000",
+        "US East (N. Virginia) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "4.0557000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "5.3129670000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6e.4xlarge, vCPU: 16, Memory: 128 GiB, GPU Memory: 48 GiB, GPU: 1)": "4.5806000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.8xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "6.1136000000",
+        "US East (Ohio) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "6.1136000000",
+        "US East (N. Virginia) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "6.1136000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "8.0088160000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6e.8xlarge, vCPU: 32, Memory: 256 GiB, GPU Memory: 48 GiB, GPU: 1)": "6.9048000000"
+    },
+    "[Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "2.5124000000",
+        "US East (Ohio) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "2.5124000000",
+        "US East (N. Virginia) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "2.5124000000",
+        "Asia Pacific (Tokyo) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "3.2912440000",
+        "Asia Pacific (Seoul) (Resource Type: omics.g6e.xlarge, vCPU: 4, Memory: 32 GiB, GPU Memory: 48 GiB, GPU: 1)": "2.8375000000"
     },
     "[Compute Standard Instances Type per Instance-hrs] Compute Standard Instances omics m.12xlarge per Instance-hrs": {
         "US West (Oregon) (Resource Type: omics.m.12xlarge, vCPU: 48, Memory: 192 GiB)": "3.1104000000",
@@ -397,16 +431,18 @@
         "Asia Pacific (Singapore) (Resource Type: omics.m.2xlarge, vCPU: 8, Memory: 32 GiB)": "0.6480000000",
         "Asia Pacific (Seoul) (Resource Type: omics.m.2xlarge, vCPU: 8, Memory: 32 GiB)": "0.5855000000"
     },
-    "[Compute Standard Instances Type per Instance-hrs]": {
+    "[Compute Standard Instances Type per Instance-hrs] Compute Standard Instances omics m.32xlarge per Instance-hrs": {
         "US West (Oregon) (Resource Type: omics.m.32xlarge, vCPU: 128, Memory: 512 GiB)": "8.2944000000",
-        "US West (Oregon) (Resource Type: omics.m.48xlarge, vCPU: 192, Memory: 768 GiB)": "13.0637000000",
         "US East (Ohio) (Resource Type: omics.m.32xlarge, vCPU: 128, Memory: 512 GiB)": "8.2944000000",
-        "US East (Ohio) (Resource Type: omics.m.48xlarge, vCPU: 192, Memory: 768 GiB)": "13.0637000000",
         "US East (N. Virginia) (Resource Type: omics.m.32xlarge, vCPU: 128, Memory: 512 GiB)": "8.2944000000",
-        "US East (N. Virginia) (Resource Type: omics.m.48xlarge, vCPU: 192, Memory: 768 GiB)": "13.0637000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.m.32xlarge, vCPU: 128, Memory: 512 GiB)": "10.1689344000",
+        "Asia Pacific (Seoul) (Resource Type: omics.m.32xlarge, vCPU: 128, Memory: 512 GiB)": "9.3678000000"
+    },
+    "[Compute Standard Instances Type per Instance-hrs] Compute Standard Instances omics m.48xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.m.48xlarge, vCPU: 192, Memory: 768 GiB)": "13.0637000000",
+        "US East (Ohio) (Resource Type: omics.m.48xlarge, vCPU: 192, Memory: 768 GiB)": "13.0637000000",
+        "US East (N. Virginia) (Resource Type: omics.m.48xlarge, vCPU: 192, Memory: 768 GiB)": "13.0637000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.m.48xlarge, vCPU: 192, Memory: 768 GiB)": "16.0160962000",
-        "Asia Pacific (Seoul) (Resource Type: omics.m.32xlarge, vCPU: 128, Memory: 512 GiB)": "9.3678000000",
         "Asia Pacific (Seoul) (Resource Type: omics.m.48xlarge, vCPU: 192, Memory: 768 GiB)": "14.7543000000"
     },
     "[Compute Standard Instances Type per Instance-hrs] Compute Standard Instances omics m.4xlarge per Instance-hrs": {
@@ -505,16 +541,18 @@
         "Asia Pacific (Singapore) (Resource Type: omics.r.2xlarge, vCPU: 8, Memory: 64 GiB)": "0.8208000000",
         "Asia Pacific (Seoul) (Resource Type: omics.r.2xlarge, vCPU: 8, Memory: 64 GiB)": "0.7685000000"
     },
-    "[Compute Memory Optimized Instances Type per Instance-hrs]": {
+    "[Compute Memory Optimized Instances Type per Instance-hrs] Compute Memory Optimized Instances omics r.32xlarge per Instance-hrs": {
         "US West (Oregon) (Resource Type: omics.r.32xlarge, vCPU: 128, Memory: 1,024 GiB)": "10.8864000000",
-        "US West (Oregon) (Resource Type: omics.r.48xlarge, vCPU: 192, Memory: 1,536 GiB)": "17.1461000000",
         "US East (Ohio) (Resource Type: omics.r.32xlarge, vCPU: 128, Memory: 1,024 GiB)": "10.8864000000",
-        "US East (Ohio) (Resource Type: omics.r.48xlarge, vCPU: 192, Memory: 1,536 GiB)": "17.1461000000",
         "US East (N. Virginia) (Resource Type: omics.r.32xlarge, vCPU: 128, Memory: 1,024 GiB)": "10.8864000000",
-        "US East (N. Virginia) (Resource Type: omics.r.48xlarge, vCPU: 192, Memory: 1,536 GiB)": "17.1461000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.r.32xlarge, vCPU: 128, Memory: 1,024 GiB)": "12.7479744000",
+        "Asia Pacific (Seoul) (Resource Type: omics.r.32xlarge, vCPU: 128, Memory: 1,024 GiB)": "12.2952000000"
+    },
+    "[Compute Memory Optimized Instances Type per Instance-hrs] Compute Memory Optimized Instances omics r.48xlarge per Instance-hrs": {
+        "US West (Oregon) (Resource Type: omics.r.48xlarge, vCPU: 192, Memory: 1,536 GiB)": "17.1461000000",
+        "US East (Ohio) (Resource Type: omics.r.48xlarge, vCPU: 192, Memory: 1,536 GiB)": "17.1461000000",
+        "US East (N. Virginia) (Resource Type: omics.r.48xlarge, vCPU: 192, Memory: 1,536 GiB)": "17.1461000000",
         "Asia Pacific (Tokyo) (Resource Type: omics.r.48xlarge, vCPU: 192, Memory: 1,536 GiB)": "20.0780831000",
-        "Asia Pacific (Seoul) (Resource Type: omics.r.32xlarge, vCPU: 128, Memory: 1,024 GiB)": "12.2952000000",
         "Asia Pacific (Seoul) (Resource Type: omics.r.48xlarge, vCPU: 192, Memory: 1,536 GiB)": "19.3650000000"
     },
     "[Compute Memory Optimized Instances Type per Instance-hrs] Compute Memory Optimized Instances omics r.4xlarge per Instance-hrs": {

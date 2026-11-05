@@ -1,3 +1,8698 @@
+## 2026-11-05 08:28
+
+**New services:**
+
+- [workspacesinstances](processed/workspacesinstances.json) 🚀
+
+**Modified services:**
+
+- [mwaa](processed/mwaa.json)
+  - Billing metric added: AWSManaged 💡
+  - Billing metric added: Environment Micro per Hrs 💡
+
+- [iot](processed/iot.json)
+  - Billing metric added: Direct Messages Up to 1B 💡
+  - Billing metric added: Direct Messages with Confirmation Next 4B 💡
+  - Billing metric added: Direct Messages with Confirmation Over 5B 💡
+  - Billing metric added: Direct Messages Over 5B 💡
+  - Billing metric added: Direct Messages Next 4B 💡
+  - Billing metric added: Direct Messages with Confirmation Up to 1B 💡
+  - Billing metric added: Position 835 to 1000000 💡
+  - Billing metric added: Sidewalk Messages 💡
+  - Billing metric added: Position 0 to 835 💡
+
+- [elementalmediapackage](processed/elementalmediapackage.json)
+  - Billing metric added: Origination and Packaging Multiview 💡
+
+- [databasemigrationsvc](processed/databasemigrationsvc.json)
+  - Billing metric removed: [DMS Replication Server Multiple AZ] 💥
+  - Billing metric removed: [DMS Replication Server Single AZ] 💥
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i 12xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i 12xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i 16xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i 16xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i 24xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i 24xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i 2xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i 2xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i 48xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i 48xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i 4xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i 4xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i 8xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i 8xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i large Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i large Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server c7i xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server c7i xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i 12xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i 12xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i 16xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i 16xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i 24xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i 24xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i 2xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i 2xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i 48xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i 48xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i 4xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i 4xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i 8xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i 8xlarge Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i large Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i large Single AZ 💡
+  - Billing metric added: [DMS Replication Server Multiple AZ] DMS OnDemand Replication Server r7i xlarge Multiple AZ 💡
+  - Billing metric added: [DMS Replication Server Single AZ] DMS OnDemand Replication Server r7i xlarge Single AZ 💡
+
+- [guardduty](processed/guardduty.json)
+  - Billing metric added: Free Advanced RDS ACU Monitored CreateDBInstance 0014 per ACU-Months 💡
+  - Billing metric added: Free RDS ACU Limitless Monitored CreateDBInstance per ACU-Months 💡
+  - Billing metric added: Free Advanced RDS ACU Monitored CreateDBInstance 0021 per ACU-Months 💡
+  - Billing metric added: On Demand Malware Protection S3 Request Monitored per Events 💡
+  - Billing metric added: Free Advanced RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months 💡
+  - Billing metric added: Advanced RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months 💡
+  - Billing metric added: AI VPC Flow Log and DNS Processed per First 500 GB 💡
+  - Billing metric added: Free RDS ACU Limitless Monitored CreateDBInstance 0016 per ACU-Months 💡
+  - Billing metric added: Advanced RDS vCPU Monitored CreateDBInstance 0014 per vCPU-Months 💡
+  - Billing metric added: EC2 Backup Data Malware Scanned per GB 💡
+  - Billing metric added: Advanced RDS vCPU Monitored CreateDBInstance 0021 per vCPU-Months 💡
+  - Billing metric added: Free AI VPC Flow Log and DNS Processed per GB 💡
+  - Billing metric added: Free Advanced RDS vCPU Monitored CreateDBInstance 0021 per vCPU-Months 💡
+  - Billing metric added: Free RDS ACU Limitless Monitored CreateDBInstance 0021 per ACU-Months 💡
+  - Billing metric added: EBS Backup Data Malware Scanned per GB 💡
+  - Billing metric added: On Demand Malware Protection EC2 AMI Data Scanned per GB 💡
+  - Billing metric added: Advanced RDS ACU Monitored CreateDBInstance 0021 per ACU-Months 💡
+  - Billing metric added: S3 Backup Data Malware Scanned per GB 💡
+  - Billing metric added: AI VPC Flow Log and DNS Processed per Over 10000 GB 💡
+  - Billing metric added: Advanced RDS ACU Monitored CreateDBInstance 0014 per ACU-Months 💡
+  - Billing metric added: Free Advanced RDS vCPU Monitored CreateDBInstance 0014 per vCPU-Months 💡
+  - Billing metric added: On Demand Malware Protection S3 Data Scanned per GB 💡
+  - Billing metric added: AI VPC Flow Log and DNS Processed per Next 7500 GB 💡
+  - Billing metric added: On Demand Malware Protection S3 Recovery Point Data Scanned per GB 💡
+  - Billing metric added: On Demand Malware Protection EBS Snapshot Data Scanned per GB 💡
+  - Billing metric added: AI VPC Flow Log and DNS Processed per Next 2000 GB 💡
+
+- [cloudwan](processed/cloudwan.json)
+  - Billing metric added: AWS Direct Connect Gateway Direct Connect Gateway attachments hour 💡
+  - Billing metric added: AWS Direct Connect Gateway Direct Connect Gateway attachments GigaBytes 💡
+
+- [fis](processed/fis.json)
+  - Billing metric added: Developer Tools 💡
+
+- [route53](processed/route53.json)
+  - Billing metric added: per Queries 💡
+  - Billing metric added: first 1K000000 per Queries 💡
+  - Billing metric added: per hours 💡
+
+- [securityhub](processed/securityhub.json)
+  - Billing metric added: per vCPU-Months 💡
+  - Billing metric added: per Events 💡
+  - Billing metric added: FreeComplianceCheck-Azure per Compliance Checks 💡
+  - Billing metric added: FreeComplianceCheck-Azure per Security Checks 💡
+  - Billing metric added: per Instance-hrs 💡
+  - Billing metric added: ComplianceCheck-Azure next 400000 per Compliance Checks 💡
+  - Billing metric added: ComplianceCheck-Azure next 400000 per Security Checks 💡
+  - Billing metric added: from 10000 upto Inf per Compliance Checks 💡
+  - Billing metric added: from 10000 upto Inf per GB 💡
+  - Billing metric added: from 5000 upto Inf per Compliance Checks 💡
+  - Billing metric added: from 5000 upto Inf per vCPU-Months 💡
+  - Billing metric added: from 1000 upto 10000 per Compliance Checks 💡
+  - Billing metric added: from 1000 upto 10000 per GB 💡
+  - Billing metric added: ComplianceCheck-Azure first 100000 per Compliance Checks 💡
+  - Billing metric added: ComplianceCheck-Azure first 100000 per Security Checks 💡
+  - Billing metric added: ComplianceCheck-Azure over 500000 per Compliance Checks 💡
+  - Billing metric added: ComplianceCheck-Azure over 500000 per Security Checks 💡
+  - Billing metric added: from 0 upto 1000 per Compliance Checks 💡
+  - Billing metric added: from 0 upto 1000 per GB 💡
+  - Billing metric added: per GB 💡
+  - Billing metric added: from 0 upto 500 per Compliance Checks 💡
+  - Billing metric added: from 0 upto 500 per vCPU-Months 💡
+  - Billing metric added: from 500 upto 5000 per Compliance Checks 💡
+  - Billing metric added: from 500 upto 5000 per vCPU-Months 💡
+  - Billing metric added: per Hourly 💡
+
+- [devicefarm](processed/devicefarm.json)
+  - Billing metric added: Private device 200 slot subscriptions for automated tests on iOS per Device Slot-Month 💡
+  - Billing metric added: Private device 200 slot subscriptions for automated tests on Android per Device Slot-Month 💡
+  - Billing metric added: Private device 500 slot subscriptions for automated tests on Android per Device Slot-Month 💡
+  - Billing metric added: Private device 500 slot subscriptions for automated tests on iOS per Device Slot-Month 💡
+  - Billing metric added: Private device 400 slot subscriptions for automated tests on iOS per Device Slot-Month 💡
+  - Billing metric added: Private device 400 slot subscriptions for automated tests on Android per Device Slot-Month 💡
+  - Billing metric added: Private device 300 slot subscriptions for automated tests on iOS per Device Slot-Month 💡
+  - Billing metric added: Private device 300 slot subscriptions for automated tests on Android per Device Slot-Month 💡
+
+- [config](processed/config.json)
+  - Billing metric added: Config RulesInternal 0 Inf 💡
+
+- [mdc](processed/mdc.json)
+  - Billing metric added: Compute 2 💡
+  - Billing metric added: Compute 0 💡
+  - Billing metric added: Compute 4 💡
+
+- [ses](processed/ses.json)
+  - Billing metric added: Message Body Send 💡
+  - Billing metric added: Monthly charge for global sending domain monitoring in Virtual Deliverability Manager 💡
+  - Billing metric added: Monthly subscription charge for global sending monitoring in Virtual Deliverability Manager 💡
+  - Billing metric added: Monthly charge for global sending IP monitoring in Virtual Deliverability Manager 💡
+  - Billing metric added: Charge for inbox placement testing in Virtual Deliverability Manager 💡
+  - Billing metric added: Email sent 💡
+
+- [elasticmapreduce](processed/elasticmapreduce.json)
+  - Billing metric added: Instance-instancetype-c8i-flex.12xlarge 💡
+  - Billing metric added: Instance-instancetype-i7ie.24xlarge 💡
+  - Billing metric added: Instance-instancetype-f2.48xlarge 💡
+  - Billing metric added: Instance-instancetype-g6e.12xlarge 💡
+  - Billing metric added: Instance-instancetype-i7ie.48xlarge 💡
+  - Billing metric added: Instance-instancetype-i8g.8xlarge 💡
+  - Billing metric added: Instance-instancetype-x8g.12xlarge 💡
+  - Billing metric added: Instance-instancetype-m8a.4xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gn.24xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gn.xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gd.12xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i-flex.16xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.16xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.4xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gb.16xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i-flex.16xlarge 💡
+  - Billing metric added: Instance-instancetype-m8a.48xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.12xlarge 💡
+  - Billing metric added: Instance-instancetype-f2.6xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.12xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gb.xlarge 💡
+  - Billing metric added: Instance-instancetype-m8gd.48xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.4xlarge 💡
+  - Billing metric added: Instance-instancetype-m8gd.24xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.16xlarge 💡
+  - Billing metric added: Instance-instancetype-i7i.12xlarge 💡
+  - Billing metric added: Instance-instancetype-m8gd.4xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i-flex.16xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gd.8xlarge 💡
+  - Billing metric added: Instance-instancetype-m7i-flex.12xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gn.2xlarge 💡
+  - Billing metric added: Instance-instancetype-g6e.24xlarge 💡
+  - Billing metric added: Instance-instancetype-i7ie.2xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i-flex.12xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gn.12xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.48xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.2xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.24xlarge 💡
+  - Billing metric added: Instance-instancetype-i7i.4xlarge 💡
+  - Billing metric added: Instance-instancetype-i8g.4xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i-flex.2xlarge 💡
+  - Billing metric added: Instance-instancetype-i7ie.12xlarge 💡
+  - Billing metric added: Instance-instancetype-i7i.24xlarge 💡
+  - Billing metric added: Instance-instancetype-m8g.8xlarge 💡
+  - Billing metric added: Instance-instancetype-x8g.16xlarge 💡
+  - Billing metric added: Instance-instancetype-m8gd.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.24xlarge 💡
+  - Billing metric added: Instance-instancetype-f2.12xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.48xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i-flex.8xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gb.2xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gd.24xlarge 💡
+  - Billing metric added: Instance-instancetype-i7i.8xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.96xlarge 💡
+  - Billing metric added: Instance-instancetype-m8g.48xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gd.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.96xlarge 💡
+  - Billing metric added: Instance-instancetype-r8a.48xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gn.12xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gn.4xlarge 💡
+  - Billing metric added: Instance-instancetype-i7i.2xlarge 💡
+  - Billing metric added: Instance-instancetype-g7.4xlarge 💡
+  - Billing metric added: Instance-instancetype-m8gd.16xlarge 💡
+  - Billing metric added: Instance-instancetype-x8g.4xlarge 💡
+  - Billing metric added: Instance-instancetype-c7i-flex.2xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gd.2xlarge 💡
+  - Billing metric added: Instance-instancetype-m8a.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gd.4xlarge 💡
+  - Billing metric added: Instance-instancetype-g7.8xlarge 💡
+  - Billing metric added: Instance-instancetype-g6e.16xlarge 💡
+  - Billing metric added: Instance-instancetype-m8g.2xlarge 💡
+  - Billing metric added: Instance-instancetype-m8a.12xlarge 💡
+  - Billing metric added: Instance-instancetype-m8g.16xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gd.16xlarge 💡
+  - Billing metric added: Instance-instancetype-m8g.12xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i-flex.2xlarge 💡
+  - Billing metric added: Instance-instancetype-c7i-flex.12xlarge 💡
+  - Billing metric added: Instance-instancetype-c7i-flex.8xlarge 💡
+  - Billing metric added: Instance-instancetype-x8g.24xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gd.24xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i-flex.4xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i-flex.4xlarge 💡
+  - Billing metric added: Instance-instancetype-c8g.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i-flex.xlarge 💡
+  - Billing metric added: Instance-instancetype-i7ie.xlarge 💡
+  - Billing metric added: Instance-instancetype-c7i-flex.xlarge 💡
+  - Billing metric added: Instance-instancetype-x8g.xlarge 💡
+  - Billing metric added: Instance-instancetype-i7ie.3xlarge 💡
+  - Billing metric added: Instance-instancetype-g6e.2xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i-flex.8xlarge 💡
+  - Billing metric added: Instance-instancetype-r8a.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8a.12xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.8xlarge 💡
+  - Billing metric added: Instance-instancetype-m8a.24xlarge 💡
+  - Billing metric added: Instance-instancetype-g7.48xlarge 💡
+  - Billing metric added: Instance-instancetype-r8a.24xlarge 💡
+  - Billing metric added: Instance-instancetype-c8g.16xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.32xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gd.16xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.12xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i-flex.xlarge 💡
+  - Billing metric added: Instance-instancetype-g6e.xlarge 💡
+  - Billing metric added: Instance-instancetype-g7.12xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.4xlarge 💡
+  - Billing metric added: Instance-instancetype-c8g.48xlarge 💡
+  - Billing metric added: Instance-instancetype-c8g.xlarge 💡
+  - Billing metric added: Instance-instancetype-m8g.4xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.24xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gn.8xlarge 💡
+  - Billing metric added: Instance-instancetype-c8g.8xlarge 💡
+  - Billing metric added: Instance-instancetype-m8gd.8xlarge 💡
+  - Billing metric added: Instance-instancetype-m8a.xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.48xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i-flex.xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.32xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.16xlarge 💡
+  - Billing metric added: Instance-instancetype-i7i.48xlarge 💡
+  - Billing metric added: Instance-instancetype-i8g.16xlarge 💡
+  - Billing metric added: Instance-instancetype-c8g.12xlarge 💡
+  - Billing metric added: Instance-instancetype-x8g.2xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.96xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gn.xlarge 💡
+  - Billing metric added: Instance-instancetype-m8g.xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i-flex.8xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.8xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gd.xlarge 💡
+  - Billing metric added: Instance-instancetype-m7i-flex.16xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gd.4xlarge 💡
+  - Billing metric added: Instance-instancetype-c8g.24xlarge 💡
+  - Billing metric added: Instance-instancetype-m8a.16xlarge 💡
+  - Billing metric added: Instance-instancetype-c8g.4xlarge 💡
+  - Billing metric added: Instance-instancetype-m8g.24xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gn.8xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i-flex.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gb.8xlarge 💡
+  - Billing metric added: Instance-instancetype-r8a.8xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gn.4xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gn.16xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i.xlarge 💡
+  - Billing metric added: Instance-instancetype-i8g.2xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gn.2xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gb.24xlarge 💡
+  - Billing metric added: Instance-instancetype-c8i-flex.4xlarge 💡
+  - Billing metric added: Instance-instancetype-i7ie.18xlarge 💡
+  - Billing metric added: Instance-instancetype-x8g.48xlarge 💡
+  - Billing metric added: Instance-instancetype-r8a.xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gn.24xlarge 💡
+  - Billing metric added: Instance-instancetype-i7i.xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gd.48xlarge 💡
+  - Billing metric added: Instance-instancetype-g7.2xlarge 💡
+  - Billing metric added: Instance-instancetype-g6e.8xlarge 💡
+  - Billing metric added: Instance-instancetype-i7ie.6xlarge 💡
+  - Billing metric added: Instance-instancetype-c7i-flex.4xlarge 💡
+  - Billing metric added: Instance-instancetype-x8g.8xlarge 💡
+  - Billing metric added: Instance-instancetype-r8a.4xlarge 💡
+  - Billing metric added: Instance-instancetype-c7i-flex.16xlarge 💡
+  - Billing metric added: Instance-instancetype-i8g.xlarge 💡
+  - Billing metric added: Instance-instancetype-m8i.8xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gd.48xlarge 💡
+  - Billing metric added: Instance-instancetype-i8g.12xlarge 💡
+  - Billing metric added: Instance-instancetype-i8g.48xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gd.xlarge 💡
+  - Billing metric added: Instance-instancetype-m8gd.xlarge 💡
+  - Billing metric added: Instance-instancetype-p4d.24xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gn.48xlarge 💡
+  - Billing metric added: Instance-instancetype-g7.24xlarge 💡
+  - Billing metric added: Instance-instancetype-g6e.4xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gb.4xlarge 💡
+  - Billing metric added: Instance-instancetype-r8a.16xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i-flex.12xlarge 💡
+  - Billing metric added: Instance-instancetype-r8i.32xlarge 💡
+  - Billing metric added: Instance-instancetype-m8gd.12xlarge 💡
+  - Billing metric added: Instance-instancetype-i7i.16xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gd.12xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gn.48xlarge 💡
+  - Billing metric added: Instance-instancetype-g6e.48xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gb.12xlarge 💡
+  - Billing metric added: Instance-instancetype-r8gn.16xlarge 💡
+  - Billing metric added: Instance-instancetype-i8g.24xlarge 💡
+  - Billing metric added: Instance-instancetype-m8a.8xlarge 💡
+  - Billing metric added: Instance-instancetype-c8gd.8xlarge 💡
+
+- [healthlake](processed/healthlake.json)
+  - Billing metric added: per Events from 0 to 100000 💡
+  - Billing metric added: per Events from 100000 to Inf 💡
+  - Billing metric added: FHIRResourceImport per API Call 💡
+
+- [gamelift](processed/gamelift.json)
+  - Billing metric removed: [Gamelift Linux Current Generation] 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] 💥
+  - Billing metric removed: [Gamelift Linux current-] 💥
+  - Billing metric removed: [Gamelift Windows current-] 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift r3 2xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift r3 2xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift r3 4xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift r3 4xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift r3 8xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift r3 8xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift r3 large Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift r3 large Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift r3 xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift r3 xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift c3 2xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift c3 2xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift c3 4xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift c3 4xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift c3 8xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift c3 8xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift c3 large Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift c3 large Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift c3 xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift c3 xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift m3 2xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift m3 2xlarge Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift m3 large Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift m3 large Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift m3 medium Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift m3 medium Windows Previous Generation 💥
+  - Billing metric removed: [Gamelift Linux Current Generation] Gamelift m3 xlarge Linux Previous Generation 💥
+  - Billing metric removed: [Gamelift Windows Current Generation] Gamelift m3 xlarge Windows Previous Generation 💥
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6i xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6i xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6i xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6i xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5ad 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5ad 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5ad 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5ad 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5ad 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5ad 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5ad 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5ad 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5ad 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5ad 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5ad 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5ad 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5ad large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5ad large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5ad xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5ad xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5n 18xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5n 18xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5n 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5n 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5n 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5n 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5n 9xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5n 9xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5n large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5n large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c5n xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c5n xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6a 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6a 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6a 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6a 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6gd 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6gd 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6gd 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6gd 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6gd 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6gd large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6gd medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6gd xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6id xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6id xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c6in xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c6in xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a medium Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7a xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7a xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gd 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gd 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gd 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gd 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gd 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gd large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gd medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gd xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gn 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gn 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gn 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gn 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gn 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gn large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gn medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7gn xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c7i xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c7i xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8a 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c8a 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8a 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c8a 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8a 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c8a 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c8a large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c8a large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c8a medium Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c8a medium Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c8a xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c8a xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8g xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c8i 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c8i 2xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8i 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c8i 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c8i 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c8i 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c8i large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c8i large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c8i xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c8i xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c9g 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c9g 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c9g 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c9g large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c9g medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c9g xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m4 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m4 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5ad 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5ad 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5ad 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5ad 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5ad 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5ad 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5ad 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5ad 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5ad 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5ad 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5ad 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5ad 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5ad large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5ad large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5ad xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5ad xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5d 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5d 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5d 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5d 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5d 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5d 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5d 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5d 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5d 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5d 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5d 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5d 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5d large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5d large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5d xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5d xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5dn 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5dn 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5dn 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5dn 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5dn 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5dn 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5dn 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5dn 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5dn 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5dn 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5dn 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5dn 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5dn large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5dn large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5dn xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5dn xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5n 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5n 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5n 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5n 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5n 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5n 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5n 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5n 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5n 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5n 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5n 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5n 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5n large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5n large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m5n xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m5n xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6a xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6a xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6gd 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6gd 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6gd 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6gd 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6gd 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6gd large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6gd medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6gd xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6id xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6id xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6idn xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6idn xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m6in xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m6in xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a medium Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7a xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7a xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7gd 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7gd 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7gd 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7gd 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7gd 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7gd large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7gd medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7gd xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m7i xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m7i xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8a 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8a 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8a 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8a 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8a 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8a 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8a large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8a large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8a medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8a medium Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8a xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8a xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8g xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8i 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8i 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8i 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8i 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8i 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8i 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8i large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8i large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m8i xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m8i xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m9g 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m9g 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m9g 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m9g large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m9g medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m9g xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5ad 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5ad 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5ad 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5ad 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5ad 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5ad 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5ad 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5ad 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5ad 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5ad 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5ad 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5ad 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5ad large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5ad large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5ad xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5ad xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5dn 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5dn 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5dn 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5dn 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5dn 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5dn 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5dn 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5dn 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5dn 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5dn 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5dn 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5dn 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5dn large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5dn large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5dn xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5dn xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5n 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5n 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5n 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5n 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5n 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5n 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5n 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5n 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5n 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5n 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5n 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5n 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5n large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5n large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r5n xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r5n xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6a xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6a xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6gd 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6gd 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6gd 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6gd 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6gd 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6gd large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6gd medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6gd xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6id xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6id xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6idn xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6idn xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r6in xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r6in xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a 32xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a 32xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a medium Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7a xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7a xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7gd 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7gd 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7gd 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7gd 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7gd 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7gd large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7gd medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7gd xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i 12xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i 16xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i 24xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i 48xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r7i xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r7i xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g 12xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g 16xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g 24xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g 48xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r8g xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t2 nano Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift t2 nano Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t3 large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift t3 large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t3 micro Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift t3 micro Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t3 nano Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift t3 nano Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t3 small Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift t3 small Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t4g large Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t4g medium Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t4g micro Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t4g nano Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift t4g small Linux current- 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r3 2xlarge Linux Previous Generation;Gamelift r3 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r3 2xlarge Windows Previous Generation;Gamelift r3 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r3 4xlarge Linux Previous Generation;Gamelift r3 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r3 4xlarge Windows Previous Generation;Gamelift r3 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r3 8xlarge Linux Previous Generation;Gamelift r3 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r3 8xlarge Windows Previous Generation;Gamelift r3 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r3 large Linux Previous Generation;Gamelift r3 large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r3 large Windows Previous Generation;Gamelift r3 large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift r3 xlarge Linux Previous Generation;Gamelift r3 xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift r3 xlarge Windows Previous Generation;Gamelift r3 xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6i 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m6i 2xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6i 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m6i 4xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6i 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m6i 8xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6i large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m6i large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6i xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m6i xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6i 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6i 2xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6i 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6i 4xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6i 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6i 8xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6i large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6i large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6i xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6i xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6in 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6in 2xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6in 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6in 4xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6in 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6in 8xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6in large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6in large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6in xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6in xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c3 2xlarge Linux Previous Generation;Gamelift c3 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c3 2xlarge Windows Previous Generation;Gamelift c3 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c3 4xlarge Linux Previous Generation;Gamelift c3 4xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c3 4xlarge Windows Previous Generation;Gamelift c3 4xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c3 8xlarge Linux Previous Generation;Gamelift c3 8xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c3 8xlarge Windows Previous Generation;Gamelift c3 8xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c3 large Linux Previous Generation;Gamelift c3 large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c3 large Windows Previous Generation;Gamelift c3 large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift c3 xlarge Linux Previous Generation;Gamelift c3 xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift c3 xlarge Windows Previous Generation;Gamelift c3 xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m3 2xlarge Linux Previous Generation;Gamelift m3 2xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m3 2xlarge Windows Previous Generation;Gamelift m3 2xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m3 large Linux Previous Generation;Gamelift m3 large Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m3 large Windows Previous Generation;Gamelift m3 large Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m3 medium Linux Previous Generation;Gamelift m3 medium Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m3 medium Windows Previous Generation;Gamelift m3 medium Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux Current Generation] Gamelift m3 xlarge Linux Previous Generation;Gamelift m3 xlarge Linux Current Generation 💡
+  - Billing metric added: [Gamelift Windows Current Generation] Gamelift m3 xlarge Windows Previous Generation;Gamelift m3 xlarge Windows Current Generation 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6gd 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6gd 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6gd 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6gd large Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6gd medium Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m6gd xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m5d 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m5d 2xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m5d 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m5d 4xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m5d 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m5d 8xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m5d large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m5d large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift m5d xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift m5d xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c6gd 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c6gd 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c6gd 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c6gd large Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c6gd medium Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c6gd xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6gd 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6gd 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6gd 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6gd large Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6gd medium Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6gd xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r7a 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r7a 2xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r7a 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r7a 4xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r7a 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r7a 8xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r7a large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r7a large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r7a medium Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r7a medium Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r7a xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r7a xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6idn 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6idn 2xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6idn 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6idn 4xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6idn 8xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6idn 8xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6idn large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6idn large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift r6idn xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift r6idn xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c5n 2xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c5n 2xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c5n 4xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c5n 4xlarge Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c5n large Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c5n large Windows current- 💡
+  - Billing metric added: [Gamelift Linux current-] Gamelift c5n xlarge Linux current- 💡
+  - Billing metric added: [Gamelift Windows current-] Gamelift c5n xlarge Windows current- 💡
+
+- [mq](processed/mq.json)
+  - Billing metric removed: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m5.2xlarge 💥
+  - Billing metric removed: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m5.4xlarge 💥
+  - Billing metric removed: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m5.large 💥
+  - Billing metric removed: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m5.xlarge 💥
+  - Billing metric removed: [RabbitMQ Multi AZ per Hrs] 💥
+  - Billing metric removed: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m5.2xlarge 💥
+  - Billing metric removed: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m5.4xlarge 💥
+  - Billing metric removed: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m5.large 💥
+  - Billing metric removed: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m5.xlarge 💥
+  - Billing metric removed: [RabbitMQ Single AZ per Hrs] 💥
+  - Billing metric removed: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq t3.micro 💥
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m5.2xlarge;RabbitMQ m5.2xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m5.4xlarge;RabbitMQ m5.4xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m5.large;RabbitMQ m5.large Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m5.xlarge;RabbitMQ m5.xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m7g.12xlarge;RabbitMQ m7g.12xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m7g.16xlarge;RabbitMQ m7g.16xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m7g.2xlarge;RabbitMQ m7g.2xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m7g.4xlarge;RabbitMQ m7g.4xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m7g.8xlarge;RabbitMQ m7g.8xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m7g.large;RabbitMQ m7g.large Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m7g.medium;RabbitMQ m7g.medium Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Multi AZ per Hrs] RabbitMQ Active Standby mq m7g.xlarge;RabbitMQ m7g.xlarge Multi AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m5.2xlarge;RabbitMQ m5.2xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m5.4xlarge;RabbitMQ m5.4xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m5.large;RabbitMQ m5.large Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m5.xlarge;RabbitMQ m5.xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m7g.12xlarge;RabbitMQ m7g.12xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m7g.16xlarge;RabbitMQ m7g.16xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m7g.2xlarge;RabbitMQ m7g.2xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m7g.4xlarge;RabbitMQ m7g.4xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m7g.8xlarge;RabbitMQ m7g.8xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m7g.large;RabbitMQ m7g.large Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m7g.medium;RabbitMQ m7g.medium Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq m7g.xlarge;RabbitMQ m7g.xlarge Single AZ per Hrs 💡
+  - Billing metric added: [RabbitMQ Single AZ per Hrs] RabbitMQ Single Instance mq t3.micro;RabbitMQ t3.micro Single AZ per Hrs 💡
+  - Billing metric added: Active Standby mq m7i large 💡
+  - Billing metric added: Active Standby mq m7i 4xlarge 💡
+  - Billing metric added: Active Standby mq m7i 2xlarge 💡
+  - Billing metric added: Single Instance mq m7i large 💡
+  - Billing metric added: Single Instance mq m7i xlarge 💡
+  - Billing metric added: Single Instance mq m7i 2xlarge 💡
+  - Billing metric added: Active Standby mq m7i xlarge 💡
+  - Billing metric added: Single Instance mq m7i 4xlarge 💡
+
+- [transfer](processed/transfer.json)
+  - Billing metric added: Transfer AS2 Outbound per Message 💡
+  - Billing metric added: Transfer AS2 Inbound per Message 💡
+  - Billing metric added: Transfer AS2 Large Inbound per Message 💡
+  - Billing metric added: Transfer AS2 Large Outbound per Message 💡
+
+- [quicksight](processed/quicksight.json)
+  - Billing metric added: per GB Mo 💡
+  - Billing metric added: Free Reader CapacityPricing 800KSessions Usage Free Edition per Sessions 💡
+  - Billing metric added: Standard Monthly user subscriptions Monthly per User 💡
+  - Billing metric added: Free Reader CapacityPricing 1600KSessions Usage Free Edition per Sessions 💡
+  - Billing metric added: Free Reader CapacityPricing 400KSessions Usage Free Edition per Sessions 💡
+  - Billing metric added: Standard Annual user subscriptions Annual per User 💡
+  - Billing metric added: Enterprise Annual user subscriptions with Q Annual per Users 💡
+  - Billing metric added: Enterprise Monthly user subscriptions Monthly per User 💡
+  - Billing metric added: Enterprise Annual user subscriptions Annual per User 💡
+  - Billing metric added: Free Reader CapacityPricing 200KSessions Usage Free Edition per Sessions 💡
+  - Billing metric added: Enterprise Monthly user subscriptions with Q Monthly per Users 💡
+
+- [networkfirewall](processed/networkfirewall.json)
+  - Billing metric added: AWS Firewall per Throughput-Discounted 💡
+  - Billing metric added: AWS Firewall per Endpoint-Secondary 💡
+  - Billing metric added: AWS Firewall per Throughput-TGW attached NFW 💡
+
+- [inspectorv2](processed/inspectorv2.json)
+  - Billing metric added: FREE Hourly 💡
+  - Billing metric added: FREE Scanning Hourly 💡
+  - Billing metric added: FREE SAST Resource assessment 💡
+  - Billing metric added: FREE Scanning free-trial Hourly 💡
+  - Billing metric added: FREE Resource assessment 💡
+  - Billing metric added: FREE Scanning One-Shot Resource-assessment 💡
+  - Billing metric added: FREE Instance hrs 💡
+  - Billing metric added: FREE free trial Resource-assessment 💡
+  - Billing metric added: FREE IaC Resource assessment 💡
+  - Billing metric added: FREE free metering Resource-assessment 💡
+  - Billing metric added: FREE SCA Resource assessment 💡
+
+- [omics](processed/omics.json)
+  - Billing metric removed: [Compute Type per GB-Hours] 💥
+  - Billing metric removed: [Compute Compute Optimized Instances Type per Instance-hrs] 💥
+  - Billing metric removed: [Compute Accelerated Computing Type per Instance-hrs] 💥
+  - Billing metric removed: [Compute Standard Instances Type per Instance-hrs] 💥
+  - Billing metric removed: [Compute Memory Optimized Instances Type per Instance-hrs] 💥
+  - Billing metric added: [Compute Type per GB-Hours] Compute Ephemeral Storage per GB-Hours 💡
+  - Billing metric added: [Compute Compute Optimized Instances Type per Instance-hrs] Compute Compute Optimized Instances omics c.32xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Compute Optimized Instances Type per Instance-hrs] Compute Compute Optimized Instances omics c.48xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g4dn.16xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g5.16xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g5.24xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.12xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.16xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.24xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.2xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.4xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.8xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6.xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.12xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.16xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.24xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.2xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.4xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.8xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Accelerated Computing Type per Instance-hrs] Compute Accelerated Computing omics g6e.xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Standard Instances Type per Instance-hrs] Compute Standard Instances omics m.32xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Standard Instances Type per Instance-hrs] Compute Standard Instances omics m.48xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Memory Optimized Instances Type per Instance-hrs] Compute Memory Optimized Instances omics r.32xlarge per Instance-hrs 💡
+  - Billing metric added: [Compute Memory Optimized Instances Type per Instance-hrs] Compute Memory Optimized Instances omics r.48xlarge per Instance-hrs 💡
+
+- [lex](processed/lex.json)
+  - Billing metric added: Ai DTMF-to-Speech-Str-GR Supported Mode Speech Text and DTMF 💡
+  - Billing metric added: Ai Speech-to-Text-Str-GR Supported Mode Speech Text and DTMF 💡
+  - Billing metric added: Ai Speech-to-Speech-Str Supported Mode Speech Text and DTMF 💡
+  - Billing metric added: Ai Speech-to-Text-Req-GR Supported Mode Speech and Text 💡
+  - Billing metric added: Ai Speech-to-Speech-Req Supported Mode Speech and Text 💡
+  - Billing metric added: Ai DTMF-to-Speech-Str Supported Mode Speech Text and DTMF 💡
+  - Billing metric added: Ai Speech-to-Speech-Req-GR Supported Mode Speech and Text 💡
+  - Billing metric added: Ai Speech-to-Speech-Str-GR Supported Mode Speech Text and DTMF 💡
+  - Billing metric added: Ai Speech-to-Text-Req Supported Mode Speech and Text 💡
+  - Billing metric added: Ai Speech-to-Text-Str Supported Mode Speech Text and DTMF 💡
+
+- [kinesisvideo](processed/kinesisvideo.json)
+  - Billing metric added: Per real time viewer minute of media ingested via WebRTC 1080p or lower resolution per minutes 💡
+  - Billing metric added: Per GB Month of Data deleted early in Kinesis Video Streams per GB-Month 💡
+  - Billing metric added: Per thousand fragments ingested into Kinesis Video Streams persisted per Fragments Ingested 💡
+  - Billing metric added: per GB Processed 💡
+
+- [q](processed/q.json)
+  - Billing metric added: Amazon Q Image Image Analysis 💡
+  - Billing metric added: Amazon Q Video Video Analysis 💡
+  - Billing metric added: Amazon Q Audio Audio Analysis 💡
+
+- [iamaccessanalyzer](processed/iamaccessanalyzer.json)
+  - Billing metric added: Findings-InternalAccessAnalysis per Number of Monitored resources 💡
+
+- [workspaces](processed/workspaces.json)
+  - Billing metric removed: [Red Hat Enterprise Linux General Purpose AlwaysOn Billed by the month Included] 💥
+  - Billing metric removed: [Red Hat Enterprise Linux General Purpose AutoStop Billed by the hour Included] 💥
+  - Billing metric removed: [Red Hat Enterprise Linux General Purpose AutoStop Billed by the month Included] 💥
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6f.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License BYOL;Windows Graphics g6f.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics gr6.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License BYOL;Windows Graphics gr6.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6.16xlarge 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License Included;Windows Graphics g6.16xlarge Graphics G6 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License BYOL;Windows Graphics g6.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month BYOL] Windows Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6f.large 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License Included;Windows Graphics g6f.large Graphics G6 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows General Purpose AutoStop Billed by the month Included] Windows GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License Included;Windows GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included;Windows Graphics g6.8xlarge Graphics G6 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics gr6f.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License BYOL;Windows Graphics gr6f.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AlwaysOn Billed by the month Included] Ubuntu Linux Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License Included;Ubuntu Linux Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the hour Included] Ubuntu Linux Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License Included;Ubuntu Linux Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6.8xlarge Graphics G6 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6.16xlarge 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6.16xlarge Graphics G6 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows General Purpose AutoStop Billed by the hour BYOL] Windows GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License BYOL;Windows GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6f.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License BYOL;Windows Graphics g6f.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics gr6f.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included;Windows Graphics gr6f.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6f.large 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License BYOL;Windows Graphics g6f.large Graphics G6 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows General Purpose AutoStop Billed by the month BYOL] Windows GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License BYOL;Windows GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6f.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License Included;Windows Graphics g6f.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows General Purpose AutoStop Billed by the month Included] Windows GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License Included;Windows GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month Included] Windows Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License Included;Windows Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month Included] Windows Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License Included;Windows Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License BYOL;Windows Graphics g6.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6f.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6f.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6f.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License Included;Windows Graphics g6f.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows General Purpose AutoStop Billed by the month BYOL] Windows GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License BYOL;Windows GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6f.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License Included;Windows Graphics g6f.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AlwaysOn Billed by the month Included] Ubuntu Linux Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License Included;Ubuntu Linux Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6f.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License Included;Windows Graphics g6f.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6.16xlarge 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License Included;Windows Graphics g6.16xlarge Graphics G6 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics gr6.8xlarge 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License Included;Windows Graphics gr6.8xlarge Graphics G6 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month Included] Windows Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License Included;Windows Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month BYOL] Windows Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License BYOL;Windows Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month BYOL] Windows Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License BYOL;Windows Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour Included] Windows Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License Included;Windows Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the month Included] Ubuntu Linux Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License Included;Ubuntu Linux Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License Included;Windows Graphics g6.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics gr6f.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included;Windows Graphics gr6f.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6f.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License Included;Windows Graphics g6f.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows General Purpose AlwaysOn Billed by the month BYOL] Windows GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month BYOL] Windows Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License BYOL;Windows Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows General Purpose AlwaysOn Billed by the month Included] Windows GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License Included;Windows GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics gr6.8xlarge 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License Included;Windows Graphics gr6.8xlarge Graphics G6 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month Included] Windows Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included;Windows Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License Included;Windows Graphics g6.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics gr6f.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License BYOL;Windows Graphics gr6f.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6f.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License Included;Windows Graphics g6f.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6f.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License Included;Windows Graphics g6f.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics gr6.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included;Windows Graphics gr6.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the hour Included] Ubuntu Linux Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included;Ubuntu Linux Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month BYOL] Windows Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6f.large 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License Included;Windows Graphics g6f.large Graphics G6 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6.8xlarge Graphics G6 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the month Included] Ubuntu Linux Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included;Ubuntu Linux Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6f.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6f.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included;Windows Graphics g6.8xlarge Graphics G6 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics gr6.8xlarge 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License BYOL;Windows Graphics gr6.8xlarge Graphics G6 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the month Included] Ubuntu Linux Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License Included;Ubuntu Linux Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6.16xlarge 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License BYOL;Windows Graphics g6.16xlarge Graphics G6 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows General Purpose AlwaysOn Billed by the month BYOL] Windows GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month Included] Windows Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License Included;Windows Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6f.large 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License Included;Windows Graphics g6f.large Graphics G6 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics gr6.8xlarge 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License BYOL;Windows Graphics gr6.8xlarge Graphics G6 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6.16xlarge 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6.16xlarge Graphics G6 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour Included] Windows Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included;Windows Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month BYOL] Windows Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6f.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License Included;Windows Graphics g6f.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month Included] Windows Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included;Windows Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics gr6.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License BYOL;Windows Graphics gr6.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6f.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6f.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6f.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6f.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics gr6f.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License BYOL;Windows Graphics gr6f.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows General Purpose AutoStop Billed by the hour Included] Windows GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License Included;Windows GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month BYOL] Windows Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License Included;Windows Graphics g6.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour Included] Windows Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License Included;Windows Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the hour Included] Ubuntu Linux Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License Included;Ubuntu Linux Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AlwaysOn Billed by the month Included] Ubuntu Linux Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included;Ubuntu Linux Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics gr6.8xlarge 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License BYOL;Windows Graphics gr6.8xlarge Graphics G6 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License Included;Windows Graphics g6.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour BYOL] Windows Graphics g7.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License BYOL;Windows Graphics g7.8xlarge Graphics G7 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6.16xlarge 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License Included;Windows Graphics g6.16xlarge Graphics G6 64vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics gr6f.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included;Windows Graphics gr6f.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AlwaysOn Billed by the month Included] Windows Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License Included;Windows Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6f.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License Included;Windows Graphics g6f.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour BYOL] Windows Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License BYOL;Windows Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License BYOL;Windows Graphics g6.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows General Purpose AlwaysOn Billed by the month Included] Windows GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License Included;Windows GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License Included;Windows Graphics g6.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License Included;Windows Graphics g6.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour BYOL] Windows Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License BYOL;Windows Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics gr6.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License BYOL;Windows Graphics gr6.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included;Windows Graphics g6.8xlarge Graphics G6 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AlwaysOn Billed by the month Included] Ubuntu Linux Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License Included;Ubuntu Linux Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics gr6.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included;Windows Graphics gr6.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month BYOL] Windows Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License BYOL;Windows Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6f.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6f.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour Included] Windows Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License Included;Windows Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the month Included] Windows Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License Included;Windows Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6f.large 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6f.large Graphics G6 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6f.large 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6f.large Graphics G6 2vCPU 8 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6.8xlarge 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License BYOL;Windows Graphics g6.8xlarge Graphics G6 32vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the hour Included] Ubuntu Linux Graphics g7.12xlarge 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License Included;Ubuntu Linux Graphics g7.12xlarge Graphics G7 48vCPU 192 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G7 AutoStop Billed by the hour BYOL] Windows Graphics g7.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License BYOL;Windows Graphics g7.4xlarge Graphics G7 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month Included] Windows Graphics g6.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License Included;Windows Graphics g6.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics g6.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License Included;Windows Graphics g6.2xlarge Graphics G6 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour BYOL] Windows Graphics g6f.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License BYOL;Windows Graphics g6f.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Ubuntu Linux Graphics G7 AutoStop Billed by the month Included] Ubuntu Linux Graphics g7.2xlarge 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License Included;Ubuntu Linux Graphics g7.2xlarge Graphics G7 8vCPU 32 GiB Memory Root and User Volume150 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics gr6.8xlarge 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License Included;Windows Graphics gr6.8xlarge Graphics G6 32vCPU 256 GiB Memory Root and User Volume300 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month Included] Windows Graphics g6.xlarge 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License Included;Windows Graphics g6.xlarge Graphics G6 4vCPU 16 GiB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Windows Graphics G6 AlwaysOn Billed by the month BYOL] Windows Graphics g6.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License BYOL;Windows Graphics g6.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: [Windows General Purpose AutoStop Billed by the hour Included] Windows GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License Included;Windows GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the month BYOL] Windows Graphics g6f.4xlarge 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License BYOL;Windows Graphics g6f.4xlarge Graphics G6 16vCPU 64 GiB Memory Root and User Volume200 GB 150 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: [Windows Graphics G6 AutoStop Billed by the hour Included] Windows Graphics gr6.4xlarge 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included;Windows Graphics gr6.4xlarge Graphics G6 16vCPU 128 GiB Memory Root and User Volume250 GB 200 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Windows General Purpose AutoStop Billed by the hour BYOL] Windows GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License BYOL;Windows GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License BYOL Windows Office 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License BYOL Windows Project 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License BYOL Windows Visio 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.4xlarge License Included Ubuntu Linux Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License BYOL Windows Office 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.4xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License Included Windows Visual Studio 2022 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.16xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License BYOL Windows Visio 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.2xlarge License Included Ubuntu Linux Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.2xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License BYOL Windows Visual Studio 2022 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6f.2xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6f.4xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License BYOL Windows Visio 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.2xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.12xlarge License Included Ubuntu Linux Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.8xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License Included Windows Project 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License Included Windows Visual Studio 2022 Ent AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License Included Windows Project 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.16xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License BYOL Windows Office 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.2xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License Included Windows Project 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License Included Windows Visual Studio 2022 Ent AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G7 License Included Windows Visual Studio 2022 Ent AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License Included Windows Visio 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License Included Windows Visio 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics gr6.4xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License Included Windows Office 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License BYOL Windows Visio 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License Included Windows Office 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License BYOL Windows Visual Studio 2022 Ent AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics gr6.4xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.4xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G7 License BYOL Windows Visual Studio 2022 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License Included Windows Visual Studio 2022 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.8xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License BYOL Windows Project 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License BYOL Windows Office 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License Included Windows Visio 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6f.xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.12xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License BYOL Windows Visio 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License Included Windows Visio 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6f.xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License Included Windows Visual Studio 2022 Ent AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.8xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License BYOL Windows Project 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.8xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics gr6f.4xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License Included Windows Project 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6f.4xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License Included Windows Office 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6.4xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics gr6.8xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License BYOL Windows Office 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics gr6.8xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License Included Windows Visio 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License Included Windows Project 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License BYOL Windows Project 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics gr6f.4xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.2xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License Included Windows Office 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.4xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License Included Windows Project 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6f.2xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License Included Windows Visio 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License Included Windows Visual Studio 2022 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License BYOL Windows Visual Studio 2022 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License BYOL Windows Visual Studio 2022 Ent AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6f.large License BYOL Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License BYOL Windows Project 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.8xlarge License Included Ubuntu Linux Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License BYOL Windows Visual Studio 2022 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License BYOL Windows Visio 2021 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g6f.large License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics g7.12xlarge License Included Windows Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G6 License BYOL Windows Project 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G7 License Included Windows Visual Studio 2022 Pro AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License BYOL Windows Office 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle Graphics G7 License BYOL Windows Visual Studio 2022 Ent AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License Included Windows Office 2021 Std AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge Plus License BYOL Windows Visual Studio 2022 Ent AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge Plus License Included Windows Office 2021 Std AlwaysOn 💡
+  - Billing metric added: [Ubuntu Linux General Purpose AutoStop Billed by the month Included] Ubuntu Linux GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License Included;Ubuntu Linux GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Ubuntu Linux General Purpose AutoStop Billed by the hour Included] Ubuntu Linux GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License Included;Ubuntu Linux GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Ubuntu Linux General Purpose AlwaysOn Billed by the month Included] Ubuntu Linux GeneralPurpose 8xlarge 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License Included;Ubuntu Linux GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Ubuntu Linux General Purpose AlwaysOn Billed by the month Included] Ubuntu Linux GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License Included;Ubuntu Linux GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Ubuntu Linux General Purpose AutoStop Billed by the hour Included] Ubuntu Linux GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License Included;Ubuntu Linux GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Ubuntu Linux General Purpose AutoStop Billed by the month Included] Ubuntu Linux GeneralPurpose 4xlarge 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License Included;Ubuntu Linux GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume175 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AlwaysOn Billed by the month Included] Red Hat Enterprise Linux GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume 175 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AutoStop Billed by the hour Included] Red Hat Enterprise Linux GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume 175 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AutoStop Billed by the month Included] Red Hat Enterprise Linux GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume 175 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AlwaysOn Billed by the month Included] Red Hat Enterprise Linux GeneralPurpose 8xlarge General Purpose 32vCPU 128 GB Memory Root and User Volume 175 GB 100 GB AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AutoStop Billed by the month Included] Red Hat Enterprise Linux GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume 175 GB 100 GB AutoStop Billed by the month License Included 💡
+  - Billing metric added: [Red Hat Enterprise Linux General Purpose AutoStop Billed by the hour Included] Red Hat Enterprise Linux GeneralPurpose 4xlarge General Purpose 16vCPU 64 GB Memory Root and User Volume 175 GB 100 GB AutoStop Billed by the hour License Included 💡
+  - Billing metric added: Windows Graphics g6.4xlarge vCPU Memory Root and User Volume AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: Windows Graphics g6.4xlarge vCPU Memory Root and User Volume AutoStop Billed by the month License Included 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge License Included Red Hat Enterprise Linux Basic utilities AlwaysOn 💡
+  - Billing metric added: Windows Graphics g6.4xlarge vCPU Memory Root and User Volume AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: Application Bundle GeneralPurpose 8xlarge License Included Ubuntu Linux Basic utilities AlwaysOn 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge License Included Red Hat Enterprise Linux Basic utilities AlwaysOn 💡
+  - Billing metric added: Windows Graphics g6.4xlarge vCPU Memory Root and User Volume AutoStop Billed by the hour License Included 💡
+  - Billing metric added: Windows Graphics g6.4xlarge vCPU Memory Root and User Volume AlwaysOn Billed by the month License Included 💡
+  - Billing metric added: Windows Graphics g6.4xlarge vCPU Memory Root and User Volume AlwaysOn Billed by the month License BYOL 💡
+  - Billing metric added: Application Bundle GeneralPurpose 4xlarge License Included Ubuntu Linux Basic utilities AlwaysOn 💡
+  - Billing metric added: [Windows Graphics AutoStop Billed by the hour BYOL] Windows Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License BYOL;Windows Graphics Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the hour License BYOL 💡
+  - Billing metric added: [Windows Graphics AutoStop Billed by the month BYOL] Windows Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License BYOL;Windows Graphics Graphics 8vCPU 15 GB Memory Root and User Volume100 GB 100 GB AutoStop Billed by the month License BYOL 💡
+  - Billing metric added: Windows Graphics g6.4xlarge 16vCPU Memory Root and User Volume AutoStop Billed by the hour License BYOL 💡
+
+- [elementalmedialive](processed/elementalmedialive.json)
+  - Billing metric added: UHD AV1 Output Frame 30-60fps 💡
+  - Billing metric added: Single UHD AV1 Output Frame less than 30fps Reserved 12 Months 💡
+  - Billing metric added: Single UHD AV1 Output Frame 30-60fps 💡
+  - Billing metric added: UHD AV1 Output Frame 30-60fps Reserved 12 Months 💡
+  - Billing metric added: UHD AV1 Output Frame less than 30fps Reserved 12 Months 💡
+  - Billing metric added: Single UHD AV1 Output Frame 30-60fps Reserved 12 Months 💡
+  - Billing metric added: UHD AV1 Output Frame less than 30fps 💡
+  - Billing metric added: Single UHD AV1 Output Frame less than 30fps 💡
+
+- [kinesis](processed/kinesis.json)
+  - Billing metric added: OnDemand Advantage per GB month 💡
+  - Billing metric added: OnDemand Advantage per GB 💡
+
+- [codebuild](processed/codebuild.json)
+  - Billing metric removed: [OnDemand-Docker Linux] 💥
+  - Billing metric removed: [Sandbox Linux] 💥
+  - Billing metric removed: [Reserved-EC2-Attributes Linux] 💥
+  - Billing metric removed: [OnDemand-EC2 Windows] 💥
+  - Billing metric removed: [Sandbox Windows] 💥
+  - Billing metric removed: [Reserved-EC2-Attributes Windows] 💥
+  - Billing metric removed: [Reserved-EC2-Attributes macOS] 💥
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-arm1.2xlarge 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-arm1.2xlarge 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-arm1.large 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-arm1.large 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-arm1.medium 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-arm1.medium 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-arm1.small 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-arm1.small 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-arm1.xlarge 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-arm1.xlarge 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-general1.2xlarge 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-general1.2xlarge 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-general1.large 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-general1.large 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-general1.medium 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-general1.medium 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-general1.small 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-general1.small 💡
+  - Billing metric added: [OnDemand-Docker Linux] OnDemand-Docker Linux-computetype-general1.xlarge 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-general1.xlarge 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-gpu1.large 💡
+  - Billing metric added: [Sandbox Linux] Sandbox Linux-computetype-gpu1.small 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.arm.16cpu.32gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.arm.2cpu.4gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.arm.32cpu.64gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.arm.48cpu.96gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.arm.4cpu.8gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.arm.64cpu.128gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.arm.8cpu.16gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.gpu.16cpu.64gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.gpu.32cpu.128gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.gpu.48cpu.192gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.gpu.4cpu.16gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.gpu.64cpu.256gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.gpu.8cpu.32gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.16cpu.32gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.2cpu.4gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.32cpu.64gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.36cpu.72gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.48cpu.96gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.48cpu.96gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.4cpu.8gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.64cpu.128gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.64cpu.128gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.72cpu.144gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.72cpu.144gib.nvme 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.8cpu.16gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.x86-64.96cpu.192gib 💡
+  - Billing metric added: [OnDemand-EC2 Windows] OnDemand-EC2 Windows-computetype-general1.2xlarge 💡
+  - Billing metric added: [Sandbox Windows] Sandbox Windows-computetype-general1.2xlarge 💡
+  - Billing metric added: [Sandbox Windows] Sandbox Windows-computetype-general1.large 💡
+  - Billing metric added: [Sandbox Windows] Sandbox Windows-computetype-general1.medium 💡
+  - Billing metric added: [OnDemand-EC2 Windows] OnDemand-EC2 Windows-computetype-general1.xlarge 💡
+  - Billing metric added: [Sandbox Windows] Sandbox Windows-computetype-general1.xlarge 💡
+  - Billing metric added: [Reserved-EC2-Attributes Windows] Reserved-EC2-Attributes Windows-computetype-reserved.x86-64.16cpu.32gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Windows] Reserved-EC2-Attributes Windows-computetype-reserved.x86-64.2cpu.4gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Windows] Reserved-EC2-Attributes Windows-computetype-reserved.x86-64.36cpu.72gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Windows] Reserved-EC2-Attributes Windows-computetype-reserved.x86-64.48cpu.96gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Windows] Reserved-EC2-Attributes Windows-computetype-reserved.x86-64.4cpu.8gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Windows] Reserved-EC2-Attributes Windows-computetype-reserved.x86-64.72cpu.144gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Windows] Reserved-EC2-Attributes Windows-computetype-reserved.x86-64.8cpu.16gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Windows] Reserved-EC2-Attributes Windows-computetype-reserved.x86-64.96cpu.192gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes macOS] Reserved-EC2-Attributes macOS-computetype-reserved.arm.m2.12cpu.32gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes macOS] Reserved-EC2-Attributes macOS-computetype-reserved.arm.m2.8cpu.24gib 💡
+  - Billing metric added: [Reserved-EC2-Attributes Linux] Reserved-EC2-Attributes Linux-computetype-reserved.gpu.96cpu.384gib.nvme 💡
+
+- [mediaconnect](processed/mediaconnect.json)
+  - Billing metric added: RunningFlow LargeInstance Per Hour 💡
+  - Billing metric added: Running250mbpsOutput Per Hour 💡
+  - Billing metric added: Running500mbpsOutput Per Hour 💡
+  - Billing metric added: Running20mbpsOutput Per Hour 💡
+  - Billing metric added: Running100mbpsInput Per Hour 💡
+  - Billing metric added: Running20mbpsInput Per Hour 💡
+  - Billing metric added: Running50mbpsInput Per Hour 💡
+  - Billing metric added: Running250mbpsInput Per Hour 💡
+  - Billing metric added: Running50mbpsOutput Per Hour 💡
+  - Billing metric added: Running500mbpsInput Per Hour 💡
+  - Billing metric added: Running100mbpsOutput Per Hour 💡
+
+- [elementalmediatailor](processed/elementalmediatailor.json)
+  - Billing metric added: Ad Insertion 0 to Inf per month 💡
+
+- [waf](processed/waf.json)
+  - Billing metric added: AMR Anti DDoS Request Processed per Request 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 0 per Request 💡
+  - Billing metric added: Request Processed Tier0 per Request 💡
+  - Billing metric added: AMR Anti DDoS Activated Shield Protected per Month 💡
+  - Billing metric added: AMR Anti DDoS Activated per Month 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 1 per Request 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 3 2500WCU per Request 💡
+  - Billing metric added: AMR AntiDDoS Request Processed Shield Protected per Request 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 8 5000WCU per Request 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 5 3500WCU per Request 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 7 4500WCU per Request 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 6 4000WCU per Request 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 2 2000WCU per Request 💡
+  - Billing metric added: AMR Anti DDoS Request Capped Processed (Shield Protected) Tier 4 3000WCU per Request 💡
+
+- [redshift](processed/redshift.json)
+  - Billing metric removed: [OnDemand Compute Instance Current Generation] 💥
+  - Billing metric removed: [Redshift Concurrency Scaling Current Generation RG] 💥
+  - Billing metric added: [OnDemand Compute Instance Current Generation] rg 12xlarge OnDemand Compute Instance Current Generation 💡
+  - Billing metric added: [OnDemand Compute Instance Current Generation] rg 4xlarge OnDemand Compute Instance Current Generation 💡
+  - Billing metric added: [OnDemand Compute Instance Current Generation] rg large OnDemand Compute Instance Current Generation 💡
+  - Billing metric added: [OnDemand Compute Instance Current Generation] rg xlarge OnDemand Compute Instance Current Generation 💡
+  - Billing metric added: [Redshift Concurrency Scaling Current Generation RG] rg 12xlarge Redshift Concurrency Scaling Current Generation RG 💡
+  - Billing metric added: [Redshift Concurrency Scaling Current Generation RG] rg 4xlarge Redshift Concurrency Scaling Current Generation RG 💡
+  - Billing metric added: [Redshift Concurrency Scaling Current Generation RG] rg large Redshift Concurrency Scaling Current Generation RG 💡
+  - Billing metric added: [Redshift Concurrency Scaling Current Generation RG] rg xlarge Redshift Concurrency Scaling Current Generation RG 💡
+
+- [cloudwatch](processed/cloudwatch.json)
+  - Billing metric added: PromQL Alarm Standard 💡
+  - Billing metric added: Log Alarm Standard 💡
+  - Billing metric added: Ingested Log Otel from 0 upto Inf 💡
+  - Billing metric added: Ingested Log Ess Otel from 0 upto Inf 💡
+  - Billing metric added: Ingested Log IA Otel from 0 upto Inf 💡
+
+- [pcs](processed/pcs.json)
+  - Billing metric added: AWSParallelComputingService Medium Slurm 💡
+  - Billing metric added: AWSParallelComputingService Small Slurm 💡
+  - Billing metric added: AWSParallelComputingService 💡
+  - Billing metric added: AWSParallelComputingService Large Slurm 💡
+
+- [deadline](processed/deadline.json)
+  - Billing metric removed: [Compute Instance] 💥
+  - Billing metric removed: [Compute Instance Windows] 💥
+  - Billing metric added: [Compute Instance] Compute Instance c5ad 12xlarge;Compute Instance c5ad 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5ad 16xlarge;Compute Instance c5ad 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5ad 24xlarge;Compute Instance c5ad 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5ad 2xlarge;Compute Instance c5ad 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5ad 4xlarge;Compute Instance c5ad 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5ad 8xlarge;Compute Instance c5ad 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5ad large;Compute Instance c5ad large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5ad xlarge;Compute Instance c5ad xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d 12xlarge;Compute Instance c5d 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d 18xlarge;Compute Instance c5d 18xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d 24xlarge;Compute Instance c5d 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d 2xlarge;Compute Instance c5d 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d 4xlarge;Compute Instance c5d 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d 9xlarge;Compute Instance c5d 9xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d large;Compute Instance c5d large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d metal;Compute Instance c5d metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c5d xlarge;Compute Instance c5d xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id 12xlarge;Compute Instance c6id 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id 16xlarge;Compute Instance c6id 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id 24xlarge;Compute Instance c6id 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id 2xlarge;Compute Instance c6id 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id 32xlarge;Compute Instance c6id 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id 4xlarge;Compute Instance c6id 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id 8xlarge;Compute Instance c6id 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id large;Compute Instance c6id large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id metal;Compute Instance c6id metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c6id xlarge;Compute Instance c6id xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a 12xlarge;Compute Instance c7a 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a 16xlarge;Compute Instance c7a 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a 24xlarge;Compute Instance c7a 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a 2xlarge;Compute Instance c7a 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a 32xlarge;Compute Instance c7a 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a 48xlarge;Compute Instance c7a 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a 4xlarge;Compute Instance c7a 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a 8xlarge;Compute Instance c7a 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a large;Compute Instance c7a large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a medium;Compute Instance c7a medium Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7a xlarge;Compute Instance c7a xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i 12xlarge;Compute Instance c7i 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i 16xlarge;Compute Instance c7i 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i 24xlarge;Compute Instance c7i 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i 2xlarge;Compute Instance c7i 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i 48xlarge;Compute Instance c7i 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i 4xlarge;Compute Instance c7i 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i 8xlarge;Compute Instance c7i 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i large;Compute Instance c7i large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i metal-24xl;Compute Instance c7i metal-24xl Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c7i xlarge;Compute Instance c7i xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a 12xlarge;Compute Instance c8a 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a 16xlarge;Compute Instance c8a 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a 24xlarge;Compute Instance c8a 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a 2xlarge;Compute Instance c8a 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a 48xlarge;Compute Instance c8a 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a 4xlarge;Compute Instance c8a 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a 8xlarge;Compute Instance c8a 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a large;Compute Instance c8a large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a medium;Compute Instance c8a medium Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8a xlarge;Compute Instance c8a xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 12xlarge;Compute Instance c8i 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 16xlarge;Compute Instance c8i 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 24xlarge;Compute Instance c8i 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 2xlarge;Compute Instance c8i 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 32xlarge;Compute Instance c8i 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 48xlarge;Compute Instance c8i 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 4xlarge;Compute Instance c8i 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 8xlarge;Compute Instance c8i 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i 96xlarge;Compute Instance c8i 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i large;Compute Instance c8i large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8i xlarge;Compute Instance c8i xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 12xlarge;Compute Instance c8ib 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 16xlarge;Compute Instance c8ib 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 24xlarge;Compute Instance c8ib 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 2xlarge;Compute Instance c8ib 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 32xlarge;Compute Instance c8ib 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 48xlarge;Compute Instance c8ib 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 4xlarge;Compute Instance c8ib 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 8xlarge;Compute Instance c8ib 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib 96xlarge;Compute Instance c8ib 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib large;Compute Instance c8ib large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ib xlarge;Compute Instance c8ib xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 12xlarge;Compute Instance c8id 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 16xlarge;Compute Instance c8id 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 24xlarge;Compute Instance c8id 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 2xlarge;Compute Instance c8id 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 32xlarge;Compute Instance c8id 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 48xlarge;Compute Instance c8id 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 4xlarge;Compute Instance c8id 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 8xlarge;Compute Instance c8id 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id 96xlarge;Compute Instance c8id 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id large;Compute Instance c8id large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8id xlarge;Compute Instance c8id xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 12xlarge;Compute Instance c8in 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 16xlarge;Compute Instance c8in 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 24xlarge;Compute Instance c8in 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 2xlarge;Compute Instance c8in 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 32xlarge;Compute Instance c8in 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 48xlarge;Compute Instance c8in 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 4xlarge;Compute Instance c8in 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 8xlarge;Compute Instance c8in 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in 96xlarge;Compute Instance c8in 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in large;Compute Instance c8in large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8in xlarge;Compute Instance c8in xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ine 12xlarge;Compute Instance c8ine 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ine 2xlarge;Compute Instance c8ine 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ine 4xlarge;Compute Instance c8ine 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ine 8xlarge;Compute Instance c8ine 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ine large;Compute Instance c8ine large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance c8ine xlarge;Compute Instance c8ine xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g4dn 12xlarge;Compute Instance g4dn 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g4dn 16xlarge;Compute Instance g4dn 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g4dn 2xlarge;Compute Instance g4dn 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g4dn 4xlarge;Compute Instance g4dn 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g4dn 8xlarge;Compute Instance g4dn 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g4dn metal;Compute Instance g4dn metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g4dn xlarge;Compute Instance g4dn xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g5 12xlarge;Compute Instance g5 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g5 16xlarge;Compute Instance g5 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g5 24xlarge;Compute Instance g5 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g5 2xlarge;Compute Instance g5 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g5 48xlarge;Compute Instance g5 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g5 4xlarge;Compute Instance g5 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g5 8xlarge;Compute Instance g5 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g5 xlarge;Compute Instance g5 xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6 12xlarge;Compute Instance g6 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6 16xlarge;Compute Instance g6 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6 24xlarge;Compute Instance g6 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6 2xlarge;Compute Instance g6 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6 48xlarge;Compute Instance g6 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6 4xlarge;Compute Instance g6 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6 8xlarge;Compute Instance g6 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6 xlarge;Compute Instance g6 xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6e 12xlarge;Compute Instance g6e 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6e 16xlarge;Compute Instance g6e 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6e 24xlarge;Compute Instance g6e 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6e 2xlarge;Compute Instance g6e 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6e 48xlarge;Compute Instance g6e 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6e 4xlarge;Compute Instance g6e 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6e 8xlarge;Compute Instance g6e 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6e xlarge;Compute Instance g6e xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6f 2xlarge;Compute Instance g6f 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6f 4xlarge;Compute Instance g6f 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6f large;Compute Instance g6f large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g6f xlarge;Compute Instance g6f xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g7e 12xlarge;Compute Instance g7e 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g7e 24xlarge;Compute Instance g7e 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g7e 2xlarge;Compute Instance g7e 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g7e 48xlarge;Compute Instance g7e 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g7e 4xlarge;Compute Instance g7e 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance g7e 8xlarge;Compute Instance g7e 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance gr6 4xlarge;Compute Instance gr6 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance gr6 8xlarge;Compute Instance gr6 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance gr6f 4xlarge;Compute Instance gr6f 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5ad 12xlarge;Compute Instance m5ad 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5ad 16xlarge;Compute Instance m5ad 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5ad 24xlarge;Compute Instance m5ad 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5ad 2xlarge;Compute Instance m5ad 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5ad 4xlarge;Compute Instance m5ad 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5ad 8xlarge;Compute Instance m5ad 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5ad large;Compute Instance m5ad large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5ad xlarge;Compute Instance m5ad xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d 12xlarge;Compute Instance m5d 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d 16xlarge;Compute Instance m5d 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d 24xlarge;Compute Instance m5d 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d 2xlarge;Compute Instance m5d 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d 4xlarge;Compute Instance m5d 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d 8xlarge;Compute Instance m5d 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d large;Compute Instance m5d large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d metal;Compute Instance m5d metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5d xlarge;Compute Instance m5d xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn 12xlarge;Compute Instance m5dn 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn 16xlarge;Compute Instance m5dn 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn 24xlarge;Compute Instance m5dn 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn 2xlarge;Compute Instance m5dn 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn 4xlarge;Compute Instance m5dn 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn 8xlarge;Compute Instance m5dn 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn large;Compute Instance m5dn large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn metal;Compute Instance m5dn metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m5dn xlarge;Compute Instance m5dn xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id 12xlarge;Compute Instance m6id 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id 16xlarge;Compute Instance m6id 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id 24xlarge;Compute Instance m6id 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id 2xlarge;Compute Instance m6id 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id 32xlarge;Compute Instance m6id 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id 4xlarge;Compute Instance m6id 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id 8xlarge;Compute Instance m6id 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id large;Compute Instance m6id large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id metal;Compute Instance m6id metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6id xlarge;Compute Instance m6id xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn 12xlarge;Compute Instance m6idn 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn 16xlarge;Compute Instance m6idn 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn 24xlarge;Compute Instance m6idn 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn 2xlarge;Compute Instance m6idn 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn 32xlarge;Compute Instance m6idn 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn 4xlarge;Compute Instance m6idn 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn 8xlarge;Compute Instance m6idn 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn large;Compute Instance m6idn large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn metal;Compute Instance m6idn metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m6idn xlarge;Compute Instance m6idn xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a 12xlarge;Compute Instance m7a 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a 16xlarge;Compute Instance m7a 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a 24xlarge;Compute Instance m7a 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a 2xlarge;Compute Instance m7a 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a 32xlarge;Compute Instance m7a 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a 48xlarge;Compute Instance m7a 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a 4xlarge;Compute Instance m7a 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a 8xlarge;Compute Instance m7a 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a large;Compute Instance m7a large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a medium;Compute Instance m7a medium Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7a xlarge;Compute Instance m7a xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i 12xlarge;Compute Instance m7i 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i 16xlarge;Compute Instance m7i 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i 24xlarge;Compute Instance m7i 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i 2xlarge;Compute Instance m7i 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i 48xlarge;Compute Instance m7i 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i 4xlarge;Compute Instance m7i 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i 8xlarge;Compute Instance m7i 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i large;Compute Instance m7i large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i metal-24xl;Compute Instance m7i metal-24xl Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m7i xlarge;Compute Instance m7i xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a 12xlarge;Compute Instance m8a 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a 16xlarge;Compute Instance m8a 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a 24xlarge;Compute Instance m8a 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a 2xlarge;Compute Instance m8a 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a 48xlarge;Compute Instance m8a 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a 4xlarge;Compute Instance m8a 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a 8xlarge;Compute Instance m8a 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a large;Compute Instance m8a large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a medium;Compute Instance m8a medium Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a metal-24xl;Compute Instance m8a metal-24xl Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8a xlarge;Compute Instance m8a xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8azn 12xlarge;Compute Instance m8azn 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8azn 24xlarge;Compute Instance m8azn 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8azn 3xlarge;Compute Instance m8azn 3xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8azn 6xlarge;Compute Instance m8azn 6xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8azn large;Compute Instance m8azn large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8azn medium;Compute Instance m8azn medium Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8azn xlarge;Compute Instance m8azn xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 12xlarge;Compute Instance m8i 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 16xlarge;Compute Instance m8i 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 24xlarge;Compute Instance m8i 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 2xlarge;Compute Instance m8i 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 32xlarge;Compute Instance m8i 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 48xlarge;Compute Instance m8i 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 4xlarge;Compute Instance m8i 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 8xlarge;Compute Instance m8i 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i 96xlarge;Compute Instance m8i 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i large;Compute Instance m8i large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8i xlarge;Compute Instance m8i xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 12xlarge;Compute Instance m8ib 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 16xlarge;Compute Instance m8ib 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 24xlarge;Compute Instance m8ib 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 2xlarge;Compute Instance m8ib 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 32xlarge;Compute Instance m8ib 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 48xlarge;Compute Instance m8ib 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 4xlarge;Compute Instance m8ib 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 8xlarge;Compute Instance m8ib 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib 96xlarge;Compute Instance m8ib 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib large;Compute Instance m8ib large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ib xlarge;Compute Instance m8ib xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 12xlarge;Compute Instance m8id 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 16xlarge;Compute Instance m8id 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 24xlarge;Compute Instance m8id 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 2xlarge;Compute Instance m8id 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 32xlarge;Compute Instance m8id 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 48xlarge;Compute Instance m8id 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 4xlarge;Compute Instance m8id 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 8xlarge;Compute Instance m8id 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id 96xlarge;Compute Instance m8id 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id large;Compute Instance m8id large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8id xlarge;Compute Instance m8id xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 12xlarge;Compute Instance m8idb 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 16xlarge;Compute Instance m8idb 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 24xlarge;Compute Instance m8idb 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 2xlarge;Compute Instance m8idb 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 32xlarge;Compute Instance m8idb 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 48xlarge;Compute Instance m8idb 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 4xlarge;Compute Instance m8idb 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 8xlarge;Compute Instance m8idb 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb 96xlarge;Compute Instance m8idb 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb large;Compute Instance m8idb large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idb xlarge;Compute Instance m8idb xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 12xlarge;Compute Instance m8idn 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 16xlarge;Compute Instance m8idn 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 24xlarge;Compute Instance m8idn 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 2xlarge;Compute Instance m8idn 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 32xlarge;Compute Instance m8idn 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 48xlarge;Compute Instance m8idn 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 4xlarge;Compute Instance m8idn 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 8xlarge;Compute Instance m8idn 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn 96xlarge;Compute Instance m8idn 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn large;Compute Instance m8idn large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8idn xlarge;Compute Instance m8idn xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 12xlarge;Compute Instance m8in 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 16xlarge;Compute Instance m8in 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 24xlarge;Compute Instance m8in 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 2xlarge;Compute Instance m8in 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 32xlarge;Compute Instance m8in 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 48xlarge;Compute Instance m8in 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 4xlarge;Compute Instance m8in 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 8xlarge;Compute Instance m8in 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in 96xlarge;Compute Instance m8in 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in large;Compute Instance m8in large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8in xlarge;Compute Instance m8in xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ine 12xlarge;Compute Instance m8ine 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ine 2xlarge;Compute Instance m8ine 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ine 4xlarge;Compute Instance m8ine 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ine 8xlarge;Compute Instance m8ine 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ine large;Compute Instance m8ine large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance m8ine xlarge;Compute Instance m8ine xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5ad 12xlarge;Compute Instance r5ad 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5ad 16xlarge;Compute Instance r5ad 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5ad 24xlarge;Compute Instance r5ad 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5ad 2xlarge;Compute Instance r5ad 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5ad 4xlarge;Compute Instance r5ad 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5ad 8xlarge;Compute Instance r5ad 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5ad large;Compute Instance r5ad large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5ad xlarge;Compute Instance r5ad xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d 12xlarge;Compute Instance r5d 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d 16xlarge;Compute Instance r5d 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d 24xlarge;Compute Instance r5d 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d 2xlarge;Compute Instance r5d 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d 4xlarge;Compute Instance r5d 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d 8xlarge;Compute Instance r5d 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d large;Compute Instance r5d large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d metal;Compute Instance r5d metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5d xlarge;Compute Instance r5d xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn 12xlarge;Compute Instance r5dn 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn 16xlarge;Compute Instance r5dn 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn 24xlarge;Compute Instance r5dn 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn 2xlarge;Compute Instance r5dn 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn 4xlarge;Compute Instance r5dn 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn 8xlarge;Compute Instance r5dn 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn large;Compute Instance r5dn large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn metal;Compute Instance r5dn metal Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r5dn xlarge;Compute Instance r5dn xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id 12xlarge;Compute Instance r6id 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id 16xlarge;Compute Instance r6id 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id 24xlarge;Compute Instance r6id 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id 2xlarge;Compute Instance r6id 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id 32xlarge;Compute Instance r6id 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id 4xlarge;Compute Instance r6id 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id 8xlarge;Compute Instance r6id 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id large;Compute Instance r6id large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6id xlarge;Compute Instance r6id xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn 12xlarge;Compute Instance r6idn 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn 16xlarge;Compute Instance r6idn 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn 24xlarge;Compute Instance r6idn 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn 2xlarge;Compute Instance r6idn 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn 32xlarge;Compute Instance r6idn 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn 4xlarge;Compute Instance r6idn 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn 8xlarge;Compute Instance r6idn 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn large;Compute Instance r6idn large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r6idn xlarge;Compute Instance r6idn xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a 12xlarge;Compute Instance r7a 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a 16xlarge;Compute Instance r7a 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a 24xlarge;Compute Instance r7a 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a 2xlarge;Compute Instance r7a 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a 32xlarge;Compute Instance r7a 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a 48xlarge;Compute Instance r7a 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a 4xlarge;Compute Instance r7a 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a 8xlarge;Compute Instance r7a 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a large;Compute Instance r7a large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a medium;Compute Instance r7a medium Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7a xlarge;Compute Instance r7a xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i 12xlarge;Compute Instance r7i 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i 16xlarge;Compute Instance r7i 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i 24xlarge;Compute Instance r7i 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i 2xlarge;Compute Instance r7i 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i 48xlarge;Compute Instance r7i 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i 4xlarge;Compute Instance r7i 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i 8xlarge;Compute Instance r7i 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i large;Compute Instance r7i large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i metal-24xl;Compute Instance r7i metal-24xl Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7i xlarge;Compute Instance r7i xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7iz 12xlarge;Compute Instance r7iz 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7iz 16xlarge;Compute Instance r7iz 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7iz 2xlarge;Compute Instance r7iz 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7iz 32xlarge;Compute Instance r7iz 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7iz 4xlarge;Compute Instance r7iz 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7iz 8xlarge;Compute Instance r7iz 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7iz large;Compute Instance r7iz large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r7iz xlarge;Compute Instance r7iz xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a 12xlarge;Compute Instance r8a 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a 16xlarge;Compute Instance r8a 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a 24xlarge;Compute Instance r8a 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a 2xlarge;Compute Instance r8a 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a 48xlarge;Compute Instance r8a 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a 4xlarge;Compute Instance r8a 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a 8xlarge;Compute Instance r8a 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a large;Compute Instance r8a large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a medium;Compute Instance r8a medium Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8a xlarge;Compute Instance r8a xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 12xlarge;Compute Instance r8i 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 16xlarge;Compute Instance r8i 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 24xlarge;Compute Instance r8i 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 2xlarge;Compute Instance r8i 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 32xlarge;Compute Instance r8i 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 48xlarge;Compute Instance r8i 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 4xlarge;Compute Instance r8i 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 8xlarge;Compute Instance r8i 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i 96xlarge;Compute Instance r8i 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i large;Compute Instance r8i large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8i xlarge;Compute Instance r8i xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 12xlarge;Compute Instance r8ib 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 16xlarge;Compute Instance r8ib 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 24xlarge;Compute Instance r8ib 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 2xlarge;Compute Instance r8ib 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 32xlarge;Compute Instance r8ib 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 48xlarge;Compute Instance r8ib 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 4xlarge;Compute Instance r8ib 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 8xlarge;Compute Instance r8ib 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib 96xlarge;Compute Instance r8ib 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib large;Compute Instance r8ib large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8ib xlarge;Compute Instance r8ib xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 12xlarge;Compute Instance r8id 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 16xlarge;Compute Instance r8id 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 24xlarge;Compute Instance r8id 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 2xlarge;Compute Instance r8id 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 32xlarge;Compute Instance r8id 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 48xlarge;Compute Instance r8id 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 4xlarge;Compute Instance r8id 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 8xlarge;Compute Instance r8id 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id 96xlarge;Compute Instance r8id 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id large;Compute Instance r8id large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8id xlarge;Compute Instance r8id xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 12xlarge;Compute Instance r8idb 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 16xlarge;Compute Instance r8idb 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 24xlarge;Compute Instance r8idb 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 2xlarge;Compute Instance r8idb 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 32xlarge;Compute Instance r8idb 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 48xlarge;Compute Instance r8idb 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 4xlarge;Compute Instance r8idb 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 8xlarge;Compute Instance r8idb 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb 96xlarge;Compute Instance r8idb 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb large;Compute Instance r8idb large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idb xlarge;Compute Instance r8idb xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 12xlarge;Compute Instance r8idn 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 16xlarge;Compute Instance r8idn 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 24xlarge;Compute Instance r8idn 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 2xlarge;Compute Instance r8idn 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 32xlarge;Compute Instance r8idn 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 48xlarge;Compute Instance r8idn 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 4xlarge;Compute Instance r8idn 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 8xlarge;Compute Instance r8idn 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn 96xlarge;Compute Instance r8idn 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn large;Compute Instance r8idn large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8idn xlarge;Compute Instance r8idn xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 12xlarge;Compute Instance r8in 12xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 16xlarge;Compute Instance r8in 16xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 24xlarge;Compute Instance r8in 24xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 2xlarge;Compute Instance r8in 2xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 32xlarge;Compute Instance r8in 32xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 48xlarge;Compute Instance r8in 48xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 4xlarge;Compute Instance r8in 4xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 8xlarge;Compute Instance r8in 8xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in 96xlarge;Compute Instance r8in 96xlarge Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in large;Compute Instance r8in large Linux 💡
+  - Billing metric added: [Compute Instance] Compute Instance r8in xlarge;Compute Instance r8in xlarge Linux 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5ad 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5ad 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5ad 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5ad 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5ad 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5ad 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5ad large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5ad xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d 18xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d 9xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c5d xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c6id xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a medium Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7a xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i metal-24xl Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c7i xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a medium Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8a xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8i xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ib xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8id xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8in xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ine 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ine 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ine 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ine 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ine large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance c8ine xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g4dn 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g4dn 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g4dn 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g4dn 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g4dn 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g4dn metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g4dn xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g5 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g5 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g5 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g5 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g5 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g5 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g5 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g5 xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6 xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6e 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6e 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6e 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6e 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6e 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6e 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6e 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6e xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6f 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6f 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6f large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g6f xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g7e 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g7e 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g7e 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g7e 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g7e 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance g7e 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance gr6 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance gr6 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance gr6f 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5ad 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5ad 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5ad 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5ad 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5ad 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5ad 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5ad large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5ad xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5d xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m5dn xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6id xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m6idn xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a medium Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7a xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i metal-24xl Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m7i xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a medium Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a metal-24xl Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8a xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8azn 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8azn 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8azn 3xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8azn 6xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8azn large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8azn medium Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8azn xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8i xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ib xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8id xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idb xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8idn xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8in xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ine 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ine 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ine 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ine 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ine large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance m8ine xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5ad 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5ad 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5ad 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5ad 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5ad 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5ad 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5ad large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5ad xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5d xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn metal Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r5dn xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6id xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r6idn xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a medium Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7a xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i metal-24xl Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7i xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7iz 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7iz 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7iz 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7iz 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7iz 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7iz 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7iz large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r7iz xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a medium Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8a xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8i xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8ib xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8id xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idb xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8idn xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 12xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 16xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 24xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 2xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 32xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 48xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 4xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 8xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in 96xlarge Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in large Windows 💡
+  - Billing metric added: [Compute Instance Windows] Compute Instance r8in xlarge Windows 💡
+  - Billing metric added: Fee Cinema 4D 0 Inf 💡
+  - Billing metric added: Fee Redshift 0 Inf 💡
+  - Billing metric added: Fee Redshift CMF 0 Inf 💡
+  - Billing metric added: Fee RedGiant 0 Inf 💡
+  - Billing metric added: Fee RedGiant CMF 0 Inf 💡
+  - Billing metric added: Fee Cinema 4D CMF 0 Inf 💡
+  - Billing metric added: Fee VRay 0 Inf 💡
+
+- [wickr](processed/wickr.json)
+  - Billing metric added: Wickr GovAnnual1 💡
+
+- [timestream](processed/timestream.json)
+  - Billing metric removed: [Database Instance InfluxDB No license required Cluster] 💥
+  - Billing metric removed: [Database Instance InfluxDB No license required Multi-AZ] 💥
+  - Billing metric removed: [Database Instance InfluxDB No license required Single-AZ] 💥
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.12xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.16xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.24xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Multi-AZ] Database Instance InfluxDB No license required db influx.24xlarge Multi-AZ 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Single-AZ] Database Instance InfluxDB No license required db influx.24xlarge Single-AZ 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.2xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.4xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.8xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.large Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.medium Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.12xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.16xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.24xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.2xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.4xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.8xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.large Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.medium Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.xlarge Cluster 💡
+  - Billing metric added: Influx Optimized Storage Influx IOPS Included with 3K IOPS Cluster 💡
+  - Billing metric added: Influx Optimized Storage Influx IOPS Included with 16K IOPS Cluster 💡
+  - Billing metric added: Influx Optimized Storage Influx IOPS Included with 12k IOPS Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influx.48xlarge Cluster 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Multi-AZ] Database Instance InfluxDB No license required db influx.48xlarge Multi-AZ 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Single-AZ] Database Instance InfluxDB No license required db influx.48xlarge Single-AZ 💡
+  - Billing metric added: [Database Instance InfluxDB No license required Cluster] Database Instance InfluxDB No license required db influxIOIncluded.48xlarge Cluster 💡
+  - Billing metric added: Database Storage Standard SSD Single-AZ 💡
+  - Billing metric added: Database Storage Standard SSD Multi-AZ 💡
+
+- [directoryservice](processed/directoryservice.json)
+  - Billing metric added: Small Simple AD 💡
+
+- [cognito](processed/cognito.json)
+  - Billing metric added: User Pools M2M Tokens MRR Full 5000000 upto Inf per CognitoUserPools-M2MTokens 💡
+  - Billing metric added: User Pools M2M Tokens MRR Full 0 upto 250000 per CognitoUserPools-M2MTokens 💡
+  - Billing metric added: User Pools M2M Tokens MRR Full 250000 upto 5000000 per CognitoUserPools-M2MTokens 💡
+  - Billing metric added: MAU 0 upto 100000 per Requests 💡
+
+- [glue](processed/glue.json)
+  - Billing metric added: ETL Memory Optimized Job Run Glue 6 0 💡
+  - Billing metric added: ETL Memory Optimized Job Run 💡
+  - Billing metric added: ETL Flex Job Run Glue 6 0 💡
+  - Billing metric added: ZETL Compute 💡
+  - Billing metric added: ETL Interactive Session Glue 6 0 💡
+  - Billing metric added: ETL Job Run Glue 6 0 💡
+  - Billing metric added: ETL Flex Job Run 💡
+  - Billing metric added: Data Catalog Statistics 💡
+  - Billing metric added: Materialized view refresh job run 💡
+  - Billing metric added: ZETL Ingestion 💡
+
+- [kendra](processed/kendra.json)
+  - Billing metric added: connector monthly fee Kendra-Connector-MonthlyFee per Count 💡
+  - Billing metric added: GenAI Enterprise Additional Storage Capacity Kendra-GenAI-Ent-Addl-StorageCap per hours 💡
+  - Billing metric added: GenAI Enterprise Base Capacity Kendra-GenAI-Ent-Base-Capacity per hours 💡
+  - Billing metric added: GenAI Enterprise Additional Query Capacity Kendra-GenAI-Ent-Addl-QueryCap per hours 💡
+
+- [msk](processed/msk.json)
+  - Billing metric removed: [ExpressBroker] 💥
+  - Billing metric added: [ExpressBroker] ExpressBroker express.m7g.12xlarge;RunBroker-computefamily-express.m7g.12xlarge 💡
+  - Billing metric added: [ExpressBroker] ExpressBroker express.m7g.16xlarge;RunBroker-computefamily-express.m7g.16xlarge 💡
+  - Billing metric added: [ExpressBroker] ExpressBroker express.m7g.2xlarge;RunBroker-computefamily-express.m7g.2xlarge 💡
+  - Billing metric added: [ExpressBroker] ExpressBroker express.m7g.4xlarge;RunBroker-computefamily-express.m7g.4xlarge 💡
+  - Billing metric added: [ExpressBroker] ExpressBroker express.m7g.8xlarge;RunBroker-computefamily-express.m7g.8xlarge 💡
+  - Billing metric added: [ExpressBroker] ExpressBroker express.m7g.large;RunBroker-computefamily-express.m7g.large 💡
+  - Billing metric added: [ExpressBroker] ExpressBroker express.m7g.xlarge;RunBroker-computefamily-express.m7g.xlarge 💡
+  - Billing metric added: Storage Express storage 💡
+  - Billing metric added: Data-In 💡
+
+- [queueservice](processed/queueservice.json)
+  - Billing metric added: Fair per Requests from 0 to Inf 💡
+
+- [appstream](processed/appstream.json)
+  - Billing metric removed: [Compute optimized Fleet - Windows] 💥
+  - Billing metric removed: [Compute optimized ImageBuilder - Windows] 💥
+  - Billing metric removed: [Compute optimized Fleet - Windows BYOL] 💥
+  - Billing metric removed: [Compute optimized ImageBuilder - Windows BYOL] 💥
+  - Billing metric removed: [General purpose Fleet - Windows] 💥
+  - Billing metric removed: [General purpose ImageBuilder - Windows] 💥
+  - Billing metric removed: [General purpose ElasticFleet - Ubuntu Pro] 💥
+  - Billing metric removed: [General purpose Fleet - Windows BYOL] 💥
+  - Billing metric removed: [General purpose ImageBuilder - Windows BYOL] 💥
+  - Billing metric removed: [Graphics G5 Fleet - Rocky Linux] 💥
+  - Billing metric removed: [Graphics G5 ImageBuilder - Rocky Linux] 💥
+  - Billing metric removed: [Graphics G6 Fleet - Red Hat Enterprise Linux] 💥
+  - Billing metric removed: [Graphics G6 Fleet - Rocky Linux] 💥
+  - Billing metric removed: [Graphics G6 Fleet - Windows] 💥
+  - Billing metric removed: [Graphics G6 Fleet - Windows BYOL] 💥
+  - Billing metric removed: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] 💥
+  - Billing metric removed: [Graphics G6 ImageBuilder - Rocky Linux] 💥
+  - Billing metric removed: [Graphics G6 ImageBuilder - Windows] 💥
+  - Billing metric removed: [Graphics G6 ImageBuilder - Windows BYOL] 💥
+  - Billing metric removed: [Memory optimized Fleet - Windows] 💥
+  - Billing metric removed: [Memory optimized ImageBuilder - Windows] 💥
+  - Billing metric removed: [Memory optimized Fleet - Windows BYOL] 💥
+  - Billing metric removed: [Memory optimized ImageBuilder - Windows BYOL] 💥
+  - Billing metric removed: [Memory optimized Fleet - Rocky Linux] 💥
+  - Billing metric removed: [Memory optimized ImageBuilder - Rocky Linux] 💥
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.12xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.12xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.12xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.16xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.16xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.16xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.24xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.24xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.24xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.2xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.2xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.2xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.32xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.32xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.32xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.48xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.48xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.48xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.4xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.4xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.4xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.8xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.8xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.8xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.large Fleet Windows;Compute optimized ComputeOptimized c6a.large Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.large ImageBuilder Windows;Compute optimized ComputeOptimized c6a.large ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6a.xlarge Fleet Windows;Compute optimized ComputeOptimized c6a.xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6a.xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6a.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.12xlarge Fleet Windows;Compute optimized ComputeOptimized c6i.12xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.12xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6i.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.16xlarge Fleet Windows;Compute optimized ComputeOptimized c6i.16xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.16xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6i.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.24xlarge Fleet Windows;Compute optimized ComputeOptimized c6i.24xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.24xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6i.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.2xlarge Fleet Windows;Compute optimized ComputeOptimized c6i.2xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.2xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6i.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.32xlarge Fleet Windows;Compute optimized ComputeOptimized c6i.32xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.32xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6i.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.4xlarge Fleet Windows;Compute optimized ComputeOptimized c6i.4xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.4xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6i.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.8xlarge Fleet Windows;Compute optimized ComputeOptimized c6i.8xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.8xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6i.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.large Fleet Windows;Compute optimized ComputeOptimized c6i.large Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.large ImageBuilder Windows;Compute optimized ComputeOptimized c6i.large ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c6i.xlarge Fleet Windows;Compute optimized ComputeOptimized c6i.xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c6i.xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c6i.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.12xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.12xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.12xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.16xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.16xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.16xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.24xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.24xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.24xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.2xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.2xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.2xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.32xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.32xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.32xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.48xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.48xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.48xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.4xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.4xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.4xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.8xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.8xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.8xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.large Fleet Windows;Compute optimized ComputeOptimized c7a.large Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.large ImageBuilder Windows;Compute optimized ComputeOptimized c7a.large ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7a.xlarge Fleet Windows;Compute optimized ComputeOptimized c7a.xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7a.xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7a.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i flex.12xlarge Fleet Windows;Compute optimized ComputeOptimized c7i flex.12xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i flex.12xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i flex.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i flex.16xlarge Fleet Windows;Compute optimized ComputeOptimized c7i flex.16xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i flex.16xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i flex.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i flex.2xlarge Fleet Windows;Compute optimized ComputeOptimized c7i flex.2xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i flex.2xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i flex.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i flex.4xlarge Fleet Windows;Compute optimized ComputeOptimized c7i flex.4xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i flex.4xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i flex.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i flex.8xlarge Fleet Windows;Compute optimized ComputeOptimized c7i flex.8xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i flex.8xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i flex.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i flex.large Fleet Windows;Compute optimized ComputeOptimized c7i flex.large Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i flex.large ImageBuilder Windows;Compute optimized ComputeOptimized c7i flex.large ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i flex.xlarge Fleet Windows;Compute optimized ComputeOptimized c7i flex.xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i flex.xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i flex.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.12xlarge Fleet Windows;Compute optimized ComputeOptimized c7i.12xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.12xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.16xlarge Fleet Windows;Compute optimized ComputeOptimized c7i.16xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.16xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.24xlarge Fleet Windows;Compute optimized ComputeOptimized c7i.24xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.24xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.2xlarge Fleet Windows;Compute optimized ComputeOptimized c7i.2xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.2xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.48xlarge Fleet Windows;Compute optimized ComputeOptimized c7i.48xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.48xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.4xlarge Fleet Windows;Compute optimized ComputeOptimized c7i.4xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.4xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.8xlarge Fleet Windows;Compute optimized ComputeOptimized c7i.8xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.8xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.large Fleet Windows;Compute optimized ComputeOptimized c7i.large Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.large ImageBuilder Windows;Compute optimized ComputeOptimized c7i.large ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows] Compute optimized ComputeOptimized c7i.xlarge Fleet Windows;Compute optimized ComputeOptimized c7i.xlarge Fleet per hour 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows] Compute optimized ComputeOptimized c7i.xlarge ImageBuilder Windows;Compute optimized ComputeOptimized c7i.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Compute optimized Fleet - Windows BYOL] Compute optimized stream compute.2xlarge Fleet Windows BYOL;Compute optimized stream compute.2xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows BYOL] Compute optimized stream compute.2xlarge ImageBuilder Windows BYOL;Compute optimized stream compute.2xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Compute optimized Fleet - Windows BYOL] Compute optimized stream compute.4xlarge Fleet Windows BYOL;Compute optimized stream compute.4xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows BYOL] Compute optimized stream compute.4xlarge ImageBuilder Windows BYOL;Compute optimized stream compute.4xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Compute optimized Fleet - Windows BYOL] Compute optimized stream compute.8xlarge Fleet Windows BYOL;Compute optimized stream compute.8xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows BYOL] Compute optimized stream compute.8xlarge ImageBuilder Windows BYOL;Compute optimized stream compute.8xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Compute optimized Fleet - Windows BYOL] Compute optimized stream compute.large Fleet Windows BYOL;Compute optimized stream compute.large Fleet per hour BYOL 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows BYOL] Compute optimized stream compute.large ImageBuilder Windows BYOL;Compute optimized stream compute.large ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Compute optimized Fleet - Windows BYOL] Compute optimized stream compute.xlarge Fleet Windows BYOL;Compute optimized stream compute.xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [Compute optimized ImageBuilder - Windows BYOL] Compute optimized stream compute.xlarge ImageBuilder Windows BYOL;Compute optimized stream compute.xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.12xlarge Fleet Windows;General purpose GeneralPurpose m6a.12xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.12xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.16xlarge Fleet Windows;General purpose GeneralPurpose m6a.16xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.16xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.24xlarge Fleet Windows;General purpose GeneralPurpose m6a.24xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.24xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.2xlarge Fleet Windows;General purpose GeneralPurpose m6a.2xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.2xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.32xlarge Fleet Windows;General purpose GeneralPurpose m6a.32xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.32xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.48xlarge Fleet Windows;General purpose GeneralPurpose m6a.48xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.48xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.4xlarge Fleet Windows;General purpose GeneralPurpose m6a.4xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.4xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.8xlarge Fleet Windows;General purpose GeneralPurpose m6a.8xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.8xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.large Fleet Windows;General purpose GeneralPurpose m6a.large Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.large ImageBuilder Windows;General purpose GeneralPurpose m6a.large ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6a.xlarge Fleet Windows;General purpose GeneralPurpose m6a.xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6a.xlarge ImageBuilder Windows;General purpose GeneralPurpose m6a.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.12xlarge Fleet Windows;General purpose GeneralPurpose m6i.12xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.12xlarge ImageBuilder Windows;General purpose GeneralPurpose m6i.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.16xlarge Fleet Windows;General purpose GeneralPurpose m6i.16xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.16xlarge ImageBuilder Windows;General purpose GeneralPurpose m6i.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.24xlarge Fleet Windows;General purpose GeneralPurpose m6i.24xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.24xlarge ImageBuilder Windows;General purpose GeneralPurpose m6i.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.2xlarge Fleet Windows;General purpose GeneralPurpose m6i.2xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.2xlarge ImageBuilder Windows;General purpose GeneralPurpose m6i.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.32xlarge Fleet Windows;General purpose GeneralPurpose m6i.32xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.32xlarge ImageBuilder Windows;General purpose GeneralPurpose m6i.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.4xlarge Fleet Windows;General purpose GeneralPurpose m6i.4xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.4xlarge ImageBuilder Windows;General purpose GeneralPurpose m6i.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.8xlarge Fleet Windows;General purpose GeneralPurpose m6i.8xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.8xlarge ImageBuilder Windows;General purpose GeneralPurpose m6i.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.large Fleet Windows;General purpose GeneralPurpose m6i.large Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.large ImageBuilder Windows;General purpose GeneralPurpose m6i.large ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m6i.xlarge Fleet Windows;General purpose GeneralPurpose m6i.xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m6i.xlarge ImageBuilder Windows;General purpose GeneralPurpose m6i.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.12xlarge Fleet Windows;General purpose GeneralPurpose m7a.12xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.12xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.16xlarge Fleet Windows;General purpose GeneralPurpose m7a.16xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.16xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.24xlarge Fleet Windows;General purpose GeneralPurpose m7a.24xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.24xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.2xlarge Fleet Windows;General purpose GeneralPurpose m7a.2xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.2xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.32xlarge Fleet Windows;General purpose GeneralPurpose m7a.32xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.32xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.48xlarge Fleet Windows;General purpose GeneralPurpose m7a.48xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.48xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.4xlarge Fleet Windows;General purpose GeneralPurpose m7a.4xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.4xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.8xlarge Fleet Windows;General purpose GeneralPurpose m7a.8xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.8xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.large Fleet Windows;General purpose GeneralPurpose m7a.large Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.large ImageBuilder Windows;General purpose GeneralPurpose m7a.large ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7a.xlarge Fleet Windows;General purpose GeneralPurpose m7a.xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7a.xlarge ImageBuilder Windows;General purpose GeneralPurpose m7a.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i flex.12xlarge Fleet Windows;General purpose GeneralPurpose m7i flex.12xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i flex.12xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i flex.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i flex.16xlarge Fleet Windows;General purpose GeneralPurpose m7i flex.16xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i flex.16xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i flex.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i flex.2xlarge Fleet Windows;General purpose GeneralPurpose m7i flex.2xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i flex.2xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i flex.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i flex.4xlarge Fleet Windows;General purpose GeneralPurpose m7i flex.4xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i flex.4xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i flex.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i flex.8xlarge Fleet Windows;General purpose GeneralPurpose m7i flex.8xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i flex.8xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i flex.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i flex.large Fleet Windows;General purpose GeneralPurpose m7i flex.large Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i flex.large ImageBuilder Windows;General purpose GeneralPurpose m7i flex.large ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i flex.xlarge Fleet Windows;General purpose GeneralPurpose m7i flex.xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i flex.xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i flex.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.12xlarge Fleet Windows;General purpose GeneralPurpose m7i.12xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.12xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.16xlarge Fleet Windows;General purpose GeneralPurpose m7i.16xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.16xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.24xlarge Fleet Windows;General purpose GeneralPurpose m7i.24xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.24xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.2xlarge Fleet Windows;General purpose GeneralPurpose m7i.2xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.2xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.48xlarge Fleet Windows;General purpose GeneralPurpose m7i.48xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.48xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.4xlarge Fleet Windows;General purpose GeneralPurpose m7i.4xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.4xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.8xlarge Fleet Windows;General purpose GeneralPurpose m7i.8xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.8xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.large Fleet Windows;General purpose GeneralPurpose m7i.large Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.large ImageBuilder Windows;General purpose GeneralPurpose m7i.large ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose m7i.xlarge Fleet Windows;General purpose GeneralPurpose m7i.xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose m7i.xlarge ImageBuilder Windows;General purpose GeneralPurpose m7i.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3.2xlarge Fleet Windows;General purpose GeneralPurpose t3.2xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3.2xlarge ImageBuilder Windows;General purpose GeneralPurpose t3.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3.large Fleet Windows;General purpose GeneralPurpose t3.large Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3.large ImageBuilder Windows;General purpose GeneralPurpose t3.large ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3.medium Fleet Windows;General purpose GeneralPurpose t3.medium Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3.medium ImageBuilder Windows;General purpose GeneralPurpose t3.medium ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3.small Fleet Windows;General purpose GeneralPurpose t3.small Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3.small ImageBuilder Windows;General purpose GeneralPurpose t3.small ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3.xlarge Fleet Windows;General purpose GeneralPurpose t3.xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3.xlarge ImageBuilder Windows;General purpose GeneralPurpose t3.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3a.2xlarge Fleet Windows;General purpose GeneralPurpose t3a.2xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3a.2xlarge ImageBuilder Windows;General purpose GeneralPurpose t3a.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3a.large Fleet Windows;General purpose GeneralPurpose t3a.large Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3a.large ImageBuilder Windows;General purpose GeneralPurpose t3a.large ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3a.medium Fleet Windows;General purpose GeneralPurpose t3a.medium Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3a.medium ImageBuilder Windows;General purpose GeneralPurpose t3a.medium ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3a.small Fleet Windows;General purpose GeneralPurpose t3a.small Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3a.small ImageBuilder Windows;General purpose GeneralPurpose t3a.small ImageBuilder per hour 💡
+  - Billing metric added: [General purpose Fleet - Windows] General purpose GeneralPurpose t3a.xlarge Fleet Windows;General purpose GeneralPurpose t3a.xlarge Fleet per hour 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows] General purpose GeneralPurpose t3a.xlarge ImageBuilder Windows;General purpose GeneralPurpose t3a.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [General purpose ElasticFleet - Ubuntu Pro] General purpose stream standard.2xlarge ElasticFleet Ubuntu Pro 💡
+  - Billing metric added: [General purpose Fleet - Windows BYOL] General purpose stream standard.2xlarge Fleet Windows BYOL;General purpose stream standard.2xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows BYOL] General purpose stream standard.2xlarge ImageBuilder Windows BYOL;General purpose stream standard.2xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [General purpose ElasticFleet - Ubuntu Pro] General purpose stream standard.large ElasticFleet Ubuntu Pro 💡
+  - Billing metric added: [General purpose Fleet - Windows BYOL] General purpose stream standard.large Fleet Windows BYOL;General purpose stream standard.large Fleet per hour BYOL 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows BYOL] General purpose stream standard.large ImageBuilder Windows BYOL;General purpose stream standard.large ImageBuilder per hour BYOL 💡
+  - Billing metric added: [General purpose ElasticFleet - Ubuntu Pro] General purpose stream standard.medium ElasticFleet Ubuntu Pro 💡
+  - Billing metric added: [General purpose Fleet - Windows BYOL] General purpose stream standard.medium Fleet Windows BYOL;General purpose stream standard.medium Fleet per hour BYOL 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows BYOL] General purpose stream standard.medium ImageBuilder Windows BYOL;General purpose stream standard.medium ImageBuilder per hour BYOL 💡
+  - Billing metric added: [General purpose ElasticFleet - Ubuntu Pro] General purpose stream standard.small ElasticFleet Ubuntu Pro 💡
+  - Billing metric added: [General purpose ElasticFleet - Ubuntu Pro] General purpose stream standard.xlarge ElasticFleet Ubuntu Pro 💡
+  - Billing metric added: [General purpose Fleet - Windows BYOL] General purpose stream standard.xlarge Fleet Windows BYOL;General purpose stream standard.xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [General purpose ImageBuilder - Windows BYOL] General purpose stream standard.xlarge ImageBuilder Windows BYOL;General purpose stream standard.xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Graphics G5 Fleet - Rocky Linux] Graphics G5 stream graphics.g5.12xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G5 ImageBuilder - Rocky Linux] Graphics G5 stream graphics.g5.12xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G5 Fleet - Rocky Linux] Graphics G5 stream graphics.g5.16xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G5 ImageBuilder - Rocky Linux] Graphics G5 stream graphics.g5.16xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G5 Fleet - Rocky Linux] Graphics G5 stream graphics.g5.24xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G5 ImageBuilder - Rocky Linux] Graphics G5 stream graphics.g5.24xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G5 Fleet - Rocky Linux] Graphics G5 stream graphics.g5.2xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G5 ImageBuilder - Rocky Linux] Graphics G5 stream graphics.g5.2xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G5 Fleet - Rocky Linux] Graphics G5 stream graphics.g5.4xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G5 ImageBuilder - Rocky Linux] Graphics G5 stream graphics.g5.4xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G5 Fleet - Rocky Linux] Graphics G5 stream graphics.g5.8xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G5 ImageBuilder - Rocky Linux] Graphics G5 stream graphics.g5.8xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G5 Fleet - Rocky Linux] Graphics G5 stream graphics.g5.xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G5 ImageBuilder - Rocky Linux] Graphics G5 stream graphics.g5.xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.12xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6.12xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6.12xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6.12xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.12xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6.12xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6.12xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6.12xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.16xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6.16xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6.16xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6.16xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.16xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6.16xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6.16xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6.16xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.24xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6.24xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6.24xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6.24xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.24xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6.24xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6.24xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6.24xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.2xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6.2xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6.2xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6.2xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.2xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6.2xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6.2xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6.2xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.4xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6.4xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6.4xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6.4xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.4xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6.4xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6.4xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6.4xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.8xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6.8xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6.8xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6.8xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.8xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6.8xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6.8xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6.8xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6.xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6.xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6.xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6.xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6.xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6.xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6.xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6f.2xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6f.2xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6f.2xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6f.2xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6f.2xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6f.2xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6f.2xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6f.2xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6f.4xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6f.4xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6f.4xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6f.4xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6f.4xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6f.4xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6f.4xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6f.4xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6f.large Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6f.large Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6f.large Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6f.large Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6f.large ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6f.large ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6f.large ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6f.large ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6f.xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.g6f.xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.g6f.xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.g6f.xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.g6f.xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.g6f.xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.g6f.xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.g6f.xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.gr6.4xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.gr6.4xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.gr6.4xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.gr6.4xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.gr6.4xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.gr6.4xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.gr6.4xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.gr6.4xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.gr6.8xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.gr6.8xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.gr6.8xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.gr6.8xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.gr6.8xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.gr6.8xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.gr6.8xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.gr6.8xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Graphics G6 Fleet - Red Hat Enterprise Linux] Graphics G6 stream graphics.gr6f.4xlarge Fleet Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Rocky Linux] Graphics G6 stream graphics.gr6f.4xlarge Fleet Rocky Linux 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows] Graphics G6 stream graphics.gr6f.4xlarge Fleet Windows 💡
+  - Billing metric added: [Graphics G6 Fleet - Windows BYOL] Graphics G6 stream graphics.gr6f.4xlarge Fleet Windows BYOL 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Red Hat Enterprise Linux] Graphics G6 stream graphics.gr6f.4xlarge ImageBuilder Red Hat Enterprise Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Rocky Linux] Graphics G6 stream graphics.gr6f.4xlarge ImageBuilder Rocky Linux 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows] Graphics G6 stream graphics.gr6f.4xlarge ImageBuilder Windows 💡
+  - Billing metric added: [Graphics G6 ImageBuilder - Windows BYOL] Graphics G6 stream graphics.gr6f.4xlarge ImageBuilder Windows BYOL 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.12xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.12xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.12xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.16xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.16xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.16xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.24xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.24xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.24xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.2xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.2xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.2xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.32xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.32xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.32xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.48xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.48xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.48xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.4xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.4xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.4xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.8xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.8xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.8xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.large Fleet Windows;Memory optimized MemoryOptimized r6a.large Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.large ImageBuilder Windows;Memory optimized MemoryOptimized r6a.large ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6a.xlarge Fleet Windows;Memory optimized MemoryOptimized r6a.xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6a.xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6a.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.12xlarge Fleet Windows;Memory optimized MemoryOptimized r6i.12xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.12xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6i.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.16xlarge Fleet Windows;Memory optimized MemoryOptimized r6i.16xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.16xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6i.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.24xlarge Fleet Windows;Memory optimized MemoryOptimized r6i.24xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.24xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6i.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.2xlarge Fleet Windows;Memory optimized MemoryOptimized r6i.2xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.2xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6i.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.32xlarge Fleet Windows;Memory optimized MemoryOptimized r6i.32xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.32xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6i.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.4xlarge Fleet Windows;Memory optimized MemoryOptimized r6i.4xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.4xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6i.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.8xlarge Fleet Windows;Memory optimized MemoryOptimized r6i.8xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.8xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6i.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.large Fleet Windows;Memory optimized MemoryOptimized r6i.large Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.large ImageBuilder Windows;Memory optimized MemoryOptimized r6i.large ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r6i.xlarge Fleet Windows;Memory optimized MemoryOptimized r6i.xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r6i.xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r6i.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.12xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.12xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.12xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.16xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.16xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.16xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.24xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.24xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.24xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.2xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.2xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.2xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.32xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.32xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.32xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.32xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.48xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.48xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.48xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.4xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.4xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.4xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.8xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.8xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.8xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.large Fleet Windows;Memory optimized MemoryOptimized r7a.large Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.large ImageBuilder Windows;Memory optimized MemoryOptimized r7a.large ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7a.xlarge Fleet Windows;Memory optimized MemoryOptimized r7a.xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7a.xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7a.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.12xlarge Fleet Windows;Memory optimized MemoryOptimized r7i.12xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.12xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7i.12xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.16xlarge Fleet Windows;Memory optimized MemoryOptimized r7i.16xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.16xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7i.16xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.24xlarge Fleet Windows;Memory optimized MemoryOptimized r7i.24xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.24xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7i.24xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.2xlarge Fleet Windows;Memory optimized MemoryOptimized r7i.2xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.2xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7i.2xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.48xlarge Fleet Windows;Memory optimized MemoryOptimized r7i.48xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.48xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7i.48xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.4xlarge Fleet Windows;Memory optimized MemoryOptimized r7i.4xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.4xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7i.4xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.8xlarge Fleet Windows;Memory optimized MemoryOptimized r7i.8xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.8xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7i.8xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.large Fleet Windows;Memory optimized MemoryOptimized r7i.large Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.large ImageBuilder Windows;Memory optimized MemoryOptimized r7i.large ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows] Memory optimized MemoryOptimized r7i.xlarge Fleet Windows;Memory optimized MemoryOptimized r7i.xlarge Fleet per hour 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows] Memory optimized MemoryOptimized r7i.xlarge ImageBuilder Windows;Memory optimized MemoryOptimized r7i.xlarge ImageBuilder per hour 💡
+  - Billing metric added: [Memory optimized Fleet - Windows BYOL] Memory optimized stream memory.2xlarge Fleet Windows BYOL;Memory optimized stream memory.2xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows BYOL] Memory optimized stream memory.2xlarge ImageBuilder Windows BYOL;Memory optimized stream memory.2xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Memory optimized Fleet - Windows BYOL] Memory optimized stream memory.4xlarge Fleet Windows BYOL;Memory optimized stream memory.4xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows BYOL] Memory optimized stream memory.4xlarge ImageBuilder Windows BYOL;Memory optimized stream memory.4xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Memory optimized Fleet - Windows BYOL] Memory optimized stream memory.8xlarge Fleet Windows BYOL;Memory optimized stream memory.8xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows BYOL] Memory optimized stream memory.8xlarge ImageBuilder Windows BYOL;Memory optimized stream memory.8xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Memory optimized Fleet - Windows BYOL] Memory optimized stream memory.large Fleet Windows BYOL;Memory optimized stream memory.large Fleet per hour BYOL 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows BYOL] Memory optimized stream memory.large ImageBuilder Windows BYOL;Memory optimized stream memory.large ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Memory optimized Fleet - Windows BYOL] Memory optimized stream memory.xlarge Fleet Windows BYOL;Memory optimized stream memory.xlarge Fleet per hour BYOL 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Windows BYOL] Memory optimized stream memory.xlarge ImageBuilder Windows BYOL;Memory optimized stream memory.xlarge ImageBuilder per hour BYOL 💡
+  - Billing metric added: [Memory optimized Fleet - Rocky Linux] Memory optimized stream memory.z1d.12xlarge Fleet Rocky Linux;Memory optimized stream memory.z1d.12xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Rocky Linux] Memory optimized stream memory.z1d.12xlarge ImageBuilder Rocky Linux;Memory optimized stream memory.z1d.12xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized Fleet - Rocky Linux] Memory optimized stream memory.z1d.2xlarge Fleet Rocky Linux;Memory optimized stream memory.z1d.2xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Rocky Linux] Memory optimized stream memory.z1d.2xlarge ImageBuilder Rocky Linux;Memory optimized stream memory.z1d.2xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized Fleet - Rocky Linux] Memory optimized stream memory.z1d.3xlarge Fleet Rocky Linux;Memory optimized stream memory.z1d.3xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Rocky Linux] Memory optimized stream memory.z1d.3xlarge ImageBuilder Rocky Linux;Memory optimized stream memory.z1d.3xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized Fleet - Rocky Linux] Memory optimized stream memory.z1d.6xlarge Fleet Rocky Linux;Memory optimized stream memory.z1d.6xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Rocky Linux] Memory optimized stream memory.z1d.6xlarge ImageBuilder Rocky Linux;Memory optimized stream memory.z1d.6xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized Fleet - Rocky Linux] Memory optimized stream memory.z1d.large Fleet Rocky Linux;Memory optimized stream memory.z1d.large Fleet per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Rocky Linux] Memory optimized stream memory.z1d.large ImageBuilder Rocky Linux;Memory optimized stream memory.z1d.large ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized Fleet - Rocky Linux] Memory optimized stream memory.z1d.xlarge Fleet Rocky Linux;Memory optimized stream memory.z1d.xlarge Fleet per hour Rocky Linux 💡
+  - Billing metric added: [Memory optimized ImageBuilder - Rocky Linux] Memory optimized stream memory.z1d.xlarge ImageBuilder Rocky Linux;Memory optimized stream memory.z1d.xlarge ImageBuilder per hour Rocky Linux 💡
+  - Billing metric added: User Fees Windows BYOL Windows Desktop per User Month 💡
+
+- [systemsmanager](processed/systemsmanager.json)
+  - Billing metric added: Step Step Count per Steps 💡
+  - Billing metric added: Step Script Duration per Units 💡
+  - Billing metric added: Step Basic Steps per Steps 💡
+
+- [backup](processed/backup.json)
+  - Billing metric removed: [Aurora DSQL AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [DDB AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [EFS AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [EKS AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [FSx AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [S3 AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [Aurora AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [DocumentDB AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [EBS AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [Neptune AWSBackup-DataTransfer] 💥
+  - Billing metric removed: [Storage Gateway AWSBackup-DataTransfer] 💥
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to GovCloud US 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to GovCloud US-East 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Africa Cape Town 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Hong Kong 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Hyderabad 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Jakarta 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Malaysia 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Melbourne 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Mumbai 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Osaka 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Seoul 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Singapore 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Sydney 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific Tokyo 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Canada Central 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Canada West Calgary 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to EU Frankfurt 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to EU Ireland 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to EU London 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to EU Milan 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to EU Paris 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to EU Spain 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to EU Stockholm 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to EU Zurich 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Israel Tel Aviv 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Middle East Bahrain 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Middle East UAE 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to South America Sao Paulo 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to US East N Virginia 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to US East Ohio 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to US West N California 💡
+  - Billing metric added: [DDB AWSBackup-DataTransfer] DDB AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [DDB AWSBackup-DataTransfer] DDB AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [DDB AWSBackup-DataTransfer] DDB AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [DDB AWSBackup-DataTransfer] DDB AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [EFS AWSBackup-DataTransfer] EFS AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [EFS AWSBackup-DataTransfer] EFS AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [EFS AWSBackup-DataTransfer] EFS AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [EFS AWSBackup-DataTransfer] EFS AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to GovCloud US 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to GovCloud US-East 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Africa Cape Town 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Hong Kong 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Hyderabad 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Jakarta 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Malaysia 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Melbourne 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Mumbai 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Osaka 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Seoul 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Singapore 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Sydney 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Asia Pacific Tokyo 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Canada Central 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Canada West Calgary 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to EU Frankfurt 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to EU Ireland 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to EU London 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to EU Milan 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to EU Paris 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to EU Spain 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to EU Stockholm 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to EU Zurich 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Israel Tel Aviv 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Middle East Bahrain 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to Middle East UAE 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to South America Sao Paulo 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to US East N Virginia 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to US East Ohio 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to US West N California 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Africa Cape Town 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Hong Kong 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Hyderabad 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Jakarta 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Malaysia 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Melbourne 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Mumbai 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Osaka 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Seoul 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Singapore 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Sydney 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Asia Pacific Tokyo 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Canada Central 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Canada West Calgary 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to EU Frankfurt 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to EU Ireland 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to EU London 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to EU Milan 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to EU Paris 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to EU Spain 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to EU Stockholm 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to EU Zurich 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Israel Tel Aviv 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Middle East Bahrain 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to Middle East UAE 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to South America Sao Paulo 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to US East N Virginia 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to US East Ohio 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to US West N California 💡
+  - Billing metric added: [S3 AWSBackup-DataTransfer] S3 AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [S3 AWSBackup-DataTransfer] S3 AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [S3 AWSBackup-DataTransfer] S3 AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [S3 AWSBackup-DataTransfer] S3 AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: Storage Aurora DSQL Cold LAGVault 💡
+  - Billing metric added: Aurora DSQL Backup Early Delete Size Cold per GB-month 💡
+  - Billing metric added: S3 Backup Storage per GB 💡
+  - Billing metric added: S3 per GB 💡
+  - Billing metric added: S3 Backup Storage Warm per Count 💡
+  - Billing metric added: S3 Backup Storage per Count 💡
+  - Billing metric added: S3 per Count 💡
+  - Billing metric added: EKS Backup Data Actions per Requests 💡
+  - Billing metric added: EKS per Requests 💡
+  - Billing metric added: Aurora DSQL Backup Storage Warm per GB-month 💡
+  - Billing metric added: Aurora DSQL RestoreRecoveryPoint Warm per GB 💡
+  - Billing metric added: S3 Warm per Count 💡
+  - Billing metric added: S3 Warm per Count-month 💡
+  - Billing metric added: EKS Backup Storage Warm per GB-month 💡
+  - Billing metric added: EBS Warm per Count 💡
+  - Billing metric added: EBS Warm per Count-month 💡
+  - Billing metric added: Aurora DSQL RestoreRecoveryPoint Cold per GB 💡
+  - Billing metric added: EBS RestoreRecoveryPoint WarmPartial per GB 💡
+  - Billing metric added: S3 Jobs per Count 💡
+  - Billing metric added: Storage EKS Warm LAGVault 💡
+  - Billing metric added: Storage Aurora DSQL Warm LAGVault 💡
+  - Billing metric added: Aurora DSQL Backup Storage Cold per GB-month 💡
+  - Billing metric added: EBS Jobs per Count 💡
+  - Billing metric added: [EKS AWSBackup-DataTransfer] EKS AWSBackup-DataTransfer to US West Oregon 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to US West Oregon 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to US West Oregon 💡
+  - Billing metric added: [Aurora DSQL AWSBackup-DataTransfer] Aurora DSQL AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [Aurora AWSBackup-DataTransfer] Aurora AWSBackup-DataTransfer to Asia Pacific Malaysia 💡
+  - Billing metric added: [Aurora AWSBackup-DataTransfer] Aurora AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [Aurora AWSBackup-DataTransfer] Aurora AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [Aurora AWSBackup-DataTransfer] Aurora AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [DocumentDB AWSBackup-DataTransfer] DocumentDB AWSBackup-DataTransfer to Asia Pacific Malaysia 💡
+  - Billing metric added: [DocumentDB AWSBackup-DataTransfer] DocumentDB AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [DocumentDB AWSBackup-DataTransfer] DocumentDB AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [DocumentDB AWSBackup-DataTransfer] DocumentDB AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [EBS AWSBackup-DataTransfer] EBS AWSBackup-DataTransfer to Asia Pacific Malaysia 💡
+  - Billing metric added: [EBS AWSBackup-DataTransfer] EBS AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [EBS AWSBackup-DataTransfer] EBS AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [EBS AWSBackup-DataTransfer] EBS AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to GovCloud US 💡
+  - Billing metric added: [FSx AWSBackup-DataTransfer] FSx AWSBackup-DataTransfer to GovCloud US-East 💡
+  - Billing metric added: [Neptune AWSBackup-DataTransfer] Neptune AWSBackup-DataTransfer to Asia Pacific Malaysia 💡
+  - Billing metric added: [Neptune AWSBackup-DataTransfer] Neptune AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [Neptune AWSBackup-DataTransfer] Neptune AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [Neptune AWSBackup-DataTransfer] Neptune AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: [Storage Gateway AWSBackup-DataTransfer] Storage Gateway AWSBackup-DataTransfer to Asia Pacific Malaysia 💡
+  - Billing metric added: [Storage Gateway AWSBackup-DataTransfer] Storage Gateway AWSBackup-DataTransfer to Asia Pacific New Zealand 💡
+  - Billing metric added: [Storage Gateway AWSBackup-DataTransfer] Storage Gateway AWSBackup-DataTransfer to Asia Pacific Taipei 💡
+  - Billing metric added: [Storage Gateway AWSBackup-DataTransfer] Storage Gateway AWSBackup-DataTransfer to Asia Pacific Thailand 💡
+  - Billing metric added: EFS RestoreRecoveryPoint Cold per GB 💡
+  - Billing metric added: Storage EBS Cold LAGVault 💡
+  - Billing metric added: EFS RestoreRecoveryPoint Jobs per Requests 💡
+  - Billing metric added: EFS RestoreRecoveryPoint Warm per GB 💡
+  - Billing metric added: [DocumentDB AWSBackup-DataTransfer] DocumentDB AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [Neptune AWSBackup-DataTransfer] Neptune AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [Aurora AWSBackup-DataTransfer] Aurora AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [EBS AWSBackup-DataTransfer] EBS AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: [Storage Gateway AWSBackup-DataTransfer] Storage Gateway AWSBackup-DataTransfer to Mexico Central 💡
+  - Billing metric added: Storage FSx-MultiAZ Warm LAGVault 💡
+
+- [braket](processed/braket.json)
+  - Billing metric removed: [Accelerated Computing Instances] 💥
+  - Billing metric removed: [Standard Instances] 💥
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6.12xlarge training per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6.16xlarge training per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6.24xlarge training per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6.2xlarge training per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6.48xlarge training per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6.4xlarge training per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6.8xlarge training per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6.xlarge training per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6e.12xlarge per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6e.16xlarge per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6e.24xlarge per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6e.2xlarge per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6e.48xlarge per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6e.4xlarge per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6e.8xlarge per minutes 💡
+  - Billing metric added: [Accelerated Computing Instances] Accelerated Computing Instances ml g6e.xlarge per minutes 💡
+  - Billing metric added: [Standard Instances] Standard Instances ml t3.2xlarge per minutes 💡
+  - Billing metric added: [Standard Instances] Standard Instances ml t3.large per minutes 💡
+  - Billing metric added: [Standard Instances] Standard Instances ml t3.xlarge per minutes 💡
+  - Billing metric added: Rigetti Ankaa 3 Quantum Task 💡
+  - Billing metric added: Rigetti Cepheus 1-108Q Quantum Task 💡
+  - Billing metric added: Rigetti Cepheus 1-108Q Quantum Task-Shot 💡
+  - Billing metric added: Rigetti Ankaa 3 Quantum Task-Shot 💡
+  - Billing metric added: IonQ Forte 1 Quantum Task-Shot 💡
+  - Billing metric added: IonQ Forte Enterprise-1 Quantum Task-Shot 💡
+  - Billing metric added: IonQ Forte Enterprise-1 Quantum Task 💡
+  - Billing metric added: IonQ Forte 1 Quantum Task 💡
+  - Billing metric added: AQT IBEX Q1 Quantum Task 💡
+  - Billing metric added: IQM Emerald Quantum Task 💡
+  - Billing metric added: AQT IBEX Q1 Quantum Task-Shot 💡
+  - Billing metric added: IQM Emerald Quantum Task Shot 💡
+
+- [locationservice](processed/locationservice.json)
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Reverse Geocode request Stored per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Autocomplete request Core per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Reverse Geocode request Core per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places GetPlace request Stored per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Address Validation request Core per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Suggest request Core per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Snap to Road request Basic per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Maps Map tile request per Map Tile 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Routes calculated Premium per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Routes calculated Advanced per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Autocomplete request Label per API Request 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places GetPlace request Advanced per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Optimize Waypoint request Basic per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Search Nearby request Core per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Search Nearby request Advanced per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Total routes calculated Advanced per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Address Validation request Advanced per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Routes calculated Core per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Total routes calculated Core per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Search Text request Core per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Optimize Waypoint request Premium per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Geocode request Stored per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Suggest request Label per API Request 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Isoline calculated Premium per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Geocode request Core per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Maps Static map request per API Request 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Snap to Road request Premium per Route 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Reverse Geocode request Advanced per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Search Nearby request Stored per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Geocode request Advanced per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places GetPlace request Core per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Suggest request Advanced per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Search Text request Advanced per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Places Search Text request Stored per Address 💡
+  - Billing metric added: AmazonLocationService Default RequestBasedUsage Routing Isoline calculated Basic per Route 💡
+
+- [dynamodb](processed/dynamodb.json)
+  - Billing metric added: PayPerRequest Vector Write Request 💡
+  - Billing metric added: PayPerRequest Vector Search 💡
+  - Billing metric added: PayPerRequest Vector Search IA 💡
+
+- [b2bi](processed/b2bi.json)
+  - Billing metric added: X12-837 X223 XML X12-837_X223 Large per Transformations 💡
+  - Billing metric added: JSON X12-180 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-470 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-849 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-195 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-412 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-191 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-273 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-129 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-417 Default XML Large per Transformations 💡
+  - Billing metric added: X12-834 X220 XML X12-834_X220 Large per Transformations 💡
+  - Billing metric added: JSON X12-926 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-856 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-275 X210 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-148 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-850 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-500 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-838 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-155 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-561 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-197 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-437 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-859 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-886 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-434 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-323 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-260 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-154 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-812 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-272 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-859 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-276 X212 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-187 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-837 X298 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-805 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-325 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-100 Default XML per Transformations 💡
+  - Billing metric added: XML X12-601 Default XML Large per Transformations 💡
+  - Billing metric added: X12-837 X292 XML X12-837_X292 Large per Transformations 💡
+  - Billing metric added: JSON X12-357 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-820 X218 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-322 Default XML per Transformations 💡
+  - Billing metric added: X12-275 X210 XML X12-275_X210 Large per Transformations 💡
+  - Billing metric added: XML X12-202 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-206 Default XML per Transformations 💡
+  - Billing metric added: XML X12-813 Default XML per Transformations 💡
+  - Billing metric added: XML X12-212 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-851 Default XML per Transformations 💡
+  - Billing metric added: XML X12-852 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-102 Default XML per Transformations 💡
+  - Billing metric added: XML X12-124 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-108 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-453 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-128 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-453 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-131 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-888 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-435 Default XML per Transformations 💡
+  - Billing metric added: XML X12-250 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-864 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-148 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-867 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-843 Default XML per Transformations 💡
+  - Billing metric added: X12-277 X214 JSON X12-277_X214 Large per Transformations 💡
+  - Billing metric added: XML X12-358 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-871 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-466 Default XML per Transformations 💡
+  - Billing metric added: X12-820 X218 XML X12-820_X218 per Transformations 💡
+  - Billing metric added: XML X12-424 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-521 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-125 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-863 Default XML per Transformations 💡
+  - Billing metric added: XML X12-319 Default XML Large per Transformations 💡
+  - Billing metric added: X12-277 X214 JSON X12-277_X214 per Transformations 💡
+  - Billing metric added: JSON X12-893 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-154 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-875 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-874 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-170 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-886 Default XML per Transformations 💡
+  - Billing metric added: XML X12-837 X222 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-290 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-838 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-317 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-833 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-475 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-819 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X224 JSON X12-837_X224 per Transformations 💡
+  - Billing metric added: JSON X12-267 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-319 Default XML per Transformations 💡
+  - Billing metric added: XML X12-924 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-812 Default XML per Transformations 💡
+  - Billing metric added: XML X12-864 Default XML per Transformations 💡
+  - Billing metric added: XML X12-265 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-211 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-270 X279 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-149 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-201 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-140 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-260 Default XML per Transformations 💡
+  - Billing metric added: XML X12-846 Default XML per Transformations 💡
+  - Billing metric added: X12-276 X212 JSON X12-276_X212 Large per Transformations 💡
+  - Billing metric added: XML X12-356 Default XML per Transformations 💡
+  - Billing metric added: XML X12-135 Default XML per Transformations 💡
+  - Billing metric added: XML X12-455 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-819 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-602 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-828 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-244 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-925 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-284 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-421 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-834 X318 Default XML per Transformations 💡
+  - Billing metric added: XML X12-266 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-222 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-424 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-199 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-828 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-128 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-451 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-811 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-271 X279 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-422 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-891 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-303 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-501 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-837 X298 XML X12-837_X298 Large per Transformations 💡
+  - Billing metric added: JSON X12-834 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-847 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-261 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-303 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-357 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-130 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-194 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-160 Default JSON per Transformations 💡
+  - Billing metric added: XML X12 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-650 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X223 XML X12-837_X223 per Transformations 💡
+  - Billing metric added: XML X12-837 X224 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-490 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-107 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-504 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-356 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-812 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-195 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X224 XML X12-837_X224 per Transformations 💡
+  - Billing metric added: JSON X12-492 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-432 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-858 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-876 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-602 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-568 Default XML per Transformations 💡
+  - Billing metric added: XML X12-361 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-133 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-170 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-188 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-255 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-884 Default XML per Transformations 💡
+  - Billing metric added: XML X12-893 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-874 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-414 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-103 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-277 X364 Default XML per Transformations 💡
+  - Billing metric added: XML X12-837 Default XML per Transformations 💡
+  - Billing metric added: XML X12-280 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-286 Default XML per Transformations 💡
+  - Billing metric added: XML X12-222 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-889 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-249 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-451 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-278 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-300 Default XML per Transformations 💡
+  - Billing metric added: XML X12-278 X217 Default XML per Transformations 💡
+  - Billing metric added: XML X12-511 Default XML per Transformations 💡
+  - Billing metric added: XML X12-125 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-813 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-210 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-540 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-135 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-353 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-423 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-996 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-199 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-826 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-161 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-837 X224 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-943 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-846 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-150 Default XML Large per Transformations 💡
+  - Billing metric added: X12-834 X318 JSON X12-834_X318 Large per Transformations 💡
+  - Billing metric added: XML X12-121 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-185 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-218 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-140 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-278 X216 XML X12-278_X216 per Transformations 💡
+  - Billing metric added: XML X12-201 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-101 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-275 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-120 Default XML per Transformations 💡
+  - Billing metric added: XML X12-350 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-312 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-842 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-879 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-833 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-414 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-835 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-273 Default XML per Transformations 💡
+  - Billing metric added: XML X12-213 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-270 Default XML per Transformations 💡
+  - Billing metric added: XML X12-143 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-242 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-268 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-456 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-486 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-863 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-270 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-106 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-891 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-197 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-456 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-894 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-322 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-304 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-222 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-433 Default XML per Transformations 💡
+  - Billing metric added: XML X12-881 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-879 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-895 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-202 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-276 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-278 X217 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-215 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-875 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-527 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-120 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-214 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-278 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-180 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-475 Default XML per Transformations 💡
+  - Billing metric added: Failures Unknown per Transformations 💡
+  - Billing metric added: JSON X12-358 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-504 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-837 X224 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-267 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-827 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-161 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-754 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-818 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-857 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-837 X299 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-820 X306 Default XML per Transformations 💡
+  - Billing metric added: XML X12-210 Default XML Large per Transformations 💡
+  - Billing metric added: X12-277 X364 JSON X12-277_X364 Large per Transformations 💡
+  - Billing metric added: XML X12-503 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-435 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-198 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-423 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-842 Default XML per Transformations 💡
+  - Billing metric added: XML X12-837 X298 Default XML per Transformations 💡
+  - Billing metric added: JSON JSON Custom JSON per Transformations 💡
+  - Billing metric added: XML X12-404 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-269 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-271 X279 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-355 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-834 Default XML per Transformations 💡
+  - Billing metric added: XML X12-848 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-133 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-149 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-859 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-271 X279 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-100 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-501 Default JSON per Transformations 💡
+  - Billing metric added: X12-837 X291 XML X12-837_X291 Large per Transformations 💡
+  - Billing metric added: XML X12-866 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-419 Default JSON per Transformations 💡
+  - Billing metric added: X12-275 X211 JSON X12-275_X211 Large per Transformations 💡
+  - Billing metric added: JSON X12-896 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-837 X300 JSON X12-837_X300 per Transformations 💡
+  - Billing metric added: XML X12-315 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-362 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-872 Default XML per Transformations 💡
+  - Billing metric added: XML X12-805 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-176 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-315 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-436 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-625 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-326 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-864 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-886 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-324 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-847 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-460 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-840 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-113 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-869 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-355 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-277 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-272 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-862 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-993 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-999 Default XML per Transformations 💡
+  - Billing metric added: XML X12-928 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-313 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-278 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-811 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-857 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-304 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-157 Default XML per Transformations 💡
+  - Billing metric added: XML X12-280 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-256 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-277 X212 JSON X12-277_X212 per Transformations 💡
+  - Billing metric added: XML X12-111 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-176 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-161 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-485 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-251 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-151 Default XML per Transformations 💡
+  - Billing metric added: XML X12-228 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-255 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-814 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-196 Default XML per Transformations 💡
+  - Billing metric added: XML X12-106 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-300 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-879 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-422 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-189 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-998 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-242 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-849 Default XML per Transformations 💡
+  - Billing metric added: XML X12-141 Default XML per Transformations 💡
+  - Billing metric added: XML X12-894 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-511 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-844 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-204 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-837 X223 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-841 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-831 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-870 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-285 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-324 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-999 X231 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-104 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-998 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-511 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-517 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-620 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-715 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-504 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-198 Default XML Large per Transformations 💡
+  - Billing metric added: X12-820 X218 XML X12-820_X218 Large per Transformations 💡
+  - Billing metric added: XML X12-190 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-109 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-837 X224 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-827 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-131 Default JSON per Transformations 💡
+  - Billing metric added: X12-835 X221 XML X12-835_X221 per Transformations 💡
+  - Billing metric added: JSON X12-895 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-456 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-425 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-283 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-272 Default XML per Transformations 💡
+  - Billing metric added: XML X12-837 X223 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-120 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-217 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-225 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-288 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-205 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-326 Default XML per Transformations 💡
+  - Billing metric added: XML X12-845 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-252 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-466 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-832 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-820 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-159 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-993 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-855 Default XML per Transformations 💡
+  - Billing metric added: XML X12-835 X221 Default XML Large per Transformations 💡
+  - Billing metric added: X12-837 X299 JSON X12-837_X299 Large per Transformations 💡
+  - Billing metric added: JSON X12-834 X318 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-144 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-536 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-315 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-266 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-144 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-837 X300 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-139 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-997 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-834 X307 XML X12-834_X307 Large per Transformations 💡
+  - Billing metric added: JSON X12-821 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON JSON Custom JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-865 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-868 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-112 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-412 Default JSON per Transformations 💡
+  - Billing metric added: X12-834 X307 JSON X12-834_X307 per Transformations 💡
+  - Billing metric added: XML X12-131 Default XML Large per Transformations 💡
+  - Billing metric added: X12-276 X212 XML X12-276_X212 per Transformations 💡
+  - Billing metric added: JSON X12-107 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-852 Default XML per Transformations 💡
+  - Billing metric added: XML X12-139 Default XML per Transformations 💡
+  - Billing metric added: XML X12-270 X279 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-196 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-204 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-309 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-753 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-870 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-285 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-256 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-853 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-361 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-753 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-202 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-224 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-878 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-451 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-568 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-895 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-211 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-422 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-270 X279 JSON X12-270_X279 Large per Transformations 💡
+  - Billing metric added: JSON X12-437 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-108 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-244 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-361 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-354 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-133 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-881 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-275 X210 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-871 Default XML per Transformations 💡
+  - Billing metric added: X12-276 X212 XML X12-276_X212 Large per Transformations 💡
+  - Billing metric added: JSON X12-835 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-820 X306 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-855 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-426 Default XML per Transformations 💡
+  - Billing metric added: XML X12-103 Default XML per Transformations 💡
+  - Billing metric added: XML X12-715 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-212 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-998 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-837 X222 XML X12-837_X222 per Transformations 💡
+  - Billing metric added: X12-824 X186 XML X12-824_X186 per Transformations 💡
+  - Billing metric added: JSON X12-877 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-286 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-186 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-304 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-882 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-851 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-841 Default XML per Transformations 💡
+  - Billing metric added: XML X12-824 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-485 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-201 Default XML per Transformations 💡
+  - Billing metric added: XML X12-940 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-486 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-271 X279 XML X12-271_X279 Large per Transformations 💡
+  - Billing metric added: XML X12-112 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-850 Default XML per Transformations 💡
+  - Billing metric added: XML X12-536 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-833 Default XML per Transformations 💡
+  - Billing metric added: XML X12-106 Default XML per Transformations 💡
+  - Billing metric added: XML X12-352 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-540 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-159 Default XML per Transformations 💡
+  - Billing metric added: XML X12-424 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-567 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-102 Default JSON per Transformations 💡
+  - Billing metric added: X12-834 X307 JSON X12-834_X307 Large per Transformations 💡
+  - Billing metric added: JSON X12-259 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-434 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-278 X217 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-355 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-838 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-486 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-824 X186 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-288 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-319 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-517 Default JSON per Transformations 💡
+  - Billing metric added: X12-277 X214 XML X12-277_X214 Large per Transformations 💡
+  - Billing metric added: XML X12-850 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-818 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-876 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-159 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-883 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-517 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-143 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-834 X307 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-268 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-256 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-130 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-440 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-277 X214 XML X12-277_X214 per Transformations 💡
+  - Billing metric added: XML X12-879 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-872 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-943 Default XML Large per Transformations 💡
+  - Billing metric added: X12-837 X300 XML X12-837_X300 per Transformations 💡
+  - Billing metric added: JSON X12-837 X222 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-453 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-837 X291 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-860 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-836 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-601 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-990 Default XML per Transformations 💡
+  - Billing metric added: X12-277 X212 XML X12-277_X212 Large per Transformations 💡
+  - Billing metric added: XML X12-135 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-323 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-836 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-424 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-187 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-280 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-650 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-275 X211 XML X12-275_X211 per Transformations 💡
+  - Billing metric added: JSON X12-213 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-470 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-996 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-504 Default XML per Transformations 💡
+  - Billing metric added: X12-820 X218 JSON X12-820_X218 Large per Transformations 💡
+  - Billing metric added: XML X12-311 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-151 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-277 X214 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-490 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-853 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-175 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-855 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-568 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-245 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-836 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-255 Default XML Large per Transformations 💡
+  - Billing metric added: X12-834 X307 XML X12-834_X307 per Transformations 💡
+  - Billing metric added: XML X12-404 Default XML per Transformations 💡
+  - Billing metric added: XML X12-149 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-270 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-834 X307 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-155 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-601 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-875 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-147 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-149 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-277 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-324 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-132 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-466 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-355 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-147 Default XML per Transformations 💡
+  - Billing metric added: XML X12-873 Default XML per Transformations 💡
+  - Billing metric added: XML X12-248 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-420 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-410 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-109 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-126 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-223 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-837 X291 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-805 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-210 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-133 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-833 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-311 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-322 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-275 X211 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-267 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-141 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-824 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-278 X216 JSON X12-278_X216 Large per Transformations 💡
+  - Billing metric added: JSON X12-837 X299 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-830 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-567 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-835 X221 Default XML per Transformations 💡
+  - Billing metric added: XML X12-896 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-276 X212 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-837 X222 Default XML per Transformations 💡
+  - Billing metric added: XML X12-140 Default XML per Transformations 💡
+  - Billing metric added: XML X12-847 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-831 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-261 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-412 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-274 Default XML per Transformations 💡
+  - Billing metric added: XML X12-485 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-494 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-463 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-877 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-928 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-866 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-418 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-273 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-205 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-820 X306 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-248 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-420 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-891 Default XML per Transformations 💡
+  - Billing metric added: XML X12-417 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-753 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-222 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-278 X217 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-468 Default XML per Transformations 💡
+  - Billing metric added: XML X12-146 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-104 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-426 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-352 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-830 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-127 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-494 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-822 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-276 X212 Default XML per Transformations 💡
+  - Billing metric added: X12-999 X231 JSON X12-999_X231 per Transformations 💡
+  - Billing metric added: JSON X12-834 X318 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-993 Default XML per Transformations 💡
+  - Billing metric added: XML X12-810 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-264 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-852 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-820 X218 Default XML per Transformations 💡
+  - Billing metric added: XML X12-871 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-131 Default XML per Transformations 💡
+  - Billing metric added: XML X12-824 X186 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-259 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-319 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-561 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-834 X220 Default XML per Transformations 💡
+  - Billing metric added: XML X12-110 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-350 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-846 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-492 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-414 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-200 Default JSON per Transformations 💡
+  - Billing metric added: X12-837 X300 XML X12-837_X300 Large per Transformations 💡
+  - Billing metric added: XML X12-301 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-832 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-190 Default XML per Transformations 💡
+  - Billing metric added: XML X12-837 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-317 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-829 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-820 X306 JSON X12-820_X306 Large per Transformations 💡
+  - Billing metric added: JSON X12-301 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-873 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-325 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-276 Default XML Large per Transformations 💡
+  - Billing metric added: X12-837 X300 JSON X12-837_X300 Large per Transformations 💡
+  - Billing metric added: JSON X12-503 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-277 X212 Default XML Large per Transformations 💡
+  - Billing metric added: X12-837 X224 XML X12-837_X224 Large per Transformations 💡
+  - Billing metric added: JSON X12-862 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-309 Default JSON per Transformations 💡
+  - Billing metric added: X12-271 X279 JSON X12-271_X279 Large per Transformations 💡
+  - Billing metric added: X12-824 X186 JSON X12-824_X186 per Transformations 💡
+  - Billing metric added: JSON X12-109 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-858 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-152 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-147 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-198 Default JSON per Transformations 💡
+  - Billing metric added: X12-999 X231 JSON X12-999_X231 Large per Transformations 💡
+  - Billing metric added: X12-837 X292 XML X12-837_X292 per Transformations 💡
+  - Billing metric added: JSON X12-139 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-288 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-191 Default JSON per Transformations 💡
+  - Billing metric added: X12-834 X220 JSON X12-834_X220 per Transformations 💡
+  - Billing metric added: JSON X12-820 X218 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-990 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-868 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-242 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-245 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-248 Default XML per Transformations 💡
+  - Billing metric added: XML X12-259 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-275 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-849 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-157 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-877 Default XML per Transformations 💡
+  - Billing metric added: XML X12-865 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-620 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-286 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-185 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-354 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-824 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-894 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-947 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-440 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-820 X306 Default XML Large per Transformations 💡
+  - Billing metric added: X12-277 X364 XML X12-277_X364 Large per Transformations 💡
+  - Billing metric added: X12-834 X318 XML X12-834_X318 Large per Transformations 💡
+  - Billing metric added: JSON X12-264 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-290 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-151 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-155 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-847 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-494 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-625 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-815 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-219 Default JSON per Transformations 💡
+  - Billing metric added: X12-837 X291 JSON X12-837_X291 per Transformations 💡
+  - Billing metric added: JSON X12-418 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-841 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-189 Default XML per Transformations 💡
+  - Billing metric added: XML X12-500 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-806 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-993 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-838 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-818 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-361 Default XML per Transformations 💡
+  - Billing metric added: X12-271 X279 JSON X12-271_X279 per Transformations 💡
+  - Billing metric added: JSON X12-228 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-353 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-159 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-824 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-350 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-362 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-153 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-423 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-822 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-196 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-854 Default XML per Transformations 💡
+  - Billing metric added: XML X12-240 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-155 Default XML per Transformations 💡
+  - Billing metric added: XML X12-829 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-990 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-186 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-188 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-263 Default XML per Transformations 💡
+  - Billing metric added: XML X12-142 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-310 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-160 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-323 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-810 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-325 Default XML per Transformations 💡
+  - Billing metric added: XML X12-251 Default XML per Transformations 💡
+  - Billing metric added: XML X12-840 Default XML per Transformations 💡
+  - Billing metric added: XML X12-980 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-928 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-110 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-855 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-284 Default XML per Transformations 💡
+  - Billing metric added: JSON X12 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-435 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-271 X279 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X291 JSON X12-837_X291 Large per Transformations 💡
+  - Billing metric added: JSON X12-109 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-456 Default XML per Transformations 💡
+  - Billing metric added: XML X12-844 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-924 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-876 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-104 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-200 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-926 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-940 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-601 Default XML per Transformations 💡
+  - Billing metric added: XML X12-625 Default XML per Transformations 💡
+  - Billing metric added: XML X12-844 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-625 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-212 Default XML per Transformations 💡
+  - Billing metric added: XML X12-821 Default XML per Transformations 💡
+  - Billing metric added: XML X12-310 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-275 X211 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-249 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-527 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-216 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-865 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-820 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-851 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-944 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-350 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-179 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-195 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-837 X222 XML X12-837_X222 Large per Transformations 💡
+  - Billing metric added: XML X12-410 Default XML per Transformations 💡
+  - Billing metric added: XML X12-818 Default XML per Transformations 💡
+  - Billing metric added: XML X12-839 Default XML Large per Transformations 💡
+  - Billing metric added: Partnerships per Partnership Hours 💡
+  - Billing metric added: XML X12-503 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-816 Default XML per Transformations 💡
+  - Billing metric added: XML X12-270 X279 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-527 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-263 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-823 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-650 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-810 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-199 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-754 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-460 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-225 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-888 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-309 Default XML per Transformations 💡
+  - Billing metric added: XML X12-517 Default XML per Transformations 💡
+  - Billing metric added: XML X12-865 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-837 X298 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-889 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-163 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-105 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-127 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-511 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-837 X291 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-280 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-831 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-325 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-452 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-455 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-201 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-895 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-135 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-868 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-893 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-266 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-848 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-303 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-194 Default XML per Transformations 💡
+  - Billing metric added: XML X12-315 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-220 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-844 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-141 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-218 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-102 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-856 Default XML per Transformations 💡
+  - Billing metric added: X12-270 X279 JSON X12-270_X279 per Transformations 💡
+  - Billing metric added: XML X12-811 Default XML per Transformations 💡
+  - Billing metric added: XML X12-223 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-878 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-433 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-999 X231 Default JSON per Transformations 💡
+  - Billing metric added: X12-834 X318 XML X12-834_X318 per Transformations 💡
+  - Billing metric added: JSON X12-251 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-312 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-940 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-144 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-245 Default XML per Transformations 💡
+  - Billing metric added: XML X12-268 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-269 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-417 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-124 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-492 Default JSON per Transformations 💡
+  - Billing metric added: X12-271 X279 XML X12-271_X279 per Transformations 💡
+  - Billing metric added: X12-820 X306 XML X12-820_X306 Large per Transformations 💡
+  - Billing metric added: JSON X12-259 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-858 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-837 X300 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-200 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-885 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-153 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-943 Default XML per Transformations 💡
+  - Billing metric added: XML X12-602 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-215 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-883 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-106 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-278 X216 JSON X12-278_X216 per Transformations 💡
+  - Billing metric added: JSON X12-997 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-125 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-820 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-203 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-862 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-421 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-420 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-275 X211 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-107 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-996 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-263 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-300 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-861 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-869 Default XML per Transformations 💡
+  - Billing metric added: XML X12-265 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-896 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-431 Default XML per Transformations 💡
+  - Billing metric added: XML X12-112 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-112 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-869 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-867 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-219 Default XML per Transformations 💡
+  - Billing metric added: XML X12-198 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-140 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-111 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-125 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-191 Default XML per Transformations 💡
+  - Billing metric added: XML X12-940 Default XML per Transformations 💡
+  - Billing metric added: XML X12-285 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-101 Default XML per Transformations 💡
+  - Billing metric added: XML X12-827 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-158 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-824 X186 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-837 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-853 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-271 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-867 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-261 Default XML per Transformations 💡
+  - Billing metric added: XML X12-834 X318 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-834 X220 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-108 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-132 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-277 X212 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-272 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-460 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-475 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-947 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-276 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-176 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-179 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-920 Default XML per Transformations 💡
+  - Billing metric added: XML X12-832 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-309 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-887 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-829 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-267 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-819 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-150 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-277 X364 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-290 Default XML per Transformations 💡
+  - Billing metric added: XML X12-947 Default XML per Transformations 💡
+  - Billing metric added: XML X12-323 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-431 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-130 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-142 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-269 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-101 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-264 Default XML per Transformations 💡
+  - Billing metric added: XML X12-148 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-262 Default XML per Transformations 💡
+  - Billing metric added: XML X12-358 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-250 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-404 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-228 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-275 Default XML per Transformations 💡
+  - Billing metric added: XML X12-317 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-104 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-190 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-432 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-494 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-883 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-265 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-270 X279 XML X12-270_X279 per Transformations 💡
+  - Billing metric added: JSON X12-837 X292 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-419 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-429 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-101 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-277 X212 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-432 Default XML per Transformations 💡
+  - Billing metric added: XML X12-650 Default XML Large per Transformations 💡
+  - Billing metric added: X12-835 X221 JSON X12-835_X221 per Transformations 💡
+  - Billing metric added: XML X12-353 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-842 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-843 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-602 Default XML per Transformations 💡
+  - Billing metric added: XML X12-866 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-160 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-195 Default XML Large per Transformations 💡
+  - Billing metric added: X12-278 X217 XML X12-278_X217 Large per Transformations 💡
+  - Billing metric added: JSON X12-270 X279 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-202 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-822 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-829 Default XML per Transformations 💡
+  - Billing metric added: XML X12-300 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-278 X216 Default XML per Transformations 💡
+  - Billing metric added: XML X12-187 Default XML per Transformations 💡
+  - Billing metric added: XML X12-837 X291 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-274 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-417 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-841 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-893 Default XML per Transformations 💡
+  - Billing metric added: XML X12-753 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-138 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-814 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-275 X210 JSON X12-275_X210 Large per Transformations 💡
+  - Billing metric added: XML X12-521 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-217 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-194 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-433 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-999 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-432 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-421 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-854 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-194 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-837 X223 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-252 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-215 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-837 X222 JSON X12-837_X222 Large per Transformations 💡
+  - Billing metric added: X12-837 X222 JSON X12-837_X222 per Transformations 💡
+  - Billing metric added: X12-277 X212 XML X12-277_X212 per Transformations 💡
+  - Billing metric added: JSON X12-837 X298 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-354 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X299 XML X12-837_X299 Large per Transformations 💡
+  - Billing metric added: XML X12-924 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-845 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-324 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-105 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-835 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-163 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-303 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-102 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-820 X218 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-870 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-850 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-113 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-277 X214 Default XML per Transformations 💡
+  - Billing metric added: X12-834 X318 JSON X12-834_X318 per Transformations 💡
+  - Billing metric added: X12-278 X216 XML X12-278_X216 Large per Transformations 💡
+  - Billing metric added: JSON X12-500 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-418 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-944 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-301 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-277 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-455 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-273 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-834 Default XML Large per Transformations 💡
+  - Billing metric added: X12-276 X212 JSON X12-276_X212 per Transformations 💡
+  - Billing metric added: X12-837 X292 JSON X12-837_X292 per Transformations 💡
+  - Billing metric added: XML X12-486 Default XML per Transformations 💡
+  - Billing metric added: XML X12-874 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-110 Default JSON per Transformations 💡
+  - Billing metric added: X12-820 X306 JSON X12-820_X306 per Transformations 💡
+  - Billing metric added: JSON X12-356 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-244 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-827 Default XML per Transformations 💡
+  - Billing metric added: XML X12-357 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-434 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-620 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-943 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-227 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-835 X221 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-886 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-132 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-214 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-107 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-180 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-835 X221 Default JSON per Transformations 💡
+  - Billing metric added: X12-837 X298 XML X12-837_X298 per Transformations 💡
+  - Billing metric added: XML X12-154 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-883 Default XML per Transformations 💡
+  - Billing metric added: XML X12-278 Default XML per Transformations 💡
+  - Billing metric added: XML X12-882 Default XML per Transformations 💡
+  - Billing metric added: XML X12-860 Default XML per Transformations 💡
+  - Billing metric added: XML X12-435 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-834 X307 Default XML per Transformations 💡
+  - Billing metric added: XML X12-211 Default XML per Transformations 💡
+  - Billing metric added: XML X12-227 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-142 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-875 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-144 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-419 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-837 X299 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-881 Default XML per Transformations 💡
+  - Billing metric added: XML X12-200 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-249 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-212 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-175 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-311 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-837 X292 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-146 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-249 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-837 X222 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-189 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-157 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-224 Default XML per Transformations 💡
+  - Billing metric added: XML X12-820 Default XML Large per Transformations 💡
+  - Billing metric added: X12-820 X306 XML X12-820_X306 per Transformations 💡
+  - Billing metric added: JSON X12-190 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-105 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-286 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-870 Default XML per Transformations 💡
+  - Billing metric added: XML X12-213 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-876 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-175 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-836 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-262 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-860 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-990 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-277 X214 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-466 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-284 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-271 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-830 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-121 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-470 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-179 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-837 X300 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-819 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-227 Default XML per Transformations 💡
+  - Billing metric added: XML X12-878 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-436 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-244 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-421 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-856 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-945 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-873 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-263 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-189 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-180 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-568 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-206 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-124 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-151 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-815 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-452 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-218 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-252 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-160 Default JSON Large per Transformations 💡
+  - Billing metric added: Failures Unknown Large per Transformations 💡
+  - Billing metric added: XML X12-500 Default XML per Transformations 💡
+  - Billing metric added: XML X12-153 Default XML per Transformations 💡
+  - Billing metric added: XML X12-356 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-815 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-284 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-152 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-567 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-197 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-887 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-475 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-429 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-143 Default XML per Transformations 💡
+  - Billing metric added: XML XML Custom XML per Transformations 💡
+  - Billing metric added: XML X12-175 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-536 Default XML per Transformations 💡
+  - Billing metric added: XML X12-130 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-264 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-872 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-129 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-283 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-152 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-326 Default JSON per Transformations 💡
+  - Billing metric added: X12-275 X210 XML X12-275_X210 per Transformations 💡
+  - Billing metric added: XML X12-501 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-452 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-861 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-944 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-420 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-205 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-866 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-255 Default XML per Transformations 💡
+  - Billing metric added: XML X12-108 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-997 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-121 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-926 Default XML per Transformations 💡
+  - Billing metric added: XML X12-262 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-823 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-425 Default JSON per Transformations 💡
+  - Billing metric added: X12-278 X217 XML X12-278_X217 per Transformations 💡
+  - Billing metric added: JSON X12-839 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-422 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-425 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-278 X216 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-426 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-103 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-889 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-223 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-277 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-945 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-158 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-214 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-163 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-129 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-437 Default XML per Transformations 💡
+  - Billing metric added: XML X12-277 X364 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-203 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-213 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-204 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-885 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-837 X298 JSON X12-837_X298 per Transformations 💡
+  - Billing metric added: XML X12-813 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-501 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-881 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-824 X186 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-837 X223 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-854 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-275 X211 Default XML per Transformations 💡
+  - Billing metric added: XML X12-887 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-158 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-831 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-567 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-470 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-204 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-186 Default XML per Transformations 💡
+  - Billing metric added: XML X12-283 Default XML per Transformations 💡
+  - Billing metric added: XML X12-527 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-148 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-848 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-849 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-980 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-224 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-436 Default XML per Transformations 💡
+  - Billing metric added: XML X12-261 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-276 X212 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-920 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-275 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-813 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-216 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-857 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-823 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-920 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-276 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-412 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-754 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-715 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-127 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-128 Default XML per Transformations 💡
+  - Billing metric added: XML X12-220 Default XML per Transformations 💡
+  - Billing metric added: XML X12-816 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-999 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-205 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X223 JSON X12-837_X223 per Transformations 💡
+  - Billing metric added: JSON X12-170 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-999 X231 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-431 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-835 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-868 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-871 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-852 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-419 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-429 Default JSON Large per Transformations 💡
+  - Billing metric added: XML XML Custom XML Large per Transformations 💡
+  - Billing metric added: JSON X12-503 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-492 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-754 Default XML per Transformations 💡
+  - Billing metric added: XML X12-869 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-851 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-434 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-877 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-858 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-215 Default XML per Transformations 💡
+  - Billing metric added: XML X12-463 Default XML per Transformations 💡
+  - Billing metric added: XML X12-926 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-888 Default XML per Transformations 💡
+  - Billing metric added: XML X12-806 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-872 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-999 X231 Default XML per Transformations 💡
+  - Billing metric added: XML X12-896 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-105 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-153 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-945 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-113 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-143 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-274 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-842 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-126 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-453 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-834 X307 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-620 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-260 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-358 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-146 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-313 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-240 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-250 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-812 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-561 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-887 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-111 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-278 X217 JSON X12-278_X217 per Transformations 💡
+  - Billing metric added: JSON X12-880 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-843 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-132 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-288 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-250 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-440 Default XML per Transformations 💡
+  - Billing metric added: XML X12-814 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-199 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-266 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-219 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-468 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-997 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-920 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-269 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-103 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-894 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-816 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-460 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-996 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-268 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-206 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-228 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X224 JSON X12-837_X224 Large per Transformations 💡
+  - Billing metric added: XML X12-214 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-211 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-861 Default XML per Transformations 💡
+  - Billing metric added: XML X12-271 Default XML per Transformations 💡
+  - Billing metric added: XML X12-414 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-810 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-219 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-816 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-882 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-837 X299 Default XML per Transformations 💡
+  - Billing metric added: XML X12-837 X292 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-452 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-947 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-138 Default JSON per Transformations 💡
+  - Billing metric added: X12-270 X279 XML X12-270_X279 Large per Transformations 💡
+  - Billing metric added: JSON X12-891 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-290 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-440 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-275 X210 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-120 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-196 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-862 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-185 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-944 Default XML per Transformations 💡
+  - Billing metric added: X12-824 X186 JSON X12-824_X186 Large per Transformations 💡
+  - Billing metric added: JSON X12-188 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-880 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-270 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-839 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-715 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-864 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-814 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X223 JSON X12-837_X223 Large per Transformations 💡
+  - Billing metric added: JSON X12-845 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-352 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-353 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-521 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-138 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-185 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-540 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-820 X218 JSON X12-820_X218 per Transformations 💡
+  - Billing metric added: JSON X12-860 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-218 Default XML per Transformations 💡
+  - Billing metric added: XML X12-217 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-521 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-857 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-999 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-203 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-928 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-859 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-925 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-821 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-845 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-220 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-425 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-275 X210 Default XML per Transformations 💡
+  - Billing metric added: XML X12-139 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-925 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-463 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-861 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-811 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-304 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-271 Default JSON per Transformations 💡
+  - Billing metric added: X12-837 X299 XML X12-837_X299 per Transformations 💡
+  - Billing metric added: JSON X12-840 Default JSON per Transformations 💡
+  - Billing metric added: X12-277 X364 JSON X12-277_X364 per Transformations 💡
+  - Billing metric added: XML X12-274 Default XML Large per Transformations 💡
+  - Billing metric added: X12-834 X220 JSON X12-834_X220 Large per Transformations 💡
+  - Billing metric added: JSON X12-410 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-158 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-884 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-312 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-834 X220 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-121 Default XML per Transformations 💡
+  - Billing metric added: XML X12-485 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-854 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-113 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-863 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-170 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-126 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-362 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-980 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-880 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-431 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-924 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-245 Default XML Large per Transformations 💡
+  - Billing metric added: X12-824 X186 XML X12-824_X186 Large per Transformations 💡
+  - Billing metric added: JSON X12-846 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-127 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-362 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-150 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-980 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-821 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-301 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-437 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-146 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-312 Default XML Large per Transformations 💡
+  - Billing metric added: X12-837 X291 XML X12-837_X291 per Transformations 💡
+  - Billing metric added: XML X12-357 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-433 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-187 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-848 Default XML Large per Transformations 💡
+  - Billing metric added: X12-835 X221 XML X12-835_X221 Large per Transformations 💡
+  - Billing metric added: XML X12-867 Default XML per Transformations 💡
+  - Billing metric added: XML X12-210 Default XML per Transformations 💡
+  - Billing metric added: XML X12-217 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-224 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-888 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-186 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-242 Default XML per Transformations 💡
+  - Billing metric added: XML X12-880 Default XML per Transformations 💡
+  - Billing metric added: XML X12-426 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-206 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-354 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-561 Default XML per Transformations 💡
+  - Billing metric added: XML X12-463 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-878 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-885 Default JSON per Transformations 💡
+  - Billing metric added: X12-277 X212 JSON X12-277_X212 Large per Transformations 💡
+  - Billing metric added: XML X12-843 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-423 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-227 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-240 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-260 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-815 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-251 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-884 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-352 Default XML per Transformations 💡
+  - Billing metric added: XML X12-418 Default XML Large per Transformations 💡
+  - Billing metric added: X12-835 X221 JSON X12-835_X221 Large per Transformations 💡
+  - Billing metric added: JSON X12-326 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-885 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-806 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-853 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-150 Default XML per Transformations 💡
+  - Billing metric added: XML X12-191 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-490 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-203 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-124 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-832 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-945 Default XML per Transformations 💡
+  - Billing metric added: XML X12-823 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-856 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-197 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-837 X299 JSON X12-837_X299 per Transformations 💡
+  - Billing metric added: X12-999 X231 XML X12-999_X231 Large per Transformations 💡
+  - Billing metric added: JSON X12-863 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-828 Default XML Large per Transformations 💡
+  - Billing metric added: X12-275 X210 JSON X12-275_X210 per Transformations 💡
+  - Billing metric added: XML X12-826 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-100 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-830 Default XML per Transformations 💡
+  - Billing metric added: XML X12-805 Default XML per Transformations 💡
+  - Billing metric added: XML X12-179 Default XML per Transformations 💡
+  - Billing metric added: XML X12-126 Default XML per Transformations 💡
+  - Billing metric added: XML X12-490 Default XML per Transformations 💡
+  - Billing metric added: XML X12-138 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-834 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-110 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-310 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-837 X292 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-285 Default XML per Transformations 💡
+  - Billing metric added: XML X12-834 X220 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-283 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-277 X212 Default XML per Transformations 💡
+  - Billing metric added: X12-275 X211 JSON X12-275_X211 per Transformations 💡
+  - Billing metric added: JSON X12-248 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-998 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-882 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-429 Default XML per Transformations 💡
+  - Billing metric added: XML X12-313 Default XML per Transformations 💡
+  - Billing metric added: XML X12-540 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-837 X300 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-225 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-828 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-157 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-837 X292 JSON X12-837_X292 Large per Transformations 💡
+  - Billing metric added: JSON X12-216 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-129 Default XML per Transformations 💡
+  - Billing metric added: XML X12-436 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-322 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-147 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-925 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-154 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-840 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-317 Default JSON per Transformations 💡
+  - Billing metric added: X12-999 X231 XML X12-999_X231 per Transformations 💡
+  - Billing metric added: JSON X12-142 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-216 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-806 Default JSON per Transformations 💡
+  - Billing metric added: X12-278 X217 JSON X12-278_X217 Large per Transformations 💡
+  - Billing metric added: JSON X12-468 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-277 X214 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-410 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-188 Default XML per Transformations 💡
+  - Billing metric added: XML X12-163 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-176 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-404 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-826 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-873 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-455 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-874 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-839 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-161 Default XML per Transformations 💡
+  - Billing metric added: XML X12-152 Default XML per Transformations 💡
+  - Billing metric added: XML X12-311 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-220 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-100 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-313 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-256 Default XML per Transformations 💡
+  - Billing metric added: XML X12-884 Default XML Large per Transformations 💡
+  - Billing metric added: XML X12-278 X216 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-141 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-240 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-822 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-278 X216 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-223 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-536 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-310 Default XML per Transformations 💡
+  - Billing metric added: JSON X12-265 Default JSON per Transformations 💡
+  - Billing metric added: X12-275 X211 XML X12-275_X211 Large per Transformations 💡
+  - Billing metric added: XML X12-225 Default XML per Transformations 💡
+  - Billing metric added: X12-837 X298 JSON X12-837_X298 Large per Transformations 💡
+  - Billing metric added: JSON X12-468 Default JSON Large per Transformations 💡
+  - Billing metric added: JSON X12-262 Default JSON Large per Transformations 💡
+  - Billing metric added: X12-277 X364 XML X12-277_X364 per Transformations 💡
+  - Billing metric added: XML X12-451 Default XML per Transformations 💡
+  - Billing metric added: XML X12-252 Default XML Large per Transformations 💡
+  - Billing metric added: JSON X12-277 X364 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-837 Default JSON per Transformations 💡
+  - Billing metric added: XML X12-826 Default XML per Transformations 💡
+  - Billing metric added: X12-834 X220 XML X12-834_X220 per Transformations 💡
+  - Billing metric added: JSON X12-111 Default JSON per Transformations 💡
+  - Billing metric added: JSON X12-128 Default JSON Large per Transformations 💡
+  - Billing metric added: XML X12-889 Default XML per Transformations 💡
+  - Billing metric added: Failures Failures Unknown per Transformations 💡
+  - Billing metric added: Failures Failures Unknown Large per Transformations 💡
+
+- [iotsitewise](processed/iotsitewise.json)
+  - Billing metric added: IoT SiteWise Assistant per Monthly Fee 💡
+  - Billing metric added: IoT SiteWise Assistant API per API Calls 💡
+  - Billing metric added: IoT SiteWise Anomaly Detection Training per Minutes 💡
+  - Billing metric added: IoT SiteWise Transformation Data Read per GB 💡
+  - Billing metric added: IoT SiteWise Warm Ingestion per GB 💡
+  - Billing metric added: IoT SiteWise Anomaly Detection Inference High per Hours 💡
+  - Billing metric added: IoT SiteWise Transformation GPU per vGPU-Hours 💡
+  - Billing metric added: IoT SiteWise Anomaly Detection Inference Low per API Calls 💡
+  - Billing metric added: per month 💡
+  - Billing metric added: IoT SiteWise Storage Warm per GB-Month 💡
+  - Billing metric added: IoT SiteWise Transformation CPU per vCPU-Hours 💡
+  - Billing metric added: IoT SiteWise Transformation Data Written per GB 💡
+  - Billing metric added: per GB 💡
+  - Billing metric added: per Credits 💡
+  - Billing metric added: IoT SiteWise Data Retrieval per GB 💡
+  - Billing metric added: IoT SiteWise Bulk Export per Objects 💡
+  - Billing metric added: IoT SiteWise Transformation Storage per GB-Hours 💡
+  - Billing metric added: IoT SiteWise Enrichted-Data Index per 1 Min Enriched Video Month 💡
+
+- [iotdevicemanagement](processed/iotdevicemanagement.json)
+  - Billing metric added: Messages 💡
+  - Billing metric added: Enabled Devices 💡
+
+- [kms](processed/kms.json)
+  - Billing metric added: API Requests GenerateDatakeyPair MLKEM 💡
+  - Billing metric added: API Requests GenerateDatakeyPair MLDSA 💡
+
+- [elementalmediaconvert](processed/elementalmediaconvert.json)
+  - Billing metric added: Professional 4K GIF up to 30 fps 💡
+  - Billing metric added: Professional HD GIF over 60 fps and up to 120 fps 💡
+  - Billing metric added: Basic 4K GIF over 60 fps and up to 120 fps 💡
+  - Billing metric added: Professional 4K GIF over 60 fps and up to 120 fps 💡
+  - Billing metric added: Basic SD GIF over 60 fps and up to 120 fps 💡
+  - Billing metric added: Basic HD GIF over 60 fps and up to 120 fps 💡
+  - Billing metric added: Basic SD GIF over 30 fps and up to 60 fps 💡
+  - Billing metric added: Professional HD VC3 over 30 fps and up to 60 fps 💡
+  - Billing metric added: Professional HD VC3 up to 30 fps 💡
+  - Billing metric added: Professional HD GIF up to 30 fps 💡
+  - Billing metric added: Professional 4K GIF over 30 fps and up to 60 fps 💡
+  - Billing metric added: Basic SD GIF up to 30 fps 💡
+  - Billing metric added: Professional SD GIF over 30 fps and up to 60 fps 💡
+  - Billing metric added: Professional SD GIF over 60 fps and up to 120 fps 💡
+  - Billing metric added: Professional SD GIF up to 30 fps 💡
+  - Billing metric added: Basic HD GIF over 30 fps and up to 60 fps 💡
+  - Billing metric added: Basic HD GIF up to 30 fps 💡
+  - Billing metric added: Basic 4K GIF up to 30 fps 💡
+  - Billing metric added: Professional HD GIF over 30 fps and up to 60 fps 💡
+  - Billing metric added: Basic 4K GIF over 30 fps and up to 60 fps 💡
+
+- [elb](processed/elb.json)
+  - Billing metric added: Network Load Balancer ReservedLCU-Hr 💡
+  - Billing metric added: Gateway Load Balancer ReservedLCU-Hr 💡
+
+- [events](processed/events.json)
+  - Billing metric added: CloudWatch Events Cross-Account 💡
+  - Billing metric added: CloudWatch Events Cross-Account Custom Event 💡
+  - Billing metric added: CloudWatch Events Cross-Account AWS Event 💡
+
+- [medicalimaging](processed/medicalimaging.json)
+  - Billing metric added: Storage per months 💡
+  - Billing metric added: Storage per GB-month 💡
+  - Billing metric added: Storage per month 💡
+
+- [s3](processed/s3.json)
+  - Billing metric added: PUT COPY/POST or LIST requests to S3 Table Buckets per Requests 💡
+  - Billing metric added: Tier2 Vectors API Requests per Requests 💡
+  - Billing metric added: Tier1 Annotation Requests per Requests 💡
+  - Billing metric added: Files data writes per GB 💡
+  - Billing metric added: GET and all other requests to FSx for ONTAP per Requests 💡
+  - Billing metric added: PUT COPY/POST or LIST requests to AWS Backup per Requests 💡
+  - Billing metric added: Files data reads per GB 💡
+  - Billing metric added: GET and all other requests to S3 Table Buckets per Requests 💡
+  - Billing metric added: PUT COPY/POST or LIST requests to FSx for ONTAP per Requests 💡
+  - Billing metric added: GET and all other requests to Tables INT per Requests 💡
+  - Billing metric added: GET and all other requests to AWS Backup per Requests 💡
+  - Billing metric added: Tier1 Vectors API Requests per Requests 💡
+  - Billing metric added: Tier2 Annotation Requests per Requests 💡
+  - Billing metric added: PUT COPY/POST or LIST requests to FSx for OpenZFS per Requests 💡
+  - Billing metric added: GET and all other requests to FSx for OpenZFS per Requests 💡
+  - Billing metric added: PUT COPY/POST requests to Tables INT per Requests 💡
+  - Billing metric added: Query Vectors API Requests per Requests 💡
+  - Billing metric added: Tags Storage per GB Mo 💡
+
+- [lambda](processed/lambda.json)
+  - Billing metric added: Lambda Durable-Execution-TimedStorage-ByteHrs 💡
+  - Billing metric added: Lambda Web-vCPU-Second-ARM 💡
+  - Billing metric added: Lambda Event-Poller-Unit-Duration 💡
+  - Billing metric added: Lambda Tenant-Isolated-Environment-Memory-GB 💡
+  - Billing metric added: Lambda MicroVM-vCPU-Second 💡
+  - Billing metric added: Lambda SnapStart-Cache 💡
+  - Billing metric added: Lambda SQS-Event-Poller-Unit-Duration 💡
+  - Billing metric added: Lambda MicroVM-Snapshot-Read-GB 💡
+  - Billing metric added: Lambda Durable-Execution-Operations 💡
+  - Billing metric added: Lambda SnapStart-Restore 💡
+  - Billing metric added: Lambda MicroVM-Snapshot-Write-GB 💡
+  - Billing metric added: Lambda Web-Memory-GB-Second-ARM 💡
+  - Billing metric added: Lambda MicroVM-Memory-GB-Second-ARM 💡
+  - Billing metric added: Lambda Tenant-Isolated-Environment-Memory-GB-ARM 💡
+  - Billing metric added: Lambda MicroVM-Memory-GB-Second 💡
+  - Billing metric added: Lambda Durable-Execution-Written-Bytes 💡
+  - Billing metric added: Lambda Web-Request-ARM 💡
+  - Billing metric added: Lambda MicroVM-Snapshot-Storage-GB-Hour 💡
+  - Billing metric added: Lambda MicroVM-vCPU-Second-ARM 💡
+
+- [paymentcryptography](processed/paymentcryptography.json)
+  - Billing metric added: Encryption Key 500 to 1000 💡
+  - Billing metric added: Encryption Key 1000 to 51000 💡
+  - Billing metric added: Encryption Key 0 to 500 💡
+  - Billing metric added: API Request 220000000 to 520000000 💡
+  - Billing metric added: API Request 520000000 to Inf 💡
+  - Billing metric added: Encryption Key 51000 to Inf 💡
+
+- [verifiedpermissions](processed/verifiedpermissions.json)
+  - Billing metric removed: [Verified Permissions SingleAuthorizationRequest] 💥
+  - Billing metric added: [Verified Permissions SingleAuthorizationRequest] Verified Permissions SingleAuthorizationRequest per API Requests 💡
+
+- [finspace](processed/finspace.json)
+  - Billing metric added: DataStored KdbChangeset from 0 to Inf 💡
+
+- [vpc](processed/vpc.json)
+  - Billing metric added: CreateVpnConcentrator per Hrs 💡
+  - Billing metric added: Per GB charge to access VPC Resources per GB 💡
+  - Billing metric added: Charge per hour per active remote region for a VPCE service per Hrs 💡
+  - Billing metric added: Hourly charge to access ODB Network Resource through service network per Hrs 💡
+  - Billing metric added: Hourly charge for VPC Encryption Controls per hour 💡
+  - Billing metric added: Hourly charge for non HTTP Verified Access endpoints per hours 💡
+  - Billing metric added: Hourly charge to access VPC Resource through Resource endpoint per Hrs 💡
+  - Billing metric added: Hourly charge to access VPC Resource through service network per Hrs 💡
+  - Billing metric added: Hourly charge to access CIDR resources through Tunnel endpoint per Hrs 💡
+  - Billing metric added: Hourly charge to access ODB Network Resource through Resource endpoint per Hrs 💡
+  - Billing metric added: Hourly charge for Route Server Endpoints per Hour 💡
+  - Billing metric added: Per GB charge to access CIDR Resources through Tunnel Endpoint per GB 💡
+  - Billing metric added: Per GB charge for provider of VPC Resource per GB 💡
+  - Billing metric added: Per GB charge for provider of ODB Network Resource per GB 💡
+  - Billing metric added: Per GB charge to access ODB Network Resources per GB 💡
+  - Billing metric added: Hourly charge for Verified Access connections per Hourly 💡
+  - Billing metric added: Charge for per GB data processed by AWS Transit Gateways for Site to-Site VPN Concentrator attachments per GigaBytes 💡
+  - Billing metric added: Hourly charge for Transit Gateway Site to-Site VPN Concentrator attachments per hour 💡
+  - Billing metric added: Hourly charge for Transit Gateway Client VPN attachments per hour 💡
+  - Billing metric added: Charge for per GB data processed by AWS Transit Gateways for Client VPN attachments per GigaBytes 💡
+
+- [docdb](processed/docdb.json)
+  - Billing metric removed: [Memory optimized OnDemand] 💥
+  - Billing metric removed: [Memory optimized OnDemand IO-Optimized-DocDB] 💥
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.12xlarge 💡
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.16xlarge 💡
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.24xlarge 💡
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.2xlarge 💡
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.48xlarge 💡
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.4xlarge 💡
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.8xlarge 💡
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.large 💡
+  - Billing metric added: [Memory optimized OnDemand] OnDemand-instancetype-db.r8g.xlarge 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.12xlarge IO-Optimized-DocDB 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.16xlarge IO-Optimized-DocDB 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.24xlarge IO-Optimized-DocDB 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.2xlarge IO-Optimized-DocDB 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.48xlarge IO-Optimized-DocDB 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.4xlarge IO-Optimized-DocDB 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.8xlarge IO-Optimized-DocDB 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.large IO-Optimized-DocDB 💡
+  - Billing metric added: [Memory optimized OnDemand IO-Optimized-DocDB] OnDemand-instancetype-db.r8g.xlarge IO-Optimized-DocDB 💡
+
+- [rds-storage](processed/rds-storage.json)
+  - Billing metric added: Database Storage Multi AZ readable standbys General Purpose-GP3 💡
+  - Billing metric added: Database Storage Multi AZ readable standbys Provisioned IOPS-IO2 💡
+
+- [rds-db2-ondemand](processed/rds-db2-ondemand.json)
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db x2iedn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db x2iedn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db x2iedn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db x2iedn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db x2iedn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db x2iedn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r7i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db x2iedn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Db2 Marketplace db r6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Bring your own license db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Db2 Marketplace db x2iedn.32xlarge Single-AZ current- 💡
+
+- [rds-mysql-ondemand](processed/rds-mysql-ondemand.json)
+  - Billing metric added: Database Instance MySQL No license required db r5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db x2g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t2.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.48xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r7g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.large Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5b.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.24xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t1.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t2.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.8xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r5b.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.12xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r5b.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2iedn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m7g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r3.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db x2iedn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r4.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m2.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.16xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t2.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.12xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t3.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t4g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db x2g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db x2g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db x2iedn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m2.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.2xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.48xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5b.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.24xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m1.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.4xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t4g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r3.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m4.10xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t2.small Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r5b.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5b.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t4g.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m7g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t4g.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t2.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5b.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m2.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r7g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t2.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.16xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.8xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r7g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m1.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m1.small Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m1.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db t4g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db t4g.small Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r5b.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.large Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m9g.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2iedn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m6gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8gd.4xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m7g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r8g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m8g.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8gd.2xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MySQL No license required db m8a.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m6g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db r6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db m3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MySQL No license required db x2idn.32xlarge Single-AZ current- 💡
+
+- [rds-postgresql-ondemand](processed/rds-postgresql-ondemand.json)
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.2xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m2.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t4g.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m1.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m4.10xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m1.small Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.4xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.4xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t4g.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t4g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5b.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2iedn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t2.small Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r4.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.8xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5b.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5b.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t4g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r3.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m2.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.24xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.2xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.12xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.48xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t1.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t2.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t2.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5b.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.16xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2iedn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t4g.small Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t2.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2iedn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t2.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t4g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5b.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m1.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.16xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r3.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.large Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m1.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.12xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.8xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5b.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5b.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.24xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r5b.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t3.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m2.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8g.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2iedn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8a.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r7g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.48xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8g.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.large Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.xlarge Memory optimized Multi-AZ readable standbys Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db t2.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m9g.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r8a.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m8gd.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db r6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db m5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance PostgreSQL No license required db x2idn.16xlarge Single-AZ current- 💡
+
+- [rds-oracle-ondemand](processed/rds-oracle-ondemand.json)
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.metal-48xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x1e.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.metal-24xl General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.6xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.8xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.metal-48xl General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.metal-96xl Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.metal-48xl General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.metal-48xl Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t2.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.4xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.metal-96xl Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.metal-24xl General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.metal General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x1e.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2idn.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.metal General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge.tpc2.mem2x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iezn.6xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.metal-96xl Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.8xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.4xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.large.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r3.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.metal-24xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2idn.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iezn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem3x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.12xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t2.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.6xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.4xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2idn.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.32xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.3xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.metal-24xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2idn.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db z1d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.metal-24xl Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.2xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.2xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x1.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.32xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t2.small Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2idn.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.4xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r3.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.8xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge.tpc2.mem8x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db z1d.3xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.2xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.6xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge.tpc2.mem3x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.32xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.32xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem3x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.metal-96xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t2.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.4xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge.tpc2.mem2x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge.tpc2.mem2x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iezn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.3xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem3x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iezn.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x1.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.2xlarge.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.metal-96xl General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.4xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t2.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.2xlarge.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.metal General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.metal General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.6xlarge.tpc2.mem2x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db z1d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6i.metal General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.metal-48xl Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.4xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db z1d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge.tpc2.mem3x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db z1d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r3.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.metal-24xl General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x1e.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x1e.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.32xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t2.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db z1d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.4xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6i.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.4xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.4xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.metal-48xl Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.metal-96xl Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge.tpc2.mem2x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.metal-48xl General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.4xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.6xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.metal-24xl General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iedn.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iezn.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.metal-48xl Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.metal General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.metal-96xl General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db z1d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iedn.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge.tpc2.mem8x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.metal-48xl Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.4xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.large.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.metal-24xl Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t2.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.metal-96xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.2xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.metal-24xl Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge.tpc2.mem8x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.metal General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.large.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6i.metal General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge.tpc2.mem2x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.metal-48xl Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.metal General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x1e.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.4xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.metal-48xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iedn.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.metal-24xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem2x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.2xlarge.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.2xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.large.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.2xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.metal-48xl General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge.tpc2.mem2x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iezn.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.metal-24xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t2.small Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.2xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m4.10xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r4.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.4xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.2xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x1e.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x1e.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t2.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.2xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t2.small Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.metal-48xl General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t2.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.2xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.metal-48xl General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iezn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem3x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.6xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem2x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.metal-48xl General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iezn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.2xlarge.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.2xlarge.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.large.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.metal-96xl General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.2xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t2.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t2.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t2.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.6xlarge.tpc2.mem2x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2idn.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.6xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iezn.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t2.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem2x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem2x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.4xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.metal-48xl Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.metal-48xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.metal-48xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.2xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t2.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.4xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.4xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.large.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db t2.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x1e.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.metal-48xl Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.metal-48xl General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.metal-48xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.metal Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db z1d.3xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db z1d.6xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.6xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.metal-24xl Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db z1d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x1e.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.3xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iezn.metal Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6in.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iezn.metal Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.32xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5b.xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.3xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.metal-96xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r5.4xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.3xlarge.tpc2.mem4x Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6i.xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.4xlarge.tpc2.mem3x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6in.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iezn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5.2xlarge.tpc1.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.2xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge.tpc2.mem4x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.metal-48xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r6id.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6i.metal General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db x2iezn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.metal-48xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6in.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db t2.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m7i.metal-48xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db x2iedn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.metal-96xl General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.8xlarge.tpc2.mem2x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r8i.metal-96xl Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.3xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.8xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r7i.2xlarge.tpc2.mem8x Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m6id.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r5b.4xlarge.tpc2.mem4x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db x2iedn.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db x2iedn.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two License included db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.96xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.96xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.32xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db m8i.96xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db m8i.32xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db r8i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance Oracle Standard Two Bring your own license db t3.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.4xlarge.tpc2.mem8x Single-AZ current- 💡
+  - Billing metric added: Database Instance Oracle Enterprise Bring your own license db r6i.12xlarge.tpc2.mem2x Single-AZ current- 💡
+
+- [rds-mariadb-ondemand](processed/rds-mariadb-ondemand.json)
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t2.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db t4g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t3.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5b.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t4g.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db t2.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5b.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r4.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t4g.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5b.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5b.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r3.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t4g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5b.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t4g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db t2.small Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t2.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2iedn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2iedn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2iedn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6gd.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db t4g.small Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t2.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r3.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m4.10xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2iedn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5b.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5b.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6gd.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6idn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5b.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6id.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2g.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6in.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7g.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6id.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m9g.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8gd.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8a.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8g.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r7g.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r6g.large Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db t2.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db m4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db r8gd.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2idn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2idn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance MariaDB No license required db x2idn.32xlarge Single-AZ current- 💡
+
+- [rds-sqlserver-ondemand](processed/rds-sqlserver-ondemand.json)
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5b.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t2.small Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x1e.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.96xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x1e.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5b.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db x2m.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db z1d.3xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db x2m.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.32xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db z1d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.96xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r6i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m6i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5b.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db z1d.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2iedn.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5b.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db t2.small Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db z1d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db z1d.6xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5b.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m6i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.96xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db z1d.3xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x1e.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m4.10xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db z1d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db z1d.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.96xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db x2m.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5b.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x1.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5b.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db x2m.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x1e.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5b.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x1.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t3.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t2.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x1e.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5b.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db z1d.3xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.96xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.32xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x1e.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.96xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db z1d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2iedn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r4.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m6i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5b.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t1.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2iedn.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x1.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r6i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2iedn.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m4.10xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db z1d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db z1d.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5d.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5b.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5d.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.96xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5d.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5b.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.96xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db z1d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db z1d.3xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5b.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.96xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.32xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db t2.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m6i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5b.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5d.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2iedn.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5d.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db z1d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.32xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5d.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.96xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5b.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5d.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2iedn.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m6i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x1e.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2iedn.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5b.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db x2m.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.96xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r4.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t2.micro Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db x2m.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.32xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m4.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m6i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db z1d.6xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x1.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r4.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r7i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r4.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m4.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5b.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.96xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db x2m.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5b.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5d.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.32xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.96xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r6i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db z1d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x1e.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2iedn.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.96xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r6i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.32xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5d.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x1e.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.32xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.96xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.96xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x1e.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.32xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db x2m.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x1e.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m5d.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5d.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8a.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5d.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5b.large Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db z1d.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.96xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8a.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.48xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db t3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.2xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r6i.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db z1d.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.4xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8a.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db x2m.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x1e.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5b.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db x2m.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.2xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.32xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5d.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db x2m.24xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8a.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r7i.48xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db x2m.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db t3.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.4xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.96xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m5.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.12xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.24xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8a.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m8i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.24xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r8a.8xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m8i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.2xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r8i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m4.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m8i.xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5b.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.8xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5b.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db r7i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m8i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m6i.24xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.12xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.24xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.12xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8i.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m5.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.12xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8a.8xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.12xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.48xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m8i.32xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.48xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db x2m.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8a.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r7i.2xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5d.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8i.large Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db r8i.8xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.8xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8a.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Developer Bring your own media db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m8a.4xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r5b.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Bring your own media db m7i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db m7i.48xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r6i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db t3.small Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m7i.xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db r8a.4xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r7i.xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m8a.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r6i.4xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db m3.medium Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Web License included db r3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r5b.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.16xlarge General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db m7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db m7i.16xlarge General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.large General purpose Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r8i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise Developer Bring your own media db m7i.large General purpose Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r8i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db t3.large Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Express License included db t3.2xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.16xlarge Single-AZ current- 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.16xlarge Memory optimized Multi-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard Bring your own media db r7i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Standard License included db r7i.16xlarge Memory optimized Single-AZ Current Generation 💡
+  - Billing metric added: Database Instance SQL Server Enterprise License included db r6i.large Single-AZ current- 💡
+
+
 ## 2026-10-29 18:28
 
 **Modified services:**
@@ -36513,7 +45208,6 @@
 - novaact
 - devopsagent
 - supportessential
-- workspacesinstances
 - securityincidentresponse
 - unifiedoperations
 - secagent

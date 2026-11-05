@@ -329,6 +329,7 @@
         "Asia Pacific (Sydney)": "0.1250000000",
         "Asia Pacific (Singapore)": "0.1250000000",
         "Asia Pacific (Seoul)": "0.1250000000",
+        "Asia Pacific (Osaka)": "0.1250000000",
         "Asia Pacific (New Zealand)": "0.1250000000",
         "Asia Pacific (Mumbai)": "0.1250000000",
         "Asia Pacific (Melbourne)": "0.1250000000",
@@ -427,8 +428,18 @@
     "Basic Health checks External Non AWS per Mo": {
         "Any": "0.7500000000"
     },
+    "per Queries": {
+        "Any": "0.0000015000",
+        "AWS GovCloud (US-East)": "0.0000000000",
+        "AWS GovCloud (US)": "0.0000003600"
+    },
     "Basic Traffic Flow Routing per Mo": {
         "Any": "50.0000000000"
+    },
+    "first 1K000000 per Queries": {
+        "Any": "0.0000000000",
+        "AWS GovCloud (US-East)": "0.0000008400",
+        "AWS GovCloud (US)": "0.0000007200"
     },
     "Free Queries to Geoproximity Alias records": {
         "Any": "0.0000000000",
@@ -497,5 +508,8 @@
     },
     "Basic Health checks up to 50 AWS per Mo": {
         "Any": "0.0000000000"
+    },
+    "per hours": {
+        "Any": "1.5000000000"
     }
 }
