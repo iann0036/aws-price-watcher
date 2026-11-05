@@ -1,957 +1,62 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "detective",
         "accessType": "publish",
-        "esIndex": "plc-detective-usd-20260911124422",
+        "source": "detective",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:22Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:22Z",
-        "currencyCode": "USD",
-        "source": "detective",
+        "esIndex": "plc-detective-usd-20260911124422",
+        "queryConfig": "public/3107b5c1-6888-5ef2-9846-a2f1bf7e94d1/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "X6MZT65CJZ6UDPQ6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
-                "rateCode": "YRFACFJBFY6UJBFM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
+        "Africa (Cape Town)": {
             "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective from 0 to Inf": {
-                "rateCode": "YRFACFJBFY6UJBFM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "US West (N. California)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "67WFT35AG8Y3GZVJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.7800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.JXGPBPHWFF",
-                "price": "3.1000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.5500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.7800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.JXGPBPHWFF",
-                "price": "3.1000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.5500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "US East (Ohio)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "3W42G5PNSJZ9J5Y4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
-                "rateCode": "Q5QQBHMXMTX25TKY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective from 0 to Inf": {
-                "rateCode": "Q5QQBHMXMTX25TKY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "US East (N. Virginia)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "MVF27FZY26RSQWDP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
-                "rateCode": "RFQESDTGDQ675AGA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective from 0 to Inf": {
-                "rateCode": "RFQESDTGDQ675AGA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "MEU4W9VUEXM7Q7FQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.B536CJ4M58",
-                "price": "0.5600000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.7A9VFYDHVN",
-                "price": "1.1300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.JXGPBPHWFF",
-                "price": "4.5000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.AXSXEJHBB3",
-                "price": "2.2500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.B536CJ4M58",
-                "price": "0.5600000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.7A9VFYDHVN",
-                "price": "1.1300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.JXGPBPHWFF",
-                "price": "4.5000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.AXSXEJHBB3",
-                "price": "2.2500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "Middle East (Bahrain)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "BFA3C9PWRTQDXVGE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "Israel (Tel Aviv)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "4ASPHFA5TXMRMZWK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2700000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.1000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2700000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.1000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "EU (Stockholm)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "85T6S3NYTEWYGMZW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "EU (Paris)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "WCQ9P27EDTM6X7ES.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "EU (Milan)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "E9S5326Y2PKHB3VR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "EU (London)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "QYCCV42QFAXZ3PDX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3100000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.2500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3100000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.2500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "EU (Ireland)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "95JESJX2SFQN4MBC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
-                "rateCode": "J7RP57QBET2T7JVH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective from 0 to Inf": {
-                "rateCode": "J7RP57QBET2T7JVH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "EU (Frankfurt)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "58EERM2HPAXNWJCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "Canada (Central)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "QX45PFQR5AZBMEN6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.JXGPBPHWFF",
                 "price": "2.3000000000",
                 "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
             },
             "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.AXSXEJHBB3",
                 "price": "1.1500000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
             },
-            "Amazon Detective Over 10000": {
-                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.7A9VFYDHVN",
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.7A9VFYDHVN",
                 "price": "0.5800000000",
                 "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
             },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "GUNTTPVFZBAP9J25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
             "Amazon Detective First 1000": {
-                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.JXGPBPHWFF",
                 "price": "2.3000000000",
                 "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
             },
             "Amazon Detective Next 4000": {
-                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.AXSXEJHBB3",
                 "price": "1.1500000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "Asia Pacific (Tokyo)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "WEKG2PMT3Z2DYVWC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
-                "rateCode": "26HWYDF6475YQ3H3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
             },
             "Amazon Detective Next 5000": {
-                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective from 0 to Inf": {
-                "rateCode": "26HWYDF6475YQ3H3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.7000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.3500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "C87MFSBXATDGY93A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3100000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.2500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3100000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.2500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "FFHNQFRKAJ64KF3H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.7800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.JXGPBPHWFF",
-                "price": "3.1000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.5500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.7800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.JXGPBPHWFF",
-                "price": "3.1000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.5500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "Asia Pacific (Seoul)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "55AJANU7SX2JZ58Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.7A9VFYDHVN",
+                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.7A9VFYDHVN",
                 "price": "0.5800000000",
                 "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
             },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.3000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.1500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
             "Amazon Detective Over 10000": {
-                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.B536CJ4M58",
+                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.B536CJ4M58",
                 "price": "0.2900000000",
                 "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.3000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.1500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            }
-        },
-        "Asia Pacific (Mumbai)": {
-            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "N7JPQQ4ER9A7GTVS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
-            },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3100000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.2500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3100000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6300000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "Amazon Detective First 1000": {
-                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "Amazon Detective Next 4000": {
-                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.2500000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
             }
         },
         "Asia Pacific (Hong Kong)": {
@@ -960,16 +65,6 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
             },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.6800000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
             "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
                 "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.JXGPBPHWFF",
                 "price": "2.7000000000",
@@ -980,15 +75,15 @@
                 "price": "1.3500000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
             },
-            "Amazon Detective Over 10000": {
-                "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.B536CJ4M58",
-                "price": "0.3400000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
                 "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.7A9VFYDHVN",
                 "price": "0.6800000000",
                 "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
             },
             "Amazon Detective First 1000": {
                 "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.JXGPBPHWFF",
@@ -999,91 +94,883 @@
                 "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.AXSXEJHBB3",
                 "price": "1.3500000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "NEMX3WWF5J7CHCKK.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
             }
         },
-        "Africa (Cape Town)": {
+        "Asia Pacific (Tokyo)": {
+            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
+                "rateCode": "26HWYDF6475YQ3H3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
             "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
-                "rateCode": "GUNTTPVFZBAP9J25.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "WEKG2PMT3Z2DYVWC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
             },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            "Amazon Detective from 0 to Inf": {
+                "rateCode": "26HWYDF6475YQ3H3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
             },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5800000000",
+            "Amazon Detective First 1000": {
+                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
                 "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
             },
+            "Amazon Detective Over 10000": {
+                "rateCode": "5EYPPGB2FPZ34ENZ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "Asia Pacific (Seoul)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "55AJANU7SX2JZ58Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
             "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.JXGPBPHWFF",
                 "price": "2.3000000000",
                 "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
             },
             "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.AXSXEJHBB3",
                 "price": "1.1500000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
             },
-            "Amazon Detective Over 10000": {
-                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2900000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.7A9VFYDHVN",
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.7A9VFYDHVN",
                 "price": "0.5800000000",
                 "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
             },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
             "Amazon Detective First 1000": {
-                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.JXGPBPHWFF",
                 "price": "2.3000000000",
                 "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
             },
             "Amazon Detective Next 4000": {
-                "rateCode": "5RFJ5647DXXQUXWZ.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.AXSXEJHBB3",
                 "price": "1.1500000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "DFPTSQV6P7SB42PK.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "Asia Pacific (Mumbai)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.2500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3100000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "N7JPQQ4ER9A7GTVS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.2500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "2HDTM8YSJ2Z5F8VC.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3100000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "FFHNQFRKAJ64KF3H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.JXGPBPHWFF",
+                "price": "3.1000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.5500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.7800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.JXGPBPHWFF",
+                "price": "3.1000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.5500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.7800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "GXK9FCUJKDZGK9GS.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.2500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3100000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "C87MFSBXATDGY93A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.2500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "8KBMFGW63TR2S3MM.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3100000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "Canada (Central)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "QX45PFQR5AZBMEN6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.3000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.1500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.3000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.1500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "ZNGRU3HAEVUD8BMJ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "EU (Frankfurt)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "58EERM2HPAXNWJCM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "3N88HHFHNRH9K4BR.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "EU (Stockholm)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "85T6S3NYTEWYGMZW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "KV9DZ5UN2GFV8JCZ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "EU (Milan)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "E9S5326Y2PKHB3VR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "BCYR582W2DJM83MW.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "EU (Ireland)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "95JESJX2SFQN4MBC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
+                "rateCode": "J7RP57QBET2T7JVH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "ARRJ6MTFDJR82VCW.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective from 0 to Inf": {
+                "rateCode": "J7RP57QBET2T7JVH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
+            }
+        },
+        "EU (London)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "QYCCV42QFAXZ3PDX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.2500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3100000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.2500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "SMCPRG4ZHU2AF592.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3100000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "EU (Paris)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "WCQ9P27EDTM6X7ES.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "MW7UJ569UH93TYUZ.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "Israel (Tel Aviv)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "4ASPHFA5TXMRMZWK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.1000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2700000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.1000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "975NUQVD6J6JZPDD.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2700000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "Middle East (Bahrain)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "BFA3C9PWRTQDXVGE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.7000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.3500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.6800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "8F6DZ564DVZJECNR.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3400000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "MEU4W9VUEXM7Q7FQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.JXGPBPHWFF",
+                "price": "4.5000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.AXSXEJHBB3",
+                "price": "2.2500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.7A9VFYDHVN",
+                "price": "1.1300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.B536CJ4M58",
+                "price": "0.5600000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.JXGPBPHWFF",
+                "price": "4.5000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.AXSXEJHBB3",
+                "price": "2.2500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.7A9VFYDHVN",
+                "price": "1.1300000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "RZHP3AZUY9KUHCJV.JRTCKXETXF.B536CJ4M58",
+                "price": "0.5600000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "US East (N. Virginia)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "MVF27FZY26RSQWDP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
+                "rateCode": "RFQESDTGDQ675AGA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "39YMM87R7C62S2FB.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective from 0 to Inf": {
+                "rateCode": "RFQESDTGDQ675AGA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
+            }
+        },
+        "US East (Ohio)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "3W42G5PNSJZ9J5Y4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
+                "rateCode": "Q5QQBHMXMTX25TKY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "5TEWDCYSQ8JQ688P.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective from 0 to Inf": {
+                "rateCode": "Q5QQBHMXMTX25TKY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
             }
         },
         "AWS GovCloud (US-East)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
             "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
                 "rateCode": "VVSF793WXM4QEMM5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
             },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
-            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
-                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.JXGPBPHWFF",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
-            },
-            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
-                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.AXSXEJHBB3",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
-            },
-            "Amazon Detective Over 10000": {
-                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
-                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
             "Amazon Detective First 1000": {
                 "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.JXGPBPHWFF",
                 "price": "2.0000000000",
@@ -1093,6 +980,16 @@
                 "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.AXSXEJHBB3",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "CZTC2V5SMYQFDG72.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
             }
         },
         "AWS GovCloud (US)": {
@@ -1101,16 +998,6 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
             },
-            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
-                "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
-                "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.7A9VFYDHVN",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
-            },
             "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
                 "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.JXGPBPHWFF",
                 "price": "2.0000000000",
@@ -1121,15 +1008,15 @@
                 "price": "1.0000000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
             },
-            "Amazon Detective Over 10000": {
-                "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.B536CJ4M58",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
-            },
-            "Amazon Detective Next 5000": {
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
                 "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.7A9VFYDHVN",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
             },
             "Amazon Detective First 1000": {
                 "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.JXGPBPHWFF",
@@ -1140,6 +1027,120 @@
                 "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.AXSXEJHBB3",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "YPXQ8PXFE32USUUG.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "US West (N. California)": {
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "67WFT35AG8Y3GZVJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.JXGPBPHWFF",
+                "price": "3.1000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.5500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.7800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.JXGPBPHWFF",
+                "price": "3.1000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.5500000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.7800000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "DJQMVAM94RMUH8Q8.JRTCKXETXF.B536CJ4M58",
+                "price": "0.3900000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            }
+        },
+        "US West (Oregon)": {
+            "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY": {
+                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM": {
+                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU": {
+                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw": {
+                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw": {
+                "rateCode": "X6MZT65CJZ6UDPQ6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "DSTqXj0GZ846YolzSt8tPy1NWrSiP39X7JmD5ExCQkw"
+            },
+            "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c": {
+                "rateCode": "YRFACFJBFY6UJBFM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
+            },
+            "Amazon Detective First 1000": {
+                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.JXGPBPHWFF",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rMNx-wdHtotBGyvdUzlXcGs7zBFHNqXrVPXrcNIdPmY"
+            },
+            "Amazon Detective Next 4000": {
+                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.AXSXEJHBB3",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "xo7NN2VjIwZilchlTt68rmZQOc04aj9bKC5ljb5dDxM"
+            },
+            "Amazon Detective Next 5000": {
+                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.7A9VFYDHVN",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "ZlPRJAJcl5In-H2iGiiGLcZZZh8lXuoonGenJlcxurU"
+            },
+            "Amazon Detective Over 10000": {
+                "rateCode": "9EMYBE3XH5ZEM7Y7.JRTCKXETXF.B536CJ4M58",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "RLq5R-uUqF2q1rnBvP4xONHUJn-Ow7DCAAq5w7aTkIw"
+            },
+            "Amazon Detective from 0 to Inf": {
+                "rateCode": "YRFACFJBFY6UJBFM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "hUSPhrqqRIK2xInKev131eThcdxFonlYSN6phlJLp7c"
             }
         }
     }

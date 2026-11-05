@@ -1,634 +1,91 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "cloudhsm",
         "accessType": "publish",
-        "esIndex": "plc-cloudhsm-usd-20260911124625",
+        "source": "cloudhsm",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:46:25Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:46:25Z",
-        "currencyCode": "USD",
-        "source": "cloudhsm",
+        "esIndex": "plc-cloudhsm-usd-20260911124625",
+        "queryConfig": "public/884e2304-c446-5cb5-a0fb-06d40cb6e2ac/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "XUQUHNWBJNVCH3HG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4500000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "9ZY6FAAHE7E4QQ56.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "K9NRVBK69QMUKG6B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "4CK7SH5MJCHYQ2N3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "NZR6ZVTZRF5D3PMY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8800000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
+        "Africa (Cape Town)": {
             "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "JGCKMZQ6Z59DU7GD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4500000000",
+                "rateCode": "BYXG5W4GGJXJ7U2R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.7400000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
-            "CloudHSM Hourly": {
-                "rateCode": "XUQUHNWBJNVCH3HG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4500000000",
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "CR4BJUCW948FT76C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.7400000000",
                 "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
-            "Trial Hourly": {
-                "rateCode": "9ZY6FAAHE7E4QQ56.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "K9NRVBK69QMUKG6B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "4CK7SH5MJCHYQ2N3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "NZR6ZVTZRF5D3PMY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8800000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            "CloudHSM Hourly": {
+                "rateCode": "BYXG5W4GGJXJ7U2R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.7400000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             }
         },
-        "US West (N. California)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "6TRHGBTK8MCUJPCT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8100000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "EWRC2EZNM22KMUSA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "RRRXXHPYV9YWNDSB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "8TSUNZE94XDBYTXC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "B3HT6J8NUX9K7N6T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.7100000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
+        "Asia Pacific (Hong Kong)": {
             "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "HM7P4SCDEQUJNHZ8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8100000000",
+                "rateCode": "FDPF5ZUA39MVHE9T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.1700000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
-            "CloudHSM Hourly": {
-                "rateCode": "HM7P4SCDEQUJNHZ8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8100000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "Trial Hourly": {
-                "rateCode": "EWRC2EZNM22KMUSA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "RRRXXHPYV9YWNDSB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "8TSUNZE94XDBYTXC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "B3HT6J8NUX9K7N6T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.7100000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            }
-        },
-        "US East (Ohio)": {
             "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "49NA9WW8VB6RTVYS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4500000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "RUXNY4M6GYT29E8Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "JFXKSGQ874AHQPEF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "8NFZW58KFAJDCPAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "FVHX9KZE5DQDXCYR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8800000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "BQX5YCWZJCRF7GCR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4500000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "49NA9WW8VB6RTVYS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4500000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Trial Hourly": {
-                "rateCode": "RUXNY4M6GYT29E8Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "JFXKSGQ874AHQPEF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "8NFZW58KFAJDCPAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "FVHX9KZE5DQDXCYR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8800000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            }
-        },
-        "US East (N. Virginia)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "3RASDUS8W2QQNCG6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6000000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "4YQC7A7JYFXU53SW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "AXAM2VZDXGKWAM8Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "PGWETF94H34YKAYT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "39UNYSPNVBYDWBCK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8800000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "F48DST268WZ8JH7X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6000000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "3RASDUS8W2QQNCG6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6000000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Trial Hourly": {
-                "rateCode": "4YQC7A7JYFXU53SW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "AXAM2VZDXGKWAM8Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "PGWETF94H34YKAYT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "39UNYSPNVBYDWBCK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8800000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "T9X9TT744D3F7NS3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.7200000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "VJMN6NJ2VNX8S93G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.7200000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "VJMN6NJ2VNX8S93G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.7200000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "Middle East (UAE)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "SGFRMUJPX7V7ESGH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5100000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "66KAD7RY825SMT8N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5100000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "66KAD7RY825SMT8N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5100000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "Middle East (Bahrain)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "QUS5QFHBFVMGM4BF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6600000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "G6NQEHFDG7TG2MHD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6600000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "G6NQEHFDG7TG2MHD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6600000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "Mexico (Central)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "KJ4DAZEEP72JBAGQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6800000000",
+                "rateCode": "S3VQQAZDWBUTET4D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.1700000000",
                 "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
             "CloudHSM Hourly": {
-                "rateCode": "KJ4DAZEEP72JBAGQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6800000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            }
-        },
-        "Israel (Tel Aviv)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "9AJ9YXPVRT8TAZDP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5100000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "E7KRGA2K8JA6ZJ59.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5100000000",
+                "rateCode": "FDPF5ZUA39MVHE9T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.1700000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "E7KRGA2K8JA6ZJ59.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5100000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "EU (Zurich)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "NNP3WBCVK8GY54T3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5600000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "HKMS547YK8P4YJ47.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5600000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "HKMS547YK8P4YJ47.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5600000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "EU (Stockholm)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "R3FND3SGFTDRNQH5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "MXSGN28XB94UYVZW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "MXSGN28XB94UYVZW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4000000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "EU (Spain)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "RPF2259E97R82QHU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4700000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "RPF2259E97R82QHU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4700000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            }
-        },
-        "EU (Paris)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "4TZ9BEY8ASPTX4T3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.1800000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "JH7UKWWQ8GW3EFMX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.1800000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "JH7UKWWQ8GW3EFMX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.1800000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "EU (Milan)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "5EUY4EY4VZPP89S7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6200000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "BGNY9F47HMJ5769A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6200000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "BGNY9F47HMJ5769A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6200000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "EU (London)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "ZX389AJ99BGF8ZJE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5900000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "EGWG9ERFKTUBBDFC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5900000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "EGWG9ERFKTUBBDFC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5900000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "EU (Ireland)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "PJQ3QSKGTH2MVAVV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4700000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "2FT4UJSEUPRSHWQ9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "WNYGWJK42ZB5YNVU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "ECKJF4Z3B77QTENX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "R6XRBTKTD37KGHVE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.9600000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "MRY9RYQ8WMSUWGV6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4700000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "PJQ3QSKGTH2MVAVV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4700000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Trial Hourly": {
-                "rateCode": "2FT4UJSEUPRSHWQ9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "WNYGWJK42ZB5YNVU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "ECKJF4Z3B77QTENX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "R6XRBTKTD37KGHVE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.9600000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            }
-        },
-        "EU (Frankfurt)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "CEJCEK39CYSVKS8P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.9200000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "4RX7YZBMET3ZJTXU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "TAR324UAVMRUQ5SF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "P5D9JYTG4ATB6MGC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "DB8BDGFHG966TSFU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.1200000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "G42BUAPEEDGWCFAE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.9200000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "G42BUAPEEDGWCFAE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.9200000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "Trial Hourly": {
-                "rateCode": "4RX7YZBMET3ZJTXU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "TAR324UAVMRUQ5SF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "P5D9JYTG4ATB6MGC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "DB8BDGFHG966TSFU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.1200000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            }
-        },
-        "Canada West (Calgary)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "RFAWV4KUWFQ5P7VD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "RFAWV4KUWFQ5P7VD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            }
-        },
-        "Canada (Central)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "Z3Q7YTHA9RH65YWR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "PKDNEPEMW642TMXJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "98E98E2PSAF8HTNE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "HM9MAQSJTN5EMDN5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "P9J22Y2MHRVRFKMV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0700000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "H7RAEN7QUQTVGHN7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "H7RAEN7QUQTVGHN7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0000000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "Trial Hourly": {
-                "rateCode": "PKDNEPEMW642TMXJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "98E98E2PSAF8HTNE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "HM9MAQSJTN5EMDN5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "P9J22Y2MHRVRFKMV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0700000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
             }
         },
         "Asia Pacific (Tokyo)": {
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "7XK9DKJS5JUYENZY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.8200000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "9FJFSMPY4QY3HUZU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "FW8THUT7MQY8N88E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8100000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "GREF7UUCNZQYYEE2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "R5RWCA44QFRTUEQ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
             "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
                 "rateCode": "ZVC4PA57GSJ2HTGM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.8100000000",
                 "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "GREF7UUCNZQYYEE2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "R5RWCA44QFRTUEQ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "9FJFSMPY4QY3HUZU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+            "CloudHSM v Classic Hourly": {
                 "rateCode": "7XK9DKJS5JUYENZY.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.8200000000",
                 "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
             },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "FW8THUT7MQY8N88E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8100000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            "Fee for Commitment upfront": {
+                "rateCode": "9FJFSMPY4QY3HUZU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
             },
             "CloudHSM Hourly": {
                 "rateCode": "FW8THUT7MQY8N88E.JRTCKXETXF.6YS6EN2CT7",
@@ -644,189 +101,48 @@
                 "rateCode": "R5RWCA44QFRTUEQ3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "9FJFSMPY4QY3HUZU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "7XK9DKJS5JUYENZY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.8200000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            }
-        },
-        "Asia Pacific (Thailand)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "P63NWCTKC6YHNYSD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6700000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "P63NWCTKC6YHNYSD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6700000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "MJEHMMJS9WSVR4JW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.9900000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "FTQC76Z58A39XY2F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "QSTND5XQ2TMG35DW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "K33XE355NBCDTR95.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "FCZKXF5Z6JXTJQRF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.2400000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "TURJVBXF33FAD9MG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.9900000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "TURJVBXF33FAD9MG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.9900000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "Trial Hourly": {
-                "rateCode": "FTQC76Z58A39XY2F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "QSTND5XQ2TMG35DW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "K33XE355NBCDTR95.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "FCZKXF5Z6JXTJQRF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.2400000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "V8BNXBQH2BPQ2WWB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8600000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "NYY7MQZQ8VQN22V5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "76QA3KWFG8XWJ3WD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "PPSF5DKJC7GHXPSP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "Q3J8JYP5VGYP4CVE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.2000000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "GZEW7SPK79DVPBS7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8600000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "GZEW7SPK79DVPBS7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8600000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "Trial Hourly": {
-                "rateCode": "NYY7MQZQ8VQN22V5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "Trial upfront": {
-                "rateCode": "76QA3KWFG8XWJ3WD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
-            "Fee for Commitment upfront": {
-                "rateCode": "PPSF5DKJC7GHXPSP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "Q3J8JYP5VGYP4CVE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "3.2000000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
             }
         },
         "Asia Pacific (Seoul)": {
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "2PKU6AT7HMBXGSES.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
             "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
                 "rateCode": "38JVTEZK8CGJBVWF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.5400000000",
                 "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "2PKU6AT7HMBXGSES.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
-            },
-            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
-                "rateCode": "YBXVC4E6BKQXJX36.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
-            },
             "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
                 "rateCode": "JU2PZJ5EEFT8NW68.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "R9DMUZMS644S6Z2E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
             },
             "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
                 "rateCode": "KP63J34M7ZQ72U55.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.5400000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
-            "CloudHSM Hourly": {
-                "rateCode": "KP63J34M7ZQ72U55.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5400000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "R9DMUZMS644S6Z2E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "YBXVC4E6BKQXJX36.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
             },
             "Trial Hourly": {
                 "rateCode": "2PKU6AT7HMBXGSES.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
             },
-            "Trial upfront": {
-                "rateCode": "YBXVC4E6BKQXJX36.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            "CloudHSM Hourly": {
+                "rateCode": "KP63J34M7ZQ72U55.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5400000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
             "Fee for Commitment upfront": {
                 "rateCode": "JU2PZJ5EEFT8NW68.JRTCKXETXF.6YS6EN2CT7",
@@ -837,6 +153,11 @@
                 "rateCode": "R9DMUZMS644S6Z2E.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Trial upfront": {
+                "rateCode": "YBXVC4E6BKQXJX36.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
             }
         },
         "Asia Pacific (Osaka)": {
@@ -845,67 +166,55 @@
                 "price": "1.8100000000",
                 "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
-            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
-                "rateCode": "ZDDJK7PYNDE3RMCS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "8ZXTZ59P6QMJWZM7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8100000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
             "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
                 "rateCode": "P9K3EPGH6VHGBSUT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
             },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "U56CTKT9PAQ7RQ65.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
             "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
                 "rateCode": "S285RZF3V6UWWFGT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.8200000000",
                 "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
             },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "8ZXTZ59P6QMJWZM7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8100000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "U56CTKT9PAQ7RQ65.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "ZDDJK7PYNDE3RMCS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
             },
             "CloudHSM Hourly": {
                 "rateCode": "8ZXTZ59P6QMJWZM7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.8100000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "Trial Hourly": {
-                "rateCode": "ZDDJK7PYNDE3RMCS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
             },
             "Trial upfront": {
                 "rateCode": "P9K3EPGH6VHGBSUT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
             },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "S285RZF3V6UWWFGT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.8200000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
             "Fee for Commitment upfront": {
                 "rateCode": "U56CTKT9PAQ7RQ65.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5000.0000000000",
                 "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
             },
-            "CloudHSM v Classic Hourly": {
-                "rateCode": "S285RZF3V6UWWFGT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.8200000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
-            }
-        },
-        "Asia Pacific (New Zealand)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "VXX29VBHMT98HGAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0900000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "VXX29VBHMT98HGAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0900000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            "Trial Hourly": {
+                "rateCode": "ZDDJK7PYNDE3RMCS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
             }
         },
         "Asia Pacific (Mumbai)": {
@@ -922,35 +231,6 @@
             "CloudHSM Hourly": {
                 "rateCode": "7GJ4ZQ3JXAJ2AF3G.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.0500000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            }
-        },
-        "Asia Pacific (Malaysia)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "MVYFCXTPSDFB5N7D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6700000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "MVYFCXTPSDFB5N7D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6700000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            }
-        },
-        "Asia Pacific (Jakarta)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "HWHTAHDR45YNQQ2V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.4900000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
-            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "TBDK2K87U47F6WWX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.4900000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
-            },
-            "CloudHSM Hourly": {
-                "rateCode": "TBDK2K87U47F6WWX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.4900000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             }
         },
@@ -971,50 +251,657 @@
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             }
         },
-        "Asia Pacific (Hong Kong)": {
+        "Asia Pacific (Singapore)": {
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "76QA3KWFG8XWJ3WD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "GZEW7SPK79DVPBS7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8600000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "NYY7MQZQ8VQN22V5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "PPSF5DKJC7GHXPSP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "Q3J8JYP5VGYP4CVE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.2000000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
             "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "S3VQQAZDWBUTET4D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.1700000000",
+                "rateCode": "V8BNXBQH2BPQ2WWB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8600000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "Trial upfront": {
+                "rateCode": "76QA3KWFG8XWJ3WD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "GZEW7SPK79DVPBS7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8600000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "Trial Hourly": {
+                "rateCode": "NYY7MQZQ8VQN22V5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "PPSF5DKJC7GHXPSP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "Q3J8JYP5VGYP4CVE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "3.2000000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "FCZKXF5Z6JXTJQRF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.2400000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "FTQC76Z58A39XY2F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "K33XE355NBCDTR95.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "MJEHMMJS9WSVR4JW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.9900000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "QSTND5XQ2TMG35DW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "TURJVBXF33FAD9MG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.9900000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "FCZKXF5Z6JXTJQRF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.2400000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Trial Hourly": {
+                "rateCode": "FTQC76Z58A39XY2F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "K33XE355NBCDTR95.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "TURJVBXF33FAD9MG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.9900000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "Trial upfront": {
+                "rateCode": "QSTND5XQ2TMG35DW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            }
+        },
+        "Asia Pacific (Jakarta)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "HWHTAHDR45YNQQ2V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.4900000000",
                 "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
             "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "FDPF5ZUA39MVHE9T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.1700000000",
+                "rateCode": "TBDK2K87U47F6WWX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.4900000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
             "CloudHSM Hourly": {
-                "rateCode": "FDPF5ZUA39MVHE9T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.1700000000",
+                "rateCode": "TBDK2K87U47F6WWX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.4900000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             }
         },
-        "Africa (Cape Town)": {
+        "Asia Pacific (Malaysia)": {
             "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "CR4BJUCW948FT76C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.7400000000",
+                "rateCode": "MVYFCXTPSDFB5N7D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6700000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "MVYFCXTPSDFB5N7D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6700000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            }
+        },
+        "Asia Pacific (New Zealand)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "VXX29VBHMT98HGAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0900000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "VXX29VBHMT98HGAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0900000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            }
+        },
+        "Asia Pacific (Thailand)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "P63NWCTKC6YHNYSD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6700000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "P63NWCTKC6YHNYSD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6700000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            }
+        },
+        "Canada (Central)": {
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "98E98E2PSAF8HTNE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "H7RAEN7QUQTVGHN7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "HM9MAQSJTN5EMDN5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "P9J22Y2MHRVRFKMV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0700000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "PKDNEPEMW642TMXJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "Z3Q7YTHA9RH65YWR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "Trial upfront": {
+                "rateCode": "98E98E2PSAF8HTNE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "H7RAEN7QUQTVGHN7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "HM9MAQSJTN5EMDN5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "P9J22Y2MHRVRFKMV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0700000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Trial Hourly": {
+                "rateCode": "PKDNEPEMW642TMXJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            }
+        },
+        "Canada West (Calgary)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "RFAWV4KUWFQ5P7VD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "RFAWV4KUWFQ5P7VD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0000000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            }
+        },
+        "EU (Frankfurt)": {
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "4RX7YZBMET3ZJTXU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "CEJCEK39CYSVKS8P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.9200000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "DB8BDGFHG966TSFU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.1200000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "G42BUAPEEDGWCFAE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.9200000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "P5D9JYTG4ATB6MGC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "TAR324UAVMRUQ5SF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "Trial Hourly": {
+                "rateCode": "4RX7YZBMET3ZJTXU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "G42BUAPEEDGWCFAE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.9200000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "DB8BDGFHG966TSFU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.1200000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "P5D9JYTG4ATB6MGC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "Trial upfront": {
+                "rateCode": "TAR324UAVMRUQ5SF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            }
+        },
+        "EU (Zurich)": {
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "HKMS547YK8P4YJ47.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5600000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "NNP3WBCVK8GY54T3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5600000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "HKMS547YK8P4YJ47.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5600000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "EU (Stockholm)": {
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "MXSGN28XB94UYVZW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "R3FND3SGFTDRNQH5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "MXSGN28XB94UYVZW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4000000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "EU (Milan)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "5EUY4EY4VZPP89S7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6200000000",
                 "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
             "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
-                "rateCode": "BYXG5W4GGJXJ7U2R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.7400000000",
+                "rateCode": "BGNY9F47HMJ5769A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6200000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
             "CloudHSM Hourly": {
-                "rateCode": "BYXG5W4GGJXJ7U2R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.7400000000",
+                "rateCode": "BGNY9F47HMJ5769A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6200000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "EU (Spain)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "RPF2259E97R82QHU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4700000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "RPF2259E97R82QHU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4700000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            }
+        },
+        "EU (Ireland)": {
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "2FT4UJSEUPRSHWQ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "ECKJF4Z3B77QTENX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "MRY9RYQ8WMSUWGV6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4700000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "PJQ3QSKGTH2MVAVV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4700000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "R6XRBTKTD37KGHVE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.9600000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "WNYGWJK42ZB5YNVU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "Trial Hourly": {
+                "rateCode": "2FT4UJSEUPRSHWQ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "ECKJF4Z3B77QTENX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "PJQ3QSKGTH2MVAVV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4700000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "R6XRBTKTD37KGHVE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.9600000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Trial upfront": {
+                "rateCode": "WNYGWJK42ZB5YNVU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            }
+        },
+        "EU (London)": {
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "EGWG9ERFKTUBBDFC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5900000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "ZX389AJ99BGF8ZJE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5900000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "EGWG9ERFKTUBBDFC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5900000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "EU (Paris)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "4TZ9BEY8ASPTX4T3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.1800000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "JH7UKWWQ8GW3EFMX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.1800000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "JH7UKWWQ8GW3EFMX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.1800000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "Israel (Tel Aviv)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "9AJ9YXPVRT8TAZDP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5100000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "E7KRGA2K8JA6ZJ59.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5100000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "E7KRGA2K8JA6ZJ59.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5100000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "Middle East (UAE)": {
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "66KAD7RY825SMT8N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5100000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "SGFRMUJPX7V7ESGH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5100000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "66KAD7RY825SMT8N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5100000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "Middle East (Bahrain)": {
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "G6NQEHFDG7TG2MHD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6600000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "QUS5QFHBFVMGM4BF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6600000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "G6NQEHFDG7TG2MHD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6600000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "Mexico (Central)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "KJ4DAZEEP72JBAGQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6800000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "KJ4DAZEEP72JBAGQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6800000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "T9X9TT744D3F7NS3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.7200000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "VJMN6NJ2VNX8S93G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.7200000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "VJMN6NJ2VNX8S93G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.7200000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            }
+        },
+        "US East (N. Virginia)": {
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "39UNYSPNVBYDWBCK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8800000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "3RASDUS8W2QQNCG6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6000000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "4YQC7A7JYFXU53SW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "AXAM2VZDXGKWAM8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "F48DST268WZ8JH7X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6000000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "PGWETF94H34YKAYT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "39UNYSPNVBYDWBCK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8800000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "3RASDUS8W2QQNCG6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6000000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "Trial Hourly": {
+                "rateCode": "4YQC7A7JYFXU53SW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "Trial upfront": {
+                "rateCode": "AXAM2VZDXGKWAM8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "PGWETF94H34YKAYT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            }
+        },
+        "US East (Ohio)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "49NA9WW8VB6RTVYS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4500000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "8NFZW58KFAJDCPAZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "BQX5YCWZJCRF7GCR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4500000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "FVHX9KZE5DQDXCYR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8800000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "JFXKSGQ874AHQPEF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "RUXNY4M6GYT29E8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "49NA9WW8VB6RTVYS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4500000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "8NFZW58KFAJDCPAZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "FVHX9KZE5DQDXCYR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8800000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Trial upfront": {
+                "rateCode": "JFXKSGQ874AHQPEF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "Trial Hourly": {
+                "rateCode": "RUXNY4M6GYT29E8Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
             }
         },
         "AWS GovCloud (US-East)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "WRY8Y85MAECQNAJP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0800000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
             "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
                 "rateCode": "2CERPUUZJVRZCEYU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.0800000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "WRY8Y85MAECQNAJP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0800000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
             "CloudHSM Hourly": {
                 "rateCode": "2CERPUUZJVRZCEYU.JRTCKXETXF.6YS6EN2CT7",
@@ -1023,11 +910,6 @@
             }
         },
         "AWS GovCloud (US)": {
-            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
-                "rateCode": "KK3ZBNAEVYBJRH2B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0800000000",
-                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
-            },
             "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
                 "rateCode": "29Z2UEJJUXPJJ3CM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
@@ -1038,25 +920,25 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
             },
-            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
-                "rateCode": "UUN7WAHXJHQHVYWE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
-            },
-            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
-                "rateCode": "RJXXXSPHYKS2JGC9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.8200000000",
-                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "KK3ZBNAEVYBJRH2B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0800000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
             },
             "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
                 "rateCode": "MZUWW2HD485644VB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.0800000000",
                 "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
-            "CloudHSM Hourly": {
-                "rateCode": "MZUWW2HD485644VB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.0800000000",
-                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "RJXXXSPHYKS2JGC9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.8200000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "UUN7WAHXJHQHVYWE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
             },
             "Trial Hourly": {
                 "rateCode": "29Z2UEJJUXPJJ3CM.JRTCKXETXF.6YS6EN2CT7",
@@ -1068,14 +950,133 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
             },
-            "Fee for Commitment upfront": {
-                "rateCode": "UUN7WAHXJHQHVYWE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5000.0000000000",
-                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            "CloudHSM Hourly": {
+                "rateCode": "MZUWW2HD485644VB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.0800000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
             },
             "CloudHSM v Classic Hourly": {
                 "rateCode": "RJXXXSPHYKS2JGC9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.8200000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "UUN7WAHXJHQHVYWE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            }
+        },
+        "US West (N. California)": {
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "6TRHGBTK8MCUJPCT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8100000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "8TSUNZE94XDBYTXC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "B3HT6J8NUX9K7N6T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.7100000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "EWRC2EZNM22KMUSA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "HM7P4SCDEQUJNHZ8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8100000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "RRRXXHPYV9YWNDSB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "HM7P4SCDEQUJNHZ8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8100000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "8TSUNZE94XDBYTXC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "B3HT6J8NUX9K7N6T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.7100000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "Trial Hourly": {
+                "rateCode": "EWRC2EZNM22KMUSA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "Trial upfront": {
+                "rateCode": "RRRXXHPYV9YWNDSB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            }
+        },
+        "US West (Oregon)": {
+            "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk": {
+                "rateCode": "4CK7SH5MJCHYQ2N3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw": {
+                "rateCode": "9ZY6FAAHE7E4QQ56.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E": {
+                "rateCode": "JGCKMZQ6Z59DU7GD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4500000000",
+                "RegionlessRateCode": "rZ5IqHQsrlKj3gR4zNN_Z5uDkWC6Z1ddFjml8FIp06E"
+            },
+            "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs": {
+                "rateCode": "K9NRVBK69QMUKG6B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g": {
+                "rateCode": "NZR6ZVTZRF5D3PMY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8800000000",
+                "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
+            },
+            "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY": {
+                "rateCode": "XUQUHNWBJNVCH3HG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4500000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "Fee for Commitment upfront": {
+                "rateCode": "4CK7SH5MJCHYQ2N3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5000.0000000000",
+                "RegionlessRateCode": "RUlG53LstSv3YgWByt6feKDsrTtwkMnGLEm2nzzq6Wk"
+            },
+            "Trial Hourly": {
+                "rateCode": "9ZY6FAAHE7E4QQ56.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "Bo85z1z-dSa3nnXOvuXBFj0JfY-n4jOoQo6yg9gX3Aw"
+            },
+            "CloudHSM Hourly": {
+                "rateCode": "XUQUHNWBJNVCH3HG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4500000000",
+                "RegionlessRateCode": "-WPQlEP8cGa04OIFDqo9glg53GgmMjFnjzSg455fUAY"
+            },
+            "Trial upfront": {
+                "rateCode": "K9NRVBK69QMUKG6B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "O-tLi6IQeArpWjvnFODi1oLKbBhPeShJP9NMdLojwWs"
+            },
+            "CloudHSM v Classic Hourly": {
+                "rateCode": "NZR6ZVTZRF5D3PMY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8800000000",
                 "RegionlessRateCode": "cyiDE7uiz0UNpXDI4zMvd1Y13lRu769nx2NilcJXO1g"
             }
         }

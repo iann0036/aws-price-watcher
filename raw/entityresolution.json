@@ -1,106 +1,665 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "entityresolution",
         "accessType": "publish",
-        "esIndex": "plc-entityresolution-usd-20260911124549",
+        "source": "entityresolution",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:49Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:49Z",
-        "currencyCode": "USD",
-        "source": "entityresolution",
+        "esIndex": "plc-entityresolution-usd-20260911124549",
+        "queryConfig": "public/1194bfcd-bce1-5715-af0a-927696cbf62a/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "9K9CHUXGRZ3Y7CPE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+        "Africa (Cape Town)": {
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "2E7PPHH46GJKCV7E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "4NRAH9YHX4JVKKTJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
             },
             "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "DQAJSD5C92HGZN6A.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6MVGD68QY22G8NBH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0005000000",
                 "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
             },
             "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "7F59A9T6YAD43TUY.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8SQ8BDPXTZQHKPE2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0005000000",
                 "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
             },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "BYQYQQYDB469695C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "NVMH5E7SBUR3S8MP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc": {
-                "rateCode": "J6FWKKSNG62KBXTC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc"
-            },
-            "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU": {
-                "rateCode": "NG4PUNMT96TAGTTV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "TSHV8DQZ7462KGER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko": {
-                "rateCode": "B7CHDHCQC6UPJKUB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "9K9CHUXGRZ3Y7CPE.JRTCKXETXF.6YS6EN2CT7",
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "DTCYQURZ6UJ994BB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
             },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "V6GN5W4SQCJUD698.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "2E7PPHH46GJKCV7E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "4NRAH9YHX4JVKKTJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
             "DataMatching per RecordsMatched": {
-                "rateCode": "DQAJSD5C92HGZN6A.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6MVGD68QY22G8NBH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0005000000",
                 "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
             },
             "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "7F59A9T6YAD43TUY.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8SQ8BDPXTZQHKPE2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "DTCYQURZ6UJ994BB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "V6GN5W4SQCJUD698.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            }
+        },
+        "Asia Pacific (Tokyo)": {
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "2ZD9DKN3XKNAPUJ6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "BT6EP62WV9DPBN39.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "GV5TNU6DTQ7J8QQG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "HHQCUT2AWGK86N6B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "JR24XHSY2SWFH7CN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "YF6TZVGN5PNMHEKA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "2ZD9DKN3XKNAPUJ6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "BT6EP62WV9DPBN39.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "GV5TNU6DTQ7J8QQG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "HHQCUT2AWGK86N6B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "JR24XHSY2SWFH7CN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "YF6TZVGN5PNMHEKA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            }
+        },
+        "Asia Pacific (Seoul)": {
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "FWF9YFTZCCU3YY2A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "PR8D5XHBDWQXFKKJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "QM8TF664DPNEBUYX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "TJDEKEUJ4NCKWUNS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "XGNT3P5VBQRCPV6A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "YVHZT2YJ2VFB63QM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "FWF9YFTZCCU3YY2A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "PR8D5XHBDWQXFKKJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "QM8TF664DPNEBUYX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "TJDEKEUJ4NCKWUNS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "XGNT3P5VBQRCPV6A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "YVHZT2YJ2VFB63QM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "MRJSB8R8UAADDFF8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "TF3WSRG8C3M39X29.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "WRZB9N9Y83QH32MQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "YHRVSBQ6AE44H5NP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "YNYWKGTWFU636KYC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "Z6ZHEYWBSMPDGAAA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "MRJSB8R8UAADDFF8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "TF3WSRG8C3M39X29.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0005000000",
                 "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
             },
             "EntityResolution per Records": {
-                "rateCode": "BYQYQQYDB469695C.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "WRZB9N9Y83QH32MQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0002500000",
                 "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
             },
             "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "NVMH5E7SBUR3S8MP.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "YHRVSBQ6AE44H5NP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "YNYWKGTWFU636KYC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "Z6ZHEYWBSMPDGAAA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "2UXDCFHN9TAEXSNX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "9UJD3PPW6N3Z2KU9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "CEU4HW93GMH9RBNM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "CPRJPX9KEGVX3EG4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "DHP3FYXHFFTRW88Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "NGQWJBEYTJAQVZYC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "2UXDCFHN9TAEXSNX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "9UJD3PPW6N3Z2KU9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "CEU4HW93GMH9RBNM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "CPRJPX9KEGVX3EG4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "DHP3FYXHFFTRW88Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "NGQWJBEYTJAQVZYC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            }
+        },
+        "Canada (Central)": {
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "7VP3SWFTDJM39YUZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "BVRSS7HTFQ952Y2X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "HZRBXKGPN37ZT7RH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "KFKJPCEJ4KXF89NV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "PCG668QSCN3GKZVJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "SNNNS5NHUK4SAPPJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "7VP3SWFTDJM39YUZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "BVRSS7HTFQ952Y2X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "HZRBXKGPN37ZT7RH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "KFKJPCEJ4KXF89NV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "PCG668QSCN3GKZVJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "SNNNS5NHUK4SAPPJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            }
+        },
+        "EU (Frankfurt)": {
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "2ZUR9BKGBU2VQFAY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "3YFKPBUN4F4WKXX9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "F4P3PC2QN8SBXPRF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "MWDEZPQ9PV7E6Z87.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "QZW5WQQ5RBU7Y5B6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "XUFAWJHMZ42KEH3M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "2ZUR9BKGBU2VQFAY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "3YFKPBUN4F4WKXX9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "F4P3PC2QN8SBXPRF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "MWDEZPQ9PV7E6Z87.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "QZW5WQQ5RBU7Y5B6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "XUFAWJHMZ42KEH3M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            }
+        },
+        "EU (Ireland)": {
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "2KTF3CWD3XEBKU6W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "3XZR4BJR6MGKRMJ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "BS24SUBBF7GYDXK3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "H679K5FR7XXVU3XP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "QTCYB6TYHVSR5EDK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "SXJ5ACY2FG8PETNW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "2KTF3CWD3XEBKU6W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "3XZR4BJR6MGKRMJ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "BS24SUBBF7GYDXK3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "H679K5FR7XXVU3XP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "QTCYB6TYHVSR5EDK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "SXJ5ACY2FG8PETNW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            }
+        },
+        "EU (London)": {
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "6VKM9T9KDTBF9U2J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "KXDCNUZ2GJWU8D5H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "QAD349ZUAKZFWB4U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "RCVZJ29R5HCDBRJB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "Y6ZBHUCWFYQ3MX6D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "YRYZNQ85MV68TUNK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "6VKM9T9KDTBF9U2J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "DataPreparationForCollab per Records": {
+                "rateCode": "KXDCNUZ2GJWU8D5H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "QAD349ZUAKZFWB4U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "RCVZJ29R5HCDBRJB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "Y6ZBHUCWFYQ3MX6D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "YRYZNQ85MV68TUNK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            }
+        },
+        "US East (N. Virginia)": {
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "35CR7YE5HWUAXT9R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "4YEWR2DZ788EBVDD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "9WYMJR7GSN3PV8Z4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "C9FAV58EY9KT7U7M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc": {
+                "rateCode": "HWQR53Y4GYAG8MPG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc"
+            },
+            "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko": {
+                "rateCode": "UVPY626R9TMR5YYE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
+            },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "W3GQT38HBFMHYY9F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "W7RVVRW7E5HNFVPR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU": {
+                "rateCode": "Z46NY82KC384W7YH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "35CR7YE5HWUAXT9R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "4YEWR2DZ788EBVDD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "9WYMJR7GSN3PV8Z4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "C9FAV58EY9KT7U7M.JRTCKXETXF.6YS6EN2CT7",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
             },
             "ProviderIDMappingForCollab per Records": {
-                "rateCode": "J6FWKKSNG62KBXTC.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HWQR53Y4GYAG8MPG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc"
             },
-            "ProviderIDMapping per Records": {
-                "rateCode": "NG4PUNMT96TAGTTV.JRTCKXETXF.6YS6EN2CT7",
+            "ProviderEntityResolution per Records": {
+                "rateCode": "UVPY626R9TMR5YYE.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
-                "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
+                "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
             },
             "DataPreparationForCollab per Records": {
-                "rateCode": "TSHV8DQZ7462KGER.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "W3GQT38HBFMHYY9F.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
             },
-            "ProviderEntityResolution per Records": {
-                "rateCode": "B7CHDHCQC6UPJKUB.JRTCKXETXF.6YS6EN2CT7",
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "W7RVVRW7E5HNFVPR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "ProviderIDMapping per Records": {
+                "rateCode": "Z46NY82KC384W7YH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
-                "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
+                "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
             }
         },
         "US East (Ohio)": {
@@ -114,30 +673,10 @@
                 "price": "0.0005000000",
                 "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
             },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "ZFTW3W5E4XKS2T9R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "P72TP7FKQYCXFSZB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "FK32XNCJ4T4S8PRK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
             "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc": {
                 "rateCode": "84CU8ES75P7VE4UU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc"
-            },
-            "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU": {
-                "rateCode": "HNJVJ52WS85TZKZT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
             },
             "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
                 "rateCode": "AVRVZ6USZ8YFBGAU.JRTCKXETXF.6YS6EN2CT7",
@@ -148,6 +687,26 @@
                 "rateCode": "DHAUCVCJ3RQHHCM9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
+            },
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "FK32XNCJ4T4S8PRK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
+            },
+            "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU": {
+                "rateCode": "HNJVJ52WS85TZKZT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "P72TP7FKQYCXFSZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "ZFTW3W5E4XKS2T9R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
             },
             "DataMatchingFee per DataMatchingFee": {
                 "rateCode": "7NUE6PFZYFA9N2VZ.JRTCKXETXF.6YS6EN2CT7",
@@ -159,30 +718,10 @@
                 "price": "0.0005000000",
                 "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
             },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "ZFTW3W5E4XKS2T9R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "P72TP7FKQYCXFSZB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "FK32XNCJ4T4S8PRK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
             "ProviderIDMappingForCollab per Records": {
                 "rateCode": "84CU8ES75P7VE4UU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc"
-            },
-            "ProviderIDMapping per Records": {
-                "rateCode": "HNJVJ52WS85TZKZT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
             },
             "DataPreparationForCollab per Records": {
                 "rateCode": "AVRVZ6USZ8YFBGAU.JRTCKXETXF.6YS6EN2CT7",
@@ -193,654 +732,116 @@
                 "rateCode": "DHAUCVCJ3RQHHCM9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
-            }
-        },
-        "US East (N. Virginia)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "9WYMJR7GSN3PV8Z4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
             },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "35CR7YE5HWUAXT9R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "W7RVVRW7E5HNFVPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "4YEWR2DZ788EBVDD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "C9FAV58EY9KT7U7M.JRTCKXETXF.6YS6EN2CT7",
+            "DataMatchingFeeForCollab per DataMatchingFee": {
+                "rateCode": "FK32XNCJ4T4S8PRK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
             },
+            "ProviderIDMapping per Records": {
+                "rateCode": "HNJVJ52WS85TZKZT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "P72TP7FKQYCXFSZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "ZFTW3W5E4XKS2T9R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            }
+        },
+        "US West (Oregon)": {
+            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
+                "rateCode": "7F59A9T6YAD43TUY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
+                "rateCode": "9K9CHUXGRZ3Y7CPE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko": {
+                "rateCode": "B7CHDHCQC6UPJKUB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
+            },
+            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
+                "rateCode": "BYQYQQYDB469695C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
+                "rateCode": "DQAJSD5C92HGZN6A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
             "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc": {
-                "rateCode": "HWQR53Y4GYAG8MPG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "J6FWKKSNG62KBXTC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc"
             },
             "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU": {
-                "rateCode": "Z46NY82KC384W7YH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NG4PUNMT96TAGTTV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
             },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "W3GQT38HBFMHYY9F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko": {
-                "rateCode": "UVPY626R9TMR5YYE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "9WYMJR7GSN3PV8Z4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "35CR7YE5HWUAXT9R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "W7RVVRW7E5HNFVPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "4YEWR2DZ788EBVDD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "C9FAV58EY9KT7U7M.JRTCKXETXF.6YS6EN2CT7",
+            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
+                "rateCode": "NVMH5E7SBUR3S8MP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
             },
+            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
+                "rateCode": "TSHV8DQZ7462KGER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
+            },
+            "DataMatchingForCollab per RecordsMatched": {
+                "rateCode": "7F59A9T6YAD43TUY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
+            },
+            "DataMatchingFee per DataMatchingFee": {
+                "rateCode": "9K9CHUXGRZ3Y7CPE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
+            },
+            "ProviderEntityResolution per Records": {
+                "rateCode": "B7CHDHCQC6UPJKUB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
+            },
+            "EntityResolution per Records": {
+                "rateCode": "BYQYQQYDB469695C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0002500000",
+                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
+            },
+            "DataMatching per RecordsMatched": {
+                "rateCode": "DQAJSD5C92HGZN6A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0005000000",
+                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
+            },
             "ProviderIDMappingForCollab per Records": {
-                "rateCode": "HWQR53Y4GYAG8MPG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "J6FWKKSNG62KBXTC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "TMq0JJyCu4J2QnZk_5oB8i_Byjt8ZsBcltL4DDBv7fc"
             },
             "ProviderIDMapping per Records": {
-                "rateCode": "Z46NY82KC384W7YH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NG4PUNMT96TAGTTV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "db_Empg3Y_VfzaXTcaXuvbZnMbN95gfCNquMAf--HxU"
             },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "W3GQT38HBFMHYY9F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "ProviderEntityResolution per Records": {
-                "rateCode": "UVPY626R9TMR5YYE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "yzJj5dOoOwb4_ZoUeSbNdqZDqtoluUUJfu_Y8gHg2ko"
-            }
-        },
-        "EU (London)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "6VKM9T9KDTBF9U2J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "RCVZJ29R5HCDBRJB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "YRYZNQ85MV68TUNK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "QAD349ZUAKZFWB4U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "Y6ZBHUCWFYQ3MX6D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "KXDCNUZ2GJWU8D5H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "6VKM9T9KDTBF9U2J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "RCVZJ29R5HCDBRJB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "YRYZNQ85MV68TUNK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "QAD349ZUAKZFWB4U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
             "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "Y6ZBHUCWFYQ3MX6D.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NVMH5E7SBUR3S8MP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
             },
             "DataPreparationForCollab per Records": {
-                "rateCode": "KXDCNUZ2GJWU8D5H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            }
-        },
-        "EU (Ireland)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "3XZR4BJR6MGKRMJ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "2KTF3CWD3XEBKU6W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "H679K5FR7XXVU3XP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "BS24SUBBF7GYDXK3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "QTCYB6TYHVSR5EDK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "SXJ5ACY2FG8PETNW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "3XZR4BJR6MGKRMJ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "2KTF3CWD3XEBKU6W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "H679K5FR7XXVU3XP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "BS24SUBBF7GYDXK3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "QTCYB6TYHVSR5EDK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "SXJ5ACY2FG8PETNW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            }
-        },
-        "EU (Frankfurt)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "3YFKPBUN4F4WKXX9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "MWDEZPQ9PV7E6Z87.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "F4P3PC2QN8SBXPRF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "QZW5WQQ5RBU7Y5B6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "XUFAWJHMZ42KEH3M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "2ZUR9BKGBU2VQFAY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "3YFKPBUN4F4WKXX9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "MWDEZPQ9PV7E6Z87.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "F4P3PC2QN8SBXPRF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "QZW5WQQ5RBU7Y5B6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "XUFAWJHMZ42KEH3M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "2ZUR9BKGBU2VQFAY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            }
-        },
-        "Canada (Central)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "HZRBXKGPN37ZT7RH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "7VP3SWFTDJM39YUZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "PCG668QSCN3GKZVJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "BVRSS7HTFQ952Y2X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "SNNNS5NHUK4SAPPJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "KFKJPCEJ4KXF89NV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "HZRBXKGPN37ZT7RH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "7VP3SWFTDJM39YUZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "PCG668QSCN3GKZVJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "BVRSS7HTFQ952Y2X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "SNNNS5NHUK4SAPPJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "KFKJPCEJ4KXF89NV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            }
-        },
-        "Asia Pacific (Tokyo)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "YF6TZVGN5PNMHEKA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "BT6EP62WV9DPBN39.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "HHQCUT2AWGK86N6B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "2ZD9DKN3XKNAPUJ6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "JR24XHSY2SWFH7CN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "GV5TNU6DTQ7J8QQG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "YF6TZVGN5PNMHEKA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "BT6EP62WV9DPBN39.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "HHQCUT2AWGK86N6B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "2ZD9DKN3XKNAPUJ6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "JR24XHSY2SWFH7CN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "GV5TNU6DTQ7J8QQG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "9UJD3PPW6N3Z2KU9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "NGQWJBEYTJAQVZYC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "DHP3FYXHFFTRW88Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "2UXDCFHN9TAEXSNX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "CEU4HW93GMH9RBNM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "CPRJPX9KEGVX3EG4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "9UJD3PPW6N3Z2KU9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "NGQWJBEYTJAQVZYC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "DHP3FYXHFFTRW88Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "2UXDCFHN9TAEXSNX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "CEU4HW93GMH9RBNM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "CPRJPX9KEGVX3EG4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "YNYWKGTWFU636KYC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "MRJSB8R8UAADDFF8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "TF3WSRG8C3M39X29.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "WRZB9N9Y83QH32MQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "YHRVSBQ6AE44H5NP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "Z6ZHEYWBSMPDGAAA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "YNYWKGTWFU636KYC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "MRJSB8R8UAADDFF8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "TF3WSRG8C3M39X29.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "WRZB9N9Y83QH32MQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "YHRVSBQ6AE44H5NP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "Z6ZHEYWBSMPDGAAA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            }
-        },
-        "Asia Pacific (Seoul)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "FWF9YFTZCCU3YY2A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "QM8TF664DPNEBUYX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "YVHZT2YJ2VFB63QM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "XGNT3P5VBQRCPV6A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "TJDEKEUJ4NCKWUNS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "PR8D5XHBDWQXFKKJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "FWF9YFTZCCU3YY2A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "QM8TF664DPNEBUYX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "YVHZT2YJ2VFB63QM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "XGNT3P5VBQRCPV6A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "TJDEKEUJ4NCKWUNS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "PR8D5XHBDWQXFKKJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            }
-        },
-        "Africa (Cape Town)": {
-            "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y": {
-                "rateCode": "DTCYQURZ6UJ994BB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo": {
-                "rateCode": "6MVGD68QY22G8NBH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU": {
-                "rateCode": "8SQ8BDPXTZQHKPE2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w": {
-                "rateCode": "2E7PPHH46GJKCV7E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ": {
-                "rateCode": "V6GN5W4SQCJUD698.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA": {
-                "rateCode": "4NRAH9YHX4JVKKTJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
-            },
-            "DataMatchingFee per DataMatchingFee": {
-                "rateCode": "DTCYQURZ6UJ994BB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "0Q7FM7dBjzSGD4Qsp9cPTAHJ_N8cp0Ck90WALRvxL1Y"
-            },
-            "DataMatching per RecordsMatched": {
-                "rateCode": "6MVGD68QY22G8NBH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "2eAfmbqGuDSA7exWIYAvmDhIFiwSdOVBlGrj5I_VhTo"
-            },
-            "DataMatchingForCollab per RecordsMatched": {
-                "rateCode": "8SQ8BDPXTZQHKPE2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0005000000",
-                "RegionlessRateCode": "H0SgTtm8XKkX0PIS5601IC1FzqbKE4QZpYQBuAbHaVU"
-            },
-            "EntityResolution per Records": {
-                "rateCode": "2E7PPHH46GJKCV7E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0002500000",
-                "RegionlessRateCode": "K-AB_IavE58bNdcACxjuhoZQzFYdiiphNN_Ubl0ub3w"
-            },
-            "DataMatchingFeeForCollab per DataMatchingFee": {
-                "rateCode": "V6GN5W4SQCJUD698.JRTCKXETXF.6YS6EN2CT7",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "Mik4eqIJqBILlVxKxnj310JEq72W2sp-GEYlYuEV3jQ"
-            },
-            "DataPreparationForCollab per Records": {
-                "rateCode": "4NRAH9YHX4JVKKTJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "TSHV8DQZ7462KGER.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "rPi3UtMP6SDcj7ohPY6kX7wV4nk-uAsxU3o9NduTafA"
             }

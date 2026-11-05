@@ -1,273 +1,55 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "telconetworkbuilder",
         "accessType": "publish",
-        "esIndex": "plc-telconetworkbuilder-usd-20260911124619",
+        "source": "telconetworkbuilder",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:46:19Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:46:19Z",
-        "currencyCode": "USD",
-        "source": "telconetworkbuilder",
+        "esIndex": "plc-telconetworkbuilder-usd-20260911124619",
+        "queryConfig": "public/2c22fd7b-3063-50ea-81c7-09a56a587615/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
+        "Asia Pacific (Seoul)": {
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "7GGT2SJBDQK9W2HJ.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
             "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "JVHFT4XGA4AXGMAQ.JRTCKXETXF.PB654346B3",
-                "price": "0.0025000000",
+                "rateCode": "7GGT2SJBDQK9W2HJ.JRTCKXETXF.PB654346B3",
+                "price": "0.0037000000",
                 "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
             },
             "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "G6VB6QNFG9SRMHDY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0350000000",
+                "rateCode": "Q8FCB6VCUXXJU9M6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0470000000",
                 "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
             },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "JVHFT4XGA4AXGMAQ.JRTCKXETXF.72VS6PJVMG",
+            "API Calls from 0 to 45000": {
+                "rateCode": "7GGT2SJBDQK9W2HJ.JRTCKXETXF.72VS6PJVMG",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
             },
             "API Calls from 45000 to Inf": {
-                "rateCode": "JVHFT4XGA4AXGMAQ.JRTCKXETXF.PB654346B3",
-                "price": "0.0025000000",
+                "rateCode": "7GGT2SJBDQK9W2HJ.JRTCKXETXF.PB654346B3",
+                "price": "0.0037000000",
                 "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
             },
             "MNFI Hourly": {
-                "rateCode": "G6VB6QNFG9SRMHDY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0350000000",
+                "rateCode": "Q8FCB6VCUXXJU9M6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0470000000",
                 "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "JVHFT4XGA4AXGMAQ.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            }
-        },
-        "US East (N. Virginia)": {
-            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "FJ9MM25F8Z3C2S28.JRTCKXETXF.PB654346B3",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "ANG2D5F53H9324WX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0350000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "FJ9MM25F8Z3C2S28.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            },
-            "API Calls from 45000 to Inf": {
-                "rateCode": "FJ9MM25F8Z3C2S28.JRTCKXETXF.PB654346B3",
-                "price": "0.0025000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "MNFI Hourly": {
-                "rateCode": "ANG2D5F53H9324WX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0350000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "FJ9MM25F8Z3C2S28.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "XE2QTHM5TGT6UVA9.JRTCKXETXF.PB654346B3",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "S6RVNMWS43BRSJ3F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0570000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "XE2QTHM5TGT6UVA9.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            },
-            "API Calls from 45000 to Inf": {
-                "rateCode": "XE2QTHM5TGT6UVA9.JRTCKXETXF.PB654346B3",
-                "price": "0.0045000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "MNFI Hourly": {
-                "rateCode": "S6RVNMWS43BRSJ3F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0570000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "XE2QTHM5TGT6UVA9.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            }
-        },
-        "EU (Stockholm)": {
-            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "NVK6MWP7D65PAJ5T.JRTCKXETXF.PB654346B3",
-                "price": "0.0029000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "KZEW3YC4WRA8SDHR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0380000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "NVK6MWP7D65PAJ5T.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            },
-            "API Calls from 45000 to Inf": {
-                "rateCode": "NVK6MWP7D65PAJ5T.JRTCKXETXF.PB654346B3",
-                "price": "0.0029000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "MNFI Hourly": {
-                "rateCode": "KZEW3YC4WRA8SDHR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0380000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "NVK6MWP7D65PAJ5T.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            }
-        },
-        "EU (Spain)": {
-            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "BVXPW9GRRGE4QN54.JRTCKXETXF.PB654346B3",
-                "price": "0.0029000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "QUX467Z5B2TTTD5B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0390000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "BVXPW9GRRGE4QN54.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            },
-            "API Calls from 45000 to Inf": {
-                "rateCode": "BVXPW9GRRGE4QN54.JRTCKXETXF.PB654346B3",
-                "price": "0.0029000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "MNFI Hourly": {
-                "rateCode": "QUX467Z5B2TTTD5B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0390000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "BVXPW9GRRGE4QN54.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            }
-        },
-        "EU (Paris)": {
-            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "XBWHHHM2WDBZ3DCY.JRTCKXETXF.PB654346B3",
-                "price": "0.0039000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "64KH4FD57XFQD2U3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "XBWHHHM2WDBZ3DCY.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            },
-            "API Calls from 45000 to Inf": {
-                "rateCode": "XBWHHHM2WDBZ3DCY.JRTCKXETXF.PB654346B3",
-                "price": "0.0039000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "MNFI Hourly": {
-                "rateCode": "64KH4FD57XFQD2U3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "XBWHHHM2WDBZ3DCY.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            }
-        },
-        "EU (Frankfurt)": {
-            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "9YZH789KZRQC3NQ9.JRTCKXETXF.PB654346B3",
-                "price": "0.0041000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "RHDKQDTPUCEFNK9A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0520000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "9YZH789KZRQC3NQ9.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            },
-            "API Calls from 45000 to Inf": {
-                "rateCode": "9YZH789KZRQC3NQ9.JRTCKXETXF.PB654346B3",
-                "price": "0.0041000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "MNFI Hourly": {
-                "rateCode": "RHDKQDTPUCEFNK9A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0520000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "9YZH789KZRQC3NQ9.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            }
-        },
-        "Canada (Central)": {
-            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "Z7EUWEDCTJQZPQFC.JRTCKXETXF.PB654346B3",
-                "price": "0.0033000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "NQQPYSRUTCMN78Z2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0430000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "Z7EUWEDCTJQZPQFC.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
-            },
-            "API Calls from 45000 to Inf": {
-                "rateCode": "Z7EUWEDCTJQZPQFC.JRTCKXETXF.PB654346B3",
-                "price": "0.0033000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
-            "MNFI Hourly": {
-                "rateCode": "NQQPYSRUTCMN78Z2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0430000000",
-                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "Z7EUWEDCTJQZPQFC.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
             }
         },
         "Asia Pacific (Sydney)": {
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "93542KDKM2YS3ZFW.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
             "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
                 "rateCode": "93542KDKM2YS3ZFW.JRTCKXETXF.PB654346B3",
                 "price": "0.0033000000",
@@ -278,7 +60,7 @@
                 "price": "0.0440000000",
                 "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
             },
-            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+            "API Calls from 0 to 45000": {
                 "rateCode": "93542KDKM2YS3ZFW.JRTCKXETXF.72VS6PJVMG",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
@@ -292,43 +74,262 @@
                 "rateCode": "AS6CDBKMV7Q845TD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0440000000",
                 "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
-            },
-            "API Calls from 0 to 45000": {
-                "rateCode": "93542KDKM2YS3ZFW.JRTCKXETXF.72VS6PJVMG",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
             }
         },
-        "Asia Pacific (Seoul)": {
-            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
-                "rateCode": "7GGT2SJBDQK9W2HJ.JRTCKXETXF.PB654346B3",
-                "price": "0.0037000000",
-                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
-            },
+        "Canada (Central)": {
             "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
-                "rateCode": "Q8FCB6VCUXXJU9M6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0470000000",
+                "rateCode": "NQQPYSRUTCMN78Z2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0430000000",
                 "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
             },
             "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
-                "rateCode": "7GGT2SJBDQK9W2HJ.JRTCKXETXF.72VS6PJVMG",
+                "rateCode": "Z7EUWEDCTJQZPQFC.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
+                "rateCode": "Z7EUWEDCTJQZPQFC.JRTCKXETXF.PB654346B3",
+                "price": "0.0033000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "MNFI Hourly": {
+                "rateCode": "NQQPYSRUTCMN78Z2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0430000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "API Calls from 0 to 45000": {
+                "rateCode": "Z7EUWEDCTJQZPQFC.JRTCKXETXF.72VS6PJVMG",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
             },
             "API Calls from 45000 to Inf": {
-                "rateCode": "7GGT2SJBDQK9W2HJ.JRTCKXETXF.PB654346B3",
-                "price": "0.0037000000",
+                "rateCode": "Z7EUWEDCTJQZPQFC.JRTCKXETXF.PB654346B3",
+                "price": "0.0033000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            }
+        },
+        "EU (Frankfurt)": {
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "9YZH789KZRQC3NQ9.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
+                "rateCode": "9YZH789KZRQC3NQ9.JRTCKXETXF.PB654346B3",
+                "price": "0.0041000000",
                 "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
             },
-            "MNFI Hourly": {
-                "rateCode": "Q8FCB6VCUXXJU9M6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0470000000",
+            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
+                "rateCode": "RHDKQDTPUCEFNK9A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0520000000",
                 "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
             },
             "API Calls from 0 to 45000": {
-                "rateCode": "7GGT2SJBDQK9W2HJ.JRTCKXETXF.72VS6PJVMG",
+                "rateCode": "9YZH789KZRQC3NQ9.JRTCKXETXF.72VS6PJVMG",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "API Calls from 45000 to Inf": {
+                "rateCode": "9YZH789KZRQC3NQ9.JRTCKXETXF.PB654346B3",
+                "price": "0.0041000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "MNFI Hourly": {
+                "rateCode": "RHDKQDTPUCEFNK9A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0520000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            }
+        },
+        "EU (Stockholm)": {
+            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
+                "rateCode": "KZEW3YC4WRA8SDHR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0380000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "NVK6MWP7D65PAJ5T.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
+                "rateCode": "NVK6MWP7D65PAJ5T.JRTCKXETXF.PB654346B3",
+                "price": "0.0029000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "MNFI Hourly": {
+                "rateCode": "KZEW3YC4WRA8SDHR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0380000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "API Calls from 0 to 45000": {
+                "rateCode": "NVK6MWP7D65PAJ5T.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "API Calls from 45000 to Inf": {
+                "rateCode": "NVK6MWP7D65PAJ5T.JRTCKXETXF.PB654346B3",
+                "price": "0.0029000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            }
+        },
+        "EU (Spain)": {
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "BVXPW9GRRGE4QN54.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
+                "rateCode": "BVXPW9GRRGE4QN54.JRTCKXETXF.PB654346B3",
+                "price": "0.0029000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
+                "rateCode": "QUX467Z5B2TTTD5B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0390000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "API Calls from 0 to 45000": {
+                "rateCode": "BVXPW9GRRGE4QN54.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "API Calls from 45000 to Inf": {
+                "rateCode": "BVXPW9GRRGE4QN54.JRTCKXETXF.PB654346B3",
+                "price": "0.0029000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "MNFI Hourly": {
+                "rateCode": "QUX467Z5B2TTTD5B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0390000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            }
+        },
+        "EU (Paris)": {
+            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
+                "rateCode": "64KH4FD57XFQD2U3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "XBWHHHM2WDBZ3DCY.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
+                "rateCode": "XBWHHHM2WDBZ3DCY.JRTCKXETXF.PB654346B3",
+                "price": "0.0039000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "MNFI Hourly": {
+                "rateCode": "64KH4FD57XFQD2U3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "API Calls from 0 to 45000": {
+                "rateCode": "XBWHHHM2WDBZ3DCY.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "API Calls from 45000 to Inf": {
+                "rateCode": "XBWHHHM2WDBZ3DCY.JRTCKXETXF.PB654346B3",
+                "price": "0.0039000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
+                "rateCode": "S6RVNMWS43BRSJ3F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0570000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "XE2QTHM5TGT6UVA9.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
+                "rateCode": "XE2QTHM5TGT6UVA9.JRTCKXETXF.PB654346B3",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "MNFI Hourly": {
+                "rateCode": "S6RVNMWS43BRSJ3F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0570000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "API Calls from 0 to 45000": {
+                "rateCode": "XE2QTHM5TGT6UVA9.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "API Calls from 45000 to Inf": {
+                "rateCode": "XE2QTHM5TGT6UVA9.JRTCKXETXF.PB654346B3",
+                "price": "0.0045000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            }
+        },
+        "US East (N. Virginia)": {
+            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
+                "rateCode": "ANG2D5F53H9324WX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0350000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "FJ9MM25F8Z3C2S28.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
+                "rateCode": "FJ9MM25F8Z3C2S28.JRTCKXETXF.PB654346B3",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "MNFI Hourly": {
+                "rateCode": "ANG2D5F53H9324WX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0350000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "API Calls from 0 to 45000": {
+                "rateCode": "FJ9MM25F8Z3C2S28.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "API Calls from 45000 to Inf": {
+                "rateCode": "FJ9MM25F8Z3C2S28.JRTCKXETXF.PB654346B3",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            }
+        },
+        "US West (Oregon)": {
+            "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0": {
+                "rateCode": "G6VB6QNFG9SRMHDY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0350000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs": {
+                "rateCode": "JVHFT4XGA4AXGMAQ.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o": {
+                "rateCode": "JVHFT4XGA4AXGMAQ.JRTCKXETXF.PB654346B3",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
+            },
+            "MNFI Hourly": {
+                "rateCode": "G6VB6QNFG9SRMHDY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0350000000",
+                "RegionlessRateCode": "aDbOGiSsRFxbnPT_IhhnW4RCQ2z_LvnIBV6IJy0lUd0"
+            },
+            "API Calls from 0 to 45000": {
+                "rateCode": "JVHFT4XGA4AXGMAQ.JRTCKXETXF.72VS6PJVMG",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "vWhPjV8vukJth7MIEfrf2uMZfUtX38HjyehTW9whfcs"
+            },
+            "API Calls from 45000 to Inf": {
+                "rateCode": "JVHFT4XGA4AXGMAQ.JRTCKXETXF.PB654346B3",
+                "price": "0.0025000000",
+                "RegionlessRateCode": "9f-kLs5Y9XL2my7X76OEM49ovLlW7q1uXaAK4Ymne2o"
             }
         }
     }

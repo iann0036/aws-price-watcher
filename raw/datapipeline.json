@@ -1,16 +1,305 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "datapipeline",
         "accessType": "publish",
-        "esIndex": "plc-datapipeline-usd-20260911124632",
+        "source": "datapipeline",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:46:32Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:46:32Z",
-        "currencyCode": "USD",
-        "source": "datapipeline",
+        "esIndex": "plc-datapipeline-usd-20260911124632",
+        "queryConfig": "public/d4edf196-3d15-550c-bf94-4dbf5c197c1f/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
+        "Asia Pacific (Tokyo)": {
+            "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
+                "rateCode": "2768CG5K9EYT4V8H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9524000000",
+                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
+            },
+            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
+                "rateCode": "7GZN43YGZ7F8K6ST.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.3810000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
+            "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY": {
+                "rateCode": "93SBVSBQ4ANQ2DQ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4286000000",
+                "RegionlessRateCode": "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY"
+            },
+            "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps": {
+                "rateCode": "9XJQTAYBEGXXCDPR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9524000000",
+                "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
+            },
+            "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
+                "rateCode": "CNM3436S87YN2BNW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4286000000",
+                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
+            },
+            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
+                "rateCode": "MD9T7XK7YHA6GFAU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.3810000000",
+                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
+            },
+            "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE": {
+                "rateCode": "PZJVY4T9WU4KEGAN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9524000000",
+                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
+            },
+            "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
+                "rateCode": "UPR584D7T23DTHRV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.5715000000",
+                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
+            },
+            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
+                "rateCode": "UUAHF6XE7FKEPVJF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.5715000000",
+                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
+            },
+            "Inactive Pipeline": {
+                "rateCode": "2768CG5K9EYT4V8H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9524000000",
+                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
+            },
+            "Active Pipeline running on On-Premise High Frequency": {
+                "rateCode": "7GZN43YGZ7F8K6ST.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.3810000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
+            "Active Pipeline running on On-Premise Low Frequency": {
+                "rateCode": "CNM3436S87YN2BNW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.4286000000",
+                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
+            },
+            "Active Pipeline running on AWS High Frequency": {
+                "rateCode": "PZJVY4T9WU4KEGAN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.9524000000",
+                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
+            },
+            "Active Pipeline running on AWS Low Frequency": {
+                "rateCode": "UPR584D7T23DTHRV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.5715000000",
+                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
+                "rateCode": "2DTXJ2TC82BAZBYP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
+            },
+            "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
+                "rateCode": "7FVFSZDP4EVG2GQU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
+            },
+            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
+                "rateCode": "7NDYPSBTFRJDCGAP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
+            "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps": {
+                "rateCode": "E2YKW4HRZ9CKB6C8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
+            },
+            "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
+                "rateCode": "FUSUN4UPWYW9RVBR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
+            },
+            "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE": {
+                "rateCode": "GJJ2PUBNZ684K8ZN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
+            },
+            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
+                "rateCode": "MP85C95Y7GWTQWJZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
+            },
+            "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
+                "rateCode": "QNE4DXWWZJNQX83B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
+            },
+            "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY": {
+                "rateCode": "Y88WWKUAC3VZ7F97.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY"
+            },
+            "Active Pipeline running on AWS Low Frequency": {
+                "rateCode": "7FVFSZDP4EVG2GQU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
+            },
+            "Active Pipeline running on On-Premise High Frequency": {
+                "rateCode": "7NDYPSBTFRJDCGAP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
+            "Inactive Pipeline": {
+                "rateCode": "FUSUN4UPWYW9RVBR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
+            },
+            "Active Pipeline running on AWS High Frequency": {
+                "rateCode": "GJJ2PUBNZ684K8ZN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
+            },
+            "Active Pipeline running on On-Premise Low Frequency": {
+                "rateCode": "QNE4DXWWZJNQX83B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
+            }
+        },
+        "EU (Ireland)": {
+            "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
+                "rateCode": "4FQDABGX4JFXCMTY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
+            },
+            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
+                "rateCode": "ED6N6Q8NVYVUWQWG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
+            "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY": {
+                "rateCode": "F8HFFAD69FQKQP96.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY"
+            },
+            "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps": {
+                "rateCode": "FGGNBJGW25ZP7HQ4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
+            },
+            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
+                "rateCode": "M3QRMH2VUGWS5ACU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
+            },
+            "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
+                "rateCode": "QUYKD5JH3P8DBF3A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
+            },
+            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
+                "rateCode": "TQ64Q484GXVPXQ26.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
+            },
+            "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
+                "rateCode": "TQNQ72RUBGE9BNTK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
+            },
+            "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE": {
+                "rateCode": "UABB33XBSRVHFCAT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
+            },
+            "Active Pipeline running on On-Premise Low Frequency": {
+                "rateCode": "4FQDABGX4JFXCMTY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
+            },
+            "Active Pipeline running on On-Premise High Frequency": {
+                "rateCode": "ED6N6Q8NVYVUWQWG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
+            "Inactive Pipeline": {
+                "rateCode": "QUYKD5JH3P8DBF3A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
+            },
+            "Active Pipeline running on AWS Low Frequency": {
+                "rateCode": "TQNQ72RUBGE9BNTK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
+            },
+            "Active Pipeline running on AWS High Frequency": {
+                "rateCode": "UABB33XBSRVHFCAT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
+            }
+        },
+        "US East (N. Virginia)": {
+            "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE": {
+                "rateCode": "3YJSDTDQ8E26Z4CC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
+            },
+            "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
+                "rateCode": "654NUBFY9DA3T43G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
+            },
+            "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
+                "rateCode": "9CEP6EWQ9ASXRA4R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
+            },
+            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
+                "rateCode": "A2NE8VCPZPQHM486.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
+            },
+            "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY": {
+                "rateCode": "HCS957JRDNM7VZSN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY"
+            },
+            "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
+                "rateCode": "K2QRH8EB6M3HFX53.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
+            },
+            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
+                "rateCode": "KUZFA86NMJ9FUTJT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
+            "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps": {
+                "rateCode": "UAC62KVH9C99QEK4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
+            },
+            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
+                "rateCode": "VNBZSY49F82PAQPE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
+            },
+            "Active Pipeline running on AWS High Frequency": {
+                "rateCode": "3YJSDTDQ8E26Z4CC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
+            },
+            "Active Pipeline running on On-Premise Low Frequency": {
+                "rateCode": "654NUBFY9DA3T43G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
+            },
+            "Active Pipeline running on AWS Low Frequency": {
+                "rateCode": "9CEP6EWQ9ASXRA4R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
+            },
+            "Inactive Pipeline": {
+                "rateCode": "K2QRH8EB6M3HFX53.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
+            },
+            "Active Pipeline running on On-Premise High Frequency": {
+                "rateCode": "KUZFA86NMJ9FUTJT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            }
+        },
         "US West (Oregon)": {
             "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
                 "rateCode": "3C7PPG5YEXARR4R7.JRTCKXETXF.6YS6EN2CT7",
@@ -32,30 +321,30 @@
                 "price": "1.0000000000",
                 "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
             },
+            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
+                "rateCode": "P4U9NYY7MTTATJ25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
             "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
                 "rateCode": "PPZW8K76A2KZZ2HE.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.5000000000",
                 "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
-                "rateCode": "XKCRW5DC7G8U6TU9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
-            },
-            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
-                "rateCode": "S9R79YSFE274NWRV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
             },
             "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
                 "rateCode": "RRUYU7EBTSSYA2JX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
                 "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
             },
-            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
-                "rateCode": "P4U9NYY7MTTATJ25.JRTCKXETXF.6YS6EN2CT7",
+            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
+                "rateCode": "S9R79YSFE274NWRV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.6000000000",
+                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
+            },
+            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
+                "rateCode": "XKCRW5DC7G8U6TU9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.5000000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
             },
             "Inactive Pipeline": {
                 "rateCode": "3C7PPG5YEXARR4R7.JRTCKXETXF.6YS6EN2CT7",
@@ -67,6 +356,11 @@
                 "price": "1.0000000000",
                 "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
             },
+            "Active Pipeline running on On-Premise High Frequency": {
+                "rateCode": "P4U9NYY7MTTATJ25.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.5000000000",
+                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
+            },
             "Active Pipeline running on On-Premise Low Frequency": {
                 "rateCode": "PPZW8K76A2KZZ2HE.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.5000000000",
@@ -76,299 +370,6 @@
                 "rateCode": "RRUYU7EBTSSYA2JX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.6000000000",
                 "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "Active Pipeline running on On-Premise High Frequency": {
-                "rateCode": "P4U9NYY7MTTATJ25.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
-            }
-        },
-        "US East (N. Virginia)": {
-            "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
-                "rateCode": "K2QRH8EB6M3HFX53.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
-            },
-            "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY": {
-                "rateCode": "HCS957JRDNM7VZSN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY"
-            },
-            "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE": {
-                "rateCode": "3YJSDTDQ8E26Z4CC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
-            },
-            "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps": {
-                "rateCode": "UAC62KVH9C99QEK4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
-            },
-            "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
-                "rateCode": "654NUBFY9DA3T43G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
-                "rateCode": "A2NE8VCPZPQHM486.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
-            },
-            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
-                "rateCode": "VNBZSY49F82PAQPE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
-            },
-            "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
-                "rateCode": "9CEP6EWQ9ASXRA4R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
-                "rateCode": "KUZFA86NMJ9FUTJT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
-            },
-            "Inactive Pipeline": {
-                "rateCode": "K2QRH8EB6M3HFX53.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
-            },
-            "Active Pipeline running on AWS High Frequency": {
-                "rateCode": "3YJSDTDQ8E26Z4CC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
-            },
-            "Active Pipeline running on On-Premise Low Frequency": {
-                "rateCode": "654NUBFY9DA3T43G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "Active Pipeline running on AWS Low Frequency": {
-                "rateCode": "9CEP6EWQ9ASXRA4R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "Active Pipeline running on On-Premise High Frequency": {
-                "rateCode": "KUZFA86NMJ9FUTJT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
-            }
-        },
-        "EU (Ireland)": {
-            "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
-                "rateCode": "QUYKD5JH3P8DBF3A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
-            },
-            "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY": {
-                "rateCode": "F8HFFAD69FQKQP96.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY"
-            },
-            "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE": {
-                "rateCode": "UABB33XBSRVHFCAT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
-            },
-            "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps": {
-                "rateCode": "FGGNBJGW25ZP7HQ4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
-            },
-            "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
-                "rateCode": "4FQDABGX4JFXCMTY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
-                "rateCode": "M3QRMH2VUGWS5ACU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
-            },
-            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
-                "rateCode": "TQ64Q484GXVPXQ26.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
-            },
-            "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
-                "rateCode": "TQNQ72RUBGE9BNTK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
-                "rateCode": "ED6N6Q8NVYVUWQWG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
-            },
-            "Inactive Pipeline": {
-                "rateCode": "QUYKD5JH3P8DBF3A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
-            },
-            "Active Pipeline running on AWS High Frequency": {
-                "rateCode": "UABB33XBSRVHFCAT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
-            },
-            "Active Pipeline running on On-Premise Low Frequency": {
-                "rateCode": "4FQDABGX4JFXCMTY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "Active Pipeline running on AWS Low Frequency": {
-                "rateCode": "TQNQ72RUBGE9BNTK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "Active Pipeline running on On-Premise High Frequency": {
-                "rateCode": "ED6N6Q8NVYVUWQWG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
-            }
-        },
-        "Asia Pacific (Tokyo)": {
-            "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
-                "rateCode": "2768CG5K9EYT4V8H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.9524000000",
-                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
-            },
-            "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY": {
-                "rateCode": "93SBVSBQ4ANQ2DQ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4286000000",
-                "RegionlessRateCode": "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY"
-            },
-            "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE": {
-                "rateCode": "PZJVY4T9WU4KEGAN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.9524000000",
-                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
-            },
-            "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps": {
-                "rateCode": "9XJQTAYBEGXXCDPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.9524000000",
-                "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
-            },
-            "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
-                "rateCode": "CNM3436S87YN2BNW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4286000000",
-                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
-                "rateCode": "MD9T7XK7YHA6GFAU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.3810000000",
-                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
-            },
-            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
-                "rateCode": "UUAHF6XE7FKEPVJF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.5715000000",
-                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
-            },
-            "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
-                "rateCode": "UPR584D7T23DTHRV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.5715000000",
-                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
-                "rateCode": "7GZN43YGZ7F8K6ST.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.3810000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
-            },
-            "Inactive Pipeline": {
-                "rateCode": "2768CG5K9EYT4V8H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.9524000000",
-                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
-            },
-            "Active Pipeline running on AWS High Frequency": {
-                "rateCode": "PZJVY4T9WU4KEGAN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.9524000000",
-                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
-            },
-            "Active Pipeline running on On-Premise Low Frequency": {
-                "rateCode": "CNM3436S87YN2BNW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.4286000000",
-                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "Active Pipeline running on AWS Low Frequency": {
-                "rateCode": "UPR584D7T23DTHRV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.5715000000",
-                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "Active Pipeline running on On-Premise High Frequency": {
-                "rateCode": "7GZN43YGZ7F8K6ST.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.3810000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo": {
-                "rateCode": "FUSUN4UPWYW9RVBR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
-            },
-            "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY": {
-                "rateCode": "Y88WWKUAC3VZ7F97.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ERnwUtfyISBFDF3RrtXskbLuKsK7S4FFBBrMSyGtYDY"
-            },
-            "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE": {
-                "rateCode": "GJJ2PUBNZ684K8ZN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
-            },
-            "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps": {
-                "rateCode": "E2YKW4HRZ9CKB6C8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "OBwLZerYCJp3eeftDO492mBwcfEOmumDmpqygYs_Gps"
-            },
-            "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo": {
-                "rateCode": "QNE4DXWWZJNQX83B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4": {
-                "rateCode": "MP85C95Y7GWTQWJZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "VHOpdYOe-Jaz7AyNRfKeNhDbScIcBAS8KJk9vqnAWt4"
-            },
-            "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY": {
-                "rateCode": "2DTXJ2TC82BAZBYP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "f-qW8jDMa6Gzy-abuYFiS3KzoaVkVXYcS_aIcpSx1DY"
-            },
-            "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms": {
-                "rateCode": "7FVFSZDP4EVG2GQU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA": {
-                "rateCode": "7NDYPSBTFRJDCGAP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
-            },
-            "Inactive Pipeline": {
-                "rateCode": "FUSUN4UPWYW9RVBR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "53WPurREJVM9fEA6x1omenpJ5rla5xHmxkR5vlH2GUo"
-            },
-            "Active Pipeline running on AWS High Frequency": {
-                "rateCode": "GJJ2PUBNZ684K8ZN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "O5j9hvlL7WrE6pkaOgFriBNohpzkgg-6C0x_akDNMpE"
-            },
-            "Active Pipeline running on On-Premise Low Frequency": {
-                "rateCode": "QNE4DXWWZJNQX83B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "UPaq1qdNpcOrsCi5mDx5hjm-kbUf24Ow8H2_Koym3oo"
-            },
-            "Active Pipeline running on AWS Low Frequency": {
-                "rateCode": "7FVFSZDP4EVG2GQU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.6000000000",
-                "RegionlessRateCode": "pzUc4BPgkQ8KABBLmt_xxJ7Soz1-I6L0r0nrg8vpFms"
-            },
-            "Active Pipeline running on On-Premise High Frequency": {
-                "rateCode": "7NDYPSBTFRJDCGAP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.5000000000",
-                "RegionlessRateCode": "zJC_vFbdH1GPabSHHxL9O2GQR7PdsezPHFu8BsUE9KA"
             }
         }
     }

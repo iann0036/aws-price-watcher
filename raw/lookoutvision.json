@@ -1,501 +1,52 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "lookoutvision",
         "accessType": "publish",
-        "esIndex": "plc-lookoutvision-usd-20260911124449",
+        "source": "lookoutvision",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:49Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:49Z",
-        "currencyCode": "USD",
-        "source": "lookoutvision",
+        "esIndex": "plc-lookoutvision-usd-20260911124449",
+        "queryConfig": "public/feac6c67-da28-51e6-82a5-d3c68b558158/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
-                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
-                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
-                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666700",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
-                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
-                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666700",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
-                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
-                "rateCode": "HQDJUKA36S3GFYDV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0333333330",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
-                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333300",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
-                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            },
-            "Machine Learning Inference from 18000 to 198000": {
-                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "Machine Learning EdgeInference from 0 to 5": {
-                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "Machine Learning Inference from 1998000 to Inf": {
-                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666700",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "Machine Learning EdgeInference from 5 to 500": {
-                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Machine Learning Inference from 0 to 18000": {
-                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666700",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "Machine Learning EdgeInference from 2500 to Inf": {
-                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "Machine Learning Training per minutes": {
-                "rateCode": "HQDJUKA36S3GFYDV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0333333330",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "Machine Learning Inference from 198000 to 1998000": {
-                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333300",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "Machine Learning EdgeInference from 500 to 2500": {
-                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            }
-        },
-        "US East (Ohio)": {
-            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
-                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
-                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
-                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
-                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
-                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
-                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
-                "rateCode": "4ZSJVHPJTZTZ6EHD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0333333330",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
-                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
-                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            },
-            "Machine Learning Inference from 18000 to 198000": {
-                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "Machine Learning EdgeInference from 0 to 5": {
-                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "Machine Learning Inference from 1998000 to Inf": {
-                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "Machine Learning EdgeInference from 5 to 500": {
-                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Machine Learning Inference from 0 to 18000": {
-                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "Machine Learning EdgeInference from 2500 to Inf": {
-                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "Machine Learning Training per minutes": {
-                "rateCode": "4ZSJVHPJTZTZ6EHD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0333333330",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "Machine Learning Inference from 198000 to 1998000": {
-                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "Machine Learning EdgeInference from 500 to 2500": {
-                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            }
-        },
-        "US East (N. Virginia)": {
-            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
-                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
-                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
-                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
-                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
-                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
-                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
-                "rateCode": "U337EXJVVT7VPUDB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0333333330",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
-                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
-                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            },
-            "Machine Learning Inference from 18000 to 198000": {
-                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "Machine Learning EdgeInference from 0 to 5": {
-                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "Machine Learning Inference from 1998000 to Inf": {
-                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "Machine Learning EdgeInference from 5 to 500": {
-                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Machine Learning Inference from 0 to 18000": {
-                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "Machine Learning EdgeInference from 2500 to Inf": {
-                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "Machine Learning Training per minutes": {
-                "rateCode": "U337EXJVVT7VPUDB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0333333330",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "Machine Learning Inference from 198000 to 1998000": {
-                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "Machine Learning EdgeInference from 500 to 2500": {
-                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            }
-        },
-        "EU (Ireland)": {
-            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
-                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
-                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
-                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
-                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
-                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
-                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
-                "rateCode": "R4PSC3FH5FKY2AU8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0360000000",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
-                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
-                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            },
-            "Machine Learning Inference from 18000 to 198000": {
-                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "Machine Learning EdgeInference from 0 to 5": {
-                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "Machine Learning Inference from 1998000 to Inf": {
-                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "Machine Learning EdgeInference from 5 to 500": {
-                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Machine Learning Inference from 0 to 18000": {
-                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "Machine Learning EdgeInference from 2500 to Inf": {
-                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "Machine Learning Training per minutes": {
-                "rateCode": "R4PSC3FH5FKY2AU8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0360000000",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "Machine Learning Inference from 198000 to 1998000": {
-                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "Machine Learning EdgeInference from 500 to 2500": {
-                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            }
-        },
-        "EU (Frankfurt)": {
-            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
-                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
-                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
-                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
-                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
-                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
-                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
-                "rateCode": "QMZB58VD54Z55FKZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0370000000",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
-                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
-                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            },
-            "Machine Learning Inference from 18000 to 198000": {
-                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
-            "Machine Learning EdgeInference from 0 to 5": {
-                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "Machine Learning Inference from 1998000 to Inf": {
-                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
-            "Machine Learning EdgeInference from 5 to 500": {
-                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.HDZQ82Q9XF",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
-            },
-            "Machine Learning Inference from 0 to 18000": {
-                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
-            },
-            "Machine Learning EdgeInference from 2500 to Inf": {
-                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.A4S8GPRG2S",
-                "price": "60.0000000000",
-                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
-            },
-            "Machine Learning Training per minutes": {
-                "rateCode": "QMZB58VD54Z55FKZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0370000000",
-                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "Machine Learning Inference from 198000 to 1998000": {
-                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "Machine Learning EdgeInference from 500 to 2500": {
-                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            }
-        },
         "Asia Pacific (Tokyo)": {
+            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
+                "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
             "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
                 "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.V6DCVP9P83",
                 "price": "0.0600000000",
                 "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
             },
-            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
-                "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
+                "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
             },
             "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
                 "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.68C7VMJH22",
                 "price": "0.0466666670",
                 "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
             },
+            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
+                "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
             "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
                 "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.HDZQ82Q9XF",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
             },
-            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
-                "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
+                "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
             },
             "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
                 "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.A4S8GPRG2S",
@@ -507,40 +58,40 @@
                 "price": "0.0456666670",
                 "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
             },
-            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
-                "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
-                "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            "Machine Learning Inference from 0 to 18000": {
+                "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
             },
             "Machine Learning Inference from 18000 to 198000": {
                 "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.V6DCVP9P83",
                 "price": "0.0600000000",
                 "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
             },
-            "Machine Learning EdgeInference from 0 to 5": {
-                "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.V7GB4D473V",
-                "price": "100.0000000000",
-                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            "Machine Learning Inference from 198000 to 1998000": {
+                "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
             },
             "Machine Learning Inference from 1998000 to Inf": {
                 "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.68C7VMJH22",
                 "price": "0.0466666670",
                 "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
             },
+            "Machine Learning EdgeInference from 0 to 5": {
+                "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
             "Machine Learning EdgeInference from 5 to 500": {
                 "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.HDZQ82Q9XF",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
             },
-            "Machine Learning Inference from 0 to 18000": {
-                "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            "Machine Learning EdgeInference from 500 to 2500": {
+                "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
             },
             "Machine Learning EdgeInference from 2500 to Inf": {
                 "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.A4S8GPRG2S",
@@ -551,43 +102,23 @@
                 "rateCode": "YP4VS42946PR59GN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0456666670",
                 "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
-            },
-            "Machine Learning Inference from 198000 to 1998000": {
-                "rateCode": "2DDMFWE9HTFR8ZTY.JRTCKXETXF.T7DGY2BYWK",
-                "price": "0.0533333330",
-                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
-            },
-            "Machine Learning EdgeInference from 500 to 2500": {
-                "rateCode": "TEQS357G9N73N6BK.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
             }
         },
         "Asia Pacific (Seoul)": {
-            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
-                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
-            },
             "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
                 "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.V7GB4D473V",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
-            },
-            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
-                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
             },
             "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
                 "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.HDZQ82Q9XF",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
             },
-            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
-                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
+                "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
             },
             "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
                 "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.A4S8GPRG2S",
@@ -599,40 +130,40 @@
                 "price": "0.0383333330",
                 "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
             },
+            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
+                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
+                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
             "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
                 "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.T7DGY2BYWK",
                 "price": "0.0533333330",
                 "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
             },
-            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
-                "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.FNVAXVYQW3",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
-            },
-            "Machine Learning Inference from 18000 to 198000": {
-                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.V6DCVP9P83",
-                "price": "0.0600000000",
-                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
+                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
             },
             "Machine Learning EdgeInference from 0 to 5": {
                 "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.V7GB4D473V",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
             },
-            "Machine Learning Inference from 1998000 to Inf": {
-                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.68C7VMJH22",
-                "price": "0.0466666670",
-                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
-            },
             "Machine Learning EdgeInference from 5 to 500": {
                 "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.HDZQ82Q9XF",
                 "price": "100.0000000000",
                 "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
             },
-            "Machine Learning Inference from 0 to 18000": {
-                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.JB2EW9SCHB",
-                "price": "0.0666666670",
-                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            "Machine Learning EdgeInference from 500 to 2500": {
+                "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
             },
             "Machine Learning EdgeInference from 2500 to Inf": {
                 "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.A4S8GPRG2S",
@@ -644,15 +175,485 @@
                 "price": "0.0383333330",
                 "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
             },
+            "Machine Learning Inference from 0 to 18000": {
+                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "Machine Learning Inference from 18000 to 198000": {
+                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
             "Machine Learning Inference from 198000 to 1998000": {
                 "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.T7DGY2BYWK",
                 "price": "0.0533333330",
                 "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
             },
-            "Machine Learning EdgeInference from 500 to 2500": {
-                "rateCode": "7APNDAZ69KQ7UJAZ.JRTCKXETXF.FNVAXVYQW3",
+            "Machine Learning Inference from 1998000 to Inf": {
+                "rateCode": "NY5XE854WSXAGNPB.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            }
+        },
+        "EU (Frankfurt)": {
+            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
+                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
+                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
+                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.FNVAXVYQW3",
                 "price": "80.0000000000",
                 "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
+                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
+                "rateCode": "QMZB58VD54Z55FKZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0370000000",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            },
+            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
+                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
+                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
+                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
+                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            },
+            "Machine Learning EdgeInference from 0 to 5": {
+                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "Machine Learning EdgeInference from 5 to 500": {
+                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "Machine Learning EdgeInference from 500 to 2500": {
+                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "Machine Learning EdgeInference from 2500 to Inf": {
+                "rateCode": "EWSVXSC98QTPZFDA.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "Machine Learning Training per minutes": {
+                "rateCode": "QMZB58VD54Z55FKZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0370000000",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            },
+            "Machine Learning Inference from 0 to 18000": {
+                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "Machine Learning Inference from 18000 to 198000": {
+                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "Machine Learning Inference from 198000 to 1998000": {
+                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "Machine Learning Inference from 1998000 to Inf": {
+                "rateCode": "SBK5PCQR8JJVPQCB.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            }
+        },
+        "EU (Ireland)": {
+            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
+                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
+                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
+                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
+                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
+                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
+                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
+                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
+                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            },
+            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
+                "rateCode": "R4PSC3FH5FKY2AU8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0360000000",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            },
+            "Machine Learning EdgeInference from 0 to 5": {
+                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "Machine Learning EdgeInference from 5 to 500": {
+                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "Machine Learning EdgeInference from 500 to 2500": {
+                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "Machine Learning EdgeInference from 2500 to Inf": {
+                "rateCode": "E45SGF2YXVZEBWAM.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "Machine Learning Inference from 0 to 18000": {
+                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "Machine Learning Inference from 18000 to 198000": {
+                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "Machine Learning Inference from 198000 to 1998000": {
+                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "Machine Learning Inference from 1998000 to Inf": {
+                "rateCode": "PU8N3UVP6GGUPZAS.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            },
+            "Machine Learning Training per minutes": {
+                "rateCode": "R4PSC3FH5FKY2AU8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0360000000",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            }
+        },
+        "US East (N. Virginia)": {
+            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
+                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
+                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
+                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
+                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
+                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
+                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
+                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
+                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            },
+            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
+                "rateCode": "U337EXJVVT7VPUDB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0333333330",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            },
+            "Machine Learning EdgeInference from 0 to 5": {
+                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "Machine Learning EdgeInference from 5 to 500": {
+                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "Machine Learning EdgeInference from 500 to 2500": {
+                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "Machine Learning EdgeInference from 2500 to Inf": {
+                "rateCode": "42XY8BUAFA2RG6CT.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "Machine Learning Inference from 0 to 18000": {
+                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "Machine Learning Inference from 18000 to 198000": {
+                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "Machine Learning Inference from 198000 to 1998000": {
+                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "Machine Learning Inference from 1998000 to Inf": {
+                "rateCode": "PFJMGNRVUE54BBY7.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            },
+            "Machine Learning Training per minutes": {
+                "rateCode": "U337EXJVVT7VPUDB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0333333330",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            }
+        },
+        "US East (Ohio)": {
+            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
+                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
+                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
+                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
+                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            },
+            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
+                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
+                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
+                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
+                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
+                "rateCode": "4ZSJVHPJTZTZ6EHD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0333333330",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            },
+            "Machine Learning Inference from 0 to 18000": {
+                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666670",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "Machine Learning Inference from 18000 to 198000": {
+                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "Machine Learning Inference from 198000 to 1998000": {
+                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333330",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "Machine Learning Inference from 1998000 to Inf": {
+                "rateCode": "2FT4NQPCHYZ9AKFN.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666670",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            },
+            "Machine Learning EdgeInference from 0 to 5": {
+                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "Machine Learning EdgeInference from 5 to 500": {
+                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "Machine Learning EdgeInference from 500 to 2500": {
+                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "Machine Learning EdgeInference from 2500 to Inf": {
+                "rateCode": "3TJ25AYV97EN2VV8.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "Machine Learning Training per minutes": {
+                "rateCode": "4ZSJVHPJTZTZ6EHD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0333333330",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            }
+        },
+        "US West (Oregon)": {
+            "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs": {
+                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0": {
+                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4": {
+                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68": {
+                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ": {
+                "rateCode": "HQDJUKA36S3GFYDV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0333333330",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            },
+            "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk": {
+                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666700",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno": {
+                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE": {
+                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333300",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c": {
+                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666700",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
+            },
+            "Machine Learning EdgeInference from 0 to 5": {
+                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.V7GB4D473V",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "9m_JdBXGmhUbiToNlUNZXPVyGYfsOci7YKulyZUHVPs"
+            },
+            "Machine Learning EdgeInference from 5 to 500": {
+                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.HDZQ82Q9XF",
+                "price": "100.0000000000",
+                "RegionlessRateCode": "DtbK2lNF_zYVaImEpmDDeFaUASeU9o4OBDKVoDj3zr0"
+            },
+            "Machine Learning EdgeInference from 500 to 2500": {
+                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.FNVAXVYQW3",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "qlSTJPBwewtx9UFtsKzGxGwvuW_r54Fy8SztrDvrwo4"
+            },
+            "Machine Learning EdgeInference from 2500 to Inf": {
+                "rateCode": "9GF83MGXS8NR4SGK.JRTCKXETXF.A4S8GPRG2S",
+                "price": "60.0000000000",
+                "RegionlessRateCode": "J4RQklLL4KkvIVk-rJOhJBX7jXMCR0lmEw3Dxj0PO68"
+            },
+            "Machine Learning Training per minutes": {
+                "rateCode": "HQDJUKA36S3GFYDV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0333333330",
+                "RegionlessRateCode": "WkVSnoaYfr2ap-plYOGg0M4EZq8D3ksNV2WiE0AfcXQ"
+            },
+            "Machine Learning Inference from 0 to 18000": {
+                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.JB2EW9SCHB",
+                "price": "0.0666666700",
+                "RegionlessRateCode": "Fks-cfI9ebVI0RPM4WYCi0nmgdOYg7aiqwrbqAFlWZk"
+            },
+            "Machine Learning Inference from 18000 to 198000": {
+                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.V6DCVP9P83",
+                "price": "0.0600000000",
+                "RegionlessRateCode": "780xGc6u9XAqK8j_O8yNQzZU-SUyaHbyuvHjg2gDNno"
+            },
+            "Machine Learning Inference from 198000 to 1998000": {
+                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.T7DGY2BYWK",
+                "price": "0.0533333300",
+                "RegionlessRateCode": "cwAeZRr9QSW3G-KIx54UvLfp3VxhrrwdKKbg2rAsGnE"
+            },
+            "Machine Learning Inference from 1998000 to Inf": {
+                "rateCode": "NVUKVRXKBPK7E35C.JRTCKXETXF.68C7VMJH22",
+                "price": "0.0466666700",
+                "RegionlessRateCode": "AGDMzuoA0rHkNBfqoOu4Y3WwnNvYOOs8EGjfckbzQ6c"
             }
         }
     }

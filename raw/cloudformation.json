@@ -1,412 +1,841 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "cloudformation",
         "accessType": "publish",
-        "esIndex": "plc-cloudformation-usd-20260911124531",
+        "source": "cloudformation",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:31Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:31Z",
-        "currencyCode": "USD",
-        "source": "cloudformation",
+        "esIndex": "plc-cloudformation-usd-20260911124531",
+        "queryConfig": "public/406aac68-b217-5f26-8128-e430eed0115f/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
+        "Africa (Cape Town)": {
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "2G9TB35MHK69A6RC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
             "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "GDFYD5ZEGF2FCETQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "H6GUZ6PPW5BJ9QTN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "C7QTW9JWWMFYVVT3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HNUGNQWDQNBG2UBY.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "YCE662YK4CXC5NDH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
             "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "GRZVWP32VPJTPP38.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KKCVF8BV6NCJGDCS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "2G9TB35MHK69A6RC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
             "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "GDFYD5ZEGF2FCETQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "H6GUZ6PPW5BJ9QTN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "C7QTW9JWWMFYVVT3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HNUGNQWDQNBG2UBY.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "KKCVF8BV6NCJGDCS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            }
+        },
+        "Asia Pacific (Hong Kong)": {
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "GQPC7YX5HZ355Q5J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "MRHP3QPPV39NEE8Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "WY3AV2GH3FU5MXTZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "Y275PP8RS3QCNHSZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "GQPC7YX5HZ355Q5J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "MRHP3QPPV39NEE8Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "WY3AV2GH3FU5MXTZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "Y275PP8RS3QCNHSZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            }
+        },
+        "Asia Pacific (Taipei)": {
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "7VX3D4KE3X2SCQXH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "S2PZTDAXZRSUHF48.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "S8VUEM97U4FR2G4W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "V2VCHSESP9TYF382.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "7VX3D4KE3X2SCQXH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
             "CloudFormation-Hook-Invocation per Count": {
-                "rateCode": "YCE662YK4CXC5NDH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "S2PZTDAXZRSUHF48.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "GRZVWP32VPJTPP38.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "US West (N. California)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "MS73462HFEHQA6YK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "TPSFEFXXTUJHP2F8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "JSD8N5BZYP4UTRQU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "U6MY8KZGG8AP8BNS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "MS73462HFEHQA6YK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "TPSFEFXXTUJHP2F8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "JSD8N5BZYP4UTRQU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "S2PZTDAXZRSUHF48.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "U6MY8KZGG8AP8BNS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "US East (Ohio)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "2W5H4KYCVHN829H6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "EJSBCK8ZUYMB9ANB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "RWSNMGHKPSJYSYAA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "K8ZW99HVY2BMWEM6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "2W5H4KYCVHN829H6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "EJSBCK8ZUYMB9ANB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "RWSNMGHKPSJYSYAA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "K8ZW99HVY2BMWEM6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "US East (N. Virginia)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "C52MJ9EFVEM4GKS3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "HPEUP542Y4GR3HNF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "N22RS3SQ22JCVS65.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "7PSQT2PVM774H5WC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "C52MJ9EFVEM4GKS3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "HPEUP542Y4GR3HNF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-Hook-Invocation per Unit": {
-                "rateCode": "N22RS3SQ22JCVS65.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "S2PZTDAXZRSUHF48.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "7PSQT2PVM774H5WC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "T5A69GNJV5DV899R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "7FYJHQYWGY38WQKU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "VY8N2AJ2B8F67AFW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "PSN92FBW5F3AKFH6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "T5A69GNJV5DV899R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "7FYJHQYWGY38WQKU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "VY8N2AJ2B8F67AFW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "PSN92FBW5F3AKFH6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Middle East (UAE)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "FPUKNR2YW7VK5CG5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "S97QSCPJCEACU6PN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "N87TN44KVYKCUUC8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "XEEMNFQJMFB78ZY8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "FPUKNR2YW7VK5CG5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "S97QSCPJCEACU6PN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Unit": {
-                "rateCode": "N87TN44KVYKCUUC8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "XEEMNFQJMFB78ZY8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Middle East (Bahrain)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "3GPYYQSK4QGHUE6N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "CKSVVWBD5J6EA8KE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "8BBURTWGVXFCG8TA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "Q4WRJ3DA8KFSA89W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "3GPYYQSK4QGHUE6N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "CKSVVWBD5J6EA8KE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "8BBURTWGVXFCG8TA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "Q4WRJ3DA8KFSA89W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Mexico (Central)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "MTAS6HXJZ4GUKSVX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "EQV8VBAHEWQG6442.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "CG8MWBB9A2NVVPCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "B8PYAN7UXNJNTU3X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "MTAS6HXJZ4GUKSVX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-ResourceProvider-Duration per seconds": {
-                "rateCode": "MTAS6HXJZ4GUKSVX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "EQV8VBAHEWQG6442.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "S8VUEM97U4FR2G4W.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-Hook-Duration per Second": {
-                "rateCode": "EQV8VBAHEWQG6442.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "S8VUEM97U4FR2G4W.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
-            "CloudFormation-Hook-Invocation per Count": {
-                "rateCode": "CG8MWBB9A2NVVPCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "CG8MWBB9A2NVVPCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-Hook-Invocation per Unit": {
-                "rateCode": "CG8MWBB9A2NVVPCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "B8PYAN7UXNJNTU3X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Israel (Tel Aviv)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "EJS53ESNASZD9MW9.JRTCKXETXF.6YS6EN2CT7",
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "V2VCHSESP9TYF382.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
+            "CloudFormation-ResourceProvider-Duration per seconds": {
+                "rateCode": "V2VCHSESP9TYF382.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            }
+        },
+        "Asia Pacific (Tokyo)": {
             "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "ZY3M79DNP5HJ89J3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "BHUS6QBMYBPBJ2ZQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "EEMGBB5BXVHGJ52C.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "BWR9KSZ3EFMSZHEJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
             "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "KN7BVDGAWKYHEK58.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "MAW89X73H4EPD4PT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "EJS53ESNASZD9MW9.JRTCKXETXF.6YS6EN2CT7",
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "XQ4JRX53AFAM3S3C.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "ZY3M79DNP5HJ89J3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "BHUS6QBMYBPBJ2ZQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
-            "CloudFormation-Hook-Invocation per Unit": {
-                "rateCode": "EEMGBB5BXVHGJ52C.JRTCKXETXF.6YS6EN2CT7",
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "BWR9KSZ3EFMSZHEJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
             "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "KN7BVDGAWKYHEK58.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "MAW89X73H4EPD4PT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "XQ4JRX53AFAM3S3C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            }
+        },
+        "Asia Pacific (Seoul)": {
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "3YNQHBVABTJ6CE42.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "7GYB593RPXDEXU8P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "9HYY7SEJKU5Y944Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "9R2WA36NC2WPHUCQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "3YNQHBVABTJ6CE42.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "7GYB593RPXDEXU8P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "9HYY7SEJKU5Y944Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "9R2WA36NC2WPHUCQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            }
+        },
+        "Asia Pacific (Osaka)": {
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "U6W9W6DAXBVAWCDN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "V54R9MKETSH3VYT3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "V8MZG8GQRTCCXHJS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "ZDSMBQVAT6GMDX3B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "U6W9W6DAXBVAWCDN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "V54R9MKETSH3VYT3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "V8MZG8GQRTCCXHJS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "ZDSMBQVAT6GMDX3B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            }
+        },
+        "Asia Pacific (Mumbai)": {
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "67KAP746C9SQXW23.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "CQV49PGZDMSUZUER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "QZ6GCJ574AT7AEKZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "WYJUYGDKZP3D6JEW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "67KAP746C9SQXW23.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "CQV49PGZDMSUZUER.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "QZ6GCJ574AT7AEKZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "WYJUYGDKZP3D6JEW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            }
+        },
+        "Asia Pacific (Hyderabad)": {
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "6BTRMR4HR5W834DW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "ECBPHGZ5X93PGH66.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "EXHXPCHZHVXC7DHU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "RHSXRYFD6Z44643H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "6BTRMR4HR5W834DW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "ECBPHGZ5X93PGH66.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "EXHXPCHZHVXC7DHU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "RHSXRYFD6Z44643H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "93ZZXEG9JRPCPRDQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "FHKC8C3UPPWXHGZE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "H8QTUMXXPE2A33V5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "WQ2Y9HUP9JUT9ZHH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "93ZZXEG9JRPCPRDQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "FHKC8C3UPPWXHGZE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "H8QTUMXXPE2A33V5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "WQ2Y9HUP9JUT9ZHH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "4Y4RWJC95WVN7J4N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "VARKFG2QDU6H9YX2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "XZSW2V8Y3T29KQR8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "YWDTV9KQ49C9CJQA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "4Y4RWJC95WVN7J4N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "VARKFG2QDU6H9YX2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "XZSW2V8Y3T29KQR8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "YWDTV9KQ49C9CJQA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            }
+        },
+        "Asia Pacific (Jakarta)": {
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "2P4NRAHB9J9TH4VV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "MY935KWBPQ53KJ6K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "T6B75S6ZHGZ8PJ4F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "V6UMFQMUDPGA32BK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "2P4NRAHB9J9TH4VV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per seconds": {
+                "rateCode": "MY935KWBPQ53KJ6K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "MY935KWBPQ53KJ6K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "T6B75S6ZHGZ8PJ4F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "V6UMFQMUDPGA32BK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            }
+        },
+        "Asia Pacific (Melbourne)": {
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "9TEY8USURCEENF5V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "PZCMUUN4Y2F4F4YP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "VD6WYQWTQDA586RB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "Z4RJRFJNQ52EKGD2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "9TEY8USURCEENF5V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Duration per seconds": {
+                "rateCode": "PZCMUUN4Y2F4F4YP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "PZCMUUN4Y2F4F4YP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "VD6WYQWTQDA586RB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "Z4RJRFJNQ52EKGD2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            }
+        },
+        "Asia Pacific (Malaysia)": {
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "94RJP6PZJF38HKCZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "U3MZYAANVXAZX2Z3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "V7EKC3MKGJ5KCEW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "Y2XBTDGQQHWCSWHZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "94RJP6PZJF38HKCZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "U3MZYAANVXAZX2Z3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "V7EKC3MKGJ5KCEW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "Y2XBTDGQQHWCSWHZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            }
+        },
+        "Asia Pacific (New Zealand)": {
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "2PR5XHWPG77NASTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "7ZHBWTAK47JKP2X6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "XBTH78D3YHC72DUA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "ZJ9M3RRWSFQB47JF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Count": {
+                "rateCode": "2PR5XHWPG77NASTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "2PR5XHWPG77NASTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Invocation per Unit": {
+                "rateCode": "2PR5XHWPG77NASTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "7ZHBWTAK47JKP2X6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-Hook-Duration per Second": {
+                "rateCode": "7ZHBWTAK47JKP2X6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "XBTH78D3YHC72DUA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "ZJ9M3RRWSFQB47JF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Duration per seconds": {
+                "rateCode": "ZJ9M3RRWSFQB47JF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            }
+        },
+        "Asia Pacific (Thailand)": {
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "3K62CV9Z98KQEE6Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "S6WA9UFA7QQNX7D4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "T23BTVJ5UWNYRTK9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "VEYPUFGSVR5W7GE7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "3K62CV9Z98KQEE6Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Duration per seconds": {
+                "rateCode": "3K62CV9Z98KQEE6Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Count": {
+                "rateCode": "S6WA9UFA7QQNX7D4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "S6WA9UFA7QQNX7D4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Invocation per Unit": {
+                "rateCode": "S6WA9UFA7QQNX7D4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "T23BTVJ5UWNYRTK9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-Hook-Duration per Second": {
+                "rateCode": "T23BTVJ5UWNYRTK9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "VEYPUFGSVR5W7GE7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            }
+        },
+        "Canada (Central)": {
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "6B4PARWV2XSCNYSG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "F4DHV4Q7NRHB55WQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "QSQHSC94CK2P4YNH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "WW9WHEUUX7QA8ZF3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "6B4PARWV2XSCNYSG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "F4DHV4Q7NRHB55WQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "QSQHSC94CK2P4YNH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "WW9WHEUUX7QA8ZF3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            }
+        },
+        "Canada West (Calgary)": {
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "DBG55CF6T2Q735DE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "JFHK9FPB4ZD63JCE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "NT7TSYD4TCQRGBNP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "XWN86GKDQBA8RB3A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "DBG55CF6T2Q735DE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-Hook-Invocation per Unit": {
+                "rateCode": "JFHK9FPB4ZD63JCE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "NT7TSYD4TCQRGBNP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "XWN86GKDQBA8RB3A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            }
+        },
+        "EU (Frankfurt)": {
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "39WVUB5SFRKK39QB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "7G3JUN5MBVZGCXQR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "E7BQ6UHKFBBPDEAT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "FEJFPBYGFG8ZKSGM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "39WVUB5SFRKK39QB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "7G3JUN5MBVZGCXQR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "E7BQ6UHKFBBPDEAT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "FEJFPBYGFG8ZKSGM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             }
         },
         "EU (Zurich)": {
@@ -415,11 +844,6 @@
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "KSRD4EM8BASSNM5Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
             "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
                 "rateCode": "APS6BAW88BDB9X65.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
@@ -430,15 +854,15 @@
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "KSRD4EM8BASSNM5Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
             "CloudFormation-ResourceProvider-Duration per Second": {
                 "rateCode": "A95Q4GG4RNZ57AEC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "KSRD4EM8BASSNM5Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-Hook-Invocation per Unit": {
                 "rateCode": "APS6BAW88BDB9X65.JRTCKXETXF.6YS6EN2CT7",
@@ -449,9 +873,19 @@
                 "rateCode": "EGM2BVYU87YQZ4EK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "KSRD4EM8BASSNM5Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             }
         },
         "EU (Stockholm)": {
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "8T9942CPEXRZQXJ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
             "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
                 "rateCode": "MTABZDESRCAWZXQQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
@@ -467,7 +901,7 @@
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
                 "rateCode": "8T9942CPEXRZQXJ2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
@@ -486,19 +920,51 @@
                 "rateCode": "V9PU4QZA79AJYC3G.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            }
+        },
+        "EU (Milan)": {
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "6D7WVEH7DGNTAYFQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "G5SDE5HPCJ5TSVZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "GWJRVQMB9QXUND87.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "UAWT2Q77WXTN55JR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "6D7WVEH7DGNTAYFQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "G5SDE5HPCJ5TSVZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "GWJRVQMB9QXUND87.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "8T9942CPEXRZQXJ2.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "UAWT2Q77WXTN55JR.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             }
         },
         "EU (Spain)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "VE2SAAJSYBRQR7P4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
             "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
                 "rateCode": "A37YZR7PDCJ46HAM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
@@ -514,7 +980,7 @@
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
-            "CloudFormation-ResourceProvider-Duration per Second": {
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
                 "rateCode": "VE2SAAJSYBRQR7P4.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
@@ -533,6 +999,95 @@
                 "rateCode": "HMKQXS8DSG49RM6N.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "VE2SAAJSYBRQR7P4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            }
+        },
+        "EU (Ireland)": {
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "CXPCT73BGZG665G4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "TMU3CRVTU436M2NR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "UGGHXMCUWEHV2FKE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "VQGE2S8MUJ4T433X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "CXPCT73BGZG665G4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "TMU3CRVTU436M2NR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "UGGHXMCUWEHV2FKE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "VQGE2S8MUJ4T433X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            }
+        },
+        "EU (London)": {
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "DNUY5SKXUJ9J3866.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "JNZVKD4X4PCXYU6Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "SP8GA432B99QD5EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "W96MFE8CTWG2T8UV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "DNUY5SKXUJ9J3866.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "JNZVKD4X4PCXYU6Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "SP8GA432B99QD5EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "W96MFE8CTWG2T8UV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             }
         },
         "EU (Paris)": {
@@ -577,971 +1132,321 @@
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             }
         },
-        "EU (Milan)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "6D7WVEH7DGNTAYFQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "GWJRVQMB9QXUND87.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
+        "Israel (Tel Aviv)": {
             "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "G5SDE5HPCJ5TSVZB.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EEMGBB5BXVHGJ52C.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "EJS53ESNASZD9MW9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "UAWT2Q77WXTN55JR.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KN7BVDGAWKYHEK58.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "6D7WVEH7DGNTAYFQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "GWJRVQMB9QXUND87.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "G5SDE5HPCJ5TSVZB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "UAWT2Q77WXTN55JR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "EU (London)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "SP8GA432B99QD5EY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "DNUY5SKXUJ9J3866.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "W96MFE8CTWG2T8UV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "JNZVKD4X4PCXYU6Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "SP8GA432B99QD5EY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "DNUY5SKXUJ9J3866.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "W96MFE8CTWG2T8UV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "JNZVKD4X4PCXYU6Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "EU (Ireland)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "CXPCT73BGZG665G4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "UGGHXMCUWEHV2FKE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "VQGE2S8MUJ4T433X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "TMU3CRVTU436M2NR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "CXPCT73BGZG665G4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "UGGHXMCUWEHV2FKE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "VQGE2S8MUJ4T433X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "TMU3CRVTU436M2NR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "EU (Frankfurt)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "39WVUB5SFRKK39QB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "FEJFPBYGFG8ZKSGM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "7G3JUN5MBVZGCXQR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "E7BQ6UHKFBBPDEAT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "39WVUB5SFRKK39QB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "FEJFPBYGFG8ZKSGM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "7G3JUN5MBVZGCXQR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "E7BQ6UHKFBBPDEAT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Canada West (Calgary)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "NT7TSYD4TCQRGBNP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "DBG55CF6T2Q735DE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "JFHK9FPB4ZD63JCE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "XWN86GKDQBA8RB3A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "NT7TSYD4TCQRGBNP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "DBG55CF6T2Q735DE.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "ZY3M79DNP5HJ89J3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-Hook-Invocation per Unit": {
-                "rateCode": "JFHK9FPB4ZD63JCE.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EEMGBB5BXVHGJ52C.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "XWN86GKDQBA8RB3A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Canada (Central)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "QSQHSC94CK2P4YNH.JRTCKXETXF.6YS6EN2CT7",
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "EJS53ESNASZD9MW9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "WW9WHEUUX7QA8ZF3.JRTCKXETXF.6YS6EN2CT7",
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "KN7BVDGAWKYHEK58.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "ZY3M79DNP5HJ89J3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            }
+        },
+        "Middle East (UAE)": {
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "FPUKNR2YW7VK5CG5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "F4DHV4Q7NRHB55WQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "N87TN44KVYKCUUC8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "S97QSCPJCEACU6PN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
             "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "6B4PARWV2XSCNYSG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "XEEMNFQJMFB78ZY8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
             "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "QSQHSC94CK2P4YNH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "FPUKNR2YW7VK5CG5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
+            "CloudFormation-Hook-Invocation per Unit": {
+                "rateCode": "N87TN44KVYKCUUC8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
             "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "WW9WHEUUX7QA8ZF3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "S97QSCPJCEACU6PN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "XEEMNFQJMFB78ZY8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            }
+        },
+        "Middle East (Bahrain)": {
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "3GPYYQSK4QGHUE6N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "8BBURTWGVXFCG8TA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "CKSVVWBD5J6EA8KE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "Q4WRJ3DA8KFSA89W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "3GPYYQSK4QGHUE6N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "F4DHV4Q7NRHB55WQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8BBURTWGVXFCG8TA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "CKSVVWBD5J6EA8KE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
             "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "6B4PARWV2XSCNYSG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "Q4WRJ3DA8KFSA89W.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             }
         },
-        "Asia Pacific (Tokyo)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "XQ4JRX53AFAM3S3C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "BHUS6QBMYBPBJ2ZQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "BWR9KSZ3EFMSZHEJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
+        "Mexico (Central)": {
             "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "MAW89X73H4EPD4PT.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "B8PYAN7UXNJNTU3X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "XQ4JRX53AFAM3S3C.JRTCKXETXF.6YS6EN2CT7",
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "CG8MWBB9A2NVVPCM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "EQV8VBAHEWQG6442.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "MTAS6HXJZ4GUKSVX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "BHUS6QBMYBPBJ2ZQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "B8PYAN7UXNJNTU3X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Invocation per Count": {
+                "rateCode": "CG8MWBB9A2NVVPCM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
             "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "BWR9KSZ3EFMSZHEJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "CG8MWBB9A2NVVPCM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "MAW89X73H4EPD4PT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Thailand)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "3K62CV9Z98KQEE6Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "T23BTVJ5UWNYRTK9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "S6WA9UFA7QQNX7D4.JRTCKXETXF.6YS6EN2CT7",
+            "CloudFormation-Hook-Invocation per Unit": {
+                "rateCode": "CG8MWBB9A2NVVPCM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "VEYPUFGSVR5W7GE7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "3K62CV9Z98KQEE6Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-ResourceProvider-Duration per seconds": {
-                "rateCode": "3K62CV9Z98KQEE6Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "T23BTVJ5UWNYRTK9.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EQV8VBAHEWQG6442.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-Hook-Duration per Second": {
-                "rateCode": "T23BTVJ5UWNYRTK9.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EQV8VBAHEWQG6442.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
-            "CloudFormation-Hook-Invocation per Count": {
-                "rateCode": "S6WA9UFA7QQNX7D4.JRTCKXETXF.6YS6EN2CT7",
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "MTAS6HXJZ4GUKSVX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Duration per seconds": {
+                "rateCode": "MTAS6HXJZ4GUKSVX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "7FYJHQYWGY38WQKU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "PSN92FBW5F3AKFH6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "T5A69GNJV5DV899R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "VY8N2AJ2B8F67AFW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "7FYJHQYWGY38WQKU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "PSN92FBW5F3AKFH6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "T5A69GNJV5DV899R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
             "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "S6WA9UFA7QQNX7D4.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "VY8N2AJ2B8F67AFW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            }
+        },
+        "US East (N. Virginia)": {
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "7PSQT2PVM774H5WC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "C52MJ9EFVEM4GKS3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "HPEUP542Y4GR3HNF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "N22RS3SQ22JCVS65.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "7PSQT2PVM774H5WC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "C52MJ9EFVEM4GKS3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "HPEUP542Y4GR3HNF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-Hook-Invocation per Unit": {
-                "rateCode": "S6WA9UFA7QQNX7D4.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "N22RS3SQ22JCVS65.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "VEYPUFGSVR5W7GE7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             }
         },
-        "Asia Pacific (Taipei)": {
+        "US East (Ohio)": {
             "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "V2VCHSESP9TYF382.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "2W5H4KYCVHN829H6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "S8VUEM97U4FR2G4W.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EJSBCK8ZUYMB9ANB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "S2PZTDAXZRSUHF48.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
             "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "7VX3D4KE3X2SCQXH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "K8ZW99HVY2BMWEM6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "V2VCHSESP9TYF382.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "RWSNMGHKPSJYSYAA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
-            "CloudFormation-ResourceProvider-Duration per seconds": {
-                "rateCode": "V2VCHSESP9TYF382.JRTCKXETXF.6YS6EN2CT7",
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "2W5H4KYCVHN829H6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "S8VUEM97U4FR2G4W.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EJSBCK8ZUYMB9ANB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Duration per Second": {
-                "rateCode": "S8VUEM97U4FR2G4W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Count": {
-                "rateCode": "S2PZTDAXZRSUHF48.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "S2PZTDAXZRSUHF48.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-Hook-Invocation per Unit": {
-                "rateCode": "S2PZTDAXZRSUHF48.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
             "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "7VX3D4KE3X2SCQXH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "K8ZW99HVY2BMWEM6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "XZSW2V8Y3T29KQR8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "YWDTV9KQ49C9CJQA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "4Y4RWJC95WVN7J4N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "VARKFG2QDU6H9YX2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "XZSW2V8Y3T29KQR8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "YWDTV9KQ49C9CJQA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
             "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "4Y4RWJC95WVN7J4N.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "RWSNMGHKPSJYSYAA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "VARKFG2QDU6H9YX2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "H8QTUMXXPE2A33V5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "FHKC8C3UPPWXHGZE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "WQ2Y9HUP9JUT9ZHH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "93ZZXEG9JRPCPRDQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "H8QTUMXXPE2A33V5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "FHKC8C3UPPWXHGZE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "WQ2Y9HUP9JUT9ZHH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "93ZZXEG9JRPCPRDQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Seoul)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "7GYB593RPXDEXU8P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "9R2WA36NC2WPHUCQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "9HYY7SEJKU5Y944Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "3YNQHBVABTJ6CE42.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "7GYB593RPXDEXU8P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "9R2WA36NC2WPHUCQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "9HYY7SEJKU5Y944Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "3YNQHBVABTJ6CE42.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Osaka)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "ZDSMBQVAT6GMDX3B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "U6W9W6DAXBVAWCDN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "V8MZG8GQRTCCXHJS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "V54R9MKETSH3VYT3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "ZDSMBQVAT6GMDX3B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "U6W9W6DAXBVAWCDN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "V8MZG8GQRTCCXHJS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "V54R9MKETSH3VYT3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (New Zealand)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "ZJ9M3RRWSFQB47JF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "7ZHBWTAK47JKP2X6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "2PR5XHWPG77NASTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "XBTH78D3YHC72DUA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "ZJ9M3RRWSFQB47JF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-ResourceProvider-Duration per seconds": {
-                "rateCode": "ZJ9M3RRWSFQB47JF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "7ZHBWTAK47JKP2X6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Duration per Second": {
-                "rateCode": "7ZHBWTAK47JKP2X6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Count": {
-                "rateCode": "2PR5XHWPG77NASTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "2PR5XHWPG77NASTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-Hook-Invocation per Unit": {
-                "rateCode": "2PR5XHWPG77NASTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "XBTH78D3YHC72DUA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Mumbai)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "QZ6GCJ574AT7AEKZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "67KAP746C9SQXW23.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "CQV49PGZDMSUZUER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "WYJUYGDKZP3D6JEW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "QZ6GCJ574AT7AEKZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "67KAP746C9SQXW23.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "CQV49PGZDMSUZUER.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "WYJUYGDKZP3D6JEW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Melbourne)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "PZCMUUN4Y2F4F4YP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "VD6WYQWTQDA586RB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "9TEY8USURCEENF5V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "Z4RJRFJNQ52EKGD2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per seconds": {
-                "rateCode": "PZCMUUN4Y2F4F4YP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "PZCMUUN4Y2F4F4YP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "VD6WYQWTQDA586RB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "9TEY8USURCEENF5V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "Z4RJRFJNQ52EKGD2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Malaysia)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "Y2XBTDGQQHWCSWHZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "94RJP6PZJF38HKCZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "U3MZYAANVXAZX2Z3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "V7EKC3MKGJ5KCEW7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "Y2XBTDGQQHWCSWHZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "94RJP6PZJF38HKCZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "U3MZYAANVXAZX2Z3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "V7EKC3MKGJ5KCEW7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Jakarta)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "MY935KWBPQ53KJ6K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "V6UMFQMUDPGA32BK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "T6B75S6ZHGZ8PJ4F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "2P4NRAHB9J9TH4VV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per seconds": {
-                "rateCode": "MY935KWBPQ53KJ6K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "MY935KWBPQ53KJ6K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "V6UMFQMUDPGA32BK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "T6B75S6ZHGZ8PJ4F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "2P4NRAHB9J9TH4VV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Hyderabad)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "ECBPHGZ5X93PGH66.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "6BTRMR4HR5W834DW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "RHSXRYFD6Z44643H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "EXHXPCHZHVXC7DHU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "ECBPHGZ5X93PGH66.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "6BTRMR4HR5W834DW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "RHSXRYFD6Z44643H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "EXHXPCHZHVXC7DHU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Asia Pacific (Hong Kong)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "WY3AV2GH3FU5MXTZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "MRHP3QPPV39NEE8Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "Y275PP8RS3QCNHSZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "GQPC7YX5HZ355Q5J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "WY3AV2GH3FU5MXTZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "MRHP3QPPV39NEE8Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "Y275PP8RS3QCNHSZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "GQPC7YX5HZ355Q5J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            }
-        },
-        "Any": {
-            "lW7wDZb0kUCtKof6BYl_FuqYtoETrjXfiHlBP6TQRAo": {
-                "rateCode": "J9DR9W6PSK2GD4N4.A429C66SYZ.JXGPBPHWFF",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "lW7wDZb0kUCtKof6BYl_FuqYtoETrjXfiHlBP6TQRAo"
-            }
-        },
-        "Africa (Cape Town)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "H6GUZ6PPW5BJ9QTN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
-                "rateCode": "HNUGNQWDQNBG2UBY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "2G9TB35MHK69A6RC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
-                "rateCode": "KKCVF8BV6NCJGDCS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
-            },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "H6GUZ6PPW5BJ9QTN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
-            "CloudFormation-Hook-Duration per seconds": {
-                "rateCode": "HNUGNQWDQNBG2UBY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
-            },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "2G9TB35MHK69A6RC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
-            "CloudFormation-ResourceProvider-Invocation per Operations": {
-                "rateCode": "KKCVF8BV6NCJGDCS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             }
         },
         "AWS GovCloud (US-East)": {
-            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
-                "rateCode": "SMAGJR5QER2JQW2P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
             "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
                 "rateCode": "P7E3Z4DSZR3A448X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
@@ -1551,17 +1456,17 @@
                 "rateCode": "QQQ98YCKUVHTBD96.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "SMAGJR5QER2JQW2P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
                 "rateCode": "X6GSW2QP5WNVDGFG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
             },
-            "CloudFormation-ResourceProvider-Duration per Second": {
-                "rateCode": "SMAGJR5QER2JQW2P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000800000",
-                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
-            },
             "CloudFormation-Hook-Duration per seconds": {
                 "rateCode": "P7E3Z4DSZR3A448X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000800000",
@@ -1571,6 +1476,11 @@
                 "rateCode": "QQQ98YCKUVHTBD96.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "SMAGJR5QER2JQW2P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
             },
             "CloudFormation-ResourceProvider-Invocation per Operations": {
                 "rateCode": "X6GSW2QP5WNVDGFG.JRTCKXETXF.6YS6EN2CT7",
@@ -1589,15 +1499,15 @@
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
-            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
-                "rateCode": "NTREFCHA74VV9RHR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
             "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
                 "rateCode": "FNQJE2NF6RFXYN4D.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "NTREFCHA74VV9RHR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
             },
             "CloudFormation-ResourceProvider-Duration per Second": {
                 "rateCode": "8ZCYYDZJKCURB4JH.JRTCKXETXF.6YS6EN2CT7",
@@ -1609,15 +1519,106 @@
                 "price": "0.0000800000",
                 "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
             },
-            "CloudFormation-Hook-Invocation per Operations": {
-                "rateCode": "NTREFCHA74VV9RHR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0009000000",
-                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
-            },
             "CloudFormation-ResourceProvider-Invocation per Operations": {
                 "rateCode": "FNQJE2NF6RFXYN4D.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0009000000",
                 "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "NTREFCHA74VV9RHR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            }
+        },
+        "US West (N. California)": {
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "JSD8N5BZYP4UTRQU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "MS73462HFEHQA6YK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "TPSFEFXXTUJHP2F8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "U6MY8KZGG8AP8BNS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Invocation per Operations": {
+                "rateCode": "JSD8N5BZYP4UTRQU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "MS73462HFEHQA6YK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "TPSFEFXXTUJHP2F8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "U6MY8KZGG8AP8BNS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            }
+        },
+        "US West (Oregon)": {
+            "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg": {
+                "rateCode": "C7QTW9JWWMFYVVT3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA": {
+                "rateCode": "GDFYD5ZEGF2FCETQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0": {
+                "rateCode": "GRZVWP32VPJTPP38.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs": {
+                "rateCode": "YCE662YK4CXC5NDH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            },
+            "CloudFormation-Hook-Duration per seconds": {
+                "rateCode": "C7QTW9JWWMFYVVT3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "InFjSPOLisErcxtxHUa8ZymQel9j-pMhK_Sp3Ai6RKg"
+            },
+            "CloudFormation-ResourceProvider-Duration per Second": {
+                "rateCode": "GDFYD5ZEGF2FCETQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000800000",
+                "RegionlessRateCode": "BLPkNJE0xWBz3YJ-Tt5QACwY93kNkfapUQ45yUfcFFA"
+            },
+            "CloudFormation-ResourceProvider-Invocation per Operations": {
+                "rateCode": "GRZVWP32VPJTPP38.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "ocLqhRwe-PJuFjs4wQKX-m5VJVknXJPxwoFOT-DSYv0"
+            },
+            "CloudFormation-Hook-Invocation per Count": {
+                "rateCode": "YCE662YK4CXC5NDH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0009000000",
+                "RegionlessRateCode": "kNxjWp9zuIq4-FCfZA5zbr9HsxytEvfgif3_FXNGQSs"
+            }
+        },
+        "Any": {
+            "lW7wDZb0kUCtKof6BYl_FuqYtoETrjXfiHlBP6TQRAo": {
+                "rateCode": "J9DR9W6PSK2GD4N4.A429C66SYZ.JXGPBPHWFF",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "lW7wDZb0kUCtKof6BYl_FuqYtoETrjXfiHlBP6TQRAo"
             }
         }
     }

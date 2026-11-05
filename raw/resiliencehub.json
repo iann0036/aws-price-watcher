@@ -1,284 +1,64 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "resiliencehub",
         "accessType": "publish",
-        "esIndex": "plc-resiliencehub-usd-20260911124610",
+        "source": "resiliencehub",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:46:10Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:46:10Z",
-        "currencyCode": "USD",
-        "source": "resiliencehub",
+        "esIndex": "plc-resiliencehub-usd-20260911124610",
+        "queryConfig": "public/f9ae47ea-c359-55ad-91a2-80ab938342d7/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "24BWQR2TTR4VUQPQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
+        "Africa (Cape Town)": {
             "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "NG5HMQE5CWSMRWXM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "A397YCAA5EM5PX6B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "CG82FEWUYP676XY9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
             "Resilience Hub Application": {
-                "rateCode": "NG5HMQE5CWSMRWXM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "A397YCAA5EM5PX6B.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             }
         },
-        "US West (N. California)": {
+        "Asia Pacific (Hong Kong)": {
             "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "ENYTFTNNTV6Q682H.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "4VZZ8VV9YJTVUPS9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
             },
             "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "7XTBAVQ8XPQFWPRJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "5JD83APYRYREJHM8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             },
             "Resilience Hub Application": {
-                "rateCode": "7XTBAVQ8XPQFWPRJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "US East (Ohio)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "E9E28VBKMW6EK9UJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "W5WYU2WMT6JAUW2Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "W5WYU2WMT6JAUW2Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "US East (N. Virginia)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "CYPMCM5WGWFN85JP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "2D659FG94S82TA5C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "2D659FG94S82TA5C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "X5W59GW89ZV75BXX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "A8CDWN7C5E28EDT5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "A8CDWN7C5E28EDT5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "Middle East (Bahrain)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "SKNKTFAC99KB8BVD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "MBFY9NZA35PREJEF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "MBFY9NZA35PREJEF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "EU (Stockholm)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "RWTT4DURR6ASJVVH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "MUQKNABK6GRNT4ET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "MUQKNABK6GRNT4ET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "EU (Paris)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "H5MYED9JUY9R4TP8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "APNVJRKE26JC5Q6V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "APNVJRKE26JC5Q6V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "EU (Milan)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "WAMF9T67SCGJSZF5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "YKGQPXDG5GDDUGB3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "YKGQPXDG5GDDUGB3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "EU (London)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "4DBMMB8WZK8RP7CT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "3JFEQ3TMC4PDNEFH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "3JFEQ3TMC4PDNEFH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "EU (Ireland)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "E3EDR7HH5AEHNFCC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "87DGEDNUQUCEBWJ9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "87DGEDNUQUCEBWJ9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "EU (Frankfurt)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "CEBXRAGUDTV5H7NN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "3E2CXW7ZZCJ76NGN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "3E2CXW7ZZCJ76NGN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "Canada (Central)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "HSSAF9JRJXVUWPHC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "9NEV7MXP6VT55695.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "9NEV7MXP6VT55695.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "5JD83APYRYREJHM8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             }
         },
         "Asia Pacific (Tokyo)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "4Q4Y22822MMQKAAJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
             "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
                 "rateCode": "PRSSGJ58M8PDS82W.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
             },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "4Q4Y22822MMQKAAJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
             "Resilience Hub Application": {
                 "rateCode": "4Q4Y22822MMQKAAJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "8HU6BT7AW5VBTA2S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "8Q4F33JSD52TK4DX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "8Q4F33JSD52TK4DX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "W8397E25JRF98BS2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
-            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "EVY2WX2PX6VWW2JD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
-            },
-            "Resilience Hub Application": {
-                "rateCode": "EVY2WX2PX6VWW2JD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             }
@@ -317,36 +97,223 @@
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             }
         },
-        "Asia Pacific (Hong Kong)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "4VZZ8VV9YJTVUPS9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
+        "Asia Pacific (Singapore)": {
             "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "5JD83APYRYREJHM8.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EVY2WX2PX6VWW2JD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "W8397E25JRF98BS2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
             "Resilience Hub Application": {
-                "rateCode": "5JD83APYRYREJHM8.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EVY2WX2PX6VWW2JD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             }
         },
-        "Africa (Cape Town)": {
+        "Asia Pacific (Sydney)": {
             "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "CG82FEWUYP676XY9.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8HU6BT7AW5VBTA2S.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
             },
             "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
-                "rateCode": "A397YCAA5EM5PX6B.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8Q4F33JSD52TK4DX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             },
             "Resilience Hub Application": {
-                "rateCode": "A397YCAA5EM5PX6B.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8Q4F33JSD52TK4DX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "Canada (Central)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "9NEV7MXP6VT55695.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "HSSAF9JRJXVUWPHC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "9NEV7MXP6VT55695.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "EU (Frankfurt)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "3E2CXW7ZZCJ76NGN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "CEBXRAGUDTV5H7NN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "3E2CXW7ZZCJ76NGN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "EU (Stockholm)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "MUQKNABK6GRNT4ET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "RWTT4DURR6ASJVVH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "MUQKNABK6GRNT4ET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "EU (Milan)": {
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "WAMF9T67SCGJSZF5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "YKGQPXDG5GDDUGB3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "YKGQPXDG5GDDUGB3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "EU (Ireland)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "87DGEDNUQUCEBWJ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "E3EDR7HH5AEHNFCC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "87DGEDNUQUCEBWJ9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "EU (London)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "3JFEQ3TMC4PDNEFH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "4DBMMB8WZK8RP7CT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "3JFEQ3TMC4PDNEFH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "EU (Paris)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "APNVJRKE26JC5Q6V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "H5MYED9JUY9R4TP8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "APNVJRKE26JC5Q6V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "Middle East (Bahrain)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "MBFY9NZA35PREJEF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "SKNKTFAC99KB8BVD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "MBFY9NZA35PREJEF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "A8CDWN7C5E28EDT5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "X5W59GW89ZV75BXX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "A8CDWN7C5E28EDT5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "US East (N. Virginia)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "2D659FG94S82TA5C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "CYPMCM5WGWFN85JP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "2D659FG94S82TA5C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "US East (Ohio)": {
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "E9E28VBKMW6EK9UJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "W5WYU2WMT6JAUW2Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "W5WYU2WMT6JAUW2Z.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             }
@@ -369,18 +336,52 @@
             }
         },
         "AWS GovCloud (US)": {
-            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
-                "rateCode": "YEPQ6JVB4VA74QT5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
-            },
             "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
                 "rateCode": "BEYVFF2A2XK4URE6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "YEPQ6JVB4VA74QT5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
             "Resilience Hub Application": {
                 "rateCode": "BEYVFF2A2XK4URE6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "US West (N. California)": {
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "7XTBAVQ8XPQFWPRJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "ENYTFTNNTV6Q682H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "7XTBAVQ8XPQFWPRJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            }
+        },
+        "US West (Oregon)": {
+            "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok": {
+                "rateCode": "24BWQR2TTR4VUQPQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "RHh4FLz9BcMpVwcGYdNy0fHNqIEFvaFgpF3Cst_qRok"
+            },
+            "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk": {
+                "rateCode": "NG5HMQE5CWSMRWXM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
+            },
+            "Resilience Hub Application": {
+                "rateCode": "NG5HMQE5CWSMRWXM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "zPl6Tjci_HuSrlb4XhK4bJVNGfsGwPY7LkJD1ySZnDk"
             }

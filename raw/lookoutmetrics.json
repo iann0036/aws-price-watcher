@@ -1,183 +1,226 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "lookoutmetrics",
         "accessType": "publish",
-        "esIndex": "plc-lookoutmetrics-usd-20250909205654",
-        "hawkFilePublicationDate": "2024-08-26T17:35:13Z",
-        "ETLIngestionTriggerDate": "2025-09-09T20:56:54Z",
-        "currencyCode": "USD",
         "source": "lookoutmetrics",
+        "currencyCode": "USD",
+        "hawkFilePublicationDate": "2024-08-15T11:04:51Z",
+        "ETLIngestionTriggerDate": "2024-08-15T11:04:51Z",
+        "esIndex": "plc-lookoutmetrics-usd-20240815110451",
+        "queryConfig": "public/2b589ec2-3ffa-51e1-a678-c15eb8a0b692/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
+        "Asia Pacific (Tokyo)": {
             "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
-            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
-            },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.MH7VAUM9HY",
+            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.MH7VAUM9HY",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
             },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.32Y483M53K",
+            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.32Y483M53K",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
             },
+            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
+            },
             "Anomaly Detection from 0 to 1000 per Metrics": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "Anomaly Detection from 1000 to 5000 per Metrics": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
             "Anomaly Detection from 50000 to Inf per Metrics": {
-                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             }
         },
-        "US East (Ohio)": {
-            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
+        "Asia Pacific (Singapore)": {
             "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
-            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
-            },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.MH7VAUM9HY",
+            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.MH7VAUM9HY",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
             },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.32Y483M53K",
+            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.32Y483M53K",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
             },
+            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
+            },
             "Anomaly Detection from 0 to 1000 per Metrics": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "Anomaly Detection from 1000 to 5000 per Metrics": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
             "Anomaly Detection from 50000 to Inf per Metrics": {
-                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             }
         },
-        "US East (N. Virginia)": {
-            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
+        "Asia Pacific (Sydney)": {
             "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
-            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
-            },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.MH7VAUM9HY",
+            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.MH7VAUM9HY",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
             },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.32Y483M53K",
+            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.32Y483M53K",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
             },
+            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
+            },
             "Anomaly Detection from 0 to 1000 per Metrics": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "Anomaly Detection from 1000 to 5000 per Metrics": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
             "Anomaly Detection from 50000 to Inf per Metrics": {
-                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
+            }
+        },
+        "EU (Frankfurt)": {
+            "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.JXGPBPHWFF",
+                "price": "0.7500000000",
+                "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
+            },
+            "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
+            },
+            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
+            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
+            },
+            "Anomaly Detection from 0 to 1000 per Metrics": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.JXGPBPHWFF",
+                "price": "0.7500000000",
+                "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
+            },
+            "Anomaly Detection from 1000 to 5000 per Metrics": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.5000000000",
+                "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
+            },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
+            "Anomaly Detection from 50000 to Inf per Metrics": {
+                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             }
         },
         "EU (Stockholm)": {
-            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
             "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
                 "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
@@ -187,22 +230,22 @@
                 "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
+            },
+            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
+                "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
+                "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
             },
             "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
                 "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
-                "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
-                "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
             "Anomaly Detection from 0 to 1000 per Metrics": {
                 "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
@@ -212,6 +255,16 @@
                 "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
+            },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
             },
             "Anomaly Detection from 50000 to Inf per Metrics": {
                 "rateCode": "MBZHR74RDNEGGE8T.JRTCKXETXF.GK6CZWW823",
@@ -220,16 +273,6 @@
             }
         },
         "EU (Ireland)": {
-            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
             "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
                 "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
@@ -240,20 +283,20 @@
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
-            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
-                "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
-            },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
+            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
                 "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.MH7VAUM9HY",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
             },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
+            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
                 "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.32Y483M53K",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
+            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
+                "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             },
             "Anomaly Detection from 0 to 1000 per Metrics": {
                 "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.JXGPBPHWFF",
@@ -265,216 +308,174 @@
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
             "Anomaly Detection from 50000 to Inf per Metrics": {
                 "rateCode": "T6C4KUNZXM7J3TDW.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             }
         },
-        "EU (Frankfurt)": {
-            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
+        "US East (N. Virginia)": {
             "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
-            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
-            },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.MH7VAUM9HY",
+            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.MH7VAUM9HY",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
             },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.32Y483M53K",
+            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.32Y483M53K",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
             },
+            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
+            },
             "Anomaly Detection from 0 to 1000 per Metrics": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "Anomaly Detection from 1000 to 5000 per Metrics": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
             "Anomaly Detection from 50000 to Inf per Metrics": {
-                "rateCode": "SDFXH7ECDMFVC6M5.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "8UYNCWKT4QEGS9DY.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             }
         },
-        "Asia Pacific (Tokyo)": {
-            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
+        "US East (Ohio)": {
             "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
-            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
-            },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.MH7VAUM9HY",
+            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.MH7VAUM9HY",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
             },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.32Y483M53K",
+            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.32Y483M53K",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
             },
+            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
+            },
             "Anomaly Detection from 0 to 1000 per Metrics": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "Anomaly Detection from 1000 to 5000 per Metrics": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
             "Anomaly Detection from 50000 to Inf per Metrics": {
-                "rateCode": "8N2TQNZSWNCW2782.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "2VJ984W484VCUSXM.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             }
         },
-        "Asia Pacific (Sydney)": {
-            "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
+        "US West (Oregon)": {
             "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
-            "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
-            },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
-            "Anomaly Detection from 0 to 1000 per Metrics": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.JXGPBPHWFF",
-                "price": "0.7500000000",
-                "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
-            },
-            "Anomaly Detection from 1000 to 5000 per Metrics": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
-            },
-            "Anomaly Detection from 50000 to Inf per Metrics": {
-                "rateCode": "X6A2FGVNSB29YRN8.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
-            }
-        },
-        "Asia Pacific (Singapore)": {
             "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.MH7VAUM9HY",
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.MH7VAUM9HY",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
             },
             "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.32Y483M53K",
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.32Y483M53K",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
             },
-            "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.JXGPBPHWFF",
-                "price": "0.7500000000",
-                "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
-            },
-            "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.5000000000",
-                "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
-            },
             "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             },
-            "Anomaly Detection from 5000 to 20000 per Metrics": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.MH7VAUM9HY",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
-            },
-            "Anomaly Detection from 20000 to 50000 per Metrics": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.32Y483M53K",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
-            },
             "Anomaly Detection from 0 to 1000 per Metrics": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.JXGPBPHWFF",
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.7500000000",
                 "RegionlessRateCode": "OM3NFvSCiSGcPdbVCcEjrKiIyqyZky9joxC8mdj_yH8"
             },
             "Anomaly Detection from 1000 to 5000 per Metrics": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.AXSXEJHBB3",
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.5000000000",
                 "RegionlessRateCode": "XZmJdNaCN71PXkO5FhKLtFivHfyZ1e-QBAJDxLQ_pGc"
             },
+            "Anomaly Detection from 5000 to 20000 per Metrics": {
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.MH7VAUM9HY",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "B5I2CiOHuK5lPKWlhTLJqYFmdH5bSRincN-tirsMxIo"
+            },
+            "Anomaly Detection from 20000 to 50000 per Metrics": {
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.32Y483M53K",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "IsQpMuvYfUnEEztMK-UmqBIyIK2zKfBe-Qa0uHZbu6E"
+            },
             "Anomaly Detection from 50000 to Inf per Metrics": {
-                "rateCode": "NMCXHS6YKYK5B69N.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "M6YWFNYVHQFCXZQ6.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "ZtZ5rK-rhcIlcf1svgwt382UX6vhvnkveHfLhYJ5axw"
             }
