@@ -1,3 +1,12 @@
+## 2026-11-13 20:23
+
+**Modified services:**
+
+- [deadline](processed/deadline.json)
+  - Billing metric added: [Compute Instance] 💡
+  - Billing metric added: [Compute Instance Windows] 💡
+
+
 ## 2026-11-12 17:22
 
 **Modified services:**
