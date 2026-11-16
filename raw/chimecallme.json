@@ -1,14 +1,4 @@
 {
-    "manifest": {
-        "serviceId": "chimecallme",
-        "accessType": "publish",
-        "esIndex": "plc-chimecallme-usd-20250909185159",
-        "hawkFilePublicationDate": "2024-08-26T15:50:10Z",
-        "ETLIngestionTriggerDate": "2025-09-09T18:51:59Z",
-        "currencyCode": "USD",
-        "source": "chimecallme",
-        "isMapped": "true"
-    },
     "sets": {
         "ChimeCallMe": [
             "YQ7A8CBU54GFK72E JRTCKXETXF.6YS6EN2CT7 0",
@@ -53,115 +43,258 @@
             "NSG2ZKA4CJCWHJUM JRTCKXETXF.6YS6EN2CT7 0"
         ]
     },
+    "manifest": {
+        "serviceId": "chimecallme",
+        "accessType": "publish",
+        "source": "chimecallme",
+        "currencyCode": "USD",
+        "hawkFilePublicationDate": "2024-08-15T11:03:22Z",
+        "ETLIngestionTriggerDate": "2024-08-15T11:03:22Z",
+        "esIndex": "plc-chimecallme-usd-20240815110322",
+        "queryConfig": "public/40521e7d-60bd-5987-9a7b-ed38326a2dd3/2",
+        "isMapped": "true"
+    },
     "regions": {
         "US East (N. Virginia)": {
-            "YQ7A8CBU54GFK72E JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "YQ7A8CBU54GFK72E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4271100000",
-                "RegionlessRateCode": "1xo4vh-du6Uy5IIutxQOsG8IKjXWuP7wvqxU7vmCTUU",
-                "country": "Argentina"
+            "xTJlsSg1t9w2oE8iWgVOcfHDrFH8tT-0fv8zzVS2bpY": {
+                "country": "Japan",
+                "rateCode": "2826MYXCPE8BKEWU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0648000000",
+                "RegionlessRateCode": "xTJlsSg1t9w2oE8iWgVOcfHDrFH8tT-0fv8zzVS2bpY"
             },
-            "339XEAGF6H2RRVFB JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "339XEAGF6H2RRVFB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0476800000",
-                "RegionlessRateCode": "CSfG8WhlSL_cfXL-l2OSBodnPpCDEegvvPXhcynE_9A",
-                "country": "Australia"
-            },
-            "EV3BSTEHEV5ZDSTB JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "EV3BSTEHEV5ZDSTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1575000000",
-                "RegionlessRateCode": "vsUUdTa5V7TPU11z6BI-Cit1HceML0TJilRneTsv09Y",
-                "country": "Belgium"
-            },
-            "76RJ7NMNNE679SF4 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "76RJ7NMNNE679SF4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0684100000",
-                "RegionlessRateCode": "P5mvInOua3HMPpLPyuIz4JSRhjNB7wcPxWuy7m3374E",
-                "country": "Brazil"
-            },
-            "V9RKQYH5MJPNZ5UY JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "V9RKQYH5MJPNZ5UY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0054000000",
-                "RegionlessRateCode": "Tm8Wt4sQjahWcy4pU9w3oVeDDnJ2klvythm5kb1MKx0",
-                "country": "Canada"
-            },
-            "5VE9C22WNTJS4TPR JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "5VE9C22WNTJS4TPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0656000000",
-                "RegionlessRateCode": "R_zXpGnCLXgnlG48e17Efd4tabnOC5P0-bDm_u6lYrc",
-                "country": "Colombia"
-            },
-            "9KVG7NCU5TQDGRAZ JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "9KVG7NCU5TQDGRAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2170700000",
-                "RegionlessRateCode": "6AxhCJdlZUwhEdtrUcZ3T0I0BOJq4i0pNlDtiTHRwpg",
-                "country": "Cyprus"
-            },
-            "DWC7YJ5R2YDRHXEV JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "DWC7YJ5R2YDRHXEV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1433600000",
-                "RegionlessRateCode": "QnqCXNfo0dafKM7h4pxWYSi_naWaAqiD0J9_aDf8rzw",
-                "country": "Czech Republic"
-            },
-            "VVXSW4JY97KF7P7G JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "VVXSW4JY97KF7P7G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0257800000",
-                "RegionlessRateCode": "xxbk36GPmGIu68pz3iAB6AttZpsRXG9Ll5t4ffe9b_E",
-                "country": "Denmark"
-            },
-            "MVCJR4FX33FU6959 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "MVCJR4FX33FU6959.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0546800000",
-                "RegionlessRateCode": "zvoeUTfruqlNbwQSbUDq7rAXtIcNgXOo05lF_YCGvXQ",
-                "country": "Finland"
-            },
-            "E55RY6S42NPECNHM JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "E55RY6S42NPECNHM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0692000000",
-                "RegionlessRateCode": "eXqy6w9GJ7chJ_BPbTipIrOhHOXm8GfYZTmes_VwfCE",
-                "country": "France"
-            },
-            "82GEC7H3S5UB5Y43 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "82GEC7H3S5UB5Y43.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0389200000",
-                "RegionlessRateCode": "spXhR37eS0mm5WGQP0vqZ_Of_jpWA_gGSytMG_ianF4",
-                "country": "Germany"
-            },
-            "96PBBU59AESHFJWQ JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "96PBBU59AESHFJWQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2566900000",
-                "RegionlessRateCode": "6mAR3XC-7Q6CUux5HpGucHKa2cNsgVMXPYP_oYJdwuM",
-                "country": "Greece"
-            },
-            "2A5DVFHKWU229D4V JRTCKXETXF.6YS6EN2CT7 0": {
+            "WIfQJIwAv0lyJNZ-t4R4WXsvYUy50mz28eEN8DmC0hc": {
+                "country": "Hong Kong",
                 "rateCode": "2A5DVFHKWU229D4V.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0789600000",
-                "RegionlessRateCode": "WIfQJIwAv0lyJNZ-t4R4WXsvYUy50mz28eEN8DmC0hc",
-                "country": "Hong Kong"
+                "RegionlessRateCode": "WIfQJIwAv0lyJNZ-t4R4WXsvYUy50mz28eEN8DmC0hc"
             },
-            "U7J7FH5BZDM5VCXC JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "U7J7FH5BZDM5VCXC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0920000000",
-                "RegionlessRateCode": "_yk3ibbRdeycFZuJZGvxViaU9uQ9KVTYR5sxIO7aW-8",
-                "country": "Hungary"
+            "EnKZ5b1c-EqeWC4YZbzqRgp-w155qaQBF9YWm2jZFa4": {
+                "country": "United Kingdom",
+                "rateCode": "2X2BS6HM8V5N56B9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0190000000",
+                "RegionlessRateCode": "EnKZ5b1c-EqeWC4YZbzqRgp-w155qaQBF9YWm2jZFa4"
             },
-            "NKSEFMYFVNPPEUW7 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "NKSEFMYFVNPPEUW7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0289100000",
-                "RegionlessRateCode": "mbOEhiESGX2o1OK_CkJY5LGmoMpHp0Cu1PaDrEpgbU0",
-                "country": "Ireland"
+            "gYTpNOqgIG1DOjyMmzrAxfYIagOF-DR1vmS_y0EmhlE": {
+                "country": "Norway",
+                "rateCode": "2XRWJNKR2CGGD8AK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0253200000",
+                "RegionlessRateCode": "gYTpNOqgIG1DOjyMmzrAxfYIagOF-DR1vmS_y0EmhlE"
             },
-            "82UMN5VUD3B9BB8M JRTCKXETXF.6YS6EN2CT7 0": {
+            "CSfG8WhlSL_cfXL-l2OSBodnPpCDEegvvPXhcynE_9A": {
+                "country": "Australia",
+                "rateCode": "339XEAGF6H2RRVFB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0476800000",
+                "RegionlessRateCode": "CSfG8WhlSL_cfXL-l2OSBodnPpCDEegvvPXhcynE_9A"
+            },
+            "AWXHCk7lXiJ8ah4a_CT41r5AwvZqSWF_Z1pc7EDgJ_U": {
+                "country": "Romania",
+                "rateCode": "4CY66J4ADB8EM9CK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0362700000",
+                "RegionlessRateCode": "AWXHCk7lXiJ8ah4a_CT41r5AwvZqSWF_Z1pc7EDgJ_U"
+            },
+            "cfdVrBYT75djgJSqqF_0-UVyUmDkf7g4sTH_b32PBZE": {
+                "country": "Sweden",
+                "rateCode": "5ECBB8WUQWVQGXE2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0253600000",
+                "RegionlessRateCode": "cfdVrBYT75djgJSqqF_0-UVyUmDkf7g4sTH_b32PBZE"
+            },
+            "R_zXpGnCLXgnlG48e17Efd4tabnOC5P0-bDm_u6lYrc": {
+                "country": "Colombia",
+                "rateCode": "5VE9C22WNTJS4TPR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0656000000",
+                "RegionlessRateCode": "R_zXpGnCLXgnlG48e17Efd4tabnOC5P0-bDm_u6lYrc"
+            },
+            "P5mvInOua3HMPpLPyuIz4JSRhjNB7wcPxWuy7m3374E": {
+                "country": "Brazil",
+                "rateCode": "76RJ7NMNNE679SF4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0684100000",
+                "RegionlessRateCode": "P5mvInOua3HMPpLPyuIz4JSRhjNB7wcPxWuy7m3374E"
+            },
+            "spXhR37eS0mm5WGQP0vqZ_Of_jpWA_gGSytMG_ianF4": {
+                "country": "Germany",
+                "rateCode": "82GEC7H3S5UB5Y43.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0389200000",
+                "RegionlessRateCode": "spXhR37eS0mm5WGQP0vqZ_Of_jpWA_gGSytMG_ianF4"
+            },
+            "ekWdQqSNj-ai_im22cLPVPQ5MJNa6YQUiGqS9Y5Evtc": {
+                "country": "Israel",
                 "rateCode": "82UMN5VUD3B9BB8M.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0386800000",
-                "RegionlessRateCode": "ekWdQqSNj-ai_im22cLPVPQ5MJNa6YQUiGqS9Y5Evtc",
-                "country": "Israel"
+                "RegionlessRateCode": "ekWdQqSNj-ai_im22cLPVPQ5MJNa6YQUiGqS9Y5Evtc"
             },
-            "RQ4VR3PG37PAK5QZ JRTCKXETXF.6YS6EN2CT7 0": {
+            "5E4F8XrYnk7ks2-zcSt2zjgixAk4xWVtbUeGBrIv3Ik": {
+                "country": "Netherlands",
+                "rateCode": "8PCF7YP6DEM2PQQ4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1272600000",
+                "RegionlessRateCode": "5E4F8XrYnk7ks2-zcSt2zjgixAk4xWVtbUeGBrIv3Ik"
+            },
+            "6mAR3XC-7Q6CUux5HpGucHKa2cNsgVMXPYP_oYJdwuM": {
+                "country": "Greece",
+                "rateCode": "96PBBU59AESHFJWQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2566900000",
+                "RegionlessRateCode": "6mAR3XC-7Q6CUux5HpGucHKa2cNsgVMXPYP_oYJdwuM"
+            },
+            "6AxhCJdlZUwhEdtrUcZ3T0I0BOJq4i0pNlDtiTHRwpg": {
+                "country": "Cyprus",
+                "rateCode": "9KVG7NCU5TQDGRAZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2170700000",
+                "RegionlessRateCode": "6AxhCJdlZUwhEdtrUcZ3T0I0BOJq4i0pNlDtiTHRwpg"
+            },
+            "DjLD_xTFohGu_b0y7s2MuWbz4HuHqUDsq-e1FXh2r_Y": {
+                "country": "Spain",
+                "rateCode": "9ZXUGFJUSBQZXVUS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0712200000",
+                "RegionlessRateCode": "DjLD_xTFohGu_b0y7s2MuWbz4HuHqUDsq-e1FXh2r_Y"
+            },
+            "xQeaSDVTjYSQIJ3n1nZxQXKEp9YjJbfR07S2cM1kQoM": {
+                "country": "Panama",
+                "rateCode": "BN7Y7TECM3JAR7VU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3336800000",
+                "RegionlessRateCode": "xQeaSDVTjYSQIJ3n1nZxQXKEp9YjJbfR07S2cM1kQoM"
+            },
+            "HmLQ5kR44mjCkuuaSqsNGdT7GU5-g1r1SK_x6gq0vdk": {
+                "country": "Portugal",
+                "rateCode": "DQK9B8HNNUCP39R5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0894800000",
+                "RegionlessRateCode": "HmLQ5kR44mjCkuuaSqsNGdT7GU5-g1r1SK_x6gq0vdk"
+            },
+            "F1GM3CDzlb7iguZUXzWB8oYR4T7h4OMhOrbBDVscQF8": {
+                "country": "Lithuania",
+                "rateCode": "DVDMBQM5KTNVP8AH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1214800000",
+                "RegionlessRateCode": "F1GM3CDzlb7iguZUXzWB8oYR4T7h4OMhOrbBDVscQF8"
+            },
+            "QnqCXNfo0dafKM7h4pxWYSi_naWaAqiD0J9_aDf8rzw": {
+                "country": "Czech Republic",
+                "rateCode": "DWC7YJ5R2YDRHXEV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1433600000",
+                "RegionlessRateCode": "QnqCXNfo0dafKM7h4pxWYSi_naWaAqiD0J9_aDf8rzw"
+            },
+            "eXqy6w9GJ7chJ_BPbTipIrOhHOXm8GfYZTmes_VwfCE": {
+                "country": "France",
+                "rateCode": "E55RY6S42NPECNHM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0692000000",
+                "RegionlessRateCode": "eXqy6w9GJ7chJ_BPbTipIrOhHOXm8GfYZTmes_VwfCE"
+            },
+            "vsUUdTa5V7TPU11z6BI-Cit1HceML0TJilRneTsv09Y": {
+                "country": "Belgium",
+                "rateCode": "EV3BSTEHEV5ZDSTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1575000000",
+                "RegionlessRateCode": "vsUUdTa5V7TPU11z6BI-Cit1HceML0TJilRneTsv09Y"
+            },
+            "4XvcKHjDjrGJcwRkEdp_vqGVB_ul1_rEbQ_dg6WqZkg": {
+                "country": "South Africa",
+                "rateCode": "K8UX247D2XW47FND.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0273250000",
+                "RegionlessRateCode": "4XvcKHjDjrGJcwRkEdp_vqGVB_ul1_rEbQ_dg6WqZkg"
+            },
+            "zvoeUTfruqlNbwQSbUDq7rAXtIcNgXOo05lF_YCGvXQ": {
+                "country": "Finland",
+                "rateCode": "MVCJR4FX33FU6959.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0546800000",
+                "RegionlessRateCode": "zvoeUTfruqlNbwQSbUDq7rAXtIcNgXOo05lF_YCGvXQ"
+            },
+            "mbOEhiESGX2o1OK_CkJY5LGmoMpHp0Cu1PaDrEpgbU0": {
+                "country": "Ireland",
+                "rateCode": "NKSEFMYFVNPPEUW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0289100000",
+                "RegionlessRateCode": "mbOEhiESGX2o1OK_CkJY5LGmoMpHp0Cu1PaDrEpgbU0"
+            },
+            "qEJgTwCq7AeYquccvibEwoAwr4CDuN0YUjbZ3LTq4AE": {
+                "country": "United States of America",
+                "rateCode": "NSG2ZKA4CJCWHJUM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0048000000",
+                "RegionlessRateCode": "qEJgTwCq7AeYquccvibEwoAwr4CDuN0YUjbZ3LTq4AE"
+            },
+            "-5F4U9JuVbDn2hPVeGcGCfTp7ObBSkoGMyIAvh_sVaI": {
+                "country": "Puerto Rico",
+                "rateCode": "QU6YBT6CBYJYX3FY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0060000000",
+                "RegionlessRateCode": "-5F4U9JuVbDn2hPVeGcGCfTp7ObBSkoGMyIAvh_sVaI"
+            },
+            "XlPcPVF4XvA5Wp0Y39JwJbxwiEpQG5RPfs08bVjsuYA": {
+                "country": "Italy",
                 "rateCode": "RQ4VR3PG37PAK5QZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0842000000",
-                "RegionlessRateCode": "XlPcPVF4XvA5Wp0Y39JwJbxwiEpQG5RPfs08bVjsuYA",
-                "country": "Italy"
+                "RegionlessRateCode": "XlPcPVF4XvA5Wp0Y39JwJbxwiEpQG5RPfs08bVjsuYA"
+            },
+            "rMRYquOIR5syc1S_7_lR4SXtlRX9ARtUtI4vf2_CNDE": {
+                "country": "Switzerland",
+                "rateCode": "RXEKGTEASUVJ4BQN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1926000000",
+                "RegionlessRateCode": "rMRYquOIR5syc1S_7_lR4SXtlRX9ARtUtI4vf2_CNDE"
+            },
+            "0DfDdm7DnUWL_vhOr4BGbRB0OT8zl4VbdinJx_tgxV4": {
+                "country": "Poland",
+                "rateCode": "S4G8EGESPG48UA62.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1189800000",
+                "RegionlessRateCode": "0DfDdm7DnUWL_vhOr4BGbRB0OT8zl4VbdinJx_tgxV4"
+            },
+            "oTGamdMk4NpV-94XvE9Fn4Bt5NSKS5uJ2Hm0FJ116wo": {
+                "country": "Mexico",
+                "rateCode": "SCKQDSDSBDAH63W5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0162500000",
+                "RegionlessRateCode": "oTGamdMk4NpV-94XvE9Fn4Bt5NSKS5uJ2Hm0FJ116wo"
+            },
+            "Z-_LO_PNBbEwQ-IN-38FaPblVlYS9c3uLDOmoaAl8P0": {
+                "country": "Luxembourg",
+                "rateCode": "TCNWCS3Q43B8B3K2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0674600000",
+                "RegionlessRateCode": "Z-_LO_PNBbEwQ-IN-38FaPblVlYS9c3uLDOmoaAl8P0"
+            },
+            "_yk3ibbRdeycFZuJZGvxViaU9uQ9KVTYR5sxIO7aW-8": {
+                "country": "Hungary",
+                "rateCode": "U7J7FH5BZDM5VCXC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0920000000",
+                "RegionlessRateCode": "_yk3ibbRdeycFZuJZGvxViaU9uQ9KVTYR5sxIO7aW-8"
+            },
+            "Tm8Wt4sQjahWcy4pU9w3oVeDDnJ2klvythm5kb1MKx0": {
+                "country": "Canada",
+                "rateCode": "V9RKQYH5MJPNZ5UY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0054000000",
+                "RegionlessRateCode": "Tm8Wt4sQjahWcy4pU9w3oVeDDnJ2klvythm5kb1MKx0"
+            },
+            "xxbk36GPmGIu68pz3iAB6AttZpsRXG9Ll5t4ffe9b_E": {
+                "country": "Denmark",
+                "rateCode": "VVXSW4JY97KF7P7G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0257800000",
+                "RegionlessRateCode": "xxbk36GPmGIu68pz3iAB6AttZpsRXG9Ll5t4ffe9b_E"
+            },
+            "DQJ7t1n23K-e_8gmPRHqnB71P-Usa01cwmdkg_GWS7g": {
+                "country": "Malta",
+                "rateCode": "WVR36RV8NJ75KEJA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0197700000",
+                "RegionlessRateCode": "DQJ7t1n23K-e_8gmPRHqnB71P-Usa01cwmdkg_GWS7g"
+            },
+            "fRWLAM1tisGbQOlOssFt-0YHaeLxGEexHLj7dsrKqag": {
+                "country": "Turkey",
+                "rateCode": "X8GJHX22HT7QSMK9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4301800000",
+                "RegionlessRateCode": "fRWLAM1tisGbQOlOssFt-0YHaeLxGEexHLj7dsrKqag"
+            },
+            "JVu9mfPiMVqWFzYj83UfGgbGzbFj37Y5Qmk4eV0EbPw": {
+                "country": "Latvia",
+                "rateCode": "XVDUMSBPS4XZZ7A7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1834000000",
+                "RegionlessRateCode": "JVu9mfPiMVqWFzYj83UfGgbGzbFj37Y5Qmk4eV0EbPw"
+            },
+            "1xo4vh-du6Uy5IIutxQOsG8IKjXWuP7wvqxU7vmCTUU": {
+                "country": "Argentina",
+                "rateCode": "YQ7A8CBU54GFK72E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4271100000",
+                "RegionlessRateCode": "1xo4vh-du6Uy5IIutxQOsG8IKjXWuP7wvqxU7vmCTUU"
+            },
+            "yJfx7EB3BhSbg7B1eXQrmE2lpR16woikQRmQRW34oEs": {
+                "country": "New Zealand",
+                "rateCode": "Z523VZZJH9T337ZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0614100000",
+                "RegionlessRateCode": "yJfx7EB3BhSbg7B1eXQrmE2lpR16woikQRmQRW34oEs"
+            },
+            "RKemDC36y53SoyrljYjngE5sk0OV0nl_XgFSQWmgDTE": {
+                "country": "Peru",
+                "rateCode": "ZXWENKNKBDTMMFCQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0645500000",
+                "RegionlessRateCode": "RKemDC36y53SoyrljYjngE5sk0OV0nl_XgFSQWmgDTE"
             },
             "2826MYXCPE8BKEWU JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "2826MYXCPE8BKEWU.JRTCKXETXF.6YS6EN2CT7",
@@ -169,119 +302,11 @@
                 "RegionlessRateCode": "xTJlsSg1t9w2oE8iWgVOcfHDrFH8tT-0fv8zzVS2bpY",
                 "country": "Japan"
             },
-            "XVDUMSBPS4XZZ7A7 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "XVDUMSBPS4XZZ7A7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1834000000",
-                "RegionlessRateCode": "JVu9mfPiMVqWFzYj83UfGgbGzbFj37Y5Qmk4eV0EbPw",
-                "country": "Latvia"
-            },
-            "DVDMBQM5KTNVP8AH JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "DVDMBQM5KTNVP8AH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1214800000",
-                "RegionlessRateCode": "F1GM3CDzlb7iguZUXzWB8oYR4T7h4OMhOrbBDVscQF8",
-                "country": "Lithuania"
-            },
-            "TCNWCS3Q43B8B3K2 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "TCNWCS3Q43B8B3K2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0674600000",
-                "RegionlessRateCode": "Z-_LO_PNBbEwQ-IN-38FaPblVlYS9c3uLDOmoaAl8P0",
-                "country": "Luxembourg"
-            },
-            "WVR36RV8NJ75KEJA JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "WVR36RV8NJ75KEJA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0197700000",
-                "RegionlessRateCode": "DQJ7t1n23K-e_8gmPRHqnB71P-Usa01cwmdkg_GWS7g",
-                "country": "Malta"
-            },
-            "SCKQDSDSBDAH63W5 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "SCKQDSDSBDAH63W5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0162500000",
-                "RegionlessRateCode": "oTGamdMk4NpV-94XvE9Fn4Bt5NSKS5uJ2Hm0FJ116wo",
-                "country": "Mexico"
-            },
-            "8PCF7YP6DEM2PQQ4 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "8PCF7YP6DEM2PQQ4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1272600000",
-                "RegionlessRateCode": "5E4F8XrYnk7ks2-zcSt2zjgixAk4xWVtbUeGBrIv3Ik",
-                "country": "Netherlands"
-            },
-            "Z523VZZJH9T337ZB JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "Z523VZZJH9T337ZB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0614100000",
-                "RegionlessRateCode": "yJfx7EB3BhSbg7B1eXQrmE2lpR16woikQRmQRW34oEs",
-                "country": "New Zealand"
-            },
-            "2XRWJNKR2CGGD8AK JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "2XRWJNKR2CGGD8AK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0253200000",
-                "RegionlessRateCode": "gYTpNOqgIG1DOjyMmzrAxfYIagOF-DR1vmS_y0EmhlE",
-                "country": "Norway"
-            },
-            "BN7Y7TECM3JAR7VU JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "BN7Y7TECM3JAR7VU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3336800000",
-                "RegionlessRateCode": "xQeaSDVTjYSQIJ3n1nZxQXKEp9YjJbfR07S2cM1kQoM",
-                "country": "Panama"
-            },
-            "ZXWENKNKBDTMMFCQ JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "ZXWENKNKBDTMMFCQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0645500000",
-                "RegionlessRateCode": "RKemDC36y53SoyrljYjngE5sk0OV0nl_XgFSQWmgDTE",
-                "country": "Peru"
-            },
-            "S4G8EGESPG48UA62 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "S4G8EGESPG48UA62.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1189800000",
-                "RegionlessRateCode": "0DfDdm7DnUWL_vhOr4BGbRB0OT8zl4VbdinJx_tgxV4",
-                "country": "Poland"
-            },
-            "DQK9B8HNNUCP39R5 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "DQK9B8HNNUCP39R5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0894800000",
-                "RegionlessRateCode": "HmLQ5kR44mjCkuuaSqsNGdT7GU5-g1r1SK_x6gq0vdk",
-                "country": "Portugal"
-            },
-            "QU6YBT6CBYJYX3FY JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "QU6YBT6CBYJYX3FY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0060000000",
-                "RegionlessRateCode": "-5F4U9JuVbDn2hPVeGcGCfTp7ObBSkoGMyIAvh_sVaI",
-                "country": "Puerto Rico"
-            },
-            "4CY66J4ADB8EM9CK JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "4CY66J4ADB8EM9CK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0362700000",
-                "RegionlessRateCode": "AWXHCk7lXiJ8ah4a_CT41r5AwvZqSWF_Z1pc7EDgJ_U",
-                "country": "Romania"
-            },
-            "K8UX247D2XW47FND JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "K8UX247D2XW47FND.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0273250000",
-                "RegionlessRateCode": "4XvcKHjDjrGJcwRkEdp_vqGVB_ul1_rEbQ_dg6WqZkg",
-                "country": "South Africa"
-            },
-            "9ZXUGFJUSBQZXVUS JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "9ZXUGFJUSBQZXVUS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0712200000",
-                "RegionlessRateCode": "DjLD_xTFohGu_b0y7s2MuWbz4HuHqUDsq-e1FXh2r_Y",
-                "country": "Spain"
-            },
-            "5ECBB8WUQWVQGXE2 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "5ECBB8WUQWVQGXE2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0253600000",
-                "RegionlessRateCode": "cfdVrBYT75djgJSqqF_0-UVyUmDkf7g4sTH_b32PBZE",
-                "country": "Sweden"
-            },
-            "RXEKGTEASUVJ4BQN JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "RXEKGTEASUVJ4BQN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1926000000",
-                "RegionlessRateCode": "rMRYquOIR5syc1S_7_lR4SXtlRX9ARtUtI4vf2_CNDE",
-                "country": "Switzerland"
-            },
-            "X8GJHX22HT7QSMK9 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "X8GJHX22HT7QSMK9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4301800000",
-                "RegionlessRateCode": "fRWLAM1tisGbQOlOssFt-0YHaeLxGEexHLj7dsrKqag",
-                "country": "Turkey"
+            "2A5DVFHKWU229D4V JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "2A5DVFHKWU229D4V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0789600000",
+                "RegionlessRateCode": "WIfQJIwAv0lyJNZ-t4R4WXsvYUy50mz28eEN8DmC0hc",
+                "country": "Hong Kong"
             },
             "2X2BS6HM8V5N56B9 JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "2X2BS6HM8V5N56B9.JRTCKXETXF.6YS6EN2CT7",
@@ -289,491 +314,467 @@
                 "RegionlessRateCode": "EnKZ5b1c-EqeWC4YZbzqRgp-w155qaQBF9YWm2jZFa4",
                 "country": "United Kingdom"
             },
+            "2XRWJNKR2CGGD8AK JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "2XRWJNKR2CGGD8AK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0253200000",
+                "RegionlessRateCode": "gYTpNOqgIG1DOjyMmzrAxfYIagOF-DR1vmS_y0EmhlE",
+                "country": "Norway"
+            },
+            "339XEAGF6H2RRVFB JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "339XEAGF6H2RRVFB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0476800000",
+                "RegionlessRateCode": "CSfG8WhlSL_cfXL-l2OSBodnPpCDEegvvPXhcynE_9A",
+                "country": "Australia"
+            },
+            "4CY66J4ADB8EM9CK JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "4CY66J4ADB8EM9CK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0362700000",
+                "RegionlessRateCode": "AWXHCk7lXiJ8ah4a_CT41r5AwvZqSWF_Z1pc7EDgJ_U",
+                "country": "Romania"
+            },
+            "5ECBB8WUQWVQGXE2 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "5ECBB8WUQWVQGXE2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0253600000",
+                "RegionlessRateCode": "cfdVrBYT75djgJSqqF_0-UVyUmDkf7g4sTH_b32PBZE",
+                "country": "Sweden"
+            },
+            "5VE9C22WNTJS4TPR JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "5VE9C22WNTJS4TPR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0656000000",
+                "RegionlessRateCode": "R_zXpGnCLXgnlG48e17Efd4tabnOC5P0-bDm_u6lYrc",
+                "country": "Colombia"
+            },
+            "76RJ7NMNNE679SF4 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "76RJ7NMNNE679SF4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0684100000",
+                "RegionlessRateCode": "P5mvInOua3HMPpLPyuIz4JSRhjNB7wcPxWuy7m3374E",
+                "country": "Brazil"
+            },
+            "82GEC7H3S5UB5Y43 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "82GEC7H3S5UB5Y43.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0389200000",
+                "RegionlessRateCode": "spXhR37eS0mm5WGQP0vqZ_Of_jpWA_gGSytMG_ianF4",
+                "country": "Germany"
+            },
+            "82UMN5VUD3B9BB8M JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "82UMN5VUD3B9BB8M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0386800000",
+                "RegionlessRateCode": "ekWdQqSNj-ai_im22cLPVPQ5MJNa6YQUiGqS9Y5Evtc",
+                "country": "Israel"
+            },
+            "8PCF7YP6DEM2PQQ4 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "8PCF7YP6DEM2PQQ4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1272600000",
+                "RegionlessRateCode": "5E4F8XrYnk7ks2-zcSt2zjgixAk4xWVtbUeGBrIv3Ik",
+                "country": "Netherlands"
+            },
+            "96PBBU59AESHFJWQ JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "96PBBU59AESHFJWQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2566900000",
+                "RegionlessRateCode": "6mAR3XC-7Q6CUux5HpGucHKa2cNsgVMXPYP_oYJdwuM",
+                "country": "Greece"
+            },
+            "9KVG7NCU5TQDGRAZ JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "9KVG7NCU5TQDGRAZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2170700000",
+                "RegionlessRateCode": "6AxhCJdlZUwhEdtrUcZ3T0I0BOJq4i0pNlDtiTHRwpg",
+                "country": "Cyprus"
+            },
+            "9ZXUGFJUSBQZXVUS JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "9ZXUGFJUSBQZXVUS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0712200000",
+                "RegionlessRateCode": "DjLD_xTFohGu_b0y7s2MuWbz4HuHqUDsq-e1FXh2r_Y",
+                "country": "Spain"
+            },
+            "BN7Y7TECM3JAR7VU JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "BN7Y7TECM3JAR7VU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3336800000",
+                "RegionlessRateCode": "xQeaSDVTjYSQIJ3n1nZxQXKEp9YjJbfR07S2cM1kQoM",
+                "country": "Panama"
+            },
+            "DQK9B8HNNUCP39R5 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "DQK9B8HNNUCP39R5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0894800000",
+                "RegionlessRateCode": "HmLQ5kR44mjCkuuaSqsNGdT7GU5-g1r1SK_x6gq0vdk",
+                "country": "Portugal"
+            },
+            "DVDMBQM5KTNVP8AH JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "DVDMBQM5KTNVP8AH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1214800000",
+                "RegionlessRateCode": "F1GM3CDzlb7iguZUXzWB8oYR4T7h4OMhOrbBDVscQF8",
+                "country": "Lithuania"
+            },
+            "DWC7YJ5R2YDRHXEV JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "DWC7YJ5R2YDRHXEV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1433600000",
+                "RegionlessRateCode": "QnqCXNfo0dafKM7h4pxWYSi_naWaAqiD0J9_aDf8rzw",
+                "country": "Czech Republic"
+            },
+            "E55RY6S42NPECNHM JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "E55RY6S42NPECNHM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0692000000",
+                "RegionlessRateCode": "eXqy6w9GJ7chJ_BPbTipIrOhHOXm8GfYZTmes_VwfCE",
+                "country": "France"
+            },
+            "EV3BSTEHEV5ZDSTB JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "EV3BSTEHEV5ZDSTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1575000000",
+                "RegionlessRateCode": "vsUUdTa5V7TPU11z6BI-Cit1HceML0TJilRneTsv09Y",
+                "country": "Belgium"
+            },
+            "K8UX247D2XW47FND JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "K8UX247D2XW47FND.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0273250000",
+                "RegionlessRateCode": "4XvcKHjDjrGJcwRkEdp_vqGVB_ul1_rEbQ_dg6WqZkg",
+                "country": "South Africa"
+            },
+            "MVCJR4FX33FU6959 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "MVCJR4FX33FU6959.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0546800000",
+                "RegionlessRateCode": "zvoeUTfruqlNbwQSbUDq7rAXtIcNgXOo05lF_YCGvXQ",
+                "country": "Finland"
+            },
+            "NKSEFMYFVNPPEUW7 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "NKSEFMYFVNPPEUW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0289100000",
+                "RegionlessRateCode": "mbOEhiESGX2o1OK_CkJY5LGmoMpHp0Cu1PaDrEpgbU0",
+                "country": "Ireland"
+            },
             "NSG2ZKA4CJCWHJUM JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "NSG2ZKA4CJCWHJUM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0048000000",
                 "RegionlessRateCode": "qEJgTwCq7AeYquccvibEwoAwr4CDuN0YUjbZ3LTq4AE",
                 "country": "United States of America"
             },
-            "-5F4U9JuVbDn2hPVeGcGCfTp7ObBSkoGMyIAvh_sVaI": {
+            "QU6YBT6CBYJYX3FY JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "QU6YBT6CBYJYX3FY.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0060000000",
                 "RegionlessRateCode": "-5F4U9JuVbDn2hPVeGcGCfTp7ObBSkoGMyIAvh_sVaI",
                 "country": "Puerto Rico"
             },
-            "0DfDdm7DnUWL_vhOr4BGbRB0OT8zl4VbdinJx_tgxV4": {
-                "rateCode": "S4G8EGESPG48UA62.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1189800000",
-                "RegionlessRateCode": "0DfDdm7DnUWL_vhOr4BGbRB0OT8zl4VbdinJx_tgxV4",
-                "country": "Poland"
-            },
-            "1xo4vh-du6Uy5IIutxQOsG8IKjXWuP7wvqxU7vmCTUU": {
-                "rateCode": "YQ7A8CBU54GFK72E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4271100000",
-                "RegionlessRateCode": "1xo4vh-du6Uy5IIutxQOsG8IKjXWuP7wvqxU7vmCTUU",
-                "country": "Argentina"
-            },
-            "4XvcKHjDjrGJcwRkEdp_vqGVB_ul1_rEbQ_dg6WqZkg": {
-                "rateCode": "K8UX247D2XW47FND.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0273250000",
-                "RegionlessRateCode": "4XvcKHjDjrGJcwRkEdp_vqGVB_ul1_rEbQ_dg6WqZkg",
-                "country": "South Africa"
-            },
-            "5E4F8XrYnk7ks2-zcSt2zjgixAk4xWVtbUeGBrIv3Ik": {
-                "rateCode": "8PCF7YP6DEM2PQQ4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1272600000",
-                "RegionlessRateCode": "5E4F8XrYnk7ks2-zcSt2zjgixAk4xWVtbUeGBrIv3Ik",
-                "country": "Netherlands"
-            },
-            "6AxhCJdlZUwhEdtrUcZ3T0I0BOJq4i0pNlDtiTHRwpg": {
-                "rateCode": "9KVG7NCU5TQDGRAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2170700000",
-                "RegionlessRateCode": "6AxhCJdlZUwhEdtrUcZ3T0I0BOJq4i0pNlDtiTHRwpg",
-                "country": "Cyprus"
-            },
-            "6mAR3XC-7Q6CUux5HpGucHKa2cNsgVMXPYP_oYJdwuM": {
-                "rateCode": "96PBBU59AESHFJWQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2566900000",
-                "RegionlessRateCode": "6mAR3XC-7Q6CUux5HpGucHKa2cNsgVMXPYP_oYJdwuM",
-                "country": "Greece"
-            },
-            "AWXHCk7lXiJ8ah4a_CT41r5AwvZqSWF_Z1pc7EDgJ_U": {
-                "rateCode": "4CY66J4ADB8EM9CK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0362700000",
-                "RegionlessRateCode": "AWXHCk7lXiJ8ah4a_CT41r5AwvZqSWF_Z1pc7EDgJ_U",
-                "country": "Romania"
-            },
-            "CSfG8WhlSL_cfXL-l2OSBodnPpCDEegvvPXhcynE_9A": {
-                "rateCode": "339XEAGF6H2RRVFB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0476800000",
-                "RegionlessRateCode": "CSfG8WhlSL_cfXL-l2OSBodnPpCDEegvvPXhcynE_9A",
-                "country": "Australia"
-            },
-            "DQJ7t1n23K-e_8gmPRHqnB71P-Usa01cwmdkg_GWS7g": {
-                "rateCode": "WVR36RV8NJ75KEJA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0197700000",
-                "RegionlessRateCode": "DQJ7t1n23K-e_8gmPRHqnB71P-Usa01cwmdkg_GWS7g",
-                "country": "Malta"
-            },
-            "DjLD_xTFohGu_b0y7s2MuWbz4HuHqUDsq-e1FXh2r_Y": {
-                "rateCode": "9ZXUGFJUSBQZXVUS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0712200000",
-                "RegionlessRateCode": "DjLD_xTFohGu_b0y7s2MuWbz4HuHqUDsq-e1FXh2r_Y",
-                "country": "Spain"
-            },
-            "EnKZ5b1c-EqeWC4YZbzqRgp-w155qaQBF9YWm2jZFa4": {
-                "rateCode": "2X2BS6HM8V5N56B9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0190000000",
-                "RegionlessRateCode": "EnKZ5b1c-EqeWC4YZbzqRgp-w155qaQBF9YWm2jZFa4",
-                "country": "United Kingdom"
-            },
-            "F1GM3CDzlb7iguZUXzWB8oYR4T7h4OMhOrbBDVscQF8": {
-                "rateCode": "DVDMBQM5KTNVP8AH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1214800000",
-                "RegionlessRateCode": "F1GM3CDzlb7iguZUXzWB8oYR4T7h4OMhOrbBDVscQF8",
-                "country": "Lithuania"
-            },
-            "HmLQ5kR44mjCkuuaSqsNGdT7GU5-g1r1SK_x6gq0vdk": {
-                "rateCode": "DQK9B8HNNUCP39R5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0894800000",
-                "RegionlessRateCode": "HmLQ5kR44mjCkuuaSqsNGdT7GU5-g1r1SK_x6gq0vdk",
-                "country": "Portugal"
-            },
-            "JVu9mfPiMVqWFzYj83UfGgbGzbFj37Y5Qmk4eV0EbPw": {
-                "rateCode": "XVDUMSBPS4XZZ7A7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1834000000",
-                "RegionlessRateCode": "JVu9mfPiMVqWFzYj83UfGgbGzbFj37Y5Qmk4eV0EbPw",
-                "country": "Latvia"
-            },
-            "P5mvInOua3HMPpLPyuIz4JSRhjNB7wcPxWuy7m3374E": {
-                "rateCode": "76RJ7NMNNE679SF4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0684100000",
-                "RegionlessRateCode": "P5mvInOua3HMPpLPyuIz4JSRhjNB7wcPxWuy7m3374E",
-                "country": "Brazil"
-            },
-            "QnqCXNfo0dafKM7h4pxWYSi_naWaAqiD0J9_aDf8rzw": {
-                "rateCode": "DWC7YJ5R2YDRHXEV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1433600000",
-                "RegionlessRateCode": "QnqCXNfo0dafKM7h4pxWYSi_naWaAqiD0J9_aDf8rzw",
-                "country": "Czech Republic"
-            },
-            "RKemDC36y53SoyrljYjngE5sk0OV0nl_XgFSQWmgDTE": {
-                "rateCode": "ZXWENKNKBDTMMFCQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0645500000",
-                "RegionlessRateCode": "RKemDC36y53SoyrljYjngE5sk0OV0nl_XgFSQWmgDTE",
-                "country": "Peru"
-            },
-            "R_zXpGnCLXgnlG48e17Efd4tabnOC5P0-bDm_u6lYrc": {
-                "rateCode": "5VE9C22WNTJS4TPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0656000000",
-                "RegionlessRateCode": "R_zXpGnCLXgnlG48e17Efd4tabnOC5P0-bDm_u6lYrc",
-                "country": "Colombia"
-            },
-            "Tm8Wt4sQjahWcy4pU9w3oVeDDnJ2klvythm5kb1MKx0": {
-                "rateCode": "V9RKQYH5MJPNZ5UY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0054000000",
-                "RegionlessRateCode": "Tm8Wt4sQjahWcy4pU9w3oVeDDnJ2klvythm5kb1MKx0",
-                "country": "Canada"
-            },
-            "WIfQJIwAv0lyJNZ-t4R4WXsvYUy50mz28eEN8DmC0hc": {
-                "rateCode": "2A5DVFHKWU229D4V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0789600000",
-                "RegionlessRateCode": "WIfQJIwAv0lyJNZ-t4R4WXsvYUy50mz28eEN8DmC0hc",
-                "country": "Hong Kong"
-            },
-            "XlPcPVF4XvA5Wp0Y39JwJbxwiEpQG5RPfs08bVjsuYA": {
+            "RQ4VR3PG37PAK5QZ JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "RQ4VR3PG37PAK5QZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0842000000",
                 "RegionlessRateCode": "XlPcPVF4XvA5Wp0Y39JwJbxwiEpQG5RPfs08bVjsuYA",
                 "country": "Italy"
             },
-            "Z-_LO_PNBbEwQ-IN-38FaPblVlYS9c3uLDOmoaAl8P0": {
-                "rateCode": "TCNWCS3Q43B8B3K2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0674600000",
-                "RegionlessRateCode": "Z-_LO_PNBbEwQ-IN-38FaPblVlYS9c3uLDOmoaAl8P0",
-                "country": "Luxembourg"
-            },
-            "_yk3ibbRdeycFZuJZGvxViaU9uQ9KVTYR5sxIO7aW-8": {
-                "rateCode": "U7J7FH5BZDM5VCXC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0920000000",
-                "RegionlessRateCode": "_yk3ibbRdeycFZuJZGvxViaU9uQ9KVTYR5sxIO7aW-8",
-                "country": "Hungary"
-            },
-            "cfdVrBYT75djgJSqqF_0-UVyUmDkf7g4sTH_b32PBZE": {
-                "rateCode": "5ECBB8WUQWVQGXE2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0253600000",
-                "RegionlessRateCode": "cfdVrBYT75djgJSqqF_0-UVyUmDkf7g4sTH_b32PBZE",
-                "country": "Sweden"
-            },
-            "eXqy6w9GJ7chJ_BPbTipIrOhHOXm8GfYZTmes_VwfCE": {
-                "rateCode": "E55RY6S42NPECNHM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0692000000",
-                "RegionlessRateCode": "eXqy6w9GJ7chJ_BPbTipIrOhHOXm8GfYZTmes_VwfCE",
-                "country": "France"
-            },
-            "ekWdQqSNj-ai_im22cLPVPQ5MJNa6YQUiGqS9Y5Evtc": {
-                "rateCode": "82UMN5VUD3B9BB8M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0386800000",
-                "RegionlessRateCode": "ekWdQqSNj-ai_im22cLPVPQ5MJNa6YQUiGqS9Y5Evtc",
-                "country": "Israel"
-            },
-            "fRWLAM1tisGbQOlOssFt-0YHaeLxGEexHLj7dsrKqag": {
-                "rateCode": "X8GJHX22HT7QSMK9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4301800000",
-                "RegionlessRateCode": "fRWLAM1tisGbQOlOssFt-0YHaeLxGEexHLj7dsrKqag",
-                "country": "Turkey"
-            },
-            "gYTpNOqgIG1DOjyMmzrAxfYIagOF-DR1vmS_y0EmhlE": {
-                "rateCode": "2XRWJNKR2CGGD8AK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0253200000",
-                "RegionlessRateCode": "gYTpNOqgIG1DOjyMmzrAxfYIagOF-DR1vmS_y0EmhlE",
-                "country": "Norway"
-            },
-            "mbOEhiESGX2o1OK_CkJY5LGmoMpHp0Cu1PaDrEpgbU0": {
-                "rateCode": "NKSEFMYFVNPPEUW7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0289100000",
-                "RegionlessRateCode": "mbOEhiESGX2o1OK_CkJY5LGmoMpHp0Cu1PaDrEpgbU0",
-                "country": "Ireland"
-            },
-            "oTGamdMk4NpV-94XvE9Fn4Bt5NSKS5uJ2Hm0FJ116wo": {
-                "rateCode": "SCKQDSDSBDAH63W5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0162500000",
-                "RegionlessRateCode": "oTGamdMk4NpV-94XvE9Fn4Bt5NSKS5uJ2Hm0FJ116wo",
-                "country": "Mexico"
-            },
-            "qEJgTwCq7AeYquccvibEwoAwr4CDuN0YUjbZ3LTq4AE": {
-                "rateCode": "NSG2ZKA4CJCWHJUM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0048000000",
-                "RegionlessRateCode": "qEJgTwCq7AeYquccvibEwoAwr4CDuN0YUjbZ3LTq4AE",
-                "country": "United States of America"
-            },
-            "rMRYquOIR5syc1S_7_lR4SXtlRX9ARtUtI4vf2_CNDE": {
+            "RXEKGTEASUVJ4BQN JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "RXEKGTEASUVJ4BQN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1926000000",
                 "RegionlessRateCode": "rMRYquOIR5syc1S_7_lR4SXtlRX9ARtUtI4vf2_CNDE",
                 "country": "Switzerland"
             },
-            "spXhR37eS0mm5WGQP0vqZ_Of_jpWA_gGSytMG_ianF4": {
-                "rateCode": "82GEC7H3S5UB5Y43.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0389200000",
-                "RegionlessRateCode": "spXhR37eS0mm5WGQP0vqZ_Of_jpWA_gGSytMG_ianF4",
-                "country": "Germany"
+            "S4G8EGESPG48UA62 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "S4G8EGESPG48UA62.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1189800000",
+                "RegionlessRateCode": "0DfDdm7DnUWL_vhOr4BGbRB0OT8zl4VbdinJx_tgxV4",
+                "country": "Poland"
             },
-            "vsUUdTa5V7TPU11z6BI-Cit1HceML0TJilRneTsv09Y": {
-                "rateCode": "EV3BSTEHEV5ZDSTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1575000000",
-                "RegionlessRateCode": "vsUUdTa5V7TPU11z6BI-Cit1HceML0TJilRneTsv09Y",
-                "country": "Belgium"
+            "SCKQDSDSBDAH63W5 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "SCKQDSDSBDAH63W5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0162500000",
+                "RegionlessRateCode": "oTGamdMk4NpV-94XvE9Fn4Bt5NSKS5uJ2Hm0FJ116wo",
+                "country": "Mexico"
             },
-            "xQeaSDVTjYSQIJ3n1nZxQXKEp9YjJbfR07S2cM1kQoM": {
-                "rateCode": "BN7Y7TECM3JAR7VU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3336800000",
-                "RegionlessRateCode": "xQeaSDVTjYSQIJ3n1nZxQXKEp9YjJbfR07S2cM1kQoM",
-                "country": "Panama"
+            "TCNWCS3Q43B8B3K2 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "TCNWCS3Q43B8B3K2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0674600000",
+                "RegionlessRateCode": "Z-_LO_PNBbEwQ-IN-38FaPblVlYS9c3uLDOmoaAl8P0",
+                "country": "Luxembourg"
             },
-            "xTJlsSg1t9w2oE8iWgVOcfHDrFH8tT-0fv8zzVS2bpY": {
-                "rateCode": "2826MYXCPE8BKEWU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0648000000",
-                "RegionlessRateCode": "xTJlsSg1t9w2oE8iWgVOcfHDrFH8tT-0fv8zzVS2bpY",
-                "country": "Japan"
+            "U7J7FH5BZDM5VCXC JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "U7J7FH5BZDM5VCXC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0920000000",
+                "RegionlessRateCode": "_yk3ibbRdeycFZuJZGvxViaU9uQ9KVTYR5sxIO7aW-8",
+                "country": "Hungary"
             },
-            "xxbk36GPmGIu68pz3iAB6AttZpsRXG9Ll5t4ffe9b_E": {
+            "V9RKQYH5MJPNZ5UY JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "V9RKQYH5MJPNZ5UY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0054000000",
+                "RegionlessRateCode": "Tm8Wt4sQjahWcy4pU9w3oVeDDnJ2klvythm5kb1MKx0",
+                "country": "Canada"
+            },
+            "VVXSW4JY97KF7P7G JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "VVXSW4JY97KF7P7G.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0257800000",
                 "RegionlessRateCode": "xxbk36GPmGIu68pz3iAB6AttZpsRXG9Ll5t4ffe9b_E",
                 "country": "Denmark"
             },
-            "yJfx7EB3BhSbg7B1eXQrmE2lpR16woikQRmQRW34oEs": {
-                "rateCode": "Z523VZZJH9T337ZB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0614100000",
-                "RegionlessRateCode": "yJfx7EB3BhSbg7B1eXQrmE2lpR16woikQRmQRW34oEs",
-                "country": "New Zealand"
-            },
-            "zvoeUTfruqlNbwQSbUDq7rAXtIcNgXOo05lF_YCGvXQ": {
-                "rateCode": "MVCJR4FX33FU6959.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0546800000",
-                "RegionlessRateCode": "zvoeUTfruqlNbwQSbUDq7rAXtIcNgXOo05lF_YCGvXQ",
-                "country": "Finland"
-            },
-            "ChimeCallMe to Puerto Rico": {
-                "rateCode": "QU6YBT6CBYJYX3FY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0060000000",
-                "RegionlessRateCode": "-5F4U9JuVbDn2hPVeGcGCfTp7ObBSkoGMyIAvh_sVaI",
-                "country": "Puerto Rico"
-            },
-            "ChimeCallMe to Poland": {
-                "rateCode": "S4G8EGESPG48UA62.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1189800000",
-                "RegionlessRateCode": "0DfDdm7DnUWL_vhOr4BGbRB0OT8zl4VbdinJx_tgxV4",
-                "country": "Poland"
-            },
-            "ChimeCallMe to Argentina": {
-                "rateCode": "YQ7A8CBU54GFK72E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4271100000",
-                "RegionlessRateCode": "1xo4vh-du6Uy5IIutxQOsG8IKjXWuP7wvqxU7vmCTUU",
-                "country": "Argentina"
-            },
-            "ChimeCallMe to South Africa": {
-                "rateCode": "K8UX247D2XW47FND.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0273250000",
-                "RegionlessRateCode": "4XvcKHjDjrGJcwRkEdp_vqGVB_ul1_rEbQ_dg6WqZkg",
-                "country": "South Africa"
-            },
-            "ChimeCallMe to Netherlands": {
-                "rateCode": "8PCF7YP6DEM2PQQ4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1272600000",
-                "RegionlessRateCode": "5E4F8XrYnk7ks2-zcSt2zjgixAk4xWVtbUeGBrIv3Ik",
-                "country": "Netherlands"
-            },
-            "ChimeCallMe to Cyprus": {
-                "rateCode": "9KVG7NCU5TQDGRAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2170700000",
-                "RegionlessRateCode": "6AxhCJdlZUwhEdtrUcZ3T0I0BOJq4i0pNlDtiTHRwpg",
-                "country": "Cyprus"
-            },
-            "ChimeCallMe to Greece": {
-                "rateCode": "96PBBU59AESHFJWQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2566900000",
-                "RegionlessRateCode": "6mAR3XC-7Q6CUux5HpGucHKa2cNsgVMXPYP_oYJdwuM",
-                "country": "Greece"
-            },
-            "ChimeCallMe to Romania": {
-                "rateCode": "4CY66J4ADB8EM9CK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0362700000",
-                "RegionlessRateCode": "AWXHCk7lXiJ8ah4a_CT41r5AwvZqSWF_Z1pc7EDgJ_U",
-                "country": "Romania"
-            },
-            "ChimeCallMe to Australia": {
-                "rateCode": "339XEAGF6H2RRVFB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0476800000",
-                "RegionlessRateCode": "CSfG8WhlSL_cfXL-l2OSBodnPpCDEegvvPXhcynE_9A",
-                "country": "Australia"
-            },
-            "ChimeCallMe to Malta": {
+            "WVR36RV8NJ75KEJA JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "WVR36RV8NJ75KEJA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0197700000",
                 "RegionlessRateCode": "DQJ7t1n23K-e_8gmPRHqnB71P-Usa01cwmdkg_GWS7g",
                 "country": "Malta"
             },
-            "ChimeCallMe to Spain": {
-                "rateCode": "9ZXUGFJUSBQZXVUS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0712200000",
-                "RegionlessRateCode": "DjLD_xTFohGu_b0y7s2MuWbz4HuHqUDsq-e1FXh2r_Y",
-                "country": "Spain"
-            },
-            "ChimeCallMe to United Kingdom": {
-                "rateCode": "2X2BS6HM8V5N56B9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0190000000",
-                "RegionlessRateCode": "EnKZ5b1c-EqeWC4YZbzqRgp-w155qaQBF9YWm2jZFa4",
-                "country": "United Kingdom"
-            },
-            "ChimeCallMe to Lithuania": {
-                "rateCode": "DVDMBQM5KTNVP8AH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1214800000",
-                "RegionlessRateCode": "F1GM3CDzlb7iguZUXzWB8oYR4T7h4OMhOrbBDVscQF8",
-                "country": "Lithuania"
-            },
-            "ChimeCallMe to Portugal": {
-                "rateCode": "DQK9B8HNNUCP39R5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0894800000",
-                "RegionlessRateCode": "HmLQ5kR44mjCkuuaSqsNGdT7GU5-g1r1SK_x6gq0vdk",
-                "country": "Portugal"
-            },
-            "ChimeCallMe to Latvia": {
-                "rateCode": "XVDUMSBPS4XZZ7A7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1834000000",
-                "RegionlessRateCode": "JVu9mfPiMVqWFzYj83UfGgbGzbFj37Y5Qmk4eV0EbPw",
-                "country": "Latvia"
-            },
-            "ChimeCallMe to Brazil": {
-                "rateCode": "76RJ7NMNNE679SF4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0684100000",
-                "RegionlessRateCode": "P5mvInOua3HMPpLPyuIz4JSRhjNB7wcPxWuy7m3374E",
-                "country": "Brazil"
-            },
-            "ChimeCallMe to Czech Republic": {
-                "rateCode": "DWC7YJ5R2YDRHXEV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1433600000",
-                "RegionlessRateCode": "QnqCXNfo0dafKM7h4pxWYSi_naWaAqiD0J9_aDf8rzw",
-                "country": "Czech Republic"
-            },
-            "ChimeCallMe to Peru": {
-                "rateCode": "ZXWENKNKBDTMMFCQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0645500000",
-                "RegionlessRateCode": "RKemDC36y53SoyrljYjngE5sk0OV0nl_XgFSQWmgDTE",
-                "country": "Peru"
-            },
-            "ChimeCallMe to Colombia": {
-                "rateCode": "5VE9C22WNTJS4TPR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0656000000",
-                "RegionlessRateCode": "R_zXpGnCLXgnlG48e17Efd4tabnOC5P0-bDm_u6lYrc",
-                "country": "Colombia"
-            },
-            "ChimeCallMe to Canada": {
-                "rateCode": "V9RKQYH5MJPNZ5UY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0054000000",
-                "RegionlessRateCode": "Tm8Wt4sQjahWcy4pU9w3oVeDDnJ2klvythm5kb1MKx0",
-                "country": "Canada"
-            },
-            "ChimeCallMe to Hong Kong": {
-                "rateCode": "2A5DVFHKWU229D4V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0789600000",
-                "RegionlessRateCode": "WIfQJIwAv0lyJNZ-t4R4WXsvYUy50mz28eEN8DmC0hc",
-                "country": "Hong Kong"
-            },
-            "ChimeCallMe to Italy": {
-                "rateCode": "RQ4VR3PG37PAK5QZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0842000000",
-                "RegionlessRateCode": "XlPcPVF4XvA5Wp0Y39JwJbxwiEpQG5RPfs08bVjsuYA",
-                "country": "Italy"
-            },
-            "ChimeCallMe to Luxembourg": {
-                "rateCode": "TCNWCS3Q43B8B3K2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0674600000",
-                "RegionlessRateCode": "Z-_LO_PNBbEwQ-IN-38FaPblVlYS9c3uLDOmoaAl8P0",
-                "country": "Luxembourg"
-            },
-            "ChimeCallMe to Hungary": {
-                "rateCode": "U7J7FH5BZDM5VCXC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0920000000",
-                "RegionlessRateCode": "_yk3ibbRdeycFZuJZGvxViaU9uQ9KVTYR5sxIO7aW-8",
-                "country": "Hungary"
-            },
-            "ChimeCallMe to Sweden": {
-                "rateCode": "5ECBB8WUQWVQGXE2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0253600000",
-                "RegionlessRateCode": "cfdVrBYT75djgJSqqF_0-UVyUmDkf7g4sTH_b32PBZE",
-                "country": "Sweden"
-            },
-            "ChimeCallMe to France": {
-                "rateCode": "E55RY6S42NPECNHM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0692000000",
-                "RegionlessRateCode": "eXqy6w9GJ7chJ_BPbTipIrOhHOXm8GfYZTmes_VwfCE",
-                "country": "France"
-            },
-            "ChimeCallMe to Israel": {
-                "rateCode": "82UMN5VUD3B9BB8M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0386800000",
-                "RegionlessRateCode": "ekWdQqSNj-ai_im22cLPVPQ5MJNa6YQUiGqS9Y5Evtc",
-                "country": "Israel"
-            },
-            "ChimeCallMe to Turkey": {
+            "X8GJHX22HT7QSMK9 JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "X8GJHX22HT7QSMK9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.4301800000",
                 "RegionlessRateCode": "fRWLAM1tisGbQOlOssFt-0YHaeLxGEexHLj7dsrKqag",
                 "country": "Turkey"
             },
-            "ChimeCallMe to Norway": {
-                "rateCode": "2XRWJNKR2CGGD8AK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0253200000",
-                "RegionlessRateCode": "gYTpNOqgIG1DOjyMmzrAxfYIagOF-DR1vmS_y0EmhlE",
-                "country": "Norway"
+            "XVDUMSBPS4XZZ7A7 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "XVDUMSBPS4XZZ7A7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1834000000",
+                "RegionlessRateCode": "JVu9mfPiMVqWFzYj83UfGgbGzbFj37Y5Qmk4eV0EbPw",
+                "country": "Latvia"
             },
-            "ChimeCallMe to Ireland": {
-                "rateCode": "NKSEFMYFVNPPEUW7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0289100000",
-                "RegionlessRateCode": "mbOEhiESGX2o1OK_CkJY5LGmoMpHp0Cu1PaDrEpgbU0",
-                "country": "Ireland"
+            "YQ7A8CBU54GFK72E JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "YQ7A8CBU54GFK72E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4271100000",
+                "RegionlessRateCode": "1xo4vh-du6Uy5IIutxQOsG8IKjXWuP7wvqxU7vmCTUU",
+                "country": "Argentina"
             },
-            "ChimeCallMe to Mexico": {
-                "rateCode": "SCKQDSDSBDAH63W5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0162500000",
-                "RegionlessRateCode": "oTGamdMk4NpV-94XvE9Fn4Bt5NSKS5uJ2Hm0FJ116wo",
-                "country": "Mexico"
+            "Z523VZZJH9T337ZB JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "Z523VZZJH9T337ZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0614100000",
+                "RegionlessRateCode": "yJfx7EB3BhSbg7B1eXQrmE2lpR16woikQRmQRW34oEs",
+                "country": "New Zealand"
             },
-            "ChimeCallMe to United States of America": {
-                "rateCode": "NSG2ZKA4CJCWHJUM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0048000000",
-                "RegionlessRateCode": "qEJgTwCq7AeYquccvibEwoAwr4CDuN0YUjbZ3LTq4AE",
-                "country": "United States of America"
-            },
-            "ChimeCallMe to Switzerland": {
-                "rateCode": "RXEKGTEASUVJ4BQN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1926000000",
-                "RegionlessRateCode": "rMRYquOIR5syc1S_7_lR4SXtlRX9ARtUtI4vf2_CNDE",
-                "country": "Switzerland"
-            },
-            "ChimeCallMe to Germany": {
-                "rateCode": "82GEC7H3S5UB5Y43.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0389200000",
-                "RegionlessRateCode": "spXhR37eS0mm5WGQP0vqZ_Of_jpWA_gGSytMG_ianF4",
-                "country": "Germany"
-            },
-            "ChimeCallMe to Belgium": {
-                "rateCode": "EV3BSTEHEV5ZDSTB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1575000000",
-                "RegionlessRateCode": "vsUUdTa5V7TPU11z6BI-Cit1HceML0TJilRneTsv09Y",
-                "country": "Belgium"
-            },
-            "ChimeCallMe to Panama": {
-                "rateCode": "BN7Y7TECM3JAR7VU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.3336800000",
-                "RegionlessRateCode": "xQeaSDVTjYSQIJ3n1nZxQXKEp9YjJbfR07S2cM1kQoM",
-                "country": "Panama"
+            "ZXWENKNKBDTMMFCQ JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "ZXWENKNKBDTMMFCQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0645500000",
+                "RegionlessRateCode": "RKemDC36y53SoyrljYjngE5sk0OV0nl_XgFSQWmgDTE",
+                "country": "Peru"
             },
             "ChimeCallMe to Japan": {
+                "country": "Japan",
                 "rateCode": "2826MYXCPE8BKEWU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0648000000",
-                "RegionlessRateCode": "xTJlsSg1t9w2oE8iWgVOcfHDrFH8tT-0fv8zzVS2bpY",
-                "country": "Japan"
+                "RegionlessRateCode": "xTJlsSg1t9w2oE8iWgVOcfHDrFH8tT-0fv8zzVS2bpY"
             },
-            "ChimeCallMe to Denmark": {
-                "rateCode": "VVXSW4JY97KF7P7G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0257800000",
-                "RegionlessRateCode": "xxbk36GPmGIu68pz3iAB6AttZpsRXG9Ll5t4ffe9b_E",
-                "country": "Denmark"
+            "ChimeCallMe to Hong Kong": {
+                "country": "Hong Kong",
+                "rateCode": "2A5DVFHKWU229D4V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0789600000",
+                "RegionlessRateCode": "WIfQJIwAv0lyJNZ-t4R4WXsvYUy50mz28eEN8DmC0hc"
             },
-            "ChimeCallMe to New Zealand": {
-                "rateCode": "Z523VZZJH9T337ZB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0614100000",
-                "RegionlessRateCode": "yJfx7EB3BhSbg7B1eXQrmE2lpR16woikQRmQRW34oEs",
-                "country": "New Zealand"
+            "ChimeCallMe to United Kingdom": {
+                "country": "United Kingdom",
+                "rateCode": "2X2BS6HM8V5N56B9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0190000000",
+                "RegionlessRateCode": "EnKZ5b1c-EqeWC4YZbzqRgp-w155qaQBF9YWm2jZFa4"
+            },
+            "ChimeCallMe to Norway": {
+                "country": "Norway",
+                "rateCode": "2XRWJNKR2CGGD8AK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0253200000",
+                "RegionlessRateCode": "gYTpNOqgIG1DOjyMmzrAxfYIagOF-DR1vmS_y0EmhlE"
+            },
+            "ChimeCallMe to Australia": {
+                "country": "Australia",
+                "rateCode": "339XEAGF6H2RRVFB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0476800000",
+                "RegionlessRateCode": "CSfG8WhlSL_cfXL-l2OSBodnPpCDEegvvPXhcynE_9A"
+            },
+            "ChimeCallMe to Romania": {
+                "country": "Romania",
+                "rateCode": "4CY66J4ADB8EM9CK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0362700000",
+                "RegionlessRateCode": "AWXHCk7lXiJ8ah4a_CT41r5AwvZqSWF_Z1pc7EDgJ_U"
+            },
+            "ChimeCallMe to Sweden": {
+                "country": "Sweden",
+                "rateCode": "5ECBB8WUQWVQGXE2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0253600000",
+                "RegionlessRateCode": "cfdVrBYT75djgJSqqF_0-UVyUmDkf7g4sTH_b32PBZE"
+            },
+            "ChimeCallMe to Colombia": {
+                "country": "Colombia",
+                "rateCode": "5VE9C22WNTJS4TPR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0656000000",
+                "RegionlessRateCode": "R_zXpGnCLXgnlG48e17Efd4tabnOC5P0-bDm_u6lYrc"
+            },
+            "ChimeCallMe to Brazil": {
+                "country": "Brazil",
+                "rateCode": "76RJ7NMNNE679SF4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0684100000",
+                "RegionlessRateCode": "P5mvInOua3HMPpLPyuIz4JSRhjNB7wcPxWuy7m3374E"
+            },
+            "ChimeCallMe to Germany": {
+                "country": "Germany",
+                "rateCode": "82GEC7H3S5UB5Y43.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0389200000",
+                "RegionlessRateCode": "spXhR37eS0mm5WGQP0vqZ_Of_jpWA_gGSytMG_ianF4"
+            },
+            "ChimeCallMe to Israel": {
+                "country": "Israel",
+                "rateCode": "82UMN5VUD3B9BB8M.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0386800000",
+                "RegionlessRateCode": "ekWdQqSNj-ai_im22cLPVPQ5MJNa6YQUiGqS9Y5Evtc"
+            },
+            "ChimeCallMe to Netherlands": {
+                "country": "Netherlands",
+                "rateCode": "8PCF7YP6DEM2PQQ4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1272600000",
+                "RegionlessRateCode": "5E4F8XrYnk7ks2-zcSt2zjgixAk4xWVtbUeGBrIv3Ik"
+            },
+            "ChimeCallMe to Greece": {
+                "country": "Greece",
+                "rateCode": "96PBBU59AESHFJWQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2566900000",
+                "RegionlessRateCode": "6mAR3XC-7Q6CUux5HpGucHKa2cNsgVMXPYP_oYJdwuM"
+            },
+            "ChimeCallMe to Cyprus": {
+                "country": "Cyprus",
+                "rateCode": "9KVG7NCU5TQDGRAZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2170700000",
+                "RegionlessRateCode": "6AxhCJdlZUwhEdtrUcZ3T0I0BOJq4i0pNlDtiTHRwpg"
+            },
+            "ChimeCallMe to Spain": {
+                "country": "Spain",
+                "rateCode": "9ZXUGFJUSBQZXVUS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0712200000",
+                "RegionlessRateCode": "DjLD_xTFohGu_b0y7s2MuWbz4HuHqUDsq-e1FXh2r_Y"
+            },
+            "ChimeCallMe to Panama": {
+                "country": "Panama",
+                "rateCode": "BN7Y7TECM3JAR7VU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.3336800000",
+                "RegionlessRateCode": "xQeaSDVTjYSQIJ3n1nZxQXKEp9YjJbfR07S2cM1kQoM"
+            },
+            "ChimeCallMe to Portugal": {
+                "country": "Portugal",
+                "rateCode": "DQK9B8HNNUCP39R5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0894800000",
+                "RegionlessRateCode": "HmLQ5kR44mjCkuuaSqsNGdT7GU5-g1r1SK_x6gq0vdk"
+            },
+            "ChimeCallMe to Lithuania": {
+                "country": "Lithuania",
+                "rateCode": "DVDMBQM5KTNVP8AH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1214800000",
+                "RegionlessRateCode": "F1GM3CDzlb7iguZUXzWB8oYR4T7h4OMhOrbBDVscQF8"
+            },
+            "ChimeCallMe to Czech Republic": {
+                "country": "Czech Republic",
+                "rateCode": "DWC7YJ5R2YDRHXEV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1433600000",
+                "RegionlessRateCode": "QnqCXNfo0dafKM7h4pxWYSi_naWaAqiD0J9_aDf8rzw"
+            },
+            "ChimeCallMe to France": {
+                "country": "France",
+                "rateCode": "E55RY6S42NPECNHM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0692000000",
+                "RegionlessRateCode": "eXqy6w9GJ7chJ_BPbTipIrOhHOXm8GfYZTmes_VwfCE"
+            },
+            "ChimeCallMe to Belgium": {
+                "country": "Belgium",
+                "rateCode": "EV3BSTEHEV5ZDSTB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1575000000",
+                "RegionlessRateCode": "vsUUdTa5V7TPU11z6BI-Cit1HceML0TJilRneTsv09Y"
+            },
+            "ChimeCallMe to South Africa": {
+                "country": "South Africa",
+                "rateCode": "K8UX247D2XW47FND.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0273250000",
+                "RegionlessRateCode": "4XvcKHjDjrGJcwRkEdp_vqGVB_ul1_rEbQ_dg6WqZkg"
             },
             "ChimeCallMe to Finland": {
+                "country": "Finland",
                 "rateCode": "MVCJR4FX33FU6959.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0546800000",
-                "RegionlessRateCode": "zvoeUTfruqlNbwQSbUDq7rAXtIcNgXOo05lF_YCGvXQ",
-                "country": "Finland"
+                "RegionlessRateCode": "zvoeUTfruqlNbwQSbUDq7rAXtIcNgXOo05lF_YCGvXQ"
+            },
+            "ChimeCallMe to Ireland": {
+                "country": "Ireland",
+                "rateCode": "NKSEFMYFVNPPEUW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0289100000",
+                "RegionlessRateCode": "mbOEhiESGX2o1OK_CkJY5LGmoMpHp0Cu1PaDrEpgbU0"
+            },
+            "ChimeCallMe to United States of America": {
+                "country": "United States of America",
+                "rateCode": "NSG2ZKA4CJCWHJUM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0048000000",
+                "RegionlessRateCode": "qEJgTwCq7AeYquccvibEwoAwr4CDuN0YUjbZ3LTq4AE"
+            },
+            "ChimeCallMe to Puerto Rico": {
+                "country": "Puerto Rico",
+                "rateCode": "QU6YBT6CBYJYX3FY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0060000000",
+                "RegionlessRateCode": "-5F4U9JuVbDn2hPVeGcGCfTp7ObBSkoGMyIAvh_sVaI"
+            },
+            "ChimeCallMe to Italy": {
+                "country": "Italy",
+                "rateCode": "RQ4VR3PG37PAK5QZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0842000000",
+                "RegionlessRateCode": "XlPcPVF4XvA5Wp0Y39JwJbxwiEpQG5RPfs08bVjsuYA"
+            },
+            "ChimeCallMe to Switzerland": {
+                "country": "Switzerland",
+                "rateCode": "RXEKGTEASUVJ4BQN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1926000000",
+                "RegionlessRateCode": "rMRYquOIR5syc1S_7_lR4SXtlRX9ARtUtI4vf2_CNDE"
+            },
+            "ChimeCallMe to Poland": {
+                "country": "Poland",
+                "rateCode": "S4G8EGESPG48UA62.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1189800000",
+                "RegionlessRateCode": "0DfDdm7DnUWL_vhOr4BGbRB0OT8zl4VbdinJx_tgxV4"
+            },
+            "ChimeCallMe to Mexico": {
+                "country": "Mexico",
+                "rateCode": "SCKQDSDSBDAH63W5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0162500000",
+                "RegionlessRateCode": "oTGamdMk4NpV-94XvE9Fn4Bt5NSKS5uJ2Hm0FJ116wo"
+            },
+            "ChimeCallMe to Luxembourg": {
+                "country": "Luxembourg",
+                "rateCode": "TCNWCS3Q43B8B3K2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0674600000",
+                "RegionlessRateCode": "Z-_LO_PNBbEwQ-IN-38FaPblVlYS9c3uLDOmoaAl8P0"
+            },
+            "ChimeCallMe to Hungary": {
+                "country": "Hungary",
+                "rateCode": "U7J7FH5BZDM5VCXC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0920000000",
+                "RegionlessRateCode": "_yk3ibbRdeycFZuJZGvxViaU9uQ9KVTYR5sxIO7aW-8"
+            },
+            "ChimeCallMe to Canada": {
+                "country": "Canada",
+                "rateCode": "V9RKQYH5MJPNZ5UY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0054000000",
+                "RegionlessRateCode": "Tm8Wt4sQjahWcy4pU9w3oVeDDnJ2klvythm5kb1MKx0"
+            },
+            "ChimeCallMe to Denmark": {
+                "country": "Denmark",
+                "rateCode": "VVXSW4JY97KF7P7G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0257800000",
+                "RegionlessRateCode": "xxbk36GPmGIu68pz3iAB6AttZpsRXG9Ll5t4ffe9b_E"
+            },
+            "ChimeCallMe to Malta": {
+                "country": "Malta",
+                "rateCode": "WVR36RV8NJ75KEJA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0197700000",
+                "RegionlessRateCode": "DQJ7t1n23K-e_8gmPRHqnB71P-Usa01cwmdkg_GWS7g"
+            },
+            "ChimeCallMe to Turkey": {
+                "country": "Turkey",
+                "rateCode": "X8GJHX22HT7QSMK9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4301800000",
+                "RegionlessRateCode": "fRWLAM1tisGbQOlOssFt-0YHaeLxGEexHLj7dsrKqag"
+            },
+            "ChimeCallMe to Latvia": {
+                "country": "Latvia",
+                "rateCode": "XVDUMSBPS4XZZ7A7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1834000000",
+                "RegionlessRateCode": "JVu9mfPiMVqWFzYj83UfGgbGzbFj37Y5Qmk4eV0EbPw"
+            },
+            "ChimeCallMe to Argentina": {
+                "country": "Argentina",
+                "rateCode": "YQ7A8CBU54GFK72E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4271100000",
+                "RegionlessRateCode": "1xo4vh-du6Uy5IIutxQOsG8IKjXWuP7wvqxU7vmCTUU"
+            },
+            "ChimeCallMe to New Zealand": {
+                "country": "New Zealand",
+                "rateCode": "Z523VZZJH9T337ZB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0614100000",
+                "RegionlessRateCode": "yJfx7EB3BhSbg7B1eXQrmE2lpR16woikQRmQRW34oEs"
+            },
+            "ChimeCallMe to Peru": {
+                "country": "Peru",
+                "rateCode": "ZXWENKNKBDTMMFCQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0645500000",
+                "RegionlessRateCode": "RKemDC36y53SoyrljYjngE5sk0OV0nl_XgFSQWmgDTE"
             }
         }
     }

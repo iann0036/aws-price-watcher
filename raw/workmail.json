@@ -1,14 +1,4 @@
 {
-    "manifest": {
-        "serviceId": "workmail",
-        "accessType": "publish",
-        "esIndex": "plc-workmail-usd-20260911124517",
-        "hawkFilePublicationDate": "2026-09-11T12:45:17Z",
-        "ETLIngestionTriggerDate": "2026-09-11T12:45:17Z",
-        "currencyCode": "USD",
-        "source": "workmail",
-        "isMapped": "true"
-    },
     "sets": {
         "optional set name Enterprise Applications": [
             "5CW4TM93K8YJ224U JRTCKXETXF.6YS6EN2CT7 0",
@@ -19,8 +9,93 @@
             "BT3JRDF6VZHPNDS4 JRTCKXETXF.6YS6EN2CT7 0"
         ]
     },
+    "manifest": {
+        "serviceId": "workmail",
+        "accessType": "publish",
+        "source": "workmail",
+        "currencyCode": "USD",
+        "hawkFilePublicationDate": "2026-09-11T12:45:17Z",
+        "ETLIngestionTriggerDate": "2026-09-11T12:45:17Z",
+        "esIndex": "plc-workmail-usd-20260911124517",
+        "queryConfig": "public/f0b35453-ed5e-5190-a59c-d732190951cc/2",
+        "isMapped": "true"
+    },
     "regions": {
+        "EU (Ireland)": {
+            "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg": {
+                "rateCode": "BT3JRDF6VZHPNDS4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
+            },
+            "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw": {
+                "rateCode": "EE3PBN5PPN72CV98.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0000000000",
+                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
+            },
+            "BT3JRDF6VZHPNDS4 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "BT3JRDF6VZHPNDS4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
+            },
+            "EE3PBN5PPN72CV98 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "EE3PBN5PPN72CV98.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0000000000",
+                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
+            },
+            "Free Tier per User Mo": {
+                "rateCode": "BT3JRDF6VZHPNDS4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
+            },
+            "WorkMail per User Mo": {
+                "rateCode": "EE3PBN5PPN72CV98.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0000000000",
+                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
+            }
+        },
+        "US East (N. Virginia)": {
+            "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg": {
+                "rateCode": "8PKFR8SGFERTRYG2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
+            },
+            "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw": {
+                "rateCode": "GJ2WD77XFX753GMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0000000000",
+                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
+            },
+            "8PKFR8SGFERTRYG2 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "8PKFR8SGFERTRYG2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
+            },
+            "GJ2WD77XFX753GMU JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "GJ2WD77XFX753GMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0000000000",
+                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
+            },
+            "Free Tier per User Mo": {
+                "rateCode": "8PKFR8SGFERTRYG2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
+            },
+            "WorkMail per User Mo": {
+                "rateCode": "GJ2WD77XFX753GMU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0000000000",
+                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
+            }
+        },
         "US West (Oregon)": {
+            "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw": {
+                "rateCode": "5CW4TM93K8YJ224U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "4.0000000000",
+                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
+            },
+            "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg": {
+                "rateCode": "67MBZGRH34DGJK57.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
+            },
             "5CW4TM93K8YJ224U JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "5CW4TM93K8YJ224U.JRTCKXETXF.6YS6EN2CT7",
                 "price": "4.0000000000",
@@ -31,12 +106,7 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
             },
-            "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg": {
-                "rateCode": "67MBZGRH34DGJK57.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
-            },
-            "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw": {
+            "WorkMail per User Mo": {
                 "rateCode": "5CW4TM93K8YJ224U.JRTCKXETXF.6YS6EN2CT7",
                 "price": "4.0000000000",
                 "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
@@ -45,75 +115,6 @@
                 "rateCode": "67MBZGRH34DGJK57.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
-            },
-            "WorkMail per User Mo": {
-                "rateCode": "5CW4TM93K8YJ224U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0000000000",
-                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
-            }
-        },
-        "US East (N. Virginia)": {
-            "GJ2WD77XFX753GMU JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "GJ2WD77XFX753GMU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0000000000",
-                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
-            },
-            "8PKFR8SGFERTRYG2 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "8PKFR8SGFERTRYG2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
-            },
-            "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg": {
-                "rateCode": "8PKFR8SGFERTRYG2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
-            },
-            "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw": {
-                "rateCode": "GJ2WD77XFX753GMU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0000000000",
-                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
-            },
-            "Free Tier per User Mo": {
-                "rateCode": "8PKFR8SGFERTRYG2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
-            },
-            "WorkMail per User Mo": {
-                "rateCode": "GJ2WD77XFX753GMU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0000000000",
-                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
-            }
-        },
-        "EU (Ireland)": {
-            "EE3PBN5PPN72CV98 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "EE3PBN5PPN72CV98.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0000000000",
-                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
-            },
-            "BT3JRDF6VZHPNDS4 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "BT3JRDF6VZHPNDS4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
-            },
-            "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg": {
-                "rateCode": "BT3JRDF6VZHPNDS4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
-            },
-            "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw": {
-                "rateCode": "EE3PBN5PPN72CV98.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0000000000",
-                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
-            },
-            "Free Tier per User Mo": {
-                "rateCode": "BT3JRDF6VZHPNDS4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "XIzeEF5ZErbOOg9Xn_7ryMmW1phDN5q8DqHYI31raSg"
-            },
-            "WorkMail per User Mo": {
-                "rateCode": "EE3PBN5PPN72CV98.JRTCKXETXF.6YS6EN2CT7",
-                "price": "4.0000000000",
-                "RegionlessRateCode": "eXHTfLHXsswbFzHdSNXn8hgTVbytpY4nkrLGAGw-Msw"
             }
         }
     }

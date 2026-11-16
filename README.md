@@ -1,3 +1,20 @@
+## 2026-11-16 08:41
+
+**Modified services:**
+
+- [amplify](processed/amplify.json)
+  - Price changed:  US East (Ohio) 💰
+  - Price changed:  US East (N. Virginia) 💰
+  - Price changed:  Middle East (Bahrain) 💰
+  - Price changed:  EU (Stockholm) 💰
+  - Price changed:  EU (Milan) 💰
+  - Price changed:  EU (London) 💰
+  - Price changed:  EU (Frankfurt) 💰
+  - Price changed:  Canada (Central) 💰
+  - Price changed:  Asia Pacific (Sydney) 💰
+  - Price changed:  Asia Pacific (Osaka) 💰
+
+
 ## 2026-11-13 20:23
 
 **Modified services:**

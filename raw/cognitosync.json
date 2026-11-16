@@ -1,148 +1,17 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "cognitosync",
         "accessType": "publish",
-        "esIndex": "plc-cognitosync-usd-20260911124417",
+        "source": "cognitosync",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:17Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:17Z",
-        "currencyCode": "USD",
-        "source": "cognitosync",
+        "esIndex": "plc-cognitosync-usd-20260911124417",
+        "queryConfig": "public/c8d971e4-e35e-53a2-a1a9-8ced27c5dd60/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
-                "rateCode": "WR3CHRYNZ3RGWRQ4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
-                "rateCode": "J5H8774V5CHEXPF3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            },
-            "Sync Storage per GB Mo": {
-                "rateCode": "WR3CHRYNZ3RGWRQ4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "Sync Operation per CognitoSyncOp Mo": {
-                "rateCode": "J5H8774V5CHEXPF3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            }
-        },
-        "US East (Ohio)": {
-            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
-                "rateCode": "6TYHNBBQXVTJV87G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
-                "rateCode": "PKEANY25RM5WAPN5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            },
-            "Sync Storage per GB Mo": {
-                "rateCode": "6TYHNBBQXVTJV87G.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "Sync Operation per CognitoSyncOp Mo": {
-                "rateCode": "PKEANY25RM5WAPN5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            }
-        },
-        "US East (N. Virginia)": {
-            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
-                "rateCode": "U4JWJQJGSMPCZ46F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
-                "rateCode": "KJ5H65YWPQW93V8U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            },
-            "Sync Storage per GB Mo": {
-                "rateCode": "U4JWJQJGSMPCZ46F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "Sync Operation per CognitoSyncOp Mo": {
-                "rateCode": "KJ5H65YWPQW93V8U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            }
-        },
-        "EU (London)": {
-            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
-                "rateCode": "BFPZ6GP4PBXT6GSW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
-                "rateCode": "PH32JNDAT9GSZK89.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            },
-            "Sync Storage per GB Mo": {
-                "rateCode": "BFPZ6GP4PBXT6GSW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "Sync Operation per CognitoSyncOp Mo": {
-                "rateCode": "PH32JNDAT9GSZK89.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            }
-        },
-        "EU (Ireland)": {
-            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
-                "rateCode": "9K88UUWZKA7QJ6SS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
-                "rateCode": "3GZ8A2XXP2J645YN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            },
-            "Sync Storage per GB Mo": {
-                "rateCode": "9K88UUWZKA7QJ6SS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "Sync Operation per CognitoSyncOp Mo": {
-                "rateCode": "3GZ8A2XXP2J645YN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            }
-        },
-        "EU (Frankfurt)": {
-            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
-                "rateCode": "5B8DSV6HQEU8UJDY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
-                "rateCode": "3TNBDPCUM3KA3DVN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            },
-            "Sync Storage per GB Mo": {
-                "rateCode": "5B8DSV6HQEU8UJDY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "Sync Operation per CognitoSyncOp Mo": {
-                "rateCode": "3TNBDPCUM3KA3DVN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            }
-        },
         "Asia Pacific (Tokyo)": {
             "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
                 "rateCode": "DV7RG3E69UVXN8BJ.JRTCKXETXF.6YS6EN2CT7",
@@ -162,50 +31,6 @@
             "Sync Operation per CognitoSyncOp Mo": {
                 "rateCode": "VKP2YCRBYJTZZXWN.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000190000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
-                "rateCode": "RPE4XCMF3R2QRFN7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
-                "rateCode": "WV3UZZ29WBTP6UV3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            },
-            "Sync Storage per GB Mo": {
-                "rateCode": "RPE4XCMF3R2QRFN7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "Sync Operation per CognitoSyncOp Mo": {
-                "rateCode": "WV3UZZ29WBTP6UV3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
-                "rateCode": "HUFN9VR4K9E8TXS6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
-                "rateCode": "TDUS4FFZRMU5HQT5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
-                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
-            },
-            "Sync Storage per GB Mo": {
-                "rateCode": "HUFN9VR4K9E8TXS6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
-            },
-            "Sync Operation per CognitoSyncOp Mo": {
-                "rateCode": "TDUS4FFZRMU5HQT5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000150000",
                 "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
             }
         },
@@ -251,6 +76,182 @@
                 "rateCode": "YKWHBT5QP62UPFGG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000150000",
                 "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
+                "rateCode": "HUFN9VR4K9E8TXS6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
+                "rateCode": "TDUS4FFZRMU5HQT5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "Sync Storage per GB Mo": {
+                "rateCode": "HUFN9VR4K9E8TXS6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "Sync Operation per CognitoSyncOp Mo": {
+                "rateCode": "TDUS4FFZRMU5HQT5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
+                "rateCode": "RPE4XCMF3R2QRFN7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
+                "rateCode": "WV3UZZ29WBTP6UV3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "Sync Storage per GB Mo": {
+                "rateCode": "RPE4XCMF3R2QRFN7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "Sync Operation per CognitoSyncOp Mo": {
+                "rateCode": "WV3UZZ29WBTP6UV3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            }
+        },
+        "EU (Frankfurt)": {
+            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
+                "rateCode": "3TNBDPCUM3KA3DVN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
+                "rateCode": "5B8DSV6HQEU8UJDY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "Sync Operation per CognitoSyncOp Mo": {
+                "rateCode": "3TNBDPCUM3KA3DVN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "Sync Storage per GB Mo": {
+                "rateCode": "5B8DSV6HQEU8UJDY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            }
+        },
+        "EU (Ireland)": {
+            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
+                "rateCode": "3GZ8A2XXP2J645YN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
+                "rateCode": "9K88UUWZKA7QJ6SS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "Sync Operation per CognitoSyncOp Mo": {
+                "rateCode": "3GZ8A2XXP2J645YN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "Sync Storage per GB Mo": {
+                "rateCode": "9K88UUWZKA7QJ6SS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            }
+        },
+        "EU (London)": {
+            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
+                "rateCode": "BFPZ6GP4PBXT6GSW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
+                "rateCode": "PH32JNDAT9GSZK89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "Sync Storage per GB Mo": {
+                "rateCode": "BFPZ6GP4PBXT6GSW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "Sync Operation per CognitoSyncOp Mo": {
+                "rateCode": "PH32JNDAT9GSZK89.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            }
+        },
+        "US East (N. Virginia)": {
+            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
+                "rateCode": "KJ5H65YWPQW93V8U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
+                "rateCode": "U4JWJQJGSMPCZ46F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "Sync Operation per CognitoSyncOp Mo": {
+                "rateCode": "KJ5H65YWPQW93V8U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "Sync Storage per GB Mo": {
+                "rateCode": "U4JWJQJGSMPCZ46F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            }
+        },
+        "US East (Ohio)": {
+            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
+                "rateCode": "6TYHNBBQXVTJV87G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
+                "rateCode": "PKEANY25RM5WAPN5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "Sync Storage per GB Mo": {
+                "rateCode": "6TYHNBBQXVTJV87G.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "Sync Operation per CognitoSyncOp Mo": {
+                "rateCode": "PKEANY25RM5WAPN5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            }
+        },
+        "US West (Oregon)": {
+            "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc": {
+                "rateCode": "J5H8774V5CHEXPF3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744": {
+                "rateCode": "WR3CHRYNZ3RGWRQ4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
+            },
+            "Sync Operation per CognitoSyncOp Mo": {
+                "rateCode": "J5H8774V5CHEXPF3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000150000",
+                "RegionlessRateCode": "76pu2oFmw2R6zpHbusSJXaP2cjabdXRFXrqoT9c_Muc"
+            },
+            "Sync Storage per GB Mo": {
+                "rateCode": "WR3CHRYNZ3RGWRQ4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "1SEfT7uwrBGdBgXxXX93OlqNSkxdszMXVnqWcSmJ744"
             }
         }
     }

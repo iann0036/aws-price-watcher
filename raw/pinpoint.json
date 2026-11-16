@@ -1,680 +1,27 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "pinpoint",
         "accessType": "publish",
-        "esIndex": "plc-pinpoint-usd-20261013151642",
+        "source": "pinpoint",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-10-13T15:16:42Z",
         "ETLIngestionTriggerDate": "2026-10-13T15:16:42Z",
-        "currencyCode": "USD",
-        "source": "pinpoint",
+        "esIndex": "plc-pinpoint-usd-20261013151642",
+        "queryConfig": "public/ef71aeca-19bc-5d3c-87fa-0de86db258d5/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "99A5G3SKSZ6GZ83S.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "HZGQTUKENSSR8Y56.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "DUDHZEGRPXV3VX9H.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "UDQ9VZ3FR395WRET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "HJD22TSM9AVVYSXG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "933EQQSG28J7VMHE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "P7X95GAZ25N6KSS9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "TXVK7SEAC6RSC7Y3.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "NDBZK68FYSBB6NYH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Events Recorded per Events": {
-                "rateCode": "99A5G3SKSZ6GZ83S.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "HZGQTUKENSSR8Y56.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "MTA per Users": {
-                "rateCode": "DUDHZEGRPXV3VX9H.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "In app Message Requests per Requests": {
-                "rateCode": "UDQ9VZ3FR395WRET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "HJD22TSM9AVVYSXG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "933EQQSG28J7VMHE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "P7X95GAZ25N6KSS9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "Inbox Placement Domains per Unit": {
-                "rateCode": "TXVK7SEAC6RSC7Y3.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "Email Messages": {
-                "rateCode": "NDBZK68FYSBB6NYH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            }
-        },
-        "US East (Ohio)": {
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "538JYWUWWR9DC4M5.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "TW8BWYSGMCY3XXM4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "69BYA2H83P8SFRDN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "NVG8Q3XTFXUWW9VK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "S449F5YFPZVNJAF9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I": {
-                "rateCode": "4BRDRVPG285GDE97.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I"
-            },
-            "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg": {
-                "rateCode": "T4M7RG6MBWF6RU8T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg"
-            },
-            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "7A524V3Q3GQMTSXV.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "538JYWUWWR9DC4M5.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "In app Message Requests per Requests": {
-                "rateCode": "TW8BWYSGMCY3XXM4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "69BYA2H83P8SFRDN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "NVG8Q3XTFXUWW9VK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "S449F5YFPZVNJAF9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "Baidu Push Notification Messages per Messages": {
-                "rateCode": "4BRDRVPG285GDE97.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I"
-            },
-            "Apple Push Notification Messages per Messages": {
-                "rateCode": "T4M7RG6MBWF6RU8T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg"
-            },
-            "Inbox Placement Domains per Unit": {
-                "rateCode": "7A524V3Q3GQMTSXV.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            }
-        },
-        "US East (N. Virginia)": {
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "9PKKC99V2HT7S5QM.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "SC9888ECXXVUUZE7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "Q4D6JQVMFX8HDBWW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "R24mya9AgDdnYeqGL_NasglbdvR7xGZsGOnGGH2pSkw": {
-                "rateCode": "4JTGPG6E4G2CDYP4.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "R24mya9AgDdnYeqGL_NasglbdvR7xGZsGOnGGH2pSkw"
-            },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "SXD5CBXVGM3VVDVY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "RVV5A7YNN6GWHT2W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "W4eSUF31o8VDYImWZZ5ZaKfCAyKeaHFA2IRRMnsWdX0": {
-                "rateCode": "659BDV9ZBC4Y22XE.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "W4eSUF31o8VDYImWZZ5ZaKfCAyKeaHFA2IRRMnsWdX0"
-            },
-            "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I": {
-                "rateCode": "AK37WD8TH3FP8C3X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I"
-            },
-            "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg": {
-                "rateCode": "5JZPEZN4BFAUUC9S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg"
-            },
-            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "ZEUU6XZQ88SRVP87.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "VUQ7JQUJ3XPESCF7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "9PKKC99V2HT7S5QM.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "In app Message Requests per Requests": {
-                "rateCode": "SC9888ECXXVUUZE7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "Q4D6JQVMFX8HDBWW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "Events Recorded per Events": {
-                "rateCode": "4JTGPG6E4G2CDYP4.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "R24mya9AgDdnYeqGL_NasglbdvR7xGZsGOnGGH2pSkw"
-            },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "SXD5CBXVGM3VVDVY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "RVV5A7YNN6GWHT2W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "MTA per Users": {
-                "rateCode": "659BDV9ZBC4Y22XE.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "W4eSUF31o8VDYImWZZ5ZaKfCAyKeaHFA2IRRMnsWdX0"
-            },
-            "Baidu Push Notification Messages per Messages": {
-                "rateCode": "AK37WD8TH3FP8C3X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I"
-            },
-            "Apple Push Notification Messages per Messages": {
-                "rateCode": "5JZPEZN4BFAUUC9S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg"
-            },
-            "Inbox Placement Domains per Unit": {
-                "rateCode": "ZEUU6XZQ88SRVP87.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "Email Messages": {
-                "rateCode": "VUQ7JQUJ3XPESCF7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            }
-        },
-        "EU (London)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "533YZ788P3QFP634.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "N83UU6TNV67X4DBF.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "RRMMQBX2WCUM8QRQ.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "44ADRHZJ25FQTRC3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "THJYJSWRPMCW4KS6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "ZPVA9NT37R64N2VS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "QR4SDBHAT4BEV7D3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "PS3K2DA3CFWDTWP5.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "UYMUGQEGZUPVKT6X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Events Recorded per Events": {
-                "rateCode": "533YZ788P3QFP634.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "N83UU6TNV67X4DBF.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "MTA per Users": {
-                "rateCode": "RRMMQBX2WCUM8QRQ.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "In app Message Requests per Requests": {
-                "rateCode": "44ADRHZJ25FQTRC3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "THJYJSWRPMCW4KS6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "ZPVA9NT37R64N2VS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "QR4SDBHAT4BEV7D3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "Inbox Placement Domains per Unit": {
-                "rateCode": "PS3K2DA3CFWDTWP5.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "Email Messages": {
-                "rateCode": "UYMUGQEGZUPVKT6X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            }
-        },
-        "EU (Ireland)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "DVZT7R42W29AES4R.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "NRJWAGT29BN2YH8X.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "YHA8MRZGWRVJNGAV.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "BYF7ZS5E9FZP76A3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "M55QVURGFEJYSZJG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "XRBG2AXRHR3WX5M6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "X85PPCX73X67A79U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "RACUFH2N356DWQJX.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "7UTTWRWWEK5NUKM8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Events Recorded per Events": {
-                "rateCode": "DVZT7R42W29AES4R.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "NRJWAGT29BN2YH8X.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "MTA per Users": {
-                "rateCode": "YHA8MRZGWRVJNGAV.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "In app Message Requests per Requests": {
-                "rateCode": "BYF7ZS5E9FZP76A3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "M55QVURGFEJYSZJG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "XRBG2AXRHR3WX5M6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "X85PPCX73X67A79U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "Inbox Placement Domains per Unit": {
-                "rateCode": "RACUFH2N356DWQJX.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "Email Messages": {
-                "rateCode": "7UTTWRWWEK5NUKM8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            }
-        },
-        "EU (Frankfurt)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "3TE6EESZVMJPP2QW.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "WGXWCJQR4QGT6KX4.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "UWXHS2A9DPBHGH4U.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "BDS9HRV5S2J46TCE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "DKA2J7TQPTMR8CBY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "MMKUW8KGDPJWPRTU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "GH4DQH82PZNFZNAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "PDWZ6ZCNFFVBP7E7.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "JQB63UK2QAF7Q3SU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Events Recorded per Events": {
-                "rateCode": "3TE6EESZVMJPP2QW.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "WGXWCJQR4QGT6KX4.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "MTA per Users": {
-                "rateCode": "UWXHS2A9DPBHGH4U.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "In app Message Requests per Requests": {
-                "rateCode": "BDS9HRV5S2J46TCE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "DKA2J7TQPTMR8CBY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "MMKUW8KGDPJWPRTU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "GH4DQH82PZNFZNAZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "Inbox Placement Domains per Unit": {
-                "rateCode": "PDWZ6ZCNFFVBP7E7.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "Email Messages": {
-                "rateCode": "JQB63UK2QAF7Q3SU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            }
-        },
-        "Canada (Central)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "7HQ5RGQRZ6H5C249.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "VNUXYPMYECNVAF78.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "XR5EC5FU9AHM9JM6.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "JFNWYWQFZ9ZS36FP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "KDG8UC9HT2ZT5R9A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "VV5DGMX7RWQVNU5Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "3PMB7EFHG4EYV2B2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "SJ2H9PJRYY3QJHVA.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "H7RHQAZSDVBG2VDB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Events Recorded per Events": {
-                "rateCode": "7HQ5RGQRZ6H5C249.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "VNUXYPMYECNVAF78.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "MTA per Users": {
-                "rateCode": "XR5EC5FU9AHM9JM6.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "In app Message Requests per Requests": {
-                "rateCode": "JFNWYWQFZ9ZS36FP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "KDG8UC9HT2ZT5R9A.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
-            },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "VV5DGMX7RWQVNU5Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "3PMB7EFHG4EYV2B2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
-            "Inbox Placement Domains per Unit": {
-                "rateCode": "SJ2H9PJRYY3QJHVA.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
-            },
-            "Email Messages": {
-                "rateCode": "H7RHQAZSDVBG2VDB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            }
-        },
         "Asia Pacific (Tokyo)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "JQCP6XMHFSRTN27G.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
             "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
                 "rateCode": "3BTR4PDVSKDTZVR6.JRTCKXETXF.VYAP54KATQ",
                 "price": "10.0000000000",
                 "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "8GY9CY29KPRDV9HC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
             },
             "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
                 "rateCode": "ETEV34M8X66SKKHF.JRTCKXETXF.YKYQ4272N3",
@@ -686,20 +33,20 @@
                 "price": "0.0001100000",
                 "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
             },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "MA8HHVP35JEWQ9WP.JRTCKXETXF.6YS6EN2CT7",
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
+                "rateCode": "JQCP6XMHFSRTN27G.JRTCKXETXF.F83EQNDM5J",
                 "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
             },
             "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
                 "rateCode": "KHWR59FEKAARGEDH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1250.0000000000",
                 "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
             },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "8GY9CY29KPRDV9HC.JRTCKXETXF.6YS6EN2CT7",
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "MA8HHVP35JEWQ9WP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
             "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
                 "rateCode": "Y4FZ6FVB2WTVUX49.JRTCKXETXF.ERZ9N8C2K6",
@@ -711,15 +58,15 @@
                 "price": "0.0001000000",
                 "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
             },
-            "Events Recorded per Events": {
-                "rateCode": "JQCP6XMHFSRTN27G.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
             "Predictive Inbox Placement Tests per Units": {
                 "rateCode": "3BTR4PDVSKDTZVR6.JRTCKXETXF.VYAP54KATQ",
                 "price": "10.0000000000",
                 "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "8GY9CY29KPRDV9HC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
             },
             "MTA per Users": {
                 "rateCode": "ETEV34M8X66SKKHF.JRTCKXETXF.YKYQ4272N3",
@@ -731,20 +78,20 @@
                 "price": "0.0001100000",
                 "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
             },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "MA8HHVP35JEWQ9WP.JRTCKXETXF.6YS6EN2CT7",
+            "Events Recorded per Events": {
+                "rateCode": "JQCP6XMHFSRTN27G.JRTCKXETXF.F83EQNDM5J",
                 "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
             },
             "Deliverability Dashboard Subscription per Month": {
                 "rateCode": "KHWR59FEKAARGEDH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1250.0000000000",
                 "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
             },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "8GY9CY29KPRDV9HC.JRTCKXETXF.6YS6EN2CT7",
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "MA8HHVP35JEWQ9WP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
             "Inbox Placement Domains per Unit": {
                 "rateCode": "Y4FZ6FVB2WTVUX49.JRTCKXETXF.ERZ9N8C2K6",
@@ -757,94 +104,186 @@
                 "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
             }
         },
-        "Asia Pacific (Sydney)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "HFFHZNG6XQBKE3M5.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "G9MTMFC44Q4KHG33.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "APZ6SC85DFTDBYAD.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+        "Asia Pacific (Seoul)": {
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "27XDYYTPDM5BP8HA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
             },
             "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "NHFNRJUVA4CBGUXN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "2BWYPJQNEJEKSTZZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001100000",
                 "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
             },
             "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "DW72S8NHBC6PUJ6P.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "2MWUBGS557R3VJ5J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "RDTJAYGBYWJR8SQM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "GTU2DSAGGJRVAVCK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
             "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "QYMFNMREN2HY9KVR.JRTCKXETXF.ERZ9N8C2K6",
+                "rateCode": "2SKE9DR5P5CKN24V.JRTCKXETXF.ERZ9N8C2K6",
                 "price": "25.0000000000",
                 "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "NJR7ZP54MKZXW9VP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Events Recorded per Events": {
-                "rateCode": "HFFHZNG6XQBKE3M5.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "G9MTMFC44Q4KHG33.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "MTA per Users": {
-                "rateCode": "APZ6SC85DFTDBYAD.JRTCKXETXF.YKYQ4272N3",
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
+                "rateCode": "4ARK3N3PNBENDTEV.JRTCKXETXF.YKYQ4272N3",
                 "price": "0.0012000000",
                 "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
             },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "H985DQ423W6YAKRB.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
+                "rateCode": "K4478XFNZ52KQMJK.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "PUQXQJYMAMS3MHSJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "ZE7UGBMQQETBU3EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "27XDYYTPDM5BP8HA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
             "In app Message Requests per Requests": {
-                "rateCode": "NHFNRJUVA4CBGUXN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "2BWYPJQNEJEKSTZZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001100000",
                 "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
             },
             "Google Push Notification Messages per Messages": {
-                "rateCode": "DW72S8NHBC6PUJ6P.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "2MWUBGS557R3VJ5J.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "RDTJAYGBYWJR8SQM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "GTU2DSAGGJRVAVCK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
             "Inbox Placement Domains per Unit": {
-                "rateCode": "QYMFNMREN2HY9KVR.JRTCKXETXF.ERZ9N8C2K6",
+                "rateCode": "2SKE9DR5P5CKN24V.JRTCKXETXF.ERZ9N8C2K6",
                 "price": "25.0000000000",
                 "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
+            "MTA per Users": {
+                "rateCode": "4ARK3N3PNBENDTEV.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "H985DQ423W6YAKRB.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "Events Recorded per Events": {
+                "rateCode": "K4478XFNZ52KQMJK.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "PUQXQJYMAMS3MHSJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
             "Email Messages": {
-                "rateCode": "NJR7ZP54MKZXW9VP.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "ZE7UGBMQQETBU3EY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            }
+        },
+        "Asia Pacific (Mumbai)": {
+            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
+                "rateCode": "4F4RXAQU4NDQRHF3.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "A9KM6ZV5EMFYZBET.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "E4AH3KK6JFBRBZGE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "FKE2MHRAT5RM7VPP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
+                "rateCode": "PU7Y7X49GMWXBSKE.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "S99D5NG8WUBU3BMZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
+                "rateCode": "ZDSE52P2YJGNUAXX.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "ZS226AATSNNE2NE8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "FE4PPQ3JJNUA79KU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            },
+            "Inbox Placement Domains per Unit": {
+                "rateCode": "4F4RXAQU4NDQRHF3.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "A9KM6ZV5EMFYZBET.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "E4AH3KK6JFBRBZGE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "FKE2MHRAT5RM7VPP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "MTA per Users": {
+                "rateCode": "PU7Y7X49GMWXBSKE.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "S99D5NG8WUBU3BMZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "Events Recorded per Events": {
+                "rateCode": "ZDSE52P2YJGNUAXX.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "ZS226AATSNNE2NE8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "Email Messages": {
+                "rateCode": "FE4PPQ3JJNUA79KU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
             }
@@ -855,25 +294,10 @@
                 "price": "0.0000010000",
                 "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
             },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "WPTXWJQT5RZDG4N6.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "UQ9UWDA847CVGQ2Q.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "VZC8WEMSP2JCS7YT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "PSYSNZBQKXS2P9VG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
+                "rateCode": "4UX9YW93AH4X7Y95.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
             "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
                 "rateCode": "5B4AEEMBZ4ETEUNE.JRTCKXETXF.6YS6EN2CT7",
@@ -885,10 +309,25 @@
                 "price": "0.0000010000",
                 "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
             },
-            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "4UX9YW93AH4X7Y95.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "PSYSNZBQKXS2P9VG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
+                "rateCode": "UQ9UWDA847CVGQ2Q.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "VZC8WEMSP2JCS7YT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "WPTXWJQT5RZDG4N6.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
             },
             "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
                 "rateCode": "QFP2DQUUSSUASQBJ.JRTCKXETXF.6YS6EN2CT7",
@@ -900,25 +339,10 @@
                 "price": "0.0000010000",
                 "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
             },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "WPTXWJQT5RZDG4N6.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "MTA per Users": {
-                "rateCode": "UQ9UWDA847CVGQ2Q.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
-            "In app Message Requests per Requests": {
-                "rateCode": "VZC8WEMSP2JCS7YT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
-            "Google Push Notification Messages per Messages": {
-                "rateCode": "PSYSNZBQKXS2P9VG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            "Inbox Placement Domains per Unit": {
+                "rateCode": "4UX9YW93AH4X7Y95.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
             "Deliverability Dashboard Subscription per Month": {
                 "rateCode": "5B4AEEMBZ4ETEUNE.JRTCKXETXF.6YS6EN2CT7",
@@ -930,10 +354,25 @@
                 "price": "0.0000010000",
                 "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
             },
-            "Inbox Placement Domains per Unit": {
-                "rateCode": "4UX9YW93AH4X7Y95.JRTCKXETXF.ERZ9N8C2K6",
-                "price": "25.0000000000",
-                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "PSYSNZBQKXS2P9VG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "MTA per Users": {
+                "rateCode": "UQ9UWDA847CVGQ2Q.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "VZC8WEMSP2JCS7YT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "WPTXWJQT5RZDG4N6.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
             },
             "Email Messages": {
                 "rateCode": "QFP2DQUUSSUASQBJ.JRTCKXETXF.6YS6EN2CT7",
@@ -941,220 +380,680 @@
                 "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
             }
         },
-        "Asia Pacific (Seoul)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "K4478XFNZ52KQMJK.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "H985DQ423W6YAKRB.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
+        "Asia Pacific (Sydney)": {
             "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "4ARK3N3PNBENDTEV.JRTCKXETXF.YKYQ4272N3",
+                "rateCode": "APZ6SC85DFTDBYAD.JRTCKXETXF.YKYQ4272N3",
                 "price": "0.0012000000",
                 "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
             },
-            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "2BWYPJQNEJEKSTZZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
             "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "2MWUBGS557R3VJ5J.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "DW72S8NHBC6PUJ6P.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "27XDYYTPDM5BP8HA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "G9MTMFC44Q4KHG33.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
             },
             "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "PUQXQJYMAMS3MHSJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "GTU2DSAGGJRVAVCK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
             },
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
+                "rateCode": "HFFHZNG6XQBKE3M5.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "NHFNRJUVA4CBGUXN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
             "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "2SKE9DR5P5CKN24V.JRTCKXETXF.ERZ9N8C2K6",
+                "rateCode": "QYMFNMREN2HY9KVR.JRTCKXETXF.ERZ9N8C2K6",
                 "price": "25.0000000000",
                 "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "RDTJAYGBYWJR8SQM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
             "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "ZE7UGBMQQETBU3EY.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NJR7ZP54MKZXW9VP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
             },
-            "Events Recorded per Events": {
-                "rateCode": "K4478XFNZ52KQMJK.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "H985DQ423W6YAKRB.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
             "MTA per Users": {
-                "rateCode": "4ARK3N3PNBENDTEV.JRTCKXETXF.YKYQ4272N3",
+                "rateCode": "APZ6SC85DFTDBYAD.JRTCKXETXF.YKYQ4272N3",
                 "price": "0.0012000000",
                 "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
             },
-            "In app Message Requests per Requests": {
-                "rateCode": "2BWYPJQNEJEKSTZZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001100000",
-                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
-            },
             "Google Push Notification Messages per Messages": {
-                "rateCode": "2MWUBGS557R3VJ5J.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "DW72S8NHBC6PUJ6P.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "27XDYYTPDM5BP8HA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "G9MTMFC44Q4KHG33.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
             },
             "ADM Push Notification Messages per Messages": {
-                "rateCode": "PUQXQJYMAMS3MHSJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "GTU2DSAGGJRVAVCK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
             },
+            "Events Recorded per Events": {
+                "rateCode": "HFFHZNG6XQBKE3M5.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "NHFNRJUVA4CBGUXN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
             "Inbox Placement Domains per Unit": {
-                "rateCode": "2SKE9DR5P5CKN24V.JRTCKXETXF.ERZ9N8C2K6",
+                "rateCode": "QYMFNMREN2HY9KVR.JRTCKXETXF.ERZ9N8C2K6",
                 "price": "25.0000000000",
                 "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "RDTJAYGBYWJR8SQM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
             "Email Messages": {
-                "rateCode": "ZE7UGBMQQETBU3EY.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NJR7ZP54MKZXW9VP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
             }
         },
-        "Asia Pacific (Mumbai)": {
+        "Canada (Central)": {
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "3PMB7EFHG4EYV2B2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
             "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "ZDSE52P2YJGNUAXX.JRTCKXETXF.F83EQNDM5J",
+                "rateCode": "7HQ5RGQRZ6H5C249.JRTCKXETXF.F83EQNDM5J",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
             },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "A9KM6ZV5EMFYZBET.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "PU7Y7X49GMWXBSKE.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
             "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
-                "rateCode": "FKE2MHRAT5RM7VPP.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "JFNWYWQFZ9ZS36FP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001100000",
                 "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
             },
             "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
-                "rateCode": "S99D5NG8WUBU3BMZ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KDG8UC9HT2ZT5R9A.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "E4AH3KK6JFBRBZGE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
-            },
-            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
-                "rateCode": "ZS226AATSNNE2NE8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
-            },
             "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
-                "rateCode": "4F4RXAQU4NDQRHF3.JRTCKXETXF.ERZ9N8C2K6",
+                "rateCode": "SJ2H9PJRYY3QJHVA.JRTCKXETXF.ERZ9N8C2K6",
                 "price": "25.0000000000",
                 "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "FE4PPQ3JJNUA79KU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Events Recorded per Events": {
-                "rateCode": "ZDSE52P2YJGNUAXX.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "A9KM6ZV5EMFYZBET.JRTCKXETXF.VYAP54KATQ",
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "VNUXYPMYECNVAF78.JRTCKXETXF.VYAP54KATQ",
                 "price": "10.0000000000",
                 "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
             },
-            "MTA per Users": {
-                "rateCode": "PU7Y7X49GMWXBSKE.JRTCKXETXF.YKYQ4272N3",
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "VV5DGMX7RWQVNU5Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
+                "rateCode": "XR5EC5FU9AHM9JM6.JRTCKXETXF.YKYQ4272N3",
                 "price": "0.0012000000",
                 "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
             },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "H7RHQAZSDVBG2VDB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "3PMB7EFHG4EYV2B2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "Events Recorded per Events": {
+                "rateCode": "7HQ5RGQRZ6H5C249.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
             "In app Message Requests per Requests": {
-                "rateCode": "FKE2MHRAT5RM7VPP.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "JFNWYWQFZ9ZS36FP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001100000",
                 "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
             },
             "Google Push Notification Messages per Messages": {
-                "rateCode": "S99D5NG8WUBU3BMZ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KDG8UC9HT2ZT5R9A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "Inbox Placement Domains per Unit": {
+                "rateCode": "SJ2H9PJRYY3QJHVA.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "VNUXYPMYECNVAF78.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "VV5DGMX7RWQVNU5Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "MTA per Users": {
+                "rateCode": "XR5EC5FU9AHM9JM6.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "Email Messages": {
+                "rateCode": "H7RHQAZSDVBG2VDB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            }
+        },
+        "EU (Frankfurt)": {
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
+                "rateCode": "3TE6EESZVMJPP2QW.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "BDS9HRV5S2J46TCE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "DKA2J7TQPTMR8CBY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "GH4DQH82PZNFZNAZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "MMKUW8KGDPJWPRTU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
+                "rateCode": "PDWZ6ZCNFFVBP7E7.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
+                "rateCode": "UWXHS2A9DPBHGH4U.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "WGXWCJQR4QGT6KX4.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "JQB63UK2QAF7Q3SU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            },
+            "Events Recorded per Events": {
+                "rateCode": "3TE6EESZVMJPP2QW.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "BDS9HRV5S2J46TCE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "DKA2J7TQPTMR8CBY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "GH4DQH82PZNFZNAZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "MMKUW8KGDPJWPRTU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "Inbox Placement Domains per Unit": {
+                "rateCode": "PDWZ6ZCNFFVBP7E7.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "MTA per Users": {
+                "rateCode": "UWXHS2A9DPBHGH4U.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "WGXWCJQR4QGT6KX4.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "Email Messages": {
+                "rateCode": "JQB63UK2QAF7Q3SU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            }
+        },
+        "EU (Ireland)": {
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "BYF7ZS5E9FZP76A3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
+                "rateCode": "DVZT7R42W29AES4R.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "M55QVURGFEJYSZJG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "NRJWAGT29BN2YH8X.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
+                "rateCode": "RACUFH2N356DWQJX.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "X85PPCX73X67A79U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "XRBG2AXRHR3WX5M6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
+                "rateCode": "YHA8MRZGWRVJNGAV.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "7UTTWRWWEK5NUKM8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "BYF7ZS5E9FZP76A3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "Events Recorded per Events": {
+                "rateCode": "DVZT7R42W29AES4R.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "M55QVURGFEJYSZJG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "NRJWAGT29BN2YH8X.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "Inbox Placement Domains per Unit": {
+                "rateCode": "RACUFH2N356DWQJX.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "X85PPCX73X67A79U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "XRBG2AXRHR3WX5M6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "MTA per Users": {
+                "rateCode": "YHA8MRZGWRVJNGAV.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "Email Messages": {
+                "rateCode": "7UTTWRWWEK5NUKM8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            }
+        },
+        "EU (London)": {
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "44ADRHZJ25FQTRC3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
+                "rateCode": "533YZ788P3QFP634.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "N83UU6TNV67X4DBF.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
+                "rateCode": "PS3K2DA3CFWDTWP5.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "QR4SDBHAT4BEV7D3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
+                "rateCode": "RRMMQBX2WCUM8QRQ.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "THJYJSWRPMCW4KS6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "ZPVA9NT37R64N2VS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "UYMUGQEGZUPVKT6X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "44ADRHZJ25FQTRC3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "Events Recorded per Events": {
+                "rateCode": "533YZ788P3QFP634.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "N83UU6TNV67X4DBF.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "Inbox Placement Domains per Unit": {
+                "rateCode": "PS3K2DA3CFWDTWP5.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "QR4SDBHAT4BEV7D3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "MTA per Users": {
+                "rateCode": "RRMMQBX2WCUM8QRQ.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "THJYJSWRPMCW4KS6.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
             "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "E4AH3KK6JFBRBZGE.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "ZPVA9NT37R64N2VS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1250.0000000000",
                 "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
             },
-            "ADM Push Notification Messages per Messages": {
-                "rateCode": "ZS226AATSNNE2NE8.JRTCKXETXF.6YS6EN2CT7",
+            "Email Messages": {
+                "rateCode": "UYMUGQEGZUPVKT6X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            }
+        },
+        "US East (N. Virginia)": {
+            "R24mya9AgDdnYeqGL_NasglbdvR7xGZsGOnGGH2pSkw": {
+                "rateCode": "4JTGPG6E4G2CDYP4.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "R24mya9AgDdnYeqGL_NasglbdvR7xGZsGOnGGH2pSkw"
+            },
+            "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg": {
+                "rateCode": "5JZPEZN4BFAUUC9S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg"
+            },
+            "W4eSUF31o8VDYImWZZ5ZaKfCAyKeaHFA2IRRMnsWdX0": {
+                "rateCode": "659BDV9ZBC4Y22XE.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "W4eSUF31o8VDYImWZZ5ZaKfCAyKeaHFA2IRRMnsWdX0"
+            },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "9PKKC99V2HT7S5QM.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I": {
+                "rateCode": "AK37WD8TH3FP8C3X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I"
+            },
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "Q4D6JQVMFX8HDBWW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "RVV5A7YNN6GWHT2W.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
             },
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "SC9888ECXXVUUZE7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "SXD5CBXVGM3VVDVY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
+                "rateCode": "ZEUU6XZQ88SRVP87.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "VUQ7JQUJ3XPESCF7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            },
+            "Events Recorded per Events": {
+                "rateCode": "4JTGPG6E4G2CDYP4.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "R24mya9AgDdnYeqGL_NasglbdvR7xGZsGOnGGH2pSkw"
+            },
+            "Apple Push Notification Messages per Messages": {
+                "rateCode": "5JZPEZN4BFAUUC9S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg"
+            },
+            "MTA per Users": {
+                "rateCode": "659BDV9ZBC4Y22XE.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "W4eSUF31o8VDYImWZZ5ZaKfCAyKeaHFA2IRRMnsWdX0"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "9PKKC99V2HT7S5QM.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "Baidu Push Notification Messages per Messages": {
+                "rateCode": "AK37WD8TH3FP8C3X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I"
+            },
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "Q4D6JQVMFX8HDBWW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "RVV5A7YNN6GWHT2W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "SC9888ECXXVUUZE7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "SXD5CBXVGM3VVDVY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
             "Inbox Placement Domains per Unit": {
-                "rateCode": "4F4RXAQU4NDQRHF3.JRTCKXETXF.ERZ9N8C2K6",
+                "rateCode": "ZEUU6XZQ88SRVP87.JRTCKXETXF.ERZ9N8C2K6",
                 "price": "25.0000000000",
                 "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
             "Email Messages": {
-                "rateCode": "FE4PPQ3JJNUA79KU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "VUQ7JQUJ3XPESCF7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            }
+        },
+        "US East (Ohio)": {
+            "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I": {
+                "rateCode": "4BRDRVPG285GDE97.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I"
+            },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "538JYWUWWR9DC4M5.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "69BYA2H83P8SFRDN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
+                "rateCode": "7A524V3Q3GQMTSXV.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "NVG8Q3XTFXUWW9VK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "S449F5YFPZVNJAF9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg": {
+                "rateCode": "T4M7RG6MBWF6RU8T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg"
+            },
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "TW8BWYSGMCY3XXM4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "Baidu Push Notification Messages per Messages": {
+                "rateCode": "4BRDRVPG285GDE97.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "aKl0ewVvPn5Vgxh6uS7R1k6VPQ15Mh7flXVAZit4P5I"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "538JYWUWWR9DC4M5.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "69BYA2H83P8SFRDN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "Inbox Placement Domains per Unit": {
+                "rateCode": "7A524V3Q3GQMTSXV.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "NVG8Q3XTFXUWW9VK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "S449F5YFPZVNJAF9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "Apple Push Notification Messages per Messages": {
+                "rateCode": "T4M7RG6MBWF6RU8T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "kAwG__k2glzyf3NgKk-CpEgNce2bE6FN8YgcJpiSeFg"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "TW8BWYSGMCY3XXM4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
             }
         },
         "AWS GovCloud (US)": {
-            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
-                "rateCode": "FTY5DG8797VDHHQD.JRTCKXETXF.F83EQNDM5J",
-                "price": "0.0000010000",
-                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
-            },
-            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
-                "rateCode": "CT7BWFE734GHXQBV.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
-                "rateCode": "X9F7YH33UXZUYXMJ.JRTCKXETXF.YKYQ4272N3",
-                "price": "0.0012000000",
-                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
-            },
             "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
                 "rateCode": "4ZS96UHU7FTCPGGB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001100000",
                 "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "52T68X4DVK5Q9XY4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
             },
             "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
                 "rateCode": "6DUMVPPQFDS52E9C.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
-            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
-                "rateCode": "52T68X4DVK5Q9XY4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "CT7BWFE734GHXQBV.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
             },
             "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
                 "rateCode": "E43G2NUF9YJPWPAY.JRTCKXETXF.6YS6EN2CT7",
@@ -1166,40 +1065,40 @@
                 "price": "25.0000000000",
                 "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
-            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
-                "rateCode": "ENNFQD3YW43XQNJR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0001000000",
-                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
-            },
-            "Events Recorded per Events": {
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
                 "rateCode": "FTY5DG8797VDHHQD.JRTCKXETXF.F83EQNDM5J",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
             },
-            "Predictive Inbox Placement Tests per Units": {
-                "rateCode": "CT7BWFE734GHXQBV.JRTCKXETXF.VYAP54KATQ",
-                "price": "10.0000000000",
-                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
-            },
-            "MTA per Users": {
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
                 "rateCode": "X9F7YH33UXZUYXMJ.JRTCKXETXF.YKYQ4272N3",
                 "price": "0.0012000000",
                 "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "ENNFQD3YW43XQNJR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
             },
             "In app Message Requests per Requests": {
                 "rateCode": "4ZS96UHU7FTCPGGB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001100000",
                 "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
             },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "52T68X4DVK5Q9XY4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
             "Google Push Notification Messages per Messages": {
                 "rateCode": "6DUMVPPQFDS52E9C.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000010000",
                 "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
             },
-            "Deliverability Dashboard Subscription per Month": {
-                "rateCode": "52T68X4DVK5Q9XY4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1250.0000000000",
-                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "CT7BWFE734GHXQBV.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
             },
             "ADM Push Notification Messages per Messages": {
                 "rateCode": "E43G2NUF9YJPWPAY.JRTCKXETXF.6YS6EN2CT7",
@@ -1211,8 +1110,110 @@
                 "price": "25.0000000000",
                 "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
             },
+            "Events Recorded per Events": {
+                "rateCode": "FTY5DG8797VDHHQD.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "MTA per Users": {
+                "rateCode": "X9F7YH33UXZUYXMJ.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
             "Email Messages": {
                 "rateCode": "ENNFQD3YW43XQNJR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            }
+        },
+        "US West (Oregon)": {
+            "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc": {
+                "rateCode": "933EQQSG28J7VMHE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4": {
+                "rateCode": "99A5G3SKSZ6GZ83S.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw": {
+                "rateCode": "DUDHZEGRPXV3VX9H.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U": {
+                "rateCode": "HJD22TSM9AVVYSXG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA": {
+                "rateCode": "HZGQTUKENSSR8Y56.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E": {
+                "rateCode": "P7X95GAZ25N6KSS9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w": {
+                "rateCode": "TXVK7SEAC6RSC7Y3.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY": {
+                "rateCode": "UDQ9VZ3FR395WRET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s V1": {
+                "rateCode": "NDBZK68FYSBB6NYH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001000000",
+                "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
+            },
+            "Deliverability Dashboard Subscription per Month": {
+                "rateCode": "933EQQSG28J7VMHE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1250.0000000000",
+                "RegionlessRateCode": "RJ3v5IURuCFHHLdZVfFMygZOqz9fXuVD1z9JO9UTHLc"
+            },
+            "Events Recorded per Events": {
+                "rateCode": "99A5G3SKSZ6GZ83S.JRTCKXETXF.F83EQNDM5J",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "2H-j_Tr5o7zENEDT2aSP2thsc2G94Vliu9Ff8ucUaU4"
+            },
+            "MTA per Users": {
+                "rateCode": "DUDHZEGRPXV3VX9H.JRTCKXETXF.YKYQ4272N3",
+                "price": "0.0012000000",
+                "RegionlessRateCode": "ACGGMkpujjfzz021U8kXFPytriykQK8VABif3w7CYSw"
+            },
+            "Google Push Notification Messages per Messages": {
+                "rateCode": "HJD22TSM9AVVYSXG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "KcXamAtwNN1yxQTfo9kTbEngEn7-bqU1-hLf4HG9D6U"
+            },
+            "Predictive Inbox Placement Tests per Units": {
+                "rateCode": "HZGQTUKENSSR8Y56.JRTCKXETXF.VYAP54KATQ",
+                "price": "10.0000000000",
+                "RegionlessRateCode": "7h3k4I-5tsrDVs7Yvq6Smpf-Sj5Dl_rWflHpWui7mwA"
+            },
+            "ADM Push Notification Messages per Messages": {
+                "rateCode": "P7X95GAZ25N6KSS9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000010000",
+                "RegionlessRateCode": "RNwuH6KNEzgB8W4sTJkiLn9gSbfEaXgHE5mMxbnkP8E"
+            },
+            "Inbox Placement Domains per Unit": {
+                "rateCode": "TXVK7SEAC6RSC7Y3.JRTCKXETXF.ERZ9N8C2K6",
+                "price": "25.0000000000",
+                "RegionlessRateCode": "wxq1Voeh9TbmMiFVyYbF29pakbaG3Pw8igf1x4pzp2w"
+            },
+            "In app Message Requests per Requests": {
+                "rateCode": "UDQ9VZ3FR395WRET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0001100000",
+                "RegionlessRateCode": "Fw_bw3UBQhKbkFYTeKh7Z2X2sNUMOj3rjs2tPB1m6YY"
+            },
+            "Email Messages": {
+                "rateCode": "NDBZK68FYSBB6NYH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0001000000",
                 "RegionlessRateCode": "nplB2ALgYBP6lcNFh79WeUT0_CeFDbWu6xG4-THXM8s"
             }

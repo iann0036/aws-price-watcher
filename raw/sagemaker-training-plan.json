@@ -1,14 +1,4 @@
 {
-    "manifest": {
-        "serviceId": "sagemaker",
-        "accessType": "publish",
-        "esIndex": "plc-sagemaker-usd-20261116062353",
-        "hawkFilePublicationDate": "2026-11-16T06:23:53Z",
-        "ETLIngestionTriggerDate": "2026-11-16T06:23:53Z",
-        "currencyCode": "USD",
-        "source": "sagemaker-training-plan",
-        "isMapped": "true"
-    },
     "sets": {
         "TrainingPlan": [
             "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro",
@@ -25,591 +15,602 @@
             "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo"
         ]
     },
+    "manifest": {
+        "serviceId": "sagemaker",
+        "accessType": "publish",
+        "source": "sagemaker-training-plan",
+        "currencyCode": "USD",
+        "hawkFilePublicationDate": "2026-11-16T06:23:53Z",
+        "ETLIngestionTriggerDate": "2026-11-16T06:23:53Z",
+        "esIndex": "plc-sagemaker-usd-20261116062353",
+        "queryConfig": "public/9863926d-2774-50b1-a597-6608431aaae8/2",
+        "isMapped": "true"
+    },
     "regions": {
-        "US West (Phoenix)": {
-            "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM": {
-                "rateCode": "EFHYZ623VXG86NNV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1007.6180400000",
-                "RegionlessRateCode": "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM",
-                "Memory": "17280 GiB",
-                "VCPU": "2592",
-                "Instance": "ml.u-p6e-gb200x72"
-            },
-            "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg": {
-                "rateCode": "VS8YDWH2X33T2MXJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "503.8090200000",
-                "RegionlessRateCode": "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg",
-                "Memory": "8640 GiB",
-                "VCPU": "1296",
-                "Instance": "ml.u-p6e-gb200x36"
-            },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "NE56SXAHHHDTMK2B.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
-            }
-        },
-        "US West (Oregon)": {
-            "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro": {
-                "rateCode": "SRA9HQTQJVTNW383.JRTCKXETXF.6YS6EN2CT7",
-                "price": "10.9618000000",
-                "RegionlessRateCode": "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro",
-                "Memory": "512 GiB",
-                "VCPU": "",
-                "Instance": "ml.trn1.32xlarge"
-            },
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "CNYYWHTP3BC6QKXV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "T4NK53KBBKTJMW9H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
-                "Memory": "256 GiB",
-                "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
-            "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o": {
-                "rateCode": "WFQHAD8JUBH8G4KD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.6055000000",
-                "RegionlessRateCode": "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o",
-                "Memory": "1152 GiB",
-                "VCPU": "96",
-                "Instance": "ml.p4d.24xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "6P9QECWFHACQ638D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            },
-            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
-                "rateCode": "ZX697E9XF7H8NTE5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "148.5432000000",
-                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A",
-                "Memory": "4096 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b300.48xlarge"
-            },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "ZTSAYJ43C6A95WAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
-            },
-            "qf8jY-z8HHSJ9306z2udpdPuffNQhciwnrJlUQKDyv0": {
-                "rateCode": "96CKHGQUUTWYV3SP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "23.4241200000",
-                "RegionlessRateCode": "qf8jY-z8HHSJ9306z2udpdPuffNQhciwnrJlUQKDyv0",
-                "Memory": "1152 GiB",
-                "VCPU": "96",
-                "Instance": "ml.p4de.24xlarge"
-            },
-            "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
-                "rateCode": "GQWZE9ZJFGWWR38R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.7159000000",
-                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b200.48xlarge"
-            }
-        },
-        "US West (N. California)": {
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "R5P5AK9PT56CR2SS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "Y4HMQ4HYJSNTHX88.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
-                "Memory": "256 GiB",
-                "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "NT57J64F7DQXHV2N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "S4EGJU5644S6CW6U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
-            }
-        },
-        "US East (Ohio)": {
-            "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro": {
-                "rateCode": "PGGE9BC7JRY8WY2Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "10.9618000000",
-                "RegionlessRateCode": "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro",
-                "Memory": "512 GiB",
-                "VCPU": "",
-                "Instance": "ml.trn1.32xlarge"
-            },
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "V3V3VA7X3NRP76V9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "ZQ8GK46VQHKEUGWG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
-                "Memory": "256 GiB",
-                "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
-            "D24pvjPIdmj_vDl2WbqzyOPp38GBP_UPjWPLUspqm9o": {
-                "rateCode": "F48U3EE8N8QHQNT6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "41.1249200000",
-                "RegionlessRateCode": "D24pvjPIdmj_vDl2WbqzyOPp38GBP_UPjWPLUspqm9o",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.trn2.48xlarge"
-            },
-            "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o": {
-                "rateCode": "4HHZZAQVVAVE3C6P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.6055000000",
-                "RegionlessRateCode": "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o",
-                "Memory": "1152 GiB",
-                "VCPU": "96",
-                "Instance": "ml.p4d.24xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "SGB3PDYE6KFJVNEG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            },
-            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
-                "rateCode": "4VZ2HU542FNZVS63.JRTCKXETXF.6YS6EN2CT7",
-                "price": "148.5432000000",
-                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A",
-                "Memory": "4096 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b300.48xlarge"
-            },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "PDDYNCWBAAVX59E5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
-            },
-            "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
-                "rateCode": "RDTYT9QASH9PSXDN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.7159000000",
-                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b200.48xlarge"
-            }
-        },
-        "US East (N. Virginia)": {
-            "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro": {
-                "rateCode": "46QMXYVUFU5ETYSR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "10.9618000000",
-                "RegionlessRateCode": "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro",
-                "Memory": "512 GiB",
-                "VCPU": "",
-                "Instance": "ml.trn1.32xlarge"
-            },
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "GQV3TW6SUJCPKWWW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "HHJT2RZ8DVTSZTGC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
-                "Memory": "256 GiB",
-                "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
-            "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o": {
-                "rateCode": "KF4NCW9R4G6XVGPX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.6055000000",
-                "RegionlessRateCode": "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o",
-                "Memory": "1152 GiB",
-                "VCPU": "96",
-                "Instance": "ml.p4d.24xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "YMBBRG5Q2CPEYSYU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            },
-            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
-                "rateCode": "5SUEGKK7JQC7VWUB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "148.5432000000",
-                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A",
-                "Memory": "4096 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b300.48xlarge"
-            },
-            "qf8jY-z8HHSJ9306z2udpdPuffNQhciwnrJlUQKDyv0": {
-                "rateCode": "EVTZ9DRNXBTK33GW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "23.4241200000",
-                "RegionlessRateCode": "qf8jY-z8HHSJ9306z2udpdPuffNQhciwnrJlUQKDyv0",
-                "Memory": "1152 GiB",
-                "VCPU": "96",
-                "Instance": "ml.p4de.24xlarge"
-            },
-            "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
-                "rateCode": "5U9X6AACP66N6EQQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.7159000000",
-                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b200.48xlarge"
-            }
-        },
-        "US East (Dallas)": {
-            "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM": {
-                "rateCode": "KZ8JQVV7PVJ5NC62.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1007.6180400000",
-                "RegionlessRateCode": "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM",
-                "Memory": "17280 GiB",
-                "VCPU": "2592",
-                "Instance": "ml.u-p6e-gb200x72"
-            },
-            "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg": {
-                "rateCode": "SUA2DDFCQAXD48G5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "503.8090200000",
-                "RegionlessRateCode": "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg",
-                "Memory": "8640 GiB",
-                "VCPU": "1296",
-                "Instance": "ml.u-p6e-gb200x36"
-            }
-        },
-        "US East (Atlanta)": {
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "22V3AX8WWGSBNS3D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "XNWRXM8GG5WBRXYP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "J7ZYZVFU6AUNBSTH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "VNDEQ7JTF62Q3TQ6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
-                "Memory": "256 GiB",
-                "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "YF5JJENJ98D4C7T8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
-            }
-        },
-        "EU (Stockholm)": {
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "6Z9ZQFWKFDMBA5UP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "RHAGJN9WN4HGGYC8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "WTZCEJYKCD9Y8PH2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
-            },
-            "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
-                "rateCode": "5Q7GNY3627QDRHCX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.7159000000",
-                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b200.48xlarge"
-            }
-        },
-        "EU (Spain)": {
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "F4KNWDWWRTTN3EHJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            }
-        },
-        "EU (London)": {
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "N85KXYASMH8KNHT8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "3DEC8DKSCUGMC4F7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
-                "Memory": "256 GiB",
-                "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "N3V7ZBHDVZEYYXC9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "FBSBEA97URTK4KXR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
-            }
-        },
         "Asia Pacific (Tokyo)": {
             "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
                 "rateCode": "39K6Z2H65SVKAPQF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "WTTVMV5SMZKAEYFM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
-                "Memory": "256 GiB",
-                "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "SB8FRQRUDR356USP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
             },
             "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
                 "rateCode": "DD2BX2U8Z7XMG626.JRTCKXETXF.6YS6EN2CT7",
                 "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            },
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
                 "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "HTUVV7VRGTFU3A73.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "SB8FRQRUDR356USP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
             },
             "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "5EPGDRGWBFNFMWGK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
                 "Memory": "256 GiB",
                 "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "8GQSQUSA46EGTGDW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "WTTVMV5SMZKAEYFM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
             }
         },
         "Asia Pacific (Mumbai)": {
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "98MHB4X4QHG6FXF7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
-                "rateCode": "EZFHG8WEX6KC3JJD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8650970000",
-                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY",
-                "Memory": "256 GiB",
-                "VCPU": "16",
-                "Instance": "ml.p5.4xlarge"
-            },
             "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
                 "rateCode": "7G9AZGQ3M2XMFA6F.JRTCKXETXF.6YS6EN2CT7",
                 "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
             },
-            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "YWYG54PUFPG5HRUB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
                 "Memory": "2 TiB",
                 "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "98MHB4X4QHG6FXF7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
+                "Memory": "256 GiB",
+                "VCPU": "16",
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "EZFHG8WEX6KC3JJD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
             },
             "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b200.48xlarge",
                 "rateCode": "HFQHSNNSFKFF9ASP.JRTCKXETXF.6YS6EN2CT7",
                 "price": "130.7180160000",
-                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b200.48xlarge"
-            }
-        },
-        "Asia Pacific (Melbourne)": {
-            "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro": {
-                "rateCode": "3KYCZCYQ69JSDD4E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "10.9618000000",
-                "RegionlessRateCode": "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro",
-                "Memory": "512 GiB",
-                "VCPU": "",
-                "Instance": "ml.trn1.32xlarge"
-            },
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "2PUQM8HW4H9NZMQE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            }
-        },
-        "Asia Pacific (Jakarta)": {
-            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
-                "rateCode": "8HE593K8KJK2U8JP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "54.9207800000",
-                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk",
-                "Memory": "2 TiB",
-                "VCPU": "192",
-                "Instance": "ml.p5.48xlarge"
-            },
-            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
-                "rateCode": "XSFX6TBX85EHPU45.JRTCKXETXF.6YS6EN2CT7",
-                "price": "72.6317000000",
-                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0",
-                "Memory": "2048 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p5en.48xlarge"
-            },
-            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
-                "rateCode": "U6Z7XWAQBVDTUQKU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "148.5432000000",
-                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A",
-                "Memory": "4096 GiB",
-                "VCPU": "192",
-                "Instance": "ml.p6-b300.48xlarge"
+                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo"
             },
             "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
-                "rateCode": "P3PPH7UJK9S6C7FF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "63.1626000000",
-                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY",
                 "Memory": "2 TiB",
                 "VCPU": "192",
-                "Instance": "ml.p5e.48xlarge"
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "YWYG54PUFPG5HRUB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
             }
         },
         "Asia Pacific (Hyderabad)": {
             "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
-                "rateCode": "S69NDW2RGQDZTHVJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "148.5432000000",
-                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A",
                 "Memory": "4096 GiB",
                 "VCPU": "192",
-                "Instance": "ml.p6-b300.48xlarge"
+                "Instance": "ml.p6-b300.48xlarge",
+                "rateCode": "S69NDW2RGQDZTHVJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "148.5432000000",
+                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A"
             },
             "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
-                "rateCode": "V7NFS7V67T6DPP5T.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.7159000000",
-                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo",
                 "Memory": "2 TiB",
                 "VCPU": "192",
-                "Instance": "ml.p6-b200.48xlarge"
+                "Instance": "ml.p6-b200.48xlarge",
+                "rateCode": "V7NFS7V67T6DPP5T.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.7159000000",
+                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
+                "Memory": "256 GiB",
+                "VCPU": "16",
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "5EPGDRGWBFNFMWGK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "8GQSQUSA46EGTGDW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            },
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "HTUVV7VRGTFU3A73.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            }
+        },
+        "Asia Pacific (Jakarta)": {
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "8HE593K8KJK2U8JP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "P3PPH7UJK9S6C7FF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            },
+            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
+                "Memory": "4096 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b300.48xlarge",
+                "rateCode": "U6Z7XWAQBVDTUQKU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "148.5432000000",
+                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A"
+            },
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "XSFX6TBX85EHPU45.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            }
+        },
+        "Asia Pacific (Melbourne)": {
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "2PUQM8HW4H9NZMQE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro": {
+                "Memory": "512 GiB",
+                "VCPU": "",
+                "Instance": "ml.trn1.32xlarge",
+                "rateCode": "3KYCZCYQ69JSDD4E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.9618000000",
+                "RegionlessRateCode": "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro"
+            }
+        },
+        "EU (Stockholm)": {
+            "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b200.48xlarge",
+                "rateCode": "5Q7GNY3627QDRHCX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.7159000000",
+                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo"
+            },
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "6Z9ZQFWKFDMBA5UP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "RHAGJN9WN4HGGYC8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "WTZCEJYKCD9Y8PH2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            }
+        },
+        "EU (Spain)": {
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "F4KNWDWWRTTN3EHJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            }
+        },
+        "EU (London)": {
+            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
+                "Memory": "256 GiB",
+                "VCPU": "16",
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "3DEC8DKSCUGMC4F7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "FBSBEA97URTK4KXR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            },
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "N3V7ZBHDVZEYYXC9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            },
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "N85KXYASMH8KNHT8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            }
+        },
+        "South America (Sao Paulo)": {
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "J7ZYZVFU6AUNBSTH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
+                "Memory": "256 GiB",
+                "VCPU": "16",
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "VNDEQ7JTF62Q3TQ6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "YF5JJENJ98D4C7T8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            }
+        },
+        "US East (N. Virginia)": {
+            "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro": {
+                "Memory": "512 GiB",
+                "VCPU": "",
+                "Instance": "ml.trn1.32xlarge",
+                "rateCode": "46QMXYVUFU5ETYSR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.9618000000",
+                "RegionlessRateCode": "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro"
+            },
+            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
+                "Memory": "4096 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b300.48xlarge",
+                "rateCode": "5SUEGKK7JQC7VWUB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "148.5432000000",
+                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A"
+            },
+            "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b200.48xlarge",
+                "rateCode": "5U9X6AACP66N6EQQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.7159000000",
+                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo"
+            },
+            "qf8jY-z8HHSJ9306z2udpdPuffNQhciwnrJlUQKDyv0": {
+                "Memory": "1152 GiB",
+                "VCPU": "96",
+                "Instance": "ml.p4de.24xlarge",
+                "rateCode": "EVTZ9DRNXBTK33GW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "23.4241200000",
+                "RegionlessRateCode": "qf8jY-z8HHSJ9306z2udpdPuffNQhciwnrJlUQKDyv0"
+            },
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "GQV3TW6SUJCPKWWW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
+                "Memory": "256 GiB",
+                "VCPU": "16",
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "HHJT2RZ8DVTSZTGC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
+            },
+            "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o": {
+                "Memory": "1152 GiB",
+                "VCPU": "96",
+                "Instance": "ml.p4d.24xlarge",
+                "rateCode": "KF4NCW9R4G6XVGPX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.6055000000",
+                "RegionlessRateCode": "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o"
+            },
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "YMBBRG5Q2CPEYSYU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            }
+        },
+        "US East (Atlanta)": {
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "22V3AX8WWGSBNS3D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "XNWRXM8GG5WBRXYP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            }
+        },
+        "US East (Dallas)": {
+            "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM": {
+                "Memory": "17280 GiB",
+                "VCPU": "2592",
+                "Instance": "ml.u-p6e-gb200x72",
+                "rateCode": "KZ8JQVV7PVJ5NC62.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1007.6180400000",
+                "RegionlessRateCode": "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM"
+            },
+            "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg": {
+                "Memory": "8640 GiB",
+                "VCPU": "1296",
+                "Instance": "ml.u-p6e-gb200x36",
+                "rateCode": "SUA2DDFCQAXD48G5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "503.8090200000",
+                "RegionlessRateCode": "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg"
+            }
+        },
+        "US East (Ohio)": {
+            "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o": {
+                "Memory": "1152 GiB",
+                "VCPU": "96",
+                "Instance": "ml.p4d.24xlarge",
+                "rateCode": "4HHZZAQVVAVE3C6P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.6055000000",
+                "RegionlessRateCode": "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o"
+            },
+            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
+                "Memory": "4096 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b300.48xlarge",
+                "rateCode": "4VZ2HU542FNZVS63.JRTCKXETXF.6YS6EN2CT7",
+                "price": "148.5432000000",
+                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A"
+            },
+            "D24pvjPIdmj_vDl2WbqzyOPp38GBP_UPjWPLUspqm9o": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.trn2.48xlarge",
+                "rateCode": "F48U3EE8N8QHQNT6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "41.1249200000",
+                "RegionlessRateCode": "D24pvjPIdmj_vDl2WbqzyOPp38GBP_UPjWPLUspqm9o"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "PDDYNCWBAAVX59E5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            },
+            "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro": {
+                "Memory": "512 GiB",
+                "VCPU": "",
+                "Instance": "ml.trn1.32xlarge",
+                "rateCode": "PGGE9BC7JRY8WY2Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.9618000000",
+                "RegionlessRateCode": "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro"
+            },
+            "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b200.48xlarge",
+                "rateCode": "RDTYT9QASH9PSXDN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.7159000000",
+                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo"
+            },
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "SGB3PDYE6KFJVNEG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            },
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "V3V3VA7X3NRP76V9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
+                "Memory": "256 GiB",
+                "VCPU": "16",
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "ZQ8GK46VQHKEUGWG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
+            }
+        },
+        "US West (N. California)": {
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "NT57J64F7DQXHV2N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            },
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "R5P5AK9PT56CR2SS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "S4EGJU5644S6CW6U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            },
+            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
+                "Memory": "256 GiB",
+                "VCPU": "16",
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "Y4HMQ4HYJSNTHX88.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
+            }
+        },
+        "US West (Oregon)": {
+            "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0": {
+                "Memory": "2048 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p5en.48xlarge",
+                "rateCode": "6P9QECWFHACQ638D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "72.6317000000",
+                "RegionlessRateCode": "Pflf-2L93-D8c9rUPYTpWKvSEa5KuzPe34G5NGpS8y0"
+            },
+            "qf8jY-z8HHSJ9306z2udpdPuffNQhciwnrJlUQKDyv0": {
+                "Memory": "1152 GiB",
+                "VCPU": "96",
+                "Instance": "ml.p4de.24xlarge",
+                "rateCode": "96CKHGQUUTWYV3SP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "23.4241200000",
+                "RegionlessRateCode": "qf8jY-z8HHSJ9306z2udpdPuffNQhciwnrJlUQKDyv0"
+            },
+            "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5.48xlarge",
+                "rateCode": "CNYYWHTP3BC6QKXV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "54.9207800000",
+                "RegionlessRateCode": "4j74H7rv2mJnnoFp48gsgG0rvUK14E3U-r3CVPC5-Wk"
+            },
+            "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b200.48xlarge",
+                "rateCode": "GQWZE9ZJFGWWR38R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.7159000000",
+                "RegionlessRateCode": "rSHpNwalYQ-lR1MaSbcs6siLo3ej5hCdKLdAtZpcDWo"
+            },
+            "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro": {
+                "Memory": "512 GiB",
+                "VCPU": "",
+                "Instance": "ml.trn1.32xlarge",
+                "rateCode": "SRA9HQTQJVTNW383.JRTCKXETXF.6YS6EN2CT7",
+                "price": "10.9618000000",
+                "RegionlessRateCode": "1ocddvXSqf6HhuqvUJ0fGM83hihPA3F2Wqq9aYjSxro"
+            },
+            "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY": {
+                "Memory": "256 GiB",
+                "VCPU": "16",
+                "Instance": "ml.p5.4xlarge",
+                "rateCode": "T4NK53KBBKTJMW9H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8650970000",
+                "RegionlessRateCode": "7AP874TitRA8O1mXzjueAgGK9WDpqUlcNSGcI1dIPSY"
+            },
+            "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o": {
+                "Memory": "1152 GiB",
+                "VCPU": "96",
+                "Instance": "ml.p4d.24xlarge",
+                "rateCode": "WFQHAD8JUBH8G4KD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.6055000000",
+                "RegionlessRateCode": "OC5Xj-H0GJULdCn1J91LiMbxJ89C0S7EiOM9c7qPJ6o"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "ZTSAYJ43C6A95WAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            },
+            "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A": {
+                "Memory": "4096 GiB",
+                "VCPU": "192",
+                "Instance": "ml.p6-b300.48xlarge",
+                "rateCode": "ZX697E9XF7H8NTE5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "148.5432000000",
+                "RegionlessRateCode": "T1lqkqxplpr4lUwNBH13u_1gR60DiBLMv91CU1mEq1A"
+            }
+        },
+        "US West (Phoenix)": {
+            "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM": {
+                "Memory": "17280 GiB",
+                "VCPU": "2592",
+                "Instance": "ml.u-p6e-gb200x72",
+                "rateCode": "EFHYZ623VXG86NNV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1007.6180400000",
+                "RegionlessRateCode": "Wl0s72hVnImPBmamcct_-HXKv708c95C6qfSRZD-ftM"
+            },
+            "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY": {
+                "Memory": "2 TiB",
+                "VCPU": "192",
+                "Instance": "ml.p5e.48xlarge",
+                "rateCode": "NE56SXAHHHDTMK2B.JRTCKXETXF.6YS6EN2CT7",
+                "price": "63.1626000000",
+                "RegionlessRateCode": "ghQvFMPrBWdugjdm6B2fGkTmhQugEondlio8TQUkeDY"
+            },
+            "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg": {
+                "Memory": "8640 GiB",
+                "VCPU": "1296",
+                "Instance": "ml.u-p6e-gb200x36",
+                "rateCode": "VS8YDWH2X33T2MXJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "503.8090200000",
+                "RegionlessRateCode": "bjCrZdY1eUuiHUXo2y2DB-jc1o-y3EYuFZxMOc3WoJg"
             }
         }
     }

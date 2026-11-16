@@ -1,439 +1,379 @@
 {
-    "[Simulator Task] DM1 Simulator Task per minutes": {
-        "US West (Oregon) (Version: DM1, Product Family: Simulator Task)": "0.0750000000",
-        "US West (N. California) (Version: DM1, Product Family: Simulator Task)": "0.0750000000",
-        "US East (N. Virginia) (Version: DM1, Product Family: Simulator Task)": "0.0750000000",
-        "EU (London) (Version: DM1, Product Family: Simulator Task)": "0.0750000000"
-    },
-    "[Simulator Task] SV1 Simulator Task per minutes": {
-        "US West (Oregon) (Version: SV1, Product Family: Simulator Task)": "0.0750000000",
-        "US West (N. California) (Version: SV1, Product Family: Simulator Task)": "0.0750000000",
-        "US East (N. Virginia) (Version: SV1, Product Family: Simulator Task)": "0.0750000000",
-        "EU (London) (Version: SV1, Product Family: Simulator Task)": "0.0750000000"
-    },
-    "[Simulator Task] TN1 Simulator Task per minutes": {
-        "US West (Oregon) (Version: TN1, Product Family: Simulator Task)": "0.2750000000",
-        "US East (N. Virginia) (Version: TN1, Product Family: Simulator Task)": "0.2750000000",
-        "EU (London) (Version: TN1, Product Family: Simulator Task)": "0.2750000000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c4.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c4.2xlarge-Training, vCPU: 8, Memory: 15 GiB)": "0.0079700000",
-        "US West (N. California) (Instance Type: ml.c4.2xlarge-Training, vCPU: 8, Memory: 15 GiB)": "0.0099700000",
-        "US East (N. Virginia) (Instance Type: ml.c4.2xlarge-Training, vCPU: 8, Memory: 15 GiB)": "0.0079700000",
-        "EU (London) (Instance Type: ml.c4.2xlarge-Training, vCPU: 8, Memory: 15 GiB)": "0.0095100000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c4.4xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c4.4xlarge-Training, vCPU: 16, Memory: 30 GiB)": "0.0159200000",
-        "US West (N. California) (Instance Type: ml.c4.4xlarge-Training, vCPU: 16, Memory: 30 GiB)": "0.0199300000",
-        "US East (N. Virginia) (Instance Type: ml.c4.4xlarge-Training, vCPU: 16, Memory: 30 GiB)": "0.0159200000",
-        "EU (London) (Instance Type: ml.c4.4xlarge-Training, vCPU: 16, Memory: 30 GiB)": "0.0190000000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c4.8xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c4.8xlarge-Training, vCPU: 36, Memory: 60 GiB)": "0.0318200000",
-        "US West (N. California) (Instance Type: ml.c4.8xlarge-Training, vCPU: 36, Memory: 60 GiB)": "0.0398700000",
-        "US East (N. Virginia) (Instance Type: ml.c4.8xlarge-Training, vCPU: 36, Memory: 60 GiB)": "0.0318200000",
-        "EU (London) (Instance Type: ml.c4.8xlarge-Training, vCPU: 36, Memory: 60 GiB)": "0.0380300000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c4.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c4.xlarge-Training, vCPU: 4, Memory: 7.5 GiB)": "0.0039800000",
-        "US West (N. California) (Instance Type: ml.c4.xlarge-Training, vCPU: 4, Memory: 7.5 GiB)": "0.0049800000",
-        "US East (N. Virginia) (Instance Type: ml.c4.xlarge-Training, vCPU: 4, Memory: 7.5 GiB)": "0.0039800000",
-        "EU (London) (Instance Type: ml.c4.xlarge-Training, vCPU: 4, Memory: 7.5 GiB)": "0.0047300000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5.18xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5.18xlarge-Training, vCPU: 72, Memory: 144 GiB)": "0.0612000000",
-        "US West (N. California) (Instance Type: ml.c5.18xlarge-Training, vCPU: 72, Memory: 144 GiB)": "0.0763200000",
-        "US East (N. Virginia) (Instance Type: ml.c5.18xlarge-Training, vCPU: 72, Memory: 144 GiB)": "0.0612000000",
-        "EU (Stockholm) (Instance Type: ml.c5.18xlarge-Training, vCPU: 72, Memory: 144 GiB)": "0.0655200000",
-        "EU (London) (Instance Type: ml.c5.18xlarge-Training, vCPU: 72, Memory: 144 GiB)": "0.0727100000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5.2xlarge-Training, vCPU: 8, Memory: 16 GiB)": "0.0068000000",
-        "US West (N. California) (Instance Type: ml.c5.2xlarge-Training, vCPU: 8, Memory: 16 GiB)": "0.0084800000",
-        "US East (N. Virginia) (Instance Type: ml.c5.2xlarge-Training, vCPU: 8, Memory: 16 GiB)": "0.0068000000",
-        "EU (Stockholm) (Instance Type: ml.c5.2xlarge-Training, vCPU: 8, Memory: 16 GiB)": "0.0072800000",
-        "EU (London) (Instance Type: ml.c5.2xlarge-Training, vCPU: 8, Memory: 16 GiB)": "0.0080800000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5.4xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5.4xlarge-Training, vCPU: 16, Memory: 32 GiB)": "0.0136000000",
-        "US West (N. California) (Instance Type: ml.c5.4xlarge-Training, vCPU: 16, Memory: 32 GiB)": "0.0169700000",
-        "US East (N. Virginia) (Instance Type: ml.c5.4xlarge-Training, vCPU: 16, Memory: 32 GiB)": "0.0136000000",
-        "EU (Stockholm) (Instance Type: ml.c5.4xlarge-Training, vCPU: 16, Memory: 32 GiB)": "0.0145700000",
-        "EU (London) (Instance Type: ml.c5.4xlarge-Training, vCPU: 16, Memory: 32 GiB)": "0.0161600000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5.9xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5.9xlarge-Training, vCPU: 36, Memory: 72 GiB)": "0.0306000000",
-        "US West (N. California) (Instance Type: ml.c5.9xlarge-Training, vCPU: 36, Memory: 72 GiB)": "0.0381700000",
-        "US East (N. Virginia) (Instance Type: ml.c5.9xlarge-Training, vCPU: 36, Memory: 72 GiB)": "0.0306000000",
-        "EU (Stockholm) (Instance Type: ml.c5.9xlarge-Training, vCPU: 36, Memory: 72 GiB)": "0.0327700000",
-        "EU (London) (Instance Type: ml.c5.9xlarge-Training, vCPU: 36, Memory: 72 GiB)": "0.0363600000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5.xlarge-Training, vCPU: 4, Memory: 8 GiB)": "0.0034000000",
-        "US West (N. California) (Instance Type: ml.c5.xlarge-Training, vCPU: 4, Memory: 8 GiB)": "0.0042300000",
-        "US East (N. Virginia) (Instance Type: ml.c5.xlarge-Training, vCPU: 4, Memory: 8 GiB)": "0.0034000000",
-        "EU (Stockholm) (Instance Type: ml.c5.xlarge-Training, vCPU: 4, Memory: 8 GiB)": "0.0036300000",
-        "EU (London) (Instance Type: ml.c5.xlarge-Training, vCPU: 4, Memory: 8 GiB)": "0.0040300000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.18xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5n.18xlarge-Training, vCPU: 72, Memory: 192 GiB)": "0.0777700000",
-        "US West (N. California) (Instance Type: ml.c5n.18xlarge-Training, vCPU: 72, Memory: 192 GiB)": "0.0972000000",
-        "US East (N. Virginia) (Instance Type: ml.c5n.18xlarge-Training, vCPU: 72, Memory: 192 GiB)": "0.0777700000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5n.2xlarge-Training, vCPU: 8, Memory: 21 GiB)": "0.0086300000",
-        "US West (N. California) (Instance Type: ml.c5n.2xlarge-Training, vCPU: 8, Memory: 21 GiB)": "0.0108000000",
-        "US East (N. Virginia) (Instance Type: ml.c5n.2xlarge-Training, vCPU: 8, Memory: 21 GiB)": "0.0086300000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.4xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5n.4xlarge-Training, vCPU: 16, Memory: 42 GiB)": "0.0172800000",
-        "US West (N. California) (Instance Type: ml.c5n.4xlarge-Training, vCPU: 16, Memory: 42 GiB)": "0.0216000000",
-        "US East (N. Virginia) (Instance Type: ml.c5n.4xlarge-Training, vCPU: 16, Memory: 42 GiB)": "0.0172800000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.9xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5n.9xlarge-Training, vCPU: 36, Memory: 96 GiB)": "0.0388800000",
-        "US West (N. California) (Instance Type: ml.c5n.9xlarge-Training, vCPU: 36, Memory: 96 GiB)": "0.0486000000",
-        "US East (N. Virginia) (Instance Type: ml.c5n.9xlarge-Training, vCPU: 36, Memory: 96 GiB)": "0.0388800000"
-    },
-    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.c5n.xlarge-Training, vCPU: 4, Memory: 10.5 GiB)": "0.0043200000",
-        "US West (N. California) (Instance Type: ml.c5n.xlarge-Training, vCPU: 4, Memory: 10.5 GiB)": "0.0054000000",
-        "US East (N. Virginia) (Instance Type: ml.c5n.xlarge-Training, vCPU: 4, Memory: 10.5 GiB)": "0.0043200000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.12xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g4dn.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0815000000",
-        "US West (N. California) (Instance Type: ml.g4dn.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0977800000",
-        "US East (N. Virginia) (Instance Type: ml.g4dn.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0815000000",
-        "EU (Stockholm) (Instance Type: ml.g4dn.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0864700000",
-        "EU (London) (Instance Type: ml.g4dn.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0953500000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.16xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g4dn.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.0906700000",
-        "US West (N. California) (Instance Type: ml.g4dn.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.1088000000",
-        "US East (N. Virginia) (Instance Type: ml.g4dn.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.0906700000",
-        "EU (Stockholm) (Instance Type: ml.g4dn.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.0961800000",
-        "EU (London) (Instance Type: ml.g4dn.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.1060800000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g4dn.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0156700000",
-        "US West (N. California) (Instance Type: ml.g4dn.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0187800000",
-        "US East (N. Virginia) (Instance Type: ml.g4dn.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0156700000",
-        "EU (Stockholm) (Instance Type: ml.g4dn.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0166300000",
-        "EU (London) (Instance Type: ml.g4dn.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0183300000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.4xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g4dn.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0250800000",
-        "US West (N. California) (Instance Type: ml.g4dn.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0301000000",
-        "US East (N. Virginia) (Instance Type: ml.g4dn.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0250800000",
-        "EU (Stockholm) (Instance Type: ml.g4dn.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0266000000",
-        "EU (London) (Instance Type: ml.g4dn.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0293500000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.8xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g4dn.8xlarge-Training, vCPU: 32, Memory: 128 GiB)": "0.0453300000",
-        "US West (N. California) (Instance Type: ml.g4dn.8xlarge-Training, vCPU: 32, Memory: 128 GiB)": "0.0544000000",
-        "US East (N. Virginia) (Instance Type: ml.g4dn.8xlarge-Training, vCPU: 32, Memory: 128 GiB)": "0.0453300000",
-        "EU (Stockholm) (Instance Type: ml.g4dn.8xlarge-Training, vCPU: 32, Memory: 128 GiB)": "0.0480800000",
-        "EU (London) (Instance Type: ml.g4dn.8xlarge-Training, vCPU: 32, Memory: 128 GiB)": "0.0530300000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g4dn.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0122700000",
-        "US West (N. California) (Instance Type: ml.g4dn.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0147200000",
-        "US East (N. Virginia) (Instance Type: ml.g4dn.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0122700000",
-        "EU (Stockholm) (Instance Type: ml.g4dn.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0130200000",
-        "EU (London) (Instance Type: ml.g4dn.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0143500000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.12xlarge training per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6.12xlarge-training, vCPU: 48, Memory: 192)": "0.0960000000",
-        "US East (N. Virginia) (Instance Type: ml.g6.12xlarge-training, vCPU: 48, Memory: 192)": "0.0960000000",
-        "EU (Stockholm) (Instance Type: ml.g6.12xlarge-training, vCPU: 48, Memory: 192)": "0.1020000000",
-        "EU (London) (Instance Type: ml.g6.12xlarge-training, vCPU: 48, Memory: 192)": "0.1220000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.16xlarge training per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6.16xlarge-training, vCPU: 64, Memory: 256)": "0.0710000000",
-        "US East (N. Virginia) (Instance Type: ml.g6.16xlarge-training, vCPU: 64, Memory: 256)": "0.0710000000",
-        "EU (Stockholm) (Instance Type: ml.g6.16xlarge-training, vCPU: 64, Memory: 256)": "0.0750000000",
-        "EU (London) (Instance Type: ml.g6.16xlarge-training, vCPU: 64, Memory: 256)": "0.0900000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.24xlarge training per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6.24xlarge-training, vCPU: 96, Memory: 384)": "0.1390000000",
-        "US East (N. Virginia) (Instance Type: ml.g6.24xlarge-training, vCPU: 96, Memory: 384)": "0.1390000000",
-        "EU (Stockholm) (Instance Type: ml.g6.24xlarge-training, vCPU: 96, Memory: 384)": "0.1480000000",
-        "EU (London) (Instance Type: ml.g6.24xlarge-training, vCPU: 96, Memory: 384)": "0.1770000000"
-    },
     "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.2xlarge training per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6.2xlarge-training, vCPU: 8, Memory: 32)": "0.0200000000",
-        "US East (N. Virginia) (Instance Type: ml.g6.2xlarge-training, vCPU: 8, Memory: 32)": "0.0200000000",
-        "EU (Stockholm) (Instance Type: ml.g6.2xlarge-training, vCPU: 8, Memory: 32)": "0.0220000000",
-        "EU (London) (Instance Type: ml.g6.2xlarge-training, vCPU: 8, Memory: 32)": "0.0260000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.48xlarge training per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6.48xlarge-training, vCPU: 192, Memory: 768)": "0.2780000000",
-        "US East (N. Virginia) (Instance Type: ml.g6.48xlarge-training, vCPU: 192, Memory: 768)": "0.2780000000",
-        "EU (Stockholm) (Instance Type: ml.g6.48xlarge-training, vCPU: 192, Memory: 768)": "0.2950000000",
-        "EU (London) (Instance Type: ml.g6.48xlarge-training, vCPU: 192, Memory: 768)": "0.3530000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.4xlarge training per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6.4xlarge-training, vCPU: 16, Memory: 64)": "0.0280000000",
-        "US East (N. Virginia) (Instance Type: ml.g6.4xlarge-training, vCPU: 16, Memory: 64)": "0.0280000000",
-        "EU (Stockholm) (Instance Type: ml.g6.4xlarge-training, vCPU: 16, Memory: 64)": "0.0290000000",
-        "EU (London) (Instance Type: ml.g6.4xlarge-training, vCPU: 16, Memory: 64)": "0.0350000000"
+        "EU (Stockholm) (Instance Type: ml.g6.2xlarge-training, Memory: 32, vCPU: 8)": "0.0220000000",
+        "EU (London) (Instance Type: ml.g6.2xlarge-training, Memory: 32, vCPU: 8)": "0.0260000000",
+        "US East (N. Virginia) (Instance Type: ml.g6.2xlarge-training, Memory: 32, vCPU: 8)": "0.0200000000",
+        "US West (Oregon) (Instance Type: ml.g6.2xlarge-training, Memory: 32, vCPU: 8)": "0.0200000000"
     },
     "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.8xlarge training per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6.8xlarge-training, vCPU: 32, Memory: 128)": "0.0530000000",
-        "US East (N. Virginia) (Instance Type: ml.g6.8xlarge-training, vCPU: 32, Memory: 128)": "0.0420000000",
-        "EU (Stockholm) (Instance Type: ml.g6.8xlarge-training, vCPU: 32, Memory: 128)": "0.0450000000",
-        "EU (London) (Instance Type: ml.g6.8xlarge-training, vCPU: 32, Memory: 128)": "0.0530000000"
+        "EU (Stockholm) (Instance Type: ml.g6.8xlarge-training, Memory: 128, vCPU: 32)": "0.0450000000",
+        "EU (London) (Instance Type: ml.g6.8xlarge-training, Memory: 128, vCPU: 32)": "0.0530000000",
+        "US East (N. Virginia) (Instance Type: ml.g6.8xlarge-training, Memory: 128, vCPU: 32)": "0.0420000000",
+        "US West (Oregon) (Instance Type: ml.g6.8xlarge-training, Memory: 128, vCPU: 32)": "0.0530000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g4dn.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0130200000",
+        "EU (London) (Instance Type: ml.g4dn.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0143500000",
+        "US East (N. Virginia) (Instance Type: ml.g4dn.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0122700000",
+        "US West (N. California) (Instance Type: ml.g4dn.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0147200000",
+        "US West (Oregon) (Instance Type: ml.g4dn.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0122700000"
     },
     "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.xlarge training per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6.xlarge-training, vCPU: 4, Memory: 16)": "0.0190000000",
-        "US East (N. Virginia) (Instance Type: ml.g6.xlarge-training, vCPU: 4, Memory: 16)": "0.0190000000",
-        "EU (Stockholm) (Instance Type: ml.g6.xlarge-training, vCPU: 4, Memory: 16)": "0.0200000000",
-        "EU (London) (Instance Type: ml.g6.xlarge-training, vCPU: 4, Memory: 16)": "0.0240000000"
+        "EU (Stockholm) (Instance Type: ml.g6.xlarge-training, Memory: 16, vCPU: 4)": "0.0200000000",
+        "EU (London) (Instance Type: ml.g6.xlarge-training, Memory: 16, vCPU: 4)": "0.0240000000",
+        "US East (N. Virginia) (Instance Type: ml.g6.xlarge-training, Memory: 16, vCPU: 4)": "0.0190000000",
+        "US West (Oregon) (Instance Type: ml.g6.xlarge-training, Memory: 16, vCPU: 4)": "0.0190000000"
     },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.12xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6e.12xlarge-Training, vCPU: 48, Memory: 384)": "0.2190000000",
-        "US East (N. Virginia) (Instance Type: ml.g6e.12xlarge-Training, vCPU: 48, Memory: 384)": "0.2190000000"
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.48xlarge training per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g6.48xlarge-training, Memory: 768, vCPU: 192)": "0.2950000000",
+        "EU (London) (Instance Type: ml.g6.48xlarge-training, Memory: 768, vCPU: 192)": "0.3530000000",
+        "US East (N. Virginia) (Instance Type: ml.g6.48xlarge-training, Memory: 768, vCPU: 192)": "0.2780000000",
+        "US West (Oregon) (Instance Type: ml.g6.48xlarge-training, Memory: 768, vCPU: 192)": "0.2780000000"
     },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.16xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6e.16xlarge-Training, vCPU: 64, Memory: 512)": "0.1580000000",
-        "US East (N. Virginia) (Instance Type: ml.g6e.16xlarge-Training, vCPU: 64, Memory: 512)": "0.1580000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.24xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6e.24xlarge-Training, vCPU: 96, Memory: 768)": "0.3140000000",
-        "US East (N. Virginia) (Instance Type: ml.g6e.24xlarge-Training, vCPU: 96, Memory: 768)": "0.3140000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6e.2xlarge-Training, vCPU: 8, Memory: 64)": "0.0470000000",
-        "US East (N. Virginia) (Instance Type: ml.g6e.2xlarge-Training, vCPU: 8, Memory: 64)": "0.0470000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.48xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6e.48xlarge-Training, vCPU: 192, Memory: 1536)": "0.6280000000",
-        "US East (N. Virginia) (Instance Type: ml.g6e.48xlarge-Training, vCPU: 192, Memory: 1536)": "0.6280000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.4xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6e.4xlarge-Training, vCPU: 16, Memory: 128)": "0.0630000000",
-        "US East (N. Virginia) (Instance Type: ml.g6e.4xlarge-Training, vCPU: 16, Memory: 128)": "0.0630000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.8xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6e.8xlarge-Training, vCPU: 32, Memory: 256)": "0.0940000000",
-        "US East (N. Virginia) (Instance Type: ml.g6e.8xlarge-Training, vCPU: 32, Memory: 256)": "0.0940000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.g6e.xlarge-Training, vCPU: 4, Memory: 32)": "0.0440000000",
-        "US East (N. Virginia) (Instance Type: ml.g6e.xlarge-Training, vCPU: 4, Memory: 32)": "0.0440000000"
-    },
-    "[Standard Instances] Standard Instances ml m4.10xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m4.10xlarge-Training, vCPU: 40, Memory: 160 GiB)": "0.0400000000",
-        "US West (N. California) (Instance Type: ml.m4.10xlarge-Training, vCPU: 40, Memory: 160 GiB)": "0.0468000000",
-        "US East (N. Virginia) (Instance Type: ml.m4.10xlarge-Training, vCPU: 40, Memory: 160 GiB)": "0.0400000000",
-        "EU (London) (Instance Type: ml.m4.10xlarge-Training, vCPU: 40, Memory: 160 GiB)": "0.0464000000"
-    },
-    "[Standard Instances] Standard Instances ml m4.16xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m4.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.0640000000",
-        "US West (N. California) (Instance Type: ml.m4.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.0748800000",
-        "US East (N. Virginia) (Instance Type: ml.m4.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.0640000000",
-        "EU (London) (Instance Type: ml.m4.16xlarge-Training, vCPU: 64, Memory: 256 GiB)": "0.0742300000"
-    },
-    "[Standard Instances] Standard Instances ml m4.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m4.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0080000000",
-        "US West (N. California) (Instance Type: ml.m4.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0093700000",
-        "US East (N. Virginia) (Instance Type: ml.m4.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0080000000",
-        "EU (London) (Instance Type: ml.m4.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0092800000"
-    },
-    "[Standard Instances] Standard Instances ml m4.4xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m4.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0160000000",
-        "US West (N. California) (Instance Type: ml.m4.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0187200000",
-        "US East (N. Virginia) (Instance Type: ml.m4.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0160000000",
-        "EU (London) (Instance Type: ml.m4.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0185600000"
-    },
-    "[Standard Instances] Standard Instances ml m4.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m4.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0040000000",
-        "US West (N. California) (Instance Type: ml.m4.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0046800000",
-        "US East (N. Virginia) (Instance Type: ml.m4.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0040000000",
-        "EU (London) (Instance Type: ml.m4.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0046300000"
-    },
-    "[Standard Instances] Standard Instances ml m5.12xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m5.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0460800000",
-        "US West (N. California) (Instance Type: ml.m5.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0537700000",
-        "US East (N. Virginia) (Instance Type: ml.m5.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0460800000",
-        "EU (Stockholm) (Instance Type: ml.m5.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0489700000",
-        "EU (London) (Instance Type: ml.m5.12xlarge-Training, vCPU: 48, Memory: 192 GiB)": "0.0532800000"
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5.9xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.c5.9xlarge-Training, Memory: 72 GiB, vCPU: 36)": "0.0327700000",
+        "EU (London) (Instance Type: ml.c5.9xlarge-Training, Memory: 72 GiB, vCPU: 36)": "0.0363600000",
+        "US East (N. Virginia) (Instance Type: ml.c5.9xlarge-Training, Memory: 72 GiB, vCPU: 36)": "0.0306000000",
+        "US West (N. California) (Instance Type: ml.c5.9xlarge-Training, Memory: 72 GiB, vCPU: 36)": "0.0381700000",
+        "US West (Oregon) (Instance Type: ml.c5.9xlarge-Training, Memory: 72 GiB, vCPU: 36)": "0.0306000000"
     },
     "[Standard Instances] Standard Instances ml m5.24xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m5.24xlarge-Training, vCPU: 96, Memory: 384 GiB)": "0.0921700000",
-        "US West (N. California) (Instance Type: ml.m5.24xlarge-Training, vCPU: 96, Memory: 384 GiB)": "0.1075200000",
-        "US East (N. Virginia) (Instance Type: ml.m5.24xlarge-Training, vCPU: 96, Memory: 384 GiB)": "0.0921700000",
-        "EU (Stockholm) (Instance Type: ml.m5.24xlarge-Training, vCPU: 96, Memory: 384 GiB)": "0.0979200000",
-        "EU (London) (Instance Type: ml.m5.24xlarge-Training, vCPU: 96, Memory: 384 GiB)": "0.1065600000"
-    },
-    "[Standard Instances] Standard Instances ml m5.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m5.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0076800000",
-        "US West (N. California) (Instance Type: ml.m5.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0089700000",
-        "US East (N. Virginia) (Instance Type: ml.m5.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0076800000",
-        "EU (Stockholm) (Instance Type: ml.m5.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0081700000",
-        "EU (London) (Instance Type: ml.m5.2xlarge-Training, vCPU: 8, Memory: 32 GiB)": "0.0088800000"
-    },
-    "[Standard Instances] Standard Instances ml m5.4xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m5.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0153700000",
-        "US West (N. California) (Instance Type: ml.m5.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0179200000",
-        "US East (N. Virginia) (Instance Type: ml.m5.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0153700000",
-        "EU (Stockholm) (Instance Type: ml.m5.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0163200000",
-        "EU (London) (Instance Type: ml.m5.4xlarge-Training, vCPU: 16, Memory: 64 GiB)": "0.0177600000"
-    },
-    "[Standard Instances] Standard Instances ml m5.large per minutes": {
-        "US West (Oregon) (Instance Type: ml.m5.large-Training, vCPU: 2, Memory: 8 GiB)": "0.0019200000",
-        "US West (N. California) (Instance Type: ml.m5.large-Training, vCPU: 2, Memory: 8 GiB)": "0.0022300000",
-        "US East (N. Virginia) (Instance Type: ml.m5.large-Training, vCPU: 2, Memory: 8 GiB)": "0.0019200000",
-        "EU (Stockholm) (Instance Type: ml.m5.large-Training, vCPU: 2, Memory: 8 GiB)": "0.0020300000",
-        "EU (London) (Instance Type: ml.m5.large-Training, vCPU: 2, Memory: 8 GiB)": "0.0022100000"
-    },
-    "[Standard Instances] Standard Instances ml m5.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.m5.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0038300000",
-        "US West (N. California) (Instance Type: ml.m5.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0044800000",
-        "US East (N. Virginia) (Instance Type: ml.m5.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0038300000",
-        "EU (Stockholm) (Instance Type: ml.m5.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0040800000",
-        "EU (London) (Instance Type: ml.m5.xlarge-Training, vCPU: 4, Memory: 16 GiB)": "0.0044300000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml p2.16xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.p2.16xlarge-Training, vCPU: 64, Memory: 732 GiB)": "0.2760000000",
-        "US East (N. Virginia) (Instance Type: ml.p2.16xlarge-Training, vCPU: 64, Memory: 732 GiB)": "0.2760000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml p2.8xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.p2.8xlarge-Training, vCPU: 32, Memory: 488 GiB)": "0.1440000000",
-        "US East (N. Virginia) (Instance Type: ml.p2.8xlarge-Training, vCPU: 32, Memory: 488 GiB)": "0.1440000000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml p2.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.p2.xlarge-Training, vCPU: 4, Memory: 61 GiB)": "0.0187500000",
-        "US East (N. Virginia) (Instance Type: ml.p2.xlarge-Training, vCPU: 4, Memory: 61 GiB)": "0.0187500000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml p3.16xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.p3.16xlarge-Training, vCPU: 64, Memory: 488 GiB)": "0.4692000000",
-        "US East (N. Virginia) (Instance Type: ml.p3.16xlarge-Training, vCPU: 64, Memory: 488 GiB)": "0.4692000000",
-        "EU (London) (Instance Type: ml.p3.16xlarge-Training, vCPU: 64, Memory: 488 GiB)": "0.5503100000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml p3.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.p3.2xlarge-Training, vCPU: 8, Memory: 61 GiB)": "0.0637500000",
-        "US East (N. Virginia) (Instance Type: ml.p3.2xlarge-Training, vCPU: 8, Memory: 61 GiB)": "0.0637500000",
-        "EU (London) (Instance Type: ml.p3.2xlarge-Training, vCPU: 8, Memory: 61 GiB)": "0.0747600000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml p3.8xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.p3.8xlarge-Training, vCPU: 32, Memory: 244 GiB)": "0.2448000000",
-        "US East (N. Virginia) (Instance Type: ml.p3.8xlarge-Training, vCPU: 32, Memory: 244 GiB)": "0.2448000000",
-        "EU (London) (Instance Type: ml.p3.8xlarge-Training, vCPU: 32, Memory: 244 GiB)": "0.2871100000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml p3dn.24xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.p3dn.24xlarge-Training, vCPU: 96, Memory: 768 GiB)": "0.5982300000",
-        "US East (N. Virginia) (Instance Type: ml.p3dn.24xlarge-Training, vCPU: 96, Memory: 768 GiB)": "0.5982300000"
-    },
-    "[Accelerated Computing Instances] Accelerated Computing Instances ml p4d.24xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.p4d.24xlarge-Training, vCPU: 96, Memory: 1152 GiB)": "0.6281300000",
-        "US East (N. Virginia) (Instance Type: ml.p4d.24xlarge-Training, vCPU: 96, Memory: 1152 GiB)": "0.6281300000"
+        "EU (Stockholm) (Instance Type: ml.m5.24xlarge-Training, Memory: 384 GiB, vCPU: 96)": "0.0979200000",
+        "EU (London) (Instance Type: ml.m5.24xlarge-Training, Memory: 384 GiB, vCPU: 96)": "0.1065600000",
+        "US East (N. Virginia) (Instance Type: ml.m5.24xlarge-Training, Memory: 384 GiB, vCPU: 96)": "0.0921700000",
+        "US West (N. California) (Instance Type: ml.m5.24xlarge-Training, Memory: 384 GiB, vCPU: 96)": "0.1075200000",
+        "US West (Oregon) (Instance Type: ml.m5.24xlarge-Training, Memory: 384 GiB, vCPU: 96)": "0.0921700000"
     },
     "[Standard Instances] Standard Instances ml t3.2xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.t3.2xlarge-Training, vCPU: 8, Memory: 32)": "0.0066500000",
-        "US West (N. California) (Instance Type: ml.t3.2xlarge-Training, vCPU: 8, Memory: 32)": "0.0079300000",
-        "US East (N. Virginia) (Instance Type: ml.t3.2xlarge-Training, vCPU: 8, Memory: 32)": "0.0066500000",
-        "EU (Stockholm) (Instance Type: ml.t3.2xlarge-Training, vCPU: 8, Memory: 32)": "0.0069200000",
-        "EU (London) (Instance Type: ml.t3.2xlarge-Training, vCPU: 8, Memory: 32)": "0.0075500000"
+        "EU (Stockholm) (Instance Type: ml.t3.2xlarge-Training, Memory: 32, vCPU: 8)": "0.0069200000",
+        "EU (London) (Instance Type: ml.t3.2xlarge-Training, Memory: 32, vCPU: 8)": "0.0075500000",
+        "US East (N. Virginia) (Instance Type: ml.t3.2xlarge-Training, Memory: 32, vCPU: 8)": "0.0066500000",
+        "US West (N. California) (Instance Type: ml.t3.2xlarge-Training, Memory: 32, vCPU: 8)": "0.0079300000",
+        "US West (Oregon) (Instance Type: ml.t3.2xlarge-Training, Memory: 32, vCPU: 8)": "0.0066500000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.4xlarge training per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g6.4xlarge-training, Memory: 64, vCPU: 16)": "0.0290000000",
+        "EU (London) (Instance Type: ml.g6.4xlarge-training, Memory: 64, vCPU: 16)": "0.0350000000",
+        "US East (N. Virginia) (Instance Type: ml.g6.4xlarge-training, Memory: 64, vCPU: 16)": "0.0280000000",
+        "US West (Oregon) (Instance Type: ml.g6.4xlarge-training, Memory: 64, vCPU: 16)": "0.0280000000"
+    },
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5.18xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.c5.18xlarge-Training, Memory: 144 GiB, vCPU: 72)": "0.0655200000",
+        "EU (London) (Instance Type: ml.c5.18xlarge-Training, Memory: 144 GiB, vCPU: 72)": "0.0727100000",
+        "US East (N. Virginia) (Instance Type: ml.c5.18xlarge-Training, Memory: 144 GiB, vCPU: 72)": "0.0612000000",
+        "US West (N. California) (Instance Type: ml.c5.18xlarge-Training, Memory: 144 GiB, vCPU: 72)": "0.0763200000",
+        "US West (Oregon) (Instance Type: ml.c5.18xlarge-Training, Memory: 144 GiB, vCPU: 72)": "0.0612000000"
+    },
+    "[Standard Instances] Standard Instances ml m5.xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.m5.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0040800000",
+        "EU (London) (Instance Type: ml.m5.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0044300000",
+        "US East (N. Virginia) (Instance Type: ml.m5.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0038300000",
+        "US West (N. California) (Instance Type: ml.m5.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0044800000",
+        "US West (Oregon) (Instance Type: ml.m5.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0038300000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.12xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g4dn.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0864700000",
+        "EU (London) (Instance Type: ml.g4dn.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0953500000",
+        "US East (N. Virginia) (Instance Type: ml.g4dn.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0815000000",
+        "US West (N. California) (Instance Type: ml.g4dn.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0977800000",
+        "US West (Oregon) (Instance Type: ml.g4dn.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0815000000"
+    },
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5.4xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.c5.4xlarge-Training, Memory: 32 GiB, vCPU: 16)": "0.0145700000",
+        "EU (London) (Instance Type: ml.c5.4xlarge-Training, Memory: 32 GiB, vCPU: 16)": "0.0161600000",
+        "US East (N. Virginia) (Instance Type: ml.c5.4xlarge-Training, Memory: 32 GiB, vCPU: 16)": "0.0136000000",
+        "US West (N. California) (Instance Type: ml.c5.4xlarge-Training, Memory: 32 GiB, vCPU: 16)": "0.0169700000",
+        "US West (Oregon) (Instance Type: ml.c5.4xlarge-Training, Memory: 32 GiB, vCPU: 16)": "0.0136000000"
+    },
+    "[Standard Instances] Standard Instances ml m5.2xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.m5.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0081700000",
+        "EU (London) (Instance Type: ml.m5.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0088800000",
+        "US East (N. Virginia) (Instance Type: ml.m5.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0076800000",
+        "US West (N. California) (Instance Type: ml.m5.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0089700000",
+        "US West (Oregon) (Instance Type: ml.m5.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0076800000"
     },
     "[Standard Instances] Standard Instances ml t3.large per minutes": {
-        "US West (Oregon) (Instance Type: ml.t3.large-Training, vCPU: 2, Memory: 8)": "0.0016700000",
-        "US West (N. California) (Instance Type: ml.t3.large-Training, vCPU: 2, Memory: 8)": "0.0019800000",
-        "US East (N. Virginia) (Instance Type: ml.t3.large-Training, vCPU: 2, Memory: 8)": "0.0016700000",
-        "EU (Stockholm) (Instance Type: ml.t3.large-Training, vCPU: 2, Memory: 8)": "0.0017300000",
-        "EU (London) (Instance Type: ml.t3.large-Training, vCPU: 2, Memory: 8)": "0.0018800000"
+        "EU (Stockholm) (Instance Type: ml.t3.large-Training, Memory: 8, vCPU: 2)": "0.0017300000",
+        "EU (London) (Instance Type: ml.t3.large-Training, Memory: 8, vCPU: 2)": "0.0018800000",
+        "US East (N. Virginia) (Instance Type: ml.t3.large-Training, Memory: 8, vCPU: 2)": "0.0016700000",
+        "US West (N. California) (Instance Type: ml.t3.large-Training, Memory: 8, vCPU: 2)": "0.0019800000",
+        "US West (Oregon) (Instance Type: ml.t3.large-Training, Memory: 8, vCPU: 2)": "0.0016700000"
+    },
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5.2xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.c5.2xlarge-Training, Memory: 16 GiB, vCPU: 8)": "0.0072800000",
+        "EU (London) (Instance Type: ml.c5.2xlarge-Training, Memory: 16 GiB, vCPU: 8)": "0.0080800000",
+        "US East (N. Virginia) (Instance Type: ml.c5.2xlarge-Training, Memory: 16 GiB, vCPU: 8)": "0.0068000000",
+        "US West (N. California) (Instance Type: ml.c5.2xlarge-Training, Memory: 16 GiB, vCPU: 8)": "0.0084800000",
+        "US West (Oregon) (Instance Type: ml.c5.2xlarge-Training, Memory: 16 GiB, vCPU: 8)": "0.0068000000"
+    },
+    "[Standard Instances] Standard Instances ml m5.12xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.m5.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0489700000",
+        "EU (London) (Instance Type: ml.m5.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0532800000",
+        "US East (N. Virginia) (Instance Type: ml.m5.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0460800000",
+        "US West (N. California) (Instance Type: ml.m5.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0537700000",
+        "US West (Oregon) (Instance Type: ml.m5.12xlarge-Training, Memory: 192 GiB, vCPU: 48)": "0.0460800000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.16xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g4dn.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.0961800000",
+        "EU (London) (Instance Type: ml.g4dn.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.1060800000",
+        "US East (N. Virginia) (Instance Type: ml.g4dn.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.0906700000",
+        "US West (N. California) (Instance Type: ml.g4dn.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.1088000000",
+        "US West (Oregon) (Instance Type: ml.g4dn.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.0906700000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.8xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g4dn.8xlarge-Training, Memory: 128 GiB, vCPU: 32)": "0.0480800000",
+        "EU (London) (Instance Type: ml.g4dn.8xlarge-Training, Memory: 128 GiB, vCPU: 32)": "0.0530300000",
+        "US East (N. Virginia) (Instance Type: ml.g4dn.8xlarge-Training, Memory: 128 GiB, vCPU: 32)": "0.0453300000",
+        "US West (N. California) (Instance Type: ml.g4dn.8xlarge-Training, Memory: 128 GiB, vCPU: 32)": "0.0544000000",
+        "US West (Oregon) (Instance Type: ml.g4dn.8xlarge-Training, Memory: 128 GiB, vCPU: 32)": "0.0453300000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.16xlarge training per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g6.16xlarge-training, Memory: 256, vCPU: 64)": "0.0750000000",
+        "EU (London) (Instance Type: ml.g6.16xlarge-training, Memory: 256, vCPU: 64)": "0.0900000000",
+        "US East (N. Virginia) (Instance Type: ml.g6.16xlarge-training, Memory: 256, vCPU: 64)": "0.0710000000",
+        "US West (Oregon) (Instance Type: ml.g6.16xlarge-training, Memory: 256, vCPU: 64)": "0.0710000000"
+    },
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5.xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.c5.xlarge-Training, Memory: 8 GiB, vCPU: 4)": "0.0036300000",
+        "EU (London) (Instance Type: ml.c5.xlarge-Training, Memory: 8 GiB, vCPU: 4)": "0.0040300000",
+        "US East (N. Virginia) (Instance Type: ml.c5.xlarge-Training, Memory: 8 GiB, vCPU: 4)": "0.0034000000",
+        "US West (N. California) (Instance Type: ml.c5.xlarge-Training, Memory: 8 GiB, vCPU: 4)": "0.0042300000",
+        "US West (Oregon) (Instance Type: ml.c5.xlarge-Training, Memory: 8 GiB, vCPU: 4)": "0.0034000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.24xlarge training per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g6.24xlarge-training, Memory: 384, vCPU: 96)": "0.1480000000",
+        "EU (London) (Instance Type: ml.g6.24xlarge-training, Memory: 384, vCPU: 96)": "0.1770000000",
+        "US East (N. Virginia) (Instance Type: ml.g6.24xlarge-training, Memory: 384, vCPU: 96)": "0.1390000000",
+        "US West (Oregon) (Instance Type: ml.g6.24xlarge-training, Memory: 384, vCPU: 96)": "0.1390000000"
+    },
+    "[Standard Instances] Standard Instances ml m5.large per minutes": {
+        "EU (Stockholm) (Instance Type: ml.m5.large-Training, Memory: 8 GiB, vCPU: 2)": "0.0020300000",
+        "EU (London) (Instance Type: ml.m5.large-Training, Memory: 8 GiB, vCPU: 2)": "0.0022100000",
+        "US East (N. Virginia) (Instance Type: ml.m5.large-Training, Memory: 8 GiB, vCPU: 2)": "0.0019200000",
+        "US West (N. California) (Instance Type: ml.m5.large-Training, Memory: 8 GiB, vCPU: 2)": "0.0022300000",
+        "US West (Oregon) (Instance Type: ml.m5.large-Training, Memory: 8 GiB, vCPU: 2)": "0.0019200000"
+    },
+    "[Standard Instances] Standard Instances ml m5.4xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.m5.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0163200000",
+        "EU (London) (Instance Type: ml.m5.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0177600000",
+        "US East (N. Virginia) (Instance Type: ml.m5.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0153700000",
+        "US West (N. California) (Instance Type: ml.m5.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0179200000",
+        "US West (Oregon) (Instance Type: ml.m5.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0153700000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.2xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g4dn.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0166300000",
+        "EU (London) (Instance Type: ml.g4dn.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0183300000",
+        "US East (N. Virginia) (Instance Type: ml.g4dn.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0156700000",
+        "US West (N. California) (Instance Type: ml.g4dn.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0187800000",
+        "US West (Oregon) (Instance Type: ml.g4dn.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0156700000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6.12xlarge training per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g6.12xlarge-training, Memory: 192, vCPU: 48)": "0.1020000000",
+        "EU (London) (Instance Type: ml.g6.12xlarge-training, Memory: 192, vCPU: 48)": "0.1220000000",
+        "US East (N. Virginia) (Instance Type: ml.g6.12xlarge-training, Memory: 192, vCPU: 48)": "0.0960000000",
+        "US West (Oregon) (Instance Type: ml.g6.12xlarge-training, Memory: 192, vCPU: 48)": "0.0960000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g4dn.4xlarge per minutes": {
+        "EU (Stockholm) (Instance Type: ml.g4dn.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0266000000",
+        "EU (London) (Instance Type: ml.g4dn.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0293500000",
+        "US East (N. Virginia) (Instance Type: ml.g4dn.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0250800000",
+        "US West (N. California) (Instance Type: ml.g4dn.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0301000000",
+        "US West (Oregon) (Instance Type: ml.g4dn.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0250800000"
     },
     "[Standard Instances] Standard Instances ml t3.xlarge per minutes": {
-        "US West (Oregon) (Instance Type: ml.t3.xlarge-Training, vCPU: 4, Memory: 16)": "0.0033300000",
-        "US West (N. California) (Instance Type: ml.t3.xlarge-Training, vCPU: 4, Memory: 16)": "0.0039700000",
-        "US East (N. Virginia) (Instance Type: ml.t3.xlarge-Training, vCPU: 4, Memory: 16)": "0.0033300000",
-        "EU (Stockholm) (Instance Type: ml.t3.xlarge-Training, vCPU: 4, Memory: 16)": "0.0034500000",
-        "EU (London) (Instance Type: ml.t3.xlarge-Training, vCPU: 4, Memory: 16)": "0.0037800000"
+        "EU (Stockholm) (Instance Type: ml.t3.xlarge-Training, Memory: 16, vCPU: 4)": "0.0034500000",
+        "EU (London) (Instance Type: ml.t3.xlarge-Training, Memory: 16, vCPU: 4)": "0.0037800000",
+        "US East (N. Virginia) (Instance Type: ml.t3.xlarge-Training, Memory: 16, vCPU: 4)": "0.0033300000",
+        "US West (N. California) (Instance Type: ml.t3.xlarge-Training, Memory: 16, vCPU: 4)": "0.0039700000",
+        "US West (Oregon) (Instance Type: ml.t3.xlarge-Training, Memory: 16, vCPU: 4)": "0.0033300000"
+    },
+    "AQT IBEX Q1 Quantum Task": {
+        "EU (Stockholm)": "0.3000000000"
+    },
+    "IQM Garnet Quantum Task Shot": {
+        "EU (Stockholm)": "0.0014500000"
     },
     "General Purpose SSD Storage per GB Mo": {
-        "US West (Oregon)": "0.1400000000",
-        "US West (N. California)": "0.1400000000",
-        "US East (N. Virginia)": "0.1400000000",
         "EU (Stockholm)": "0.1460000000",
-        "EU (London)": "0.1620000000"
+        "EU (London)": "0.1620000000",
+        "US East (N. Virginia)": "0.1400000000",
+        "US West (N. California)": "0.1400000000",
+        "US West (Oregon)": "0.1400000000"
     },
-    "Rigetti Ankaa 3 Quantum Task": {
-        "US West (N. California)": "0.3000000000"
+    "IQM Emerald Quantum Task Shot": {
+        "EU (Stockholm)": "0.0016000000"
     },
-    "Rigetti Aspen M-2 Quantum Task-Shot": {
-        "US West (N. California)": "0.0003500000"
+    "IQM Garnet Quantum Task": {
+        "EU (Stockholm)": "0.3000000000"
     },
-    "Rigetti Aspen 10 Quantum Task": {
-        "US West (N. California)": "0.3000000000"
+    "IQM Emerald Quantum Task": {
+        "EU (Stockholm)": "0.3000000000"
     },
-    "Rigetti Aspen 11 Quantum Task": {
-        "US West (N. California)": "0.3000000000"
+    "AQT IBEX Q1 Quantum Task-Shot": {
+        "EU (Stockholm)": "0.0235000000"
     },
-    "Rigetti Aspen M Quantum Task": {
-        "US West (N. California)": "0.3000000000"
+    "[Simulator Task] TN1 Simulator Task per minutes": {
+        "EU (London) (Product Family: Simulator Task, Version: TN1)": "0.2750000000",
+        "US East (N. Virginia) (Product Family: Simulator Task, Version: TN1)": "0.2750000000",
+        "US West (Oregon) (Product Family: Simulator Task, Version: TN1)": "0.2750000000"
     },
-    "Rigetti Aspen 10 Quantum Task-Shot": {
-        "US West (N. California)": "0.0003500000"
+    "[Simulator Task] SV1 Simulator Task per minutes": {
+        "EU (London) (Product Family: Simulator Task, Version: SV1)": "0.0750000000",
+        "US East (N. Virginia) (Product Family: Simulator Task, Version: SV1)": "0.0750000000",
+        "US West (N. California) (Product Family: Simulator Task, Version: SV1)": "0.0750000000",
+        "US West (Oregon) (Product Family: Simulator Task, Version: SV1)": "0.0750000000"
     },
-    "Rigetti Cepheus 1-108Q Quantum Task": {
-        "US West (N. California)": "0.3000000000"
+    "[Simulator Task] DM1 Simulator Task per minutes": {
+        "EU (London) (Product Family: Simulator Task, Version: DM1)": "0.0750000000",
+        "US East (N. Virginia) (Product Family: Simulator Task, Version: DM1)": "0.0750000000",
+        "US West (N. California) (Product Family: Simulator Task, Version: DM1)": "0.0750000000",
+        "US West (Oregon) (Product Family: Simulator Task, Version: DM1)": "0.0750000000"
     },
-    "Rigetti Aspen M-2 Quantum Task": {
-        "US West (N. California)": "0.3000000000"
+    "[Standard Instances] Standard Instances ml m4.10xlarge per minutes": {
+        "EU (London) (Instance Type: ml.m4.10xlarge-Training, Memory: 160 GiB, vCPU: 40)": "0.0464000000",
+        "US East (N. Virginia) (Instance Type: ml.m4.10xlarge-Training, Memory: 160 GiB, vCPU: 40)": "0.0400000000",
+        "US West (N. California) (Instance Type: ml.m4.10xlarge-Training, Memory: 160 GiB, vCPU: 40)": "0.0468000000",
+        "US West (Oregon) (Instance Type: ml.m4.10xlarge-Training, Memory: 160 GiB, vCPU: 40)": "0.0400000000"
     },
-    "Rigetti Cepheus 1-108Q Quantum Task-Shot": {
-        "US West (N. California)": "0.0004250000"
+    "[Standard Instances] Standard Instances ml m4.2xlarge per minutes": {
+        "EU (London) (Instance Type: ml.m4.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0092800000",
+        "US East (N. Virginia) (Instance Type: ml.m4.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0080000000",
+        "US West (N. California) (Instance Type: ml.m4.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0093700000",
+        "US West (Oregon) (Instance Type: ml.m4.2xlarge-Training, Memory: 32 GiB, vCPU: 8)": "0.0080000000"
     },
-    "Rigetti Aspen 11 Quantum Task-Shot": {
-        "US West (N. California)": "0.0003500000"
+    "[Standard Instances] Standard Instances ml m4.4xlarge per minutes": {
+        "EU (London) (Instance Type: ml.m4.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0185600000",
+        "US East (N. Virginia) (Instance Type: ml.m4.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0160000000",
+        "US West (N. California) (Instance Type: ml.m4.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0187200000",
+        "US West (Oregon) (Instance Type: ml.m4.4xlarge-Training, Memory: 64 GiB, vCPU: 16)": "0.0160000000"
     },
-    "Rigetti Aspen M-1 Quantum Task": {
-        "US West (N. California)": "0.3000000000"
+    "[Standard Instances] Standard Instances ml m4.16xlarge per minutes": {
+        "EU (London) (Instance Type: ml.m4.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.0742300000",
+        "US East (N. Virginia) (Instance Type: ml.m4.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.0640000000",
+        "US West (N. California) (Instance Type: ml.m4.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.0748800000",
+        "US West (Oregon) (Instance Type: ml.m4.16xlarge-Training, Memory: 256 GiB, vCPU: 64)": "0.0640000000"
     },
-    "Rigetti Ankaa 2 Quantum Task": {
-        "US West (N. California)": "0.3000000000"
+    "[Compute Optimized Instances] Compute Optimized Instances ml c4.xlarge per minutes": {
+        "EU (London) (Instance Type: ml.c4.xlarge-Training, Memory: 7.5 GiB, vCPU: 4)": "0.0047300000",
+        "US East (N. Virginia) (Instance Type: ml.c4.xlarge-Training, Memory: 7.5 GiB, vCPU: 4)": "0.0039800000",
+        "US West (N. California) (Instance Type: ml.c4.xlarge-Training, Memory: 7.5 GiB, vCPU: 4)": "0.0049800000",
+        "US West (Oregon) (Instance Type: ml.c4.xlarge-Training, Memory: 7.5 GiB, vCPU: 4)": "0.0039800000"
     },
-    "Rigetti Ankaa 3 Quantum Task-Shot": {
-        "US West (N. California)": "0.0009000000"
+    "[Compute Optimized Instances] Compute Optimized Instances ml c4.8xlarge per minutes": {
+        "EU (London) (Instance Type: ml.c4.8xlarge-Training, Memory: 60 GiB, vCPU: 36)": "0.0380300000",
+        "US East (N. Virginia) (Instance Type: ml.c4.8xlarge-Training, Memory: 60 GiB, vCPU: 36)": "0.0318200000",
+        "US West (N. California) (Instance Type: ml.c4.8xlarge-Training, Memory: 60 GiB, vCPU: 36)": "0.0398700000",
+        "US West (Oregon) (Instance Type: ml.c4.8xlarge-Training, Memory: 60 GiB, vCPU: 36)": "0.0318200000"
     },
-    "Rigetti Aspen M Quantum Task-Shot": {
-        "US West (N. California)": "0.0003500000"
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml p3.2xlarge per minutes": {
+        "EU (London) (Instance Type: ml.p3.2xlarge-Training, Memory: 61 GiB, vCPU: 8)": "0.0747600000",
+        "US East (N. Virginia) (Instance Type: ml.p3.2xlarge-Training, Memory: 61 GiB, vCPU: 8)": "0.0637500000",
+        "US West (Oregon) (Instance Type: ml.p3.2xlarge-Training, Memory: 61 GiB, vCPU: 8)": "0.0637500000"
     },
-    "Rigetti Aspen M-1 Quantum Task-Shot": {
-        "US West (N. California)": "0.0003500000"
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml p3.8xlarge per minutes": {
+        "EU (London) (Instance Type: ml.p3.8xlarge-Training, Memory: 244 GiB, vCPU: 32)": "0.2871100000",
+        "US East (N. Virginia) (Instance Type: ml.p3.8xlarge-Training, Memory: 244 GiB, vCPU: 32)": "0.2448000000",
+        "US West (Oregon) (Instance Type: ml.p3.8xlarge-Training, Memory: 244 GiB, vCPU: 32)": "0.2448000000"
     },
-    "Rigetti Ankaa 2 Quantum Task-Shot": {
-        "US West (N. California)": "0.0009000000"
+    "[Compute Optimized Instances] Compute Optimized Instances ml c4.2xlarge per minutes": {
+        "EU (London) (Instance Type: ml.c4.2xlarge-Training, Memory: 15 GiB, vCPU: 8)": "0.0095100000",
+        "US East (N. Virginia) (Instance Type: ml.c4.2xlarge-Training, Memory: 15 GiB, vCPU: 8)": "0.0079700000",
+        "US West (N. California) (Instance Type: ml.c4.2xlarge-Training, Memory: 15 GiB, vCPU: 8)": "0.0099700000",
+        "US West (Oregon) (Instance Type: ml.c4.2xlarge-Training, Memory: 15 GiB, vCPU: 8)": "0.0079700000"
     },
-    "IonQ IonQdevice Quantum Task Shot": {
-        "US East (N. Virginia)": "0.0100000000"
+    "[Compute Optimized Instances] Compute Optimized Instances ml c4.4xlarge per minutes": {
+        "EU (London) (Instance Type: ml.c4.4xlarge-Training, Memory: 30 GiB, vCPU: 16)": "0.0190000000",
+        "US East (N. Virginia) (Instance Type: ml.c4.4xlarge-Training, Memory: 30 GiB, vCPU: 16)": "0.0159200000",
+        "US West (N. California) (Instance Type: ml.c4.4xlarge-Training, Memory: 30 GiB, vCPU: 16)": "0.0199300000",
+        "US West (Oregon) (Instance Type: ml.c4.4xlarge-Training, Memory: 30 GiB, vCPU: 16)": "0.0159200000"
     },
-    "IonQ Aria 1 Quantum Task-Shot": {
-        "US East (N. Virginia)": "0.0300000000"
+    "[Standard Instances] Standard Instances ml m4.xlarge per minutes": {
+        "EU (London) (Instance Type: ml.m4.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0046300000",
+        "US East (N. Virginia) (Instance Type: ml.m4.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0040000000",
+        "US West (N. California) (Instance Type: ml.m4.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0046800000",
+        "US West (Oregon) (Instance Type: ml.m4.xlarge-Training, Memory: 16 GiB, vCPU: 4)": "0.0040000000"
     },
-    "QuEra Aquila Quantum Task Shot": {
-        "US East (N. Virginia)": "0.0100000000"
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml p3.16xlarge per minutes": {
+        "EU (London) (Instance Type: ml.p3.16xlarge-Training, Memory: 488 GiB, vCPU: 64)": "0.5503100000",
+        "US East (N. Virginia) (Instance Type: ml.p3.16xlarge-Training, Memory: 488 GiB, vCPU: 64)": "0.4692000000",
+        "US West (Oregon) (Instance Type: ml.p3.16xlarge-Training, Memory: 488 GiB, vCPU: 64)": "0.4692000000"
     },
-    "IonQ Forte 1 Quantum Task-Shot": {
-        "US East (N. Virginia)": "0.0800000000"
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml p2.xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.p2.xlarge-Training, Memory: 61 GiB, vCPU: 4)": "0.0187500000",
+        "US West (Oregon) (Instance Type: ml.p2.xlarge-Training, Memory: 61 GiB, vCPU: 4)": "0.0187500000"
     },
-    "QuEra Aquila Quantum Task": {
-        "US East (N. Virginia)": "0.3000000000"
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.48xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.g6e.48xlarge-Training, Memory: 1536, vCPU: 192)": "0.6280000000",
+        "US West (Oregon) (Instance Type: ml.g6e.48xlarge-Training, Memory: 1536, vCPU: 192)": "0.6280000000"
     },
-    "IonQ Aria 1 Quantum Task": {
-        "US East (N. Virginia)": "0.3000000000"
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.2xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.c5n.2xlarge-Training, Memory: 21 GiB, vCPU: 8)": "0.0086300000",
+        "US West (N. California) (Instance Type: ml.c5n.2xlarge-Training, Memory: 21 GiB, vCPU: 8)": "0.0108000000",
+        "US West (Oregon) (Instance Type: ml.c5n.2xlarge-Training, Memory: 21 GiB, vCPU: 8)": "0.0086300000"
     },
-    "IonQ IonQdevice Quantum Task": {
-        "US East (N. Virginia)": "0.3000000000"
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.2xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.g6e.2xlarge-Training, Memory: 64, vCPU: 8)": "0.0470000000",
+        "US West (Oregon) (Instance Type: ml.g6e.2xlarge-Training, Memory: 64, vCPU: 8)": "0.0470000000"
     },
-    "IonQ Forte Enterprise-1 Quantum Task-Shot": {
-        "US East (N. Virginia)": "0.0800000000"
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.4xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.c5n.4xlarge-Training, Memory: 42 GiB, vCPU: 16)": "0.0172800000",
+        "US West (N. California) (Instance Type: ml.c5n.4xlarge-Training, Memory: 42 GiB, vCPU: 16)": "0.0216000000",
+        "US West (Oregon) (Instance Type: ml.c5n.4xlarge-Training, Memory: 42 GiB, vCPU: 16)": "0.0172800000"
     },
-    "IonQ Aria 2 Quantum Task-Shot": {
-        "US East (N. Virginia)": "0.0300000000"
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.c5n.xlarge-Training, Memory: 10.5 GiB, vCPU: 4)": "0.0043200000",
+        "US West (N. California) (Instance Type: ml.c5n.xlarge-Training, Memory: 10.5 GiB, vCPU: 4)": "0.0054000000",
+        "US West (Oregon) (Instance Type: ml.c5n.xlarge-Training, Memory: 10.5 GiB, vCPU: 4)": "0.0043200000"
     },
-    "IonQ Forte Enterprise-1 Quantum Task": {
-        "US East (N. Virginia)": "0.3000000000"
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml p4d.24xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.p4d.24xlarge-Training, Memory: 1152 GiB, vCPU: 96)": "0.6281300000",
+        "US West (Oregon) (Instance Type: ml.p4d.24xlarge-Training, Memory: 1152 GiB, vCPU: 96)": "0.6281300000"
+    },
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.9xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.c5n.9xlarge-Training, Memory: 96 GiB, vCPU: 36)": "0.0388800000",
+        "US West (N. California) (Instance Type: ml.c5n.9xlarge-Training, Memory: 96 GiB, vCPU: 36)": "0.0486000000",
+        "US West (Oregon) (Instance Type: ml.c5n.9xlarge-Training, Memory: 96 GiB, vCPU: 36)": "0.0388800000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.8xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.g6e.8xlarge-Training, Memory: 256, vCPU: 32)": "0.0940000000",
+        "US West (Oregon) (Instance Type: ml.g6e.8xlarge-Training, Memory: 256, vCPU: 32)": "0.0940000000"
+    },
+    "[Compute Optimized Instances] Compute Optimized Instances ml c5n.18xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.c5n.18xlarge-Training, Memory: 192 GiB, vCPU: 72)": "0.0777700000",
+        "US West (N. California) (Instance Type: ml.c5n.18xlarge-Training, Memory: 192 GiB, vCPU: 72)": "0.0972000000",
+        "US West (Oregon) (Instance Type: ml.c5n.18xlarge-Training, Memory: 192 GiB, vCPU: 72)": "0.0777700000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.12xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.g6e.12xlarge-Training, Memory: 384, vCPU: 48)": "0.2190000000",
+        "US West (Oregon) (Instance Type: ml.g6e.12xlarge-Training, Memory: 384, vCPU: 48)": "0.2190000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml p2.8xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.p2.8xlarge-Training, Memory: 488 GiB, vCPU: 32)": "0.1440000000",
+        "US West (Oregon) (Instance Type: ml.p2.8xlarge-Training, Memory: 488 GiB, vCPU: 32)": "0.1440000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.24xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.g6e.24xlarge-Training, Memory: 768, vCPU: 96)": "0.3140000000",
+        "US West (Oregon) (Instance Type: ml.g6e.24xlarge-Training, Memory: 768, vCPU: 96)": "0.3140000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.4xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.g6e.4xlarge-Training, Memory: 128, vCPU: 16)": "0.0630000000",
+        "US West (Oregon) (Instance Type: ml.g6e.4xlarge-Training, Memory: 128, vCPU: 16)": "0.0630000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.g6e.xlarge-Training, Memory: 32, vCPU: 4)": "0.0440000000",
+        "US West (Oregon) (Instance Type: ml.g6e.xlarge-Training, Memory: 32, vCPU: 4)": "0.0440000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml p3dn.24xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.p3dn.24xlarge-Training, Memory: 768 GiB, vCPU: 96)": "0.5982300000",
+        "US West (Oregon) (Instance Type: ml.p3dn.24xlarge-Training, Memory: 768 GiB, vCPU: 96)": "0.5982300000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml p2.16xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.p2.16xlarge-Training, Memory: 732 GiB, vCPU: 64)": "0.2760000000",
+        "US West (Oregon) (Instance Type: ml.p2.16xlarge-Training, Memory: 732 GiB, vCPU: 64)": "0.2760000000"
+    },
+    "[Accelerated Computing Instances] Accelerated Computing Instances ml g6e.16xlarge per minutes": {
+        "US East (N. Virginia) (Instance Type: ml.g6e.16xlarge-Training, Memory: 512, vCPU: 64)": "0.1580000000",
+        "US West (Oregon) (Instance Type: ml.g6e.16xlarge-Training, Memory: 512, vCPU: 64)": "0.1580000000"
     },
     "IonQ Harmony Quantum Task Shot": {
         "US East (N. Virginia)": "0.0100000000"
@@ -441,29 +381,89 @@
     "IonQ Forte 1 Quantum Task": {
         "US East (N. Virginia)": "0.3000000000"
     },
-    "IonQ Harmony Quantum Task": {
+    "IonQ Aria 2 Quantum Task-Shot": {
+        "US East (N. Virginia)": "0.0300000000"
+    },
+    "IonQ Aria 1 Quantum Task-Shot": {
+        "US East (N. Virginia)": "0.0300000000"
+    },
+    "IonQ IonQdevice Quantum Task Shot": {
+        "US East (N. Virginia)": "0.0100000000"
+    },
+    "IonQ Forte 1 Quantum Task-Shot": {
+        "US East (N. Virginia)": "0.0800000000"
+    },
+    "IonQ IonQdevice Quantum Task": {
         "US East (N. Virginia)": "0.3000000000"
+    },
+    "IonQ Forte Enterprise-1 Quantum Task": {
+        "US East (N. Virginia)": "0.3000000000"
+    },
+    "IonQ Aria 1 Quantum Task": {
+        "US East (N. Virginia)": "0.3000000000"
+    },
+    "QuEra Aquila Quantum Task": {
+        "US East (N. Virginia)": "0.3000000000"
+    },
+    "IonQ Forte Enterprise-1 Quantum Task-Shot": {
+        "US East (N. Virginia)": "0.0800000000"
     },
     "IonQ Aria 2 Quantum Task": {
         "US East (N. Virginia)": "0.3000000000"
     },
-    "AQT IBEX Q1 Quantum Task": {
-        "EU (Stockholm)": "0.3000000000"
+    "IonQ Harmony Quantum Task": {
+        "US East (N. Virginia)": "0.3000000000"
     },
-    "IQM Emerald Quantum Task": {
-        "EU (Stockholm)": "0.3000000000"
+    "QuEra Aquila Quantum Task Shot": {
+        "US East (N. Virginia)": "0.0100000000"
     },
-    "IQM Garnet Quantum Task": {
-        "EU (Stockholm)": "0.3000000000"
+    "Rigetti Ankaa 3 Quantum Task": {
+        "US West (N. California)": "0.3000000000"
     },
-    "AQT IBEX Q1 Quantum Task-Shot": {
-        "EU (Stockholm)": "0.0235000000"
+    "Rigetti Aspen M-2 Quantum Task-Shot": {
+        "US West (N. California)": "0.0003500000"
     },
-    "IQM Garnet Quantum Task Shot": {
-        "EU (Stockholm)": "0.0014500000"
+    "Rigetti Ankaa 2 Quantum Task": {
+        "US West (N. California)": "0.3000000000"
     },
-    "IQM Emerald Quantum Task Shot": {
-        "EU (Stockholm)": "0.0016000000"
+    "Rigetti Cepheus 1-108Q Quantum Task-Shot": {
+        "US West (N. California)": "0.0004250000"
+    },
+    "Rigetti Aspen M-2 Quantum Task": {
+        "US West (N. California)": "0.3000000000"
+    },
+    "Rigetti Cepheus 1-108Q Quantum Task": {
+        "US West (N. California)": "0.3000000000"
+    },
+    "Rigetti Aspen 11 Quantum Task": {
+        "US West (N. California)": "0.3000000000"
+    },
+    "Rigetti Aspen 10 Quantum Task": {
+        "US West (N. California)": "0.3000000000"
+    },
+    "Rigetti Ankaa 3 Quantum Task-Shot": {
+        "US West (N. California)": "0.0009000000"
+    },
+    "Rigetti Aspen 11 Quantum Task-Shot": {
+        "US West (N. California)": "0.0003500000"
+    },
+    "Rigetti Ankaa 2 Quantum Task-Shot": {
+        "US West (N. California)": "0.0009000000"
+    },
+    "Rigetti Aspen 10 Quantum Task-Shot": {
+        "US West (N. California)": "0.0003500000"
+    },
+    "Rigetti Aspen M Quantum Task-Shot": {
+        "US West (N. California)": "0.0003500000"
+    },
+    "Rigetti Aspen M-1 Quantum Task": {
+        "US West (N. California)": "0.3000000000"
+    },
+    "Rigetti Aspen M-1 Quantum Task-Shot": {
+        "US West (N. California)": "0.0003500000"
+    },
+    "Rigetti Aspen M Quantum Task": {
+        "US West (N. California)": "0.3000000000"
     },
     "MS1 Simulator Task per minutes": {
         "Any": "0.0000000000"

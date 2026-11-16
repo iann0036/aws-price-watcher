@@ -1,44 +1,45 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "lookoutequipment",
         "accessType": "publish",
-        "esIndex": "plc-lookoutequipment-usd-20260911124449",
+        "source": "lookoutequipment",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:49Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:49Z",
-        "currencyCode": "USD",
-        "source": "lookoutequipment",
+        "esIndex": "plc-lookoutequipment-usd-20260911124449",
+        "queryConfig": "public/d6204833-445b-5bb6-9580-5fcc2cd9f601/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US East (N. Virginia)": {
+        "Asia Pacific (Seoul)": {
             "7hMHAAzSVRkvbsNtbvS2693cz3ZkGSkIkzDj5v-LhCk": {
-                "rateCode": "REZ5YXTVKMZG7JC2.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EWRS8RHY379EHB67.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2000000000",
                 "RegionlessRateCode": "7hMHAAzSVRkvbsNtbvS2693cz3ZkGSkIkzDj5v-LhCk"
             },
             "J9VlE8waVIketa0teDMCNm-6pvObbnjf5xxBO-ECuqo": {
-                "rateCode": "GWV99EQPQV3FERQU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KYJ8WXSWQKRSB8X3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "J9VlE8waVIketa0teDMCNm-6pvObbnjf5xxBO-ECuqo"
             },
             "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck": {
-                "rateCode": "EAUYA2KGFXTGQ6MV.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "N9AJEZV88JQKD9VD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2400000000",
                 "RegionlessRateCode": "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck"
             },
             "Machine Learning One time charge per GB": {
-                "rateCode": "REZ5YXTVKMZG7JC2.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "EWRS8RHY379EHB67.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2000000000",
                 "RegionlessRateCode": "7hMHAAzSVRkvbsNtbvS2693cz3ZkGSkIkzDj5v-LhCk"
             },
             "Machine Learning hourly cost for inferencing": {
-                "rateCode": "GWV99EQPQV3FERQU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KYJ8WXSWQKRSB8X3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "J9VlE8waVIketa0teDMCNm-6pvObbnjf5xxBO-ECuqo"
             },
             "Machine Learning Hourly cost for training": {
-                "rateCode": "EAUYA2KGFXTGQ6MV.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "N9AJEZV88JQKD9VD.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2400000000",
                 "RegionlessRateCode": "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck"
             }
@@ -75,36 +76,36 @@
                 "RegionlessRateCode": "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck"
             }
         },
-        "Asia Pacific (Seoul)": {
-            "7hMHAAzSVRkvbsNtbvS2693cz3ZkGSkIkzDj5v-LhCk": {
-                "rateCode": "EWRS8RHY379EHB67.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2000000000",
-                "RegionlessRateCode": "7hMHAAzSVRkvbsNtbvS2693cz3ZkGSkIkzDj5v-LhCk"
+        "US East (N. Virginia)": {
+            "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck": {
+                "rateCode": "EAUYA2KGFXTGQ6MV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck"
             },
             "J9VlE8waVIketa0teDMCNm-6pvObbnjf5xxBO-ECuqo": {
-                "rateCode": "KYJ8WXSWQKRSB8X3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "GWV99EQPQV3FERQU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "J9VlE8waVIketa0teDMCNm-6pvObbnjf5xxBO-ECuqo"
             },
-            "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck": {
-                "rateCode": "N9AJEZV88JQKD9VD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck"
-            },
-            "Machine Learning One time charge per GB": {
-                "rateCode": "EWRS8RHY379EHB67.JRTCKXETXF.6YS6EN2CT7",
+            "7hMHAAzSVRkvbsNtbvS2693cz3ZkGSkIkzDj5v-LhCk": {
+                "rateCode": "REZ5YXTVKMZG7JC2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2000000000",
                 "RegionlessRateCode": "7hMHAAzSVRkvbsNtbvS2693cz3ZkGSkIkzDj5v-LhCk"
             },
+            "Machine Learning Hourly cost for training": {
+                "rateCode": "EAUYA2KGFXTGQ6MV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2400000000",
+                "RegionlessRateCode": "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck"
+            },
             "Machine Learning hourly cost for inferencing": {
-                "rateCode": "KYJ8WXSWQKRSB8X3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "GWV99EQPQV3FERQU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "J9VlE8waVIketa0teDMCNm-6pvObbnjf5xxBO-ECuqo"
             },
-            "Machine Learning Hourly cost for training": {
-                "rateCode": "N9AJEZV88JQKD9VD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2400000000",
-                "RegionlessRateCode": "TrE2t1qgutuDSQXwyXNigjlQTIHIR36dhA6zE1u3pck"
+            "Machine Learning One time charge per GB": {
+                "rateCode": "REZ5YXTVKMZG7JC2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2000000000",
+                "RegionlessRateCode": "7hMHAAzSVRkvbsNtbvS2693cz3ZkGSkIkzDj5v-LhCk"
             }
         },
         "Any": {
