@@ -1,1480 +1,1175 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "inspector",
         "accessType": "publish",
-        "esIndex": "plc-inspector-usd-20260911124436",
+        "source": "inspector",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:36Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:36Z",
-        "currencyCode": "USD",
-        "source": "inspector",
+        "esIndex": "plc-inspector-usd-20260911124436",
+        "queryConfig": "public/b60f23c4-42f3-52ea-a776-e4280f5d116a/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "EGFRR8QGQMXF8BW2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "N2KWSR6HMBR7GBFG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "EGFRR8QGQMXF8BW2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "N2KWSR6HMBR7GBFG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
-        "US West (N. California)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "MUCH8EG8N346RSP5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "T7EYGFBSBD7B3QD6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "MUCH8EG8N346RSP5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "T7EYGFBSBD7B3QD6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
-        "US East (Ohio)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "M6U4E3QG6GHGNPZK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "AHHYGB7B4V899WE9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "M6U4E3QG6GHGNPZK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "AHHYGB7B4V899WE9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
-        "US East (N. Virginia)": {
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "6UAQHSW4MZ9QNSG6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "6UAQHSW4MZ9QNSG6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            }
-        },
-        "EU (Stockholm)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "MP4VCM3R5HAEQHZU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "JXYFTJNH6CSQVNJU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "MP4VCM3R5HAEQHZU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "JXYFTJNH6CSQVNJU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
-        "EU (London)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "JNQKWRC64T3Y8KFX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "E3GD2TV7W6ZE92AM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "JNQKWRC64T3Y8KFX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "E3GD2TV7W6ZE92AM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
-        "EU (Ireland)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "Q5KU8XRMESMJAXYR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "VF7GTMAKWEP9CFJV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "Q5KU8XRMESMJAXYR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "VF7GTMAKWEP9CFJV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
-        "EU (Frankfurt)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "XFQG9EB5AR755FCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "8YJFMGKPSRZNAZGS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "XFQG9EB5AR755FCM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "8YJFMGKPSRZNAZGS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
         "Asia Pacific (Tokyo)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "JNCM7RXR2KFYNF23.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "R3RQXKVXPPWR4C2C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
             "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
                 "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
             "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
                 "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.6MJTHCY3AS",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
             },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "JNCM7RXR2KFYNF23.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.9DMZF6E7MY",
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "R3RQXKVXPPWR4C2C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
                 "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
             },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
                 "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
             },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
                 "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.0700000000",
                 "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "JNCM7RXR2KFYNF23.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "R3RQXKVXPPWR4C2C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
             },
             "Agent assessments for First 250 AgentAssessments": {
                 "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
             },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
             "Agent assessments for Next 4000AgentAssessments": {
                 "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.1500000000",
                 "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "CC7ZRAXKJVHUMM8E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "GCJCU5PMNX6K2D6Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "CC7ZRAXKJVHUMM8E.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "GCJCU5PMNX6K2D6Y.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
             "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.KJSF5Y4MUU",
+                "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
             },
             "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "5H44XQXJSV38U6XT.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
             },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
             "Network instance assessments for Next 45000 InstanceAssessments": {
-                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.KJSF5Y4MUU",
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.0700000000",
                 "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
             },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "DBM5AXWB8S7MCUDG.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
             },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "JNCM7RXR2KFYNF23.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
             },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "R3RQXKVXPPWR4C2C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
             }
         },
         "Asia Pacific (Seoul)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "T2Q5EKYC33S2SFVF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "QXSHY4BW72C8URY8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.0700000000",
-                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
-            },
             "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
                 "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
             "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
                 "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.6MJTHCY3AS",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
             },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "T2Q5EKYC33S2SFVF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
-            "Network instance assessments for First 250 InstanceAssessments": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.9DMZF6E7MY",
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.1500000000",
-                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "QXSHY4BW72C8URY8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
                 "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
             },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
-            "Network instance assessments for Next 750 InstanceAssessments": {
-                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.1300000000",
-                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
-            },
-            "Agent assessments All Other per AgentAssessments": {
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
                 "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
             },
-            "Network instance assessments for Next 45000 InstanceAssessments": {
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "QXSHY4BW72C8URY8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "T2Q5EKYC33S2SFVF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
                 "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.0700000000",
                 "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
             },
             "Agent assessments for First 250 AgentAssessments": {
                 "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
             },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
             "Agent assessments for Next 4000AgentAssessments": {
                 "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.1500000000",
                 "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "8DWJ4N7XH42KZH6F.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "QXSHY4BW72C8URY8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "T2Q5EKYC33S2SFVF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "Y99Y3W9EV67GPCD7.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
             }
         },
         "Asia Pacific (Mumbai)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "SV3SYUVGH5ZTQUQ2.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
-                "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
-            },
             "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
                 "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.1500000000",
                 "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
-            },
-            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
-                "rateCode": "KEQNK72DTR9PPYQK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
-                "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
             },
             "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
                 "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.6MJTHCY3AS",
                 "price": "0.1300000000",
                 "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
             },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
             },
             "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
                 "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.0700000000",
                 "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
             },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
             "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
                 "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
             "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
                 "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.6MJTHCY3AS",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
             },
-            "FREE 250 Agent assessments or 90 days": {
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "KEQNK72DTR9PPYQK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
                 "rateCode": "SV3SYUVGH5ZTQUQ2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "Network instance assessments for Next 4000InstanceAssessments": {
-                "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
             },
             "Network instance assessments for First 250 InstanceAssessments": {
                 "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.1500000000",
                 "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
             },
-            "FREE 250 Network instance assessments or 90 days": {
-                "rateCode": "KEQNK72DTR9PPYQK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
-            },
-            "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "Network instance assessments All Other per InstanceAssessments": {
-                "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0400000000",
-                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
-            },
             "Network instance assessments for Next 750 InstanceAssessments": {
                 "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.6MJTHCY3AS",
                 "price": "0.1300000000",
                 "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
             },
-            "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
             },
             "Network instance assessments for Next 45000 InstanceAssessments": {
                 "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.0700000000",
                 "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
             },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "8XTQYAYUTKJTRDJ4.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
             "Agent assessments for First 250 AgentAssessments": {
                 "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
             },
             "Agent assessments for Next 4000AgentAssessments": {
                 "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.1500000000",
                 "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            }
-        },
-        "Any": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "2XPEHAW2GG8ECK29.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
-            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.KJSF5Y4MUU",
-                "price": "0.1000000000",
-                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
-            },
-            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.GK6CZWW823",
-                "price": "0.0500000000",
-                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
-            },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "2XPEHAW2GG8ECK29.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
-            },
             "Agent assessments for Next 45000 AgentAssessments": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.KJSF5Y4MUU",
+                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.1000000000",
                 "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
             },
             "Agent assessments All Other per AgentAssessments": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.GK6CZWW823",
+                "rateCode": "988S9CTJYCGBGU29.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
             },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.9DMZF6E7MY",
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "KEQNK72DTR9PPYQK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "SV3SYUVGH5ZTQUQ2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
             },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.AXSXEJHBB3",
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.1500000000",
                 "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "CC7ZRAXKJVHUMM8E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "GCJCU5PMNX6K2D6Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
             "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.6MJTHCY3AS",
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.6MJTHCY3AS",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "B2UMXCFM83AD7RJV.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "CC7ZRAXKJVHUMM8E.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "GCJCU5PMNX6K2D6Y.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "YQTEZPXQDYQNACDV.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            }
+        },
+        "EU (Frankfurt)": {
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "8YJFMGKPSRZNAZGS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "XFQG9EB5AR755FCM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "8FQJAJDBZGFTQFBR.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "8YJFMGKPSRZNAZGS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "GUPVFR5GN4W65B4W.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "XFQG9EB5AR755FCM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            }
+        },
+        "EU (Stockholm)": {
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "JXYFTJNH6CSQVNJU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "MP4VCM3R5HAEQHZU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "945DAKSG2TMQNYRK.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "BNJXZ4KEVBQW5RRY.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "JXYFTJNH6CSQVNJU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "MP4VCM3R5HAEQHZU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            }
+        },
+        "EU (Ireland)": {
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "Q5KU8XRMESMJAXYR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "VF7GTMAKWEP9CFJV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "DEMP3FY5F47QVE4C.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "HRJJTMYKVAEYS8HK.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "Q5KU8XRMESMJAXYR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "VF7GTMAKWEP9CFJV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            }
+        },
+        "EU (London)": {
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "E3GD2TV7W6ZE92AM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "JNQKWRC64T3Y8KFX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "DCPJ82VKHDDPPM4W.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "E3GD2TV7W6ZE92AM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "JNQKWRC64T3Y8KFX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "YRPGMSJPNJDV83QE.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            }
+        },
+        "US East (N. Virginia)": {
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "6UAQHSW4MZ9QNSG6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "6UAQHSW4MZ9QNSG6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "S27MKS4G4GBJBPEZ.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            }
+        },
+        "US East (Ohio)": {
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "AHHYGB7B4V899WE9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "M6U4E3QG6GHGNPZK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "AHHYGB7B4V899WE9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "BQ65PKBCGBHCTE4H.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "M6U4E3QG6GHGNPZK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "ZKHVH34VEN6B9EJS.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
             }
         },
         "AWS GovCloud (US-East)": {
@@ -1483,6 +1178,21 @@
                 "price": "0.0000000000",
                 "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
             },
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
             "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
                 "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.1000000000",
@@ -1492,27 +1202,27 @@
                 "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
-                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
-                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
             },
             "FREE 250 Agent assessments or 90 days": {
                 "rateCode": "53UNA2VC5JWDYDJ7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
             },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
             "Agent assessments for Next 45000 AgentAssessments": {
                 "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.KJSF5Y4MUU",
                 "price": "0.1000000000",
@@ -1522,28 +1232,23 @@
                 "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.GK6CZWW823",
                 "price": "0.0500000000",
                 "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
-            },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.9DMZF6E7MY",
-                "price": "0.3000000000",
-                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
-            },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "9NYSEQXCFCETTYWB.JRTCKXETXF.6MJTHCY3AS",
-                "price": "0.2500000000",
-                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
             }
         },
         "AWS GovCloud (US)": {
-            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
-                "rateCode": "W8MS35YAQSGQPCCB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
             "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
                 "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.KJSF5Y4MUU",
@@ -1555,25 +1260,25 @@
                 "price": "0.0500000000",
                 "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
             },
-            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "W8MS35YAQSGQPCCB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
                 "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
             },
-            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
-                "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.AXSXEJHBB3",
-                "price": "0.1500000000",
-                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
-            },
-            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+            "Agent assessments for Next 750 AgentAssessments": {
                 "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.6MJTHCY3AS",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
             },
-            "FREE 250 Agent assessments or 90 days": {
-                "rateCode": "W8MS35YAQSGQPCCB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
             "Agent assessments for Next 45000 AgentAssessments": {
                 "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.KJSF5Y4MUU",
@@ -1585,20 +1290,316 @@
                 "price": "0.0500000000",
                 "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
             },
-            "Agent assessments for First 250 AgentAssessments": {
-                "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.9DMZF6E7MY",
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "W8MS35YAQSGQPCCB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            }
+        },
+        "US West (N. California)": {
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "MUCH8EG8N346RSP5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.9DMZF6E7MY",
                 "price": "0.3000000000",
                 "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
             },
-            "Agent assessments for Next 4000AgentAssessments": {
-                "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.AXSXEJHBB3",
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.AXSXEJHBB3",
                 "price": "0.1500000000",
                 "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
             },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "T7EYGFBSBD7B3QD6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "JZ24WNWMKNHJTM63.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "MUCH8EG8N346RSP5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
             "Agent assessments for Next 750 AgentAssessments": {
-                "rateCode": "TTFEWQKHEXBBUPST.JRTCKXETXF.6MJTHCY3AS",
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.6MJTHCY3AS",
                 "price": "0.2500000000",
                 "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "NKT7RUA5BPE2AYX2.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "T7EYGFBSBD7B3QD6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            }
+        },
+        "US West (Oregon)": {
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "EGFRR8QGQMXF8BW2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU": {
+                "rateCode": "N2KWSR6HMBR7GBFG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "EGFRR8QGQMXF8BW2.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "FV46SSRVHZR2H4Z5.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "FREE 250 Network instance assessments or 90 days": {
+                "rateCode": "N2KWSR6HMBR7GBFG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "NshzgGTdRj1uiIwHHx_5f0LKHRAKx7SyB4MiK7NyIrU"
+            },
+            "Network instance assessments for First 250 InstanceAssessments": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "CMoIvjNAUSvXYD-1KChoKG8kI2-kUAbjLqe8ULU4OGs"
+            },
+            "Network instance assessments for Next 750 InstanceAssessments": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.1300000000",
+                "RegionlessRateCode": "pLPyrm_HOhPWIZxdGE4hn1VotE-mh-6T-SJ4YcjMw7o"
+            },
+            "Network instance assessments for Next 4000InstanceAssessments": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "9qiS7ngeGNgZyBAuN3hbzIOvU9a5uI7UXI8BWJEP1ek"
+            },
+            "Network instance assessments for Next 45000 InstanceAssessments": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.0700000000",
+                "RegionlessRateCode": "rieO27gQf0bi-HGvNR-ziZybSrzJaSL_SSYo0YFCSC4"
+            },
+            "Network instance assessments All Other per InstanceAssessments": {
+                "rateCode": "PXP86BT7RTM4ZJ2U.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0400000000",
+                "RegionlessRateCode": "id2Imt1AQeUL2_q1IiYcMcUEIIeQ1hJ76-QhjQtblYI"
+            }
+        },
+        "Any": {
+            "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI": {
+                "rateCode": "2XPEHAW2GG8ECK29.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
+            },
+            "FREE 250 Agent assessments or 90 days": {
+                "rateCode": "2XPEHAW2GG8ECK29.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "09iI0P2ce3IEZcxny-4pwFUNHDokk1DE52y0gfJ7kmI"
+            },
+            "Agent assessments for First 250 AgentAssessments": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.9DMZF6E7MY",
+                "price": "0.3000000000",
+                "RegionlessRateCode": "rqyfbHylk9sJqHIIuDQuIFuCdPy8r6z2cTu5PxGEar0"
+            },
+            "Agent assessments for Next 750 AgentAssessments": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.6MJTHCY3AS",
+                "price": "0.2500000000",
+                "RegionlessRateCode": "tjLGnp-SGARwoHaBDVE9-sNG1Wuzjtj9z3ysmXHfuNY"
+            },
+            "Agent assessments for Next 4000AgentAssessments": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.AXSXEJHBB3",
+                "price": "0.1500000000",
+                "RegionlessRateCode": "s-9-CI9WtZNZy4UhuRO4cvim-PUOeLza-kpQSHo7fxI"
+            },
+            "Agent assessments for Next 45000 AgentAssessments": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.KJSF5Y4MUU",
+                "price": "0.1000000000",
+                "RegionlessRateCode": "ftQVoO78VB4jLLjcWsSyhbtjYGGVTerc76_KQR0zpxc"
+            },
+            "Agent assessments All Other per AgentAssessments": {
+                "rateCode": "JQ8M6DQAMTTMKD52.JRTCKXETXF.GK6CZWW823",
+                "price": "0.0500000000",
+                "RegionlessRateCode": "rE20TAD4NZjJ0RA8PeWctHTWCgy_VgxxEkKmX4__SUY"
             }
         }
     }

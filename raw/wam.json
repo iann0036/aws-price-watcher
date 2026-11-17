@@ -1,144 +1,17 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "wam",
         "accessType": "publish",
-        "esIndex": "plc-wam-usd-20260911124513",
+        "source": "wam",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:13Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:13Z",
-        "currencyCode": "USD",
-        "source": "wam",
+        "esIndex": "plc-wam-usd-20260911124513",
+        "queryConfig": "public/f8df3e93-92a4-572d-bc58-6bf1da049f33/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
-                "rateCode": "2WXEN78UWEZDJ3JV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
-            },
-            "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY": {
-                "rateCode": "TZ82SUMQDBZEN786.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY"
-            },
-            "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA": {
-                "rateCode": "ZR2JR85NY7Y2VBTT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
-            },
-            "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0": {
-                "rateCode": "2UUFTT4T2ZQH9NWT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0"
-            },
-            "WAM Standard": {
-                "rateCode": "2WXEN78UWEZDJ3JV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
-            },
-            "WAM Service Entitlement": {
-                "rateCode": "TZ82SUMQDBZEN786.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY"
-            },
-            "WAM Lite": {
-                "rateCode": "ZR2JR85NY7Y2VBTT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
-            },
-            "WAM Line of Business": {
-                "rateCode": "2UUFTT4T2ZQH9NWT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0"
-            }
-        },
-        "US East (N. Virginia)": {
-            "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
-                "rateCode": "AKEVEUB9F8WY83R8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
-            },
-            "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY": {
-                "rateCode": "3Q9FMAFJH9YJS9T4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY"
-            },
-            "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA": {
-                "rateCode": "BMZBHJNGKDXSDDQP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
-            },
-            "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0": {
-                "rateCode": "Q7WTZ7BTSEYN88NZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0"
-            },
-            "WAM Standard": {
-                "rateCode": "AKEVEUB9F8WY83R8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
-            },
-            "WAM Service Entitlement": {
-                "rateCode": "3Q9FMAFJH9YJS9T4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY"
-            },
-            "WAM Lite": {
-                "rateCode": "BMZBHJNGKDXSDDQP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
-            },
-            "WAM Line of Business": {
-                "rateCode": "Q7WTZ7BTSEYN88NZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0"
-            }
-        },
-        "EU (Ireland)": {
-            "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
-                "rateCode": "SF6KT5RMJYXEYHMJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
-            },
-            "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA": {
-                "rateCode": "FTYP88JJ9W67MA9X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
-            },
-            "WAM Standard": {
-                "rateCode": "SF6KT5RMJYXEYHMJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
-            },
-            "WAM Lite": {
-                "rateCode": "FTYP88JJ9W67MA9X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
-                "rateCode": "SE2C3T2VKYHCH3QE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
-            },
-            "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA": {
-                "rateCode": "AZVH2VVAEKBT8C2C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
-            },
-            "WAM Standard": {
-                "rateCode": "SE2C3T2VKYHCH3QE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
-            },
-            "WAM Lite": {
-                "rateCode": "AZVH2VVAEKBT8C2C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0000000000",
-                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
-            }
-        },
         "Asia Pacific (Singapore)": {
             "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
                 "rateCode": "AMJG2K2AB84SP7H4.JRTCKXETXF.6YS6EN2CT7",
@@ -157,6 +30,134 @@
             },
             "WAM Lite": {
                 "rateCode": "M3BG5N6DK6AVBKD9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA": {
+                "rateCode": "AZVH2VVAEKBT8C2C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
+            },
+            "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
+                "rateCode": "SE2C3T2VKYHCH3QE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
+            },
+            "WAM Lite": {
+                "rateCode": "AZVH2VVAEKBT8C2C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
+            },
+            "WAM Standard": {
+                "rateCode": "SE2C3T2VKYHCH3QE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
+            }
+        },
+        "EU (Ireland)": {
+            "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA": {
+                "rateCode": "FTYP88JJ9W67MA9X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
+            },
+            "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
+                "rateCode": "SF6KT5RMJYXEYHMJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
+            },
+            "WAM Lite": {
+                "rateCode": "FTYP88JJ9W67MA9X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
+            },
+            "WAM Standard": {
+                "rateCode": "SF6KT5RMJYXEYHMJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
+            }
+        },
+        "US East (N. Virginia)": {
+            "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY": {
+                "rateCode": "3Q9FMAFJH9YJS9T4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY"
+            },
+            "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
+                "rateCode": "AKEVEUB9F8WY83R8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
+            },
+            "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA": {
+                "rateCode": "BMZBHJNGKDXSDDQP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
+            },
+            "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0": {
+                "rateCode": "Q7WTZ7BTSEYN88NZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0"
+            },
+            "WAM Service Entitlement": {
+                "rateCode": "3Q9FMAFJH9YJS9T4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY"
+            },
+            "WAM Standard": {
+                "rateCode": "AKEVEUB9F8WY83R8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
+            },
+            "WAM Lite": {
+                "rateCode": "BMZBHJNGKDXSDDQP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
+            },
+            "WAM Line of Business": {
+                "rateCode": "Q7WTZ7BTSEYN88NZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0"
+            }
+        },
+        "US West (Oregon)": {
+            "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0": {
+                "rateCode": "2UUFTT4T2ZQH9NWT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0"
+            },
+            "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI": {
+                "rateCode": "2WXEN78UWEZDJ3JV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
+            },
+            "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY": {
+                "rateCode": "TZ82SUMQDBZEN786.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY"
+            },
+            "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA": {
+                "rateCode": "ZR2JR85NY7Y2VBTT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
+            },
+            "WAM Line of Business": {
+                "rateCode": "2UUFTT4T2ZQH9NWT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "P4RqNaR0TL3UNP8u3Z8DhotwkBT89Cu9ywWfISB2QC0"
+            },
+            "WAM Standard": {
+                "rateCode": "2WXEN78UWEZDJ3JV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "1QT2f_w9J0RChjPTUmKD461gNav6Kq7Od8dCUoWK5HI"
+            },
+            "WAM Service Entitlement": {
+                "rateCode": "TZ82SUMQDBZEN786.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0000000000",
+                "RegionlessRateCode": "4Bjoi3KVM72ywUHS1TPkJ-H18YDgnnRg0tRz2E9u6KY"
+            },
+            "WAM Lite": {
+                "rateCode": "ZR2JR85NY7Y2VBTT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0000000000",
                 "RegionlessRateCode": "H8LD5GsbQK2qGIC-fXXDKMYfGWX8jKATYnw3MH8q3JA"
             }

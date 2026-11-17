@@ -1,227 +1,23 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "robomaker",
         "accessType": "publish",
-        "esIndex": "plc-robomaker-usd-20261008164848",
+        "source": "robomaker",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-10-08T16:48:48Z",
         "ETLIngestionTriggerDate": "2026-10-08T16:48:48Z",
-        "currencyCode": "USD",
-        "source": "robomaker",
+        "esIndex": "plc-robomaker-usd-20261008164848",
+        "queryConfig": "public/95530c74-8fc4-5756-a1a7-2ac7ef6abc42/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
-            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
-                "rateCode": "A4HRYHPM5H3KUBBP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
-                "rateCode": "WFS82BCY2C2937WW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
-                "rateCode": "PDQ8FF2KNSZ5ABRR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
-                "rateCode": "27EMFMXK424CTT96.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4000000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            },
-            "RoboMaker Simulation worldforge export per world": {
-                "rateCode": "A4HRYHPM5H3KUBBP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "RoboMaker Simulation per GU Hour": {
-                "rateCode": "WFS82BCY2C2937WW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "RoboMaker Simulation worldforge generate per world": {
-                "rateCode": "PDQ8FF2KNSZ5ABRR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "RoboMaker Simulation per SU Hour": {
-                "rateCode": "27EMFMXK424CTT96.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4000000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            }
-        },
-        "US East (Ohio)": {
-            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
-                "rateCode": "PB8SBF53TSWCQRZN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
-                "rateCode": "ZPXDJQKR7QGVHNV6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
-                "rateCode": "B7UTE88E44H2H9NZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
-                "rateCode": "6G8PY73CES6CEPQ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4000000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            },
-            "RoboMaker Simulation worldforge export per world": {
-                "rateCode": "PB8SBF53TSWCQRZN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "RoboMaker Simulation per GU Hour": {
-                "rateCode": "ZPXDJQKR7QGVHNV6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "RoboMaker Simulation worldforge generate per world": {
-                "rateCode": "B7UTE88E44H2H9NZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "RoboMaker Simulation per SU Hour": {
-                "rateCode": "6G8PY73CES6CEPQ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4000000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            }
-        },
-        "US East (N. Virginia)": {
-            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
-                "rateCode": "N7R7R7H3RKG23MNA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
-                "rateCode": "5AYZDVXT4K6KMY28.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
-                "rateCode": "9U5JAJQ8HZERGRVC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
-                "rateCode": "SWUNQ3CWXHZTRRFR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4000000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            },
-            "RoboMaker Simulation worldforge export per world": {
-                "rateCode": "N7R7R7H3RKG23MNA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.0000000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "RoboMaker Simulation per GU Hour": {
-                "rateCode": "5AYZDVXT4K6KMY28.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "RoboMaker Simulation worldforge generate per world": {
-                "rateCode": "9U5JAJQ8HZERGRVC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.5000000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "RoboMaker Simulation per SU Hour": {
-                "rateCode": "SWUNQ3CWXHZTRRFR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4000000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            }
-        },
-        "EU (Ireland)": {
-            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
-                "rateCode": "KQANZXEHCYE58Q5W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.6250000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
-                "rateCode": "KHJFUJA4G8W4PB9U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6880000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
-                "rateCode": "E64P4H767QAXDSQB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6880000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
-                "rateCode": "U9TE9U4VJWNF6RGG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4500000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            },
-            "RoboMaker Simulation worldforge export per world": {
-                "rateCode": "KQANZXEHCYE58Q5W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.6250000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "RoboMaker Simulation per GU Hour": {
-                "rateCode": "KHJFUJA4G8W4PB9U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6880000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "RoboMaker Simulation worldforge generate per world": {
-                "rateCode": "E64P4H767QAXDSQB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.6880000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "RoboMaker Simulation per SU Hour": {
-                "rateCode": "U9TE9U4VJWNF6RGG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4500000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            }
-        },
-        "EU (Frankfurt)": {
-            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
-                "rateCode": "C4ERB6UWXCVJXRAN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.7500000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
-                "rateCode": "SGDRBV543A6N53M9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.7250000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
-                "rateCode": "6BTHVAU566S65S2Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.7250000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
-                "rateCode": "N3Q4WKP5ACMCGJXS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4600000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            },
-            "RoboMaker Simulation worldforge export per world": {
-                "rateCode": "C4ERB6UWXCVJXRAN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.7500000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
-            },
-            "RoboMaker Simulation per GU Hour": {
-                "rateCode": "SGDRBV543A6N53M9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.7250000000",
-                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "RoboMaker Simulation worldforge generate per world": {
-                "rateCode": "6BTHVAU566S65S2Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.7250000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
-            },
-            "RoboMaker Simulation per SU Hour": {
-                "rateCode": "N3Q4WKP5ACMCGJXS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.4600000000",
-                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
-            }
-        },
         "Asia Pacific (Tokyo)": {
+            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
+                "rateCode": "FVA4E8T58X3UQ93Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8900000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
             "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
                 "rateCode": "HHTRVV58UHPN53EU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.3000000000",
@@ -231,17 +27,17 @@
                 "rateCode": "XW2EPBVZTS7M3CRJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.8900000000",
                 "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
-                "rateCode": "FVA4E8T58X3UQ93Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8900000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
             },
             "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
                 "rateCode": "ZWJW7EBJJBAGYASV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.5040000000",
                 "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
             },
+            "RoboMaker Simulation worldforge generate per world": {
+                "rateCode": "FVA4E8T58X3UQ93Q.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.8900000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
             "RoboMaker Simulation worldforge export per world": {
                 "rateCode": "HHTRVV58UHPN53EU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.3000000000",
@@ -251,11 +47,6 @@
                 "rateCode": "XW2EPBVZTS7M3CRJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.8900000000",
                 "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
-            },
-            "RoboMaker Simulation worldforge generate per world": {
-                "rateCode": "FVA4E8T58X3UQ93Q.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.8900000000",
-                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
             },
             "RoboMaker Simulation per SU Hour": {
                 "rateCode": "ZWJW7EBJJBAGYASV.JRTCKXETXF.6YS6EN2CT7",
@@ -264,22 +55,37 @@
             }
         },
         "Asia Pacific (Singapore)": {
-            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
-                "rateCode": "MV5M5CPNFM9F62MU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "5.7500000000",
-                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
+                "rateCode": "7PTTEKPWFTEYBPA9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.7250000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
             },
             "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
                 "rateCode": "CUCQH78SYXXH2JBV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.7250000000",
                 "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
             },
-            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
+            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
+                "rateCode": "FB6DP5YY69CAGSXA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4600000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
+                "rateCode": "MV5M5CPNFM9F62MU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.7500000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "RoboMaker Simulation worldforge generate per world": {
                 "rateCode": "7PTTEKPWFTEYBPA9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.7250000000",
                 "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
             },
-            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
+            "RoboMaker Simulation per GU Hour": {
+                "rateCode": "CUCQH78SYXXH2JBV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.7250000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
+            },
+            "RoboMaker Simulation per SU Hour": {
                 "rateCode": "FB6DP5YY69CAGSXA.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.4600000000",
                 "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
@@ -288,21 +94,174 @@
                 "rateCode": "MV5M5CPNFM9F62MU.JRTCKXETXF.6YS6EN2CT7",
                 "price": "5.7500000000",
                 "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            }
+        },
+        "EU (Frankfurt)": {
+            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
+                "rateCode": "6BTHVAU566S65S2Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.7250000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
             },
-            "RoboMaker Simulation per GU Hour": {
-                "rateCode": "CUCQH78SYXXH2JBV.JRTCKXETXF.6YS6EN2CT7",
+            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
+                "rateCode": "C4ERB6UWXCVJXRAN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.7500000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
+                "rateCode": "N3Q4WKP5ACMCGJXS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4600000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
+                "rateCode": "SGDRBV543A6N53M9.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.7250000000",
                 "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
             },
             "RoboMaker Simulation worldforge generate per world": {
-                "rateCode": "7PTTEKPWFTEYBPA9.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "6BTHVAU566S65S2Z.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.7250000000",
                 "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
             },
+            "RoboMaker Simulation worldforge export per world": {
+                "rateCode": "C4ERB6UWXCVJXRAN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.7500000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
             "RoboMaker Simulation per SU Hour": {
-                "rateCode": "FB6DP5YY69CAGSXA.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "N3Q4WKP5ACMCGJXS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.4600000000",
                 "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "RoboMaker Simulation per GU Hour": {
+                "rateCode": "SGDRBV543A6N53M9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.7250000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
+            }
+        },
+        "EU (Ireland)": {
+            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
+                "rateCode": "E64P4H767QAXDSQB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6880000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
+            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
+                "rateCode": "KHJFUJA4G8W4PB9U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6880000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
+            },
+            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
+                "rateCode": "KQANZXEHCYE58Q5W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.6250000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
+                "rateCode": "U9TE9U4VJWNF6RGG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4500000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "RoboMaker Simulation worldforge generate per world": {
+                "rateCode": "E64P4H767QAXDSQB.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6880000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
+            "RoboMaker Simulation per GU Hour": {
+                "rateCode": "KHJFUJA4G8W4PB9U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.6880000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
+            },
+            "RoboMaker Simulation worldforge export per world": {
+                "rateCode": "KQANZXEHCYE58Q5W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.6250000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "RoboMaker Simulation per SU Hour": {
+                "rateCode": "U9TE9U4VJWNF6RGG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4500000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            }
+        },
+        "US East (N. Virginia)": {
+            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
+                "rateCode": "5AYZDVXT4K6KMY28.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
+            },
+            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
+                "rateCode": "9U5JAJQ8HZERGRVC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
+            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
+                "rateCode": "N7R7R7H3RKG23MNA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
+                "rateCode": "SWUNQ3CWXHZTRRFR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4000000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "RoboMaker Simulation per GU Hour": {
+                "rateCode": "5AYZDVXT4K6KMY28.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
+            },
+            "RoboMaker Simulation worldforge generate per world": {
+                "rateCode": "9U5JAJQ8HZERGRVC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
+            "RoboMaker Simulation worldforge export per world": {
+                "rateCode": "N7R7R7H3RKG23MNA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "RoboMaker Simulation per SU Hour": {
+                "rateCode": "SWUNQ3CWXHZTRRFR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4000000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            }
+        },
+        "US East (Ohio)": {
+            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
+                "rateCode": "6G8PY73CES6CEPQ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4000000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
+                "rateCode": "B7UTE88E44H2H9NZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
+            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
+                "rateCode": "PB8SBF53TSWCQRZN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
+                "rateCode": "ZPXDJQKR7QGVHNV6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
+            },
+            "RoboMaker Simulation per SU Hour": {
+                "rateCode": "6G8PY73CES6CEPQ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4000000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "RoboMaker Simulation worldforge generate per world": {
+                "rateCode": "B7UTE88E44H2H9NZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
+            "RoboMaker Simulation worldforge export per world": {
+                "rateCode": "PB8SBF53TSWCQRZN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "RoboMaker Simulation per GU Hour": {
+                "rateCode": "ZPXDJQKR7QGVHNV6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
             }
         },
         "AWS GovCloud (US)": {
@@ -325,6 +284,48 @@
                 "rateCode": "BSVWGXYJXDU4TUQ2.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.4000000000",
                 "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            }
+        },
+        "US West (Oregon)": {
+            "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE": {
+                "rateCode": "27EMFMXK424CTT96.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4000000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0": {
+                "rateCode": "A4HRYHPM5H3KUBBP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4": {
+                "rateCode": "PDQ8FF2KNSZ5ABRR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
+            "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg": {
+                "rateCode": "WFS82BCY2C2937WW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
+            },
+            "RoboMaker Simulation per SU Hour": {
+                "rateCode": "27EMFMXK424CTT96.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.4000000000",
+                "RegionlessRateCode": "xVrFKZNbY6BBv4552vNZoEqvtRpmTo4CAmNiYV1kevE"
+            },
+            "RoboMaker Simulation worldforge export per world": {
+                "rateCode": "A4HRYHPM5H3KUBBP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "5.0000000000",
+                "RegionlessRateCode": "DUX4UI206hEw_gLOi4CcH1qiHvDsaOk80zpC2aMVXs0"
+            },
+            "RoboMaker Simulation worldforge generate per world": {
+                "rateCode": "PDQ8FF2KNSZ5ABRR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "GQZmrVX5HXjv_rpHwm5aH6qaoGcG3waRoU9WxKOUaC4"
+            },
+            "RoboMaker Simulation per GU Hour": {
+                "rateCode": "WFS82BCY2C2937WW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.5000000000",
+                "RegionlessRateCode": "ETjhcGEus1e7kaFZHiMHt2T9b3cdPaqPiVkPfrNYxpg"
             }
         }
     }

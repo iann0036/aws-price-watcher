@@ -1,22 +1,18 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "alexawebinfoservice",
         "accessType": "publish",
-        "esIndex": "plc-alexawebinfoservice-usd-20260911124406",
+        "source": "alexawebinfoservice",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:44:06Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:44:06Z",
-        "currencyCode": "USD",
-        "source": "alexawebinfoservice",
+        "esIndex": "plc-alexawebinfoservice-usd-20260911124406",
+        "queryConfig": "public/dc951bd2-9d6b-533e-b010-44b9ca6296e5/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
         "Any": {
-            "9kw2o0Ylid4GHRz3hD5cZTiUXs2fWf0DsR_rWZSbqqw": {
-                "rateCode": "JWUWJ8C74TWVJ4H2.JRTCKXETXF.VNJQCFJPS4",
-                "price": "0.0003000000",
-                "RegionlessRateCode": "9kw2o0Ylid4GHRz3hD5cZTiUXs2fWf0DsR_rWZSbqqw"
-            },
             "M3zjL4q7DwSGsc8wCQypbf5DOFHygVugpuwg6h6YvnY": {
                 "rateCode": "JWUWJ8C74TWVJ4H2.JRTCKXETXF.JXGPBPHWFF",
                 "price": "0.0000000000",
@@ -27,7 +23,7 @@
                 "price": "0.0004500000",
                 "RegionlessRateCode": "Ukg3HUCmg2xVoAhQgpK0AAnLnMcP6wrxIYsMXjEyab8"
             },
-            "Alexa Web Information Service Requests over 1000000": {
+            "9kw2o0Ylid4GHRz3hD5cZTiUXs2fWf0DsR_rWZSbqqw": {
                 "rateCode": "JWUWJ8C74TWVJ4H2.JRTCKXETXF.VNJQCFJPS4",
                 "price": "0.0003000000",
                 "RegionlessRateCode": "9kw2o0Ylid4GHRz3hD5cZTiUXs2fWf0DsR_rWZSbqqw"
@@ -36,6 +32,11 @@
                 "rateCode": "JWUWJ8C74TWVJ4H2.JRTCKXETXF.7RSP7MAP2R",
                 "price": "0.0004500000",
                 "RegionlessRateCode": "Ukg3HUCmg2xVoAhQgpK0AAnLnMcP6wrxIYsMXjEyab8"
+            },
+            "Alexa Web Information Service Requests over 1000000": {
+                "rateCode": "JWUWJ8C74TWVJ4H2.JRTCKXETXF.VNJQCFJPS4",
+                "price": "0.0003000000",
+                "RegionlessRateCode": "9kw2o0Ylid4GHRz3hD5cZTiUXs2fWf0DsR_rWZSbqqw"
             }
         }
     }

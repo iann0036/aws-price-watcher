@@ -1,386 +1,1037 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "snowballextradays",
         "accessType": "publish",
-        "esIndex": "plc-snowballextradays-usd-20260911124643",
+        "source": "snowballextradays",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:46:43Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:46:43Z",
-        "currencyCode": "USD",
-        "source": "snowballextradays",
+        "esIndex": "plc-snowballextradays-usd-20260911124643",
+        "queryConfig": "public/5c55685c-70a4-56ad-b101-fa33d36ccfdf/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
+        "Africa (Cape Town)": {
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "2JCU2CC8CHUBVRGA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "3KAGNUBGZ77265W5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "5ZBTVA9GDXA86AMW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "6CHVACNZP3AMMXB6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
             "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "F227KMQXFSN2BNYF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
+                "rateCode": "M68NPG487T2YZ7VY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "XDUVEY2WPD9RFUM4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            "SBE Compute Optimized": {
+                "rateCode": "2JCU2CC8CHUBVRGA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
             },
+            "Extra Days Edge": {
+                "rateCode": "3KAGNUBGZ77265W5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Edge V3_5S": {
+                "rateCode": "5ZBTVA9GDXA86AMW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Edge with EC2": {
+                "rateCode": "6CHVACNZP3AMMXB6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Extra Days Standard": {
+                "rateCode": "M68NPG487T2YZ7VY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            }
+        },
+        "Asia Pacific (Hong Kong)": {
             "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "CY2622EDQWT4WBXH.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "3XDJKHJAT8VSNVME.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
             },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "46EWN92AYAEZKQEM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
             "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "D2GCXRPQJVCZNSRY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
+                "rateCode": "8NTPVPZ5FDA9RSGQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "175.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "H9G9JQR7FTFS6YSM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "VPF4UJF773R973HC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "XEP6DE2HDAZWUMUG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Snowcone SSD": {
+                "rateCode": "3XDJKHJAT8VSNVME.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Extra Days Standard": {
+                "rateCode": "46EWN92AYAEZKQEM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "8NTPVPZ5FDA9RSGQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "175.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Snowcone": {
+                "rateCode": "H9G9JQR7FTFS6YSM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Edge with EC2": {
+                "rateCode": "VPF4UJF773R973HC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Extra Days Edge": {
+                "rateCode": "XEP6DE2HDAZWUMUG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            }
+        },
+        "Asia Pacific (Tokyo)": {
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "8ZNSAU8HUCZZ8CQQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "9GHW3MFNXS45ZP37.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "CG7EG93GF6NADE9S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "K52CRH4TN3GUTNFA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "MHGRWHMTJC5GPAZY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "QC34GAQ4C7AXYDMK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "Y58VFXG5U6C4W2ZE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Extra Days Edge": {
+                "rateCode": "8ZNSAU8HUCZZ8CQQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Extra Days Standard": {
+                "rateCode": "9GHW3MFNXS45ZP37.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Edge V3_5S": {
+                "rateCode": "CG7EG93GF6NADE9S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Snowcone": {
+                "rateCode": "K52CRH4TN3GUTNFA.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Edge with EC2": {
+                "rateCode": "MHGRWHMTJC5GPAZY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "QC34GAQ4C7AXYDMK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Snowcone SSD": {
+                "rateCode": "Y58VFXG5U6C4W2ZE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            }
+        },
+        "Asia Pacific (Seoul)": {
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "479H784J7KCD8FPU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "JM97PMR2TWZPPXWD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "JREXFAVWK42JBTVZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "K67YGPDMW4MKH755.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "MUGZ947SCBPTTJ77.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "Q5ZWB4XDBBAVXQTP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "Q6PKZZQB497JX7XE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "479H784J7KCD8FPU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Standard": {
+                "rateCode": "JM97PMR2TWZPPXWD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Edge V3_5S": {
+                "rateCode": "JREXFAVWK42JBTVZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Edge with EC2": {
+                "rateCode": "K67YGPDMW4MKH755.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Edge": {
+                "rateCode": "MUGZ947SCBPTTJ77.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Snowcone SSD": {
+                "rateCode": "Q5ZWB4XDBBAVXQTP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Snowcone": {
+                "rateCode": "Q6PKZZQB497JX7XE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            }
+        },
+        "Asia Pacific (Osaka)": {
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "4G58XT6VHG7E2XSZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "64A74M6H3HUCBJJS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
                 "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
             },
             "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "ENWSJCWG87FFSGBC.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "N6B5WFWF6PMG45KC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "250.0000000000",
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
             "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "EH476ZHC3X56YMT5.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NE4YEFPXQXD655JT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "BQ6C32P3K9X3GDAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "F227KMQXFSN2BNYF.JRTCKXETXF.6YS6EN2CT7",
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "VJB3TKGT5PWNTTTV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
-            "Snowcone": {
-                "rateCode": "XDUVEY2WPD9RFUM4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "CY2622EDQWT4WBXH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            "Edge with EC2": {
+                "rateCode": "4G58XT6VHG7E2XSZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             },
             "SBE Compute Optimized": {
-                "rateCode": "D2GCXRPQJVCZNSRY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
+                "rateCode": "64A74M6H3HUCBJJS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
                 "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
             },
             "Edge V3_5S": {
-                "rateCode": "ENWSJCWG87FFSGBC.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "N6B5WFWF6PMG45KC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "250.0000000000",
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
             "Extra Days Edge": {
-                "rateCode": "EH476ZHC3X56YMT5.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NE4YEFPXQXD655JT.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
-            "Edge with EC2": {
-                "rateCode": "BQ6C32P3K9X3GDAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            "Extra Days Standard": {
+                "rateCode": "VJB3TKGT5PWNTTTV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             }
         },
-        "US West (N. California)": {
+        "Asia Pacific (Mumbai)": {
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "23U2JA7NRRS5U7D3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
             "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "MFRYM98MQP9575VW.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "25BJH8UPDFV7H4FE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "357ZATA4B8NAVW5K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "FAJA2QMV4GXMKJX5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "HFTMJXZGVY7S34UM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "TFRJ5S9N3F92Q6R8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "ZD25KABJB9WKPMJ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Edge V3_5S": {
+                "rateCode": "23U2JA7NRRS5U7D3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Extra Days Standard": {
+                "rateCode": "25BJH8UPDFV7H4FE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Edge with EC2": {
+                "rateCode": "357ZATA4B8NAVW5K.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Snowcone": {
+                "rateCode": "FAJA2QMV4GXMKJX5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "HFTMJXZGVY7S34UM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Snowcone SSD": {
+                "rateCode": "TFRJ5S9N3F92Q6R8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Extra Days Edge": {
+                "rateCode": "ZD25KABJB9WKPMJ7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            }
+        },
+        "Asia Pacific (Singapore)": {
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "6XJAMUU9A5WPKT2S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "BWRK895DBQS3XKMF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "ED2Z5D3VRQA868AG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "EMHGSCQZRAE39DUP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "ERMW54G6VB2QRK4W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "SJJPWWDDYS54R3PW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "6XJAMUU9A5WPKT2S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Snowcone SSD": {
+                "rateCode": "BWRK895DBQS3XKMF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Extra Days Edge": {
+                "rateCode": "ED2Z5D3VRQA868AG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Extra Days Standard": {
+                "rateCode": "EMHGSCQZRAE39DUP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "20.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Edge with EC2": {
+                "rateCode": "ERMW54G6VB2QRK4W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Snowcone": {
+                "rateCode": "SJJPWWDDYS54R3PW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "4Z8WP5FMFAY8EFHJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "67559J6B67BUYC29.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "D3HQSRMGTSKKXSPZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "GD4UREAX6HNTFHUH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "GKH99WSUDWN8HDWU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "VGSJGWBUH5N6X25V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "Y5HV3X2DVE7BRSQU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Snowcone": {
+                "rateCode": "4Z8WP5FMFAY8EFHJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Extra Days Standard": {
+                "rateCode": "67559J6B67BUYC29.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Edge with EC2": {
+                "rateCode": "D3HQSRMGTSKKXSPZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Extra Days Edge": {
+                "rateCode": "GD4UREAX6HNTFHUH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "GKH99WSUDWN8HDWU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Snowcone SSD": {
+                "rateCode": "VGSJGWBUH5N6X25V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Edge V3_5S": {
+                "rateCode": "Y5HV3X2DVE7BRSQU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            }
+        },
+        "Asia Pacific (Jakarta)": {
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "G767RBUPAW2F9MAM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Edge V3_5S": {
+                "rateCode": "G767RBUPAW2F9MAM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            }
+        },
+        "Canada (Central)": {
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "57T4CP98B78PRWET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "F8C26Z8PSASE2ZVH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "QFNGCJJPKQFMP3YY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "QMK48PR4XFRYNV3N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "RT9CEYXPF244YZUP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "RZP7NDCNRF7NMHHZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "TXF5U634G4SZ7PDV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Extra Days Edge": {
+                "rateCode": "57T4CP98B78PRWET.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Snowcone SSD": {
+                "rateCode": "F8C26Z8PSASE2ZVH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Edge V3_5S": {
+                "rateCode": "QFNGCJJPKQFMP3YY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "QMK48PR4XFRYNV3N.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Edge with EC2": {
+                "rateCode": "RT9CEYXPF244YZUP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Snowcone": {
+                "rateCode": "RZP7NDCNRF7NMHHZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Extra Days Standard": {
+                "rateCode": "TXF5U634G4SZ7PDV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            }
+        },
+        "EU (Frankfurt)": {
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "26Q7TMN75DZVUASS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "8PW7BC35HH47VX2M.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
             "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "TWMFWD6GKEQA8B5D.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "G9DR64EB4D7KQX5X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "7SBPZNZS6Q6TKGG9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "F6QB4X8ES3NPQVPU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
             "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "RJUAA342W4S67DFV.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KEUNMQW6PUF3UFRV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "250.0000000000",
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "PRAYR67RTWW9JR9H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "WDYEAKTQEA6B7HDJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
             "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "PJ8BZ9XE7ECE9XBN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "YZZQTVEVUHH8SEK8.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "HQ8W2U934D4PRHS3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            "Snowcone SSD": {
+                "rateCode": "26Q7TMN75DZVUASS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
             },
             "Extra Days Standard": {
-                "rateCode": "MFRYM98MQP9575VW.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8PW7BC35HH47VX2M.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
             "Snowcone": {
-                "rateCode": "TWMFWD6GKEQA8B5D.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "G9DR64EB4D7KQX5X.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
-            "Snowcone SSD": {
-                "rateCode": "7SBPZNZS6Q6TKGG9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "F6QB4X8ES3NPQVPU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
             "Edge V3_5S": {
-                "rateCode": "RJUAA342W4S67DFV.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KEUNMQW6PUF3UFRV.JRTCKXETXF.6YS6EN2CT7",
                 "price": "250.0000000000",
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
+            "SBE Compute Optimized": {
+                "rateCode": "PRAYR67RTWW9JR9H.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Edge with EC2": {
+                "rateCode": "WDYEAKTQEA6B7HDJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
             "Extra Days Edge": {
-                "rateCode": "PJ8BZ9XE7ECE9XBN.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "YZZQTVEVUHH8SEK8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            }
+        },
+        "EU (Stockholm)": {
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "5XGSAJCHN2UJ2QYD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "CX689R9JFPBRRPWP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "D4UCEEA8JWA9XY4A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "FGYHA8MQRT9X8UTC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "JU3R4GTPZWKGPARS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "PJRNG76BJFRGTWMT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "Z392E6J3SGQ3YX6V.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
             "Edge with EC2": {
-                "rateCode": "HQ8W2U934D4PRHS3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
+                "rateCode": "5XGSAJCHN2UJ2QYD.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Snowcone": {
+                "rateCode": "CX689R9JFPBRRPWP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Extra Days Standard": {
+                "rateCode": "D4UCEEA8JWA9XY4A.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "FGYHA8MQRT9X8UTC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Edge V3_5S": {
+                "rateCode": "JU3R4GTPZWKGPARS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Snowcone SSD": {
+                "rateCode": "PJRNG76BJFRGTWMT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Extra Days Edge": {
+                "rateCode": "Z392E6J3SGQ3YX6V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            }
+        },
+        "EU (Milan)": {
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "2R62VEPVTKMTDSQS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "C9CXRJ62SWC83TNJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "E69N9VP855SQEB2W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "NTM2Q2MCC7988Z6W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "QV28KC4FKPH57TY8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "XDURNEEJV8EDS5UC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Snowcone": {
+                "rateCode": "2R62VEPVTKMTDSQS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Edge with EC2": {
+                "rateCode": "C9CXRJ62SWC83TNJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Snowcone SSD": {
+                "rateCode": "E69N9VP855SQEB2W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Edge V3_5S": {
+                "rateCode": "NTM2Q2MCC7988Z6W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Edge": {
+                "rateCode": "QV28KC4FKPH57TY8.JRTCKXETXF.6YS6EN2CT7",
+                "price": "40.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "XDURNEEJV8EDS5UC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            }
+        },
+        "EU (Ireland)": {
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "4K6KJKG7AT26FEPZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "AUJ8VRDMFNHMFAW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "BCZDD953A7922D36.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "H26CJ76SMYW5ZG6Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "R4X567V5Y86BUD5F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "SMC4YMHDVKBQ77NM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "XB5QA2NGS7GV754R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Extra Days Edge": {
+                "rateCode": "4K6KJKG7AT26FEPZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Extra Days Standard": {
+                "rateCode": "AUJ8VRDMFNHMFAW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Edge V3_5S": {
+                "rateCode": "BCZDD953A7922D36.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Snowcone": {
+                "rateCode": "H26CJ76SMYW5ZG6Z.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Snowcone SSD": {
+                "rateCode": "R4X567V5Y86BUD5F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "SMC4YMHDVKBQ77NM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "130.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Edge with EC2": {
+                "rateCode": "XB5QA2NGS7GV754R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
                 "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             }
         },
-        "US East (Ohio)": {
+        "EU (London)": {
             "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "THB6B3AJRCWRH7T5.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8SW5VJYDH6P2QZJW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
             "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "HEHM483FQDRZZBRF.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "AEDY7MZKFTNJH4PH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "224U2D4QARZVJY3D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "GRAB36E3CW8T6SDS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "ANPRQEJ6DFZRAGQJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
             "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "32PDTA5AZP4YHNKK.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "CH954QTGHBP9GXDB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "HQKGWJ72X8V4GVPU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "JFDKXBKDZYF3WP85.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
             "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "BGTJTSFMHJRB8YQ5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
+                "rateCode": "PA6TFRCWPDRC5TN9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
                 "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "RD8WP3SXFHNGJKJG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
             "Extra Days Standard": {
-                "rateCode": "THB6B3AJRCWRH7T5.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "8SW5VJYDH6P2QZJW.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
             "Snowcone": {
-                "rateCode": "HEHM483FQDRZZBRF.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "AEDY7MZKFTNJH4PH.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
-            "Snowcone SSD": {
-                "rateCode": "224U2D4QARZVJY3D.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "GRAB36E3CW8T6SDS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "ANPRQEJ6DFZRAGQJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
             "Extra Days Edge": {
-                "rateCode": "32PDTA5AZP4YHNKK.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "CH954QTGHBP9GXDB.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
+            "SBE Compute Optimized": {
+                "rateCode": "HQKGWJ72X8V4GVPU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Snowcone SSD": {
+                "rateCode": "JFDKXBKDZYF3WP85.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
             "Edge with EC2": {
-                "rateCode": "BGTJTSFMHJRB8YQ5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
+                "rateCode": "PA6TFRCWPDRC5TN9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
                 "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Edge V3_5S": {
+                "rateCode": "RD8WP3SXFHNGJKJG.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             }
         },
-        "US East (N. Virginia)": {
+        "EU (Paris)": {
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "BE6X7T68QJ3V2K8S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "H2SF2JBHBJ24WF3F.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
             "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "9F8UVEUHFG45BTGJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "J39DYXRC9E9XB767.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
             "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "NB2RTJGV6FWCR2U5.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KG5X8H6RX4HRCCSZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "KPS5645AJ4C9AFVU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
             "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "NXZ7V57PTBBV4ZPC.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KVZ4TUGFSFB6S6TG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
             },
             "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "JBQPN9RX5TCJJFFT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
+                "rateCode": "UYQU9HZAGYFW9JXS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
                 "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
             },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "7ESVW4RJSDKQXKUY.JRTCKXETXF.6YS6EN2CT7",
+            "Edge with EC2": {
+                "rateCode": "BE6X7T68QJ3V2K8S.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Edge V3_5S": {
+                "rateCode": "H2SF2JBHBJ24WF3F.JRTCKXETXF.6YS6EN2CT7",
                 "price": "250.0000000000",
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "HXHTG4NG7MSWZPDH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "S2QJXXFNWGTK99DK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
             "Extra Days Standard": {
-                "rateCode": "9F8UVEUHFG45BTGJ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "J39DYXRC9E9XB767.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
             "Snowcone": {
-                "rateCode": "NB2RTJGV6FWCR2U5.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KG5X8H6RX4HRCCSZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
+            "Extra Days Edge": {
+                "rateCode": "KPS5645AJ4C9AFVU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
             "Snowcone SSD": {
-                "rateCode": "NXZ7V57PTBBV4ZPC.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KVZ4TUGFSFB6S6TG.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
             },
             "SBE Compute Optimized": {
-                "rateCode": "JBQPN9RX5TCJJFFT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
+                "rateCode": "UYQU9HZAGYFW9JXS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "150.0000000000",
                 "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "7ESVW4RJSDKQXKUY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "HXHTG4NG7MSWZPDH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "S2QJXXFNWGTK99DK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "South America (Sao Paulo)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "3WU5XWM8KG7XFPQE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "KWHC6EMKKXND8ZDY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "WXENFJJRUKN5FA9X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "JQV55TXKFSZGYG7P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "215.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "PMH738CQT7C3CZMH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "FHYV8SFPT8KFMRJ4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "8Q984GYEYE6E273W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "120.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "3WU5XWM8KG7XFPQE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "KWHC6EMKKXND8ZDY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "WXENFJJRUKN5FA9X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "JQV55TXKFSZGYG7P.JRTCKXETXF.6YS6EN2CT7",
-                "price": "215.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "PMH738CQT7C3CZMH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "FHYV8SFPT8KFMRJ4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "8Q984GYEYE6E273W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "120.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Middle East (UAE)": {
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "XDSR5GCE24QSU5XW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Edge V3_5S": {
-                "rateCode": "XDSR5GCE24QSU5XW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             }
         },
         "Israel (Tel Aviv)": {
@@ -405,1050 +1056,271 @@
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             }
         },
-        "EU (Stockholm)": {
+        "Middle East (UAE)": {
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "XDSR5GCE24QSU5XW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Edge V3_5S": {
+                "rateCode": "XDSR5GCE24QSU5XW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            }
+        },
+        "South America (Sao Paulo)": {
             "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "D4UCEEA8JWA9XY4A.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "3WU5XWM8KG7XFPQE.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "8Q984GYEYE6E273W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "120.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "FHYV8SFPT8KFMRJ4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "JQV55TXKFSZGYG7P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "215.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
             "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "CX689R9JFPBRRPWP.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "KWHC6EMKKXND8ZDY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "PMH738CQT7C3CZMH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "WXENFJJRUKN5FA9X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "Extra Days Standard": {
+                "rateCode": "3WU5XWM8KG7XFPQE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Edge with EC2": {
+                "rateCode": "8Q984GYEYE6E273W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "120.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Extra Days Edge": {
+                "rateCode": "FHYV8SFPT8KFMRJ4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "JQV55TXKFSZGYG7P.JRTCKXETXF.6YS6EN2CT7",
+                "price": "215.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Snowcone": {
+                "rateCode": "KWHC6EMKKXND8ZDY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Edge V3_5S": {
+                "rateCode": "PMH738CQT7C3CZMH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Snowcone SSD": {
+                "rateCode": "WXENFJJRUKN5FA9X.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            }
+        },
+        "US East (N. Virginia)": {
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "7ESVW4RJSDKQXKUY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "9F8UVEUHFG45BTGJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "HXHTG4NG7MSWZPDH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "JBQPN9RX5TCJJFFT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "NB2RTJGV6FWCR2U5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
             "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "PJRNG76BJFRGTWMT.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NXZ7V57PTBBV4ZPC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
             },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "FGYHA8MQRT9X8UTC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "S2QJXXFNWGTK99DK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "JU3R4GTPZWKGPARS.JRTCKXETXF.6YS6EN2CT7",
+            "Edge V3_5S": {
+                "rateCode": "7ESVW4RJSDKQXKUY.JRTCKXETXF.6YS6EN2CT7",
                 "price": "250.0000000000",
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "Z392E6J3SGQ3YX6V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "5XGSAJCHN2UJ2QYD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
             "Extra Days Standard": {
-                "rateCode": "D4UCEEA8JWA9XY4A.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "9F8UVEUHFG45BTGJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
+            "Extra Days Edge": {
+                "rateCode": "HXHTG4NG7MSWZPDH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "JBQPN9RX5TCJJFFT.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
             "Snowcone": {
-                "rateCode": "CX689R9JFPBRRPWP.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NB2RTJGV6FWCR2U5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
             "Snowcone SSD": {
-                "rateCode": "PJRNG76BJFRGTWMT.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "NXZ7V57PTBBV4ZPC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
             },
-            "SBE Compute Optimized": {
-                "rateCode": "FGYHA8MQRT9X8UTC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "JU3R4GTPZWKGPARS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "Z392E6J3SGQ3YX6V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
             "Edge with EC2": {
-                "rateCode": "5XGSAJCHN2UJ2QYD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
+                "rateCode": "S2QJXXFNWGTK99DK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
                 "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             }
         },
-        "EU (Paris)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "J39DYXRC9E9XB767.JRTCKXETXF.6YS6EN2CT7",
+        "US East (Ohio)": {
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "224U2D4QARZVJY3D.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "32PDTA5AZP4YHNKK.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "ANPRQEJ6DFZRAGQJ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "BGTJTSFMHJRB8YQ5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "GRAB36E3CW8T6SDS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
             },
             "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "KG5X8H6RX4HRCCSZ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HEHM483FQDRZZBRF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "KVZ4TUGFSFB6S6TG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "UYQU9HZAGYFW9JXS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "H2SF2JBHBJ24WF3F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "KPS5645AJ4C9AFVU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "BE6X7T68QJ3V2K8S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "J39DYXRC9E9XB767.JRTCKXETXF.6YS6EN2CT7",
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "THB6B3AJRCWRH7T5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "KG5X8H6RX4HRCCSZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             },
             "Snowcone SSD": {
-                "rateCode": "KVZ4TUGFSFB6S6TG.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "224U2D4QARZVJY3D.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
             },
-            "SBE Compute Optimized": {
-                "rateCode": "UYQU9HZAGYFW9JXS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "H2SF2JBHBJ24WF3F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
             "Extra Days Edge": {
-                "rateCode": "KPS5645AJ4C9AFVU.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "32PDTA5AZP4YHNKK.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
-            "Edge with EC2": {
-                "rateCode": "BE6X7T68QJ3V2K8S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "EU (Milan)": {
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "2R62VEPVTKMTDSQS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "E69N9VP855SQEB2W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "XDURNEEJV8EDS5UC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "NTM2Q2MCC7988Z6W.JRTCKXETXF.6YS6EN2CT7",
+            "Edge V3_5S": {
+                "rateCode": "ANPRQEJ6DFZRAGQJ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "250.0000000000",
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "QV28KC4FKPH57TY8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "C9CXRJ62SWC83TNJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
+            "Edge with EC2": {
+                "rateCode": "BGTJTSFMHJRB8YQ5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
                 "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "GRAB36E3CW8T6SDS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
             },
             "Snowcone": {
-                "rateCode": "2R62VEPVTKMTDSQS.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "HEHM483FQDRZZBRF.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.0000000000",
                 "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "E69N9VP855SQEB2W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "XDURNEEJV8EDS5UC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "NTM2Q2MCC7988Z6W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Edge": {
-                "rateCode": "QV28KC4FKPH57TY8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "C9CXRJ62SWC83TNJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "EU (London)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "8SW5VJYDH6P2QZJW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "AEDY7MZKFTNJH4PH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "JFDKXBKDZYF3WP85.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "HQKGWJ72X8V4GVPU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "RD8WP3SXFHNGJKJG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "CH954QTGHBP9GXDB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "PA6TFRCWPDRC5TN9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             },
             "Extra Days Standard": {
-                "rateCode": "8SW5VJYDH6P2QZJW.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "THB6B3AJRCWRH7T5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "AEDY7MZKFTNJH4PH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "JFDKXBKDZYF3WP85.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "HQKGWJ72X8V4GVPU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "RD8WP3SXFHNGJKJG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "CH954QTGHBP9GXDB.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "PA6TFRCWPDRC5TN9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "EU (Ireland)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "AUJ8VRDMFNHMFAW7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "H26CJ76SMYW5ZG6Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "R4X567V5Y86BUD5F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "SMC4YMHDVKBQ77NM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "BCZDD953A7922D36.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "4K6KJKG7AT26FEPZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "XB5QA2NGS7GV754R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "AUJ8VRDMFNHMFAW7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "H26CJ76SMYW5ZG6Z.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "R4X567V5Y86BUD5F.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "SMC4YMHDVKBQ77NM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "BCZDD953A7922D36.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "4K6KJKG7AT26FEPZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "XB5QA2NGS7GV754R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "EU (Frankfurt)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "8PW7BC35HH47VX2M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "G9DR64EB4D7KQX5X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "26Q7TMN75DZVUASS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "PRAYR67RTWW9JR9H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "KEUNMQW6PUF3UFRV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "YZZQTVEVUHH8SEK8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "WDYEAKTQEA6B7HDJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "8PW7BC35HH47VX2M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "G9DR64EB4D7KQX5X.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "26Q7TMN75DZVUASS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "PRAYR67RTWW9JR9H.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "KEUNMQW6PUF3UFRV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "YZZQTVEVUHH8SEK8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "WDYEAKTQEA6B7HDJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Canada (Central)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "TXF5U634G4SZ7PDV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "RZP7NDCNRF7NMHHZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "F8C26Z8PSASE2ZVH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "QMK48PR4XFRYNV3N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "QFNGCJJPKQFMP3YY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "57T4CP98B78PRWET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "RT9CEYXPF244YZUP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "TXF5U634G4SZ7PDV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "RZP7NDCNRF7NMHHZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "F8C26Z8PSASE2ZVH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "QMK48PR4XFRYNV3N.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "QFNGCJJPKQFMP3YY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "57T4CP98B78PRWET.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "RT9CEYXPF244YZUP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Asia Pacific (Tokyo)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "9GHW3MFNXS45ZP37.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "K52CRH4TN3GUTNFA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "Y58VFXG5U6C4W2ZE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "QC34GAQ4C7AXYDMK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "CG7EG93GF6NADE9S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "8ZNSAU8HUCZZ8CQQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "MHGRWHMTJC5GPAZY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "9GHW3MFNXS45ZP37.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "K52CRH4TN3GUTNFA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "Y58VFXG5U6C4W2ZE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "QC34GAQ4C7AXYDMK.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "CG7EG93GF6NADE9S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "8ZNSAU8HUCZZ8CQQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "MHGRWHMTJC5GPAZY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "67559J6B67BUYC29.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "4Z8WP5FMFAY8EFHJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "VGSJGWBUH5N6X25V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "GKH99WSUDWN8HDWU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "Y5HV3X2DVE7BRSQU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "GD4UREAX6HNTFHUH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "D3HQSRMGTSKKXSPZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "67559J6B67BUYC29.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "4Z8WP5FMFAY8EFHJ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "VGSJGWBUH5N6X25V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "GKH99WSUDWN8HDWU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "Y5HV3X2DVE7BRSQU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "GD4UREAX6HNTFHUH.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "D3HQSRMGTSKKXSPZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Asia Pacific (Singapore)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "EMHGSCQZRAE39DUP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "SJJPWWDDYS54R3PW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "BWRK895DBQS3XKMF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "6XJAMUU9A5WPKT2S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "ED2Z5D3VRQA868AG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "ERMW54G6VB2QRK4W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "EMHGSCQZRAE39DUP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "SJJPWWDDYS54R3PW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "BWRK895DBQS3XKMF.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "6XJAMUU9A5WPKT2S.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Extra Days Edge": {
-                "rateCode": "ED2Z5D3VRQA868AG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "ERMW54G6VB2QRK4W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Asia Pacific (Seoul)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "JM97PMR2TWZPPXWD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "Q6PKZZQB497JX7XE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "Q5ZWB4XDBBAVXQTP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "479H784J7KCD8FPU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "JREXFAVWK42JBTVZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "MUGZ947SCBPTTJ77.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "K67YGPDMW4MKH755.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Standard": {
-                "rateCode": "JM97PMR2TWZPPXWD.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "Q6PKZZQB497JX7XE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "Q5ZWB4XDBBAVXQTP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "479H784J7KCD8FPU.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "JREXFAVWK42JBTVZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Edge": {
-                "rateCode": "MUGZ947SCBPTTJ77.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "K67YGPDMW4MKH755.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Asia Pacific (Osaka)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "VJB3TKGT5PWNTTTV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "64A74M6H3HUCBJJS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "N6B5WFWF6PMG45KC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "NE4YEFPXQXD655JT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "4G58XT6VHG7E2XSZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "VJB3TKGT5PWNTTTV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "64A74M6H3HUCBJJS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "N6B5WFWF6PMG45KC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "NE4YEFPXQXD655JT.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "4G58XT6VHG7E2XSZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Asia Pacific (Mumbai)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "25BJH8UPDFV7H4FE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "FAJA2QMV4GXMKJX5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "TFRJ5S9N3F92Q6R8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "HFTMJXZGVY7S34UM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "23U2JA7NRRS5U7D3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "ZD25KABJB9WKPMJ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "357ZATA4B8NAVW5K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "25BJH8UPDFV7H4FE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "FAJA2QMV4GXMKJX5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "TFRJ5S9N3F92Q6R8.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "HFTMJXZGVY7S34UM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "130.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "23U2JA7NRRS5U7D3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "ZD25KABJB9WKPMJ7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "357ZATA4B8NAVW5K.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Asia Pacific (Jakarta)": {
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "G767RBUPAW2F9MAM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Edge V3_5S": {
-                "rateCode": "G767RBUPAW2F9MAM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            }
-        },
-        "Asia Pacific (Hong Kong)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "46EWN92AYAEZKQEM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
-                "rateCode": "H9G9JQR7FTFS6YSM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
-                "rateCode": "3XDJKHJAT8VSNVME.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "8NTPVPZ5FDA9RSGQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "175.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "XEP6DE2HDAZWUMUG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "VPF4UJF773R973HC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "46EWN92AYAEZKQEM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "Snowcone": {
-                "rateCode": "H9G9JQR7FTFS6YSM.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0000000000",
-                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
-            },
-            "Snowcone SSD": {
-                "rateCode": "3XDJKHJAT8VSNVME.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "8NTPVPZ5FDA9RSGQ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "175.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Extra Days Edge": {
-                "rateCode": "XEP6DE2HDAZWUMUG.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "VPF4UJF773R973HC.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            }
-        },
-        "Africa (Cape Town)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "M68NPG487T2YZ7VY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "2JCU2CC8CHUBVRGA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "5ZBTVA9GDXA86AMW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "3KAGNUBGZ77265W5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
-                "rateCode": "6CHVACNZP3AMMXB6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
-            },
-            "Extra Days Standard": {
-                "rateCode": "M68NPG487T2YZ7VY.JRTCKXETXF.6YS6EN2CT7",
-                "price": "20.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "SBE Compute Optimized": {
-                "rateCode": "2JCU2CC8CHUBVRGA.JRTCKXETXF.6YS6EN2CT7",
-                "price": "150.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "5ZBTVA9GDXA86AMW.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
-            "Extra Days Edge": {
-                "rateCode": "3KAGNUBGZ77265W5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "40.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "6CHVACNZP3AMMXB6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             }
         },
         "AWS GovCloud (US-East)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "QH4BB5ZH5K2VG7ZV.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "5GKCUCXQ9ZA3AR6C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
             "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
                 "rateCode": "8D65X6HTEE6XQKW7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "125.0000000000",
                 "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
             },
-            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
-                "rateCode": "5GKCUCXQ9ZA3AR6C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "J9Q4FR628KV76HYX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "QH4BB5ZH5K2VG7ZV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
             "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
                 "rateCode": "XNY9XAZZNTT83F5R.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
-            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+            "Edge V3_5S": {
+                "rateCode": "5GKCUCXQ9ZA3AR6C.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "8D65X6HTEE6XQKW7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Edge with EC2": {
                 "rateCode": "J9Q4FR628KV76HYX.JRTCKXETXF.6YS6EN2CT7",
                 "price": "50.0000000000",
                 "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
@@ -1458,77 +1330,206 @@
                 "price": "15.0000000000",
                 "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
-            "SBE Compute Optimized": {
-                "rateCode": "8D65X6HTEE6XQKW7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "5GKCUCXQ9ZA3AR6C.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
-            },
             "Extra Days Edge": {
                 "rateCode": "XNY9XAZZNTT83F5R.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
-            },
-            "Edge with EC2": {
-                "rateCode": "J9Q4FR628KV76HYX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "50.0000000000",
-                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             }
         },
         "AWS GovCloud (US)": {
-            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
-                "rateCode": "P3BZ43QRSMPGAWX4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
-                "rateCode": "VWT54WHXUUNCAG4V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "125.0000000000",
-                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "B2Z5PGHQSBY3KER5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
             "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
                 "rateCode": "C3N8EBQ5UNNCFX5V.JRTCKXETXF.6YS6EN2CT7",
                 "price": "250.0000000000",
                 "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
-            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
-                "rateCode": "B2Z5PGHQSBY3KER5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "30.0000000000",
-                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "P3BZ43QRSMPGAWX4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
             },
             "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
                 "rateCode": "U2PRDNBPEJT6VD2N.JRTCKXETXF.6YS6EN2CT7",
                 "price": "50.0000000000",
                 "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
             },
-            "Extra Days Standard": {
-                "rateCode": "P3BZ43QRSMPGAWX4.JRTCKXETXF.6YS6EN2CT7",
-                "price": "15.0000000000",
-                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
-            },
-            "SBE Compute Optimized": {
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
                 "rateCode": "VWT54WHXUUNCAG4V.JRTCKXETXF.6YS6EN2CT7",
                 "price": "125.0000000000",
                 "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
-            },
-            "Edge V3_5S": {
-                "rateCode": "C3N8EBQ5UNNCFX5V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "250.0000000000",
-                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
             },
             "Extra Days Edge": {
                 "rateCode": "B2Z5PGHQSBY3KER5.JRTCKXETXF.6YS6EN2CT7",
                 "price": "30.0000000000",
                 "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
             },
+            "Edge V3_5S": {
+                "rateCode": "C3N8EBQ5UNNCFX5V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Extra Days Standard": {
+                "rateCode": "P3BZ43QRSMPGAWX4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
             "Edge with EC2": {
                 "rateCode": "U2PRDNBPEJT6VD2N.JRTCKXETXF.6YS6EN2CT7",
                 "price": "50.0000000000",
                 "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "VWT54WHXUUNCAG4V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            }
+        },
+        "US West (N. California)": {
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "7SBPZNZS6Q6TKGG9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "F6QB4X8ES3NPQVPU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "HQ8W2U934D4PRHS3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "MFRYM98MQP9575VW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "PJ8BZ9XE7ECE9XBN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "RJUAA342W4S67DFV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "TWMFWD6GKEQA8B5D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Snowcone SSD": {
+                "rateCode": "7SBPZNZS6Q6TKGG9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "F6QB4X8ES3NPQVPU.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Edge with EC2": {
+                "rateCode": "HQ8W2U934D4PRHS3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Extra Days Standard": {
+                "rateCode": "MFRYM98MQP9575VW.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Extra Days Edge": {
+                "rateCode": "PJ8BZ9XE7ECE9XBN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Edge V3_5S": {
+                "rateCode": "RJUAA342W4S67DFV.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Snowcone": {
+                "rateCode": "TWMFWD6GKEQA8B5D.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            }
+        },
+        "US West (Oregon)": {
+            "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0": {
+                "rateCode": "BQ6C32P3K9X3GDAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0": {
+                "rateCode": "CY2622EDQWT4WBXH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE": {
+                "rateCode": "D2GCXRPQJVCZNSRY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s": {
+                "rateCode": "EH476ZHC3X56YMT5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew": {
+                "rateCode": "ENWSJCWG87FFSGBC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ": {
+                "rateCode": "F227KMQXFSN2BNYF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90": {
+                "rateCode": "XDUVEY2WPD9RFUM4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
+            },
+            "Edge with EC2": {
+                "rateCode": "BQ6C32P3K9X3GDAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "50.0000000000",
+                "RegionlessRateCode": "yn1XUzcV-xjKQMHIKE6jW3rWYood2xcyh8FlfVQA7-0"
+            },
+            "Snowcone SSD": {
+                "rateCode": "CY2622EDQWT4WBXH.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "FwVhBFbm1GGhtETs5R6TEWmXcphJzLEZGxUjPH1CwJ0"
+            },
+            "SBE Compute Optimized": {
+                "rateCode": "D2GCXRPQJVCZNSRY.JRTCKXETXF.6YS6EN2CT7",
+                "price": "125.0000000000",
+                "RegionlessRateCode": "N2R_r-uL90yjdry9A4tiNV9qOc_LavrWSXq_QFkOlNE"
+            },
+            "Extra Days Edge": {
+                "rateCode": "EH476ZHC3X56YMT5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "30.0000000000",
+                "RegionlessRateCode": "mmYazzn7y2cXGpDDbZBtR9qtbnDcgBf77NyqnqnFl0s"
+            },
+            "Edge V3_5S": {
+                "rateCode": "ENWSJCWG87FFSGBC.JRTCKXETXF.6YS6EN2CT7",
+                "price": "250.0000000000",
+                "RegionlessRateCode": "deaiObl7_6b0StPxrZ4rDDhwp9D5mTxVnO-kcYpOQew"
+            },
+            "Extra Days Standard": {
+                "rateCode": "F227KMQXFSN2BNYF.JRTCKXETXF.6YS6EN2CT7",
+                "price": "15.0000000000",
+                "RegionlessRateCode": "4pfZseMRV0b8ewyj-KCC0PQQ_0v5kuOl1uGskFktulQ"
+            },
+            "Snowcone": {
+                "rateCode": "XDUVEY2WPD9RFUM4.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0000000000",
+                "RegionlessRateCode": "DjnM-NCJ2fv5qYrd51oX5NW0gmjyPXltkqgpC-a4W90"
             }
         }
     }

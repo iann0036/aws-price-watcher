@@ -1,64 +1,60 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "ingestionservice",
         "accessType": "publish",
-        "esIndex": "plc-ingestionservice-usd-20260911124635",
+        "source": "ingestionservice",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:46:35Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:46:35Z",
-        "currencyCode": "USD",
-        "source": "ingestionservice",
+        "esIndex": "plc-ingestionservice-usd-20260911124635",
+        "queryConfig": "public/a76ad28f-68eb-5c63-8868-66fa57b2117b/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US East (N. Virginia)": {
-            "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs": {
-                "rateCode": "E8X7Z49A7H3K2BU7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.4900000000",
-                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
-            },
-            "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M": {
-                "rateCode": "7NFAVVXKJWNYKM7U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.4900000000",
-                "RegionlessRateCode": "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M"
+        "Asia Pacific (Singapore)": {
+            "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg": {
+                "rateCode": "A7A4EHDMT9G4F3KM.JRTCKXETXF.6YS6EN2CT7",
+                "price": "1.0000000000",
+                "RegionlessRateCode": "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg"
             },
             "MZWhsh5kBdTFa0o9YvhptM9PbFJ9YY40T3lVqkCkw10": {
-                "rateCode": "NCUBE5683ASYFJE9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
+                "rateCode": "HPYM4V33C99ZEP7V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "99.0000000000",
                 "RegionlessRateCode": "MZWhsh5kBdTFa0o9YvhptM9PbFJ9YY40T3lVqkCkw10"
             },
-            "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg": {
-                "rateCode": "VSVS59TG4229EFS7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "1.0000000000",
-                "RegionlessRateCode": "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg"
-            },
-            "Station usage DataLoading": {
-                "rateCode": "E8X7Z49A7H3K2BU7.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.4900000000",
-                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
-            },
-            "Station usage DataErasing": {
-                "rateCode": "7NFAVVXKJWNYKM7U.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.4900000000",
+            "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M": {
+                "rateCode": "N5ZYF3NNQ6DRDKAP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.9900000000",
                 "RegionlessRateCode": "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M"
             },
-            "Device Handling": {
-                "rateCode": "NCUBE5683ASYFJE9.JRTCKXETXF.6YS6EN2CT7",
-                "price": "80.0000000000",
-                "RegionlessRateCode": "MZWhsh5kBdTFa0o9YvhptM9PbFJ9YY40T3lVqkCkw10"
+            "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs": {
+                "rateCode": "WY82KTGF7S2642Y6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.9900000000",
+                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
             },
             "Return shipping charges": {
-                "rateCode": "VSVS59TG4229EFS7.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "A7A4EHDMT9G4F3KM.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg"
+            },
+            "Device Handling": {
+                "rateCode": "HPYM4V33C99ZEP7V.JRTCKXETXF.6YS6EN2CT7",
+                "price": "99.0000000000",
+                "RegionlessRateCode": "MZWhsh5kBdTFa0o9YvhptM9PbFJ9YY40T3lVqkCkw10"
+            },
+            "Station usage DataErasing": {
+                "rateCode": "N5ZYF3NNQ6DRDKAP.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.9900000000",
+                "RegionlessRateCode": "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M"
+            },
+            "Station usage DataLoading": {
+                "rateCode": "WY82KTGF7S2642Y6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.9900000000",
+                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
             }
         },
         "EU (Ireland)": {
-            "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs": {
-                "rateCode": "X8FK8NASVJSV3ACZ.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.4900000000",
-                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
-            },
             "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M": {
                 "rateCode": "3KXR62AF69Z5BNF7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.4900000000",
@@ -74,7 +70,7 @@
                 "price": "1.0000000000",
                 "RegionlessRateCode": "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg"
             },
-            "Station usage DataLoading": {
+            "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs": {
                 "rateCode": "X8FK8NASVJSV3ACZ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "2.4900000000",
                 "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
@@ -93,46 +89,51 @@
                 "rateCode": "DSJ5DQCB7SSWWEPC.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg"
+            },
+            "Station usage DataLoading": {
+                "rateCode": "X8FK8NASVJSV3ACZ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.4900000000",
+                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
             }
         },
-        "Asia Pacific (Singapore)": {
-            "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs": {
-                "rateCode": "WY82KTGF7S2642Y6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.9900000000",
-                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
-            },
+        "US East (N. Virginia)": {
             "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M": {
-                "rateCode": "N5ZYF3NNQ6DRDKAP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.9900000000",
+                "rateCode": "7NFAVVXKJWNYKM7U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.4900000000",
                 "RegionlessRateCode": "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M"
             },
+            "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs": {
+                "rateCode": "E8X7Z49A7H3K2BU7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.4900000000",
+                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
+            },
             "MZWhsh5kBdTFa0o9YvhptM9PbFJ9YY40T3lVqkCkw10": {
-                "rateCode": "HPYM4V33C99ZEP7V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "99.0000000000",
+                "rateCode": "NCUBE5683ASYFJE9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
                 "RegionlessRateCode": "MZWhsh5kBdTFa0o9YvhptM9PbFJ9YY40T3lVqkCkw10"
             },
             "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg": {
-                "rateCode": "A7A4EHDMT9G4F3KM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "VSVS59TG4229EFS7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg"
             },
-            "Station usage DataLoading": {
-                "rateCode": "WY82KTGF7S2642Y6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.9900000000",
-                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
-            },
             "Station usage DataErasing": {
-                "rateCode": "N5ZYF3NNQ6DRDKAP.JRTCKXETXF.6YS6EN2CT7",
-                "price": "2.9900000000",
+                "rateCode": "7NFAVVXKJWNYKM7U.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.4900000000",
                 "RegionlessRateCode": "LA-dENOcLDcnj0_6BfT9IxRskSU2_k0o0w6EXDwim_M"
             },
+            "Station usage DataLoading": {
+                "rateCode": "E8X7Z49A7H3K2BU7.JRTCKXETXF.6YS6EN2CT7",
+                "price": "2.4900000000",
+                "RegionlessRateCode": "2QrkMQrj2EEB-HvTzOGxiB7IcDUVUg5LDK4vd6BLZNs"
+            },
             "Device Handling": {
-                "rateCode": "HPYM4V33C99ZEP7V.JRTCKXETXF.6YS6EN2CT7",
-                "price": "99.0000000000",
+                "rateCode": "NCUBE5683ASYFJE9.JRTCKXETXF.6YS6EN2CT7",
+                "price": "80.0000000000",
                 "RegionlessRateCode": "MZWhsh5kBdTFa0o9YvhptM9PbFJ9YY40T3lVqkCkw10"
             },
             "Return shipping charges": {
-                "rateCode": "A7A4EHDMT9G4F3KM.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "VSVS59TG4229EFS7.JRTCKXETXF.6YS6EN2CT7",
                 "price": "1.0000000000",
                 "RegionlessRateCode": "Rult-YWT1tYyCokBJBA0rRiXu3ihuhyFkOqaqE86ZGg"
             }

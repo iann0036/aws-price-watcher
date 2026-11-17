@@ -1,14 +1,4 @@
 {
-    "manifest": {
-        "serviceId": "simspaceweaver",
-        "accessType": "publish",
-        "esIndex": "plc-simspaceweaver-usd-20260911124643",
-        "hawkFilePublicationDate": "2026-09-11T12:46:43Z",
-        "ETLIngestionTriggerDate": "2026-09-11T12:46:43Z",
-        "currencyCode": "USD",
-        "source": "simspaceweaver-instances",
-        "isMapped": "true"
-    },
     "sets": {
         "SimSpace Weaver Compute Instance Compute": [
             "3DUBPNNTPC59X677 JRTCKXETXF.6YS6EN2CT7 0",
@@ -23,265 +13,276 @@
             "SWSPKKW8R6XBV35R JRTCKXETXF.6YS6EN2CT7 0"
         ]
     },
+    "manifest": {
+        "serviceId": "simspaceweaver",
+        "accessType": "publish",
+        "source": "simspaceweaver-instances",
+        "currencyCode": "USD",
+        "hawkFilePublicationDate": "2026-09-11T12:46:43Z",
+        "ETLIngestionTriggerDate": "2026-09-11T12:46:43Z",
+        "esIndex": "plc-simspaceweaver-usd-20260911124643",
+        "queryConfig": "public/ed45dc3f-9f13-564d-bf19-6126b172e676/2",
+        "isMapped": "true"
+    },
     "regions": {
-        "US West (Oregon)": {
-            "MS8RBDW4FCMTGZ4J JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "MS8RBDW4FCMTGZ4J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "MS8RBDW4FCMTGZ4J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "MS8RBDW4FCMTGZ4J.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            }
-        },
-        "US East (Ohio)": {
-            "54K7PQG9GZPTDZAR JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "54K7PQG9GZPTDZAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "54K7PQG9GZPTDZAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "54K7PQG9GZPTDZAR.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            }
-        },
-        "US East (N. Virginia)": {
-            "NYFQ7NJJU9QYRVDE JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "NYFQ7NJJU9QYRVDE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "NYFQ7NJJU9QYRVDE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "NYFQ7NJJU9QYRVDE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.0800000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            }
-        },
-        "EU (Stockholm)": {
-            "P7UWYQAEJ88J9CKX JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "P7UWYQAEJ88J9CKX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.3680000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "P7UWYQAEJ88J9CKX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.3680000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "P7UWYQAEJ88J9CKX.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.3680000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            }
-        },
-        "EU (Ireland)": {
-            "9K4TXYMRSJWX3ZJ3 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "9K4TXYMRSJWX3ZJ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.6080000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "9K4TXYMRSJWX3ZJ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.6080000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "9K4TXYMRSJWX3ZJ3.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.6080000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            }
-        },
-        "EU (Frankfurt)": {
-            "BAKUBZX8NTFWJJY6 JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "BAKUBZX8NTFWJJY6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.6560000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "BAKUBZX8NTFWJJY6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.6560000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "BAKUBZX8NTFWJJY6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.6560000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            }
-        },
-        "Asia Pacific (Sydney)": {
-            "C5BGY3F8AXQ4478W JRTCKXETXF.6YS6EN2CT7 0": {
-                "rateCode": "C5BGY3F8AXQ4478W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.3280000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "C5BGY3F8AXQ4478W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.3280000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "C5BGY3F8AXQ4478W.JRTCKXETXF.6YS6EN2CT7",
-                "price": "7.3280000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            }
-        },
         "Asia Pacific (Singapore)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "SWSPKKW8R6XBV35R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.7040000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
             "SWSPKKW8R6XBV35R JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "SWSPKKW8R6XBV35R.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.7040000000",
                 "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
                 "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "SWSPKKW8R6XBV35R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.7040000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
                 "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
                 "SimInstanceType": "sim.c5.24xlarge"
             },
             "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "SWSPKKW8R6XBV35R.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.7040000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
                 "SimInstanceFamily": "Compute",
                 "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "SWSPKKW8R6XBV35R.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.7040000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            }
+        },
+        "Asia Pacific (Sydney)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "C5BGY3F8AXQ4478W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.3280000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
+            "C5BGY3F8AXQ4478W JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "C5BGY3F8AXQ4478W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.3280000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
+                "AppSlots": "17",
+                "SimInstanceFamily": "Compute",
                 "SimInstanceType": "sim.c5.24xlarge"
+            },
+            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "C5BGY3F8AXQ4478W.JRTCKXETXF.6YS6EN2CT7",
+                "price": "7.3280000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            }
+        },
+        "EU (Frankfurt)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "BAKUBZX8NTFWJJY6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.6560000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
+            "BAKUBZX8NTFWJJY6 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "BAKUBZX8NTFWJJY6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.6560000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
+                "AppSlots": "17",
+                "SimInstanceFamily": "Compute",
+                "SimInstanceType": "sim.c5.24xlarge"
+            },
+            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "BAKUBZX8NTFWJJY6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.6560000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            }
+        },
+        "EU (Stockholm)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "P7UWYQAEJ88J9CKX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.3680000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
+            "P7UWYQAEJ88J9CKX JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "P7UWYQAEJ88J9CKX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.3680000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
+                "AppSlots": "17",
+                "SimInstanceFamily": "Compute",
+                "SimInstanceType": "sim.c5.24xlarge"
+            },
+            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "P7UWYQAEJ88J9CKX.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.3680000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            }
+        },
+        "EU (Ireland)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "9K4TXYMRSJWX3ZJ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.6080000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
+            "9K4TXYMRSJWX3ZJ3 JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "9K4TXYMRSJWX3ZJ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.6080000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
+                "AppSlots": "17",
+                "SimInstanceFamily": "Compute",
+                "SimInstanceType": "sim.c5.24xlarge"
+            },
+            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "9K4TXYMRSJWX3ZJ3.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.6080000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            }
+        },
+        "US East (N. Virginia)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "NYFQ7NJJU9QYRVDE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
+            "NYFQ7NJJU9QYRVDE JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "NYFQ7NJJU9QYRVDE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
+                "AppSlots": "17",
+                "SimInstanceFamily": "Compute",
+                "SimInstanceType": "sim.c5.24xlarge"
+            },
+            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "NYFQ7NJJU9QYRVDE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            }
+        },
+        "US East (Ohio)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "54K7PQG9GZPTDZAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
+            "54K7PQG9GZPTDZAR JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "54K7PQG9GZPTDZAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
+                "AppSlots": "17",
+                "SimInstanceFamily": "Compute",
+                "SimInstanceType": "sim.c5.24xlarge"
+            },
+            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "54K7PQG9GZPTDZAR.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
             }
         },
         "AWS GovCloud (US-East)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "3DUBPNNTPC59X677.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8960000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
             "3DUBPNNTPC59X677 JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "3DUBPNNTPC59X677.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.8960000000",
                 "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
                 "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "3DUBPNNTPC59X677.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8960000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
                 "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
                 "SimInstanceType": "sim.c5.24xlarge"
             },
             "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "3DUBPNNTPC59X677.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8960000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
                 "SimInstanceFamily": "Compute",
                 "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "3DUBPNNTPC59X677.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8960000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
             }
         },
         "AWS GovCloud (US)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "67MW6WN9YK29JFWS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8960000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
             "67MW6WN9YK29JFWS JRTCKXETXF.6YS6EN2CT7 0": {
                 "rateCode": "67MW6WN9YK29JFWS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "6.8960000000",
                 "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
-                "SimInstanceFamily": "Compute",
                 "AppSlots": "17",
-                "SimInstanceType": "sim.c5.24xlarge"
-            },
-            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
-                "rateCode": "67MW6WN9YK29JFWS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8960000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
                 "SimInstanceFamily": "Compute",
-                "AppSlots": "17",
                 "SimInstanceType": "sim.c5.24xlarge"
             },
             "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
-                "rateCode": "67MW6WN9YK29JFWS.JRTCKXETXF.6YS6EN2CT7",
-                "price": "6.8960000000",
-                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
                 "SimInstanceFamily": "Compute",
                 "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "67MW6WN9YK29JFWS.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.8960000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            }
+        },
+        "US West (Oregon)": {
+            "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "MS8RBDW4FCMTGZ4J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
+            },
+            "MS8RBDW4FCMTGZ4J JRTCKXETXF.6YS6EN2CT7 0": {
+                "rateCode": "MS8RBDW4FCMTGZ4J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA",
+                "AppSlots": "17",
+                "SimInstanceFamily": "Compute",
                 "SimInstanceType": "sim.c5.24xlarge"
+            },
+            "SimSpace Weaver Compute Instance Compute sim c5.24xlarge per hour": {
+                "SimInstanceFamily": "Compute",
+                "AppSlots": "17",
+                "SimInstanceType": "sim.c5.24xlarge",
+                "rateCode": "MS8RBDW4FCMTGZ4J.JRTCKXETXF.6YS6EN2CT7",
+                "price": "6.0800000000",
+                "RegionlessRateCode": "u-7XyKtO3Rd8Mel6tiAdakY_fotrJfgKtsPqFyxPVCA"
             }
         }
     }
