@@ -1,34 +1,79 @@
 {
+    "sets": {},
     "manifest": {
         "serviceId": "glueelasticviews",
         "accessType": "publish",
-        "esIndex": "plc-glueelasticviews-usd-20260911124552",
+        "source": "glueelasticviews",
+        "currencyCode": "USD",
         "hawkFilePublicationDate": "2026-09-11T12:45:52Z",
         "ETLIngestionTriggerDate": "2026-09-11T12:45:52Z",
-        "currencyCode": "USD",
-        "source": "glueelasticviews",
+        "esIndex": "plc-glueelasticviews-usd-20260911124552",
+        "queryConfig": "public/a163e5fd-d902-5356-9ab8-83587877e276/2",
         "isMapped": "true"
     },
-    "sets": {},
     "regions": {
-        "US West (Oregon)": {
+        "Asia Pacific (Tokyo)": {
             "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI": {
-                "rateCode": "Q5EZBNBFS7D66TJQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "44U58EPBUDYFJRDN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2100000000",
+                "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
+            },
+            "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw": {
+                "rateCode": "BAP5DUSEBYXNYAXE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
+            },
+            "PayPerRequestProcessing per VPU-Hr": {
+                "rateCode": "44U58EPBUDYFJRDN.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.2100000000",
+                "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
+            },
+            "EV - Table Storage per GB-Mo": {
+                "rateCode": "BAP5DUSEBYXNYAXE.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0300000000",
+                "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
+            }
+        },
+        "EU (Ireland)": {
+            "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI": {
+                "rateCode": "B42X3CEXPHV7SQX6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1800000000",
+                "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
+            },
+            "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw": {
+                "rateCode": "CMTY8AYXSQNWH8F5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0260000000",
+                "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
+            },
+            "PayPerRequestProcessing per VPU-Hr": {
+                "rateCode": "B42X3CEXPHV7SQX6.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1800000000",
+                "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
+            },
+            "EV - Table Storage per GB-Mo": {
+                "rateCode": "CMTY8AYXSQNWH8F5.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.0260000000",
+                "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
+            }
+        },
+        "US East (N. Virginia)": {
+            "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI": {
+                "rateCode": "36QGN763Y6D5FB7M.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1600000000",
                 "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
             },
             "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw": {
-                "rateCode": "765EPSUEZBNE3WJS.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "Y5WGTJAVFQWBYJX3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0230000000",
                 "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
             },
             "PayPerRequestProcessing per VPU-Hr": {
-                "rateCode": "Q5EZBNBFS7D66TJQ.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "36QGN763Y6D5FB7M.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1600000000",
                 "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
             },
             "EV - Table Storage per GB-Mo": {
-                "rateCode": "765EPSUEZBNE3WJS.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "Y5WGTJAVFQWBYJX3.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0230000000",
                 "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
             }
@@ -55,70 +100,26 @@
                 "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
             }
         },
-        "US East (N. Virginia)": {
-            "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI": {
-                "rateCode": "36QGN763Y6D5FB7M.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1600000000",
-                "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
-            },
+        "US West (Oregon)": {
             "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw": {
-                "rateCode": "Y5WGTJAVFQWBYJX3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "765EPSUEZBNE3WJS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0230000000",
                 "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
             },
-            "PayPerRequestProcessing per VPU-Hr": {
-                "rateCode": "36QGN763Y6D5FB7M.JRTCKXETXF.6YS6EN2CT7",
+            "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI": {
+                "rateCode": "Q5EZBNBFS7D66TJQ.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.1600000000",
                 "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
             },
             "EV - Table Storage per GB-Mo": {
-                "rateCode": "Y5WGTJAVFQWBYJX3.JRTCKXETXF.6YS6EN2CT7",
+                "rateCode": "765EPSUEZBNE3WJS.JRTCKXETXF.6YS6EN2CT7",
                 "price": "0.0230000000",
                 "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
-            }
-        },
-        "EU (Ireland)": {
-            "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI": {
-                "rateCode": "B42X3CEXPHV7SQX6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1800000000",
-                "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
-            },
-            "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw": {
-                "rateCode": "CMTY8AYXSQNWH8F5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0260000000",
-                "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
             },
             "PayPerRequestProcessing per VPU-Hr": {
-                "rateCode": "B42X3CEXPHV7SQX6.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.1800000000",
+                "rateCode": "Q5EZBNBFS7D66TJQ.JRTCKXETXF.6YS6EN2CT7",
+                "price": "0.1600000000",
                 "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
-            },
-            "EV - Table Storage per GB-Mo": {
-                "rateCode": "CMTY8AYXSQNWH8F5.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0260000000",
-                "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
-            }
-        },
-        "Asia Pacific (Tokyo)": {
-            "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI": {
-                "rateCode": "44U58EPBUDYFJRDN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2100000000",
-                "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
-            },
-            "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw": {
-                "rateCode": "BAP5DUSEBYXNYAXE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
-            },
-            "PayPerRequestProcessing per VPU-Hr": {
-                "rateCode": "44U58EPBUDYFJRDN.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.2100000000",
-                "RegionlessRateCode": "WrSbzNmqZWLTG9TpdbyOcZGv6r6JzLV2EpS7o0QGJBI"
-            },
-            "EV - Table Storage per GB-Mo": {
-                "rateCode": "BAP5DUSEBYXNYAXE.JRTCKXETXF.6YS6EN2CT7",
-                "price": "0.0300000000",
-                "RegionlessRateCode": "XT5WEvaLnPsdmJugLcPR4RdNJhuOxbbAhuDbbowv5cw"
             }
         }
     }
