@@ -490,6 +490,18 @@
         "US West (N. California) (Compute Family: m7g.8xlarge, Memory (GiB): 128, operation: RunBroker, usageType: USW1-Kafka.m7g.8xlarge, vCPU: 32)": "3.8080000000",
         "US West (Oregon) (Compute Family: m7g.8xlarge, Memory (GiB): 128, operation: RunBroker, usageType: USW2-Kafka.m7g.8xlarge, vCPU: 32)": "3.2640000000"
     },
+    "[RunBroker]": {
+        "Africa (Cape Town) (Compute Family: m8g.16xlarge, Memory (GiB): 256, operation: RunBroker, usageType: AFS1-Kafka.m8g.16xlarge, vCPU: 64)": "8.6368000000",
+        "Asia Pacific (Taipei) (Compute Family: m8g.24xlarge, Memory (GiB): 384, operation: RunBroker, usageType: APE2-Kafka.m8g.24xlarge, vCPU: 96)": "11.3764000000",
+        "Asia Pacific (Hyderabad) (Compute Family: m8g.xlarge, Memory (GiB): 16, operation: RunBroker, usageType: APS5-Kafka.m8g.xlarge, vCPU: 4)": "0.2915000000",
+        "Asia Pacific (Melbourne) (Compute Family: m8g.24xlarge, Memory (GiB): 384, operation: RunBroker, usageType: APS6-Kafka.m8g.24xlarge, vCPU: 96)": "12.2400000000",
+        "Asia Pacific (Melbourne) (Compute Family: m8g.xlarge, Memory (GiB): 16, operation: RunBroker, usageType: APS6-Kafka.m8g.xlarge, vCPU: 4)": "0.5100000000",
+        "Asia Pacific (Malaysia) (Compute Family: m8g.12xlarge, Memory (GiB): 192, operation: RunBroker, usageType: APS7-Kafka.m8g.12xlarge, vCPU: 48)": "5.2020000000",
+        "South America (Sao Paulo) (Compute Family: m8g.12xlarge, Memory (GiB): 192, operation: RunBroker, usageType: SAE1-Kafka.m8g.12xlarge, vCPU: 48)": "7.8030000000",
+        "AWS GovCloud (US-East) (Compute Family: m8g.xlarge, Memory (GiB): 16, operation: RunBroker, usageType: UGE1-Kafka.m8g.xlarge, vCPU: 4)": "0.5140000000",
+        "AWS GovCloud (US-East) (Compute Family: m8g.large, Memory (GiB): 8, operation: RunBroker, usageType: UGE1-Kafka.m8g.large, vCPU: 2)": "0.2570000000",
+        "US West (N. California) (Compute Family: m8g.large, Memory (GiB): 8, operation: RunBroker, usageType: USW1-Kafka.m8g.large, vCPU: 2)": "0.2380000000"
+    },
     "[RunBroker] RunBroker-computefamily-m7g.16xlarge;RunBroker m7g.16xlarge": {
         "Africa (Cape Town) (Compute Family: m7g.16xlarge, Memory (GiB): 256, operation: RunBroker, usageType: AFS1-Kafka.m7g.16xlarge, vCPU: 64)": "8.6367528960",
         "Asia Pacific (Hong Kong) (Compute Family: m7g.16xlarge, Memory (GiB): 256, operation: RunBroker, usageType: APE1-Kafka.m7g.16xlarge, vCPU: 64)": "8.9760000000",
@@ -1447,5 +1459,17 @@
         "AWS GovCloud (US-East)": "0.0110000000",
         "AWS GovCloud (US)": "0.0110000000",
         "US West (Oregon)": "0.0100000000"
+    },
+    "[ExpressBroker]": {
+        "Asia Pacific (Taipei) (Compute Family: express.m8g.16xlarge, Memory (GiB): 256, operation: RunBroker, usageType: APE2-Express.m8g.16xlarge, vCPU: 64)": "12.9065000000",
+        "Asia Pacific (Tokyo) (Compute Family: express.m8g.8xlarge, Memory (GiB): 128, operation: RunBroker, usageType: APN1-Express.m8g.8xlarge, vCPU: 32)": "7.1672000000",
+        "Asia Pacific (Osaka) (Compute Family: express.m8g.16xlarge, Memory (GiB): 256, operation: RunBroker, usageType: APN3-Express.m8g.16xlarge, vCPU: 64)": "14.3159000000",
+        "Asia Pacific (Sydney) (Compute Family: express.m8g.4xlarge, Memory (GiB): 64, operation: RunBroker, usageType: APS2-Express.m8g.4xlarge, vCPU: 16)": "3.4680000000",
+        "EU (Spain) (Compute Family: express.m8g.24xlarge, Memory (GiB): 384, operation: RunBroker, usageType: EUS2-Express.m8g.24xlarge, vCPU: 96)": "18.5477000000",
+        "Middle East (UAE) (Compute Family: express.m8g.xlarge, Memory (GiB): 16, operation: RunBroker, usageType: MEC1-Express.m8g.xlarge, vCPU: 4)": "0.8521000000",
+        "South America (Sao Paulo) (Compute Family: express.m8g.12xlarge, Memory (GiB): 192, operation: RunBroker, usageType: SAE1-Express.m8g.12xlarge, vCPU: 48)": "13.2722000000",
+        "AWS GovCloud (US-East) (Compute Family: express.m8g.xlarge, Memory (GiB): 16, operation: RunBroker, usageType: UGE1-Express.m8g.xlarge, vCPU: 4)": "0.8738000000",
+        "US West (Oregon) (Compute Family: express.m8g.8xlarge, Memory (GiB): 128, operation: RunBroker, usageType: USW2-Express.m8g.8xlarge, vCPU: 32)": "5.5488000000",
+        "US West (Oregon) (Compute Family: express.m8g.16xlarge, Memory (GiB): 256, operation: RunBroker, usageType: USW2-Express.m8g.16xlarge, vCPU: 64)": "11.0976000000"
     }
 }
