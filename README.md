@@ -1,3 +1,11 @@
+## 2026-11-18 18:23
+
+**Modified services:**
+
+- [elasticache](processed/elasticache.json)
+  - Billing metric added: [OnDemand Cache Instance Storage optimized Valkey datatiering Current Generation] 💡
+
+
 ## 2026-11-17 19:22
 
 **Modified services:**
