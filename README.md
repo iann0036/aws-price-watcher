@@ -1,3 +1,12 @@
+## 2026-11-18 21:22
+
+**Modified services:**
+
+- [systemsmanager](processed/systemsmanager.json)
+  - Billing metric removed: Instance advanced per Hrs 💥
+  - Billing metric removed: Instance advanced per UnitHrs 💥
+
+
 ## 2026-11-18 18:23
 
 **Modified services:**
